@@ -10,3 +10,6 @@ var/
 *.sqlite
 *.sqlite-wal
 *.sqlite-shm
+
+.venv-qa/
+__pycache__/
