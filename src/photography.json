@@ -1,0 +1,67 @@
+{
+  "lacrosse": {
+    "title": "File:Roanoke College vs Berry College, Womens Lacrosse.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Roanoke_College_vs_Berry_College,_Womens_Lacrosse.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "roanokecollege",
+    "asset": "photos/lacrosse.webp",
+    "smallAsset": "photos/lacrosse-small.webp",
+    "alt": "Roanoke and Berry College players competing in a women’s lacrosse game",
+    "position": "50% 54%",
+    "width": 1280,
+    "height": 1927
+  },
+  "volleyball": {
+    "title": "File:Navy volleyball vs Lafayette 02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Navy_volleyball_vs_Lafayette_02.jpg",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "artist": "United States Naval Academy Photo Archive",
+    "asset": "photos/volleyball.webp",
+    "smallAsset": "photos/volleyball-small.webp",
+    "alt": "Navy and Lafayette volleyball players contesting a ball at the net",
+    "position": "50% 45%",
+    "width": 1280,
+    "height": 1920
+  },
+  "basketball": {
+    "title": "File:ACC Men's Basketball Tournament Miami Vs. Duke.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:ACC_Men%27s_Basketball_Tournament_Miami_Vs._Duke.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "Daniel Lin",
+    "asset": "photos/basketball.webp",
+    "smallAsset": "photos/basketball-small.webp",
+    "alt": "Miami and Duke players at the basket in a collegiate basketball game",
+    "position": "50% 30%",
+    "width": 1280,
+    "height": 1920
+  },
+  "swimming": {
+    "title": "File:US Navy 100511-N-6932B-111 Lt. Melanie Monts de Oca, a Navy competitor, dives off a platform while practicing for her upcoming swimming competitions.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:US_Navy_100511-N-6932B-111_Lt._Melanie_Monts_de_Oca,_a_Navy_competitor,_dives_off_a_platform_while_practicing_for_her_upcoming_swimming_competitions.jpg",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "artist": "U.S. Navy photo by Mass Communication Specialist 1st Class R. Jason Brunson",
+    "asset": "photos/swimming.webp",
+    "smallAsset": "photos/swimming-small.webp",
+    "alt": "A swimmer diving into a competition pool at the Warrior Games in Colorado Springs",
+    "position": "62% 50%",
+    "width": 1280,
+    "height": 736
+  },
+  "stadium": {
+    "title": "File:Folsom Field panorama from club level seats 2007.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Folsom_Field_panorama_from_club_level_seats_2007.jpg",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "artist": "MECU",
+    "asset": "photos/stadium.webp",
+    "smallAsset": "photos/stadium-small.webp",
+    "alt": "Panoramic view across Folsom Field toward Boulder’s Flatirons",
+    "position": "50% 70%",
+    "width": 3840,
+    "height": 817
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "data/catalog.json": "0268288b50e54f60db1521c30d4e3e13c3cf029213d4a38fd2faaa4bb27db8fa",
+  "src/catalog.mjs": "dacf93083163f0cd561179bd5224d7e8a52c38530a1244fc99a89c8fea496895",
+  "public/app.js": "2c4128e2ff7e56ad06496e9b48522d4cde6ccb9b32bad325ae9ff72698e4ab53",
+  "public/state.js": "119cf21160363e4510b4187be66a2fa855370715e8390fb657e53b5b9d3cc3ba",
+  "test/application.test.mjs": "85e0e81b232e31118bd80a0544092a06b8f9a731a21e63e10b3005f70a72039c"
+}

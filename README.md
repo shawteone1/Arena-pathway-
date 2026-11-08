@@ -1,8 +1,12 @@
 # Arena Pathway
 
+The v0.7 presentation redesign is in progress on a separate branch. See
+[visual redesign status](docs/V07-VISUAL-REDESIGN.md) for the integrated approved logo,
+design checks, preserved v0.6 boundaries, and outstanding mobile QA.
+
 A local-development Node.js application for Colorado athletes and families.
-The umbrella homepage uses college stadium photography, a custom letterman A,
-and navy, cream, red and gold. One Sports menu connects Lacrosse, Volleyball,
+The umbrella homepage uses college stadium photography and the navy, cream,
+muted red and silver palette. The approved AP logo is derived from the retained original PNG without redrawing or recoloring. One Sports menu connects Lacrosse, Volleyball,
 Basketball, Swimming and Build Your Own.
 
 ## Run locally
@@ -56,7 +60,7 @@ they do not establish browser or mobile usability. See [QA notes](docs/QA.md).
 - `src/catalog.mjs`: catalog queries, provenance helpers and integrity validation.
 - `data/catalog.json`: versioned Colorado records, sources and independent
   reviewed-subset manifests.
-- `public/style.css`, `a.svg`, `stadium.jpg`: responsive branding and local assets.
+- `public/style.css`, `photos/*`, `fonts/*`: responsive branding and local assets.
 - `public/app.js`: browser interaction, personal dashboard, safe DOM construction.
 - `public/state.js`: profile migration, normalization, local state and ICS export.
 - `scripts/validate-data.mjs`: source reconciliation report.
@@ -99,7 +103,7 @@ programs. Recheck source availability and dates before registering or traveling.
 
 ## Git and publication
 
-Work is on `codex/development-setup`. `main` is preserved at the original working
+The v0.6 work is on `codex/arena-pathway-transfer`; the isolated v0.7 visual work is on `codex/arena-pathway-v07-visual`. `main` is preserved at the original working
 baseline. Review and commit this branch as appropriate. Do not merge, deploy,
 publish, or configure hosting without the owner’s approval. Local start and test
 commands perform no publication, external writes, or repository pushes.
