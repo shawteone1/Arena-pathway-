@@ -1,12 +1,16 @@
 {
   "name": "arena-pathway",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "private": true,
   "type": "module",
   "engines": {
     "node": ">=22"
   },
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node --test",
+    "validate:data": "node scripts/validate-data.mjs",
+    "check": "node --check server.mjs && node --check src/views.mjs && node --check public/app.js && npm run validate:data && npm test"
   }
 }
