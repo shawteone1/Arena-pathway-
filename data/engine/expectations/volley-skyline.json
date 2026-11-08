@@ -1,0 +1,25 @@
+{
+  "sourceId": "volley-skyline",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent source-list review",
+  "evidenceURL": "https://www.coskylinejrs.com/",
+  "scope": "Eleven team labels in official navigation; linked team detail access remains open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "volley-skyline:18 Royal",
+    "volley-skyline:17 Royal",
+    "volley-skyline:16 Royal",
+    "volley-skyline:16 Black",
+    "volley-skyline:15 Royal",
+    "volley-skyline:15 Black",
+    "volley-skyline:14 Royal",
+    "volley-skyline:14 Black",
+    "volley-skyline:13 Royal",
+    "volley-skyline:13 Black",
+    "volley-skyline:12 Royal"
+  ],
+  "expectedPageURLs": [
+    "https://www.coskylinejrs.com/"
+  ],
+  "basis": "Named source rows reviewed separately before import. This file is not generated from database entities. Related source discovery remains open."
+}

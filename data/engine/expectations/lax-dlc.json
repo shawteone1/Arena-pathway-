@@ -1,0 +1,190 @@
+{
+  "sourceId": "lax-dlc",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex separate source-table census review",
+  "evidenceURL": "https://teamsideline.com/sites/denverlacrosse/schedules",
+  "scope": "Named standings memberships on accessible linked DLC division pages; games lacking explicit year remain unresolved. This is not all statewide school teams.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "lax-dlc:742573:ELITE-KIWI:Creek Elite",
+    "lax-dlc:742573:ELITE-KIWI:Lakewood Elite",
+    "lax-dlc:742573:ELITE-KIWI:Rock Canyon ELITE",
+    "lax-dlc:742573:ELITE-KIWI:Arapahoe ELITE",
+    "lax-dlc:742573:ELITE-KIWI:Cherokee Trail",
+    "lax-dlc:742573:ELITE-KIWI:East Elite",
+    "lax-dlc:742573:ELITE-KIWI:Legend Elite",
+    "lax-dlc:742575:ELITE-MANGO:Colorado Academy ELITE",
+    "lax-dlc:742575:ELITE-MANGO:Monarch Elite",
+    "lax-dlc:742575:ELITE-MANGO:Cheyenne Mtn Elite",
+    "lax-dlc:742575:ELITE-MANGO:Castleview Elite",
+    "lax-dlc:742575:ELITE-MANGO:Heritage Elite",
+    "lax-dlc:742575:ELITE-MANGO:Fusion Elite",
+    "lax-dlc:742575:ELITE-MANGO:Grandview Elite",
+    "lax-dlc:743052:PRO-VARSITY-GUAVA:Northfield Var",
+    "lax-dlc:743052:PRO-VARSITY-GUAVA:Creek Pro Varsity",
+    "lax-dlc:743052:PRO-VARSITY-GUAVA:Lutheran",
+    "lax-dlc:743052:PRO-VARSITY-GUAVA:Air Academy",
+    "lax-dlc:743052:PRO-VARSITY-GUAVA:Chatfield",
+    "lax-dlc:743052:PRO-VARSITY-GUAVA:Rambels",
+    "lax-dlc:744090:PPO-VARSITY-PINEAPPLE:South",
+    "lax-dlc:744090:PPO-VARSITY-PINEAPPLE:Lewis-Palmer",
+    "lax-dlc:744090:PPO-VARSITY-PINEAPPLE:Eaglecrest",
+    "lax-dlc:744090:PPO-VARSITY-PINEAPPLE:Fraser Valley",
+    "lax-dlc:744090:PPO-VARSITY-PINEAPPLE:Thunderridge",
+    "lax-dlc:744090:PPO-VARSITY-PINEAPPLE:Dakota Ridge",
+    "lax-dlc:744090:PPO-VARSITY-PINEAPPLE:Smoky Hill",
+    "lax-dlc:742578:PRO-JV-PAPAYA:Creek JV",
+    "lax-dlc:742578:PRO-JV-PAPAYA:Rock Canyon JV",
+    "lax-dlc:742578:PRO-JV-PAPAYA:Regis JV",
+    "lax-dlc:742578:PRO-JV-PAPAYA:East JV",
+    "lax-dlc:742578:PRO-JV-PAPAYA:Arapahoe JV",
+    "lax-dlc:742578:PRO-JV-PAPAYA:Lakewood JV",
+    "lax-dlc:742579:PRO-JV-COCONUT:Cherokee Trail JV",
+    "lax-dlc:742579:PRO-JV-COCONUT:Cheyenne Mountain JV",
+    "lax-dlc:742579:PRO-JV-COCONUT:Arvada West JV",
+    "lax-dlc:742579:PRO-JV-COCONUT:Chatfield JV",
+    "lax-dlc:742579:PRO-JV-COCONUT:Castle View JV",
+    "lax-dlc:742579:PRO-JV-COCONUT:Northfield JV",
+    "lax-dlc:742579:PRO-JV-COCONUT:Fusion JV",
+    "lax-dlc:754222:CHAMPIONSHIP-GAMES:Regis JV",
+    "lax-dlc:754222:CHAMPIONSHIP-GAMES:Air Academy",
+    "lax-dlc:754222:CHAMPIONSHIP-GAMES:Castle View Elite",
+    "lax-dlc:754222:CHAMPIONSHIP-GAMES:Fusion Elite",
+    "lax-dlc:754222:CHAMPIONSHIP-GAMES:Lewis Palmer",
+    "lax-dlc:754222:CHAMPIONSHIP-GAMES:Arapahoe JV",
+    "lax-dlc:743658:1st2nd-Grade:Harvey",
+    "lax-dlc:743658:1st2nd-Grade:Davis",
+    "lax-dlc:743658:1st2nd-Grade:North FA Matt S",
+    "lax-dlc:743658:1st2nd-Grade:South Spilker",
+    "lax-dlc:742584:34-Grade:DULCLax",
+    "lax-dlc:742584:34-Grade:DLC Dawgs",
+    "lax-dlc:742584:34-Grade:Powell",
+    "lax-dlc:742584:34-Grade:Foster",
+    "lax-dlc:742585:56-Grade:DLC Kerwin",
+    "lax-dlc:742585:56-Grade:5/6 Louis",
+    "lax-dlc:742585:56-Grade:DLC Fusion",
+    "lax-dlc:742585:56-Grade:DLC Sillstrop"
+  ],
+  "expectedPageURLs": [
+    "https://teamsideline.com/sites/denverlacrosse/schedule/742573/ELITE-KIWI",
+    "https://teamsideline.com/sites/denverlacrosse/schedule/742575/ELITE-MANGO",
+    "https://teamsideline.com/sites/denverlacrosse/schedule/743052/PRO-VARSITY-GUAVA",
+    "https://teamsideline.com/sites/denverlacrosse/schedule/744090/PPO-VARSITY-PINEAPPLE",
+    "https://teamsideline.com/sites/denverlacrosse/schedule/742578/PRO-JV-PAPAYA",
+    "https://teamsideline.com/sites/denverlacrosse/schedule/742579/PRO-JV-COCONUT",
+    "https://teamsideline.com/sites/denverlacrosse/schedule/754222/CHAMPIONSHIP-GAMES",
+    "https://teamsideline.com/sites/denverlacrosse/schedule/743658/1st2nd-Grade",
+    "https://teamsideline.com/sites/denverlacrosse/schedule/742584/34-Grade",
+    "https://teamsideline.com/sites/denverlacrosse/schedule/742585/56-Grade"
+  ],
+  "census": [
+    {
+      "url": "https://teamsideline.com/sites/denverlacrosse/schedule/742573/ELITE-KIWI",
+      "names": [
+        "Creek Elite",
+        "Lakewood Elite",
+        "Rock Canyon ELITE",
+        "Arapahoe ELITE",
+        "Cherokee Trail",
+        "East Elite",
+        "Legend Elite"
+      ]
+    },
+    {
+      "url": "https://teamsideline.com/sites/denverlacrosse/schedule/742575/ELITE-MANGO",
+      "names": [
+        "Colorado Academy ELITE",
+        "Monarch Elite",
+        "Cheyenne Mtn Elite",
+        "Castleview Elite",
+        "Heritage Elite",
+        "Fusion Elite",
+        "Grandview Elite"
+      ]
+    },
+    {
+      "url": "https://teamsideline.com/sites/denverlacrosse/schedule/743052/PRO-VARSITY-GUAVA",
+      "names": [
+        "Northfield Var",
+        "Creek Pro Varsity",
+        "Lutheran",
+        "Air Academy",
+        "Chatfield",
+        "Rambels"
+      ]
+    },
+    {
+      "url": "https://teamsideline.com/sites/denverlacrosse/schedule/744090/PPO-VARSITY-PINEAPPLE",
+      "names": [
+        "South",
+        "Lewis-Palmer",
+        "Eaglecrest",
+        "Fraser Valley",
+        "Thunderridge",
+        "Dakota Ridge",
+        "Smoky Hill"
+      ]
+    },
+    {
+      "url": "https://teamsideline.com/sites/denverlacrosse/schedule/742578/PRO-JV-PAPAYA",
+      "names": [
+        "Creek JV",
+        "Rock Canyon JV",
+        "Regis JV",
+        "East JV",
+        "Arapahoe JV",
+        "Lakewood JV"
+      ]
+    },
+    {
+      "url": "https://teamsideline.com/sites/denverlacrosse/schedule/742579/PRO-JV-COCONUT",
+      "names": [
+        "Cherokee Trail JV",
+        "Cheyenne Mountain JV",
+        "Arvada West JV",
+        "Chatfield JV",
+        "Castle View JV",
+        "Northfield JV",
+        "Fusion JV"
+      ]
+    },
+    {
+      "url": "https://teamsideline.com/sites/denverlacrosse/schedule/754222/CHAMPIONSHIP-GAMES",
+      "names": [
+        "Regis JV",
+        "Air Academy",
+        "Castle View Elite",
+        "Fusion Elite",
+        "Lewis Palmer",
+        "Arapahoe JV"
+      ]
+    },
+    {
+      "url": "https://teamsideline.com/sites/denverlacrosse/schedule/743658/1st2nd-Grade",
+      "names": [
+        "Harvey",
+        "Davis",
+        "North FA Matt S",
+        "South Spilker"
+      ]
+    },
+    {
+      "url": "https://teamsideline.com/sites/denverlacrosse/schedule/742584/34-Grade",
+      "names": [
+        "DULCLax",
+        "DLC Dawgs",
+        "Powell",
+        "Foster"
+      ]
+    },
+    {
+      "url": "https://teamsideline.com/sites/denverlacrosse/schedule/742585/56-Grade",
+      "names": [
+        "DLC Kerwin",
+        "5/6 Louis",
+        "DLC Fusion",
+        "DLC Sillstrop"
+      ]
+    }
+  ]
+}

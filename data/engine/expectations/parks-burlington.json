@@ -1,0 +1,15 @@
+{
+  "sourceId": "parks-burlington",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent official page review",
+  "evidenceURL": "https://www.burlingtoncolo.com/197/Swimming-Pool",
+  "scope": "Published official organizational and program information; source and statewide scope remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "parks-burlington:Burlington Swimming Pool",
+    "parks-burlington:Burlington Swim Team"
+  ],
+  "expectedPageURLs": [
+    "https://www.burlingtoncolo.com/197/Swimming-Pool"
+  ]
+}

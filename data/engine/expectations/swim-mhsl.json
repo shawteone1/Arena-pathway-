@@ -1,0 +1,35 @@
+{
+  "sourceId": "swim-mhsl",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent source-list review",
+  "evidenceURL": "https://www.gomotionapp.com/team/recmhsl/page/teams",
+  "scope": "2026 published membership table: A=6, B=5, C=5, D=5. Entire league/team website and schedule traversal remains open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "swim-mhsl:COOK",
+    "swim-mhsl:STRO",
+    "swim-mhsl:TALYN",
+    "swim-mhsl:SMKY",
+    "swim-mhsl:CLRK",
+    "swim-mhsl:SHORE",
+    "swim-mhsl:CASN",
+    "swim-mhsl:PCRK",
+    "swim-mhsl:SGCC",
+    "swim-mhsl:LIFE",
+    "swim-mhsl:WILD",
+    "swim-mhsl:CNTR",
+    "swim-mhsl:DAMW",
+    "swim-mhsl:HPRK",
+    "swim-mhsl:ALKE",
+    "swim-mhsl:HILL",
+    "swim-mhsl:FOX",
+    "swim-mhsl:MONM",
+    "swim-mhsl:CPVS",
+    "swim-mhsl:WCI",
+    "swim-mhsl:WCIII"
+  ],
+  "expectedPageURLs": [
+    "https://www.gomotionapp.com/team/recmhsl/page/teams"
+  ],
+  "basis": "Named source rows reviewed separately before import. This file is not generated from database entities. Related source discovery remains open."
+}

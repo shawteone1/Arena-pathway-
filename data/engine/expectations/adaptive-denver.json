@@ -1,0 +1,16 @@
+{
+  "sourceId": "adaptive-denver",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent public page census review",
+  "evidenceURL": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Parks-Recreation/Activities-Programs/Adaptive-Recreation",
+  "scope": "Reviewed named programs on the specified official public page only; related membership, seasons and statewide scope remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "adaptive-denver:Denver Adaptive Swim Lessons",
+    "adaptive-denver:Denver Special Olympics Basketball",
+    "adaptive-denver:Denver Special Olympics Volleyball"
+  ],
+  "expectedPageURLs": [
+    "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Parks-Recreation/Activities-Programs/Adaptive-Recreation"
+  ]
+}

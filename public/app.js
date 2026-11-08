@@ -32,7 +32,7 @@ if(form){
  location.href='/my-pathway';}
  });
 }
-function findRecord(id){return [...data.organizations,...data.teams,...data.schools,...data.opportunities,...data.communities,...data.leagues].find(r=>r.id===id);}
+function findRecord(id){return [...data.organizations,...data.teams,...data.schools,...data.opportunities,...data.communities,...data.leagues,...data.divisions,...(data.locations||[])].find(r=>r.id===id);}
 function source(record){return data.sources.find(s=>s.id===record.sourceIds[0]);}
 function recordCard(r){const node=element('article',undefined,'record');node.append(element('span',(r.kind||'team').replace('-',' '),'badge'),element('h3',r.name));let text=r.summary;if(!text&&r.organizationId){const parent=[...data.organizations,...data.schools,...data.leagues].find(o=>o.id===r.organizationId);text=parent.name+' · '+r.division+' · '+(r.season||'Season unconfirmed');}node.append(element('p',text||'Colorado program'));const row=element('div',undefined,'record-actions'),s=source(r);row.append(anchor('Official source ↗',s.url));const b=element('button','Save','secondary');b.dataset.save=r.id;b.setAttribute('aria-pressed','false');row.append(b);node.append(row,element('p','Source reviewed '+s.reviewedAt,'small'));return node;}
 function parentCity(r){if(r.city)return r.city;return [...data.organizations,...data.schools,...data.leagues].find(o=>o.id===r.organizationId)?.city||'';}

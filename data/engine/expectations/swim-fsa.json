@@ -1,0 +1,22 @@
+{
+  "sourceId": "swim-fsa",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent public page census review",
+  "evidenceURL": "https://stingraysswimteam.swimtopia.com/fsa-league-2",
+  "scope": "Reviewed named programs on the specified official public page only; related membership, seasons and statewide scope remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "swim-fsa:Applewood Athletic Club",
+    "swim-fsa:Applewood Knolls",
+    "swim-fsa:Golden Marlins",
+    "swim-fsa:Genesee",
+    "swim-fsa:Green Mountain Swim Club",
+    "swim-fsa:5 Parks",
+    "swim-fsa:Stingrays",
+    "swim-fsa:Wheat Ridge Swim Team"
+  ],
+  "expectedPageURLs": [
+    "https://stingraysswimteam.swimtopia.com/fsa-league-2"
+  ],
+  "notes": "Corrected independent list census: 5 Parks and Stingrays are two adjacent separate list items. Stingrays is the published short label for the host Sixth Avenue West team. The initially combined name has been retired with its audit history retained."
+}

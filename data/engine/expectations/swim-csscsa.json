@@ -1,0 +1,17 @@
+{
+  "sourceId": "swim-csscsa",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent source-list review",
+  "evidenceURL": "https://csscsa.swimtopia.com/member-leagues",
+  "scope": "Three formal member leagues only, not all underlying summer teams.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "swim-csscsa:Foothills Swimming Association",
+    "swim-csscsa:South Jeffco Swimming League",
+    "swim-csscsa:Metro League"
+  ],
+  "expectedPageURLs": [
+    "https://csscsa.swimtopia.com/member-leagues"
+  ],
+  "basis": "Named source rows reviewed separately before import. This file is not generated from database entities. Related source discovery remains open."
+}
