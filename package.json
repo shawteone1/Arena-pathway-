@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=22"
+    "node": ">=22.13"
   },
   "scripts": {
     "start": "node server.mjs",
@@ -13,6 +13,20 @@
     "validate:data": "node scripts/validate-data.mjs",
     "check": "node --check server.mjs && node --check src/views.mjs && node --check public/app.js && npm run validate:data && npm test",
     "prepare:brand": "node scripts/prepare-brand.mjs",
-    "check:brand": "node scripts/check-brand.mjs"
+    "check:brand": "node scripts/check-brand.mjs",
+    "data:import": "node scripts/data-engine.mjs import",
+    "data:approve": "node scripts/data-engine.mjs approve",
+    "data:validate": "node scripts/data-engine.mjs validate",
+    "data:export": "node scripts/data-engine.mjs export",
+    "data:report": "node scripts/data-engine.mjs report",
+    "data:refresh": "node scripts/data-engine.mjs refresh",
+    "data:backup": "node scripts/data-engine.mjs backup",
+    "data:bootstrap": "node scripts/data-engine.mjs bootstrap",
+    "data:interrupt": "node scripts/data-engine.mjs interrupt"
+  },
+  "dependencies": {
+    "cheerio": "1.2.0",
+    "robots-parser": "3.0.1",
+    "undici": "7.30.2"
   }
 }

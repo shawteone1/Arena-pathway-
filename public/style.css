@@ -470,3 +470,9 @@ body:not([data-page='home']) .section > h2 { margin-top: 45px; }
 @media(max-width:650px) {
   .mission-logo { width: 220px; margin: 25px 0 35px; }
 }
+/* Data Engine filters reuse the approved v0.7 palette and controls. */
+.engine-filter-options { flex: 1 0 100%; border-top: 1px solid var(--line); padding-top: 14px; }
+.engine-filter-options > summary { min-height: 48px; align-content: center; font-size: 13px; cursor: pointer; }
+.engine-filter-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; padding-top: 12px; }
+@media(max-width:1024px) { .engine-filter-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:650px) { .engine-filter-grid { grid-template-columns: 1fr; } }

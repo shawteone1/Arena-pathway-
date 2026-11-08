@@ -1,0 +1,19 @@
+{
+  "sourceId": "basket-cbc",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent source-list review",
+  "evidenceURL": "https://www.coloradobasketballclub.com/",
+  "scope": "Five named navigation entries; child-page title conflicts and seasons need review.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "basket-cbc:8th Elite - Jr EYBL",
+    "basket-cbc:7th Elite",
+    "basket-cbc:7th Select",
+    "basket-cbc:6th Elite",
+    "basket-cbc:5th Elite"
+  ],
+  "expectedPageURLs": [
+    "https://www.coloradobasketballclub.com/"
+  ],
+  "basis": "Named source rows reviewed separately before import. This file is not generated from database entities. Related source discovery remains open."
+}

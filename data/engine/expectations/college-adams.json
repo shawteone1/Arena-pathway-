@@ -1,0 +1,18 @@
+{
+  "sourceId": "college-adams",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex separate official sports navigation census",
+  "evidenceURL": "https://asugrizzlies.com/",
+  "scope": "Independently reviewed sports root navigation; schedules, seasons and broader related membership remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "college-adams:basketball-men",
+    "college-adams:basketball-women",
+    "college-adams:volleyball-women",
+    "college-adams:lacrosse-men",
+    "college-adams:swimming-unknown"
+  ],
+  "expectedPageURLs": [
+    "https://asugrizzlies.com/"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "sourceId": "adaptive-longmont",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent public page census review",
+  "evidenceURL": "https://longmontcolorado.gov/recreation-services/activities/scope-therapeutic-recreation/",
+  "scope": "Reviewed named programs on the specified official public page only; related membership, seasons and statewide scope remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "adaptive-longmont:SCOPE Basketball",
+    "adaptive-longmont:SCOPE Assisted Swimming",
+    "adaptive-longmont:SCOPE Independent Swimming",
+    "adaptive-longmont:SCOPE Volleyball"
+  ],
+  "expectedPageURLs": [
+    "https://longmontcolorado.gov/recreation-services/activities/scope-therapeutic-recreation/"
+  ]
+}

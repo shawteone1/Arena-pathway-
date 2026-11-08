@@ -1,0 +1,15 @@
+{
+  "sourceId": "swim-aces",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent source-list review",
+  "evidenceURL": "https://www.gomotionapp.com/team/coaces/page/program-information",
+  "scope": "Official club identity/membership information; seasonal classification and groups pending.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "swim-aces:ACES Swim Club"
+  ],
+  "expectedPageURLs": [
+    "https://www.gomotionapp.com/team/coaces/page/program-information"
+  ],
+  "basis": "Named source rows reviewed separately before import. This file is not generated from database entities. Related source discovery remains open."
+}

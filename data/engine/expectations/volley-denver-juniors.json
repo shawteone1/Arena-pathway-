@@ -1,0 +1,32 @@
+{
+  "sourceId": "volley-denver-juniors",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent source-list review",
+  "evidenceURL": "https://www.denverjuniorsvc.com/",
+  "scope": "18 West team links, manually enumerated from official navigation. No season assumption; underlying pages remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "volley-denver-juniors:11 Kiki",
+    "volley-denver-juniors:12 Caitlin",
+    "volley-denver-juniors:13 Susanne",
+    "volley-denver-juniors:14 Sara",
+    "volley-denver-juniors:14 Madeline",
+    "volley-denver-juniors:14 Nina",
+    "volley-denver-juniors:15 Nitosha",
+    "volley-denver-juniors:15 Andy",
+    "volley-denver-juniors:15 Sara",
+    "volley-denver-juniors:15 Jessica",
+    "volley-denver-juniors:16 Leah",
+    "volley-denver-juniors:16 Tim",
+    "volley-denver-juniors:16 Erin",
+    "volley-denver-juniors:16 Will",
+    "volley-denver-juniors:17 Caitlin",
+    "volley-denver-juniors:17 Adam",
+    "volley-denver-juniors:17 Jae",
+    "volley-denver-juniors:18 Jessica"
+  ],
+  "expectedPageURLs": [
+    "https://www.denverjuniorsvc.com/"
+  ],
+  "basis": "Named source rows reviewed separately before import. This file is not generated from database entities. Related source discovery remains open."
+}

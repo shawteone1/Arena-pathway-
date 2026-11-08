@@ -1,0 +1,18 @@
+CREATE TABLE IF NOT EXISTS sources(id TEXT PRIMARY KEY, config_json TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS runs(id TEXT PRIMARY KEY, source_id TEXT NOT NULL REFERENCES sources(id), started_at TEXT NOT NULL, finished_at TEXT, status TEXT NOT NULL, report_json TEXT NOT NULL, approved_at TEXT);
+CREATE TABLE IF NOT EXISTS evidence(id TEXT PRIMARY KEY, source_id TEXT NOT NULL REFERENCES sources(id), url TEXT NOT NULL, fetched_at TEXT NOT NULL, payload_json TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS entities(id TEXT PRIMARY KEY, kind TEXT NOT NULL CHECK(kind IN ('organization','team','league','division','competition','season','event','location','community')), sport TEXT, review_status TEXT NOT NULL, locked INTEGER NOT NULL DEFAULT 0, version INTEGER NOT NULL DEFAULT 1, payload_json TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS entity_evidence(entity_id TEXT NOT NULL REFERENCES entities(id), evidence_id TEXT NOT NULL REFERENCES evidence(id), PRIMARY KEY(entity_id,evidence_id));
+CREATE TABLE IF NOT EXISTS relationships(entity_id TEXT NOT NULL REFERENCES entities(id), parent_id TEXT NOT NULL REFERENCES entities(id), relation TEXT NOT NULL, PRIMARY KEY(entity_id,parent_id,relation));
+CREATE TABLE IF NOT EXISTS candidates(run_id TEXT NOT NULL REFERENCES runs(id), source_record_id TEXT NOT NULL, payload_json TEXT NOT NULL, PRIMARY KEY(run_id,source_record_id));
+CREATE TABLE IF NOT EXISTS reviews(id TEXT PRIMARY KEY, run_id TEXT NOT NULL REFERENCES runs(id), record_id TEXT, status TEXT NOT NULL, reason TEXT NOT NULL, resolution_json TEXT);
+CREATE TABLE IF NOT EXISTS revisions(id INTEGER PRIMARY KEY AUTOINCREMENT, entity_id TEXT NOT NULL, run_id TEXT NOT NULL REFERENCES runs(id), at TEXT NOT NULL, before_json TEXT, after_json TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS approvals(run_id TEXT PRIMARY KEY REFERENCES runs(id), reviewer TEXT NOT NULL, reason TEXT NOT NULL, at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS refresh_state(source_id TEXT PRIMARY KEY REFERENCES sources(id), last_run_at TEXT, next_due_at TEXT, scheduler_tested INTEGER NOT NULL DEFAULT 0);
+CREATE VIEW IF NOT EXISTS organizations AS SELECT * FROM entities WHERE kind='organization';
+CREATE VIEW IF NOT EXISTS teams AS SELECT * FROM entities WHERE kind='team';
+CREATE VIEW IF NOT EXISTS leagues AS SELECT * FROM entities WHERE kind='league';
+CREATE VIEW IF NOT EXISTS divisions AS SELECT * FROM entities WHERE kind='division';
+CREATE VIEW IF NOT EXISTS competition_seasons AS SELECT * FROM entities WHERE kind='season';
+CREATE VIEW IF NOT EXISTS events AS SELECT * FROM entities WHERE kind='event';
+CREATE VIEW IF NOT EXISTS locations AS SELECT * FROM entities WHERE kind='location';

@@ -1,0 +1,21 @@
+{
+  "sourceId": "swim-sjsl",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent source-list review",
+  "evidenceURL": "https://sjsl.swimtopia.com/teams",
+  "scope": "Seven published team-name blocks; member websites and current seasons remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "swim-sjsl:Bear Creek Swim Club",
+    "swim-sjsl:Grant Ranch Barracudas Swim Team",
+    "swim-sjsl:Columbine Knolls Swim Team",
+    "swim-sjsl:Governor's Ranch Gators Swim Team",
+    "swim-sjsl:Ken Caryl Lightning Swim Club",
+    "swim-sjsl:Platte Canyon Piranhas Swim Team",
+    "swim-sjsl:Woodbourne Wave Swim Team"
+  ],
+  "expectedPageURLs": [
+    "https://sjsl.swimtopia.com/teams"
+  ],
+  "basis": "Named source rows reviewed separately before import. This file is not generated from database entities. Related source discovery remains open."
+}

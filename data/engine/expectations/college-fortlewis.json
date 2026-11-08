@@ -1,0 +1,17 @@
+{
+  "sourceId": "college-fortlewis",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex official navigation census",
+  "evidenceURL": "https://goskyhawks.com/",
+  "scope": "Four official NCAA sports navigation entries, not all Colorado colleges",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "college-fortlewis:basketball-men",
+    "college-fortlewis:basketball-women",
+    "college-fortlewis:volleyball-women",
+    "college-fortlewis:lacrosse-women"
+  ],
+  "expectedPageURLs": [
+    "https://goskyhawks.com/"
+  ]
+}

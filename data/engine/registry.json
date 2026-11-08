@@ -1,0 +1,1809 @@
+[
+  {
+    "id": "swim-csi",
+    "title": "Colorado Swimming club directory",
+    "urls": [
+      "https://www.gomotionapp.com/team/wzcolsc/page/clubs"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "discovery",
+    "scope": "Colorado Swimming club directory published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.gomotionapp.com",
+      "www.usaswimming.org",
+      "script.google.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://www\\.gomotionapp\\.com/team/wzcolsc/page/clubs$",
+    "maxDepth": 2
+  },
+  {
+    "id": "swim-usa",
+    "title": "USA Swimming Find a Team",
+    "urls": [
+      "https://www.usaswimming.org/find-a-team"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "discovery",
+    "scope": "USA Swimming Find a Team published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.usaswimming.org"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://www\\.usaswimming\\.org/find-a-team$"
+  },
+  {
+    "id": "swim-mhsl",
+    "title": "Mountain Hi 2026 membership and divisions",
+    "urls": [
+      "https://www.gomotionapp.com/team/recmhsl/page/teams"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "mhsl",
+    "scope": "Mountain Hi 2026 membership and divisions published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.gomotionapp.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "/team/recmhsl/page/(teams|schedule--scores|pool-maps)",
+    "leagueName": "Mountain Hi Swim League",
+    "competitionName": "MHSL summer league",
+    "programType": "summer-swimming",
+    "levels": [
+      "recreational"
+    ],
+    "audience": "youth",
+    "region": "denver-metro"
+  },
+  {
+    "id": "swim-csscsa",
+    "title": "CSSCSA member leagues",
+    "urls": [
+      "https://csscsa.swimtopia.com/member-leagues"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "league-list",
+    "scope": "CSSCSA member leagues published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "csscsa.swimtopia.com",
+      "swimtopia.s3.amazonaws.com",
+      "d1nmxxg9d5tdo.cloudfront.net"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "csscsa\\.swimtopia.com/(member-leagues|teams|state-meet-results|documents)",
+    "namedLeagues": [
+      "Foothills Swimming Association",
+      "South Jeffco Swimming League",
+      "Metro League"
+    ],
+    "selector": "body",
+    "programType": "summer-swimming",
+    "levels": [
+      "recreational"
+    ]
+  },
+  {
+    "id": "swim-sjsl",
+    "title": "South Jeffco published member teams",
+    "urls": [
+      "https://sjsl.swimtopia.com/teams"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "named-elements",
+    "scope": "South Jeffco published member teams published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "sjsl.swimtopia.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "sjsl\\.swimtopia.com/(teams|meet-schedule)",
+    "selector": ".bio_name",
+    "entityKind": "team",
+    "leagueName": "South Jeffco Swim League",
+    "programType": "summer-swimming",
+    "levels": [
+      "recreational"
+    ],
+    "audience": "youth",
+    "region": "denver-metro"
+  },
+  {
+    "id": "swim-fsa",
+    "title": "Foothills Swimming Association members",
+    "urls": [
+      "https://stingraysswimteam.swimtopia.com/fsa-league-2"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "association-list",
+    "scope": "Foothills Swimming Association members published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "stingraysswimteam.swimtopia.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://stingraysswimteam\\.swimtopia\\.com/fsa-league-2$",
+    "programType": "summer-swimming",
+    "profiles": [],
+    "leagueName": "Foothills Swimming Association",
+    "levels": [
+      "recreational"
+    ],
+    "region": "denver-metro",
+    "audience": "youth",
+    "memberSummary": "Named Foothills Swimming Association participant published by member Stingrays. Season year unconfirmed.",
+    "listContains": "Applewood Athletic Club",
+    "rowAliases": {
+      "Stingrays": "Stingrays Swim Team at 6th Avenue West"
+    }
+  },
+  {
+    "id": "swim-metro",
+    "title": "Metro summer league information",
+    "urls": [
+      "https://crestmoor.org/2025/08/10/the-denver-metro-swim-league/"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "association-list",
+    "scope": "Metro summer league information published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "crestmoor.org"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://crestmoor\\.org/2025/08/10/the-denver-metro-swim-league/$",
+    "programType": "summer-swimming",
+    "profiles": [],
+    "leagueName": "Denver Metro League Swimming Association",
+    "levels": [
+      "recreational"
+    ],
+    "region": "denver-metro",
+    "city": "Denver",
+    "audience": "youth",
+    "memberSummary": "Named summer Metro League member in Crestmoor official league article. Season year is not inferred from the article publication date.",
+    "memberHeading": "Metro League Member Clubs"
+  },
+  {
+    "id": "swim-aquawolves",
+    "title": "Aquawolves official year-round program",
+    "urls": [
+      "https://www.gomotionapp.com/team/csawst/page/team-info/about-us"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "profile",
+    "scope": "Aquawolves official year-round program published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.gomotionapp.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "/team/csawst/page/(team-info|about|home|meet-info)",
+    "programType": "year-round-usa-swimming",
+    "levels": [
+      "competitive"
+    ],
+    "affiliations": [
+      "USA Swimming"
+    ],
+    "profiles": [
+      {
+        "name": "Aquawolves Swim Team",
+        "requiredText": [
+          "Aquawolves",
+          "Year.Round",
+          "USA Swimming"
+        ],
+        "summary": "Year-round USA Swimming competitive program, confirmed on the official about page."
+      }
+    ],
+    "city": null,
+    "region": null
+  },
+  {
+    "id": "swim-aces",
+    "title": "ACES official program information",
+    "urls": [
+      "https://www.gomotionapp.com/team/coaces/page/program-information"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "profile",
+    "scope": "ACES official program information published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.gomotionapp.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "/team/coaces/page/(program-information|home|about)",
+    "programType": "unknown",
+    "affiliations": [
+      "USA Swimming"
+    ],
+    "profiles": [
+      {
+        "name": "ACES Swim Club",
+        "requiredText": [
+          "ACES",
+          "USA Swimming"
+        ],
+        "summary": "Official ACES club program information; USA Swimming membership referenced. Seasonal classification requires explicit confirmation."
+      }
+    ],
+    "region": null,
+    "city": null
+  },
+  {
+    "id": "swim-meet-candidates",
+    "title": "Meet-derived Colorado club candidate summary",
+    "urls": [
+      "https://swimmeetiq.com/lsc/CO"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "discovery",
+    "scope": "Meet-derived Colorado club candidate summary published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "swimmeetiq.com"
+    ],
+    "state": null,
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://swimmeetiq\\.com/lsc/CO$"
+  },
+  {
+    "id": "volley-rmr-girls",
+    "title": "RMR official girls club list discovery",
+    "urls": [
+      "https://www.rmrvolleyball.org/"
+    ],
+    "sport": "volleyball",
+    "sports": [
+      "volleyball"
+    ],
+    "adapter": "discovery",
+    "scope": "RMR official girls club list discovery published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.rmrvolleyball.org"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://www\\.rmrvolleyball\\.org/$",
+    "genders": [
+      "girls"
+    ],
+    "programType": "indoor-volleyball"
+  },
+  {
+    "id": "volley-rmr-boys",
+    "title": "RMR official boys club list discovery",
+    "urls": [
+      "https://www.rmrvolleyball.org/page/show/6830532"
+    ],
+    "sport": "volleyball",
+    "sports": [
+      "volleyball"
+    ],
+    "adapter": "discovery",
+    "scope": "RMR official boys club list discovery published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.rmrvolleyball.org"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://www\\.rmrvolleyball\\.org/page/show/6830532$",
+    "genders": [
+      "boys"
+    ],
+    "programType": "indoor-volleyball"
+  },
+  {
+    "id": "volley-rmr-beach",
+    "title": "RMR official beach club list discovery",
+    "urls": [
+      "https://www.rmrvolleyball.org/page/show/6830534-for-parents-"
+    ],
+    "sport": "volleyball",
+    "sports": [
+      "volleyball"
+    ],
+    "adapter": "discovery",
+    "scope": "RMR official beach club list discovery published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.rmrvolleyball.org"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://www\\.rmrvolleyball\\.org/page/show/6830534-for-parents-$",
+    "programType": "beach-volleyball"
+  },
+  {
+    "id": "volley-denver-juniors",
+    "title": "Denver Juniors named team navigation",
+    "urls": [
+      "https://www.denverjuniorsvc.com/"
+    ],
+    "sport": "volleyball",
+    "sports": [
+      "volleyball"
+    ],
+    "adapter": "links",
+    "scope": "Denver Juniors named team navigation published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.denverjuniorsvc.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "denverjuniorsvc.com/(copy-of|teams|team|club-tryouts)",
+    "selector": "a[href]",
+    "namePattern": "^\\d{2} [A-Z]",
+    "entityKind": "team",
+    "organizationName": "Denver Juniors Volleyball Club",
+    "programType": "indoor-volleyball",
+    "levels": [
+      "competitive"
+    ],
+    "city": "Denver",
+    "region": "denver-metro",
+    "genders": [
+      "girls"
+    ],
+    "organizationNameForRows": "Denver Juniors Volleyball Club",
+    "teamNamePrefix": "Denver Juniors "
+  },
+  {
+    "id": "volley-skyline",
+    "title": "Skyline named team navigation",
+    "urls": [
+      "https://www.coskylinejrs.com/"
+    ],
+    "sport": "volleyball",
+    "sports": [
+      "volleyball"
+    ],
+    "adapter": "links",
+    "scope": "Skyline named team navigation published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.coskylinejrs.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "coskylinejrs.com/teams",
+    "selector": "a[href]",
+    "namePattern": "^\\d{2} (Royal|Black)$",
+    "entityKind": "team",
+    "organizationName": "Colorado Skyline Juniors",
+    "programType": "indoor-volleyball",
+    "city": "Windsor",
+    "region": "northern-front-range",
+    "organizationNameForRows": "Colorado Skyline Juniors",
+    "teamNamePrefix": "Skyline "
+  },
+  {
+    "id": "lax-dlc",
+    "title": "Denver Lacrosse TeamSideline schedules",
+    "urls": [
+      "https://teamsideline.com/sites/denverlacrosse/schedules"
+    ],
+    "sport": "lacrosse",
+    "sports": [
+      "lacrosse"
+    ],
+    "adapter": "standings",
+    "scope": "Denver Lacrosse TeamSideline schedules published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "teamsideline.com",
+      "www.teamsideline.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 25,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "/sites/denverlacrosse/(schedules|schedule/|locations)",
+    "leagueName": "Denver Lacrosse Club leagues",
+    "programType": "field-lacrosse",
+    "audience": "youth",
+    "region": "denver-metro",
+    "organizationName": "Denver Lacrosse Club",
+    "category": "league-organizer",
+    "extractEvents": true
+  },
+  {
+    "id": "lax-cll",
+    "title": "Colorado Lacrosse League adult and school formats",
+    "urls": [
+      "https://www.coloradolacrosseleague.com/leagues/teamlinkt"
+    ],
+    "sport": "lacrosse",
+    "sports": [
+      "lacrosse"
+    ],
+    "adapter": "discovery",
+    "scope": "Colorado Lacrosse League adult and school formats published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.coloradolacrosseleague.com",
+      "leagues.teamlinkt.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "coloradolacrosseleague|leagues.teamlinkt.com/coloradolacrosseleague/(Schedule|Standings|Teams)",
+    "audience": "adult"
+  },
+  {
+    "id": "basket-goldcrown",
+    "title": "Gold Crown basketball official competition source",
+    "urls": [
+      "https://www.goldcrownfoundation.com/events/competitive-league/"
+    ],
+    "sport": "basketball",
+    "sports": [
+      "basketball"
+    ],
+    "adapter": "discovery",
+    "scope": "Gold Crown basketball official competition source published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.goldcrownfoundation.com",
+      "goldcrownfoundation.teamsidelinesite.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "goldcrownfoundation.com/(tryouts|basketball-programs/tryouts|events/competitive-league|wp-content/)",
+    "levels": [
+      "competitive"
+    ],
+    "category": "nonprofit"
+  },
+  {
+    "id": "basket-cbc",
+    "title": "CBC named grade teams",
+    "urls": [
+      "https://www.coloradobasketballclub.com/"
+    ],
+    "sport": "basketball",
+    "sports": [
+      "basketball"
+    ],
+    "adapter": "links",
+    "scope": "CBC named grade teams published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.coloradobasketballclub.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "coloradobasketballclub.com/([4-9]th-|teams|tryout)",
+    "selector": "a[href]",
+    "namePattern": "^[4-9](th|st|nd|rd) (Elite|Select)",
+    "entityKind": "team",
+    "organizationName": "Colorado Basketball Club",
+    "genders": [
+      "girls"
+    ],
+    "levels": [
+      "competitive"
+    ],
+    "programType": "basketball",
+    "organizationNameForRows": "Colorado Basketball Club",
+    "teamNamePrefix": "CBC "
+  },
+  {
+    "id": "basket-aau",
+    "title": "AAU Colorado club affiliation discovery",
+    "urls": [
+      "https://aausports.org/sports/boys-basketball"
+    ],
+    "sport": "basketball",
+    "sports": [
+      "basketball"
+    ],
+    "adapter": "discovery",
+    "scope": "AAU Colorado club affiliation discovery published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "aausports.org"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://aausports\\.org/sports/boys-basketball$"
+  },
+  {
+    "id": "school-girls-swimming-and-diving",
+    "title": "CHSAA girls-swimming-and-diving standings",
+    "urls": [
+      "https://chsaanow.com/sports/girls-swimming-and-diving/standings"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "standings",
+    "scope": "CHSAA girls-swimming-and-diving standings published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "chsaanow.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://chsaanow\\.com/sports/girls-swimming-and-diving/standings$",
+    "genders": [
+      "girls"
+    ],
+    "levels": [
+      "high-school"
+    ],
+    "programType": "high-school-swimming",
+    "audience": "youth",
+    "leagueName": "CHSAA girls-swimming-and-diving",
+    "category": "school"
+  },
+  {
+    "id": "school-boys-swimming-and-diving",
+    "title": "CHSAA boys-swimming-and-diving standings",
+    "urls": [
+      "https://chsaanow.com/sports/boys-swimming-and-diving/standings"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "standings",
+    "scope": "CHSAA boys-swimming-and-diving standings published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "chsaanow.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://chsaanow\\.com/sports/boys-swimming-and-diving/standings$",
+    "genders": [
+      "boys"
+    ],
+    "levels": [
+      "high-school"
+    ],
+    "programType": "high-school-swimming",
+    "audience": "youth",
+    "leagueName": "CHSAA boys-swimming-and-diving",
+    "category": "school"
+  },
+  {
+    "id": "school-girls-volleyball",
+    "title": "CHSAA girls-volleyball standings",
+    "urls": [
+      "https://chsaanow.com/sports/girls-volleyball/standings"
+    ],
+    "sport": "volleyball",
+    "sports": [
+      "volleyball"
+    ],
+    "adapter": "standings",
+    "scope": "CHSAA girls-volleyball standings published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "chsaanow.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://chsaanow\\.com/sports/girls-volleyball/standings$",
+    "genders": [
+      "girls"
+    ],
+    "levels": [
+      "high-school"
+    ],
+    "programType": "indoor-volleyball",
+    "audience": "youth",
+    "leagueName": "CHSAA girls-volleyball",
+    "category": "school"
+  },
+  {
+    "id": "school-boys-volleyball",
+    "title": "CHSAA boys-volleyball standings",
+    "urls": [
+      "https://chsaanow.com/sports/boys-volleyball/standings"
+    ],
+    "sport": "volleyball",
+    "sports": [
+      "volleyball"
+    ],
+    "adapter": "standings",
+    "scope": "CHSAA boys-volleyball standings published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "chsaanow.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://chsaanow\\.com/sports/boys-volleyball/standings$",
+    "genders": [
+      "boys"
+    ],
+    "levels": [
+      "high-school"
+    ],
+    "programType": "indoor-volleyball",
+    "audience": "youth",
+    "leagueName": "CHSAA boys-volleyball",
+    "category": "school"
+  },
+  {
+    "id": "school-boys-lacrosse",
+    "title": "CHSAA boys-lacrosse standings",
+    "urls": [
+      "https://chsaanow.com/sports/boys-lacrosse/standings"
+    ],
+    "sport": "lacrosse",
+    "sports": [
+      "lacrosse"
+    ],
+    "adapter": "standings",
+    "scope": "CHSAA boys-lacrosse standings published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "chsaanow.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://chsaanow\\.com/sports/boys-lacrosse/standings$",
+    "genders": [
+      "boys"
+    ],
+    "levels": [
+      "high-school"
+    ],
+    "programType": "field-lacrosse",
+    "audience": "youth",
+    "leagueName": "CHSAA boys-lacrosse",
+    "category": "school"
+  },
+  {
+    "id": "school-girls-lacrosse",
+    "title": "CHSAA girls-lacrosse standings",
+    "urls": [
+      "https://chsaanow.com/sports/girls-lacrosse/standings"
+    ],
+    "sport": "lacrosse",
+    "sports": [
+      "lacrosse"
+    ],
+    "adapter": "standings",
+    "scope": "CHSAA girls-lacrosse standings published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "chsaanow.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://chsaanow\\.com/sports/girls-lacrosse/standings$",
+    "genders": [
+      "girls"
+    ],
+    "levels": [
+      "high-school"
+    ],
+    "programType": "field-lacrosse",
+    "audience": "youth",
+    "leagueName": "CHSAA girls-lacrosse",
+    "category": "school"
+  },
+  {
+    "id": "school-boys-basketball",
+    "title": "CHSAA boys-basketball standings",
+    "urls": [
+      "https://chsaanow.com/sports/boys-basketball/standings"
+    ],
+    "sport": "basketball",
+    "sports": [
+      "basketball"
+    ],
+    "adapter": "standings",
+    "scope": "CHSAA boys-basketball standings published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "chsaanow.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://chsaanow\\.com/sports/boys-basketball/standings$",
+    "genders": [
+      "boys"
+    ],
+    "levels": [
+      "high-school"
+    ],
+    "programType": "basketball",
+    "audience": "youth",
+    "leagueName": "CHSAA boys-basketball",
+    "category": "school"
+  },
+  {
+    "id": "school-girls-basketball",
+    "title": "CHSAA girls-basketball standings",
+    "urls": [
+      "https://chsaanow.com/sports/girls-basketball/standings"
+    ],
+    "sport": "basketball",
+    "sports": [
+      "basketball"
+    ],
+    "adapter": "standings",
+    "scope": "CHSAA girls-basketball standings published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "chsaanow.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://chsaanow\\.com/sports/girls-basketball/standings$",
+    "genders": [
+      "girls"
+    ],
+    "levels": [
+      "high-school"
+    ],
+    "programType": "basketball",
+    "audience": "youth",
+    "leagueName": "CHSAA girls-basketball",
+    "category": "school"
+  },
+  {
+    "id": "college-cmu",
+    "title": "Colorado Mesa launch-sport collegiate programs",
+    "urls": [
+      "https://cmumavericks.com/"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "lacrosse",
+      "volleyball",
+      "basketball",
+      "swimming"
+    ],
+    "adapter": "college",
+    "scope": "Colorado Mesa launch-sport collegiate programs published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "cmumavericks.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "cmumavericks.com/sports/(mens|womens)-(lacrosse|volleyball|basketball|swimming-and-diving)(/schedule)?$",
+    "organizationName": "Colorado Mesa University",
+    "city": "Grand Junction",
+    "region": "western-slope",
+    "category": "school",
+    "levels": [
+      "collegiate"
+    ],
+    "audience": "college"
+  },
+  {
+    "id": "college-fortlewis",
+    "title": "Fort Lewis collegiate programs",
+    "urls": [
+      "https://goskyhawks.com/"
+    ],
+    "sport": "basketball",
+    "sports": [
+      "lacrosse",
+      "volleyball",
+      "basketball"
+    ],
+    "adapter": "college",
+    "scope": "Fort Lewis collegiate programs published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "goskyhawks.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "goskyhawks.com/sports/(mens|womens)-(lacrosse|volleyball|basketball)(/schedule)?$",
+    "organizationName": "Fort Lewis College",
+    "city": "Durango",
+    "region": "southwest",
+    "category": "school",
+    "levels": [
+      "collegiate"
+    ],
+    "audience": "college"
+  },
+  {
+    "id": "adaptive-denver",
+    "title": "Denver Adaptive Recreation",
+    "urls": [
+      "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Parks-Recreation/Activities-Programs/Adaptive-Recreation"
+    ],
+    "sport": "basketball",
+    "sports": [
+      "basketball",
+      "swimming",
+      "volleyball"
+    ],
+    "adapter": "profile",
+    "scope": "Denver Adaptive Recreation published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "denvergov.org"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://denvergov\\.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Parks-Recreation/Activities-Programs/Adaptive-Recreation$",
+    "region": "denver-metro",
+    "category": "parks-recreation",
+    "levels": [
+      "recreational",
+      "adaptive"
+    ],
+    "profiles": [
+      {
+        "name": "Denver Adaptive Swim Lessons",
+        "requiredText": [
+          "Adaptive Recreation",
+          "Swim Lessons"
+        ],
+        "kind": "community",
+        "sport": "swimming",
+        "summary": "Denver Parks and Recreation therapeutic swimming lessons. Confirm dates and accommodations with the organizer."
+      },
+      {
+        "name": "Denver Special Olympics Basketball",
+        "requiredText": [
+          "Special Olympic Sports",
+          "Basketball"
+        ],
+        "kind": "community",
+        "sport": "basketball",
+        "summary": "Published Special Olympics basketball opportunities through Denver Parks and Recreation."
+      },
+      {
+        "name": "Denver Special Olympics Volleyball",
+        "requiredText": [
+          "Special Olympic Sports",
+          "Volleyball"
+        ],
+        "kind": "community",
+        "sport": "volleyball",
+        "summary": "Published Special Olympics volleyball opportunities through Denver Parks and Recreation."
+      }
+    ],
+    "organizationName": "Denver Parks and Recreation",
+    "city": "Denver"
+  },
+  {
+    "id": "adaptive-longmont",
+    "title": "Longmont SCOPE",
+    "urls": [
+      "https://longmontcolorado.gov/recreation-services/activities/scope-therapeutic-recreation/"
+    ],
+    "sport": "basketball",
+    "sports": [
+      "basketball",
+      "swimming",
+      "volleyball"
+    ],
+    "adapter": "profile",
+    "scope": "Longmont SCOPE published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "longmontcolorado.gov"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://longmontcolorado\\.gov/recreation-services/activities/scope-therapeutic-recreation/$",
+    "region": "northern-front-range",
+    "category": "parks-recreation",
+    "levels": [
+      "recreational",
+      "adaptive"
+    ],
+    "profiles": [
+      {
+        "name": "SCOPE Basketball",
+        "requiredText": [
+          "SCOPE",
+          "Basketball & Youth Basketball"
+        ],
+        "kind": "community",
+        "sport": "basketball",
+        "summary": "Adaptive youth and adult basketball fundamentals; Special Olympics competition opportunities are published. Dates and availability require confirmation."
+      },
+      {
+        "name": "SCOPE Assisted Swimming",
+        "requiredText": [
+          "SCOPE",
+          "Assisted Swimming"
+        ],
+        "kind": "community",
+        "sport": "swimming",
+        "summary": "Parent or caregiver assisted adaptive swimming, ages 8 and up; public program description, not a current registration schedule."
+      },
+      {
+        "name": "SCOPE Independent Swimming",
+        "requiredText": [
+          "SCOPE",
+          "Independent Swimming"
+        ],
+        "kind": "community",
+        "sport": "swimming",
+        "summary": "Adaptive independent swimming, ages 8 and up; proficiency and deep-water requirements apply."
+      },
+      {
+        "name": "SCOPE Volleyball",
+        "requiredText": [
+          "SCOPE",
+          "volleyball"
+        ],
+        "kind": "community",
+        "sport": "volleyball",
+        "summary": "Inclusive volleyball and Special Olympics competition opportunities; confirm current offerings with the city."
+      }
+    ],
+    "organizationName": "City of Longmont Recreation Services",
+    "city": "Longmont"
+  },
+  {
+    "id": "adaptive-montrose",
+    "title": "Montrose Adaptive Recreation",
+    "urls": [
+      "https://montroserec.specialdistrict.org/adaptive-programs"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "profile",
+    "scope": "Montrose Adaptive Recreation published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "montroserec.specialdistrict.org"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://montroserec\\.specialdistrict\\.org/adaptive-programs$",
+    "region": "western-slope",
+    "category": "parks-recreation",
+    "levels": [
+      "recreational",
+      "adaptive"
+    ],
+    "profiles": [
+      {
+        "name": "Montrose Adaptive Swim Lessons",
+        "requiredText": [
+          "Adaptive Swim Lessons",
+          "CRC Pool"
+        ],
+        "kind": "community",
+        "summary": "Private and semi-private adaptive swimming; published program windows are not individual dated sessions. Confirm availability."
+      }
+    ],
+    "organizationName": "Montrose Recreation District",
+    "city": "Montrose"
+  },
+  {
+    "id": "parks-thornton",
+    "title": "Thornton parks sport programs",
+    "urls": [
+      "https://www.thorntonco.gov/parks-recreation/recreation-programs/sports"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming",
+      "basketball"
+    ],
+    "adapter": "discovery",
+    "scope": "Thornton parks sport programs published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.thorntonco.gov"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://www\\.thorntonco\\.gov/parks-recreation/recreation-programs/sports$",
+    "region": "denver-metro",
+    "category": "parks-recreation",
+    "levels": [
+      "recreational"
+    ]
+  },
+  {
+    "id": "parks-foothills",
+    "title": "Foothills recreation aquatics",
+    "urls": [
+      "https://www.ifoothills.org/aquatics/"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "profile",
+    "scope": "Foothills recreation aquatics published organization/team pages; statewide coverage remains partial",
+    "allowedHosts": [
+      "www.ifoothills.org"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://www\\.ifoothills\\.org/aquatics/$",
+    "region": "denver-metro",
+    "category": "parks-recreation",
+    "levels": [
+      "recreational"
+    ],
+    "profiles": [
+      {
+        "name": "Foothills Swim Team",
+        "requiredText": [
+          "Foothills Swim Team \\(year-round\\)",
+          "USA Swimming"
+        ],
+        "summary": "Official district source confirms the year-round USA Swimming affiliated Foothills Swim Team.",
+        "programType": "year-round-usa-swimming",
+        "levels": [
+          "competitive"
+        ],
+        "affiliations": [
+          "USA Swimming"
+        ]
+      },
+      {
+        "name": "Foothills C.A.R.A. Swim Team",
+        "requiredText": [
+          "C.A.R.A. Swim Team \\(year-round\\)"
+        ],
+        "kind": "team",
+        "organizationName": "Foothills Park & Recreation District",
+        "summary": "Year-round recreational CARA swimming, ages 7\u201317. This is not classified as a summer league or USA Swimming club.",
+        "programType": "unknown",
+        "levels": [
+          "recreational"
+        ],
+        "audience": "youth"
+      }
+    ],
+    "city": "Littleton"
+  },
+  {
+    "id": "parks-burlington",
+    "title": "Burlington official pool and swim team",
+    "urls": [
+      "https://www.burlingtoncolo.com/197/Swimming-Pool"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "profile",
+    "scope": "Published official organizational and program information; source and statewide scope remain open.",
+    "allowedHosts": [
+      "www.burlingtoncolo.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|club|division|schedule|standings|competition|locations|facility",
+    "followURLPattern": "^https://www\\.burlingtoncolo\\.com/197/Swimming-Pool$",
+    "region": "eastern-plains",
+    "city": "Burlington",
+    "organizationName": "City of Burlington Recreation",
+    "category": "parks-recreation",
+    "levels": [
+      "recreational"
+    ],
+    "competitionName": "Burlington summer swimming",
+    "profiles": [
+      {
+        "name": "Burlington Swimming Pool",
+        "requiredText": [
+          "Swimming Pool",
+          "480 Mike Lounge"
+        ],
+        "kind": "location",
+        "address": "480 Mike Lounge Dr, Burlington, CO 80807",
+        "summary": "City swimming facility. The published 2026 season ended August 7; do not interpret archived pool hours as current."
+      },
+      {
+        "name": "Burlington Swim Team",
+        "requiredText": [
+          "Burlington Swim Team practices",
+          "Swimming Pool - 2026"
+        ],
+        "kind": "team",
+        "season": "2026",
+        "programType": "summer-swimming",
+        "summary": "City-published 2026 summer swim team practice information. The 2026 summer season is historical; no current enrollment is asserted."
+      }
+    ]
+  },
+  {
+    "id": "facility-trinidad",
+    "title": "Trinidad tourism aquatic facility",
+    "urls": [
+      "https://visittrinidadcolorado.com/attraction/family-aquatic-center/"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "profile",
+    "scope": "Published official organizational and program information; source and statewide scope remain open.",
+    "allowedHosts": [
+      "visittrinidadcolorado.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|club|division|schedule|standings|competition|locations|facility",
+    "followURLPattern": "^https://visittrinidadcolorado\\.com/attraction/family-aquatic-center/$",
+    "region": "southeast",
+    "city": "Trinidad",
+    "category": "community-resource",
+    "profiles": [
+      {
+        "name": "Trinidad Family Aquatic Center",
+        "requiredText": [
+          "Family Aquatic Center",
+          "wading"
+        ],
+        "kind": "location",
+        "summary": "Publicly listed aquatic facility. Verify current opening dates and accessibility with the facility."
+      }
+    ]
+  },
+  {
+    "id": "parks-breckenridge",
+    "title": "Breckenridge official recreation center",
+    "urls": [
+      "https://www.breckenridgerecreation.com/rates/locations/breckenridge-recreation-center"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming",
+      "basketball"
+    ],
+    "adapter": "profile",
+    "scope": "Published official organizational and program information; source and statewide scope remain open.",
+    "allowedHosts": [
+      "www.breckenridgerecreation.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|club|division|schedule|standings|competition|locations|facility",
+    "followURLPattern": "^https://www\\.breckenridgerecreation\\.com/rates/locations/breckenridge-recreation-center$",
+    "region": "central-mountains",
+    "city": "Breckenridge",
+    "category": "parks-recreation",
+    "profiles": [
+      {
+        "name": "Breckenridge Recreation Center",
+        "requiredText": [
+          "Breckenridge Recreation Center",
+          "pool"
+        ],
+        "kind": "location"
+      }
+    ]
+  },
+  {
+    "id": "college-adams",
+    "title": "Adams State official athletic programs",
+    "urls": [
+      "https://asugrizzlies.com/"
+    ],
+    "sport": "basketball",
+    "sports": [
+      "basketball",
+      "volleyball",
+      "swimming",
+      "lacrosse"
+    ],
+    "adapter": "college",
+    "scope": "Published official organizational and program information; source and statewide scope remain open.",
+    "allowedHosts": [
+      "asugrizzlies.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|club|division|schedule|standings|competition|locations|facility",
+    "followURLPattern": "https://asugrizzlies\\.com/sports/(mens|womens)-(lacrosse|volleyball|basketball|swimming-and-diving)(/schedule)?$",
+    "region": "san-luis-valley",
+    "city": "Alamosa",
+    "organizationName": "Adams State University",
+    "category": "school",
+    "levels": [
+      "collegiate"
+    ],
+    "audience": "college"
+  },
+  {
+    "id": "college-pueblo",
+    "title": "CSU Pueblo official athletic programs",
+    "urls": [
+      "https://gothunderwolves.com/"
+    ],
+    "sport": "basketball",
+    "sports": [
+      "basketball",
+      "volleyball",
+      "swimming",
+      "lacrosse"
+    ],
+    "adapter": "college",
+    "scope": "Published official organizational and program information; source and statewide scope remain open.",
+    "allowedHosts": [
+      "gothunderwolves.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|club|division|schedule|standings|competition|locations|facility",
+    "followURLPattern": "https://gothunderwolves\\.com/sports/(mens|womens)-(lacrosse|volleyball|basketball|swimming-and-diving)(/schedule)?$",
+    "region": "southeast",
+    "city": "Pueblo",
+    "organizationName": "Colorado State University Pueblo",
+    "category": "school",
+    "levels": [
+      "collegiate"
+    ],
+    "audience": "college"
+  },
+  {
+    "id": "college-coloradocollege",
+    "title": "Colorado College official athletic programs",
+    "urls": [
+      "https://cctigers.com/"
+    ],
+    "sport": "basketball",
+    "sports": [
+      "basketball",
+      "volleyball",
+      "swimming",
+      "lacrosse"
+    ],
+    "adapter": "college",
+    "scope": "Published official organizational and program information; source and statewide scope remain open.",
+    "allowedHosts": [
+      "cctigers.com"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|club|division|schedule|standings|competition|locations|facility",
+    "followURLPattern": "https://cctigers\\.com/sports/(mens|womens)-(lacrosse|volleyball|basketball|swimming-and-diving)(/schedule)?$",
+    "region": "pikes-peak",
+    "city": "Colorado Springs",
+    "organizationName": "Colorado College",
+    "category": "school",
+    "levels": [
+      "collegiate"
+    ],
+    "audience": "college"
+  },
+  {
+    "id": "nonprofit-specialolympics",
+    "title": "Special Olympics Colorado competition programs",
+    "urls": [
+      "https://specialolympicsco.org/getinvolved/competitions/"
+    ],
+    "sport": "basketball",
+    "sports": [
+      "basketball",
+      "swimming",
+      "volleyball"
+    ],
+    "adapter": "profile",
+    "scope": "Reviewed named programs on official source page; related pages and statewide membership remain incomplete.",
+    "allowedHosts": [
+      "specialolympicsco.org"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|club|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://specialolympicsco\\.org/getinvolved/competitions/$",
+    "profiles": [
+      {
+        "name": "Special Olympics Colorado Basketball",
+        "requiredText": [
+          "Basketball"
+        ],
+        "kind": "community",
+        "sport": "basketball",
+        "summary": "Official Special Olympics Colorado adaptive sport and competition resource; individual local teams and current event dates are not inferred."
+      },
+      {
+        "name": "Special Olympics Colorado Swimming",
+        "requiredText": [
+          "Swimming"
+        ],
+        "kind": "community",
+        "sport": "swimming",
+        "summary": "Official Special Olympics Colorado adaptive sport and competition resource; individual local teams and current event dates are not inferred."
+      },
+      {
+        "name": "Special Olympics Colorado Volleyball",
+        "requiredText": [
+          "Volleyball"
+        ],
+        "kind": "community",
+        "sport": "volleyball",
+        "summary": "Official Special Olympics Colorado adaptive sport and competition resource; individual local teams and current event dates are not inferred."
+      }
+    ],
+    "organizationName": "Special Olympics Colorado",
+    "category": "nonprofit",
+    "levels": [
+      "adaptive"
+    ],
+    "audience": "all-ages"
+  },
+  {
+    "id": "school-silvercreek",
+    "title": "Silver Creek High School official athletic programs",
+    "urls": [
+      "https://schs.svvsd.org/activities-arts-athletics/athletics/athletic-registration/"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "profile",
+    "scope": "Reviewed named programs on official source page; related pages and statewide membership remain incomplete.",
+    "allowedHosts": [
+      "schs.svvsd.org"
+    ],
+    "state": "CO",
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 12,
+    "followPattern": "teams|club|division|schedule|standings|competition|locations",
+    "followURLPattern": "^https://schs\\.svvsd\\.org/activities-arts-athletics/athletics/athletic-registration/$",
+    "profiles": [
+      {
+        "name": "Silver Creek High School Boys Swim & Dive",
+        "requiredText": [
+          "Boys Swim",
+          "Silver Creek"
+        ],
+        "kind": "team",
+        "genders": [
+          "boys"
+        ],
+        "programType": "high-school-swimming",
+        "summary": "Official school athletics program. Season start announcements are not a complete team event schedule."
+      }
+    ],
+    "organizationName": "Silver Creek High School",
+    "category": "school",
+    "levels": [
+      "high-school"
+    ],
+    "audience": "youth",
+    "city": "Longmont",
+    "region": "northern-front-range"
+  },
+  {
+    "id": "swim-zone-team-scores",
+    "title": "2026 Western Zone Senior Championships team-score candidates",
+    "urls": [
+      "https://www.gomotionapp.com/clov/UserFiles/Image/QuickUpload/team-scores_003849.pdf"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "pdf-team-scores",
+    "documentScope": "team-scores-only",
+    "scope": "All named participants in combined team scores, official host 2026 Western Zone Senior Championships PDF. Team-only historical meet evidence; Colorado affiliation and aliases require separate verification.",
+    "allowedHosts": [
+      "www.gomotionapp.com"
+    ],
+    "state": null,
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 720,
+    "maxPages": 1,
+    "rowPattern": "^\\s*\\d+\\s{2,}(.+?)\\s{2,}(.+?)\\s{2,}[\\d,. ]+\\s*$",
+    "entityKind": "organization",
+    "combinedOnly": true
+  },
+  {
+    "id": "swim-csi-embedded",
+    "title": "CSI public embedded club-directory application",
+    "urls": [
+      "https://script.google.com/macros/s/AKfycbwxU1Io2kRgfZxfwzFtZy2TXFDm1ncuaWL8nxXz4ZI5CzevMB0Qk-ukpKvFLsal6oKD/exec"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "discovery",
+    "scope": "Registered supporting membership/aggregate discovery; unresolved dynamic or blocked sources are not imported.",
+    "allowedHosts": [
+      "script.google.com",
+      "script.googleusercontent.com"
+    ],
+    "state": null,
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 1
+  },
+  {
+    "id": "swim-csscsa-team-scores",
+    "title": "CSSCSA 2024 aggregate team-score archive",
+    "urls": [
+      "https://csscsa.swimtopia.com/sites/s3_files/91620"
+    ],
+    "sport": "swimming",
+    "sports": [
+      "swimming"
+    ],
+    "adapter": "pdf-team-scores",
+    "scope": "Registered supporting membership/aggregate discovery; unresolved dynamic or blocked sources are not imported.",
+    "allowedHosts": [
+      "csscsa.swimtopia.com",
+      "swimtopia.s3.amazonaws.com",
+      "d1nmxxg9d5tdo.cloudfront.net"
+    ],
+    "state": null,
+    "accessPolicy": {
+      "decision": "allowed",
+      "reviewedAt": "2026-11-08",
+      "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+    },
+    "minIntervalMs": 2000,
+    "refreshHours": 168,
+    "maxPages": 1,
+    "documentScope": "team-scores-only",
+    "rowPattern": "^\\s*(\\S+)\\s+(.+?)\\s+[0-9,.]+\\s*$"
+  }
+]
