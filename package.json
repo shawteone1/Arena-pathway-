@@ -1,6 +1,6 @@
 {
   "name": "arena-pathway",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -11,6 +11,8 @@
     "dev": "node --watch server.mjs",
     "test": "node --test",
     "validate:data": "node scripts/validate-data.mjs",
-    "check": "node --check server.mjs && node --check src/views.mjs && node --check public/app.js && npm run validate:data && npm test"
+    "check": "node --check server.mjs && node --check src/views.mjs && node --check public/app.js && npm run validate:data && npm test",
+    "prepare:brand": "node scripts/prepare-brand.mjs",
+    "check:brand": "node scripts/check-brand.mjs"
   }
 }
