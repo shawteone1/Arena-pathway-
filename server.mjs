@@ -1,3 +1,4 @@
+import {siemPage} from './src/siem-view.mjs';
 import http from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
@@ -5,6 +6,7 @@ import { catalog, sports, sections, validateCatalog } from './src/catalog.mjs';
 import {photography,brand} from './src/presentation.mjs';
 import { layout, home, sportPage, builder, myPathway, dataPage, credits } from './src/views.mjs';
 const assets = { 'style.css':'text/css; charset=utf-8', 'app.js':'text/javascript; charset=utf-8', 'state.js':'text/javascript; charset=utf-8', 'stadium.jpg':'image/jpeg' };
+for(const name of ['siem.js','siem-model.js'])assets[name]='text/javascript; charset=utf-8';
 assets['fonts/barlow-condensed-bold.ttf']='font/ttf';
 for(const p of Object.values(photography)){assets[p.asset]='image/webp';assets[p.smallAsset]='image/webp';}
 if(brand.status==='ready')for(const key of ['desktopAsset','mobileAsset','homepageAsset','faviconAsset','appleTouchAsset']){const path=brand[key];assets[path]=path.endsWith('.webp')?'image/webp':'image/png';}
@@ -23,6 +25,7 @@ export function createServer() {
    if(path==='/api/catalog')return send(200,JSON.stringify(catalog),'application/json');
    if(path==='/api/coverage')return send(200,JSON.stringify(validateCatalog()),'application/json');
    if(path==='/')return send(200,home());
+   if(path==='/siem')return send(200,siemPage());
    if(path==='/build')return send(200,builder());
    if(path==='/my-pathway')return send(200,myPathway());
    if(path==='/data')return send(200,dataPage());

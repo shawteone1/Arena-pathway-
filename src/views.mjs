@@ -27,7 +27,7 @@ export function layout(title,content,page=''){
     <div class="topline"><span>COLORADO ROOTS.</span><span>COLLEGIATE AMBITION.</span></div>
     <header class="site-header">
       <a class="brand" href="/" aria-label="Arena Pathway home">${brandMark()}<span class="wordmark">ARENA <b>PATHWAY</b><small>THE ATHLETE JOURNEY, CONNECTED.</small></span></a>
-      <div class="header-actions"><a class="my-link" href="/my-pathway">My Pathway</a>
+      <div class="header-actions"><a class="my-link" href="/siem">Parent Command Center</a><a class="my-link" href="/my-pathway">My Pathway</a>
         <details id="sports-menu"><summary>Sports <span aria-hidden="true">⌄</span></summary><nav aria-label="Sports">${sports.map(s=>`<a href="/sports/${s}">${cap(s)}</a>`).join('')}<a href="/build">Build Your Own <span aria-hidden="true">↗</span></a></nav></details>
       </div>
     </header>${content}
