@@ -1,129 +1,139 @@
-# v0.7 visual redesign — work in progress
+# v0.7 visual redesign — approved logo integrated
 
 Branch: `codex/arena-pathway-v07-visual`
 Base: `origin/codex/arena-pathway-transfer` at
 `b52ed8ca23e40278f2bffd9e1092b68aac3966a2`, the head of draft PR #1.
-The base tree matches the completed v0.6 build. Neither the v0.6 development
-branch nor `main` was reset or overwritten.
+The base tree matches the completed v0.6 build. Neither that development branch
+nor `main` was reset or overwritten. Keep the visual PR in draft until outstanding
+real-browser/mobile QA is complete.
 
-## Blocking input: approved logo
+## Approved artwork and web treatments
 
-The requested `Interlocked AP Letterman Patch Logo.png` was not attached to the
-request or present in the workspace. The old generic A has been removed from
-rendered pages and the asset allowlist. There is no invented interlocked AP,
-shield, replacement letterform, or placeholder favicon. The text wordmark remains
-while the approved original is pending. `src/brand.json` explicitly records this
-incomplete state. **This draft is not the completed approved visual identity.**
+The supplied `Interlocked AP Letterman Patch Logo.png` is retained unchanged at
+`design/brand/Interlocked AP Letterman Patch Logo.png` (1536 × 1024 pixels).
+Its SHA-256 is:
 
-Once the original arrives:
+`e6416a5689f562260f3f15ed272c5427e04e7a77bcc387cb2436dccc7659f9ce`
 
-1. View and inspect the actual PNG; confirm it is the supplied approved artwork.
-2. With ImageMagick available, run:
+The presentation board includes the embroidered patch, a “02 · LETTERMAN” label,
+and the Arena Pathway name. Web treatments isolate the complete AP patch, cream
+border and shadow at source rectangle x=310, y=45, width=900, height=805. A small
+80 × 30 corner containing part of the board label is replaced with unaltered
+background pixels from source x=390, y=45. This corner is outside the AP artwork.
+The separate board label and bottom wordmark are not included in icon treatments.
 
-   ```sh
-   npm run prepare:brand -- "/absolute/path/Interlocked AP Letterman Patch Logo.png"
-   npm run check:brand
-   npm run check
-   ```
+No letters, proportions, stitching, patch borders, shadows or logo colors are
+redrawn, recolored, rotated, regenerated or removed. The approved green/gold/cream
+logo colors remain as supplied, alongside the application’s navy/cream/red/silver
+interface palette. CSS preserves the logo aspect ratio and applies no color filter.
 
-3. The preparation script retains the original unchanged in `design/brand`,
-   records its SHA-256 and dimensions, and creates lossless WebP desktop/mobile
-   derivatives plus PNG favicon and Apple touch treatments. It resizes with the
-   original aspect ratio; square icons use transparent padding. It does not
-   trace, crop, recolor, distort, remove backgrounds, or generate artwork.
-4. Compare all derivatives with the original, including color/profile fidelity,
-   letterform details, edge padding and small-size legibility. Confirm that the
-   original canvas is suitable before changing any clear space.
-5. Restart the Node process and test header/footer, iPhone, iPad, desktop and icons.
-   The brand manifest enables the actual image treatments consistently.
+- `public/brand/ap-homepage.webp`: 900 × 805, lossless, large homepage treatment.
+- `public/brand/ap-desktop.webp`: 256 × 229, lossless, shared navigation/footer.
+- `public/brand/ap-mobile.webp`: 128 × 114, lossless, mobile picture source.
+- `public/brand/favicon.png`: 64 × 64, aspect-preserving transparent icon padding.
+- `public/brand/apple-touch-icon.png`: 180 × 180, aspect-preserving icon padding.
 
-`npm run check:brand` intentionally fails until that original and its derivatives
-exist. A passing application test suite is not a claim that the logo is complete.
+The original SHA, crop specification, intrinsic dimensions and every derivative
+SHA are recorded in `src/brand.json`. `npm run check:brand` validates the retained
+original and all derivative files. `scripts/prepare-brand.mjs` reproduces the
+assets using ImageMagick without generative tools:
 
-## Implemented presentation changes
+```sh
+npm run prepare:brand -- "design/brand/Interlocked AP Letterman Patch Logo.png"
+npm run check:brand
+npm run check
+```
 
-- Exact requested palette: midnight navy `#111827`, vintage cream `#F3EFE6`, muted
-  varsity red `#A52A3B`, silver `#B1B5BC`, white and charcoal. Gold tokens removed.
+Generated files are committed; Codespaces does not need ImageMagick or any asset
+build step to run the application. Regeneration requires ImageMagick. The script
+rejects an unexpected source size or a different original until manually reviewed.
+
+Original and optimized artwork, including small-size desktop/mobile/icon assets,
+were visually inspected as standalone images. A pixel comparison confirmed zero
+changed pixels in the lossless homepage treatment outside the documented board-
+label exclusion. This verifies asset derivation, not rendered page layout.
+
+## Presentation changes
+
+- Exact interface palette: midnight navy `#111827`, vintage cream `#F3EFE6`, muted
+  varsity red `#A52A3B`, silver `#B1B5BC`, white and charcoal. Gold CSS tokens removed;
+  the approved artwork’s gold embroidery is intentionally retained.
 - Self-hosted Barlow Condensed athletic display typography, editorial serif
-  accents and system body fonts. The font license is retained with the asset.
-- Full-width Folsom Field panorama and cinematic overlays on the umbrella home,
-  with the unchanged “YOUR SPORT. YOUR PATH. ONE PLACE.” tagline.
-- Mission, discovery, development and opportunity chapters. Sport discovery uses
-  photographic editorial features rather than dense uniform corporate cards.
-- One Sports dropdown, still exactly Lacrosse, Volleyball, Basketball, Swimming,
-  Build Your Own. Existing native details behavior and Escape/outside-click
-  handlers remain unchanged.
-- Each sport uses relevant, licensed photography; View All Teams is prominent.
-  Shared five-section navigation and all original route behavior are retained.
-- Directories group clubs, swim programs, named teams, schools, leagues and
-  divisions, with parent organization labels and existing sources/save controls.
-- Swimming program-format filtering is derived only from existing source text.
-  Denver Swim Academy and Loveland Swim Club are explicitly year-round. Other
-  programs remain unclassified. Zero records are asserted to be summer-league
-  programs because the catalog does not establish that seasonal classification.
-- Build My Pathway becomes three visible journey chapters (starting point,
-  direction, choices). IDs, field values, persistence and default-off media hooks
-  remain intact; no additional portal or application workflow was introduced.
-- Mobile CSS covers narrow iPhone widths, iPad layouts, input font sizes that
-  avoid iOS focus zoom, 48px action targets, visible focus, reduced motion,
-  responsive photo sources and typography. Photo source/license credits are in
-  `/credits` and `src/photography.json`.
+  accents and system body fonts; font OFL license retained with the asset.
+- Full-width Folsom Field panorama and cinematic overlays, with the unchanged
+  umbrella tagline “YOUR SPORT. YOUR PATH. ONE PLACE.”
+- Editorial mission, discovery, development and opportunity chapters. A larger
+  approved-logo treatment appears in the homepage mission section.
+- Exactly one Sports dropdown: Lacrosse, Volleyball, Basketball, Swimming and
+  Build Your Own. Native details and original Escape/outside-click behavior remain.
+- Relevant responsive sport photography, prominent View All Teams, all existing
+  sport landing pages and Teams/Tryouts/Camps/Community sections preserved.
+- First-party directories distinguish clubs/swim programs, actual named teams,
+  schools, leagues and divisions, with parent labels, provenance and save actions.
+- Swimming format filtering uses existing explicit source text only: Denver Swim
+  Academy and Loveland Swim Club are year-round. Other programs are unclassified;
+  none is asserted to be summer-league solely from league membership.
+- Build My Pathway uses three visible journey chapters. Every original field
+  value, interaction hook and default-off media choice remains intact.
+- iPhone/iPad CSS, 48px action targets, 16px inputs, visible focus, reduced motion,
+  responsive WebP assets, and photographic source/license credits in `/credits`.
 
-## Preserved byte-for-byte
+## Preserved application and data
 
-The v0.6 catalog, catalog queries/quality validation, browser interaction code,
-profile persistence/migration logic and all eight original automated test groups
-are unchanged. A committed SHA-256 fixture checks those boundaries. Saved
-opportunities, personal/imported plans, ICS export, recruiting planner, family
-profiles and opt-in sources keep their existing local-storage schema.
+The v0.6 Colorado catalog, catalog queries/quality validation, browser interaction
+code, profile persistence/migration schema, and all eight original test groups
+remain byte-for-byte unchanged. A committed SHA-256 fixture verifies those
+boundaries. Family profiles, saved opportunities, personal/imported schedules,
+ICS export, recruiting planner and opt-in sources retain their existing behavior.
 
-No data records, affiliations, source dates or quality claims were changed.
-No backend rebuild, framework migration, fan/coaching portal or deployment
-configuration was added. Package and health versions identify the development
-iteration as 0.7.0.
+No affiliations, source dates, data records or quality claims were changed. No fan
+or coaching portal, backend rebuild, framework migration or deployment config was
+added. Browser-local identity/storage limitations and partial statewide coverage
+remain unchanged. Package/health versions identify development iteration 0.7.0.
 
-## Files
+## Modified file groups
 
-- `src/views.mjs`: shared shell, homepage, sport/directory presentation, onboarding,
-  photo credits. Workspace and data-page workflows remain in place.
-- `public/style.css`: readable shared typography/layout, editorial and mobile CSS.
-- `src/presentation.mjs`: presentation-only entity labels and conservative swim
-  classification; `src/photography.json`: image provenance;
-  `src/brand.json`: explicit pending approved-artwork manifest.
-- `public/photos/*`: responsive WebP derivatives; `public/fonts/*`: self-hosted
-  type and OFL license; old `public/a.svg` removed.
-- `server.mjs`: allowlisted new visual assets and updated health version only.
-- `scripts/prepare-brand.mjs`, `scripts/check-brand.mjs`: deterministic original
-  retention, image-format optimization and completion checks.
+- `src/views.mjs`, `public/style.css`: shared shell, home/sport/directory/onboarding
+  presentation, responsive logo placement and image credits.
+- `src/presentation.mjs`, `src/photography.json`: presentation labels, conservative
+  swimming classification, and photo provenance.
+- `src/brand.json`, `design/brand/*`, `public/brand/*`: approved source and faithful
+  web/icon derivatives with provenance and dimensions.
+- `public/photos/*`, `public/fonts/*`: responsive photography and licensed type;
+  original generic `public/a.svg` removed.
+- `server.mjs`: explicit visual-asset allowlist and development health version.
+- `scripts/prepare-brand.mjs`, `scripts/check-brand.mjs`: deterministic asset
+  derivation, retained-source and derivative integrity checks.
 - `test/design.test.mjs`, `test/fixtures/v06-preserved.json`: regression checks.
 - `package.json`, `README.md`, this document: version, commands and delivery notes.
 
 ## Verification and remaining QA
 
-`npm run check`: 18 passing groups (all eight original groups plus ten design
-regression groups). Includes first-party routes and assets, original-file hashes,
-exact menu destinations, sport photos/CTAs, entity hierarchy, evidence-based
-swimming filters, onboarding hooks/defaults, structural mobile checks and solid
-text/button contrast pairs. No runtime dependencies were added.
+`npm run check`: **20 passing groups on Node 22.23.4**, including all eight original
+groups, ten presentation regressions and two approved-logo integrity/routing
+checks. Coverage includes preserved-file hashes, menu destinations, editorial
+structure, source-backed swimming filters, onboarding hooks, responsive structure,
+solid-color AA text contrast, original attachment hash, derivative hashes and
+aspect ratios, homepage/header/mobile/icon references, and correct HTTP asset bytes.
 
-`npm run check:brand`: BLOCKED by missing approved PNG. This is intentional.
+`npm run check:brand`: **PASS**. Original and all treatments verified.
 
-No screenshots or interactive browser/mobile results are available. The attached
-cloud environment reports desktop enabled/state unknown, but its tool catalog
-has no callable `cua_repl.js`. The Sites managed-preview instructions require
-skipping preview/browser QA in this condition. No substitute browser-control
-process or preview server was started. Node HTTP tests use ephemeral servers only.
+No browser/mobile screenshots or interaction pass is available. The attached
+managed environment reports desktop enabled/state unknown, but exposes no callable
+`cua_repl.js`. The Sites managed-preview instructions require skipping preview
+and browser QA in this state. No alternate browser-control process or preview
+server was started; HTTP tests create and close ephemeral servers only.
 
-Still required: inspect the actual logo, verify its derived treatments, and run
-real iPhone/iPad/desktop visual and touch QA at widths 320, 375, 390, 768, 820,
-1024 and 1440px, landscape and 200% zoom. Check menu focus/Escape/outside-click,
-image crops/contrast, overflow, form validation/scroll/focus, directory filters,
-profile save/reload/switch/delete, media choices, saved records, ICS download and
-recruiting persistence. Capture screenshots once browser tools are available.
-See `docs/QA.md` for the existing interaction acceptance checklist.
+Still required: real iPhone/iPad/desktop QA at 320, 375, 390, 768, 820, 1024 and
+1440px, landscape and 200% zoom. Check logo sizing/clear space, favicon appearance,
+menu keyboard/touch/Escape/outside click, photo crops/contrast, overflow, form
+validation/focus, filters, profile save/reload/switch/delete, media choices, saved
+records, calendar export and recruiting persistence. Capture screenshots when
+browser tooling is available. Existing acceptance details remain in `docs/QA.md`.
 
 ## Review boundary
 
-Prepare the draft PR against `codex/arena-pathway-transfer`, not `main`. Keep it
-in draft while the original logo and browser/mobile checks are outstanding.
-Do not merge, update GoDaddy/Airo preview, publish, or change production.
+Draft PR target: `codex/arena-pathway-transfer`, not `main`. Keep it draft until
+browser/mobile QA is reviewed. Do not merge, update GoDaddy/Airo preview, publish,
+or change production. GitHub writes from this session previously returned 403;
+Codespaces transfer assets are provided for the owner’s working GitHub connection.

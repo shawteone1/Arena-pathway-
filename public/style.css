@@ -463,3 +463,10 @@ body:not([data-page='home']) .section > h2 { margin-top: 45px; }
   .my-link { font-size: 10px; max-width: 40px; }
   .header-actions summary { padding: 10px 9px; gap: 10px; }
 }
+/* The approved green/gold/cream artwork is displayed without CSS recoloring,
+   clipping, rotation, stretching, opacity changes or blend effects. */
+.mission-logo { margin: 30px 0 0; width: 280px; max-width: 100%; }
+.mission-logo img { width: 100%; height: auto; object-fit: contain; }
+@media(max-width:650px) {
+  .mission-logo { width: 220px; margin: 25px 0 35px; }
+}

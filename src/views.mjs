@@ -11,8 +11,12 @@ function brandMark(){
   if(brand.status!=='ready')return '';
   return `<picture class="brand-mark"><source media="(max-width:650px)" srcset="/assets/${brand.mobileAsset}"><img src="/assets/${brand.desktopAsset}" width="${brand.width}" height="${brand.height}" alt="" decoding="async"></picture>`;
 }
+function homepageMark(){
+  if(brand.status!=='ready')return '';
+  return `<figure class="mission-logo"><img src="/assets/${brand.homepageAsset}" srcset="/assets/${brand.desktopAsset} 256w, /assets/${brand.homepageAsset} ${brand.width}w" sizes="(max-width:650px) 220px, 280px" alt="Approved Arena Pathway interlocked AP letterman patch" width="${brand.width}" height="${brand.height}" loading="lazy" decoding="async"></figure>`;
+}
 export function layout(title,content,page=''){
-  const icons=brand.status==='ready'?`<link rel="icon" href="/assets/${brand.faviconAsset}" type="image/png"><link rel="apple-touch-icon" href="/assets/${brand.appleTouchAsset}">`:'';
+  const icons=brand.status==='ready'?`<link rel="icon" href="/assets/${brand.faviconAsset}" type="image/png" sizes="64x64"><link rel="apple-touch-icon" href="/assets/${brand.appleTouchAsset}">`:'';
   return `<!doctype html><html lang="en"><head>
     <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#111827"><meta name="description" content="Your sport. Your path. One place. Discover Colorado teams and opportunities with a pathway built around your family.">
@@ -41,7 +45,7 @@ export function home(){
         <div class="hero-foot"><span>FROM YOUR FIRST TEAM TO YOUR NEXT CHAPTER.</span><a href="/credits">Folsom Field / Boulder, Colorado</a></div>
       </div>
     </section>
-    <section class="section mission" aria-labelledby="mission-heading"><div><p class="eyebrow red">THE ARENA PATHWAY MISSION</p><h2 id="mission-heading">Talent needs a place.<br><em>Ambition needs a path.</em></h2></div><div class="editorial-copy"><p>Finding your way in sport should feel like possibility. A team that fits. A chance to grow. A community that understands where you want to go.</p><p>Arena Pathway brings those starting points together for Colorado athletes and families, from local programs to the college journey.</p><a class="text-link" href="/build">Start with what matters to you <span aria-hidden="true">↗</span></a></div></section>
+    <section class="section mission" aria-labelledby="mission-heading"><div><p class="eyebrow red">THE ARENA PATHWAY MISSION</p><h2 id="mission-heading">Talent needs a place.<br><em>Ambition needs a path.</em></h2>${homepageMark()}</div><div class="editorial-copy"><p>Finding your way in sport should feel like possibility. A team that fits. A chance to grow. A community that understands where you want to go.</p><p>Arena Pathway brings those starting points together for Colorado athletes and families, from local programs to the college journey.</p><a class="text-link" href="/build">Start with what matters to you <span aria-hidden="true">↗</span></a></div></section>
     <section id="sports" class="section arena-section"><div class="section-heading"><div><p class="eyebrow red">01 / DISCOVERY</p><h2>Find your arena.</h2></div><p>Four sports. A world of possibilities.<br>Choose where your story begins.</p></div>
       <div class="arena-list">${sports.map((s,i)=>`<article class="arena-story ${s}"><a class="arena-image" href="/sports/${s}" aria-label="Explore ${cap(s)}">${photo(s,{sizes:'(max-width:650px) 100vw, 50vw'})}<span class="image-index" aria-hidden="true">0${i+1}</span></a><div class="arena-copy"><p class="eyebrow">YOUR COLORADO ${s.toUpperCase()} PATHWAY</p><h3><a href="/sports/${s}">${cap(s)}<span aria-hidden="true">↗</span></a></h3><p>${({lacrosse:'Find your field. Build your game. Go further together.',volleyball:'Every touch, every team, every next possibility.',basketball:'From the local court to the bigger stage.',swimming:'Find your lane. Discover what comes next.'})[s]}</p><div class="arena-links">${sections.map(c=>`<a href="/sports/${s}/${c}">${cap(c)}</a>`).join('')}</div></div></article>`).join('')}</div>
       <p class="coverage-line">A growing Colorado catalog, with sources behind every listing. <a href="/data">Explore coverage →</a></p>

@@ -20,7 +20,7 @@ test('homepage is an umbrella editorial experience with a single five-destinatio
  assert.ok(!html.includes('sport-grid'));assert.ok(!html.includes('class="letterman"'));
  assert.match(html,/photos\/stadium.webp/);assert.match(html,/id="sports"/);
 });
-test('generic A is not rendered and missing artwork is explicitly tracked instead of substituted',()=>{
+test('generic A is not rendered and only approved artwork is used when the brand is ready',()=>{
  for(const html of [home(),builder(),layout('Test','')]){assert.ok(!html.includes('/assets/a.svg'));assert.ok(!html.includes('letterman A'));assert.ok(!html.includes('>AP<'));}
  if(brand.status==='ready'){
   assert.match(brand.sourceSha256,/^[a-f0-9]{64}$/);for(const key of ['desktopAsset','mobileAsset','faviconAsset','appleTouchAsset'])assert.ok(existsSync(new URL('public/'+brand[key],root)));
@@ -66,4 +66,34 @@ test('primary text and action palette pairs meet WCAG AA normal-text contrast',(
  const luminance=hex=>{const rgb=hex.replace('#','').match(/../g).map(x=>parseInt(x,16)/255).map(c=>c<=.04045?c/12.92:((c+.055)/1.055)**2.4);return .2126*rgb[0]+.7152*rgb[1]+.0722*rgb[2];};
  for(const [foreground,background] of [['#111827','#F3EFE6'],['#FFFFFF','#A52A3B'],['#B1B5BC','#111827'],['#595D64','#F3EFE6']]){const a=luminance(foreground),b=luminance(background);assert.ok((Math.max(a,b)+.05)/(Math.min(a,b)+.05)>=4.5,`${foreground} on ${background}`);}
  // Photographic overlays still need real-browser contrast and visual review.
+});
+test('approved AP original is retained exactly and all derivative bytes match the reviewed manifest',()=>{
+ assert.equal(brand.status,'ready');
+ const original=readFileSync(new URL('design/brand/Interlocked AP Letterman Patch Logo.png',root));
+ assert.equal(createHash('sha256').update(original).digest('hex'),'e6416a5689f562260f3f15ed272c5427e04e7a77bcc387cb2436dccc7659f9ce');
+ assert.equal(brand.sourceSha256,createHash('sha256').update(original).digest('hex'));
+ assert.deepEqual([brand.sourceWidth,brand.sourceHeight],[1536,1024]);
+ assert.deepEqual(brand.crop,{x:310,y:45,width:900,height:805});
+ for(const [path,info] of Object.entries(brand.derivatives)){
+  assert.equal(createHash('sha256').update(readFileSync(new URL('public/'+path,root))).digest('hex'),info.sha256,path);
+  if(path.endsWith('.webp'))assert.ok(Math.abs(info.height-info.width*brand.height/brand.width)<=1,'aspect ratio: '+path);
+ }
+ assert.deepEqual([brand.derivatives[brand.faviconAsset].width,brand.derivatives[brand.faviconAsset].height],[64,64]);
+ assert.deepEqual([brand.derivatives[brand.appleTouchAsset].width,brand.derivatives[brand.appleTouchAsset].height],[180,180]);
+});
+test('homepage, shared navigation, mobile picture source and browser icons use approved asset paths',async t=>{
+ const html=home();assert.ok(html.includes(brand.homepageAsset));assert.ok(html.includes('alt="Approved Arena Pathway interlocked AP letterman patch"'));
+ for(const page of [html,builder(),sportPage('swimming',undefined,new URLSearchParams())]){
+  assert.ok(page.includes(`<source media="(max-width:650px)" srcset="/assets/${brand.mobileAsset}">`));
+  assert.ok(page.includes('src="/assets/'+brand.desktopAsset+'"'));
+  assert.ok(page.includes('href="/assets/'+brand.faviconAsset+'"'));
+  assert.ok(page.includes('href="/assets/'+brand.appleTouchAsset+'"'));
+ }
+ const server=createServer();await new Promise(r=>server.listen(0,'127.0.0.1',r));t.after(()=>new Promise(r=>server.close(r)));
+ const base='http://127.0.0.1:'+server.address().port;
+ for(const key of ['desktopAsset','mobileAsset','homepageAsset','faviconAsset','appleTouchAsset']){
+  const path=brand[key],response=await fetch(base+'/assets/'+path);assert.equal(response.status,200);
+  assert.equal(response.headers.get('content-type'),path.endsWith('.webp')?'image/webp':'image/png');
+  assert.equal(createHash('sha256').update(Buffer.from(await response.arrayBuffer())).digest('hex'),brand.derivatives[path].sha256);
+ }
 });

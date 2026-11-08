@@ -1,12 +1,12 @@
 # Arena Pathway
 
 The v0.7 presentation redesign is in progress on a separate branch. See
-[visual redesign status](docs/V07-VISUAL-REDESIGN.md) for the missing approved logo,
-new design checks, preserved v0.6 boundaries, and outstanding mobile QA.
+[visual redesign status](docs/V07-VISUAL-REDESIGN.md) for the integrated approved logo,
+design checks, preserved v0.6 boundaries, and outstanding mobile QA.
 
 A local-development Node.js application for Colorado athletes and families.
 The umbrella homepage uses college stadium photography and the navy, cream,
-muted red and silver palette. Approved AP logo integration is pending the supplied original. One Sports menu connects Lacrosse, Volleyball,
+muted red and silver palette. The approved AP logo is derived from the retained original PNG without redrawing or recoloring. One Sports menu connects Lacrosse, Volleyball,
 Basketball, Swimming and Build Your Own.
 
 ## Run locally

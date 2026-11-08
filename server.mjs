@@ -7,7 +7,7 @@ import { layout, home, sportPage, builder, myPathway, dataPage, credits } from '
 const assets = { 'style.css':'text/css; charset=utf-8', 'app.js':'text/javascript; charset=utf-8', 'state.js':'text/javascript; charset=utf-8', 'stadium.jpg':'image/jpeg' };
 assets['fonts/barlow-condensed-bold.ttf']='font/ttf';
 for(const p of Object.values(photography)){assets[p.asset]='image/webp';assets[p.smallAsset]='image/webp';}
-if(brand.status==='ready')for(const key of ['desktopAsset','mobileAsset','faviconAsset','appleTouchAsset']){const path=brand[key];assets[path]=path.endsWith('.webp')?'image/webp':'image/png';}
+if(brand.status==='ready')for(const key of ['desktopAsset','mobileAsset','homepageAsset','faviconAsset','appleTouchAsset']){const path=brand[key];assets[path]=path.endsWith('.webp')?'image/webp':'image/png';}
 export function createServer() {
  return http.createServer(async (req,res) => {
   const headers = { 'X-Content-Type-Options':'nosniff', 'Referrer-Policy':'strict-origin-when-cross-origin', 'Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'" };
