@@ -1,0 +1,14 @@
+{
+  "sourceId": "swim-durango-masters",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex separate official profile review",
+  "evidenceURL": "https://www.durangoswimclub.org/page/masters",
+  "scope": "Published organizational/program facts; full membership, related programs, teams and source scope remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "swim-durango-masters:Durango Swim Club"
+  ],
+  "expectedPageURLs": [
+    "https://www.durangoswimclub.org/page/masters"
+  ]
+}

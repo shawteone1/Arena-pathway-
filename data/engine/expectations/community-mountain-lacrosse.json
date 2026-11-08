@@ -1,0 +1,14 @@
+{
+  "sourceId": "community-mountain-lacrosse",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex official program page review",
+  "evidenceURL": "https://mountainrec.org/program/youth-sports-leagues/",
+  "scope": "Published named municipal/nonprofit sport program. Facility availability, exact registration dates and additional teams remain unverified.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "community-mountain-lacrosse:Mountain Recreation youth lacrosse"
+  ],
+  "expectedPageURLs": [
+    "https://mountainrec.org/program/youth-sports-leagues/"
+  ]
+}

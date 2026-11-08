@@ -115,7 +115,8 @@ class PathwayBrowserQA(unittest.TestCase):
         self.assertIn('18 associated teams', saved.inner_text())
         saved.locator('details summary').click()
         self.assertIn('Denver Juniors 11 Kiki', saved.inner_text())
-        self.assertIn('denverjuniorsvc.com', saved.locator('a').first.get_attribute('href'))
+        self.assertIn('/organizations/denver-juniors', saved.locator('a').first.get_attribute('href'))
+        self.assertIn('denverjuniorsvc.com', saved.get_by_role('link', name='Official source').get_attribute('href'))
 
     def test_disabled_modules_leave_no_sections_or_links_and_keep_data(self):
         p = profile(modules=['teams', 'schedules', 'recruiting', 'media'], saved=['denver-juniors'],

@@ -1,0 +1,14 @@
+{
+  "sourceId": "school-niwot-boys-basketball",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent school main-content tier census",
+  "evidenceURL": "https://nhs.svvsd.org/activities-arts-athletics/athletics/winter-sports/boys-basketball/",
+  "scope": "Only explicitly named sport program and team tiers in this official school page main content, not global navigation, staff or athlete rosters.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "school-niwot-boys-basketball:boys-basketball"
+  ],
+  "expectedPageURLs": [
+    "https://nhs.svvsd.org/activities-arts-athletics/athletics/winter-sports/boys-basketball/"
+  ]
+}

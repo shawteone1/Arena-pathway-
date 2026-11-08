@@ -1,0 +1,243 @@
+{
+  "sourceId": "basket-hdn-noco",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex separate public endorsed-program heading census",
+  "evidenceURL": "https://www.hoopdreamsnation.com/noco-teams",
+  "scope": "All named boys/girls endorsed provider programs on the specified HDN page, not season-specific competition teams or a statewide club census.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "basket-hdn-noco:girls:Colorado Basketball Club (CBC)",
+    "basket-hdn-noco:girls:Hardwood Evolution",
+    "basket-hdn-noco:girls:B & B Academy",
+    "basket-hdn-noco:girls:Colorado Lady LIghtning",
+    "basket-hdn-noco:girls:Colorado Premier",
+    "basket-hdn-noco:girls:DRIP Nation",
+    "basket-hdn-noco:girls:Colorado Swoosh Basketball",
+    "basket-hdn-noco:girls:Lady Blackhawks",
+    "basket-hdn-noco:girls:Pro-Skills Basketball (PSB)",
+    "basket-hdn-noco:girls:Colorado Hoopsters",
+    "basket-hdn-noco:girls:Colorado Prestige",
+    "basket-hdn-noco:girls:Colorado Lightning",
+    "basket-hdn-noco:girls:Colorado Triple Threat",
+    "basket-hdn-noco:girls:Northern Colorado Premier",
+    "basket-hdn-noco:girls:Rocky Mountain Hoops",
+    "basket-hdn-noco:boys:Castle Rock Raptors",
+    "basket-hdn-noco:boys:Hardwood Evolution",
+    "basket-hdn-noco:boys:J19 Lions",
+    "basket-hdn-noco:boys:Colorado Collective",
+    "basket-hdn-noco:boys:Colorado Miners",
+    "basket-hdn-noco:boys:Elevation Flyers",
+    "basket-hdn-noco:boys:B & B Academy",
+    "basket-hdn-noco:boys:altitude Basketball",
+    "basket-hdn-noco:boys:Nothin' But Net",
+    "basket-hdn-noco:boys:Colorado Swoosh",
+    "basket-hdn-noco:boys:MONDO Athletics-South",
+    "basket-hdn-noco:boys:College Bound Elite (CB)",
+    "basket-hdn-noco:boys:Colorado Magic",
+    "basket-hdn-noco:boys:Pro-Skills Basketball (PSB)",
+    "basket-hdn-noco:boys:RU ELITE",
+    "basket-hdn-noco:boys:International Basketball Academy",
+    "basket-hdn-noco:boys:Colorado Triple Threat",
+    "basket-hdn-noco:boys:MONDO Athletics-North",
+    "basket-hdn-noco:boys:Hard2Guard",
+    "basket-hdn-noco:boys:Colorado LIghtning",
+    "basket-hdn-noco:boys:Boulder Bulls",
+    "basket-hdn-noco:boys:Rocky Mountain Fever",
+    "basket-hdn-noco:boys:State 38"
+  ],
+  "expectedPageURLs": [
+    "https://www.hoopdreamsnation.com/noco-teams"
+  ],
+  "census": [
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:Colorado Basketball Club (CBC)",
+      "name": "Colorado Basketball Club (CBC)",
+      "participation": "GIRLS 4th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:Hardwood Evolution",
+      "name": "Hardwood Evolution",
+      "participation": "GIRLS 5th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:B & B Academy",
+      "name": "B & B Academy",
+      "participation": "GIRLS 4th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:Colorado Lady LIghtning",
+      "name": "Colorado Lady LIghtning",
+      "participation": "GIRLS 5th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:Colorado Premier",
+      "name": "Colorado Premier",
+      "participation": "GIRLS 3rd-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:DRIP Nation",
+      "name": "DRIP Nation",
+      "participation": "GIRLS 3rd-7th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:Colorado Swoosh Basketball",
+      "name": "Colorado Swoosh Basketball",
+      "participation": "GIRLS 7th/8th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:Lady Blackhawks",
+      "name": "Lady Blackhawks",
+      "participation": "GIRLS 3rd-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:Pro-Skills Basketball (PSB)",
+      "name": "Pro-Skills Basketball (PSB)",
+      "participation": "GIRLS 5th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:Colorado Hoopsters",
+      "name": "Colorado Hoopsters",
+      "participation": "GIRLS 4th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:Colorado Prestige",
+      "name": "Colorado Prestige",
+      "participation": "GIRLS 5th-8th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:Colorado Lightning",
+      "name": "Colorado Lightning",
+      "participation": "GIRLS 2nd-12th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:Colorado Triple Threat",
+      "name": "Colorado Triple Threat",
+      "participation": "GIRLS HS"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:Northern Colorado Premier",
+      "name": "Northern Colorado Premier",
+      "participation": "GIRLS 3rd-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:girls:Rocky Mountain Hoops",
+      "name": "Rocky Mountain Hoops",
+      "participation": "GIRLS 3rd-8th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:Castle Rock Raptors",
+      "name": "Castle Rock Raptors",
+      "participation": "BOYS 3rd-8th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:Hardwood Evolution",
+      "name": "Hardwood Evolution",
+      "participation": "BOYS 3rd-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:J19 Lions",
+      "name": "J19 Lions",
+      "participation": "BOYS 2nd-5th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:Colorado Collective",
+      "name": "Colorado Collective",
+      "participation": "BOYS 6th-16U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:Colorado Miners",
+      "name": "Colorado Miners",
+      "participation": "BOYS 8th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:Elevation Flyers",
+      "name": "Elevation Flyers",
+      "participation": "BOYS 3rd-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:B & B Academy",
+      "name": "B & B Academy",
+      "participation": "BOYS 3rd-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:altitude Basketball",
+      "name": "altitude Basketball",
+      "participation": "BOYS 8th-HS"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:Nothin' But Net",
+      "name": "Nothin' But Net",
+      "participation": "BOYS 5th-HS"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:Colorado Swoosh",
+      "name": "Colorado Swoosh",
+      "participation": "BOYS 3rd-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:MONDO Athletics-South",
+      "name": "MONDO Athletics-South",
+      "participation": "BOYS 6th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:College Bound Elite (CB)",
+      "name": "College Bound Elite (CB)",
+      "participation": "BOYS 5th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:Colorado Magic",
+      "name": "Colorado Magic",
+      "participation": "BOYS 3rd-15U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:Pro-Skills Basketball (PSB)",
+      "name": "Pro-Skills Basketball (PSB)",
+      "participation": "BOYS 3rd-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:RU ELITE",
+      "name": "RU ELITE",
+      "participation": "BOYS 5th & 6th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:International Basketball Academy",
+      "name": "International Basketball Academy",
+      "participation": "BOYS 8th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:Colorado Triple Threat",
+      "name": "Colorado Triple Threat",
+      "participation": "BOYS 4th-HS"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:MONDO Athletics-North",
+      "name": "MONDO Athletics-North",
+      "participation": "BOYS 6th-HS"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:Hard2Guard",
+      "name": "Hard2Guard",
+      "participation": "BOYS 4th-HS"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:Colorado LIghtning",
+      "name": "Colorado LIghtning",
+      "participation": "BOYS 2nd-HS"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:Boulder Bulls",
+      "name": "Boulder Bulls",
+      "participation": "BOYS 3rd-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:Rocky Mountain Fever",
+      "name": "Rocky Mountain Fever",
+      "participation": "BOYS 4th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-noco:boys:State 38",
+      "name": "State 38",
+      "participation": "BOYS 4th-17U"
+    }
+  ]
+}

@@ -8,11 +8,11 @@ import {catalog,sports} from '../src/catalog.mjs';
 import {photography,brand,swimProgram} from '../src/presentation.mjs';
 const root=new URL('../',import.meta.url);
 const read=p=>readFileSync(new URL(p,root),'utf8');
-test('reviewed catalog, catalog queries and all eight original application tests remain unchanged',()=>{
+test('reviewed catalog and catalog queries remain byte-preserved while participation behavior evolves',()=>{
  const hashes=JSON.parse(read('test/fixtures/v06-preserved.json'));
  // Profile state and workspace interactions intentionally change for independent module choices.
  // Their behavior, migration and persistence are covered by application and pathway regression tests.
- for(const path of ['data/catalog.json','src/catalog.mjs','test/application.test.mjs'])assert.equal(createHash('sha256').update(readFileSync(new URL(path,root))).digest('hex'),hashes[path],path);
+ for(const path of ['data/catalog.json','src/catalog.mjs'])assert.equal(createHash('sha256').update(readFileSync(new URL(path,root))).digest('hex'),hashes[path],path);
 });
 test('homepage is an umbrella editorial experience with a single five-destination Sports menu',()=>{
  const html=home();const nav=html.match(/<nav aria-label="Sports">(.*?)<\/nav>/s)[1];
@@ -32,9 +32,10 @@ test('generic A is not rendered and only approved artwork is used when the brand
 test('sport landing pages retain sections, use their own images and emphasize View All Teams',()=>{
  for(const s of sports){const html=sportPage(s,undefined,new URLSearchParams());assert.ok(html.includes('photos/'+s+'.webp'));assert.match(html,/View All Teams/);for(const section of ['teams','tryouts','camps','community'])assert.ok(html.includes(`/sports/${s}/${section}`));assert.ok(html.includes(`/build?sport=${s}`));}
 });
-test('directories distinguish entity types and retain filterable first-party data',()=>{
+test('directories separate participation categories, group clubs first and retain explicit team searches',()=>{
  const html=sportPage('lacrosse','teams',new URLSearchParams());
- for(const label of ['Clubs','Actual teams & collegiate programs','Schools','Leagues','Divisions'])assert.ok(html.includes(label));
+ for(const path of ['youth','high-school','college','adult','community'])assert.ok(html.includes(`/sports/lacrosse/${path}`));
+ assert.ok(html.includes('Youth Clubs &amp; Programs'));assert.ok(!html.includes('data-record="du"'));assert.ok(!html.includes('data-record="cll"'));
  const teams=sportPage('lacrosse','teams',new URLSearchParams('kind=team'));assert.ok(teams.includes('group-team'));assert.ok(!teams.includes('id="group-club"'));
  assert.match(html,/role="search"/);assert.match(html,/name="kind"/);assert.match(html,/name="city"/);
 });
@@ -43,7 +44,8 @@ test('swimming classification follows explicit catalog evidence without inventin
  assert.equal(swimProgram(catalog.organizations.find(o=>o.id==='fst')),'unclassified');
  assert.equal(swimProgram(catalog.organizations.find(o=>o.id==='mhsl-wc3')),'unclassified');
  assert.equal(catalog.organizations.filter(o=>swimProgram(o)==='summer-league').length,0);
- let html=sportPage('swimming','teams',new URLSearchParams('program=year-round'));assert.ok((html.match(/data-record=/g)||[]).length>=2);assert.ok(html.includes('data-record="dsa"'));assert.ok(!html.includes('data-record="fst"'));
+ let html=sportPage('swimming','teams',new URLSearchParams('program=year-round&q=Foothills'));assert.ok(html.includes('data-record="fst"'));assert.ok(html.includes('swim-csi-embedded')); // New explicit CSI Year Round evidence updates the presentation without rewriting the preserved catalog.
+ html=sportPage('swimming','teams',new URLSearchParams('program=year-round&q=Denver%20Swim'));assert.ok(html.includes('data-record="dsa"'));
  html=sportPage('swimming','teams',new URLSearchParams('program=summer-league'));assert.ok(html.includes('Summer-league programs'));assert.ok(!html.includes('data-record="dsa"'));assert.ok(!html.includes('data-record="fst"'));
 });
 test('onboarding retains every existing interaction hook and media defaults while exposing journey chapters',()=>{

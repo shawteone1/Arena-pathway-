@@ -1,0 +1,386 @@
+{
+  "sourceId": "basket-goldcrown-feeders",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent public paragraph/name census",
+  "evidenceURL": "https://www.goldcrownfoundation.com/basketball-programs/tryouts/",
+  "scope": "All 53 named graded feeder/club tryout posts on the published 2026–2027 page. Venue names do not establish school ownership; dates without individual years are not current fixtures.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "basket-goldcrown-feeders:boys:Arapahoe Feeder Program",
+    "basket-goldcrown-feeders:boys:Arvada West Feeder Program",
+    "basket-goldcrown-feeders:boys:Castle View Feeder Program",
+    "basket-goldcrown-feeders:boys:Chaparral Feeder Program",
+    "basket-goldcrown-feeders:boys:Chatfield Feeder Program",
+    "basket-goldcrown-feeders:boys:Cherry Creek Feeder Program",
+    "basket-goldcrown-feeders:boys:Conifer Feeder Program",
+    "basket-goldcrown-feeders:boys:Dakota Ridge Feeder Program",
+    "basket-goldcrown-feeders:boys:Denver South Feeder Program",
+    "basket-goldcrown-feeders:boys:D'Evelyn Feeder Program",
+    "basket-goldcrown-feeders:boys:Douglas County Feeder Program",
+    "basket-goldcrown-feeders:boys:Eaglecrest Feeder Program",
+    "basket-goldcrown-feeders:boys:Golden Feeder Program",
+    "basket-goldcrown-feeders:boys:Heritage High School Feeder Program",
+    "basket-goldcrown-feeders:boys:Highlands Ranch Feeder Program",
+    "basket-goldcrown-feeders:boys:Holy Family Feeder Program",
+    "basket-goldcrown-feeders:boys:Lakewood Feeder Program",
+    "basket-goldcrown-feeders:boys:Legend Feeder Program",
+    "basket-goldcrown-feeders:boys:Lutheran Feeder Program",
+    "basket-goldcrown-feeders:boys:Mountain Vista Feeder Program",
+    "basket-goldcrown-feeders:boys:Mullen Feeder Program",
+    "basket-goldcrown-feeders:boys:Pomona Feeder Program",
+    "basket-goldcrown-feeders:boys:Ralston Valley Feeder Program",
+    "basket-goldcrown-feeders:boys:Rangeview Feeder Program",
+    "basket-goldcrown-feeders:boys:Rock Canyon Feeder Program",
+    "basket-goldcrown-feeders:boys:Sky View Academy Feeder Program",
+    "basket-goldcrown-feeders:boys:Standley Lake Feeder Program",
+    "basket-goldcrown-feeders:boys:Wheat Ridge Feeder Program",
+    "basket-goldcrown-feeders:girls:Arvada West Feeder Program",
+    "basket-goldcrown-feeders:girls:Castle View Feeder Program",
+    "basket-goldcrown-feeders:girls:Chaparral Feeder Program",
+    "basket-goldcrown-feeders:girls:Chatfield Feeder Program",
+    "basket-goldcrown-feeders:girls:Cherry Creek Feeder Program",
+    "basket-goldcrown-feeders:girls:Conifer Feeder Program",
+    "basket-goldcrown-feeders:girls:Denver South Feeder Program",
+    "basket-goldcrown-feeders:girls:D'Evelyn Feeder Program",
+    "basket-goldcrown-feeders:girls:Golden Feeder Program",
+    "basket-goldcrown-feeders:girls:Heritage Feeder Program",
+    "basket-goldcrown-feeders:girls:Highland Ranch Feeder Program",
+    "basket-goldcrown-feeders:girls:Holy Family Feeder Program",
+    "basket-goldcrown-feeders:girls:Littleton Feeder Team",
+    "basket-goldcrown-feeders:girls:Mountain Vista Feeder Program",
+    "basket-goldcrown-feeders:girls:Mullen Feeder Program",
+    "basket-goldcrown-feeders:girls:Overland Feeder Program",
+    "basket-goldcrown-feeders:girls:Ralston Valley Feeder Program",
+    "basket-goldcrown-feeders:girls:Rock Canyon Feeder Program",
+    "basket-goldcrown-feeders:girls:Thunder Ridge Feeder Program",
+    "basket-goldcrown-feeders:girls:Vista Peak Feeder Program",
+    "basket-goldcrown-feeders:boys-girls:B & B Basketball Academy",
+    "basket-goldcrown-feeders:girls:BC Denver",
+    "basket-goldcrown-feeders:boys-girls:COLORADO MUSTANGS",
+    "basket-goldcrown-feeders:boys:LOB Elite",
+    "basket-goldcrown-feeders:girls:Rocky Mountain Soldiers"
+  ],
+  "expectedPageURLs": [
+    "https://www.goldcrownfoundation.com/basketball-programs/tryouts/"
+  ],
+  "census": [
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Arapahoe Feeder Program",
+      "name": "Arapahoe Feeder Program",
+      "grades": "4-8",
+      "venue": "Arapahoe HS"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Arvada West Feeder Program",
+      "name": "Arvada West Feeder Program",
+      "grades": "3-8",
+      "venue": "Arvada West HS"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Castle View Feeder Program",
+      "name": "Castle View Feeder Program",
+      "grades": "4-8",
+      "venue": "Castle View HS"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Chaparral Feeder Program",
+      "name": "Chaparral Feeder Program",
+      "grades": "4-8",
+      "venue": "Chaparral High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Chatfield Feeder Program",
+      "name": "Chatfield Feeder Program",
+      "grades": "4-8",
+      "venue": "Chatfield High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Cherry Creek Feeder Program",
+      "name": "Cherry Creek Feeder Program",
+      "grades": "4-8",
+      "venue": "Cherry Creek HS"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Conifer Feeder Program",
+      "name": "Conifer Feeder Program",
+      "grades": "6-8",
+      "venue": "Conifer High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Dakota Ridge Feeder Program",
+      "name": "Dakota Ridge Feeder Program",
+      "grades": "6-8",
+      "venue": "Dakota Ridge High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Denver South Feeder Program",
+      "name": "Denver South Feeder Program",
+      "grades": "4-8",
+      "venue": "Denver South HS Main Gym"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:D'Evelyn Feeder Program",
+      "name": "D'Evelyn Feeder Program",
+      "grades": "4-8",
+      "venue": "D'Evelyn HS"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Douglas County Feeder Program",
+      "name": "Douglas County Feeder Program",
+      "grades": "4-8",
+      "venue": "Douglas County High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Eaglecrest Feeder Program",
+      "name": "Eaglecrest Feeder Program",
+      "grades": "7-8",
+      "venue": "Eaglecrest High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Golden Feeder Program",
+      "name": "Golden Feeder Program",
+      "grades": "7-8",
+      "venue": "Golden High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Heritage High School Feeder Program",
+      "name": "Heritage High School Feeder Program",
+      "grades": "4-8",
+      "venue": "Heritage High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Highlands Ranch Feeder Program",
+      "name": "Highlands Ranch Feeder Program",
+      "grades": "5-8",
+      "venue": "Cresthill Middle School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Holy Family Feeder Program",
+      "name": "Holy Family Feeder Program",
+      "grades": "4-8",
+      "venue": "Holy Family HS"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Lakewood Feeder Program",
+      "name": "Lakewood Feeder Program",
+      "grades": "2-8",
+      "venue": "Lakewood HS"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Legend Feeder Program",
+      "name": "Legend Feeder Program",
+      "grades": "4-8",
+      "venue": "Legend High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Lutheran Feeder Program",
+      "name": "Lutheran Feeder Program",
+      "grades": "6-8",
+      "venue": "Lutheran High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Mountain Vista Feeder Program",
+      "name": "Mountain Vista Feeder Program",
+      "grades": "4-8",
+      "venue": "Mountain Ridge Middle School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Mullen Feeder Program",
+      "name": "Mullen Feeder Program",
+      "grades": "4-8",
+      "venue": "Mullen High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Pomona Feeder Program",
+      "name": "Pomona Feeder Program",
+      "grades": "4-8",
+      "venue": "Pomona High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Ralston Valley Feeder Program",
+      "name": "Ralston Valley Feeder Program",
+      "grades": "3-8",
+      "venue": "Ralston Valley High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Rangeview Feeder Program",
+      "name": "Rangeview Feeder Program",
+      "grades": "8",
+      "venue": "Rangeview High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Rock Canyon Feeder Program",
+      "name": "Rock Canyon Feeder Program",
+      "grades": "4-8",
+      "venue": "Rock Canyon High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Sky View Academy Feeder Program",
+      "name": "Sky View Academy Feeder Program",
+      "grades": "6-8",
+      "venue": "Sky View Academy Large Gym"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Standley Lake Feeder Program",
+      "name": "Standley Lake Feeder Program",
+      "grades": "4-8",
+      "venue": "Standley Lake High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:Wheat Ridge Feeder Program",
+      "name": "Wheat Ridge Feeder Program",
+      "grades": "4-8",
+      "venue": "Wheat Ridge High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Arvada West Feeder Program",
+      "name": "Arvada West Feeder Program",
+      "grades": "3-8",
+      "venue": "Arvada West High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Castle View Feeder Program",
+      "name": "Castle View Feeder Program",
+      "grades": "4-8",
+      "venue": "Castle View High Schol"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Chaparral Feeder Program",
+      "name": "Chaparral Feeder Program",
+      "grades": "5-8",
+      "venue": "Chaparral High Schol"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Chatfield Feeder Program",
+      "name": "Chatfield Feeder Program",
+      "grades": "6th-8th",
+      "venue": "Chatfield High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Cherry Creek Feeder Program",
+      "name": "Cherry Creek Feeder Program",
+      "grades": "4th-8th",
+      "venue": "Cherry Creek HS 4th-5th Grade 9-24 @630-730pm 10-4 @9-1015am 6th-8th grade 9-24 @ 730-830pm 10-4 @1030-12pm"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Conifer Feeder Program",
+      "name": "Conifer Feeder Program",
+      "grades": "4th-8th",
+      "venue": "Conifer High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Denver South Feeder Program",
+      "name": "Denver South Feeder Program",
+      "grades": "4-8",
+      "venue": "Denver South HS Main Gym"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:D'Evelyn Feeder Program",
+      "name": "D'Evelyn Feeder Program",
+      "grades": "4-8",
+      "venue": "D'Evelyn HS"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Golden Feeder Program",
+      "name": "Golden Feeder Program",
+      "grades": "7",
+      "venue": "Golden HS"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Heritage Feeder Program",
+      "name": "Heritage Feeder Program",
+      "grades": "4-8",
+      "venue": "Heritage High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Highland Ranch Feeder Program",
+      "name": "Highland Ranch Feeder Program",
+      "grades": "5-8",
+      "venue": "Highland Ranch High School Lower Gym"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Holy Family Feeder Program",
+      "name": "Holy Family Feeder Program",
+      "grades": "4-8",
+      "venue": "Holy Family HS"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Littleton Feeder Team",
+      "name": "Littleton Feeder Team",
+      "grades": "4-8",
+      "venue": "Littleton HS"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Mountain Vista Feeder Program",
+      "name": "Mountain Vista Feeder Program",
+      "grades": "4-8",
+      "venue": "Mountain Ridge Middle School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Mullen Feeder Program",
+      "name": "Mullen Feeder Program",
+      "grades": "5-8",
+      "venue": "Hutchinson Fieldhouse"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Overland Feeder Program",
+      "name": "Overland Feeder Program",
+      "grades": "4-8",
+      "venue": "Overland High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Ralston Valley Feeder Program",
+      "name": "Ralston Valley Feeder Program",
+      "grades": "3-8",
+      "venue": "Ralston Valley High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Rock Canyon Feeder Program",
+      "name": "Rock Canyon Feeder Program",
+      "grades": "5-8",
+      "venue": "Rock Canyon High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Thunder Ridge Feeder Program",
+      "name": "Thunder Ridge Feeder Program",
+      "grades": "4th-8th",
+      "venue": "ThunderRidge High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Vista Peak Feeder Program",
+      "name": "Vista Peak Feeder Program",
+      "grades": "5th-8th",
+      "venue": "Vista Peak Prep High School"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys-girls:B & B Basketball Academy",
+      "name": "Team: B & B Basketball Academy",
+      "grades": "4th-8th Grade Boys & Girls",
+      "venue": "Gold Crown Field House"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:BC Denver",
+      "name": "Team: BC Denver",
+      "grades": "Girls 3-8",
+      "venue": "Sports Axis Broomfield"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys-girls:COLORADO MUSTANGS",
+      "name": "Team: COLORADO MUSTANGS",
+      "grades": "4th-8th Grade Boys & Girls",
+      "venue": "Westlake Middle School Main Gym"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:boys:LOB Elite",
+      "name": "Team: LOB Elite",
+      "grades": "Boys 6-7",
+      "venue": "Colorado Springs Christian Schools"
+    },
+    {
+      "sourceRecordId": "basket-goldcrown-feeders:girls:Rocky Mountain Soldiers",
+      "name": "Team: Rocky Mountain Soldiers",
+      "grades": "Girls 5-7",
+      "venue": "Farrell B. Howell School"
+    }
+  ]
+}

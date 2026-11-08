@@ -1,0 +1,195 @@
+{
+  "sourceId": "basket-hdn-soco",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex separate public endorsed-program heading census",
+  "evidenceURL": "https://www.hoopdreamsnation.com/soco-teams",
+  "scope": "All named boys/girls endorsed provider programs on the specified HDN page, not season-specific competition teams or a statewide club census.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "basket-hdn-soco:girls:7070 ATHLETICS",
+    "basket-hdn-soco:girls:Longshots",
+    "basket-hdn-soco:girls:Co Springs Basketball Club (CSBC)",
+    "basket-hdn-soco:girls:JLT Girls Basketball",
+    "basket-hdn-soco:girls:Altitude Hoops",
+    "basket-hdn-soco:girls:OLYMPIC CITY ELITE",
+    "basket-hdn-soco:girls:Colorado Storm",
+    "basket-hdn-soco:girls:Love of Basketball",
+    "basket-hdn-soco:girls:SOUTHERN COLORADO PREMIER",
+    "basket-hdn-soco:girls:BXST LEgacy",
+    "basket-hdn-soco:girls:Powerhouse Sports",
+    "basket-hdn-soco:girls:Rising Stars",
+    "basket-hdn-soco:girls:All-out Ballerinas",
+    "basket-hdn-soco:girls:PUEBLO WEST Thunder",
+    "basket-hdn-soco:boys:7070 Athletics",
+    "basket-hdn-soco:boys:Eagles",
+    "basket-hdn-soco:boys:Slammin 'n' jammin",
+    "basket-hdn-soco:boys:Spartan Hoops",
+    "basket-hdn-soco:boys:Love of Basketball",
+    "basket-hdn-soco:boys:Colorado Clutch",
+    "basket-hdn-soco:boys:OLYMPIC CITY ELITE",
+    "basket-hdn-soco:boys:Falcons",
+    "basket-hdn-soco:boys:BXST Legacy Hoops",
+    "basket-hdn-soco:boys:Lil' Kings",
+    "basket-hdn-soco:boys:POWERHOUSE Sports",
+    "basket-hdn-soco:boys:WE > ME",
+    "basket-hdn-soco:boys:Southern Colorado Premier",
+    "basket-hdn-soco:boys:Rising Stars",
+    "basket-hdn-soco:boys:Pueblo Punishers",
+    "basket-hdn-soco:boys:Pueblo Hoops"
+  ],
+  "expectedPageURLs": [
+    "https://www.hoopdreamsnation.com/soco-teams"
+  ],
+  "census": [
+    {
+      "sourceRecordId": "basket-hdn-soco:girls:7070 ATHLETICS",
+      "name": "7070 ATHLETICS",
+      "participation": "GIRLS 6th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:girls:Longshots",
+      "name": "Longshots",
+      "participation": "GIRLS 8th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:girls:Co Springs Basketball Club (CSBC)",
+      "name": "Co Springs Basketball Club (CSBC)",
+      "participation": "GIRLS 8th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:girls:JLT Girls Basketball",
+      "name": "JLT Girls Basketball",
+      "participation": "GIRLS 5th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:girls:Altitude Hoops",
+      "name": "Altitude Hoops",
+      "participation": "GIRLS 4th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:girls:OLYMPIC CITY ELITE",
+      "name": "OLYMPIC CITY ELITE",
+      "participation": "GIRLS 4th-12th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:girls:Colorado Storm",
+      "name": "Colorado Storm",
+      "participation": "GIRLS 8th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:girls:Love of Basketball",
+      "name": "Love of Basketball",
+      "participation": "GIRLS 8th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:girls:SOUTHERN COLORADO PREMIER",
+      "name": "SOUTHERN COLORADO PREMIER",
+      "participation": "GIRLS 3rd-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:girls:BXST LEgacy",
+      "name": "BXST LEgacy",
+      "participation": "GIRLS 5th-8th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:girls:Powerhouse Sports",
+      "name": "Powerhouse Sports",
+      "participation": "GIRLS 2nd-8th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:girls:Rising Stars",
+      "name": "Rising Stars",
+      "participation": "GIRLS 8th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:girls:All-out Ballerinas",
+      "name": "All-out Ballerinas",
+      "participation": "GIRLS 4th-7th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:girls:PUEBLO WEST Thunder",
+      "name": "PUEBLO WEST Thunder",
+      "participation": "GIRLS 4th-6th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:7070 Athletics",
+      "name": "7070 Athletics",
+      "participation": "BOYS 5th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:Eagles",
+      "name": "Eagles",
+      "participation": "BOYS 3rd-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:Slammin 'n' jammin",
+      "name": "Slammin 'n' jammin",
+      "participation": "BOYS 4th-6th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:Spartan Hoops",
+      "name": "Spartan Hoops",
+      "participation": "BOYS 6th-9th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:Love of Basketball",
+      "name": "Love of Basketball",
+      "participation": "BOYS 4th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:Colorado Clutch",
+      "name": "Colorado Clutch",
+      "participation": "Boys 7th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:OLYMPIC CITY ELITE",
+      "name": "OLYMPIC CITY ELITE",
+      "participation": "BOYS 5th-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:Falcons",
+      "name": "Falcons",
+      "participation": "BOYS 5th-7th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:BXST Legacy Hoops",
+      "name": "BXST Legacy Hoops",
+      "participation": "BOYS 4th-9th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:Lil' Kings",
+      "name": "Lil' Kings",
+      "participation": "BOYS HS"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:POWERHOUSE Sports",
+      "name": "POWERHOUSE Sports",
+      "participation": "BOYS 2nd-17U"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:WE > ME",
+      "name": "WE > ME",
+      "participation": "BOYS 5th-9th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:Southern Colorado Premier",
+      "name": "Southern Colorado Premier",
+      "participation": "BOYS 3rd-8th"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:Rising Stars",
+      "name": "Rising Stars",
+      "participation": "BOYS HS"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:Pueblo Punishers",
+      "name": "Pueblo Punishers",
+      "participation": "BOYS 6th & HS"
+    },
+    {
+      "sourceRecordId": "basket-hdn-soco:boys:Pueblo Hoops",
+      "name": "Pueblo Hoops",
+      "participation": "BOYS 7th-9th"
+    }
+  ]
+}

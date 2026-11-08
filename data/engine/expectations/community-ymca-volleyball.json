@@ -1,0 +1,14 @@
+{
+  "sourceId": "community-ymca-volleyball",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex official program page review",
+  "evidenceURL": "https://www.ymcanoco.org/sports/volleyball",
+  "scope": "Published named municipal/nonprofit sport program. Facility availability, exact registration dates and additional teams remain unverified.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "community-ymca-volleyball:YMCA Northern Colorado volleyball"
+  ],
+  "expectedPageURLs": [
+    "https://www.ymcanoco.org/sports/volleyball"
+  ]
+}

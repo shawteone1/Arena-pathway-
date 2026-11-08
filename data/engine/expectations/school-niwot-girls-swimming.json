@@ -1,0 +1,15 @@
+{
+  "sourceId": "school-niwot-girls-swimming",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent school main-content tier census",
+  "evidenceURL": "https://nhs.svvsd.org/activities-arts-athletics/athletics/winter-sports/girls-swimming/",
+  "scope": "Only explicitly named sport program and team tiers in this official school page main content, not global navigation, staff or athlete rosters.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "school-niwot-girls-swimming:girls-swimming",
+    "school-niwot-girls-swimming:published-workout-venue"
+  ],
+  "expectedPageURLs": [
+    "https://nhs.svvsd.org/activities-arts-athletics/athletics/winter-sports/girls-swimming/"
+  ]
+}

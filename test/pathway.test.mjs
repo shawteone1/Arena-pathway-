@@ -12,7 +12,7 @@ test('new explicit module choices are independent of goal, interests and saved c
  assert.deepEqual(p,{...before,saved:['denver-juniors']});assert.equal(p.saved[0],'denver-juniors');assert.ok(!p.modules.includes('recruiting'));
  toggleSaved(p,'denver-juniors');assert.deepEqual(p.saved,[]);assert.deepEqual(p.modules,['teams','camps']);
 });
-test('all six modules can be selected independently, sanitized and ordered without mandatory progression',()=>{
+test('all seven modules can be selected independently, sanitized and ordered without mandatory progression',()=>{
  for(const {id} of moduleDefinitions){const p=profile({modules:[id]});assert.deepEqual(p.modules,[id]);}
  const p=profile({modules:['community','teams','community','invalid','recruiting']});assert.deepEqual(p.modules,['community','teams','recruiting']);
  setModules(p,['recruiting','community','teams']);assert.deepEqual(p.modules,['recruiting','community','teams']);
@@ -48,7 +48,7 @@ test('workspace navigation starts empty and optional features are inert template
  const html=myPathway();assert.match(html,/<nav id="workspace-nav"[^>]*><\/nav>/);assert.match(html,/<div id="workspace-modules"><\/div>/);
  for(const {id} of moduleDefinitions)assert.ok(html.includes('id="template-'+id+'"'));
  const outsideTemplates=html.replace(/<template[^>]*>[\s\S]*?<\/template>/g,'');assert.ok(!outsideTemplates.includes('href="#recruiting"'));assert.ok(!outsideTemplates.includes('id="recruiting-form"'));
- const form=builder();assert.equal((form.match(/name="workspace-module"/g)||[]).length,6);assert.ok(!/<input[^>]*name="workspace-module"[^>]*checked/.test(form));assert.ok(form.includes('name="interests"'));
+ const form=builder();assert.equal((form.match(/name="workspace-module"/g)||[]).length,7);assert.ok(!/<input[^>]*name="workspace-module"[^>]*checked/.test(form));assert.ok(form.includes('name="interests"'));
 });
 test('workspace supports keyboard reorder and retains organization lookup without recruiting side effects',()=>{
  const app=readFileSync(new URL('../public/app.js',import.meta.url),'utf8');assert.ok(app.includes('setModules(p,modules)'));assert.ok(app.includes("button.setAttribute('aria-label','Move '"));assert.ok(!app.includes('innerHTML'));

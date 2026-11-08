@@ -2,7 +2,7 @@ import {createHash} from 'node:crypto';
 export const KINDS=['organization','team','league','division','competition','season','event','location','community'];
 export const SPORTS=['lacrosse','volleyball','basketball','swimming'];
 export const REGIONS=['denver-metro','northern-front-range','pikes-peak','eastern-plains','southeast','southwest','western-slope','central-mountains','san-luis-valley'];
-export const PROGRAMS=['year-round-usa-swimming','summer-swimming','high-school-swimming','collegiate-swimming','indoor-volleyball','beach-volleyball','other-volleyball','field-lacrosse','box-lacrosse','basketball','unknown'];
+export const PROGRAMS=['year-round-usa-swimming','seasonal-usa-swimming','masters-swimming','summer-swimming','high-school-swimming','collegiate-swimming','indoor-volleyball','beach-volleyball','other-volleyball','field-lacrosse','box-lacrosse','basketball','unknown'];
 export const normalize=s=>String(s||'').normalize('NFKD').toLowerCase().replace(/[^a-z0-9]/g,'');
 export const hash=v=>createHash('sha256').update(typeof v==='string'?v:JSON.stringify(v)).digest('hex');
 export const stableID=(kind,...parts)=>'co-'+kind+'-'+hash(parts.map(normalize).join('|')).slice(0,20);
