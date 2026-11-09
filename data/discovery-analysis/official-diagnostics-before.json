@@ -1,0 +1,813 @@
+[
+  {
+    "name": "Boulder Valley Lacrosse",
+    "sport": "lacrosse",
+    "url": "https://www.boulderlacrosse.org/",
+    "diagnosticOnly": true,
+    "status": "retrieved",
+    "finalURL": "https://www.boulderlacrosse.org/",
+    "sha256": "9d32a8fc4edb1ce35237c3fdc00cfc7022f9cc09a80c699184c5735cf7fea6ef",
+    "at": "2026-11-09T22:15:33.538Z",
+    "records": [
+      {
+        "nativeId": "profile",
+        "name": "Boulder Valley Lacrosse",
+        "kind": "organization",
+        "url": "https://www.boulderlacrosse.org/",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": "competitive"
+        },
+        "evidenceText": "Click Here For Boulder Girls Lacrosse JOIN OUR BVL LACROSSE COMMUNITY! Lacrosse parents-Be sure to create an account here on our new website, powered "
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.boulderlacrosse.org/",
+        "title": "Programs"
+      },
+      {
+        "url": "https://www.boulderlacrosse.org/program/winter-indoor/6373",
+        "title": "WINTER INDOOR"
+      },
+      {
+        "url": "https://www.boulderlacrosse.org/program/spring-league/6518",
+        "title": "SPRING LEAGUE"
+      },
+      {
+        "url": "https://www.boulderlacrosse.org/program/boys-summer-camp/6521",
+        "title": "BOYS SUMMER CAMP"
+      },
+      {
+        "url": "https://www.boulderlacrosse.org/program/fall-sunday-skills/6836",
+        "title": "FALL SUNDAY SKILLS"
+      },
+      {
+        "url": "https://www.boulderlacrosse.org/program/bvl-fall-league/13120",
+        "title": "BVL FALL LEAGUE"
+      },
+      {
+        "url": "https://www.boulderlacrosse.org/program/boulder-select/6610",
+        "title": "Boulder Select"
+      },
+      {
+        "url": "https://www.boulderlacrosse.org/program/boulder-elite/26707",
+        "title": "Boulder Elite"
+      },
+      {
+        "url": "https://www.boulderlacrosse.org/schedule",
+        "title": "Schedule"
+      }
+    ],
+    "issues": []
+  },
+  {
+    "name": "Foothills Pack",
+    "sport": "lacrosse",
+    "url": "https://www.foothillspack.com/",
+    "diagnosticOnly": true,
+    "status": "retrieved",
+    "finalURL": "https://www.foothillspack.com/",
+    "sha256": "0fbce3be157cbc8d51af6bcfd659f0d4fb040b3ffd9cbba85a5fd47f4c00df66",
+    "at": "2026-11-09T22:15:37.250Z",
+    "records": [
+      {
+        "nativeId": "profile",
+        "name": "Girls Lacrosse Club in Boulder & Denver",
+        "kind": "organization",
+        "url": "https://www.foothillspack.com/",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": "BOULDER COUNTY GIRLS LACROSSE · YOUTH THROUGH HIGH SCHOOL ONE TRYOUT. ONE DAY. THAT'S NOT HOW WE DO IT HERE"
+          },
+          "youthEligible": true,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "BOULDER COUNTY GIRLS LACROSSE · YOUTH THROUGH HIGH SCHOOL ONE TRYOUT. ONE DAY. THAT'S NOT HOW WE DO IT HERE. Players join the Pack by practicing with "
+      },
+      {
+        "nativeId": "section:FOOTHILLS PACK GIRLS LACROSSE",
+        "name": "FOOTHILLS PACK GIRLS LACROSSE",
+        "kind": "program",
+        "url": "https://www.foothillspack.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "FOOTHILLS PACK GIRLS LACROSSE"
+      },
+      {
+        "nativeId": "section:NO TRYOUT DAY. JUST REACH OUT.",
+        "name": "NO TRYOUT DAY. JUST REACH OUT.",
+        "kind": "registration",
+        "url": "https://www.foothillspack.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "NO TRYOUT DAY. JUST REACH OUT."
+      },
+      {
+        "nativeId": "section:2030",
+        "name": "2030",
+        "kind": "program",
+        "url": "https://www.foothillspack.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "2030"
+      },
+      {
+        "nativeId": "section:2031",
+        "name": "2031",
+        "kind": "program",
+        "url": "https://www.foothillspack.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "2031"
+      },
+      {
+        "nativeId": "section:2032",
+        "name": "2032",
+        "kind": "program",
+        "url": "https://www.foothillspack.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "2032"
+      },
+      {
+        "nativeId": "section:2033",
+        "name": "2033",
+        "kind": "program",
+        "url": "https://www.foothillspack.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "2033"
+      },
+      {
+        "nativeId": "section:2034",
+        "name": "2034",
+        "kind": "program",
+        "url": "https://www.foothillspack.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "2034"
+      },
+      {
+        "nativeId": "section:2035",
+        "name": "2035",
+        "kind": "program",
+        "url": "https://www.foothillspack.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "2035"
+      },
+      {
+        "nativeId": "section:2036",
+        "name": "2036",
+        "kind": "program",
+        "url": "https://www.foothillspack.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "2036"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.foothillspack.com/",
+        "title": "FOOTHILLS PACK GIRLS LACROSSE"
+      },
+      {
+        "url": "https://www.foothillspack.com/join-the-club-1",
+        "title": "PLAYER INTEREST FORM"
+      },
+      {
+        "url": "https://www.foothillspack.com/join-the-club",
+        "title": "PLAYER INTEREST FORM"
+      }
+    ],
+    "issues": []
+  },
+  {
+    "name": "Warriors Youth Sports",
+    "sport": "lacrosse",
+    "url": "https://www.warriorsyouthsports.com/content/34032/LAX-FAQ",
+    "diagnosticOnly": true,
+    "status": "failed",
+    "code": "ROBOTS_UNAVAILABLE",
+    "message": "Robots could not be verified (HTTP 406)",
+    "at": "2026-11-09T22:15:38.371Z"
+  },
+  {
+    "name": "Littleton Youth Sports",
+    "sport": "lacrosse",
+    "url": "https://www.littletonyouthsports.org/lacrosse-faqs",
+    "diagnosticOnly": true,
+    "status": "retrieved",
+    "finalURL": "https://www.littletonyouthsports.org/lacrosse-faqs",
+    "sha256": "4b2cc997631fc069e06c90f85253c836fd9190b65c88f4c3a4443610ab6b3329",
+    "at": "2026-11-09T22:15:41.380Z",
+    "records": [
+      {
+        "nativeId": "profile",
+        "name": "\\r\\n Littleton Youth Sports\\r\\n",
+        "kind": "organization",
+        "url": "https://www.littletonyouthsports.org/lacrosse-faqs",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": "ted situations, we do allow 5 year old’s to play up to age 6. This situation requires a discussion with a Thunder Lacrosse represe"
+          },
+          "youthEligible": true,
+          "state": null,
+          "ageGradeText": "K-8",
+          "participationLevel": "competitive"
+        },
+        "evidenceText": "{\"css\":\"@media all {\\n *#dm .dmInner nav.u_1998592992 { color:black !important; }\\n\\n *#dm .dmInner nav.u_1446019075 { color:white !important; }\\n\\n *"
+      }
+    ],
+    "links": [],
+    "issues": []
+  },
+  {
+    "name": "Denver United Lacrosse",
+    "sport": "lacrosse",
+    "url": "https://www.unitedlacrosse.org/",
+    "diagnosticOnly": true,
+    "status": "retrieved",
+    "finalURL": "https://www.unitedlacrosse.org/",
+    "sha256": "01ca31e9d44be2406c20f153689ff47726f77f283acf9ed7c67d3efd1597800e",
+    "at": "2026-11-09T22:15:43.844Z",
+    "records": [
+      {
+        "nativeId": "profile",
+        "name": "DENVER UNITED LACROSSE",
+        "kind": "organization",
+        "url": "https://www.unitedlacrosse.org/",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": "nts in our program. The program is run and operated by Colorado Natives, Matt Soran & Dillon Roy. Contact UsLet’s talk lacrosse! Plea",
+            "youth": "PEN!What we DO LEARN TO PLAY LEARN TO PLAYBoys & Girls Ages 4-6Spring, Summer, & Fall Learn more BOY’S TEAMS Boy’s TeamsBoys K thro"
+          },
+          "youthEligible": true,
+          "state": "CO",
+          "ageGradeText": "Ages 4-6",
+          "participationLevel": null
+        },
+        "evidenceText": "TRY FOR FREE! Fall REGISTRATION IS OPEN!What we DO LEARN TO PLAY LEARN TO PLAYBoys & Girls Ages 4-6Spring, Summer, & Fall Learn more BOY’S TEAMS Boy’s"
+      }
+    ],
+    "links": [],
+    "issues": []
+  },
+  {
+    "name": "Ranger Youth Lacrosse",
+    "sport": "lacrosse",
+    "url": "https://www.rangerlacrosse.org/about/about-us/18227",
+    "diagnosticOnly": true,
+    "status": "retrieved",
+    "finalURL": "https://www.rangerlacrosse.org/about/about-us/18227",
+    "sha256": "39fc33ba887f3980350beb32497da9bffa1cf4f3b35f2d47780b859e98bfb68a",
+    "at": "2026-11-09T22:15:49.277Z",
+    "records": [
+      {
+        "nativeId": "profile",
+        "name": "Ranger Youth Lacrosse",
+        "kind": "organization",
+        "url": "https://www.rangerlacrosse.org/about/about-us/18227",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": "kes (Monument, Woodmoor, and Palmer Lake) and Northern Colorado Springs area with the opportunity to learn and participate in the fas",
+            "youth": "About Us About Us Ranger Lacrosse Ranger Youth Lacrosse is a non-profit 501(c)(3) providing boys of the Tri-Lakes (M"
+          },
+          "youthEligible": true,
+          "state": "CO",
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "About Us About Us Ranger Lacrosse Ranger Youth Lacrosse is a non-profit 501(c)(3) providing boys of the Tri-Lakes (Monument, Woodmoor, and Palmer Lake"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.rangerlacrosse.org/",
+        "title": "Ranger Youth Lacrosse"
+      },
+      {
+        "url": "https://www.rangerlacrosse.org/about/about-us/18227",
+        "title": "About Us"
+      },
+      {
+        "url": "https://www.rangerlacrosse.org/program/ranger-lax-fall-registration/13358",
+        "title": "Ranger Lax Fall Registration"
+      },
+      {
+        "url": "https://www.rangerlacrosse.org/program/try-lacrosse-for-free/36608",
+        "title": "Try Lacrosse for FREE"
+      },
+      {
+        "url": "https://www.rangerlacrosse.org/schedule",
+        "title": "Schedule"
+      }
+    ],
+    "issues": []
+  },
+  {
+    "name": "NORCO",
+    "sport": "volleyball",
+    "url": "https://www.norcovolleyball.com/clubfaq",
+    "diagnosticOnly": true,
+    "status": "failed",
+    "code": "HTTP_403",
+    "message": "Public source returned HTTP 403",
+    "at": "2026-11-09T22:15:53.194Z"
+  },
+  {
+    "name": "Elevation Volleyball Club",
+    "sport": "volleyball",
+    "url": "https://www.elevationvball.com/regional",
+    "diagnosticOnly": true,
+    "status": "failed",
+    "code": "HTTP_403",
+    "message": "Public source returned HTTP 403",
+    "at": "2026-11-09T22:15:55.374Z"
+  },
+  {
+    "name": "Colorado Momentum Volleyball Club",
+    "sport": "volleyball",
+    "url": "https://momentumvbc.com/",
+    "diagnosticOnly": true,
+    "status": "failed",
+    "code": "ROBOTS_UNAVAILABLE",
+    "message": "Robots could not be verified (HTTP 403)",
+    "at": "2026-11-09T22:15:56.451Z"
+  },
+  {
+    "name": "ClubOne Volleyball",
+    "sport": "volleyball",
+    "url": "https://www.clubonevolleyball.com/pride",
+    "diagnosticOnly": true,
+    "status": "failed",
+    "code": "HTTP_403",
+    "message": "Public source returned HTTP 403",
+    "at": "2026-11-09T22:15:58.897Z"
+  },
+  {
+    "name": "Prime Volleyball Academy",
+    "sport": "volleyball",
+    "url": "https://www.primevolleyballacademy.com/",
+    "diagnosticOnly": true,
+    "status": "retrieved",
+    "finalURL": "https://www.primevolleyballacademy.com/",
+    "sha256": "4c8c860901eb863d20f99c7881f40737e7a1808f13a45bda2f34cf10e2abd7a8",
+    "at": "2026-11-09T22:16:05.785Z",
+    "records": [
+      {
+        "nativeId": "profile",
+        "name": "Prime Volleyball Academy",
+        "kind": "organization",
+        "url": "https://www.primevolleyballacademy.com/",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": "8:00am 13U Regional RMR Friendship TBD 1/3 - 8:00am 15 Colorado Autumn RMR Friendship TBD 1/3 - 8:00am 17 Colorado Rachel RMR Friends",
+            "youth": "sroads Colorado Convention Center October 2, 2026 Next Youth League Registration NOW OPEN Primes Mountain Skills Clinics Open Gyms"
+          },
+          "youthEligible": true,
+          "state": "CO",
+          "ageGradeText": "ages 3-18",
+          "participationLevel": "competitive"
+        },
+        "evidenceText": "1/3 - 8:00am 15 National Caitlin RMR Friendship TBD 1/3 - 8:00am 16 National Da'Shaun RMR Friendship TBD 1/3 - 8:00am 17 National Katie RMR Friendship"
+      },
+      {
+        "nativeId": "section:October 2, 2026",
+        "name": "October 2, 2026",
+        "kind": "program",
+        "url": "https://www.primevolleyballacademy.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "October 2, 2026"
+      },
+      {
+        "nativeId": "section:Next Youth League Registration NOW OPEN",
+        "name": "Next Youth League Registration NOW OPEN",
+        "kind": "registration",
+        "url": "https://www.primevolleyballacademy.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": "Next Youth League Registration NOW OPEN"
+          },
+          "youthEligible": true,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "Next Youth League Registration NOW OPEN"
+      },
+      {
+        "nativeId": "section:15",
+        "name": "15",
+        "kind": "program",
+        "url": "https://www.primevolleyballacademy.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "15"
+      },
+      {
+        "nativeId": "section:25",
+        "name": "25",
+        "kind": "program",
+        "url": "https://www.primevolleyballacademy.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "25"
+      },
+      {
+        "nativeId": "section:30+",
+        "name": "30+",
+        "kind": "program",
+        "url": "https://www.primevolleyballacademy.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "30+"
+      },
+      {
+        "nativeId": "section:August 19, 2026",
+        "name": "August 19, 2026",
+        "kind": "program",
+        "url": "https://www.primevolleyballacademy.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "August 19, 2026"
+      },
+      {
+        "nativeId": "section:July 3, 2026",
+        "name": "July 3, 2026",
+        "kind": "program",
+        "url": "https://www.primevolleyballacademy.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "July 3, 2026"
+      },
+      {
+        "nativeId": "section:June 30, 2026",
+        "name": "June 30, 2026",
+        "kind": "program",
+        "url": "https://www.primevolleyballacademy.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "June 30, 2026"
+      },
+      {
+        "nativeId": "section:July 30, 2026",
+        "name": "July 30, 2026",
+        "kind": "program",
+        "url": "https://www.primevolleyballacademy.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "July 30, 2026"
+      },
+      {
+        "nativeId": "section:November 13, 2024",
+        "name": "November 13, 2024",
+        "kind": "program",
+        "url": "https://www.primevolleyballacademy.com/",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "November 13, 2024"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.primevolleyballacademy.com/",
+        "title": "Programs"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/about/about-us/51245",
+        "title": "About Us"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/about/contact-us/145744",
+        "title": "Contact Us"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/about/coaches/51233",
+        "title": "Coaches"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/about/newsletters/179125",
+        "title": "Newsletters"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/about/book-a-court/191124",
+        "title": "BOOK A COURT"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/program/youth-programs/22364",
+        "title": "Youth Programs"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/program/skills-clinics/14298",
+        "title": "Skills Clinics"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/program/open-gyms/14300",
+        "title": "Open Gyms"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/program/high-school-training-program/35320",
+        "title": "High School Training Program"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/program/prime-camp-s/31907",
+        "title": "Prime Camp's"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/program/club-26-27-season/31796",
+        "title": "Club 26 - 27 Season"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/schedule",
+        "title": "Schedule"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/player-resources/try-volleyball-clinics/109667",
+        "title": "Try Volleyball Clinics"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/builder/link/article/30263",
+        "title": "October 2, 2026 Next Youth League Registration NOW OPEN"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/builder/link/program/27421",
+        "title": "Primes Mountain"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/builder/link/program/14298",
+        "title": "Skills Clinics"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/builder/link/program/14300",
+        "title": "Open Gyms"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/news/fall-programs-prime/29476",
+        "title": "August 19, 2026 Fall Programs @ Prime"
+      },
+      {
+        "url": "https://www.primevolleyballacademy.com/news/fall-program-registration-is-live/29180",
+        "title": "July 30, 2026 Fall Program Registration is LIVE!"
+      }
+    ],
+    "issues": []
+  },
+  {
+    "name": "VC Denver",
+    "sport": "volleyball",
+    "url": "https://www.vcdenver.org/youth-program",
+    "diagnosticOnly": true,
+    "status": "retrieved",
+    "finalURL": "https://www.vcdenver.org/youth-program",
+    "sha256": "575c13e8d921575e606d30fe83f8fa3406afec329128db2e1566b5ef40809c76",
+    "at": "2026-11-09T22:16:08.481Z",
+    "records": [
+      {
+        "nativeId": "profile",
+        "name": "\\r\\n Youth Volleyball Programs",
+        "kind": "organization",
+        "url": "https://www.vcdenver.org/youth-program",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": "r\\n \\r\\n Youth Volleyball Programs | VC Denver | Denver, CO\\r\\n \\r\\n \\r\\n\\r\\n \\r\\n \\r\\n \\r\\n \\r\\n \\r\\n \\r\\n \\r\\n\",\"current_url\":\"",
+            "youth": "isHomePage\":false,\"customwidgetsdata\":[],\"page_title\":\"Youth Program\",\"flexstyles\":[],\"popups\":[],\"title\":null,\"uuid\":\"3f7f618c8f3"
+          },
+          "youthEligible": true,
+          "state": "CO",
+          "ageGradeText": "ages 8–16",
+          "participationLevel": null
+        },
+        "evidenceText": "{\"css\":\"*#dm *.dmBody a.span.textonly\\n{\\n\\tcolor:rgb(255,255,255) !important;\\n}\\n*#dm *.dmBody div.dmform-error\\n{\\n\\tfont-style:normal !important;\\"
+      },
+      {
+        "nativeId": "section:Upcoming Sessions - 2027",
+        "name": "Upcoming Sessions - 2027",
+        "kind": "program",
+        "url": "https://www.vcdenver.org/youth-program",
+        "reportedParent": "profile",
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "Upcoming Sessions - 2027"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.vcdenver.org/%22/youth-program-game-schedule/%22",
+        "title": "\\n \\n Click here for the Session 7 game schedule \\n"
+      }
+    ],
+    "issues": []
+  }
+]
