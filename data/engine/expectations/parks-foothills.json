@@ -1,0 +1,15 @@
+{
+  "sourceId": "parks-foothills",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent public page census review",
+  "evidenceURL": "https://www.ifoothills.org/aquatics/",
+  "scope": "Reviewed named programs on the specified official public page only; related membership, seasons and statewide scope remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "parks-foothills:Foothills Swim Team",
+    "parks-foothills:Foothills C.A.R.A. Swim Team"
+  ],
+  "expectedPageURLs": [
+    "https://www.ifoothills.org/aquatics/"
+  ]
+}

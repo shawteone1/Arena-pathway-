@@ -1,0 +1,15 @@
+{
+  "sourceId": "swim-aquawolves",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent source-list review",
+  "evidenceURL": "https://www.gomotionapp.com/team/csawst/page/team-info/about-us",
+  "scope": "Official organization identity/year-round program description; age groups/teams and all locations not fully traversed.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "swim-aquawolves:Aquawolves Swim Team"
+  ],
+  "expectedPageURLs": [
+    "https://www.gomotionapp.com/team/csawst/page/team-info/about-us"
+  ],
+  "basis": "Named source rows reviewed separately before import. This file is not generated from database entities. Related source discovery remains open."
+}

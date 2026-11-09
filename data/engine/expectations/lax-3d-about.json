@@ -1,0 +1,14 @@
+{
+  "sourceId": "lax-3d-about",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex public source scope review",
+  "evidenceURL": "https://www.3dlacrosse.com/page/about",
+  "scope": "Published 3d youth/high-school development scope, reconciled to the preserved Colorado regional registration identity. Regional teams and current registrations remain unexpanded.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "lax-3d-about:3d Colorado"
+  ],
+  "expectedPageURLs": [
+    "https://www.3dlacrosse.com/page/about"
+  ]
+}

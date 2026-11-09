@@ -1,0 +1,21 @@
+{
+  "sourceId": "college-cmu",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent source-list review",
+  "evidenceURL": "https://cmumavericks.com/",
+  "scope": "Seven official varsity programs across the four launch sports; program schedules remain to reconcile.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "college-cmu:basketball-men",
+    "college-cmu:basketball-women",
+    "college-cmu:lacrosse-men",
+    "college-cmu:lacrosse-women",
+    "college-cmu:swimming-men",
+    "college-cmu:swimming-women",
+    "college-cmu:volleyball-women"
+  ],
+  "expectedPageURLs": [
+    "https://cmumavericks.com/"
+  ],
+  "basis": "Named source rows reviewed separately before import. This file is not generated from database entities. Related source discovery remains open."
+}

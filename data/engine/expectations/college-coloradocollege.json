@@ -1,0 +1,20 @@
+{
+  "sourceId": "college-coloradocollege",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex separate official sports navigation census",
+  "evidenceURL": "https://cctigers.com/",
+  "scope": "Independently reviewed sports root navigation; schedules, seasons and broader related membership remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "college-coloradocollege:basketball-men",
+    "college-coloradocollege:basketball-women",
+    "college-coloradocollege:volleyball-women",
+    "college-coloradocollege:lacrosse-men",
+    "college-coloradocollege:lacrosse-women",
+    "college-coloradocollege:swimming-men",
+    "college-coloradocollege:swimming-women"
+  ],
+  "expectedPageURLs": [
+    "https://cctigers.com/"
+  ]
+}

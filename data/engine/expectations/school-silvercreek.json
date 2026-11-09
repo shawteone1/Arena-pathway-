@@ -1,0 +1,14 @@
+{
+  "sourceId": "school-silvercreek",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent published program review",
+  "evidenceURL": "https://schs.svvsd.org/activities-arts-athletics/athletics/athletic-registration/",
+  "scope": "Reviewed named programs on official source page; related pages and statewide membership remain incomplete.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "school-silvercreek:Silver Creek High School Boys Swim & Dive"
+  ],
+  "expectedPageURLs": [
+    "https://schs.svvsd.org/activities-arts-athletics/athletics/athletic-registration/"
+  ]
+}

@@ -1,0 +1,2135 @@
+{
+  "updatedAt": "2026-11-08",
+  "coverage": {
+    "status": "partial",
+    "statewideExpected": null,
+    "notes": "Statewide totals are unknown. Reviewed source snapshots are reconciled individually; this is not a completed Colorado import. High school, recreational and additional collegiate programs remain to be researched."
+  },
+  "sources": [
+    {
+      "id": "denver-elite",
+      "title": "Denver Elite field program",
+      "url": "https://www.colorado.adrln.com/program/denver-elite-field/4424",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "organization",
+      "evidence": "Youth and high school field teams, named 2031 Blue and Silver squads, and December 2026 tryouts for summer 2027."
+    },
+    {
+      "id": "180",
+      "title": "Team 180 Elite: About",
+      "url": "https://team180elite.com/about-team180/",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "organization",
+      "evidence": "Front Range girls lacrosse club. Team 180 and Urban Elite merged under Team 180 Elite in August 2024."
+    },
+    {
+      "id": "3d",
+      "title": "3d Colorado registration",
+      "url": "https://register.colorado.3dlacrosse.com/",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "organization",
+      "evidence": "Official Colorado program registration site with Denver address."
+    },
+    {
+      "id": "frvc",
+      "title": "Front Range Volleyball",
+      "url": "https://www.frvbc.com/page/home",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "organization",
+      "evidence": "Girls and boys club programs, training and high school team camp; Englewood location."
+    },
+    {
+      "id": "dj",
+      "title": "Denver Juniors Volleyball Club",
+      "url": "https://www.denverjuniorsvc.com/",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "team-list",
+      "evidence": "Official navigation lists 18 named West teams; Colorado Academy practice campus in Denver. Season not specified."
+    },
+    {
+      "id": "skyline",
+      "title": "Colorado Skyline Juniors",
+      "url": "https://www.coskylinejrs.com/",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "team-list",
+      "evidence": "Eleven named teams in official navigation and a Windsor practice location. Season not specified."
+    },
+    {
+      "id": "cbc",
+      "title": "Colorado Basketball Club",
+      "url": "https://www.coloradobasketballclub.com/",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "team-list",
+      "evidence": "Colorado girls program lists five grade-based teams. Some team links have mismatched page titles; roster and season need confirmation."
+    },
+    {
+      "id": "premier",
+      "title": "Colorado Premier Basketball",
+      "url": "https://premierbasketballclub.com/colorado-premier/",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "organization",
+      "evidence": "Colorado programs include academy teams, skills development, camps and recruiting. Centennial office."
+    },
+    {
+      "id": "dsa",
+      "title": "Denver Swim Academy: Joining",
+      "url": "https://www.gomotionapp.com/team/codsa/page/joining-our-team",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "organization",
+      "evidence": "Year-round competitive swim team with age-group and senior programs; evaluations by group."
+    },
+    {
+      "id": "fst",
+      "title": "Foothills Swim Team: Joining",
+      "url": "https://www.gomotionapp.com/team/cofst/page/info/joining-the-team",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "organization",
+      "evidence": "Denver mailing address; prospective swimmers contact team for group placement."
+    },
+    {
+      "id": "loveland",
+      "title": "Loveland Swim Club",
+      "url": "https://www.gomotionapp.com/team/colsc/page/home",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "organization",
+      "evidence": "Year-round competitive swim team in Loveland; evaluation and registration links."
+    },
+    {
+      "id": "wsl",
+      "title": "Western Slope League member teams",
+      "url": "https://westernslopeleague.org/index.php/wsl-information/",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "association-members",
+      "evidence": "Sixteen member rows in the published Zone 4 team table. Season and division assignment are not stated."
+    },
+    {
+      "id": "wc3",
+      "title": "Willow Creek III: Division teams",
+      "url": "https://www.wc3dolphins.com/division-teams",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "division-members",
+      "evidence": "Five teams with codes and Colorado pool addresses. Division name and season are not stated."
+    },
+    {
+      "id": "du",
+      "title": "University of Denver Athletics",
+      "url": "https://denverpioneers.com/sports/athletics",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "school-programs",
+      "evidence": "Official athletics navigation identifies men and women in basketball, lacrosse, and swimming and diving; women in volleyball. NCAA Division I."
+    },
+    {
+      "id": "du-calendar",
+      "title": "University of Denver composite schedule",
+      "url": "https://denverpioneers.com/calendar",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "schedule",
+      "evidence": "Official multi-sport calendar; expanded only into explicitly reviewed events, not imported as a team record."
+    },
+    {
+      "id": "du-tickets",
+      "title": "University of Denver ticket schedule",
+      "url": "https://denverpioneers.evenue.net/",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "schedule",
+      "evidence": "Published upcoming basketball and volleyball home dates, with local event times."
+    },
+    {
+      "id": "rmr",
+      "title": "Rocky Mountain Region boys clubs snapshot",
+      "url": "https://cdn3.sportngin.com/attachments/document/34fb-2753153/26-01-28.Boys.Clubs_and_Codes_25-26.pdf",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": "2026-01-28",
+      "scope": "discovery",
+      "evidence": "Search-index evidence only; full document returned 403. Not counted as an imported association."
+    },
+    {
+      "id": "csu",
+      "title": "Colorado State Athletics",
+      "url": "https://csurams.com/",
+      "evidence": "Fort Collins athletics site identifies men’s and women’s basketball, women’s volleyball, and women’s swimming and diving.",
+      "scope": "school-programs",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null
+    },
+    {
+      "id": "regis",
+      "title": "Regis Athletics staff directory",
+      "url": "https://regisrangers.com/staff-directory",
+      "evidence": "Denver institution with separate staff sections for men’s and women’s basketball, women’s lacrosse and volleyball.",
+      "scope": "school-programs",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null
+    },
+    {
+      "id": "cll",
+      "title": "Colorado Lacrosse League",
+      "url": "https://www.coloradolacrosseleague.com/about",
+      "evidence": "Front Range league offering adult men’s and women’s box, adult field and high school box formats.",
+      "scope": "league",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null
+    },
+    {
+      "id": "cll-box",
+      "title": "CLL box divisions",
+      "url": "https://www.coloradolacrosseleague.com/leagues/box",
+      "evidence": "Fall box format lists A, B, Grand Masters, C and Draft divisions at Foothills Fieldhouse. Season year and team membership not stated.",
+      "scope": "divisions",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null
+    },
+    {
+      "id": "cll-schedule",
+      "title": "CLL TeamLinkt schedule snapshot",
+      "url": "https://leagues.teamlinkt.com/coloradolacrosseleague/Schedule",
+      "reviewedAt": "2026-11-08",
+      "publishedAt": null,
+      "scope": "schedule-teams",
+      "evidence": "Reviewed August–September schedule cards identify 18 unique labels in three divisions. Seventeen team records imported; “Bye Week” excluded as ambiguous. Calendar year is not explicit on each game, so no dated events imported."
+    }
+  ],
+  "organizations": [
+    {
+      "id": "denver-elite",
+      "name": "Denver Elite",
+      "sport": "lacrosse",
+      "city": "Denver",
+      "state": "CO",
+      "kind": "club",
+      "sourceIds": [
+        "denver-elite"
+      ],
+      "summary": "Youth and high school field lacrosse under Adrenaline Colorado.",
+      "aliases": [],
+      "season": null
+    },
+    {
+      "id": "team-180",
+      "name": "Team 180 Elite",
+      "sport": "lacrosse",
+      "city": "Front Range",
+      "state": "CO",
+      "kind": "club",
+      "sourceIds": [
+        "180"
+      ],
+      "summary": "Girls lacrosse serving Front Range communities.",
+      "aliases": [
+        "Team 180",
+        "Urban Elite"
+      ],
+      "season": null
+    },
+    {
+      "id": "3d-colorado",
+      "name": "3d Colorado",
+      "sport": "lacrosse",
+      "city": "Denver",
+      "state": "CO",
+      "kind": "club",
+      "sourceIds": [
+        "3d"
+      ],
+      "summary": "Colorado lacrosse program with a Denver registration office.",
+      "aliases": [],
+      "season": null
+    },
+    {
+      "id": "front-range",
+      "name": "Front Range Volleyball Club",
+      "sport": "volleyball",
+      "city": "Englewood",
+      "state": "CO",
+      "kind": "club",
+      "sourceIds": [
+        "frvc"
+      ],
+      "summary": "Girls and boys volleyball with club and training programs.",
+      "aliases": [
+        "FRVC",
+        "Front Range VBC"
+      ],
+      "season": null
+    },
+    {
+      "id": "denver-juniors",
+      "name": "Denver Juniors Volleyball Club",
+      "sport": "volleyball",
+      "city": "Denver",
+      "state": "CO",
+      "kind": "club",
+      "sourceIds": [
+        "dj"
+      ],
+      "summary": "Youth club with a West Campus at Colorado Academy.",
+      "aliases": [],
+      "season": null
+    },
+    {
+      "id": "skyline",
+      "name": "Colorado Skyline Juniors",
+      "sport": "volleyball",
+      "city": "Windsor",
+      "state": "CO",
+      "kind": "club",
+      "sourceIds": [
+        "skyline"
+      ],
+      "summary": "Northern Colorado youth volleyball.",
+      "aliases": [],
+      "season": null
+    },
+    {
+      "id": "cbc",
+      "name": "Colorado Basketball Club",
+      "sport": "basketball",
+      "city": "Colorado · city unconfirmed",
+      "state": "CO",
+      "kind": "club",
+      "sourceIds": [
+        "cbc"
+      ],
+      "summary": "Girls basketball; grade-based teams and skills programs.",
+      "aliases": [
+        "CBC"
+      ],
+      "season": null
+    },
+    {
+      "id": "colorado-premier",
+      "name": "Colorado Premier",
+      "sport": "basketball",
+      "city": "Centennial",
+      "state": "CO",
+      "kind": "club",
+      "sourceIds": [
+        "premier"
+      ],
+      "summary": "Colorado academy, development and camp programs.",
+      "aliases": [],
+      "season": null
+    },
+    {
+      "id": "dsa",
+      "name": "Denver Swim Academy",
+      "sport": "swimming",
+      "city": "Denver",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "dsa"
+      ],
+      "summary": "Year-round age-group and senior competitive swimming.",
+      "aliases": [
+        "DSA"
+      ],
+      "season": null
+    },
+    {
+      "id": "fst",
+      "name": "Foothills Swim Team",
+      "sport": "swimming",
+      "city": "Denver",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "fst"
+      ],
+      "summary": "Competitive swim team with individual group placement.",
+      "aliases": [
+        "FST"
+      ],
+      "season": null
+    },
+    {
+      "id": "loveland",
+      "name": "Loveland Swim Club",
+      "sport": "swimming",
+      "city": "Loveland",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "loveland"
+      ],
+      "summary": "Year-round competitive swimming in Northern Colorado.",
+      "aliases": [
+        "LSC"
+      ],
+      "season": null
+    },
+    {
+      "id": "wsl-aspen",
+      "name": "Aspen",
+      "sport": "swimming",
+      "city": "Aspen",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-avon",
+      "name": "Avon",
+      "sport": "swimming",
+      "city": "Avon",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-cortez",
+      "name": "Cortez Water Dragons",
+      "sport": "swimming",
+      "city": "Cortez",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-delta",
+      "name": "Delta Barracudas",
+      "sport": "swimming",
+      "city": "Delta",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-durango",
+      "name": "Durango Swim Club",
+      "sport": "swimming",
+      "city": "Durango",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-gunnison",
+      "name": "Gunnison Stingrays",
+      "sport": "swimming",
+      "city": "Gunnison",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-maverick",
+      "name": "Maverick Aquatics",
+      "sport": "swimming",
+      "city": "Colorado · city unconfirmed",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-meeker",
+      "name": "Meeker Marlins",
+      "sport": "swimming",
+      "city": "Meeker",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-montrose",
+      "name": "Montrose Marlins",
+      "sport": "swimming",
+      "city": "Montrose",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-ouray",
+      "name": "Ouray Swim Club",
+      "sport": "swimming",
+      "city": "Ouray",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-pagosa",
+      "name": "Pagosa Springs Porpoises",
+      "sport": "swimming",
+      "city": "Pagosa Springs",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-rangely",
+      "name": "Rangely",
+      "sport": "swimming",
+      "city": "Rangely",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-silverthorn",
+      "name": "Silverthorn Tsunami",
+      "sport": "swimming",
+      "city": "Silverthorne",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-steamboat",
+      "name": "Steamboat Springs Swim Team",
+      "sport": "swimming",
+      "city": "Steamboat Springs",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-sopris",
+      "name": "Team Sopris",
+      "sport": "swimming",
+      "city": "Colorado · city unconfirmed",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "wsl-telluride",
+      "name": "Telluride",
+      "sport": "swimming",
+      "city": "Telluride",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Listed member of Western Slope League; current season affiliation needs confirmation.",
+      "aliases": [],
+      "season": null,
+      "locationStatus": "Town suggested by source name; practice venue unconfirmed"
+    },
+    {
+      "id": "mhsl-wc3",
+      "name": "Willow Creek III Dolphins",
+      "sport": "swimming",
+      "city": "Centennial",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wc3"
+      ],
+      "summary": "Listed in Willow Creek III’s published division table; current division and season need confirmation.",
+      "aliases": [],
+      "season": null
+    },
+    {
+      "id": "mhsl-wc1",
+      "name": "Willow Creek 1 Barracudas",
+      "sport": "swimming",
+      "city": "Englewood",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wc3"
+      ],
+      "summary": "Listed in Willow Creek III’s published division table; current division and season need confirmation.",
+      "aliases": [],
+      "season": null
+    },
+    {
+      "id": "mhsl-fox",
+      "name": "Fox Ridge Foxes",
+      "sport": "swimming",
+      "city": "Centennial",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wc3"
+      ],
+      "summary": "Listed in Willow Creek III’s published division table; current division and season need confirmation.",
+      "aliases": [],
+      "season": null
+    },
+    {
+      "id": "mhsl-cpvs",
+      "name": "Castle Pines Village Stingrays",
+      "sport": "swimming",
+      "city": "Castle Rock",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wc3"
+      ],
+      "summary": "Listed in Willow Creek III’s published division table; current division and season need confirmation.",
+      "aliases": [],
+      "season": null
+    },
+    {
+      "id": "mhsl-monm",
+      "name": "Colorado Athletic Club Monaco Marlins",
+      "sport": "swimming",
+      "city": "Denver",
+      "state": "CO",
+      "kind": "swim-team",
+      "sourceIds": [
+        "wc3"
+      ],
+      "summary": "Listed in Willow Creek III’s published division table; current division and season need confirmation.",
+      "aliases": [],
+      "season": null
+    }
+  ],
+  "schools": [
+    {
+      "id": "du",
+      "name": "University of Denver",
+      "city": "Denver",
+      "state": "CO",
+      "kind": "school",
+      "sourceIds": [
+        "du"
+      ],
+      "summary": "NCAA Division I athletics; seven relevant programs cataloged."
+    },
+    {
+      "id": "csu",
+      "name": "Colorado State University",
+      "city": "Fort Collins",
+      "state": "CO",
+      "kind": "school",
+      "sourceIds": [
+        "csu"
+      ],
+      "summary": "Official college athletics programs. Research admission, academics and team requirements directly with the school."
+    },
+    {
+      "id": "regis",
+      "name": "Regis University",
+      "city": "Denver",
+      "state": "CO",
+      "kind": "school",
+      "sourceIds": [
+        "regis"
+      ],
+      "summary": "Official college athletics programs. Research admission, academics and team requirements directly with the school."
+    }
+  ],
+  "teams": [
+    {
+      "id": "de-2031-blue",
+      "name": "Denver Elite 2031 Blue",
+      "organizationId": "denver-elite",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "denver-elite"
+      ],
+      "season": "2027",
+      "division": "Youth · graduation year 2031"
+    },
+    {
+      "id": "de-2031-silver",
+      "name": "Denver Elite 2031 Silver",
+      "organizationId": "denver-elite",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "denver-elite"
+      ],
+      "season": "2027",
+      "division": "Youth · graduation year 2031"
+    },
+    {
+      "id": "dj-11-kiki",
+      "name": "Denver Juniors 11 Kiki",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 11"
+    },
+    {
+      "id": "dj-12-caitlin",
+      "name": "Denver Juniors 12 Caitlin",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 12"
+    },
+    {
+      "id": "dj-13-susanne",
+      "name": "Denver Juniors 13 Susanne",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 13"
+    },
+    {
+      "id": "dj-14-sara",
+      "name": "Denver Juniors 14 Sara",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 14"
+    },
+    {
+      "id": "dj-14-madeline",
+      "name": "Denver Juniors 14 Madeline",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 14"
+    },
+    {
+      "id": "dj-14-nina",
+      "name": "Denver Juniors 14 Nina",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 14"
+    },
+    {
+      "id": "dj-15-nitosha",
+      "name": "Denver Juniors 15 Nitosha",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 15"
+    },
+    {
+      "id": "dj-15-andy",
+      "name": "Denver Juniors 15 Andy",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 15"
+    },
+    {
+      "id": "dj-15-sara",
+      "name": "Denver Juniors 15 Sara",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 15"
+    },
+    {
+      "id": "dj-15-jessica",
+      "name": "Denver Juniors 15 Jessica",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 15"
+    },
+    {
+      "id": "dj-16-leah",
+      "name": "Denver Juniors 16 Leah",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 16"
+    },
+    {
+      "id": "dj-16-tim",
+      "name": "Denver Juniors 16 Tim",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 16"
+    },
+    {
+      "id": "dj-16-erin",
+      "name": "Denver Juniors 16 Erin",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 16"
+    },
+    {
+      "id": "dj-16-will",
+      "name": "Denver Juniors 16 Will",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 16"
+    },
+    {
+      "id": "dj-17-caitlin",
+      "name": "Denver Juniors 17 Caitlin",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 17"
+    },
+    {
+      "id": "dj-17-adam",
+      "name": "Denver Juniors 17 Adam",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 17"
+    },
+    {
+      "id": "dj-17-jae",
+      "name": "Denver Juniors 17 Jae",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 17"
+    },
+    {
+      "id": "dj-18-jessica",
+      "name": "Denver Juniors 18 Jessica",
+      "organizationId": "denver-juniors",
+      "sport": "volleyball",
+      "sourceIds": [
+        "dj"
+      ],
+      "season": null,
+      "division": "West teams · age 18"
+    },
+    {
+      "id": "sky-18-royal",
+      "name": "Skyline 18 Royal",
+      "organizationId": "skyline",
+      "sport": "volleyball",
+      "sourceIds": [
+        "skyline"
+      ],
+      "season": null,
+      "division": "Age 18"
+    },
+    {
+      "id": "sky-17-royal",
+      "name": "Skyline 17 Royal",
+      "organizationId": "skyline",
+      "sport": "volleyball",
+      "sourceIds": [
+        "skyline"
+      ],
+      "season": null,
+      "division": "Age 17"
+    },
+    {
+      "id": "sky-16-royal",
+      "name": "Skyline 16 Royal",
+      "organizationId": "skyline",
+      "sport": "volleyball",
+      "sourceIds": [
+        "skyline"
+      ],
+      "season": null,
+      "division": "Age 16"
+    },
+    {
+      "id": "sky-16-black",
+      "name": "Skyline 16 Black",
+      "organizationId": "skyline",
+      "sport": "volleyball",
+      "sourceIds": [
+        "skyline"
+      ],
+      "season": null,
+      "division": "Age 16"
+    },
+    {
+      "id": "sky-15-royal",
+      "name": "Skyline 15 Royal",
+      "organizationId": "skyline",
+      "sport": "volleyball",
+      "sourceIds": [
+        "skyline"
+      ],
+      "season": null,
+      "division": "Age 15"
+    },
+    {
+      "id": "sky-15-black",
+      "name": "Skyline 15 Black",
+      "organizationId": "skyline",
+      "sport": "volleyball",
+      "sourceIds": [
+        "skyline"
+      ],
+      "season": null,
+      "division": "Age 15"
+    },
+    {
+      "id": "sky-14-royal",
+      "name": "Skyline 14 Royal",
+      "organizationId": "skyline",
+      "sport": "volleyball",
+      "sourceIds": [
+        "skyline"
+      ],
+      "season": null,
+      "division": "Age 14"
+    },
+    {
+      "id": "sky-14-black",
+      "name": "Skyline 14 Black",
+      "organizationId": "skyline",
+      "sport": "volleyball",
+      "sourceIds": [
+        "skyline"
+      ],
+      "season": null,
+      "division": "Age 14"
+    },
+    {
+      "id": "sky-13-royal",
+      "name": "Skyline 13 Royal",
+      "organizationId": "skyline",
+      "sport": "volleyball",
+      "sourceIds": [
+        "skyline"
+      ],
+      "season": null,
+      "division": "Age 13"
+    },
+    {
+      "id": "sky-13-black",
+      "name": "Skyline 13 Black",
+      "organizationId": "skyline",
+      "sport": "volleyball",
+      "sourceIds": [
+        "skyline"
+      ],
+      "season": null,
+      "division": "Age 13"
+    },
+    {
+      "id": "sky-12-royal",
+      "name": "Skyline 12 Royal",
+      "organizationId": "skyline",
+      "sport": "volleyball",
+      "sourceIds": [
+        "skyline"
+      ],
+      "season": null,
+      "division": "Age 12"
+    },
+    {
+      "id": "cbc-8th-elite---jr-eybl",
+      "name": "CBC 8th Elite - Jr EYBL",
+      "organizationId": "cbc",
+      "sport": "basketball",
+      "sourceIds": [
+        "cbc"
+      ],
+      "season": null,
+      "division": "Girls · grade 8th"
+    },
+    {
+      "id": "cbc-7th-elite",
+      "name": "CBC 7th Elite",
+      "organizationId": "cbc",
+      "sport": "basketball",
+      "sourceIds": [
+        "cbc"
+      ],
+      "season": null,
+      "division": "Girls · grade 7th"
+    },
+    {
+      "id": "cbc-7th-select",
+      "name": "CBC 7th Select",
+      "organizationId": "cbc",
+      "sport": "basketball",
+      "sourceIds": [
+        "cbc"
+      ],
+      "season": null,
+      "division": "Girls · grade 7th"
+    },
+    {
+      "id": "cbc-6th-elite",
+      "name": "CBC 6th Elite",
+      "organizationId": "cbc",
+      "sport": "basketball",
+      "sourceIds": [
+        "cbc"
+      ],
+      "season": null,
+      "division": "Girls · grade 6th"
+    },
+    {
+      "id": "cbc-5th-elite",
+      "name": "CBC 5th Elite",
+      "organizationId": "cbc",
+      "sport": "basketball",
+      "sourceIds": [
+        "cbc"
+      ],
+      "season": null,
+      "division": "Girls · grade 5th"
+    },
+    {
+      "id": "du-lacrosse-men",
+      "name": "Denver Men’s Lacrosse",
+      "organizationId": "du",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "du"
+      ],
+      "season": null,
+      "division": "NCAA Division I"
+    },
+    {
+      "id": "du-lacrosse-women",
+      "name": "Denver Women’s Lacrosse",
+      "organizationId": "du",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "du"
+      ],
+      "season": null,
+      "division": "NCAA Division I"
+    },
+    {
+      "id": "du-volleyball-women",
+      "name": "Denver Women’s Volleyball",
+      "organizationId": "du",
+      "sport": "volleyball",
+      "sourceIds": [
+        "du"
+      ],
+      "season": null,
+      "division": "NCAA Division I"
+    },
+    {
+      "id": "du-basketball-men",
+      "name": "Denver Men’s Basketball",
+      "organizationId": "du",
+      "sport": "basketball",
+      "sourceIds": [
+        "du"
+      ],
+      "season": null,
+      "division": "NCAA Division I"
+    },
+    {
+      "id": "du-basketball-women",
+      "name": "Denver Women’s Basketball",
+      "organizationId": "du",
+      "sport": "basketball",
+      "sourceIds": [
+        "du"
+      ],
+      "season": null,
+      "division": "NCAA Division I"
+    },
+    {
+      "id": "du-swimming-men",
+      "name": "Denver Men’s Swimming & Diving",
+      "organizationId": "du",
+      "sport": "swimming",
+      "sourceIds": [
+        "du"
+      ],
+      "season": null,
+      "division": "NCAA Division I"
+    },
+    {
+      "id": "du-swimming-women",
+      "name": "Denver Women’s Swimming & Diving",
+      "organizationId": "du",
+      "sport": "swimming",
+      "sourceIds": [
+        "du"
+      ],
+      "season": null,
+      "division": "NCAA Division I"
+    },
+    {
+      "id": "csu-basketball-men",
+      "name": "Colorado State University Men’s Basketball",
+      "organizationId": "csu",
+      "sport": "basketball",
+      "sourceIds": [
+        "csu"
+      ],
+      "season": null,
+      "division": "College varsity · confirm eligibility with institution"
+    },
+    {
+      "id": "csu-basketball-women",
+      "name": "Colorado State University Women’s Basketball",
+      "organizationId": "csu",
+      "sport": "basketball",
+      "sourceIds": [
+        "csu"
+      ],
+      "season": null,
+      "division": "College varsity · confirm eligibility with institution"
+    },
+    {
+      "id": "csu-volleyball-women",
+      "name": "Colorado State University Women’s Volleyball",
+      "organizationId": "csu",
+      "sport": "volleyball",
+      "sourceIds": [
+        "csu"
+      ],
+      "season": null,
+      "division": "College varsity · confirm eligibility with institution"
+    },
+    {
+      "id": "csu-swimming-women",
+      "name": "Colorado State University Women’s Swimming & Diving",
+      "organizationId": "csu",
+      "sport": "swimming",
+      "sourceIds": [
+        "csu"
+      ],
+      "season": null,
+      "division": "College varsity · confirm eligibility with institution"
+    },
+    {
+      "id": "regis-basketball-men",
+      "name": "Regis University Men’s Basketball",
+      "organizationId": "regis",
+      "sport": "basketball",
+      "sourceIds": [
+        "regis"
+      ],
+      "season": null,
+      "division": "College varsity · confirm eligibility with institution"
+    },
+    {
+      "id": "regis-basketball-women",
+      "name": "Regis University Women’s Basketball",
+      "organizationId": "regis",
+      "sport": "basketball",
+      "sourceIds": [
+        "regis"
+      ],
+      "season": null,
+      "division": "College varsity · confirm eligibility with institution"
+    },
+    {
+      "id": "regis-volleyball-women",
+      "name": "Regis University Women’s Volleyball",
+      "organizationId": "regis",
+      "sport": "volleyball",
+      "sourceIds": [
+        "regis"
+      ],
+      "season": null,
+      "division": "College varsity · confirm eligibility with institution"
+    },
+    {
+      "id": "regis-lacrosse-women",
+      "name": "Regis University Women’s Lacrosse",
+      "organizationId": "regis",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "regis"
+      ],
+      "season": null,
+      "division": "College varsity · confirm eligibility with institution"
+    },
+    {
+      "id": "cll-genisis-lc",
+      "name": "Genisis LC",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Super Masters",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Super Masters. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-bushwood-lc",
+      "name": "Bushwood LC",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Super Masters",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Super Masters. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-olde-forty",
+      "name": "Olde Forty",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Super Masters",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Super Masters. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-old-dawgs",
+      "name": "Old Dawgs",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Super Masters",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Super Masters. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-lax-gear",
+      "name": "Lax Gear",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Super Masters",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Super Masters. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-sports-plus",
+      "name": "Sports Plus",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Super Masters",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Super Masters. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-moose-knuckles",
+      "name": "Moose Knuckles",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Competitive",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Competitive. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-10th-mt-whiskey",
+      "name": "10th Mt. Whiskey",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Competitive",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Competitive. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-low-back-pain",
+      "name": "Low Back Pain",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Competitive",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Competitive. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-blueberry-bulldogs",
+      "name": "Blueberry Bulldogs",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Competitive",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Competitive. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-mountain-timers",
+      "name": "Mountain Timers",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Competitive",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Competitive. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-down-hill",
+      "name": "Down Hill",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Competitive",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Competitive. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-tou-canned-sam",
+      "name": "Tou-Canned Sam",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Competitive",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Competitive. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-fighting-red-pandas",
+      "name": "Fighting Red Pandas",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Recreation",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Recreation. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-grey-herd",
+      "name": "Grey Herd",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Recreation",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Recreation. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-slow-break",
+      "name": "Slow Break",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Recreation",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Recreation. Adult format. Season year unconfirmed; original spelling retained."
+    },
+    {
+      "id": "cll-misfits",
+      "name": "Misfits",
+      "organizationId": "cll",
+      "sport": "lacrosse",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "division": "Field · Recreation",
+      "audience": "adult",
+      "summary": "CLL field schedule team · Recreation. Adult format. Season year unconfirmed; original spelling retained."
+    }
+  ],
+  "leagues": [
+    {
+      "id": "wsl",
+      "name": "Western Slope League",
+      "sport": "swimming",
+      "state": "CO",
+      "kind": "league",
+      "sourceIds": [
+        "wsl"
+      ],
+      "summary": "Colorado Zone 4 member association. Published list expanded into 16 first-party team records."
+    },
+    {
+      "id": "mhsl",
+      "name": "Mile High Swim League",
+      "sport": "swimming",
+      "state": "CO",
+      "kind": "league",
+      "sourceIds": [
+        "wc3"
+      ],
+      "summary": "League linked by Willow Creek III. One published division subset expanded; full league import pending."
+    },
+    {
+      "id": "cll",
+      "name": "Colorado Lacrosse League",
+      "sport": "lacrosse",
+      "state": "CO",
+      "kind": "league",
+      "sourceIds": [
+        "cll"
+      ],
+      "summary": "Front Range adult and high school formats. Eligibility varies by division. Full team import is pending; this league record does not count as imported teams."
+    }
+  ],
+  "divisions": [
+    {
+      "id": "wc3-published",
+      "name": "Willow Creek III published division subset",
+      "leagueId": "mhsl",
+      "sport": "swimming",
+      "sourceIds": [
+        "wc3"
+      ],
+      "season": null,
+      "officialName": null,
+      "memberIds": [
+        "mhsl-wc3",
+        "mhsl-wc1",
+        "mhsl-fox",
+        "mhsl-cpvs",
+        "mhsl-monm"
+      ],
+      "kind": "division",
+      "summary": "Five member teams expanded from the published division table; official division name and season unconfirmed."
+    },
+    {
+      "id": "cll-fall-a",
+      "name": "CLL Fall Box · A",
+      "leagueId": "cll",
+      "sport": "lacrosse",
+      "kind": "division",
+      "sourceIds": [
+        "cll-box"
+      ],
+      "season": null,
+      "officialName": "A",
+      "memberIds": [],
+      "summary": "Published fall box division. Adult format; confirm age eligibility. Year and member teams unconfirmed."
+    },
+    {
+      "id": "cll-fall-b",
+      "name": "CLL Fall Box · B",
+      "leagueId": "cll",
+      "sport": "lacrosse",
+      "kind": "division",
+      "sourceIds": [
+        "cll-box"
+      ],
+      "season": null,
+      "officialName": "B",
+      "memberIds": [],
+      "summary": "Published fall box division. Adult format; confirm age eligibility. Year and member teams unconfirmed."
+    },
+    {
+      "id": "cll-fall-grand-masters",
+      "name": "CLL Fall Box · Grand Masters",
+      "leagueId": "cll",
+      "sport": "lacrosse",
+      "kind": "division",
+      "sourceIds": [
+        "cll-box"
+      ],
+      "season": null,
+      "officialName": "Grand Masters",
+      "memberIds": [],
+      "summary": "Published fall box division. Adult format; confirm age eligibility. Year and member teams unconfirmed."
+    },
+    {
+      "id": "cll-fall-c",
+      "name": "CLL Fall Box · C",
+      "leagueId": "cll",
+      "sport": "lacrosse",
+      "kind": "division",
+      "sourceIds": [
+        "cll-box"
+      ],
+      "season": null,
+      "officialName": "C",
+      "memberIds": [],
+      "summary": "Published fall box division. Adult format; confirm age eligibility. Year and member teams unconfirmed."
+    },
+    {
+      "id": "cll-fall-draft",
+      "name": "CLL Fall Box · Draft",
+      "leagueId": "cll",
+      "sport": "lacrosse",
+      "kind": "division",
+      "sourceIds": [
+        "cll-box"
+      ],
+      "season": null,
+      "officialName": "Draft",
+      "memberIds": [],
+      "summary": "Published fall box division. Adult format; confirm age eligibility. Year and member teams unconfirmed."
+    },
+    {
+      "id": "cll-field-super-masters",
+      "name": "CLL Field · Super Masters",
+      "leagueId": "cll",
+      "sport": "lacrosse",
+      "kind": "division",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "officialName": "Super Masters",
+      "memberIds": [
+        "cll-genisis-lc",
+        "cll-bushwood-lc",
+        "cll-olde-forty",
+        "cll-old-dawgs",
+        "cll-lax-gear",
+        "cll-sports-plus"
+      ],
+      "summary": "Adult field schedule division. Member teams expanded from reviewed schedule cards; season year unconfirmed."
+    },
+    {
+      "id": "cll-field-competitive",
+      "name": "CLL Field · Competitive",
+      "leagueId": "cll",
+      "sport": "lacrosse",
+      "kind": "division",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "officialName": "Competitive",
+      "memberIds": [
+        "cll-moose-knuckles",
+        "cll-10th-mt-whiskey",
+        "cll-low-back-pain",
+        "cll-blueberry-bulldogs",
+        "cll-mountain-timers",
+        "cll-down-hill",
+        "cll-tou-canned-sam"
+      ],
+      "summary": "Adult field schedule division. Member teams expanded from reviewed schedule cards; season year unconfirmed."
+    },
+    {
+      "id": "cll-field-recreation",
+      "name": "CLL Field · Recreation",
+      "leagueId": "cll",
+      "sport": "lacrosse",
+      "kind": "division",
+      "sourceIds": [
+        "cll-schedule"
+      ],
+      "season": null,
+      "officialName": "Recreation",
+      "memberIds": [
+        "cll-fighting-red-pandas",
+        "cll-grey-herd",
+        "cll-slow-break",
+        "cll-misfits"
+      ],
+      "summary": "Adult field schedule division. Member teams expanded from reviewed schedule cards; season year unconfirmed."
+    }
+  ],
+  "imports": [
+    {
+      "id": "wsl-members",
+      "sourceId": "wsl",
+      "label": "Western Slope member table",
+      "expectedIds": [
+        "wsl-aspen",
+        "wsl-avon",
+        "wsl-cortez",
+        "wsl-delta",
+        "wsl-durango",
+        "wsl-gunnison",
+        "wsl-maverick",
+        "wsl-meeker",
+        "wsl-montrose",
+        "wsl-ouray",
+        "wsl-pagosa",
+        "wsl-rangely",
+        "wsl-silverthorn",
+        "wsl-steamboat",
+        "wsl-sopris",
+        "wsl-telluride"
+      ],
+      "scope": "16 published member rows; season not specified",
+      "status": "snapshot-complete",
+      "collection": "organizations"
+    },
+    {
+      "id": "wc3-members",
+      "sourceId": "wc3",
+      "label": "Willow Creek III division table",
+      "expectedIds": [
+        "mhsl-wc3",
+        "mhsl-wc1",
+        "mhsl-fox",
+        "mhsl-cpvs",
+        "mhsl-monm"
+      ],
+      "scope": "5 published rows; division name and season unconfirmed",
+      "status": "snapshot-complete",
+      "collection": "organizations"
+    },
+    {
+      "id": "dj-teams",
+      "sourceId": "dj",
+      "label": "Denver Juniors West team navigation",
+      "expectedIds": [
+        "dj-11-kiki",
+        "dj-12-caitlin",
+        "dj-13-susanne",
+        "dj-14-sara",
+        "dj-14-madeline",
+        "dj-14-nina",
+        "dj-15-nitosha",
+        "dj-15-andy",
+        "dj-15-sara",
+        "dj-15-jessica",
+        "dj-16-leah",
+        "dj-16-tim",
+        "dj-16-erin",
+        "dj-16-will",
+        "dj-17-caitlin",
+        "dj-17-adam",
+        "dj-17-jae",
+        "dj-18-jessica"
+      ],
+      "scope": "18 named teams; season unconfirmed",
+      "status": "snapshot-complete",
+      "collection": "teams"
+    },
+    {
+      "id": "skyline-teams",
+      "sourceId": "skyline",
+      "label": "Skyline team navigation",
+      "expectedIds": [
+        "sky-18-royal",
+        "sky-17-royal",
+        "sky-16-royal",
+        "sky-16-black",
+        "sky-15-royal",
+        "sky-15-black",
+        "sky-14-royal",
+        "sky-14-black",
+        "sky-13-royal",
+        "sky-13-black",
+        "sky-12-royal"
+      ],
+      "scope": "11 named teams; season unconfirmed",
+      "status": "snapshot-complete",
+      "collection": "teams"
+    },
+    {
+      "id": "cbc-teams",
+      "sourceId": "cbc",
+      "label": "CBC team navigation",
+      "expectedIds": [
+        "cbc-8th-elite---jr-eybl",
+        "cbc-7th-elite",
+        "cbc-7th-select",
+        "cbc-6th-elite",
+        "cbc-5th-elite"
+      ],
+      "scope": "5 named teams; conflicting child-page titles require review",
+      "status": "needs-review",
+      "collection": "teams"
+    },
+    {
+      "id": "du-programs",
+      "sourceId": "du",
+      "label": "Denver school programs",
+      "expectedIds": [
+        "du-lacrosse-men",
+        "du-lacrosse-women",
+        "du-volleyball-women",
+        "du-basketball-men",
+        "du-basketball-women",
+        "du-swimming-men",
+        "du-swimming-women"
+      ],
+      "scope": "7 programs across the four launch sports; school statewide coverage partial",
+      "status": "snapshot-complete",
+      "collection": "teams"
+    },
+    {
+      "id": "csu-programs",
+      "sourceId": "csu",
+      "label": "Colorado State University launch-sport programs",
+      "expectedIds": [
+        "csu-basketball-men",
+        "csu-basketball-women",
+        "csu-volleyball-women",
+        "csu-swimming-women"
+      ],
+      "scope": "4 official programs across the launch sports; statewide school coverage partial",
+      "status": "snapshot-complete",
+      "collection": "teams"
+    },
+    {
+      "id": "regis-programs",
+      "sourceId": "regis",
+      "label": "Regis University launch-sport programs",
+      "expectedIds": [
+        "regis-basketball-men",
+        "regis-basketball-women",
+        "regis-volleyball-women",
+        "regis-lacrosse-women"
+      ],
+      "scope": "4 official programs across the launch sports; statewide school coverage partial",
+      "status": "snapshot-complete",
+      "collection": "teams"
+    },
+    {
+      "id": "cll-fall-divisions",
+      "sourceId": "cll-box",
+      "label": "CLL fall box division headings",
+      "expectedIds": [
+        "cll-fall-a",
+        "cll-fall-b",
+        "cll-fall-grand-masters",
+        "cll-fall-c",
+        "cll-fall-draft"
+      ],
+      "scope": "5 published box division headings; memberships pending. Field schedule teams reconciled separately.",
+      "status": "snapshot-complete",
+      "collection": "divisions"
+    },
+    {
+      "id": "cll-schedule-teams",
+      "sourceId": "cll-schedule",
+      "label": "CLL schedule unique team labels",
+      "expectedIds": [
+        "cll-genisis-lc",
+        "cll-bushwood-lc",
+        "cll-olde-forty",
+        "cll-old-dawgs",
+        "cll-lax-gear",
+        "cll-sports-plus",
+        "cll-moose-knuckles",
+        "cll-10th-mt-whiskey",
+        "cll-low-back-pain",
+        "cll-blueberry-bulldogs",
+        "cll-mountain-timers",
+        "cll-down-hill",
+        "cll-tou-canned-sam",
+        "cll-fighting-red-pandas",
+        "cll-grey-herd",
+        "cll-slow-break",
+        "cll-misfits"
+      ],
+      "candidateCount": 18,
+      "excluded": [
+        {
+          "name": "Bye Week",
+          "reason": "Ambiguous schedule label; not counted as a verified team"
+        }
+      ],
+      "scope": "17 team records from 18 unique schedule labels; one ambiguous label excluded; 3 field divisions",
+      "status": "needs-review",
+      "collection": "teams"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "de-tryout",
+      "name": "Denver Elite summer 2027 tryouts",
+      "sport": "lacrosse",
+      "kind": "tryout",
+      "sourceIds": [
+        "denver-elite"
+      ],
+      "summary": "Two sessions per graduation-year group, December 14–17, 2026. Check the official group times before registering.",
+      "start": "2026-12-14",
+      "end": "2026-12-17",
+      "location": "University of Denver",
+      "status": "published-date"
+    },
+    {
+      "id": "frvc-tryout",
+      "name": "Front Range club tryout information",
+      "sport": "volleyball",
+      "kind": "tryout",
+      "sourceIds": [
+        "frvc"
+      ],
+      "summary": "Official club site links boys and girls tryouts. Dates and availability need organizer confirmation.",
+      "start": null,
+      "end": null,
+      "location": null,
+      "status": "confirm-with-organizer"
+    },
+    {
+      "id": "cbc-tryout",
+      "name": "CBC evaluation and tryout information",
+      "sport": "basketball",
+      "kind": "tryout",
+      "sourceIds": [
+        "cbc"
+      ],
+      "summary": "Official program offers evaluation requests and tryout information. Confirm open roster spots directly.",
+      "start": null,
+      "end": null,
+      "location": null,
+      "status": "confirm-with-organizer"
+    },
+    {
+      "id": "dsa-evaluation",
+      "name": "Denver Swim Academy evaluations",
+      "sport": "swimming",
+      "kind": "tryout",
+      "sourceIds": [
+        "dsa"
+      ],
+      "summary": "Ask about age-group or senior placement. No dated appointment imported.",
+      "start": null,
+      "end": null,
+      "location": null,
+      "status": "confirm-with-organizer"
+    },
+    {
+      "id": "fst-evaluation",
+      "name": "Foothills team placement",
+      "sport": "swimming",
+      "kind": "tryout",
+      "sourceIds": [
+        "fst"
+      ],
+      "summary": "Contact the team to discuss a suitable training group. No dated appointment imported.",
+      "start": null,
+      "end": null,
+      "location": null,
+      "status": "confirm-with-organizer"
+    },
+    {
+      "id": "frvc-camp",
+      "name": "Front Range high school team camp",
+      "sport": "volleyball",
+      "kind": "camp",
+      "sourceIds": [
+        "frvc"
+      ],
+      "summary": "Summer team camp is described in the club’s training offerings. Next dates and registration are unconfirmed.",
+      "start": null,
+      "end": null,
+      "location": null,
+      "status": "confirm-with-organizer"
+    },
+    {
+      "id": "premier-camp",
+      "name": "Colorado Premier camps",
+      "sport": "basketball",
+      "kind": "camp",
+      "sourceIds": [
+        "premier"
+      ],
+      "summary": "The Colorado program lists camps. Confirm upcoming sessions, locations and costs on the organizer site.",
+      "start": null,
+      "end": null,
+      "location": null,
+      "status": "confirm-with-organizer"
+    },
+    {
+      "id": "du-csu",
+      "name": "Denver women vs Colorado State",
+      "sport": "basketball",
+      "kind": "game",
+      "sourceIds": [
+        "du-tickets"
+      ],
+      "summary": "Published home game. Local time 18:00 Mountain; verify changes with the university.",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "location": "University of Denver",
+      "status": "published-date"
+    },
+    {
+      "id": "du-wyoming",
+      "name": "Denver men vs Wyoming",
+      "sport": "basketball",
+      "kind": "game",
+      "sourceIds": [
+        "du-tickets"
+      ],
+      "summary": "Published home game. Local time 13:00 Mountain; verify changes with the university.",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "location": "University of Denver",
+      "status": "published-date"
+    },
+    {
+      "id": "du-regis",
+      "name": "Denver women vs Regis",
+      "sport": "basketball",
+      "kind": "game",
+      "sourceIds": [
+        "du-tickets"
+      ],
+      "summary": "Published home game. Local time 17:00 Mountain; verify changes with the university.",
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "location": "University of Denver",
+      "status": "published-date"
+    },
+    {
+      "id": "du-uccs",
+      "name": "Denver men vs UCCS",
+      "sport": "basketball",
+      "kind": "game",
+      "sourceIds": [
+        "du-tickets"
+      ],
+      "summary": "Published home game. Local time 20:00 Mountain; verify changes with the university.",
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "location": "University of Denver",
+      "status": "published-date"
+    },
+    {
+      "id": "du-seattle",
+      "name": "Denver volleyball vs Seattle",
+      "sport": "volleyball",
+      "kind": "game",
+      "sourceIds": [
+        "du-tickets"
+      ],
+      "summary": "Published home match at 18:00 Mountain; verify changes with the university.",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "location": "University of Denver",
+      "status": "published-date"
+    }
+  ],
+  "communities": [
+    {
+      "id": "community-team-180",
+      "name": "Team 180 Elite",
+      "sport": "lacrosse",
+      "kind": "community",
+      "sourceIds": [
+        "180"
+      ],
+      "summary": "Connect with this Colorado program through its official organization. No public discussion board or membership is implied."
+    },
+    {
+      "id": "community-front-range",
+      "name": "Front Range Volleyball Club",
+      "sport": "volleyball",
+      "kind": "community",
+      "sourceIds": [
+        "frvc"
+      ],
+      "summary": "Connect with this Colorado program through its official organization. No public discussion board or membership is implied."
+    },
+    {
+      "id": "community-cbc",
+      "name": "Colorado Basketball Club",
+      "sport": "basketball",
+      "kind": "community",
+      "sourceIds": [
+        "cbc"
+      ],
+      "summary": "Connect with this Colorado program through its official organization. No public discussion board or membership is implied."
+    },
+    {
+      "id": "community-loveland",
+      "name": "Loveland Swim Club",
+      "sport": "swimming",
+      "kind": "community",
+      "sourceIds": [
+        "loveland"
+      ],
+      "summary": "Connect with this Colorado program through its official organization. No public discussion board or membership is implied."
+    }
+  ],
+  "mediaSources": [
+    {
+      "id": "du-news",
+      "name": "Denver Pioneers Athletics",
+      "url": "https://denverpioneers.com/archives",
+      "sports": [
+        "lacrosse",
+        "volleyball",
+        "basketball",
+        "swimming"
+      ],
+      "description": "Official college athletics news. Opens the publisher’s website; no embedded tracking or automatic feed."
+    },
+    {
+      "id": "club-updates",
+      "name": "My sport’s official club sites",
+      "url": null,
+      "sports": [
+        "lacrosse",
+        "volleyball",
+        "basketball",
+        "swimming"
+      ],
+      "description": "Links to the cataloged club sources for your selected sport. No feed subscription or social account connection."
+    }
+  ]
+}

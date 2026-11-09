@@ -1,0 +1,17 @@
+{
+  "sourceId": "school-niwot-boys-volleyball",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent school main-content tier census",
+  "evidenceURL": "https://nhs.svvsd.org/activities-arts-athletics/athletics/spring-sports/boys-volleyball/",
+  "scope": "Only explicitly named sport program and team tiers in this official school page main content, not global navigation, staff or athlete rosters.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "school-niwot-boys-volleyball:boys-volleyball",
+    "school-niwot-boys-volleyball:boys-volleyball-varsity",
+    "school-niwot-boys-volleyball:boys-volleyball-junior-varsity",
+    "school-niwot-boys-volleyball:boys-volleyball-c-team"
+  ],
+  "expectedPageURLs": [
+    "https://nhs.svvsd.org/activities-arts-athletics/athletics/spring-sports/boys-volleyball/"
+  ]
+}

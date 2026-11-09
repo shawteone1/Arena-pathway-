@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+coverage/
+
+var/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+.venv-qa/
+__pycache__/

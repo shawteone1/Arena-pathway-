@@ -1,0 +1,55 @@
+{
+  "status": "ready",
+  "sourceFilename": "Interlocked AP Letterman Patch Logo.png",
+  "sourceSha256": "e6416a5689f562260f3f15ed272c5427e04e7a77bcc387cb2436dccc7659f9ce",
+  "sourceWidth": 1536,
+  "sourceHeight": 1024,
+  "crop": {
+    "x": 310,
+    "y": 45,
+    "width": 900,
+    "height": 805
+  },
+  "excludedPresentationLabel": {
+    "x": 0,
+    "y": 0,
+    "width": 80,
+    "height": 30,
+    "backgroundSourceX": 390,
+    "backgroundSourceY": 45
+  },
+  "desktopAsset": "brand/ap-desktop.webp",
+  "mobileAsset": "brand/ap-mobile.webp",
+  "homepageAsset": "brand/ap-homepage.webp",
+  "faviconAsset": "brand/favicon.png",
+  "appleTouchAsset": "brand/apple-touch-icon.png",
+  "width": 900,
+  "height": 805,
+  "derivatives": {
+    "brand/ap-desktop.webp": {
+      "width": 256,
+      "height": 229,
+      "sha256": "27dba055b6124466a3daa428528aa7e4e8b8b03c08e19fde3a0a4eb2c711fffc"
+    },
+    "brand/ap-mobile.webp": {
+      "width": 128,
+      "height": 114,
+      "sha256": "602c93946966c91917648a0098d9cef46e6014d3cc7249936959e6eb593c90ff"
+    },
+    "brand/ap-homepage.webp": {
+      "width": 900,
+      "height": 805,
+      "sha256": "2dec38d7b2fb7153d66c713730502ddc71dadd7fe3ac83f1b3930a09d650a2b6"
+    },
+    "brand/favicon.png": {
+      "width": 64,
+      "height": 64,
+      "sha256": "0ade847f9cb8dbc11639223902cb83c5506a5e46010c5798b6202fe3f17a77bd"
+    },
+    "brand/apple-touch-icon.png": {
+      "width": 180,
+      "height": 180,
+      "sha256": "0288130424f2198e42d1dd52cba5ee1d3bbd5d8a1f74ba38b8ab8de23e4d3682"
+    }
+  }
+}

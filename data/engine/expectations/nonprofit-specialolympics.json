@@ -1,0 +1,16 @@
+{
+  "sourceId": "nonprofit-specialolympics",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent published program review",
+  "evidenceURL": "https://specialolympicsco.org/getinvolved/competitions/",
+  "scope": "Reviewed named programs on official source page; related pages and statewide membership remain incomplete.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "nonprofit-specialolympics:Special Olympics Colorado Basketball",
+    "nonprofit-specialolympics:Special Olympics Colorado Swimming",
+    "nonprofit-specialolympics:Special Olympics Colorado Volleyball"
+  ],
+  "expectedPageURLs": [
+    "https://specialolympicsco.org/getinvolved/competitions/"
+  ]
+}

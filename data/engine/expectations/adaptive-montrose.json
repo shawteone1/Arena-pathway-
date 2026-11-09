@@ -1,0 +1,14 @@
+{
+  "sourceId": "adaptive-montrose",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent public page census review",
+  "evidenceURL": "https://montroserec.specialdistrict.org/adaptive-programs",
+  "scope": "Reviewed named programs on the specified official public page only; related membership, seasons and statewide scope remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "adaptive-montrose:Montrose Adaptive Swim Lessons"
+  ],
+  "expectedPageURLs": [
+    "https://montroserec.specialdistrict.org/adaptive-programs"
+  ]
+}

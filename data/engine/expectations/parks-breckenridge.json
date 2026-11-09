@@ -1,0 +1,14 @@
+{
+  "sourceId": "parks-breckenridge",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent official page review",
+  "evidenceURL": "https://www.breckenridgerecreation.com/rates/locations/breckenridge-recreation-center",
+  "scope": "Published official organizational and program information; source and statewide scope remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "parks-breckenridge:Breckenridge Recreation Center"
+  ],
+  "expectedPageURLs": [
+    "https://www.breckenridgerecreation.com/rates/locations/breckenridge-recreation-center"
+  ]
+}

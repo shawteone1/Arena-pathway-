@@ -1,0 +1,14 @@
+{
+  "sourceId": "facility-trinidad",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent official page review",
+  "evidenceURL": "https://visittrinidadcolorado.com/attraction/family-aquatic-center/",
+  "scope": "Published official organizational and program information; source and statewide scope remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "facility-trinidad:Trinidad Family Aquatic Center"
+  ],
+  "expectedPageURLs": [
+    "https://visittrinidadcolorado.com/attraction/family-aquatic-center/"
+  ]
+}

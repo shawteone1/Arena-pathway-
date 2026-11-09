@@ -1,12 +1,35 @@
 {
   "name": "arena-pathway",
-  "version": "0.5.1",
+  "version": "0.7.0",
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=22"
+    "node": ">=22.13"
   },
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node --test",
+    "validate:data": "node scripts/validate-data.mjs",
+    "check": "node --check server.mjs && node --check src/views.mjs && node --check public/app.js && npm run validate:data && npm run validate:participation && npm test",
+    "prepare:brand": "node scripts/prepare-brand.mjs",
+    "check:brand": "node scripts/check-brand.mjs",
+    "data:import": "node scripts/data-engine.mjs import",
+    "data:approve": "node scripts/data-engine.mjs approve",
+    "data:validate": "node scripts/data-engine.mjs validate",
+    "data:export": "node scripts/data-engine.mjs export",
+    "data:report": "node scripts/data-engine.mjs report",
+    "data:refresh": "node scripts/data-engine.mjs refresh",
+    "data:backup": "node scripts/data-engine.mjs backup",
+    "data:bootstrap": "node scripts/data-engine.mjs bootstrap",
+    "data:interrupt": "node scripts/data-engine.mjs interrupt",
+    "test:workspace:browser": "python scripts/qa-pathway.py",
+    "data:classify": "node scripts/reconcile-participation.mjs",
+    "validate:participation": "node scripts/validate-participation.mjs"
+  },
+  "dependencies": {
+    "cheerio": "1.2.0",
+    "robots-parser": "3.0.1",
+    "undici": "7.30.2"
   }
 }

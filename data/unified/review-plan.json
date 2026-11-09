@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex public organizational evidence review",
+  "reason": "Reconcile preserved records with published participation scopes; unknown ownership and membership types remain in the review queue.",
+  "legacyYouth": {
+    "denver-elite": {
+      "programType": "field-lacrosse",
+      "genders": [],
+      "levels": [
+        "competitive"
+      ],
+      "reason": "Official field page explicitly describes youth/high-school club teams, not school-affiliated teams."
+    },
+    "team-180": {
+      "programType": "field-lacrosse",
+      "genders": [
+        "girls"
+      ],
+      "levels": [],
+      "reason": "Reviewed girls club identity; ages/grades and current eligibility are not stated."
+    },
+    "3d-colorado": {
+      "programType": "unknown",
+      "genders": [],
+      "levels": [],
+      "reason": "Colorado regional club identity is retained. Youth classification requires separately verified program evidence.",
+      "needsReview": true
+    },
+    "front-range": {
+      "programType": "indoor-volleyball",
+      "genders": [
+        "boys",
+        "girls"
+      ],
+      "levels": [
+        "competitive"
+      ],
+      "reason": "Official boys/girls club offerings and training; school team camps do not make the club a school."
+    },
+    "denver-juniors": {
+      "programType": "indoor-volleyball",
+      "genders": [
+        "girls"
+      ],
+      "levels": [
+        "competitive"
+      ],
+      "reason": "Reviewed youth club and 18 named age-group squads; season remains unconfirmed."
+    },
+    "skyline": {
+      "programType": "indoor-volleyball",
+      "genders": [],
+      "levels": [],
+      "reason": "Reviewed Northern Colorado youth club. Current extraction misses prior team list; preserve historical verified identities without claiming current enrollment."
+    },
+    "cbc": {
+      "programType": "basketball",
+      "genders": [
+        "girls"
+      ],
+      "levels": [
+        "competitive"
+      ],
+      "reason": "Official girls grade-based club teams; AAU membership and registration status are not inferred."
+    },
+    "colorado-premier": {
+      "programType": "basketball",
+      "genders": [],
+      "levels": [
+        "development"
+      ],
+      "reason": "Official academy/development/camp provider; no recruiting module is implied."
+    },
+    "dsa": {
+      "programType": "year-round-usa-swimming",
+      "swimType": "year-round-competitive",
+      "genders": [],
+      "levels": [
+        "competitive"
+      ],
+      "reason": "Reviewed age-group/senior competitive program plus current CSI coded Year Round membership."
+    },
+    "loveland": {
+      "programType": "year-round-usa-swimming",
+      "swimType": "year-round-competitive",
+      "genders": [],
+      "levels": [
+        "competitive"
+      ],
+      "reason": "Reviewed year-round club and current CSI coded Year Round membership."
+    }
+  },
+  "legacyCollegeIds": [
+    "du",
+    "csu",
+    "regis"
+  ],
+  "summerSourceIds": [
+    "swim-mhsl",
+    "swim-sjsl",
+    "swim-fsa",
+    "swim-metro"
+  ],
+  "opportunityOwners": {
+    "de-tryout": "denver-elite",
+    "frvc-tryout": "front-range",
+    "cbc-tryout": "cbc",
+    "dsa-evaluation": "dsa",
+    "fst-evaluation": "fst",
+    "frvc-camp": "front-range",
+    "premier-camp": "colorado-premier",
+    "du-csu": "du",
+    "du-wyoming": "du",
+    "du-regis": "du",
+    "du-uccs": "du",
+    "du-seattle": "du"
+  },
+  "sourcePrograms": {
+    "basket-psb": {
+      "designation": "youth",
+      "programType": "basketball",
+      "genders": [
+        "boys",
+        "girls"
+      ],
+      "levels": [],
+      "programKind": "club",
+      "reason": "Official Denver page explicitly offers youth club teams for boys and girls; registration and grades require local source evidence."
+    },
+    "basket-riot": {
+      "designation": "youth",
+      "programType": "basketball",
+      "genders": [
+        "boys",
+        "girls"
+      ],
+      "grades": {
+        "min": 2,
+        "max": 12
+      },
+      "levels": [
+        "competitive"
+      ],
+      "programKind": "club",
+      "reason": "Official teams page states competitive boys/girls teams, grades 2\u201312."
+    },
+    "basket-elevation": {
+      "designation": "youth",
+      "programType": "basketball",
+      "genders": [],
+      "levels": [
+        "competitive"
+      ],
+      "programKind": "club",
+      "reason": "Official page describes children, high-school coaches and club basketball; precise ages/genders unknown."
+    },
+    "basket-goldcrown-program": {
+      "designation": "youth",
+      "programType": "basketball",
+      "genders": [
+        "boys",
+        "girls"
+      ],
+      "grades": {
+        "min": 4,
+        "max": 8
+      },
+      "levels": [
+        "competitive",
+        "elite"
+      ],
+      "programKind": "league",
+      "registrationMethod": "team",
+      "reason": "Official competitive league serves 4th\u20138th grade boys/girls, feeder and club divisions. Organizer is not a participating club."
+    },
+    "swim-durango-masters": {
+      "designation": "adult",
+      "programType": "masters-swimming",
+      "swimType": "masters",
+      "genders": [],
+      "levels": [],
+      "programKind": "training",
+      "reason": "Official Durango club Masters page verifies a distinct adult program under the same club identity."
+    },
+    "lax-3d-about": {
+      "sport": "lacrosse",
+      "designation": "youth",
+      "programType": "unknown",
+      "programKind": "club",
+      "genders": [
+        "boys",
+        "girls"
+      ],
+      "levels": [
+        "development"
+      ],
+      "reason": "Public parent description explicitly serves youth/high-school boys/girls and names Denver headquarters; the preserved registration record identifies the Colorado region. Individual regional teams, formats and registrations remain unconfirmed."
+    },
+    "school-niwot-girls-basketball": {
+      "designation": "high-school",
+      "sport": "basketball",
+      "reason": "Official school main content names this sport program and its published tiers; no athlete/coach records, inferred season years or roster openings are imported."
+    },
+    "school-niwot-boys-basketball": {
+      "designation": "high-school",
+      "sport": "basketball",
+      "reason": "Official school main content names this sport program and its published tiers; no athlete/coach records, inferred season years or roster openings are imported."
+    },
+    "school-niwot-girls-volleyball": {
+      "designation": "high-school",
+      "sport": "volleyball",
+      "reason": "Official school main content names this sport program and its published tiers; no athlete/coach records, inferred season years or roster openings are imported."
+    },
+    "school-niwot-boys-volleyball": {
+      "designation": "high-school",
+      "sport": "volleyball",
+      "reason": "Official school main content names this sport program and its published tiers; no athlete/coach records, inferred season years or roster openings are imported."
+    },
+    "school-niwot-girls-swimming": {
+      "designation": "high-school",
+      "sport": "swimming",
+      "reason": "Official school main content names this sport program and its published tiers; no athlete/coach records, inferred season years or roster openings are imported."
+    }
+  },
+  "identityReviewNames": {
+    "B & B Basketball Academy": "Possible alias for the separately listed B & B Academy provider. Preserve the Gold Crown program post, but withhold a second public organization profile until parent/alias evidence is reconciled."
+  }
+}

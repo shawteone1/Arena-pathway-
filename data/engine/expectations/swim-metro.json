@@ -1,0 +1,18 @@
+{
+  "sourceId": "swim-metro",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent public page census review",
+  "evidenceURL": "https://crestmoor.org/2025/08/10/the-denver-metro-swim-league/",
+  "scope": "Reviewed named programs on the specified official public page only; related membership, seasons and statewide scope remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "swim-metro:Crestmoor Community Association",
+    "swim-metro:Eastmoor Swim & Tennis Club",
+    "swim-metro:Skyline Acres Swim & Tennis Club",
+    "swim-metro:Central Park Stingrays",
+    "swim-metro:Virginia Vale Swim Club"
+  ],
+  "expectedPageURLs": [
+    "https://crestmoor.org/2025/08/10/the-denver-metro-swim-league/"
+  ]
+}
