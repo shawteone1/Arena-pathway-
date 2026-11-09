@@ -1,0 +1,15 @@
+{
+  "sourceId": "basket-goldcrown-program",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex separate official profile review",
+  "evidenceURL": "https://www.goldcrownfoundation.com/events/competitive-league/",
+  "scope": "Published organizational/program facts; full membership, related programs, teams and source scope remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "basket-goldcrown-program:Gold Crown Foundation",
+    "basket-goldcrown-program:Gold Crown Competitive Basketball League"
+  ],
+  "expectedPageURLs": [
+    "https://www.goldcrownfoundation.com/events/competitive-league/"
+  ]
+}

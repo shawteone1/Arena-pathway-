@@ -1,0 +1,14 @@
+{
+  "sourceId": "basket-psb",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex separate official profile review",
+  "evidenceURL": "https://proskillsbasketball.com/denver/teams/",
+  "scope": "Published organizational/program facts; full membership, related programs, teams and source scope remain open.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "basket-psb:Pro Skills Basketball Denver"
+  ],
+  "expectedPageURLs": [
+    "https://proskillsbasketball.com/denver/teams/"
+  ]
+}

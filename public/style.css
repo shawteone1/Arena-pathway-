@@ -476,3 +476,34 @@ body:not([data-page='home']) .section > h2 { margin-top: 45px; }
 .engine-filter-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; padding-top: 12px; }
 @media(max-width:1024px) { .engine-filter-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
 @media(max-width:650px) { .engine-filter-grid { grid-template-columns: 1fr; } }
+/* Each profile chooses its own workspace modules; controls stay touch and keyboard accessible. */
+.module-options { border: 0; padding: 0; margin: 20px 0; min-inline-size: 0; }
+.module-options > legend { font-size: 18px; margin-bottom: 15px; }
+.module-customizer { margin: 25px 0; padding: 18px 0; border-block: 1px solid var(--line); }
+.module-customizer > summary { min-height: 48px; align-content: center; cursor: pointer; font-weight: 700; }
+.module-choices { display: grid; gap: 12px; margin: 20px 0; }
+.module-choice-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px; border: 1px solid var(--line); min-width: 0; }
+.module-choice-row > label { margin: 0; flex: 1; min-width: 0; }
+.module-choice-row small { display: block; font-weight: 400; margin-top: 5px; color: var(--muted); }
+.module-order-controls { display: flex; gap: 8px; flex-wrap: wrap; }
+.module-order-controls button { min-height: 48px; }
+.associated-teams { margin-bottom: 15px; }
+.associated-teams > summary { min-height: 48px; align-content: center; cursor: pointer; }
+@media(max-width:650px) { .module-choice-row { flex-direction: column; align-items: stretch; } .module-order-controls { justify-content: flex-end; } }
+/* Shared participation hierarchy and first-party organization profiles. */
+.participation-nav, .directory-tools { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.participation-nav { padding: 14px var(--gutter); border-bottom: 1px solid var(--line); }
+.participation-nav a, .directory-tools a { min-height:48px; display: inline-flex; align-items: center; font-size: 13px; text-decoration: none; }
+.participation-nav a[aria-current="page"] { color: var(--red); border-bottom: 2px solid var(--red); font-weight: 700; }
+.directory-tools { margin-bottom: 20px; }
+.club-result h2 { font-size: clamp(26px,3.5vw,40px); }
+.participation-facts { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px 20px; margin: 20px 0; }
+.participation-facts > div { min-width: 0; }
+.participation-facts dt { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; }
+.participation-facts dd { margin: 4px 0 0; font-size: 13px; overflow-wrap: anywhere; }
+.organization-profile > section { margin-top: 48px; }
+.profile-designation { margin: 28px 0; border-top: 1px solid var(--line); padding-top: 25px; }
+.program-detail { padding: 22px 0; border-bottom: 1px solid var(--line); }
+.program-detail h4 { font: 700 25px/1.2 var(--display); margin: 0 0 15px; }
+.organization-profile .table-wrap { max-width: 100%; }
+@media(max-width:650px) { .participation-nav { gap: 4px 15px; } .participation-facts { grid-template-columns: 1fr; } .directory-tools { gap: 4px 14px; } }

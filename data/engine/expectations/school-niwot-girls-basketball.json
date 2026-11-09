@@ -1,0 +1,17 @@
+{
+  "sourceId": "school-niwot-girls-basketball",
+  "reviewedAt": "2026-11-08",
+  "reviewer": "Codex independent school main-content tier census",
+  "evidenceURL": "https://nhs.svvsd.org/activities-arts-athletics/athletics/winter-sports/girls-basketball/",
+  "scope": "Only explicitly named sport program and team tiers in this official school page main content, not global navigation, staff or athlete rosters.",
+  "scopeClosed": false,
+  "expectedRecordIds": [
+    "school-niwot-girls-basketball:girls-basketball",
+    "school-niwot-girls-basketball:girls-basketball-varsity",
+    "school-niwot-girls-basketball:girls-basketball-junior-varsity",
+    "school-niwot-girls-basketball:girls-basketball-c-team"
+  ],
+  "expectedPageURLs": [
+    "https://nhs.svvsd.org/activities-arts-athletics/athletics/winter-sports/girls-basketball/"
+  ]
+}
