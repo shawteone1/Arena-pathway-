@@ -120,3 +120,9 @@ backend storage. Use non-sensitive test data only. No deployment was performed.
 See [integration matrix and data-build coordination](docs/SIEM-INTEGRATIONS.md),
 [security assessment](docs/SIEM-SECURITY.md), [QA report](docs/SIEM-QA.md) and
 [draft PR description](docs/SIEM-PR-DRAFT.md).
+
+## Integrated release candidate v1
+
+Review branch: `codex/integrated-release-candidate-v1`, based on Unified `ff4c226`. Start with `npm ci`, `npm run check`, then `npm start` on Node.js 22. Explore `/about`, `/offerings`, `/siem`, `/demos/parent`, `/demos/coach`, `/demos/college`, `/soccer-center` and `/collective-data`. Provider connections are not live.
+
+[Integration and pitch walkthrough](docs/INTEGRATED-RC-V1.md) · [QA results and blockers](docs/INTEGRATED-RC-QA.md) · [Draft review description](docs/INTEGRATED-RC-PR-DRAFT.md). No merge or deployment is authorized.
