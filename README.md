@@ -126,3 +126,7 @@ See [integration matrix and data-build coordination](docs/SIEM-INTEGRATIONS.md),
 Review branch: `codex/integrated-release-candidate-v1`, based on Unified `ff4c226`. Start with `npm ci`, `npm run check`, then `npm start` on Node.js 22. Explore `/about`, `/offerings`, `/siem`, `/demos/parent`, `/demos/coach`, `/demos/college`, `/soccer-center` and `/collective-data`. Provider connections are not live.
 
 [Integration and pitch walkthrough](docs/INTEGRATED-RC-V1.md) · [QA results and blockers](docs/INTEGRATED-RC-QA.md) · [Draft review description](docs/INTEGRATED-RC-PR-DRAFT.md). No merge or deployment is authorized.
+
+## Sports Discovery Engine v1
+
+Review branch `codex/sports-discovery-engine-v1` preserves the integrated website. Run `npm run discovery:check` for expected-source and actual API/HTML reconciliation. [Diagnosis and counts](docs/SPORTS-DISCOVERY-DIAGNOSIS.md) · [Named missing records](docs/SPORTS-DISCOVERY-MISSING.md) · [Operator runbook](docs/SPORTS-DISCOVERY-RUNBOOK.md) · [QA](docs/SPORTS-DISCOVERY-QA.md). Coverage is partial; no operational scheduler is claimed.

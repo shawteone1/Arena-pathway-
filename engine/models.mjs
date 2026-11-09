@@ -1,8 +1,11 @@
+import {readFileSync} from 'node:fs';
+const taxonomy=JSON.parse(readFileSync(new URL('../data/discovery/taxonomy.json',import.meta.url)));
+export const SUPPORTED_STATES=taxonomy.states,PROGRAM_TYPE_SPORTS=taxonomy.programTypeSports;
 import {createHash} from 'node:crypto';
 export const KINDS=['organization','team','league','division','competition','season','event','location','community'];
-export const SPORTS=['lacrosse','volleyball','basketball','swimming'];
-export const REGIONS=['denver-metro','northern-front-range','pikes-peak','eastern-plains','southeast','southwest','western-slope','central-mountains','san-luis-valley'];
-export const PROGRAMS=['year-round-usa-swimming','seasonal-usa-swimming','masters-swimming','summer-swimming','high-school-swimming','collegiate-swimming','indoor-volleyball','beach-volleyball','other-volleyball','field-lacrosse','box-lacrosse','basketball','unknown'];
+export const SPORTS=taxonomy.sports;
+export const REGIONS=taxonomy.regions;
+export const PROGRAMS=taxonomy.programTypes;
 export const normalize=s=>String(s||'').normalize('NFKD').toLowerCase().replace(/[^a-z0-9]/g,'');
 export const hash=v=>createHash('sha256').update(typeof v==='string'?v:JSON.stringify(v)).digest('hex');
 export const stableID=(kind,...parts)=>'co-'+kind+'-'+hash(parts.map(normalize).join('|')).slice(0,20);
@@ -11,10 +14,10 @@ export function entity(input){return {aliases:[],sports:input.sport?[input.sport
 export function eventState(event,asOf=new Date().toISOString().slice(0,10)){if(!event.startDate)return 'date-unconfirmed';if(!event.seasonId||event.dateConfidence!=='published')return 'needs-review';return (event.endDate||event.startDate)<asOf?'historical':'published-upcoming';}
 export function validateEntities(entities,{asOf=new Date().toISOString().slice(0,10)}={}){
  const errors=[],ids=new Map(),identities=new Map();
- for(const e of entities){if(ids.has(e.id))errors.push('DUPLICATE_ID:'+e.id);ids.set(e.id,e);if(!e.id||!e.name||!KINDS.includes(e.kind))errors.push('INVALID_ENTITY:'+e.id);if(e.sport&&!SPORTS.includes(e.sport))errors.push('INVALID_SPORT:'+e.id);if((e.sports||[]).some(s=>!SPORTS.includes(s)))errors.push('INVALID_SPORTS:'+e.id);if(!e.evidenceIds?.length)errors.push('MISSING_EVIDENCE:'+e.id);if(e.region&&!REGIONS.includes(e.region))errors.push('INVALID_REGION:'+e.id);if(e.state&&e.state!=='CO')errors.push('NON_COLORADO:'+e.id);if(!PROGRAMS.includes(e.programType||'unknown'))errors.push('INVALID_PROGRAM:'+e.id);
+ for(const e of entities){if(ids.has(e.id))errors.push('DUPLICATE_ID:'+e.id);ids.set(e.id,e);if(!e.id||!e.name||!KINDS.includes(e.kind))errors.push('INVALID_ENTITY:'+e.id);if(e.sport&&!SPORTS.includes(e.sport))errors.push('INVALID_SPORT:'+e.id);if((e.sports||[]).some(s=>!SPORTS.includes(s)))errors.push('INVALID_SPORTS:'+e.id);if(!e.evidenceIds?.length)errors.push('MISSING_EVIDENCE:'+e.id);if(e.region&&!REGIONS.includes(e.region))errors.push('INVALID_REGION:'+e.id);if(e.state&&!SUPPORTED_STATES.includes(e.state))errors.push('UNSUPPORTED_STATE:'+e.id);if(!PROGRAMS.includes(e.programType||'unknown'))errors.push('INVALID_PROGRAM:'+e.id);
   const key=identity(e);if(identities.has(key)&&identities.get(key)!==e.id)errors.push('DUPLICATE_IDENTITY:'+e.id);identities.set(key,e.id);
   if(e.kind==='organization')for(const alias of [e.name,...(e.aliases||[])]){const key='alias|'+normalize(alias)+'|'+e.state;if(identities.has(key)&&identities.get(key)!==e.id)errors.push('DUPLICATE_ORGANIZATION:'+e.id);identities.set(key,e.id);}
-  if(e.sport&&e.programType&&e.programType!=='unknown'){const expectedSport=e.programType.includes('swimming')?'swimming':e.programType.includes('volleyball')?'volleyball':e.programType.includes('lacrosse')?'lacrosse':e.programType==='basketball'?'basketball':null;if(expectedSport&&e.sport!==expectedSport)errors.push('CROSS_SPORT_PROGRAM:'+e.id);}
+  if(e.sport&&e.programType&&e.programType!=='unknown'){const expectedSport=PROGRAM_TYPE_SPORTS[e.programType]||null;if(expectedSport&&e.sport!==expectedSport)errors.push('CROSS_SPORT_PROGRAM:'+e.id);}
   if(e.sport==='swimming'&&e.programType==='summer-swimming'&&e.affiliations?.includes('year-round-USA-Swimming'))errors.push('MIXED_SWIM_CLASSIFICATION:'+e.id);
   if(e.kind==='event'&&e.current===true&&eventState(e,asOf)!=='published-upcoming')errors.push('STALE_EVENT:'+e.id);
   if(e.startDate&&(!/^\d{4}-\d{2}-\d{2}$/.test(e.startDate)||!Number.isFinite(Date.parse(e.startDate))||e.endDate&&e.endDate<e.startDate))errors.push('INVALID_DATES:'+e.id);

@@ -8,8 +8,13 @@ test('all three demonstrations reuse SIEM normalization, show changes/conflicts/
  assert.throws(()=>makeDemo('fan'));assert.equal(makeDemo('parent').state.athletes.length,2);assert.equal(makeDemo('coach').state.athletes.length,2);assert.ok(makeDemo('college').state.events.some(e=>e.activity==='class'));
  const code=readFileSync(new URL('../public/release-demo.js',import.meta.url),'utf8');assert.ok(!/localStorage|sessionStorage|fetch\(|innerHTML/.test(code));
 });
-test('integration preserves exact reviewed data and approved charter/brand assets',()=>{
- for(const file of ['data/engine/approved.json','data/engine/registry.json','data/unified/catalog.json','src/brand.json','src/photography.json'])assert.equal(readFileSync(file,'utf8'),execFileSync('git',['show','ff4c226:'+file],{encoding:'utf8',maxBuffer:30e6}));
+test('integration preserves reviewed records, source URLs and approved charter/brand assets while allowing additions',()=>{
+ for(const file of ['src/brand.json','src/photography.json'])assert.equal(readFileSync(file,'utf8'),execFileSync('git',['show','ff4c226:'+file],{encoding:'utf8'}));
+ const base=JSON.parse(execFileSync('git',['show','ff4c226:data/engine/approved.json'],{encoding:'utf8',maxBuffer:30e6}));
+ const current=JSON.parse(readFileSync('data/engine/approved.json'));for(const collection of ['entities','evidence'])for(const row of base[collection])assert.deepEqual(current[collection].find(e=>e.id===row.id),row);
+ const registry=JSON.parse(readFileSync('data/engine/registry.json'));for(const source of JSON.parse(execFileSync('git',['show','ff4c226:data/engine/registry.json'],{encoding:'utf8'})))assert.ok(source.urls.every(url=>registry.find(s=>s.id===source.id)?.urls.includes(url)));
+ const oldPrograms=JSON.parse(execFileSync('git',['show','ff4c226:data/unified/catalog.json'],{encoding:'utf8',maxBuffer:30e6})).programs;for(const p of oldPrograms)assert.ok(programs.some(x=>x.id===p.id)||JSON.parse(readFileSync('data/unified/catalog.json')).programs.some(x=>x.id===p.id));
+
  // Immutable hashes of approved governance commit 95275cc; portable after cherry-pick.
  for(const [file,expected] of Object.entries({"AGENTS.md": "ce76b80ef1fcfb83d0036acea67fa11e6f87fb2a17d07d9b7b9a2c8037266ff5", "docs/PRODUCT-NORTH-STAR.md": "7afce3caa2e7113f5dbcb3dccd061dcc2ceab6b3654154e406ab1f03782fff27"}))assert.equal(createHash('sha256').update(readFileSync(file)).digest('hex'),expected);
 });

@@ -1,0 +1,101 @@
+[
+  {
+    "sourceId": "volley-skyline",
+    "sourceRecordId": "volley-skyline:18 Royal",
+    "entityId": "sky-18-royal",
+    "reviewer": "Codex preservation/evidence reconciliation",
+    "reviewedAt": "2026-11-09",
+    "evidenceURL": "https://www.coskylinejrs.com/",
+    "reason": "Exact previously reviewed navigation label; preserves historical identity only. Does not count as capture in the latest extraction."
+  },
+  {
+    "sourceId": "volley-skyline",
+    "sourceRecordId": "volley-skyline:17 Royal",
+    "entityId": "sky-17-royal",
+    "reviewer": "Codex preservation/evidence reconciliation",
+    "reviewedAt": "2026-11-09",
+    "evidenceURL": "https://www.coskylinejrs.com/",
+    "reason": "Exact previously reviewed navigation label; preserves historical identity only. Does not count as capture in the latest extraction."
+  },
+  {
+    "sourceId": "volley-skyline",
+    "sourceRecordId": "volley-skyline:16 Royal",
+    "entityId": "sky-16-royal",
+    "reviewer": "Codex preservation/evidence reconciliation",
+    "reviewedAt": "2026-11-09",
+    "evidenceURL": "https://www.coskylinejrs.com/",
+    "reason": "Exact previously reviewed navigation label; preserves historical identity only. Does not count as capture in the latest extraction."
+  },
+  {
+    "sourceId": "volley-skyline",
+    "sourceRecordId": "volley-skyline:16 Black",
+    "entityId": "sky-16-black",
+    "reviewer": "Codex preservation/evidence reconciliation",
+    "reviewedAt": "2026-11-09",
+    "evidenceURL": "https://www.coskylinejrs.com/",
+    "reason": "Exact previously reviewed navigation label; preserves historical identity only. Does not count as capture in the latest extraction."
+  },
+  {
+    "sourceId": "volley-skyline",
+    "sourceRecordId": "volley-skyline:15 Royal",
+    "entityId": "sky-15-royal",
+    "reviewer": "Codex preservation/evidence reconciliation",
+    "reviewedAt": "2026-11-09",
+    "evidenceURL": "https://www.coskylinejrs.com/",
+    "reason": "Exact previously reviewed navigation label; preserves historical identity only. Does not count as capture in the latest extraction."
+  },
+  {
+    "sourceId": "volley-skyline",
+    "sourceRecordId": "volley-skyline:15 Black",
+    "entityId": "sky-15-black",
+    "reviewer": "Codex preservation/evidence reconciliation",
+    "reviewedAt": "2026-11-09",
+    "evidenceURL": "https://www.coskylinejrs.com/",
+    "reason": "Exact previously reviewed navigation label; preserves historical identity only. Does not count as capture in the latest extraction."
+  },
+  {
+    "sourceId": "volley-skyline",
+    "sourceRecordId": "volley-skyline:14 Royal",
+    "entityId": "sky-14-royal",
+    "reviewer": "Codex preservation/evidence reconciliation",
+    "reviewedAt": "2026-11-09",
+    "evidenceURL": "https://www.coskylinejrs.com/",
+    "reason": "Exact previously reviewed navigation label; preserves historical identity only. Does not count as capture in the latest extraction."
+  },
+  {
+    "sourceId": "volley-skyline",
+    "sourceRecordId": "volley-skyline:14 Black",
+    "entityId": "sky-14-black",
+    "reviewer": "Codex preservation/evidence reconciliation",
+    "reviewedAt": "2026-11-09",
+    "evidenceURL": "https://www.coskylinejrs.com/",
+    "reason": "Exact previously reviewed navigation label; preserves historical identity only. Does not count as capture in the latest extraction."
+  },
+  {
+    "sourceId": "volley-skyline",
+    "sourceRecordId": "volley-skyline:13 Royal",
+    "entityId": "sky-13-royal",
+    "reviewer": "Codex preservation/evidence reconciliation",
+    "reviewedAt": "2026-11-09",
+    "evidenceURL": "https://www.coskylinejrs.com/",
+    "reason": "Exact previously reviewed navigation label; preserves historical identity only. Does not count as capture in the latest extraction."
+  },
+  {
+    "sourceId": "volley-skyline",
+    "sourceRecordId": "volley-skyline:13 Black",
+    "entityId": "sky-13-black",
+    "reviewer": "Codex preservation/evidence reconciliation",
+    "reviewedAt": "2026-11-09",
+    "evidenceURL": "https://www.coskylinejrs.com/",
+    "reason": "Exact previously reviewed navigation label; preserves historical identity only. Does not count as capture in the latest extraction."
+  },
+  {
+    "sourceId": "volley-skyline",
+    "sourceRecordId": "volley-skyline:12 Royal",
+    "entityId": "sky-12-royal",
+    "reviewer": "Codex preservation/evidence reconciliation",
+    "reviewedAt": "2026-11-09",
+    "evidenceURL": "https://www.coskylinejrs.com/",
+    "reason": "Exact previously reviewed navigation label; preserves historical identity only. Does not count as capture in the latest extraction."
+  }
+]

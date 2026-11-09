@@ -1,0 +1,30 @@
+[
+  {
+    "id": "replay-front-range",
+    "title": "Reviewed archive replay \u2014 front-range",
+    "adapter": "reviewed-archive",
+    "sport": "volleyball",
+    "state": "CO",
+    "scope": "Only prior source-verified organization identity and reviewed participation scope; membership discovery remains open.",
+    "archivedEntityIds": [
+      "front-range"
+    ],
+    "snapshotCommit": "50ce75d58074485054e65e92a3b5413591cf1712",
+    "expectedManifest": "data/discovery/expectations/replay-front-range.json",
+    "refreshHours": 168
+  },
+  {
+    "id": "replay-team180",
+    "title": "Reviewed archive replay \u2014 team-180",
+    "adapter": "reviewed-archive",
+    "sport": "lacrosse",
+    "state": "CO",
+    "scope": "Only prior source-verified organization identity and reviewed participation scope; membership discovery remains open.",
+    "archivedEntityIds": [
+      "team-180"
+    ],
+    "snapshotCommit": "50ce75d58074485054e65e92a3b5413591cf1712",
+    "expectedManifest": "data/discovery/expectations/replay-team180.json",
+    "refreshHours": 168
+  }
+]

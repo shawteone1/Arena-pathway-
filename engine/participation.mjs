@@ -1,4 +1,4 @@
-import {hash,stableID,normalize,SPORTS,REGIONS,PROGRAMS,eventState} from './models.mjs';
+import {hash,stableID,normalize,SPORTS,REGIONS,PROGRAMS,PROGRAM_TYPE_SPORTS,eventState} from './models.mjs';
 export const DESIGNATIONS=['youth','high-school','college','adult','professional','community'];
 export const designationLabels={youth:'Youth Clubs & Programs','high-school':'High School',college:'College',adult:'Adult Leagues',professional:'Semi-Professional & Professional',community:'Community & Recreation'};
 export const SWIM_TYPES=['year-round-competitive','seasonal-competitive','summer-recreational','high-school','collegiate','masters','unknown'];
@@ -25,7 +25,7 @@ export function validateParticipation(snapshot,{entities=[],evidence=[],records=
   const org=byId.get(p.organizationId);if(!org||org.kind!=='organization')errors.push('PROGRAM_PARENT:'+p.id);
   if(!SPORTS.includes(p.sport)||org?.sports?.length&&!org.sports.includes(p.sport))errors.push('PROGRAM_CROSS_SPORT:'+p.id);
   if(p.reviewStatus==='verified'&&(!DESIGNATIONS.includes(p.designation)||!p.reviewer||!p.reviewedAt||!/^\d{4}-\d{2}-\d{2}$/.test(p.reviewedAt)||!Number.isFinite(Date.parse(p.reviewedAt))||!p.reason))errors.push('UNREVIEWED_CLASSIFICATION:'+p.id);
-  if(!PROGRAMS.includes(p.programType))errors.push('INVALID_PROGRAM_TYPE:'+p.id);const typedSport=p.programType.includes('swimming')?'swimming':p.programType.includes('volleyball')?'volleyball':p.programType.includes('lacrosse')?'lacrosse':p.programType==='basketball'?'basketball':null;if(typedSport&&typedSport!==p.sport)errors.push('PROGRAM_FORMAT_CROSS_SPORT:'+p.id);
+  if(!PROGRAMS.includes(p.programType))errors.push('INVALID_PROGRAM_TYPE:'+p.id);const typedSport=PROGRAM_TYPE_SPORTS[p.programType]||null;if(typedSport&&typedSport!==p.sport)errors.push('PROGRAM_FORMAT_CROSS_SPORT:'+p.id);
   if(!p.evidenceIds?.length||p.evidenceIds.some(id=>!ev.has(id)))errors.push('PROGRAM_EVIDENCE:'+p.id);
   if(p.genders?.some(g=>!GENDERS.includes(g))||p.levels?.some(l=>!LEVELS.includes(l)))errors.push('INVALID_PARTICIPATION_FIELDS:'+p.id);
   if(p.region&&!REGIONS.includes(p.region))errors.push('INVALID_PROGRAM_REGION:'+p.id);

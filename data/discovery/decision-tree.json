@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "structures": {
+    "association-members": {
+      "steps": [
+        "traverse-pages",
+        "extract-members",
+        "register-related-sources",
+        "verify-identity",
+        "classify-programs",
+        "reconcile-coverage"
+      ]
+    },
+    "club-programs": {
+      "steps": [
+        "verify-identity",
+        "traverse-pages",
+        "extract-members",
+        "verify-team-parent",
+        "classify-programs",
+        "reconcile-coverage"
+      ]
+    },
+    "competition-participants": {
+      "steps": [
+        "traverse-pages",
+        "extract-members",
+        "retain-opponents",
+        "verify-team-parent",
+        "verify-season",
+        "classify-programs",
+        "reconcile-coverage"
+      ]
+    },
+    "school-college": {
+      "steps": [
+        "verify-school-identity",
+        "traverse-pages",
+        "extract-members",
+        "verify-team-parent",
+        "verify-season",
+        "reconcile-coverage"
+      ]
+    },
+    "community-provider": {
+      "steps": [
+        "verify-provider",
+        "verify-sport-program",
+        "verify-facility-relationship",
+        "classify-programs",
+        "reconcile-coverage"
+      ]
+    },
+    "archived-identities": {
+      "steps": [
+        "verify-archive-hash",
+        "retain-original-evidence-date",
+        "replay-reviewed-identities",
+        "reconcile-publication",
+        "schedule-source-refresh"
+      ]
+    }
+  },
+  "adapterStructures": {
+    "discovery": "association-members",
+    "association-list": "association-members",
+    "mhsl": "association-members",
+    "csi-clubs": "association-members",
+    "pdf-team-scores": "competition-participants",
+    "team-scores": "competition-participants",
+    "standings": "competition-participants",
+    "college": "school-college",
+    "profile": "club-programs",
+    "links": "club-programs",
+    "named-elements": "club-programs",
+    "hdn-programs": "association-members",
+    "goldcrown-programs": "association-members",
+    "league-list": "association-members",
+    "json-feed": "association-members",
+    "reviewed-archive": "archived-identities"
+  },
+  "sports": {
+    "lacrosse": {
+      "structures": [
+        "association-members",
+        "club-programs",
+        "competition-participants",
+        "school-college",
+        "community-provider",
+        "archived-identities"
+      ],
+      "classificationRequirements": [
+        "youth/school/college/adult separate",
+        "field/box when known",
+        "competition participant does not establish owning club"
+      ]
+    },
+    "volleyball": {
+      "structures": [
+        "association-members",
+        "club-programs",
+        "competition-participants",
+        "school-college",
+        "community-provider",
+        "archived-identities"
+      ],
+      "classificationRequirements": [
+        "club-first",
+        "boys/girls/indoor/beach when known",
+        "age-group squads are not parent clubs"
+      ]
+    },
+    "basketball": {
+      "structures": [
+        "association-members",
+        "club-programs",
+        "competition-participants",
+        "school-college",
+        "community-provider",
+        "archived-identities"
+      ],
+      "classificationRequirements": [
+        "club/league/organizer/community distinct",
+        "AAU only with evidence",
+        "joining status unknown unless verified"
+      ]
+    },
+    "swimming": {
+      "structures": [
+        "association-members",
+        "club-programs",
+        "competition-participants",
+        "school-college",
+        "community-provider",
+        "archived-identities"
+      ],
+      "classificationRequirements": [
+        "year-round/seasonal/summer/school/college/Masters distinct",
+        "unattached/visitors not Colorado clubs",
+        "league members are not automatically year-round"
+      ]
+    }
+  }
+}
