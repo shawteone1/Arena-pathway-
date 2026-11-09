@@ -1,3 +1,4 @@
+import {releaseHomeSections} from './release-views.mjs';
 import { sports, sections, titleCase as cap, freshness, validateCatalog } from './catalog.mjs';
 import {catalog} from './engine-directory.mjs';
 import {unifiedSportBody,organizationBody,classificationBody} from './unified-views.mjs';
@@ -31,12 +32,12 @@ export function layout(title,content,page=''){
     <div class="topline"><span>COLORADO ROOTS.</span><span>COLLEGIATE AMBITION.</span></div>
     <header class="site-header">
       <a class="brand" href="/" aria-label="Arena Pathway home">${brandMark()}<span class="wordmark">ARENA <b>PATHWAY</b><small>THE ATHLETE JOURNEY, CONNECTED.</small></span></a>
-      <div class="header-actions"><a class="my-link" href="/my-pathway">My Pathway</a>
+      <div class="header-actions"><details class="explore-menu"><summary>Explore</summary><nav aria-label="Arena Pathway"><a href="/about">About us</a><a href="/offerings">Our offerings</a><a href="/demos/parent">SIEM demonstrations</a><a href="/soccer-center">Soccer Center preview</a><a href="/collective-data">Collective Data — Coming Soon</a></nav></details><a class="my-link" href="/siem">SIEM</a><a class="my-link" href="/my-pathway">My Pathway</a>
         <details id="sports-menu"><summary>Sports <span aria-hidden="true">⌄</span></summary><nav aria-label="Sports">${sports.map(s=>`<a href="/sports/${s}">${cap(s)}</a>`).join('')}<a href="/build">Build Your Own <span aria-hidden="true">↗</span></a></nav></details>
       </div>
     </header>${content}
-    <footer><div class="footer-main"><a class="brand" href="/" aria-label="Arena Pathway home">${brandMark()}<span class="wordmark">ARENA <b>PATHWAY</b><small>YOUR SPORT. YOUR PATH. ONE PLACE.</small></span></a><p>For the athlete you are.<br>For everything you can become.</p><div class="footer-links"><a href="/data">Sources & coverage</a><a href="/my-pathway">My saved pathway</a><a href="/credits">Photography credits</a></div></div><div class="footer-bottom"><span>BUILT FOR ATHLETES. GUIDED BY FAMILIES.</span><p>Independent of the schools and programs pictured or listed.</p></div></footer>
-    <div id="toast" role="status" aria-live="polite"></div></body></html>`;
+    <footer><div class="footer-main"><a class="brand" href="/" aria-label="Arena Pathway home">${brandMark()}<span class="wordmark">ARENA <b>PATHWAY</b><small>YOUR SPORT. YOUR PATH. ONE PLACE.</small></span></a><p>For the athlete you are.<br>For everything you can become.</p><div class="footer-links"><a href="/about">About us</a><a href="/offerings">Our offerings</a><a href="/demos/parent">SIEM demonstrations</a><a href="/soccer-center">Soccer Center preview</a><a href="/collective-data">Collective Data — Coming Soon</a><a href="/data">Sources & coverage</a><a href="/my-pathway">My saved pathway</a><a href="/credits">Photography credits</a></div></div><div class="footer-bottom"><span>BUILT FOR ATHLETES. GUIDED BY FAMILIES.</span><p>Independent of the schools and programs pictured or listed.</p></div></footer>
+    <div id="toast" role="status" aria-live="polite"></div></body></html>`.replaceAll('↗','<span class="direction-arrow" aria-hidden="true"></span>');
 }
 export function home(){
   return layout('The next chapter is yours',`<main id="main">
@@ -50,7 +51,7 @@ export function home(){
       </div>
     </section>
     <section class="section mission" aria-labelledby="mission-heading"><div><p class="eyebrow red">THE ARENA PATHWAY MISSION</p><h2 id="mission-heading">Talent needs a place.<br><em>Ambition needs a path.</em></h2>${homepageMark()}</div><div class="editorial-copy"><p>Finding your way in sport should feel like possibility. A team that fits. A chance to grow. A community that understands where you want to go.</p><p>Arena Pathway brings those starting points together for Colorado athletes and families, from local programs to the college journey.</p><a class="text-link" href="/build">Start with what matters to you <span aria-hidden="true">↗</span></a></div></section>
-    <section id="sports" class="section arena-section"><div class="section-heading"><div><p class="eyebrow red">01 / DISCOVERY</p><h2>Find your arena.</h2></div><p>Four sports. A world of possibilities.<br>Choose where your story begins.</p></div>
+    ${releaseHomeSections()}<section id="sports" class="section arena-section"><div class="section-heading"><div><p class="eyebrow red">01 / DISCOVERY</p><h2>Find your arena.</h2></div><p>Four sports. A world of possibilities.<br>Choose where your story begins.</p></div>
       <div class="arena-list">${sports.map((s,i)=>`<article class="arena-story ${s}"><a class="arena-image" href="/sports/${s}" aria-label="Explore ${cap(s)}">${photo(s,{sizes:'(max-width:650px) 100vw, 50vw'})}<span class="image-index" aria-hidden="true">0${i+1}</span></a><div class="arena-copy"><p class="eyebrow">YOUR COLORADO ${s.toUpperCase()} PATHWAY</p><h3><a href="/sports/${s}">${cap(s)}<span aria-hidden="true">↗</span></a></h3><p>${({lacrosse:'Find your field. Build your game. Go further together.',volleyball:'Every touch, every team, every next possibility.',basketball:'From the local court to the bigger stage.',swimming:'Find your lane. Discover what comes next.'})[s]}</p><div class="arena-links">${sections.map(c=>`<a href="/sports/${s}/${c}">${cap(c)}</a>`).join('')}</div></div></article>`).join('')}</div>
       <p class="coverage-line">A growing Colorado catalog, with sources behind every listing. <a href="/data">Explore coverage →</a></p>
     </section>

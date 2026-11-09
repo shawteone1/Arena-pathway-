@@ -11,7 +11,7 @@
     "dev": "node --watch server.mjs",
     "test": "node --test",
     "validate:data": "node scripts/validate-data.mjs",
-    "check": "node --check server.mjs && node --check src/views.mjs && node --check public/app.js && npm run validate:data && npm run validate:participation && npm test",
+    "check": "node --check server.mjs && node --check src/views.mjs && node --check public/app.js && node --check public/siem.js && node --check public/siem-model.js && node --check src/siem-view.mjs && node --check src/release-views.mjs && node --check public/release-demo.js && node --check public/release-demo-model.js && npm run validate:data && npm run validate:participation && npm test",
     "prepare:brand": "node scripts/prepare-brand.mjs",
     "check:brand": "node scripts/check-brand.mjs",
     "data:import": "node scripts/data-engine.mjs import",
@@ -25,7 +25,8 @@
     "data:interrupt": "node scripts/data-engine.mjs interrupt",
     "test:workspace:browser": "python scripts/qa-pathway.py",
     "data:classify": "node scripts/reconcile-participation.mjs",
-    "validate:participation": "node scripts/validate-participation.mjs"
+    "validate:participation": "node scripts/validate-participation.mjs",
+    "test:release:browser": "python scripts/qa-release.py"
   },
   "dependencies": {
     "cheerio": "1.2.0",

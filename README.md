@@ -107,3 +107,22 @@ The v0.6 work is on `codex/arena-pathway-transfer`; the isolated v0.7 visual wor
 baseline. Review and commit this branch as appropriate. Do not merge, deploy,
 publish, or configure hosting without the owner’s approval. Local start and test
 commands perform no publication, external writes, or repository pushes.
+
+## SIEM Parent Command Center v1
+
+Open `/siem` after `npm start`. The isolated SIEM prototype preserves the v0.7
+letterman presentation and approved AP logo. Parent-managed athletes from My
+Pathway and parent participants share a local event/action workspace. Optional
+Parent Wellness is part of SIEM, alongside the separate Recruiting and Locked In
+pillars. There are no live external connections, verified authentication or secure
+backend storage. Use non-sensitive test data only. No deployment was performed.
+
+See [integration matrix and data-build coordination](docs/SIEM-INTEGRATIONS.md),
+[security assessment](docs/SIEM-SECURITY.md), [QA report](docs/SIEM-QA.md) and
+[draft PR description](docs/SIEM-PR-DRAFT.md).
+
+## Integrated release candidate v1
+
+Review branch: `codex/integrated-release-candidate-v1`, based on Unified `ff4c226`. Start with `npm ci`, `npm run check`, then `npm start` on Node.js 22. Explore `/about`, `/offerings`, `/siem`, `/demos/parent`, `/demos/coach`, `/demos/college`, `/soccer-center` and `/collective-data`. Provider connections are not live.
+
+[Integration and pitch walkthrough](docs/INTEGRATED-RC-V1.md) · [QA results and blockers](docs/INTEGRATED-RC-QA.md) · [Draft review description](docs/INTEGRATED-RC-PR-DRAFT.md). No merge or deployment is authorized.

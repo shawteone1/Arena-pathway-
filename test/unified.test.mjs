@@ -89,7 +89,7 @@ test('classification snapshots are durable, reviewed and refuse silent program d
  }finally{s.close();rmSync(dir,{recursive:true,force:true});}
 });
 test('every original reviewed normalized entity and evidence payload remains present and identical',()=>{
- const original=JSON.parse(execFileSync('git',['show','origin/codex/colorado-data-engine-v1-review:data/engine/approved.json'],{encoding:'utf8',maxBuffer:20*1024*1024}));
+ const original=JSON.parse(execFileSync('git',['show','c13de9052f2a88e6c7bd30f015d06e9942067951:data/engine/approved.json'],{encoding:'utf8',maxBuffer:20*1024*1024}));
  for(const collection of ['entities','evidence'])for(const row of original[collection])assert.deepEqual(engineSnapshot[collection].find(e=>e.id===row.id),row,row.id);
  assert.equal(validateParticipation(participation,{entities:engineSnapshot.entities,evidence:engineSnapshot.evidence}).valid,true);
 });
