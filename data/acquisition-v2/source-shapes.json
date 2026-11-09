@@ -1,0 +1,39 @@
+{
+  "https://www.vbnerd.com/clubtracker/regions/3": {
+    "name": "VBNerd Rocky Mountain regional directory",
+    "owner": "VBNerd",
+    "type": "directory",
+    "adapter": "scoped-table",
+    "rowSelector": "table tbody tr",
+    "nameColumn": 0,
+    "linkColumn": 0,
+    "expectedHeader": "Club Name",
+    "expectedRecordTypes": [
+      "organization"
+    ],
+    "sourceGeography": [
+      "CO",
+      "WY",
+      "other-RM"
+    ],
+    "expectedScope": "All 102 region-list rows as displayed; state and youth eligibility require corroboration.",
+    "declaredCountPattern": "Total Clubs:\\s*(\\d+)"
+  },
+  "https://synergysportsoperations.com/our-brands/": {
+    "name": "Synergy published clubs and programs",
+    "owner": "Synergy Sports Operations",
+    "type": "directory",
+    "adapter": "scoped-cards",
+    "headingSelector": "h3",
+    "cardSelector": ".fl-module-box",
+    "expectedRecordTypes": [
+      "organization",
+      "league",
+      "facility"
+    ],
+    "sourceGeography": [
+      "CO"
+    ],
+    "expectedScope": "Publisher portfolio: extract every named card, preserving explicit kind/eligibility; portfolio is not statewide."
+  }
+}

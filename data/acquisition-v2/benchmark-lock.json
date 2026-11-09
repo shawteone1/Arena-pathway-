@@ -1,0 +1,13 @@
+{
+  "frozenBeforeEvaluation": true,
+  "hashes": {
+    "benchmarks/lacrosse.json": "95472e49ef3be07e218dbd5020b542dd536944ba8d342fcee79d3a45390c6157",
+    "benchmarks/source-censuses.json": "dff771de245c09d1d0de3026147ff536421a26f9fb5e4bb98c60c54d3e4c3a2a",
+    "benchmarks/volleyball.json": "4c69a6519dc2d8101630e669912daf90b6c2497d8963979d017eeb1fc43afb5e"
+  },
+  "limitations": [
+    "same analyst, not externally blinded",
+    "purposive small sample, not statistical statewide estimate",
+    "some publisher evidence indexed/access-limited"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "channel": "Manual export of generic public web-search results, not an operational search API",
+  "queries": {
+    "lacrosse": [
+      "Colorado youth lacrosse clubs association member organizations",
+      "Colorado youth lacrosse league member clubs programs"
+    ],
+    "volleyball": [
+      "Colorado youth volleyball club directory Rocky Mountain Region clubs"
+    ]
+  },
+  "recordedAt": "2026-11-09",
+  "leads": {
+    "lacrosse": [
+      "https://synergysportsoperations.com/our-brands/",
+      "https://www.grandvalleylax.com/about/about-us/9321",
+      "https://www.spartanyouthclub.com/boyslacrosse",
+      "https://www.bisonlaxclub.com/copy-of-team-3",
+      "https://www.aylsports.org/home",
+      "https://mountainlax.com/content/426/History",
+      "https://www.stickwithit.com/colorado-club-programs-youth/"
+    ],
+    "volleyball": [
+      "https://www.vbnerd.com/clubtracker/regions/3",
+      "https://www.rmrvolleyball.org/page/show/6830537-club-directory",
+      "https://cdn1.sportngin.com/attachments/document/b6d7-3408270/26-01-28.Girls.Clubs_and_Codes_25-26.pdf",
+      "https://cdn3.sportngin.com/attachments/document/34fb-2753153/26-01-28.Boys.Clubs_and_Codes_25-26.pdf"
+    ]
+  },
+  "restrictions": "No indexed snippet is imported as verified data. Publisher retrieval must separately satisfy robots and access controls."
+}
