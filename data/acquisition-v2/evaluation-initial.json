@@ -1,0 +1,593 @@
+{
+  "protocol": {
+    "schemaVersion": 1,
+    "baseCommit": "5d554b947f5ad700fe2770b84b6a9511d8cedb7d",
+    "scope": {
+      "sports": [
+        "volleyball",
+        "lacrosse"
+      ],
+      "state": "CO",
+      "participation": "youth"
+    },
+    "thresholdsDeclaredBeforeEvaluation": true,
+    "thresholds": {
+      "prescribedAccessibleScopeRecall": 1,
+      "heldOutOrganizationRecall": 0.9,
+      "organizationPrecision": 0.95,
+      "classificationAccuracy": 0.95,
+      "duplicateRateMaximum": 0,
+      "traceability": 1,
+      "freshWithinDays": 30,
+      "freshnessRate": 0.9,
+      "userVisibleRecall": 0.9
+    },
+    "rules": [
+      "No statewide total without a defensible independent denominator.",
+      "Recall counts a benchmark organization once; aliases, program cohorts and squads are not extra clubs.",
+      "A search snippet is a discovery lead, not a successfully retrieved publisher page or verified organization.",
+      "Blocked sources remain failures; public publisher-issued alternate documents may be separately registered subject to their own access rules.",
+      "Source snapshot publication date is separate from retrieval date; a 2025-26 list is historical evidence, not proof of 2026-27 membership.",
+      "No club ownership from schedule opponent names; no youth eligibility from a name alone.",
+      "Prescribed source results and held-out independent discovery are evaluated separately.",
+      "Blocked prescribed sources are blocked/not evaluated, never passed on fixture results.",
+      "Controlled fixtures prove change handling only, never live discovery recall.",
+      "Acquisition reads job configuration and permitted live pages only; benchmarks are read only by the separate evaluator after result sealing.",
+      "Benchmark assembly uses separate research and publisher lists; same-analyst and small-sample limitations must be disclosed.",
+      "New verified records are reviewed before optional publication; unknown fields and incomplete sources remain explicit."
+    ],
+    "discoveryInputs": {
+      "lacrosse": "Find youth lacrosse organizations throughout Colorado.",
+      "volleyball": "Find youth volleyball organizations throughout Colorado."
+    },
+    "genericSearchQueries": {
+      "lacrosse": [
+        "Colorado youth lacrosse clubs association member organizations",
+        "Colorado youth lacrosse league member clubs programs"
+      ],
+      "volleyball": [
+        "Colorado youth volleyball club directory Rocky Mountain Region clubs"
+      ]
+    },
+    "budgets": {
+      "maxSourcesPerJob": 24,
+      "maxPagesPerSource": 6,
+      "minHostIntervalMs": 2000,
+      "timeoutMs": 20000
+    },
+    "publicationPolicy": "Review-only acquisition catalog initially. Consumer website unchanged until explicitly reviewed identity/program facts are approved; report user-visible recall separately."
+  },
+  "benchmarkHashesValidated": true,
+  "acquisitionResultSha256": "f5d9b66813b9ea1527dae364e99301046964dc299ca26d268d26ed55010c85ce",
+  "benchmarkExposedToAcquisition": false,
+  "limitations": [
+    "same analyst, not externally blinded",
+    "purposive small sample, not statistical statewide estimate",
+    "some publisher evidence indexed/access-limited"
+  ],
+  "demonstrationA": {
+    "officialRmr": {
+      "url": "https://www.rmrvolleyball.org/page/show/6830537-club-directory",
+      "status": "failed",
+      "failure": "HTTP_403",
+      "passed": false,
+      "denominator": null,
+      "reason": "Official scope blocked; alternate directory evaluated separately, not substituted."
+    },
+    "alternateScopes": [
+      {
+        "url": "https://www.vbnerd.com/clubtracker/regions/3",
+        "scope": "All displayed Rocky Mountain club-list entries, including non-Colorado entries; not statewide Colorado youth census",
+        "independentExpected": 102,
+        "captured": 102,
+        "matched": 102,
+        "missed": [],
+        "unexpected": [],
+        "recall": 1,
+        "passed": true,
+        "notStatewide": true
+      },
+      {
+        "url": "https://synergysportsoperations.com/our-brands/",
+        "scope": "Six published portfolio cards only",
+        "independentExpected": 6,
+        "captured": 6,
+        "matched": 6,
+        "missed": [],
+        "unexpected": [],
+        "recall": 1,
+        "passed": true,
+        "notStatewide": true
+      }
+    ]
+  },
+  "demonstrationB": [
+    {
+      "sport": "lacrosse",
+      "benchmarkPositives": 12,
+      "heldOut": 6,
+      "discoveredCandidateRows": 18,
+      "uniqueCandidateNames": 11,
+      "metrics": {
+        "organizationDiscoveryRecall": 0,
+        "qualifiedYouthRecall": 0,
+        "classificationAccuracyOnMatchedBenchmark": 1,
+        "precision": null,
+        "precisionReason": "Full output pool not independently adjudicated; unknowns cannot be counted as true positives.",
+        "matchedBenchmarkShareLowerBound": 0.16666666666666666,
+        "rawCandidateDuplicateRate": 0.3888888888888889,
+        "traceability": 1,
+        "publicationDateFreshnessRate": 0.05555555555555555,
+        "retrievalFreshnessRate": 1,
+        "userVisibleCompleteness": 0
+      },
+      "gates": {
+        "recall": false,
+        "classification": true,
+        "precision": false,
+        "duplicates": false,
+        "traceability": true,
+        "freshness": false,
+        "visibility": false
+      },
+      "accepted": false,
+      "named": [
+        {
+          "name": "Denver Elite",
+          "split": "development",
+          "evidenceURL": "https://www.colorado.adrln.com/program/denver-elite-field/4424",
+          "benchmarkBasis": "Prior reviewed official youth/high-school field program",
+          "found": true,
+          "qualified": true,
+          "recordIds": [
+            "acq-8f867d8566c65cf753dfc256"
+          ],
+          "visible": true,
+          "reason": "Evidence candidate requires independent review and consumer publication."
+        },
+        {
+          "name": "Team 180 Elite",
+          "split": "development",
+          "evidenceURL": "https://team180elite.com/about-team180/",
+          "benchmarkBasis": "Prior reviewed girls club and documented merger",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": true,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        },
+        {
+          "name": "Denver Lacrosse Club",
+          "split": "development",
+          "evidenceURL": "https://www.denverlacrosse.org/",
+          "benchmarkBasis": "Official home identifies youth recreational and school-age programs",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        },
+        {
+          "name": "Grand Valley Lacrosse",
+          "split": "development",
+          "evidenceURL": "https://www.grandvalleylax.com/about/about-us/9321",
+          "benchmarkBasis": "Official nonprofit youth offering in Grand Junction",
+          "found": true,
+          "qualified": true,
+          "recordIds": [
+            "acq-3e291bc4dc52957d87b26854",
+            "acq-57e51dfea089f3d3647580d4"
+          ],
+          "visible": false,
+          "reason": "Evidence candidate requires independent review and consumer publication."
+        },
+        {
+          "name": "Spartan Youth Club",
+          "split": "development",
+          "evidenceURL": "https://www.spartanyouthclub.com/boyslacrosse",
+          "benchmarkBasis": "Official youth club and AYL membership page",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        },
+        {
+          "name": "STICK WITH IT!",
+          "split": "development",
+          "evidenceURL": "https://www.stickwithit.com/colorado-club-programs-youth/",
+          "benchmarkBasis": "Publisher identifies Colorado youth program; headquarters is CA, participation is CO",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        },
+        {
+          "name": "Boulder Valley Lacrosse",
+          "split": "held-out",
+          "evidenceURL": "https://www.boulderlacrosse.org/",
+          "benchmarkBasis": "Official source describes school-age spring/camp programs; annual dates may be historical",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        },
+        {
+          "name": "Foothills Pack",
+          "split": "held-out",
+          "evidenceURL": "https://www.foothillspack.com/",
+          "benchmarkBasis": "Publisher explicitly identifies Boulder County girls youth-through-high-school scope",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        },
+        {
+          "name": "Warriors Youth Sports",
+          "split": "held-out",
+          "evidenceURL": "https://www.warriorsyouthsports.com/content/34032/LAX-FAQ",
+          "benchmarkBasis": "Official FAQ: ages 6–14, AYL member and service territory",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        },
+        {
+          "name": "Littleton Youth Sports",
+          "split": "held-out",
+          "evidenceURL": "https://www.littletonyouthsports.org/lacrosse-faqs",
+          "benchmarkBasis": "Official FAQ: K–8 and AYL territory",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        },
+        {
+          "name": "Denver United Lacrosse",
+          "split": "held-out",
+          "evidenceURL": "https://www.unitedlacrosse.org/",
+          "benchmarkBasis": "Official source describes Denver youth, boys/girls, age/grade programs",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        },
+        {
+          "name": "Ranger Youth Lacrosse",
+          "split": "held-out",
+          "evidenceURL": "https://www.rangerlacrosse.org/about/about-us/18227",
+          "benchmarkBasis": "Official publisher identifies youth boys in Tri-Lakes/Northern Colorado Springs",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        }
+      ],
+      "missing": [
+        {
+          "name": "Boulder Valley Lacrosse",
+          "split": "held-out",
+          "evidenceURL": "https://www.boulderlacrosse.org/",
+          "benchmarkBasis": "Official source describes school-age spring/camp programs; annual dates may be historical",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        },
+        {
+          "name": "Foothills Pack",
+          "split": "held-out",
+          "evidenceURL": "https://www.foothillspack.com/",
+          "benchmarkBasis": "Publisher explicitly identifies Boulder County girls youth-through-high-school scope",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        },
+        {
+          "name": "Warriors Youth Sports",
+          "split": "held-out",
+          "evidenceURL": "https://www.warriorsyouthsports.com/content/34032/LAX-FAQ",
+          "benchmarkBasis": "Official FAQ: ages 6–14, AYL member and service territory",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        },
+        {
+          "name": "Littleton Youth Sports",
+          "split": "held-out",
+          "evidenceURL": "https://www.littletonyouthsports.org/lacrosse-faqs",
+          "benchmarkBasis": "Official FAQ: K–8 and AYL territory",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        },
+        {
+          "name": "Denver United Lacrosse",
+          "split": "held-out",
+          "evidenceURL": "https://www.unitedlacrosse.org/",
+          "benchmarkBasis": "Official source describes Denver youth, boys/girls, age/grade programs",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        },
+        {
+          "name": "Ranger Youth Lacrosse",
+          "split": "held-out",
+          "evidenceURL": "https://www.rangerlacrosse.org/about/about-us/18227",
+          "benchmarkBasis": "Official publisher identifies youth boys in Tri-Lakes/Northern Colorado Springs",
+          "found": false,
+          "qualified": false,
+          "recordIds": [],
+          "visible": false,
+          "reason": "No matching identity reached within generic intake, access and traversal budget."
+        }
+      ]
+    },
+    {
+      "sport": "volleyball",
+      "benchmarkPositives": 10,
+      "heldOut": 6,
+      "discoveredCandidateRows": 103,
+      "uniqueCandidateNames": 102,
+      "metrics": {
+        "organizationDiscoveryRecall": 1,
+        "qualifiedYouthRecall": 0,
+        "classificationAccuracyOnMatchedBenchmark": 0.1,
+        "precision": null,
+        "precisionReason": "Full output pool not independently adjudicated; unknowns cannot be counted as true positives.",
+        "matchedBenchmarkShareLowerBound": 0.10679611650485436,
+        "rawCandidateDuplicateRate": 0.009708737864077669,
+        "traceability": 1,
+        "publicationDateFreshnessRate": 0,
+        "retrievalFreshnessRate": 1,
+        "userVisibleCompleteness": 0
+      },
+      "gates": {
+        "recall": true,
+        "classification": false,
+        "precision": false,
+        "duplicates": false,
+        "traceability": true,
+        "freshness": false,
+        "visibility": false
+      },
+      "accepted": false,
+      "named": [
+        {
+          "name": "Front Range Volleyball Club",
+          "split": "development",
+          "evidenceURL": "https://www.frvbc.com/page/home",
+          "benchmarkBasis": "Prior reviewed boys/girls club programs",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-bb2708f271aef15be8004d6c"
+          ],
+          "visible": true,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        },
+        {
+          "name": "Denver Juniors Volleyball Club",
+          "split": "development",
+          "evidenceURL": "https://www.denverjuniorsvc.com/",
+          "benchmarkBasis": "Official club and 2026–27 tryout publication",
+          "found": true,
+          "qualified": true,
+          "recordIds": [
+            "acq-27165eb6eb016991028fc9ff",
+            "acq-2cb47b0eee913c747fd542c6"
+          ],
+          "visible": true,
+          "reason": "Evidence candidate requires independent review and consumer publication."
+        },
+        {
+          "name": "Colorado Skyline Juniors",
+          "split": "development",
+          "evidenceURL": "https://www.coskylinejrs.com/",
+          "benchmarkBasis": "Prior reviewed youth club and directory reference",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-ea0041566d183a1a01398b54"
+          ],
+          "visible": true,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        },
+        {
+          "name": "Colorado Elite Volleyball Club",
+          "split": "development",
+          "evidenceURL": "https://www.coloradoelitevbc.com/page/show/6403363-programs",
+          "benchmarkBasis": "Official youth development/club programs and publisher RMR source listing",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-eefab5c42afcb7b08f8b29ac"
+          ],
+          "visible": false,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        },
+        {
+          "name": "NORCO",
+          "split": "held-out",
+          "evidenceURL": "https://www.norcovolleyball.com/clubfaq",
+          "benchmarkBasis": "Official age 10–18 club description and Loveland location",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-dde6429c33e08d83840b54c8"
+          ],
+          "visible": false,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        },
+        {
+          "name": "Elevation Volleyball Club",
+          "split": "held-out",
+          "evidenceURL": "https://www.elevationvball.com/regional",
+          "benchmarkBasis": "Publisher describes youth regional program; direct open was blocked, indexed official text used; current verification limited",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-77b8dd691dd04022c20e8f5f"
+          ],
+          "visible": false,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        },
+        {
+          "name": "Colorado Momentum Volleyball Club",
+          "split": "held-out",
+          "evidenceURL": "https://momentumvbc.com/",
+          "benchmarkBasis": "Official indexed mission identifies Colorado youth; direct open blocked, live verification limited",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-bed2709cbde43d36b1c201db"
+          ],
+          "visible": false,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        },
+        {
+          "name": "ClubOne Volleyball",
+          "split": "held-out",
+          "evidenceURL": "https://www.clubonevolleyball.com/pride",
+          "benchmarkBasis": "Publisher identifies Northern Colorado youth program",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-4318fc1d0f502b7385538944"
+          ],
+          "visible": false,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        },
+        {
+          "name": "Prime Volleyball Academy",
+          "split": "held-out",
+          "evidenceURL": "https://www.primevolleyballacademy.com/",
+          "benchmarkBasis": "Official publisher identifies Thornton youth program",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-27b109bb2d2f8e268ab1ec15"
+          ],
+          "visible": false,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        },
+        {
+          "name": "VC Denver",
+          "split": "held-out",
+          "evidenceURL": "https://www.vcdenver.org/youth-program",
+          "benchmarkBasis": "Official youth program identifies ages 8–16",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-4f2606beec9d6757aeae6811"
+          ],
+          "visible": false,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        }
+      ],
+      "missing": [
+        {
+          "name": "NORCO",
+          "split": "held-out",
+          "evidenceURL": "https://www.norcovolleyball.com/clubfaq",
+          "benchmarkBasis": "Official age 10–18 club description and Loveland location",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-dde6429c33e08d83840b54c8"
+          ],
+          "visible": false,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        },
+        {
+          "name": "Elevation Volleyball Club",
+          "split": "held-out",
+          "evidenceURL": "https://www.elevationvball.com/regional",
+          "benchmarkBasis": "Publisher describes youth regional program; direct open was blocked, indexed official text used; current verification limited",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-77b8dd691dd04022c20e8f5f"
+          ],
+          "visible": false,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        },
+        {
+          "name": "Colorado Momentum Volleyball Club",
+          "split": "held-out",
+          "evidenceURL": "https://momentumvbc.com/",
+          "benchmarkBasis": "Official indexed mission identifies Colorado youth; direct open blocked, live verification limited",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-bed2709cbde43d36b1c201db"
+          ],
+          "visible": false,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        },
+        {
+          "name": "ClubOne Volleyball",
+          "split": "held-out",
+          "evidenceURL": "https://www.clubonevolleyball.com/pride",
+          "benchmarkBasis": "Publisher identifies Northern Colorado youth program",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-4318fc1d0f502b7385538944"
+          ],
+          "visible": false,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        },
+        {
+          "name": "Prime Volleyball Academy",
+          "split": "held-out",
+          "evidenceURL": "https://www.primevolleyballacademy.com/",
+          "benchmarkBasis": "Official publisher identifies Thornton youth program",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-27b109bb2d2f8e268ab1ec15"
+          ],
+          "visible": false,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        },
+        {
+          "name": "VC Denver",
+          "split": "held-out",
+          "evidenceURL": "https://www.vcdenver.org/youth-program",
+          "benchmarkBasis": "Official youth program identifies ages 8–16",
+          "found": true,
+          "qualified": false,
+          "recordIds": [
+            "acq-4f2606beec9d6757aeae6811"
+          ],
+          "visible": false,
+          "reason": "Identity found, but both Colorado participation and youth eligibility were not established."
+        }
+      ]
+    }
+  ],
+  "demonstrationC": {
+    "report": "data/acquisition-v2/controlled-repeatability.json",
+    "scope": "Controlled behavior only, not live discovery."
+  },
+  "statewideComplete": false,
+  "readyForOpenEndedDiscovery": false,
+  "accepted": false
+}

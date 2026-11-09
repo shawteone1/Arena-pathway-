@@ -1,0 +1,11 @@
+{
+  "trialSha256": "f5d9b66813b9ea1527dae364e99301046964dc299ca26d268d26ed55010c85ce",
+  "protocolCommit": "f0429c3f009720cd536c7933074d0e3093f2753d",
+  "benchmarkCommit": "e7d746e796c98b43e8786ade6c1638a532a5b1c6",
+  "purpose": "Initial live trial sealed before post-evaluation engineering refinements; no later tuning may overwrite this trial or claim a new blind test.",
+  "limitations": [
+    "Same analyst; not external blind validation.",
+    "Lacrosse initial held-out recall 0/6; volleyball identity recall 6/6 but qualified youth recall 0/6.",
+    "Original classificationAccuracyOnMatchedBenchmark is positive-only agreement, not global accuracy."
+  ]
+}
