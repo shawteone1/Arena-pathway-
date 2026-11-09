@@ -51,8 +51,8 @@ export function detect(state,ctx,now=Date.now()){
  }
  return out.sort((a,b)=>a.priority-b.priority||a.id.localeCompare(b.id));
 }
-export function act(state,ctx,id,operation,remindAt=null){
- const alert=detect(state,ctx).find(a=>a.id===id);if(!alert)throw Error('Alert unavailable');for(const athlete of alert.athleteIds)authorize(state,ctx,athlete);
+export function act(state,ctx,id,operation,remindAt=null,now=Date.now()){
+ const alert=detect(state,ctx,now).find(a=>a.id===id);if(!alert)throw Error('Alert unavailable');for(const athlete of alert.athleteIds)authorize(state,ctx,athlete);
  if(!['acknowledged','resolved','open','reminder'].includes(operation))throw Error('Invalid action');
  if(operation==='reminder'&&(!Number.isFinite(Date.parse(remindAt))||Date.parse(remindAt)<=Date.now()))throw Error('Future reminder required');
  state.actions[id]={status:operation==='reminder'?(state.actions[id]?.status||'open'):operation,remindAt:operation==='reminder'?new Date(remindAt).toISOString():null,updatedAt:new Date().toISOString()};

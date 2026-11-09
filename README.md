@@ -126,3 +126,18 @@ See [integration matrix and data-build coordination](docs/SIEM-INTEGRATIONS.md),
 Review branch: `codex/integrated-release-candidate-v1`, based on Unified `ff4c226`. Start with `npm ci`, `npm run check`, then `npm start` on Node.js 22. Explore `/about`, `/offerings`, `/siem`, `/demos/parent`, `/demos/coach`, `/demos/college`, `/soccer-center` and `/collective-data`. Provider connections are not live.
 
 [Integration and pitch walkthrough](docs/INTEGRATED-RC-V1.md) · [QA results and blockers](docs/INTEGRATED-RC-QA.md) · [Draft review description](docs/INTEGRATED-RC-PR-DRAFT.md). No merge or deployment is authorized.
+
+## SIEM Platform UX v2
+
+The isolated UX v2 review starts from Integrated Release Candidate v1 commit
+`50ce75d58074485054e65e92a3b5413591cf1712`. Run `npm ci`, then `npm start` and
+open `/siem/platform`. Everyday View, Command Center and Display Mode share
+fictional parent, coach and college-athlete scenarios. Display privacy defaults on.
+The existing browser-local `/siem` workspace remains independent and unchanged in
+functionality. No live provider connection or production security is implied.
+
+See [activity/adapter contract](docs/SIEM-UX-V2-CONTRACT.md),
+[readiness assessment](docs/SIEM-UX-V2-READINESS.md) and
+[QA results](docs/SIEM-UX-V2-QA.md). Run `npm run test:siem:browser` for the
+Python Playwright scenarios (Chromium required). No discovery/data/ingestion
+files were changed. Do not push, merge, deploy or publish this review branch.

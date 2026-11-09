@@ -1,3 +1,4 @@
+import {siemPlatformPage} from './src/siem-platform-view.mjs';
 import {aboutPage,offeringsPage,collectivePage,soccerPreview,demoPage} from './src/release-views.mjs';
 import {siemPage} from './src/siem-view.mjs';
 import http from 'node:http';
@@ -11,7 +12,8 @@ import {engineCoverageHTML} from './src/engine-views.mjs';
 import {photography,brand} from './src/presentation.mjs';
 import { esc, layout, home, sportPage, builder, myPathway, dataPage, credits, organizationPage, classificationPage } from './src/views.mjs';
 const assets = { 'style.css':'text/css; charset=utf-8', 'app.js':'text/javascript; charset=utf-8', 'state.js':'text/javascript; charset=utf-8', 'stadium.jpg':'image/jpeg' };
-for(const name of ['siem.js','siem-model.js','release-demo.js','release-demo-model.js'])assets[name]='text/javascript; charset=utf-8';
+assets['siem-platform.css']='text/css; charset=utf-8';
+for(const name of ['siem-platform.js','siem-platform-model.js','siem-platform-fixtures.js','siem.js','siem-model.js','release-demo.js','release-demo-model.js'])assets[name]='text/javascript; charset=utf-8';
 assets['fonts/barlow-condensed-bold.ttf']='font/ttf';
 for(const p of Object.values(photography)){assets[p.asset]='image/webp';assets[p.smallAsset]='image/webp';}
 if(brand.status==='ready')for(const key of ['desktopAsset','mobileAsset','homepageAsset','faviconAsset','appleTouchAsset']){const path=brand[key];assets[path]=path.endsWith('.webp')?'image/webp':'image/png';}
@@ -41,6 +43,7 @@ export function createServer() {
    if(path==='/collective-data')return send(200,collectivePage());
    if(path==='/soccer-center')return send(200,soccerPreview());
    const demoMatch=path.match(/^\/demos\/(parent|coach|college)$/);if(demoMatch)return send(200,demoPage(demoMatch[1]));
+   if(path==='/siem/platform')return send(200,siemPlatformPage());
    if(path==='/siem')return send(200,siemPage());
    if(path==='/build')return send(200,builder());
    if(path==='/my-pathway')return send(200,myPathway());
