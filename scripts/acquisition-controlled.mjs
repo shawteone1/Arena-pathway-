@@ -1,0 +1,1 @@
+import{writeFileSync}from'node:fs';import{controlledRepeatability}from'../engine/acquisition/controlled.mjs';const report=await controlledRepeatability();writeFileSync(new URL('../data/acquisition-v2/controlled-repeatability.json',import.meta.url),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));

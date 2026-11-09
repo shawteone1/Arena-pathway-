@@ -1,0 +1,5 @@
+import{readFileSync}from'node:fs';import{execFileSync}from'node:child_process';import{fileURLToPath}from'node:url';
+const config=JSON.parse(readFileSync(new URL('../data/acquisition-v2/jobs.json',import.meta.url))),args=process.argv.slice(2),job=args.find(a=>a.startsWith('--job='))?.slice(6),execute=args.includes('--execute');
+if(job&&!config.jobs[job])throw Error('Unregistered refresh job');
+if(!execute)console.log(JSON.stringify({mode:'plan',schedulerInstalled:false,operationalMonitoring:false,jobs:Object.keys(config.jobs),instruction:'Configure a dedicated database, review provider permissions and invoke --execute --job=JOB from a real scheduler after testing.'},null,2));
+else{if(!job)throw Error('Explicit registered job required');const script=fileURLToPath(new URL('./acquire-v2.mjs',import.meta.url));const result=execFileSync(process.execPath,[script,'refresh','--job='+job,'--resume'],{encoding:'utf8',env:process.env});process.stdout.write(result);process.stdout.write(execFileSync(process.execPath,[script,'export'],{encoding:'utf8',env:process.env}));}

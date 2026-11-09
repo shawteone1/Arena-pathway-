@@ -1,0 +1,35 @@
+{
+  "postTrial": true,
+  "benchmarkMetricsNotRecomputedFromTheseReviews": true,
+  "consumerPublication": false,
+  "actions": [
+    {
+      "name": "Northern Power Lacrosse Club",
+      "id": "acq-00b6dda5d099dcbac8e3fe32",
+      "url": "https://synergysportsoperations.com/our-brands/",
+      "decision": "verified source facts only",
+      "consumerPublication": false
+    },
+    {
+      "name": "Rocky Mountain Rattlers Lacrosse",
+      "id": "acq-b32c2f1aca93539c8124641e",
+      "url": "https://synergysportsoperations.com/our-brands/",
+      "decision": "verified source facts only",
+      "consumerPublication": false
+    },
+    {
+      "name": "RoughRiders Lacrosse",
+      "id": "acq-4ce55a398c516ca3aeddcb45",
+      "url": "https://synergysportsoperations.com/our-brands/",
+      "decision": "verified source facts only",
+      "consumerPublication": false
+    },
+    {
+      "name": "Grand Valley Lacrosse",
+      "id": "acq-57e51dfea089f3d3647580d4",
+      "url": "https://www.grandvalleylax.com/about/about-us/9321",
+      "decision": "verified source facts only",
+      "consumerPublication": false
+    }
+  ]
+}

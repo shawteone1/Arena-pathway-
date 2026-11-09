@@ -1,0 +1,28 @@
+import{isIP}from'node:net';
+import{acquirePages}from'./pages.mjs';
+import{hash}from'../models.mjs';import{PublicSourceClient,publicURL}from'../fetcher.mjs';import{extractAcquisition,extractionVersion}from'./extract.mjs';
+export function assertPublicAcquisitionHost(host){const plain=host.replace(/^\[|\]$/g,'');if(isIP(plain)||plain==='localhost'||/\.(?:localhost|local|internal)$/.test(plain))throw Error('Discovery requires a public hostname, never private literals/local services');}
+export const sourceId=(sport,url)=>'v2-'+hash([sport,url]).slice(0,20);
+export function sourceDefinition(url,sport,extra={}){const u=new URL(url);assertPublicAcquisitionHost(u.hostname);return{id:sourceId(sport,url),name:u.hostname+' '+u.pathname,url,urls:[url],sport,geography:'Colorado participation requested; source evidence required',region:'unknown',owner:null,type:'other',adapter:'profile-evidence',expectedRecordTypes:['organization','program','registration'],allowedHosts:[u.hostname,u.hostname.replace(/^www\./,''),'www.'+u.hostname.replace(/^www\./,'')],accessPolicy:{decision:'allowed',basis:'Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative.'},minIntervalMs:2000,refreshHours:168,...extra};}
+const forbidden=link=>/powered|hosting|platform|software|leagueapps.com\/?$|roster|\/team\/\d+|players?|athlete|profile\/|staff|coaches|meet.the.team|contact|board|sponsor|store|ticket|photo|gallery|social|facebook|instagram|twitter|linkedin|privacy|terms|cookie|google|checkout/i.test(link.url+' '+link.title);
+export async function acquire(ledger,job,{client=null,force=false,mode='live',resume=false}={}){
+ if(client&&mode!=='controlled')throw Error('Injected fixture clients must be explicitly labeled controlled, never live discovery');
+ const runId=ledger.start(job.id,mode),ownClient=!client,gate=(origin,spacing)=>ledger.engine.reserveRequest(origin,spacing);gate.defer=(o,t)=>ledger.engine.deferRequest(o,t);client ||=new PublicSourceClient({rateGate:gate});const seeds=job.sources.map(s=>({...s,depth:0})),queue=resume?[...ledger.pending(job.id),...seeds]:[...seeds,...ledger.pending(job.id)],seen=new Set(),observations=[],deferred=[],exceptions=[],budget=job.maxSources||24;
+ try{
+  for(const source of seeds)ledger.enqueue(job.id,source);
+  while(queue.length&&seen.size<budget){const source=queue.shift();if(seen.has(source.url))continue;seen.add(source.url);ledger.register(source);const previous=ledger.source(source.id);
+   if(!force&&previous.next_due&&Date.parse(previous.next_due)>Date.now()){ledger.frontierStatus(job.id,source.url,'deferred',runId);deferred.push({sourceId:source.id,url:source.url,nextDue:previous.next_due,reason:'Refresh interval not due; previous state retained.'});continue;}
+   try{
+    const compatible=previous.cache?.configHash===hash(source)&&previous.cache?.extractionVersion===extractionVersion,cache=compatible?previous.cache:null;let {response,parsed}=await acquirePages(client,source,{cache,maxPages:source.maxPages||job.maxPagesPerSource||6});
+    response.extractionVersion=extractionVersion;
+    const observation=ledger.observe(runId,source,{status:'retrieved',response,parsed});observations.push(observation);ledger.frontierStatus(job.id,source.url,'retrieved',runId);
+    // A new public organizational link becomes a separately registered source, never a verified club or parent relationship.
+    if(job.followLinks&&source.depth<(job.maxDepth??1))for(const link of parsed.links){if(forbidden(link))continue;let url;try{url=new URL(link.url);assertPublicAcquisitionHost(url.hostname);publicURL(link.url,[url.hostname]);}catch{continue;}if(seen.has(link.url)||queue.some(s=>s.url===link.url))continue;const sameHost=url.hostname.replace(/^www\./,'')===new URL(source.url).hostname.replace(/^www\./,'');if(!sameHost&&!/club|league|association|lacrosse|volley/i.test(link.title+' '+url.hostname))continue;
+     const record=parsed.records.find(r=>r.url===link.url),definition=sourceDefinition(link.url,job.sport,{name:link.title||url.hostname,type:record?.kind==='league'||/league/i.test(link.title)?'league':record?.kind==='facility'||/facilit|\/location/i.test(link.url)?'facility':/\/program\/|\/camp|\/training|\/clinic/i.test(url.pathname)?'program':/shootout|tournament|\/event/i.test(url.pathname)?'event':record?.kind==='organization'?'club':'other',discoveredFrom:source.url,discoveryEvidenceSha256:response.sha256,depth:source.depth+1});ledger.enqueue(job.id,definition);queue.push(definition);
+    }
+   }catch(error){observations.push(ledger.observe(runId,source,{status:'failed',error}));ledger.frontierStatus(job.id,source.url,'failed',runId);}
+  }
+  for(const s of queue)if(!seen.has(s.url))exceptions.push({url:s.url,reason:'Unprocessed source frontier: job budget reached. Not complete.'});
+  const report={runId,job:job.id,mode,status:!observations.length&&deferred.length?'deferred':observations.some(o=>o.status!=='failed')?'partial':'blocked',input:job.input||null,sourceCount:seen.size,retrieved:observations.filter(o=>o.status!=='failed').length,failures:observations.filter(o=>o.status==='failed').length,changes:observations.flatMap(o=>o.changes),deferred,exceptions,observations,statewideComplete:false,sourceScopeComplete:false,benchmarkRead:false};ledger.finish(runId,report);return report;
+ }catch(error){ledger.finish(runId,{status:'failed',error:error.message});throw error;}finally{if(ownClient)await client.close();}
+}

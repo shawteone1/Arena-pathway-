@@ -1,0 +1,3265 @@
+{
+  "originalSourcesPreserved": 96,
+  "originalRegistrySha256": null,
+  "notAStatewideDenominator": true,
+  "sources": [
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": null,
+          "basis": "Prior preserved configuration; review date unknown"
+        }
+      ],
+      "originalId": "legacy-reviewed-catalog",
+      "name": "Preserved reviewed catalog",
+      "urls": [],
+      "sport": null,
+      "sports": [],
+      "geography": "unknown",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:00.951Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:58:00.941Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-csi",
+      "name": "Colorado Swimming club directory",
+      "urls": [
+        "https://www.gomotionapp.com/team/wzcolsc/page/clubs"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "source-reference"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:09.355Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:58:09.334Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-usa",
+      "name": "USA Swimming Find a Team",
+      "urls": [
+        "https://www.usaswimming.org/find-a-team"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "source-reference"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:49:43.732Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:49:39.665Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-mhsl",
+      "name": "Mountain Hi 2026 membership and divisions",
+      "urls": [
+        "https://www.gomotionapp.com/team/recmhsl/page/teams"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "team",
+        "division",
+        "league"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:13.634Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:58:13.628Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-csscsa",
+      "name": "CSSCSA member leagues",
+      "urls": [
+        "https://csscsa.swimtopia.com/member-leagues"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:51:11.065Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:51:09.377Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-sjsl",
+      "name": "South Jeffco published member teams",
+      "urls": [
+        "https://sjsl.swimtopia.com/teams"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "team"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:16:13.593Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:16:13.558Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-fsa",
+      "name": "Foothills Swimming Association members",
+      "urls": [
+        "https://stingraysswimteam.swimtopia.com/fsa-league-2"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "association/directory",
+      "expectedRecordTypes": [
+        "team",
+        "organization"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:14:20.644Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:14:20.588Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-metro",
+      "name": "Metro summer league information",
+      "urls": [
+        "https://crestmoor.org/2025/08/10/the-denver-metro-swim-league/"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "association/directory",
+      "expectedRecordTypes": [
+        "team",
+        "organization"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:50:58.124Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:50:58.115Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-aquawolves",
+      "name": "Aquawolves official year-round program",
+      "urls": [
+        "https://www.gomotionapp.com/team/csawst/page/team-info/about-us"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:51:02.712Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:51:02.701Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-aces",
+      "name": "ACES official program information",
+      "urls": [
+        "https://www.gomotionapp.com/team/coaces/page/program-information"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:24.794Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-meet-candidates",
+      "name": "Meet-derived Colorado club candidate summary",
+      "urls": [
+        "https://swimmeetiq.com/lsc/CO"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "Meet-derived Colorado club candidate summary published organization/team pages; statewide coverage remains partial",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "source-reference"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:25:37.191Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "volley-rmr-girls",
+      "name": "RMR official girls club list discovery",
+      "urls": [
+        "https://www.rmrvolleyball.org/page/show/6830537-club-directory"
+      ],
+      "sport": "volleyball",
+      "sports": [
+        "volleyball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "source-reference"
+      ],
+      "lastAttempt": "2026-11-09T21:12:12.214Z",
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "failed",
+      "failureReason": "HTTP_403",
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Selected or reached through permitted live discovery."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:52:22.853Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "volley-rmr-boys",
+      "name": "RMR official boys club list discovery",
+      "urls": [
+        "https://www.rmrvolleyball.org/page/show/6830532"
+      ],
+      "sport": "volleyball",
+      "sports": [
+        "volleyball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "source-reference"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:52:25.075Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "volley-rmr-beach",
+      "name": "RMR official beach club list discovery",
+      "urls": [
+        "https://www.rmrvolleyball.org/page/show/6830534-for-parents-"
+      ],
+      "sport": "volleyball",
+      "sports": [
+        "volleyball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "source-reference"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:56:37.554Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:56:37.464Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "volley-denver-juniors",
+      "name": "Denver Juniors named team navigation",
+      "urls": [
+        "https://www.denverjuniorsvc.com/"
+      ],
+      "sport": "volleyball",
+      "sports": [
+        "volleyball"
+      ],
+      "geography": "CO",
+      "owner": "Denver Juniors Volleyball Club",
+      "type": "other",
+      "expectedRecordTypes": [
+        "team",
+        "organization"
+      ],
+      "lastAttempt": "2026-11-09T21:48:13.637Z",
+      "lastSuccessfulRetrieval": "2026-11-09T21:48:13.637Z",
+      "retrievalStatus": "partial",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Selected or reached through permitted live discovery."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:56:42.047Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:56:40.127Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "volley-skyline",
+      "name": "Skyline named team navigation",
+      "urls": [
+        "https://www.coskylinejrs.com/"
+      ],
+      "sport": "volleyball",
+      "sports": [
+        "volleyball"
+      ],
+      "geography": "CO",
+      "owner": "Colorado Skyline Juniors",
+      "type": "other",
+      "expectedRecordTypes": [
+        "team",
+        "organization"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:05:11.779Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:05:11.744Z",
+      "priorRetrievalStatus": "needs-review",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "lax-dlc",
+      "name": "Denver Lacrosse TeamSideline schedules",
+      "urls": [
+        "https://teamsideline.com/sites/denverlacrosse/schedules"
+      ],
+      "sport": "lacrosse",
+      "sports": [
+        "lacrosse"
+      ],
+      "geography": "CO",
+      "owner": "Denver Lacrosse Club",
+      "type": "schedule",
+      "expectedRecordTypes": [
+        "team",
+        "division",
+        "season",
+        "event",
+        "facility"
+      ],
+      "lastAttempt": "2026-11-09T21:12:11.865Z",
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "failed",
+      "failureReason": "HTTP_522",
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Selected or reached through permitted live discovery."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:32.922Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:58:32.917Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "lax-cll",
+      "name": "Colorado Lacrosse League adult and school formats",
+      "urls": [
+        "https://www.coloradolacrosseleague.com/leagues/teamlinkt"
+      ],
+      "sport": "lacrosse",
+      "sports": [
+        "lacrosse"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "source-reference"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:37.321Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:58:37.307Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-goldcrown",
+      "name": "Gold Crown basketball official competition source",
+      "urls": [
+        "https://www.goldcrownfoundation.com/events/competitive-league/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "nonprofit",
+      "expectedRecordTypes": [
+        "source-reference"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:56:52.543Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:56:51.577Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-cbc",
+      "name": "CBC named grade teams",
+      "urls": [
+        "https://www.coloradobasketballclub.com/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": "Colorado Basketball Club",
+      "type": "other",
+      "expectedRecordTypes": [
+        "team",
+        "organization"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:39.870Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-aau",
+      "name": "AAU Colorado club affiliation discovery",
+      "urls": [
+        "https://aausports.org/sports/boys-basketball"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "source-reference"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:42.048Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:58:42.035Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "school-girls-swimming-and-diving",
+      "name": "CHSAA girls-swimming-and-diving standings",
+      "urls": [
+        "https://chsaanow.com/sports/girls-swimming-and-diving/standings"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "schedule",
+      "expectedRecordTypes": [
+        "team",
+        "division",
+        "season",
+        "event",
+        "facility"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:44.063Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:58:44.050Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "school-boys-swimming-and-diving",
+      "name": "CHSAA boys-swimming-and-diving standings",
+      "urls": [
+        "https://chsaanow.com/sports/boys-swimming-and-diving/standings"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "schedule",
+      "expectedRecordTypes": [
+        "team",
+        "division",
+        "season",
+        "event",
+        "facility"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:46.079Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:58:46.060Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "school-girls-volleyball",
+      "name": "CHSAA girls-volleyball standings",
+      "urls": [
+        "https://chsaanow.com/sports/girls-volleyball/standings"
+      ],
+      "sport": "volleyball",
+      "sports": [
+        "volleyball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "schedule",
+      "expectedRecordTypes": [
+        "team",
+        "division",
+        "season",
+        "event",
+        "facility"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:48.050Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:58:48.037Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "school-boys-volleyball",
+      "name": "CHSAA boys-volleyball standings",
+      "urls": [
+        "https://chsaanow.com/sports/boys-volleyball/standings"
+      ],
+      "sport": "volleyball",
+      "sports": [
+        "volleyball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "schedule",
+      "expectedRecordTypes": [
+        "team",
+        "division",
+        "season",
+        "event",
+        "facility"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:50.081Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:58:50.070Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "school-boys-lacrosse",
+      "name": "CHSAA boys-lacrosse standings",
+      "urls": [
+        "https://chsaanow.com/sports/boys-lacrosse/standings"
+      ],
+      "sport": "lacrosse",
+      "sports": [
+        "lacrosse"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "schedule",
+      "expectedRecordTypes": [
+        "team",
+        "division",
+        "season",
+        "event",
+        "facility"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:51.998Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:58:51.986Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "school-girls-lacrosse",
+      "name": "CHSAA girls-lacrosse standings",
+      "urls": [
+        "https://chsaanow.com/sports/girls-lacrosse/standings"
+      ],
+      "sport": "lacrosse",
+      "sports": [
+        "lacrosse"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "schedule",
+      "expectedRecordTypes": [
+        "team",
+        "division",
+        "season",
+        "event",
+        "facility"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:54.038Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:58:53.982Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "school-boys-basketball",
+      "name": "CHSAA boys-basketball standings",
+      "urls": [
+        "https://chsaanow.com/sports/boys-basketball/standings"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "schedule",
+      "expectedRecordTypes": [
+        "team",
+        "division",
+        "season",
+        "event",
+        "facility"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T05:58:56.021Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T05:58:55.990Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "school-girls-basketball",
+      "name": "CHSAA girls-basketball standings",
+      "urls": [
+        "https://chsaanow.com/sports/girls-basketball/standings"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "schedule",
+      "expectedRecordTypes": [
+        "team",
+        "division",
+        "season",
+        "event",
+        "facility"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:05:08.826Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:05:08.658Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "college-cmu",
+      "name": "Colorado Mesa launch-sport collegiate programs",
+      "urls": [
+        "https://cmumavericks.com/"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "lacrosse",
+        "volleyball",
+        "basketball",
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": "Colorado Mesa University",
+      "type": "school/college",
+      "expectedRecordTypes": [
+        "organization",
+        "team",
+        "program"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:05:11.429Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:05:11.249Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "college-fortlewis",
+      "name": "Fort Lewis collegiate programs",
+      "urls": [
+        "https://goskyhawks.com/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "lacrosse",
+        "volleyball",
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": "Fort Lewis College",
+      "type": "school/college",
+      "expectedRecordTypes": [
+        "organization",
+        "team",
+        "program"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:04:58.171Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:04:58.088Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "adaptive-denver",
+      "name": "Denver Adaptive Recreation",
+      "urls": [
+        "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Parks-Recreation/Activities-Programs/Adaptive-Recreation"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball",
+        "swimming",
+        "volleyball"
+      ],
+      "geography": "CO",
+      "owner": "Denver Parks and Recreation",
+      "type": "parks-recreation",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:04:53.156Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:04:53.071Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "adaptive-longmont",
+      "name": "Longmont SCOPE",
+      "urls": [
+        "https://longmontcolorado.gov/recreation-services/activities/scope-therapeutic-recreation/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball",
+        "swimming",
+        "volleyball"
+      ],
+      "geography": "CO",
+      "owner": "City of Longmont Recreation Services",
+      "type": "parks-recreation",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:04:55.788Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:04:55.724Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "adaptive-montrose",
+      "name": "Montrose Adaptive Recreation",
+      "urls": [
+        "https://montroserec.specialdistrict.org/adaptive-programs"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": "Montrose Recreation District",
+      "type": "parks-recreation",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:00:40.384Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:00:40.367Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "parks-thornton",
+      "name": "Thornton parks sport programs",
+      "urls": [
+        "https://www.thorntonco.gov/parks-recreation/recreation-programs/sports"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming",
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "parks-recreation",
+      "expectedRecordTypes": [
+        "source-reference"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:05:00.913Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:05:00.821Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "parks-foothills",
+      "name": "Foothills recreation aquatics",
+      "urls": [
+        "https://www.ifoothills.org/aquatics/"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "parks-recreation",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:06:59.137Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:06:59.089Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "parks-burlington",
+      "name": "Burlington official pool and swim team",
+      "urls": [
+        "https://www.burlingtoncolo.com/197/Swimming-Pool"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": "City of Burlington Recreation",
+      "type": "parks-recreation",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:07:20.912Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:07:20.891Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "facility-trinidad",
+      "name": "Trinidad tourism aquatic facility",
+      "urls": [
+        "https://visittrinidadcolorado.com/attraction/family-aquatic-center/"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "community-resource",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:07:21.571Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "parks-breckenridge",
+      "name": "Breckenridge official recreation center",
+      "urls": [
+        "https://www.breckenridgerecreation.com/rates/locations/breckenridge-recreation-center"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming",
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "parks-recreation",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:08:42.447Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:08:42.312Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "college-adams",
+      "name": "Adams State official athletic programs",
+      "urls": [
+        "https://asugrizzlies.com/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball",
+        "volleyball",
+        "swimming",
+        "lacrosse"
+      ],
+      "geography": "CO",
+      "owner": "Adams State University",
+      "type": "school/college",
+      "expectedRecordTypes": [
+        "organization",
+        "team",
+        "program"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:08:44.896Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:08:44.768Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "college-pueblo",
+      "name": "CSU Pueblo official athletic programs",
+      "urls": [
+        "https://gothunderwolves.com/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball",
+        "volleyball",
+        "swimming",
+        "lacrosse"
+      ],
+      "geography": "CO",
+      "owner": "Colorado State University Pueblo",
+      "type": "school/college",
+      "expectedRecordTypes": [
+        "organization",
+        "team",
+        "program"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:08:47.493Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:08:47.377Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "college-coloradocollege",
+      "name": "Colorado College official athletic programs",
+      "urls": [
+        "https://cctigers.com/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball",
+        "volleyball",
+        "swimming",
+        "lacrosse"
+      ],
+      "geography": "CO",
+      "owner": "Colorado College",
+      "type": "school/college",
+      "expectedRecordTypes": [
+        "organization",
+        "team",
+        "program"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:10:56.153Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:10:56.017Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "nonprofit-specialolympics",
+      "name": "Special Olympics Colorado competition programs",
+      "urls": [
+        "https://specialolympicsco.org/getinvolved/competitions/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball",
+        "swimming",
+        "volleyball"
+      ],
+      "geography": "CO",
+      "owner": "Special Olympics Colorado",
+      "type": "nonprofit",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:10:58.245Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:10:58.209Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "school-silvercreek",
+      "name": "Silver Creek High School official athletic programs",
+      "urls": [
+        "https://schs.svvsd.org/activities-arts-athletics/athletics/athletic-registration/"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": "Silver Creek High School",
+      "type": "school",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:12:48.184Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T06:12:48.155Z",
+      "priorRetrievalStatus": "needs-review",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-zone-team-scores",
+      "name": "2026 Western Zone Senior Championships team-score candidates",
+      "urls": [
+        "https://www.gomotionapp.com/clov/UserFiles/Image/QuickUpload/team-scores_003849.pdf"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "All named participants in combined team scores, official host 2026 Western Zone Senior Championships PDF. Team-only historical meet evidence; Colorado affiliation and aliases require separate verification.",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "organization"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 720,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:22:45.028Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T16:22:44.984Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-csi-embedded",
+      "name": "CSI public embedded club-directory application",
+      "urls": [
+        "https://script.google.com/macros/s/AKfycbwxU1Io2kRgfZxfwzFtZy2TXFDm1ncuaWL8nxXz4ZI5CzevMB0Qk-ukpKvFLsal6oKD/exec"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "association/directory",
+      "expectedRecordTypes": [
+        "organization",
+        "program"
+      ],
+      "lastAttempt": "2026-11-09T21:18:28.835Z",
+      "lastSuccessfulRetrieval": "2026-11-09T21:18:28.835Z",
+      "retrievalStatus": "captured-unreviewed",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Selected or reached through permitted live discovery."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T06:19:14.085Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-csscsa-team-scores",
+      "name": "CSSCSA 2024 aggregate team-score archive",
+      "urls": [
+        "https://csscsa.swimtopia.com/sites/s3_files/91620"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "Registered supporting membership/aggregate discovery; unresolved dynamic or blocked sources are not imported.",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "organization"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:25:30.494Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T16:25:30.272Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-hdn-noco",
+      "name": "Hoop Dreams Nation Northern endorsed youth programs",
+      "urls": [
+        "https://www.hoopdreamsnation.com/noco-teams"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "program-provider",
+      "expectedRecordTypes": [
+        "organization",
+        "program"
+      ],
+      "lastAttempt": "2026-11-09T21:50:11.998Z",
+      "lastSuccessfulRetrieval": "2026-11-09T21:50:11.998Z",
+      "retrievalStatus": "partial",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Selected or reached through permitted live discovery."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:25:34.648Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T16:25:34.444Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-hdn-soco",
+      "name": "Hoop Dreams Nation Southern endorsed youth programs",
+      "urls": [
+        "https://www.hoopdreamsnation.com/soco-teams"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "program-provider",
+      "expectedRecordTypes": [
+        "organization",
+        "program"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:22:54.502Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-cybi",
+      "name": "Colorado Youth Basketball Inc.",
+      "urls": [
+        "https://www.coyouthbasketball.org/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "nonprofit",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:22:55.400Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-ayl",
+      "name": "Arapahoe Youth League basketball member discovery",
+      "urls": [
+        "https://aylsports.org/content/34530/Hoops-General-Info"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "source-reference"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:22:57.800Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-ccys",
+      "name": "Cherry Creek Youth Sports basketball",
+      "urls": [
+        "https://www.creeksports.com/page/show/8140006-basketball"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "nonprofit",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:23:00.229Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T16:23:00.211Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-elevation",
+      "name": "Elevation Flyers official programs",
+      "urls": [
+        "https://www.elevationbballhs.com/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "club",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:23:02.624Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-swoosh",
+      "name": "Colorado Swoosh official program",
+      "urls": [
+        "https://www.coloradoswoosh.com/aboutus"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "club",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T17:17:14.154Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T17:17:14.051Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-psb",
+      "name": "Pro Skills Basketball Denver teams",
+      "urls": [
+        "https://proskillsbasketball.com/denver/teams/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "club",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T17:17:24.832Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T17:17:24.804Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-riot",
+      "name": "Colorado Riot Squad Academy programs",
+      "urls": [
+        "https://coloradoriotsquadacademy.teamsnapsites.com/teams/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "club",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:23:18.805Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-warriors",
+      "name": "Warriors Youth Sports AYL basketball",
+      "urls": [
+        "https://www.warriorsyouthsports.com/content/9113/Basketball-FAQ"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "nonprofit",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:23:19.622Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-parker",
+      "name": "Parker Hawks AYL basketball",
+      "urls": [
+        "https://www.parkerhawks.org/content/9113/basketball-faq"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "nonprofit",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:23:20.270Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-comsa",
+      "name": "Colorado Masters clubs and workout groups",
+      "urls": [
+        "https://www.comsa.org/page.cfm?pagetitle=Clubs+%26+Workout+Groups"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "source-reference"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:23:22.978Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T16:23:22.970Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "swim-durango-masters",
+      "name": "Durango Swim Club Masters program",
+      "urls": [
+        "https://www.durangoswimclub.org/page/masters"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "club",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:42:49.473Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T16:42:49.415Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-goldcrown-program",
+      "name": "Gold Crown Foundation youth competitive league",
+      "urls": [
+        "https://www.goldcrownfoundation.com/events/competitive-league/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "league-organizer",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:47:32.626Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T16:47:32.552Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "basket-goldcrown-feeders",
+      "name": "Gold Crown published feeder/club tryout programs",
+      "urls": [
+        "https://www.goldcrownfoundation.com/basketball-programs/tryouts/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "program-provider",
+      "expectedRecordTypes": [
+        "organization",
+        "program",
+        "registration"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:42:28.507Z",
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": "blocked",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "lax-3d-about",
+      "name": "3d Lacrosse public youth development description",
+      "urls": [
+        "https://www.3dlacrosse.com/page/about"
+      ],
+      "sport": "lacrosse",
+      "sports": [
+        "lacrosse"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "club",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:48:29.855Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T16:48:29.782Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "community-mountain-lacrosse",
+      "name": "Mountain Recreation youth lacrosse",
+      "urls": [
+        "https://mountainrec.org/program/youth-sports-leagues/"
+      ],
+      "sport": "lacrosse",
+      "sports": [
+        "lacrosse"
+      ],
+      "geography": "CO",
+      "owner": "Mountain Recreation",
+      "type": "parks-recreation",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:48:32.307Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T16:48:32.275Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "community-ymca-basketball",
+      "name": "YMCA Northern Colorado basketball",
+      "urls": [
+        "https://www.ymcanoco.org/sports/basketball"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball",
+        "volleyball",
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": "YMCA of Northern Colorado",
+      "type": "nonprofit",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:48:34.333Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T16:48:34.300Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "community-ymca-volleyball",
+      "name": "YMCA Northern Colorado volleyball",
+      "urls": [
+        "https://www.ymcanoco.org/sports/volleyball"
+      ],
+      "sport": "volleyball",
+      "sports": [
+        "basketball",
+        "volleyball",
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": "YMCA of Northern Colorado",
+      "type": "nonprofit",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T16:48:36.286Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T16:48:36.265Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "community-ymca-swimming",
+      "name": "YMCA Northern Colorado swim programs",
+      "urls": [
+        "https://www.ymcanoco.org/membership/about-y"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "basketball",
+        "volleyball",
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": "YMCA of Northern Colorado",
+      "type": "nonprofit",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T17:06:46.331Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T17:06:46.253Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "school-niwot-girls-basketball",
+      "name": "Niwot High School Girls Basketball official programs and named team tiers",
+      "urls": [
+        "https://nhs.svvsd.org/activities-arts-athletics/athletics/winter-sports/girls-basketball/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball",
+        "volleyball",
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": "Niwot High School",
+      "type": "school",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T17:06:48.717Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T17:06:48.672Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "school-niwot-boys-basketball",
+      "name": "Niwot High School Boys Basketball official programs and named team tiers",
+      "urls": [
+        "https://nhs.svvsd.org/activities-arts-athletics/athletics/winter-sports/boys-basketball/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball",
+        "volleyball",
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": "Niwot High School",
+      "type": "school",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T17:06:50.585Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T17:06:50.533Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "school-niwot-girls-volleyball",
+      "name": "Niwot High School Girls Volleyball official programs and named team tiers",
+      "urls": [
+        "https://nhs.svvsd.org/activities-arts-athletics/athletics/fall-sports/girls-volleyball/"
+      ],
+      "sport": "volleyball",
+      "sports": [
+        "basketball",
+        "volleyball",
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": "Niwot High School",
+      "type": "school",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T17:06:52.281Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T17:06:52.251Z",
+      "priorRetrievalStatus": "partial",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "school-niwot-boys-volleyball",
+      "name": "Niwot High School Boys Volleyball official programs and named team tiers",
+      "urls": [
+        "https://nhs.svvsd.org/activities-arts-athletics/athletics/spring-sports/boys-volleyball/"
+      ],
+      "sport": "volleyball",
+      "sports": [
+        "basketball",
+        "volleyball",
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": "Niwot High School",
+      "type": "school",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": "2026-11-08T17:30:20.726Z",
+      "priorLastSuccessfulRetrieval": "2026-11-08T17:30:20.646Z",
+      "priorRetrievalStatus": "needs-review",
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        }
+      ],
+      "originalId": "school-niwot-girls-swimming",
+      "name": "Niwot High School Girls Swimming official programs and named team tiers",
+      "urls": [
+        "https://nhs.svvsd.org/activities-arts-athletics/athletics/winter-sports/girls-swimming/"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "basketball",
+        "volleyball",
+        "swimming"
+      ],
+      "geography": "CO",
+      "owner": "Niwot High School",
+      "type": "school",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Youth and high school field teams, named 2031 Blue and Silver squads, and December 2026 tryouts for summer 2027."
+        }
+      ],
+      "originalId": "research:denver-elite",
+      "name": "Denver Elite field program",
+      "urls": [
+        "https://www.colorado.adrln.com/program/denver-elite-field/4424"
+      ],
+      "sport": "lacrosse",
+      "sports": [
+        "lacrosse"
+      ],
+      "geography": "organization",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": "2026-11-09T21:19:41.877Z",
+      "lastSuccessfulRetrieval": "2026-11-09T21:19:41.877Z",
+      "retrievalStatus": "captured-unreviewed",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Selected or reached through permitted live discovery."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Front Range girls lacrosse club. Team 180 and Urban Elite merged under Team 180 Elite in August 2024."
+        }
+      ],
+      "originalId": "research:180",
+      "name": "Team 180 Elite: About",
+      "urls": [
+        "https://team180elite.com/about-team180/"
+      ],
+      "sport": "lacrosse",
+      "sports": [
+        "lacrosse"
+      ],
+      "geography": "organization",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": "2026-11-09T21:11:22.134Z",
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "failed",
+      "failureReason": "ROBOTS_UNAVAILABLE",
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Selected or reached through permitted live discovery."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Official Colorado program registration site with Denver address."
+        }
+      ],
+      "originalId": "research:3d",
+      "name": "3d Colorado registration",
+      "urls": [
+        "https://register.colorado.3dlacrosse.com/"
+      ],
+      "sport": "lacrosse",
+      "sports": [
+        "lacrosse"
+      ],
+      "geography": "organization",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": "2026-11-09T21:11:25.224Z",
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "failed",
+      "failureReason": "ROBOTS_UNAVAILABLE",
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Selected or reached through permitted live discovery."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Girls and boys club programs, training and high school team camp; Englewood location."
+        }
+      ],
+      "originalId": "research:frvc",
+      "name": "Front Range Volleyball",
+      "urls": [
+        "https://www.frvbc.com/page/home"
+      ],
+      "sport": "volleyball",
+      "sports": [
+        "volleyball"
+      ],
+      "geography": "organization",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Official navigation lists 18 named West teams; Colorado Academy practice campus in Denver. Season not specified."
+        }
+      ],
+      "originalId": "research:dj",
+      "name": "Denver Juniors Volleyball Club",
+      "urls": [
+        "https://www.denverjuniorsvc.com/"
+      ],
+      "sport": "volleyball",
+      "sports": [
+        "volleyball"
+      ],
+      "geography": "team-list",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": "2026-11-09T21:48:13.637Z",
+      "lastSuccessfulRetrieval": "2026-11-09T21:48:13.637Z",
+      "retrievalStatus": "partial",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Selected or reached through permitted live discovery."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Eleven named teams in official navigation and a Windsor practice location. Season not specified."
+        }
+      ],
+      "originalId": "research:skyline",
+      "name": "Colorado Skyline Juniors",
+      "urls": [
+        "https://www.coskylinejrs.com/"
+      ],
+      "sport": "volleyball",
+      "sports": [
+        "volleyball"
+      ],
+      "geography": "team-list",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Colorado girls program lists five grade-based teams. Some team links have mismatched page titles; roster and season need confirmation."
+        }
+      ],
+      "originalId": "research:cbc",
+      "name": "Colorado Basketball Club",
+      "urls": [
+        "https://www.coloradobasketballclub.com/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "team-list",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Colorado programs include academy teams, skills development, camps and recruiting. Centennial office."
+        }
+      ],
+      "originalId": "research:premier",
+      "name": "Colorado Premier Basketball",
+      "urls": [
+        "https://premierbasketballclub.com/colorado-premier/"
+      ],
+      "sport": "basketball",
+      "sports": [
+        "basketball"
+      ],
+      "geography": "organization",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Year-round competitive swim team with age-group and senior programs; evaluations by group."
+        }
+      ],
+      "originalId": "research:dsa",
+      "name": "Denver Swim Academy: Joining",
+      "urls": [
+        "https://www.gomotionapp.com/team/codsa/page/joining-our-team"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "organization",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Denver mailing address; prospective swimmers contact team for group placement."
+        }
+      ],
+      "originalId": "research:fst",
+      "name": "Foothills Swim Team: Joining",
+      "urls": [
+        "https://www.gomotionapp.com/team/cofst/page/info/joining-the-team"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "organization",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Year-round competitive swim team in Loveland; evaluation and registration links."
+        }
+      ],
+      "originalId": "research:loveland",
+      "name": "Loveland Swim Club",
+      "urls": [
+        "https://www.gomotionapp.com/team/colsc/page/home"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "organization",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Sixteen member rows in the published Zone 4 team table. Season and division assignment are not stated."
+        }
+      ],
+      "originalId": "research:wsl",
+      "name": "Western Slope League member teams",
+      "urls": [
+        "https://westernslopeleague.org/index.php/wsl-information/"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "association-members",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Five teams with codes and Colorado pool addresses. Division name and season are not stated."
+        }
+      ],
+      "originalId": "research:wc3",
+      "name": "Willow Creek III: Division teams",
+      "urls": [
+        "https://www.wc3dolphins.com/division-teams"
+      ],
+      "sport": "swimming",
+      "sports": [
+        "swimming"
+      ],
+      "geography": "division-members",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Official athletics navigation identifies men and women in basketball, lacrosse, and swimming and diving; women in volleyball. NCAA Division I."
+        }
+      ],
+      "originalId": "research:du",
+      "name": "University of Denver Athletics",
+      "urls": [
+        "https://denverpioneers.com/sports/athletics"
+      ],
+      "sport": null,
+      "sports": [
+        "lacrosse",
+        "volleyball",
+        "basketball",
+        "swimming"
+      ],
+      "geography": "school-programs",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Official multi-sport calendar; expanded only into explicitly reviewed events, not imported as a team record."
+        }
+      ],
+      "originalId": "research:du-calendar",
+      "name": "University of Denver composite schedule",
+      "urls": [
+        "https://denverpioneers.com/calendar"
+      ],
+      "sport": null,
+      "sports": [],
+      "geography": "schedule",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Published upcoming basketball and volleyball home dates, with local event times."
+        }
+      ],
+      "originalId": "research:du-tickets",
+      "name": "University of Denver ticket schedule",
+      "urls": [
+        "https://denverpioneers.evenue.net/"
+      ],
+      "sport": null,
+      "sports": [
+        "basketball",
+        "volleyball"
+      ],
+      "geography": "schedule",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Search-index evidence only; full document returned 403. Not counted as an imported association."
+        }
+      ],
+      "originalId": "research:rmr",
+      "name": "Rocky Mountain Region boys clubs snapshot",
+      "urls": [
+        "https://cdn3.sportngin.com/attachments/document/34fb-2753153/26-01-28.Boys.Clubs_and_Codes_25-26.pdf"
+      ],
+      "sport": null,
+      "sports": [],
+      "geography": "discovery",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": "2026-11-09T21:10:21.607Z",
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "failed",
+      "failureReason": "ROBOTS_UNAVAILABLE",
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Selected or reached through permitted live discovery."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Fort Collins athletics site identifies men’s and women’s basketball, women’s volleyball, and women’s swimming and diving."
+        }
+      ],
+      "originalId": "research:csu",
+      "name": "Colorado State Athletics",
+      "urls": [
+        "https://csurams.com/"
+      ],
+      "sport": null,
+      "sports": [
+        "basketball",
+        "volleyball",
+        "swimming"
+      ],
+      "geography": "school-programs",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Denver institution with separate staff sections for men’s and women’s basketball, women’s lacrosse and volleyball."
+        }
+      ],
+      "originalId": "research:regis",
+      "name": "Regis Athletics staff directory",
+      "urls": [
+        "https://regisrangers.com/staff-directory"
+      ],
+      "sport": null,
+      "sports": [
+        "basketball",
+        "volleyball",
+        "lacrosse"
+      ],
+      "geography": "school-programs",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Front Range league offering adult men’s and women’s box, adult field and high school box formats."
+        }
+      ],
+      "originalId": "research:cll",
+      "name": "Colorado Lacrosse League",
+      "urls": [
+        "https://www.coloradolacrosseleague.com/about"
+      ],
+      "sport": "lacrosse",
+      "sports": [
+        "lacrosse"
+      ],
+      "geography": "league",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": "2026-11-09T21:19:44.403Z",
+      "lastSuccessfulRetrieval": "2026-11-09T21:19:44.403Z",
+      "retrievalStatus": "captured-unreviewed",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Selected or reached through permitted live discovery."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Fall box format lists A, B, Grand Masters, C and Draft divisions at Foothills Fieldhouse. Season year and team membership not stated."
+        }
+      ],
+      "originalId": "research:cll-box",
+      "name": "CLL box divisions",
+      "urls": [
+        "https://www.coloradolacrosseleague.com/leagues/box"
+      ],
+      "sport": null,
+      "sports": [],
+      "geography": "divisions",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": "2026-11-08",
+          "basis": "Reviewed August–September schedule cards identify 18 unique labels in three divisions. Seventeen team records imported; “Bye Week” excluded as ambiguous. Calendar year is not explicit on each game, so no dated events imported."
+        }
+      ],
+      "originalId": "research:cll-schedule",
+      "name": "CLL TeamLinkt schedule snapshot",
+      "urls": [
+        "https://leagues.teamlinkt.com/coloradolacrosseleague/Schedule"
+      ],
+      "sport": "lacrosse",
+      "sports": [
+        "lacrosse"
+      ],
+      "geography": "schedule-teams",
+      "owner": null,
+      "type": "research-reference",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": "2026-11-09T21:19:48.353Z",
+      "lastSuccessfulRetrieval": "2026-11-09T21:19:48.353Z",
+      "retrievalStatus": "captured-unreviewed",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Selected or reached through permitted live discovery."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": null,
+          "basis": "Prior preserved configuration; review date unknown"
+        }
+      ],
+      "originalId": "replay-front-range",
+      "name": "Reviewed archive replay — front-range",
+      "urls": [],
+      "sport": "volleyball",
+      "sports": [
+        "volleyball"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    },
+    {
+      "priorLastAttempt": null,
+      "priorLastSuccessfulRetrieval": null,
+      "priorRetrievalStatus": null,
+      "sourceReviewHistory": [
+        {
+          "date": null,
+          "basis": "Prior preserved configuration; review date unknown"
+        }
+      ],
+      "originalId": "replay-team180",
+      "name": "Reviewed archive replay — team-180",
+      "urls": [],
+      "sport": "lacrosse",
+      "sports": [
+        "lacrosse"
+      ],
+      "geography": "CO",
+      "owner": null,
+      "type": "other",
+      "expectedRecordTypes": [
+        "unknown"
+      ],
+      "lastAttempt": null,
+      "lastSuccessfulRetrieval": null,
+      "retrievalStatus": "not-selected-for-v2-capture",
+      "failureReason": null,
+      "refreshHours": 168,
+      "verification": "Preserved prior research/source configuration; no new successful import implied.",
+      "selectionReason": "Preserved for phased scope expansion. Initial live test is bounded Colorado youth volleyball/lacrosse; basketball/swimming are generalization tests."
+    }
+  ]
+}

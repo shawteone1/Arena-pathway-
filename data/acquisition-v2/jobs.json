@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "jobs": {
+    "prescribed-rmr": {
+      "sport": "volleyball",
+      "input": "Capture prescribed official RMR club directory",
+      "followLinks": false,
+      "sources": [
+        {
+          "url": "https://www.rmrvolleyball.org/page/show/6830537-club-directory",
+          "name": "RMR official club directory",
+          "owner": "Rocky Mountain Region / USA Volleyball",
+          "type": "directory",
+          "adapter": "scoped-table",
+          "rowSelector": "table tbody tr",
+          "expectedHeader": "Club",
+          "expectedRecordTypes": [
+            "organization",
+            "program"
+          ]
+        }
+      ]
+    },
+    "alternate-volleyball": {
+      "sport": "volleyball",
+      "input": "Separate permitted regional-directory capture, not a substitute for RMR access",
+      "searchLeadSport": "volleyball",
+      "followLinks": false,
+      "sources": [
+        {
+          "url": "https://www.denverjuniorsvc.com/",
+          "type": "club"
+        }
+      ]
+    },
+    "lacrosse": {
+      "sport": "lacrosse",
+      "input": "Find youth lacrosse organizations throughout Colorado.",
+      "searchLeadSport": "lacrosse",
+      "researchIds": [
+        "denver-elite",
+        "180",
+        "3d",
+        "cll",
+        "cll-schedule"
+      ],
+      "sources": [
+        {
+          "url": "https://teamsideline.com/sites/denverlacrosse/schedules"
+        }
+      ],
+      "followLinks": true,
+      "maxSources": 24,
+      "maxDepth": 1
+    },
+    "generalize": {
+      "sport": "swimming",
+      "input": "Existing second-sport association source via registered adapter",
+      "legacySourceIds": [
+        "swim-csi-embedded"
+      ],
+      "followLinks": false
+    },
+    "generalize-basketball": {
+      "sport": "basketball",
+      "input": "Existing basketball provider source via registered adapter",
+      "legacySourceIds": [
+        "basket-hdn-noco"
+      ],
+      "followLinks": false
+    },
+    "assisted-review-examples": {
+      "sport": "lacrosse",
+      "input": "Post-trial assisted verification of two already retrieved development sources; not a held-out discovery run",
+      "followLinks": false,
+      "sources": [
+        {
+          "url": "https://synergysportsoperations.com/our-brands/",
+          "type": "directory",
+          "owner": "Synergy Sports Operations"
+        },
+        {
+          "url": "https://www.grandvalleylax.com/about/about-us/9321",
+          "type": "club",
+          "owner": "Grand Valley Lacrosse"
+        }
+      ]
+    }
+  }
+}

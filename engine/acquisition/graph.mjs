@@ -1,0 +1,9 @@
+import {hash} from '../models.mjs';
+export function acquisitionGraph(snapshot){
+ const nodes=snapshot.records.map(r=>({...r.record,type:r.record.kind==='location'?'facility':r.record.kind,classificationStatus:r.approved_version===r.current_version?'reviewed-facts':'candidate',lifecycle:r.lifecycle,approvedVersion:r.approved_version,currentVersion:r.current_version}));const edges=[];
+ for(const row of snapshot.records){const r=row.record;if(r.reportedParent){const parent=snapshot.records.find(p=>p.source_id===row.source_id&&p.native_id===r.reportedParent);if(parent)edges.push({from:r.id,to:parent.id,relation:'reported-section-of',status:'source-reported-needs-review',evidence:r.evidence});}
+ for(const [field,type]of [['reportedDivision','division'],['reportedSeason','season']])if(r[field]){const id='acq-claim-'+hash([row.source_id,field,r[field]]).slice(0,24);if(!nodes.some(n=>n.id===id))nodes.push({id,name:r[field],type,classificationStatus:'candidate',evidence:r.evidence,year:type==='season'&&/^\d{4}$/.test(r[field])?Number(r[field]):null});edges.push({from:r.id,to:id,relation:'reported-'+type,status:'needs-review',evidence:r.evidence});}}
+ for(const link of [...new Map((snapshot.identityLinks||[]).map(l=>[l.from_record,l])).values()])edges.push({from:link.from_record,to:link.to_record,relation:'reviewed-alias',status:'reviewed-identity-only',reviewer:link.reviewer,evidenceURLs:JSON.parse(link.evidence_json)});
+ const errors=[];for(const e of edges)if(!nodes.some(n=>n.id===e.from)||!nodes.some(n=>n.id===e.to))errors.push('ORPHAN_ACQUISITION_EDGE:'+e.from);
+ return{schemaVersion:1,nodes,edges,valid:!errors.length,errors,consumerPublication:false,reason:'Candidate graph supplements the preserved verified graph; no automatic club ownership, current season or registration inference.'};
+}

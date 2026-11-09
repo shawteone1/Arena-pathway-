@@ -11,7 +11,7 @@
     "dev": "node --watch server.mjs",
     "test": "node --test",
     "validate:data": "node scripts/validate-data.mjs",
-    "check": "node --check server.mjs && node --check src/views.mjs && node --check public/app.js && node --check public/siem.js && node --check public/siem-model.js && node --check src/siem-view.mjs && node --check src/release-views.mjs && node --check public/release-demo.js && node --check public/release-demo-model.js && npm run validate:data && npm run validate:participation && npm run discovery:check && npm test",
+    "check": "node --check server.mjs && node --check src/views.mjs && node --check public/app.js && node --check public/siem.js && node --check public/siem-model.js && node --check src/siem-view.mjs && node --check src/release-views.mjs && node --check public/release-demo.js && node --check public/release-demo-model.js && npm run validate:data && npm run validate:participation && npm run discovery:check && node --check scripts/acquire-v2.mjs && node --check scripts/acquisition-console.mjs && npm test",
     "prepare:brand": "node scripts/prepare-brand.mjs",
     "check:brand": "node scripts/check-brand.mjs",
     "data:import": "node scripts/data-engine.mjs import",
@@ -31,7 +31,16 @@
     "discovery:build": "node scripts/sports-discovery.mjs build",
     "discovery:replay": "node scripts/sports-discovery.mjs replay",
     "discovery:prove": "node scripts/prove-discovery-replay.mjs",
-    "discovery:refresh-plan": "node scripts/sports-discovery.mjs refresh-plan"
+    "discovery:refresh-plan": "node scripts/sports-discovery.mjs refresh-plan",
+    "acquisition:run": "node scripts/acquire-v2.mjs run",
+    "acquisition:refresh": "node scripts/acquisition-refresh.mjs",
+    "acquisition:export": "node scripts/acquire-v2.mjs export",
+    "acquisition:bootstrap": "node scripts/acquire-v2.mjs bootstrap",
+    "acquisition:evaluate": "node scripts/evaluate-acquisition-v2.mjs",
+    "acquisition:acceptance": "node scripts/evaluate-acquisition-v2.mjs --assert-acceptance",
+    "acquisition:controlled": "node scripts/acquisition-controlled.mjs",
+    "acquisition:console": "node scripts/acquisition-console.mjs",
+    "test:acquisition:browser": "python scripts/qa-acquisition.py"
   },
   "dependencies": {
     "cheerio": "1.2.0",
