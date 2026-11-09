@@ -107,3 +107,16 @@ The v0.6 work is on `codex/arena-pathway-transfer`; the isolated v0.7 visual wor
 baseline. Review and commit this branch as appropriate. Do not merge, deploy,
 publish, or configure hosting without the owner’s approval. Local start and test
 commands perform no publication, external writes, or repository pushes.
+
+## SIEM Parent Command Center v1
+
+Open `/siem` after `npm start`. The isolated SIEM prototype preserves the v0.7
+letterman presentation and approved AP logo. Parent-managed athletes from My
+Pathway and parent participants share a local event/action workspace. Optional
+Parent Wellness is part of SIEM, alongside the separate Recruiting and Locked In
+pillars. There are no live external connections, verified authentication or secure
+backend storage. Use non-sensitive test data only. No deployment was performed.
+
+See [integration matrix and data-build coordination](docs/SIEM-INTEGRATIONS.md),
+[security assessment](docs/SIEM-SECURITY.md), [QA report](docs/SIEM-QA.md) and
+[draft PR description](docs/SIEM-PR-DRAFT.md).
