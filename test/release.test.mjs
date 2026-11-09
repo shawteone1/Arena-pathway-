@@ -1,3 +1,4 @@
+import {createHash} from 'node:crypto';
 import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {execFileSync} from 'node:child_process';
 import {makeDemo,demoEvents,demoAlerts,acknowledgeDemo,scenarioIds} from '../public/release-demo-model.js';
 import {approvedPositioning} from '../src/release-views.mjs';
@@ -9,7 +10,8 @@ test('all three demonstrations reuse SIEM normalization, show changes/conflicts/
 });
 test('integration preserves exact reviewed data and approved charter/brand assets',()=>{
  for(const file of ['data/engine/approved.json','data/engine/registry.json','data/unified/catalog.json','src/brand.json','src/photography.json'])assert.equal(readFileSync(file,'utf8'),execFileSync('git',['show','ff4c226:'+file],{encoding:'utf8',maxBuffer:30e6}));
- for(const file of ['AGENTS.md','docs/PRODUCT-NORTH-STAR.md'])assert.equal(readFileSync(file,'utf8'),execFileSync('git',['show','95275cc:'+file],{encoding:'utf8'}));
+ // Immutable hashes of approved governance commit 95275cc; portable after cherry-pick.
+ for(const [file,expected] of Object.entries({"AGENTS.md": "ce76b80ef1fcfb83d0036acea67fa11e6f87fb2a17d07d9b7b9a2c8037266ff5", "docs/PRODUCT-NORTH-STAR.md": "7afce3caa2e7113f5dbcb3dccd061dcc2ceab6b3654154e406ab1f03782fff27"}))assert.equal(createHash('sha256').update(readFileSync(file)).digest('hex'),expected);
 });
 test('SIEM opportunities have verified youth program ownership and schedule state',()=>{
  assert.ok(clientCatalog.siemOpportunities.length);for(const o of clientCatalog.siemOpportunities){assert.equal(o.designation,'youth');assert.ok(programs.some(p=>p.id===o.programId&&p.organizationId===o.organizationId));assert.ok(['historical','needs-review','date-unconfirmed','published-upcoming'].includes(o.scheduleState));}
