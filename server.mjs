@@ -13,7 +13,7 @@ import {photography,brand} from './src/presentation.mjs';
 import { esc, layout, home, sportPage, builder, myPathway, dataPage, credits, organizationPage, classificationPage } from './src/views.mjs';
 const assets = { 'style.css':'text/css; charset=utf-8', 'app.js':'text/javascript; charset=utf-8', 'state.js':'text/javascript; charset=utf-8', 'stadium.jpg':'image/jpeg' };
 assets['siem-platform.css']='text/css; charset=utf-8';
-for(const name of ['siem-platform.js','siem-platform-model.js','siem-platform-fixtures.js','siem.js','siem-model.js','release-demo.js','release-demo-model.js'])assets[name]='text/javascript; charset=utf-8';
+for(const name of ['siem-family-fixtures.js','siem-platform.js','siem-platform-model.js','siem-platform-fixtures.js','siem.js','siem-model.js','release-demo.js','release-demo-model.js'])assets[name]='text/javascript; charset=utf-8';
 assets['fonts/barlow-condensed-bold.ttf']='font/ttf';
 for(const p of Object.values(photography)){assets[p.asset]='image/webp';assets[p.smallAsset]='image/webp';}
 if(brand.status==='ready')for(const key of ['desktopAsset','mobileAsset','homepageAsset','faviconAsset','appleTouchAsset']){const path=brand[key];assets[path]=path.endsWith('.webp')?'image/webp':'image/png';}

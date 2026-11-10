@@ -153,3 +153,17 @@ See [v2.1 QA and before/after measurements](docs/SIEM-UX-V21-QA.md). Run
 `npm run test:siem:refinement:browser` for the complete SIEM behavior suite plus
 presentation, first-screen, keyboard and touch checks. No production publication
 or Sports Discovery Engine changes are part of this workstream.
+
+## Signature Family Demonstration v1
+
+Open `/siem/platform?scenario=family&mode=everyday` for the fictional Rivera family's
+May 6–12, 2030 Denver week: Alex (soccer), Jordan (volleyball), Taylor (both), and
+four team schedules. PlayMetrics, SportsEngine, TeamSnap and Slack are labeled
+fixtures, not live connections. The existing v2.1 dashboards, models and contract
+are reused. Explicit simulated approval never sends messages or changes providers.
+
+See the [7½-minute walkthrough](docs/SIEM-SIGNATURE-FAMILY-WALKTHROUGH.md),
+[QA report](docs/SIEM-SIGNATURE-FAMILY-QA.md) and
+[limitations/readiness report](docs/SIEM-SIGNATURE-FAMILY-READINESS.md).
+Run `npm run test:siem:family:browser` for the signature scenarios plus inherited
+SIEM/v2.1 browser checks. Do not push, merge, publish or deploy this review work.
