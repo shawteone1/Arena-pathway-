@@ -27,7 +27,8 @@
     "data:classify": "node scripts/reconcile-participation.mjs",
     "validate:participation": "node scripts/validate-participation.mjs",
     "test:release:browser": "python scripts/qa-release.py",
-    "test:siem:browser": "python scripts/qa-siem-platform.py"
+    "test:siem:browser": "python scripts/qa-siem-platform.py",
+    "test:siem:refinement:browser": "python scripts/qa-siem-refinement.py"
   },
   "dependencies": {
     "cheerio": "1.2.0",
