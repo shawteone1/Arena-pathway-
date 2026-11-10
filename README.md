@@ -141,3 +141,15 @@ See [activity/adapter contract](docs/SIEM-UX-V2-CONTRACT.md),
 [QA results](docs/SIEM-UX-V2-QA.md). Run `npm run test:siem:browser` for the
 Python Playwright scenarios (Chromium required). No discovery/data/ingestion
 files were changed. Do not push, merge, deploy or publish this review branch.
+
+## SIEM UX v2.1 refinement
+
+Review branch `codex/siem-ux-v21-refinement` refines the existing `/siem/platform`
+presentation from v2 commit `cd976233`: compact KPIs/filters, a collapsible sidebar,
+a day-grouped timeline and scannable alert impact/next steps. All event models,
+contracts, fixtures, integrations and underlying functionality are preserved.
+
+See [v2.1 QA and before/after measurements](docs/SIEM-UX-V21-QA.md). Run
+`npm run test:siem:refinement:browser` for the complete SIEM behavior suite plus
+presentation, first-screen, keyboard and touch checks. No production publication
+or Sports Discovery Engine changes are part of this workstream.
