@@ -1,5 +1,6 @@
+import {legacySiemDestination} from './src/siem-navigation.mjs';
 import {siemPlatformPage} from './src/siem-platform-view.mjs';
-import {aboutPage,offeringsPage,collectivePage,soccerPreview,demoPage} from './src/release-views.mjs';
+import {aboutPage,offeringsPage,collectivePage,soccerPreview} from './src/release-views.mjs';
 import {siemPage} from './src/siem-view.mjs';
 import http from 'node:http';
 import { readFile } from 'node:fs/promises';
@@ -42,9 +43,9 @@ export function createServer() {
    if(path==='/offerings')return send(200,offeringsPage());
    if(path==='/collective-data')return send(200,collectivePage());
    if(path==='/soccer-center')return send(200,soccerPreview());
-   const demoMatch=path.match(/^\/demos\/(parent|coach|college)$/);if(demoMatch)return send(200,demoPage(demoMatch[1]));
-   if(path==='/siem/platform')return send(200,siemPlatformPage());
-   if(path==='/siem')return send(200,siemPage());
+   const siemRedirect=legacySiemDestination(path,url.searchParams);if(siemRedirect){res.setHeader('Location',siemRedirect);return send(302,'Continue to My AP.','text/plain');}
+   if(path==='/my-ap'||path==='/siem/platform')return send(200,siemPlatformPage());
+   if(path==='/siem/setup')return send(200,siemPage());
    if(path==='/build')return send(200,builder());
    if(path==='/my-pathway')return send(200,myPathway());
    if(path==='/data')return send(200,dataPage());

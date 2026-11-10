@@ -32,28 +32,25 @@ class ReleaseQA(unified.UnifiedSportsQA):
         before=self.page.evaluate('localStorage.getItem("arenaPathway.v2")')
         for kind in ['parent','coach','college']:
             self.page.goto(base.BASE+'/demos/'+kind)
-            self.page.wait_for_selector('[data-alert="conflict"]')
-            self.assertIn('ILLUSTRATIVE DEMONSTRATION',self.page.locator('main').inner_text())
-            self.assertIn('not connected',self.page.locator('main').inner_text())
-            button=self.page.locator('[data-alert="conflict"]').get_by_role('button')
-            button.click()
-            self.assertTrue(self.page.locator('[data-alert="conflict"]').get_by_role('button').is_disabled())
-            self.assertIn('No message was sent',self.page.locator('#demo-status').inner_text())
-            self.page.get_by_role('button',name='Reset this demonstration').click()
-            self.assertFalse(self.page.locator('[data-alert="conflict"]').get_by_role('button').is_disabled())
-            if kind!='college':
-                second=self.page.locator('#demo-person option').nth(2).get_attribute('value')
-                self.page.select_option('#demo-person',second)
-                self.assertEqual(self.page.locator('#demo-calendar [data-event="practice"]').count(),0)
+            self.page.wait_for_selector('.ap-stat')
+            self.assertIn('/my-ap?',self.page.url)
+            self.assertEqual(self.page.locator('#platform-scenario').input_value(),'family' if kind=='parent' else kind)
+            self.page.locator('[data-mode=command]').click()
+            item=self.page.locator('[data-alert=conflict]').first
+            item.get_by_role('button',name='Mark reviewed',exact=True).click()
+            self.assertIn('acknowledged',self.page.locator('[data-alert=conflict]').first.inner_text().lower())
+            self.page.locator('#platform-reset').click()
+            self.assertIn('open',self.page.locator('[data-alert=conflict]').first.inner_text().lower())
             self.assertEqual(self.page.evaluate('localStorage.getItem("arenaPathway.v2")'),before)
             self.assertIsNone(self.page.evaluate('localStorage.getItem("arenaPathway.siem.v1")'))
 
     def test_siem_lightweight_family_does_not_require_recruiting_profile(self):
-        self.page.goto(base.BASE+'/siem')
+        self.page.goto(base.BASE+'/siem/setup')
         self.page.locator('#siem-participant-add input[name=nickname]').fill('Demo child')
         self.page.locator('#siem-participant-add select[name=sport]').select_option('swimming')
         self.page.locator('#siem-participant-add button').click()
         self.assertIn('Demo child',self.page.locator('#siem-people').inner_text())
+        self.page.locator('details.siem-local-tools > summary').click()
         f=self.page.locator('#siem-event')
         f.evaluate('(el)=>el.closest("details").open=true')
         f.locator('[name=title]').fill('Test practice')
@@ -63,6 +60,8 @@ class ReleaseQA(unified.UnifiedSportsQA):
         f.locator('button').click()
         self.assertIn('Test practice',self.page.locator('#siem-calendar').inner_text())
         self.page.reload()
+        self.page.wait_for_selector('#siem-people .siem-person')
+        self.page.locator('details.siem-local-tools > summary').click()
         self.assertIn('Demo child',self.page.locator('#siem-people').inner_text())
         self.assertIn('Test practice',self.page.locator('#siem-calendar').inner_text())
         self.assertIsNone(self.page.evaluate('localStorage.getItem("arenaPathway.v2")'))
@@ -70,10 +69,10 @@ class ReleaseQA(unified.UnifiedSportsQA):
 
     def test_demo_keyboard_and_primary_touch_targets(self):
         self.page.goto(base.BASE+'/demos/parent')
-        self.page.wait_for_selector('#demo-actions button')
-        self.page.locator('#demo-person').focus()
-        self.assertEqual(self.page.locator(':focus').get_attribute('id'),'demo-person')
-        for button in self.page.locator('#demo-actions button').all():
+        self.page.wait_for_selector('#platform-content .ap-action')
+        self.page.get_by_label('Participant',exact=True).focus()
+        self.assertEqual(self.page.locator(':focus').get_attribute('aria-label'),'Participant')
+        for button in self.page.locator('#platform-content button:visible').all():
             self.assertGreaterEqual(button.bounding_box()['height'],44)
         self.page.keyboard.press('Tab')
         self.assertEqual(self.page.locator(':focus').count(),1)
