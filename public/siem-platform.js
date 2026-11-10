@@ -6,7 +6,10 @@ const compactRail=matchMedia('(min-width:700px) and (max-width:1180px)');
 let sidebarCollapsed=compactRail.matches,sidebarChosen=false;
 function applySidebar(){document.body.dataset.sidebarCollapsed=String(sidebarCollapsed);const b=$('platform-sidebar-toggle');b.setAttribute('aria-expanded',String(!sidebarCollapsed));b.setAttribute('aria-label',sidebarCollapsed?'Expand sidebar':'Collapse sidebar');b.querySelector('.ap-toggle-label').textContent=sidebarCollapsed?'Expand sidebar':'Collapse sidebar';b.querySelector('[aria-hidden]').textContent=sidebarCollapsed?'›':'‹';}
 $('platform-sidebar-toggle').addEventListener('click',()=>{sidebarChosen=true;sidebarCollapsed=!sidebarCollapsed;applySidebar();});
-compactRail.addEventListener('change',()=>{if(!sidebarChosen){sidebarCollapsed=compactRail.matches;applySidebar();}});
+const updateCompactRail=()=>{if(!sidebarChosen){sidebarCollapsed=compactRail.matches;applySidebar();}};
+// Safari/WebKit versions exposing only MediaQueryList.addListener must still initialize.
+if(typeof compactRail.addEventListener==='function')compactRail.addEventListener('change',updateCompactRail);
+else if(typeof compactRail.addListener==='function')compactRail.addListener(updateCompactRail);
 applySidebar();
 const loadScenario=kind=>kind==='family'?createFamilyDemo():createScenario(kind);
 const params=new URLSearchParams(location.search);let dataset=loadScenario(['parent','coach','college','family'].includes(params.get('scenario'))?params.get('scenario'):'parent');

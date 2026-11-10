@@ -167,3 +167,13 @@ See the [7½-minute walkthrough](docs/SIEM-SIGNATURE-FAMILY-WALKTHROUGH.md),
 [limitations/readiness report](docs/SIEM-SIGNATURE-FAMILY-READINESS.md).
 Run `npm run test:siem:family:browser` for the signature scenarios plus inherited
 SIEM/v2.1 browser checks. Do not push, merge, publish or deploy this review work.
+
+## Safari/WebKit startup review fix
+
+Branch `codex/siem-family-safari-fix` fixes a reproduced legacy MediaQueryList
+startup crash from Signature Family commit `2493cf1` and adds visible module-load
+failure handling. Family fixtures, event contracts and discovery data are unchanged.
+See [findings and verification limits](docs/SIEM-SAFARI-STARTUP-FINDINGS.md).
+Run `npm run test:siem:webkit` with Python Playwright and a working WebKit install;
+`WEBKIT_PATH` optionally selects an environment-provided launcher. The physical
+iPad's version/console trace is still needed to confirm its specific failure.
