@@ -1,0 +1,1460 @@
+{
+  "reviewedPublicationChecks": {
+    "eligibleOrganizations": 16,
+    "explicitlyVisible": 16,
+    "youthEligible": 15,
+    "defaultYouthVisible": 15,
+    "evidenceTraceability": true,
+    "newCurrentOpportunities": 0
+  },
+  "baseCommit": "9157faa660b28ceb69100595ebd2ed6b4da52ad8",
+  "perSport": [
+    {
+      "sport": "lacrosse",
+      "independentStatewideExpectedOrganizations": null,
+      "latestSourceAttempts": 18,
+      "rawExtractedRecords": 97,
+      "rawOrganizationShapedRows": 10,
+      "namedSourceCandidates": 0,
+      "canonicalVerifiedPublicOrganizations": 21,
+      "verifiedYouthParticipationVisible": 13,
+      "defaultYouthVisible": 13,
+      "explicitAllVerifiedYouthView": 14,
+      "allCategoryUniqueVisible": 21,
+      "allCategoryPlusExplicitUnclassified": 22,
+      "newReviewedOrganizations": 11,
+      "newReviewedYouthOrganizations": 10,
+      "newNamedPrograms": 2,
+      "newTeams": 0,
+      "newCurrentTeamsPrograms": 0,
+      "newCurrentOpportunities": 0
+    },
+    {
+      "sport": "volleyball",
+      "independentStatewideExpectedOrganizations": null,
+      "latestSourceAttempts": 18,
+      "rawExtractedRecords": 137,
+      "rawOrganizationShapedRows": 11,
+      "namedSourceCandidates": 0,
+      "canonicalVerifiedPublicOrganizations": 21,
+      "verifiedYouthParticipationVisible": 9,
+      "defaultYouthVisible": 9,
+      "explicitAllVerifiedYouthView": 9,
+      "allCategoryUniqueVisible": 21,
+      "allCategoryPlusExplicitUnclassified": 21,
+      "newReviewedOrganizations": 5,
+      "newReviewedYouthOrganizations": 5,
+      "newNamedPrograms": 3,
+      "newTeams": 0,
+      "newCurrentTeamsPrograms": 0,
+      "newCurrentOpportunities": 0
+    },
+    {
+      "sport": "basketball",
+      "independentStatewideExpectedOrganizations": null,
+      "latestSourceAttempts": 0,
+      "rawExtractedRecords": 0,
+      "rawOrganizationShapedRows": 0,
+      "namedSourceCandidates": 0,
+      "canonicalVerifiedPublicOrganizations": 108,
+      "verifiedYouthParticipationVisible": 96,
+      "defaultYouthVisible": 96,
+      "explicitAllVerifiedYouthView": 96,
+      "allCategoryUniqueVisible": 108,
+      "allCategoryPlusExplicitUnclassified": 108,
+      "newReviewedOrganizations": 0,
+      "newReviewedYouthOrganizations": 0,
+      "newNamedPrograms": 0,
+      "newTeams": 0,
+      "newCurrentTeamsPrograms": 0,
+      "newCurrentOpportunities": 0
+    },
+    {
+      "sport": "swimming",
+      "independentStatewideExpectedOrganizations": null,
+      "latestSourceAttempts": 0,
+      "rawExtractedRecords": 0,
+      "rawOrganizationShapedRows": 0,
+      "namedSourceCandidates": 0,
+      "canonicalVerifiedPublicOrganizations": 124,
+      "verifiedYouthParticipationVisible": 109,
+      "defaultYouthVisible": 109,
+      "explicitAllVerifiedYouthView": 109,
+      "allCategoryUniqueVisible": 124,
+      "allCategoryPlusExplicitUnclassified": 124,
+      "newReviewedOrganizations": 0,
+      "newReviewedYouthOrganizations": 0,
+      "newNamedPrograms": 0,
+      "newTeams": 0,
+      "newCurrentTeamsPrograms": 0,
+      "newCurrentOpportunities": 0
+    }
+  ],
+  "acceptance": {
+    "methodology": "New six-case source-separated reference sample; no organization from either previous benchmark set or scoped recovery review list. Selected from independent publisher research before implementation/acquisition. Same analyst; no external blind audit. Blocked references remain in denominator and are not replaced.",
+    "sourceBudget": 36,
+    "actualAttempts": 36,
+    "retrieved": 26,
+    "failed": 10,
+    "sourceScopeComplete": 0,
+    "latestRunIds": [
+      "602f2ec0-340a-4a07-9a5e-cbe95d93adde",
+      "5cc43747-8eda-400c-891c-76cf642a59db",
+      "9a5506ba-7689-40b5-9dd2-ad731e396274",
+      "e925901c-9e6e-4d01-9b5c-c2dc369b868a",
+      "53daa2ad-7cd7-4772-92d8-c15dc48908a1",
+      "0736775e-00c7-44c6-8498-3249df981730"
+    ],
+    "acquisitionSha256": "7c15cde6c6316658b3b9198ab12caee3505ed3fa2c7b3af9a2e4aa4322cecb7b",
+    "identityRecall": {
+      "numerator": 0,
+      "denominator": 6,
+      "rate": 0
+    },
+    "verifiedYouthRecall": {
+      "numerator": 0,
+      "denominator": 6,
+      "rate": 0
+    },
+    "classificationAccuracy": null,
+    "classificationAccuracyReason": "No independently qualified fresh-sample classifications; accuracy is undefined, not 100%.",
+    "evidenceSufficiency": {
+      "numerator": 0,
+      "denominator": 6
+    },
+    "freshSampleConsumerVisible": 0,
+    "eligibleConsumerVisibility": null,
+    "fullPoolPrecision": null,
+    "fullPoolPrecisionReason": "Raw extraction pool is not independently adjudicated; headings, national clubs and navigation remain candidates, never verified organizations.",
+    "statewideRecall": null,
+    "acceptancePassed": false,
+    "cohort": [
+      {
+        "name": "Highlands Ranch Metro District",
+        "sport": "lacrosse",
+        "designation": "community",
+        "url": "https://www.highlandsranch.org/recreation/youth-programs/lacrosse",
+        "host": "highlandsranch.org",
+        "basis": "Official district youth lacrosse page: boys and girls introductory program; Colorado district",
+        "extractedIdentityFound": false,
+        "matchedRecords": [],
+        "organizationVerified": false,
+        "youthParticipationVerified": false,
+        "currentTeamsPrograms": 0,
+        "currentOpportunities": 0,
+        "classificationCorrect": null,
+        "consumerVisible": false,
+        "referenceCheck": {
+          "name": "Highlands Ranch Metro District",
+          "url": "https://www.highlandsranch.org/recreation/youth-programs/lacrosse",
+          "attemptedAt": "2026-11-10T17:27:47.073Z",
+          "status": "failed",
+          "code": "ROBOTS_UNAVAILABLE",
+          "message": "Robots could not be verified (HTTP 403)"
+        },
+        "reason": "No matching named identity or official-publisher record within the frozen 36-source traversal. Reference-only access does not count as discovery.",
+        "nextAction": "Request permitted owner/member export or review a legitimately discovered accessible association/municipal publication. Keep access failure and identity in review."
+      },
+      {
+        "name": "City of Aurora",
+        "sport": "lacrosse",
+        "designation": "community",
+        "url": "https://www.auroragov.org/things_to_do/recreation___sports_programs/youth_sports/lacrosse",
+        "host": "auroragov.org",
+        "basis": "Official municipal sports page: spring/fall lacrosse ages 6–14; organization is the city provider, not a club named Lacrosse",
+        "extractedIdentityFound": false,
+        "matchedRecords": [],
+        "organizationVerified": false,
+        "youthParticipationVerified": false,
+        "currentTeamsPrograms": 0,
+        "currentOpportunities": 0,
+        "classificationCorrect": null,
+        "consumerVisible": false,
+        "referenceCheck": {
+          "name": "City of Aurora",
+          "url": "https://www.auroragov.org/things_to_do/recreation___sports_programs/youth_sports/lacrosse",
+          "attemptedAt": "2026-11-10T17:27:49.288Z",
+          "status": "failed",
+          "code": "ROBOTS_UNAVAILABLE",
+          "message": "Robots could not be verified (HTTP 301)"
+        },
+        "reason": "No matching named identity or official-publisher record within the frozen 36-source traversal. Reference-only access does not count as discovery.",
+        "nextAction": "Request permitted owner/member export or review a legitimately discovered accessible association/municipal publication. Keep access failure and identity in review."
+      },
+      {
+        "name": "10th Mountain Lacrosse",
+        "sport": "lacrosse",
+        "designation": "youth",
+        "url": "https://www.10thmtnlax.com/",
+        "host": "10thmtnlax.com",
+        "basis": "Official publisher describes a nonprofit youth organization in Colorado mountain communities; prior inaccessible source retained as a hard reference case",
+        "extractedIdentityFound": false,
+        "matchedRecords": [],
+        "organizationVerified": false,
+        "youthParticipationVerified": false,
+        "currentTeamsPrograms": 0,
+        "currentOpportunities": 0,
+        "classificationCorrect": null,
+        "consumerVisible": false,
+        "referenceCheck": {
+          "name": "10th Mountain Lacrosse",
+          "url": "https://www.10thmtnlax.com/",
+          "attemptedAt": "2026-11-10T17:27:50.008Z",
+          "status": "failed",
+          "code": "HTTP_403",
+          "message": "Public source returned HTTP 403"
+        },
+        "reason": "No matching named identity or official-publisher record within the frozen 36-source traversal. Reference-only access does not count as discovery.",
+        "nextAction": "Request permitted owner/member export or review a legitimately discovered accessible association/municipal publication. Keep access failure and identity in review."
+      },
+      {
+        "name": "Colorado Nationals Volleyball Club",
+        "sport": "volleyball",
+        "designation": "youth",
+        "url": "https://coloradonationalsvolleyball.sportngin.com/",
+        "host": "coloradonationalsvolleyball.sportngin.com",
+        "basis": "Official club publisher and RMR listed club identity; youth program opportunities, 2026–27 season text is not proof of open registration",
+        "extractedIdentityFound": false,
+        "matchedRecords": [],
+        "organizationVerified": false,
+        "youthParticipationVerified": false,
+        "currentTeamsPrograms": 0,
+        "currentOpportunities": 0,
+        "classificationCorrect": null,
+        "consumerVisible": false,
+        "referenceCheck": {
+          "name": "Colorado Nationals Volleyball Club",
+          "url": "https://coloradonationalsvolleyball.sportngin.com/",
+          "attemptedAt": "2026-11-10T17:27:52.417Z",
+          "status": "failed",
+          "code": "HTTP_403",
+          "message": "Public source returned HTTP 403"
+        },
+        "reason": "No matching named identity or official-publisher record within the frozen 36-source traversal. Reference-only access does not count as discovery.",
+        "nextAction": "Request permitted owner/member export or review a legitimately discovered accessible association/municipal publication. Keep access failure and identity in review."
+      },
+      {
+        "name": "Ark Valley Volleyball",
+        "sport": "volleyball",
+        "designation": "youth",
+        "url": "https://www.arkvalleyvolleyball.com/",
+        "host": "arkvalleyvolleyball.com",
+        "basis": "Official publisher describes youth volleyball serving Chaffee County Colorado; tryout headline alone is not current availability",
+        "extractedIdentityFound": false,
+        "matchedRecords": [],
+        "organizationVerified": false,
+        "youthParticipationVerified": false,
+        "currentTeamsPrograms": 0,
+        "currentOpportunities": 0,
+        "classificationCorrect": null,
+        "consumerVisible": false,
+        "referenceCheck": {
+          "name": "Ark Valley Volleyball",
+          "url": "https://www.arkvalleyvolleyball.com/",
+          "attemptedAt": "2026-11-10T17:27:54.781Z",
+          "status": "failed",
+          "code": "HTTP_403",
+          "message": "Public source returned HTTP 403"
+        },
+        "reason": "No matching named identity or official-publisher record within the frozen 36-source traversal. Reference-only access does not count as discovery.",
+        "nextAction": "Request permitted owner/member export or review a legitimately discovered accessible association/municipal publication. Keep access failure and identity in review."
+      },
+      {
+        "name": "Colorado Valkyrie Volleyball",
+        "sport": "volleyball",
+        "designation": "youth",
+        "url": "https://coloradovalkyrievolleyball.com/services",
+        "host": "coloradovalkyrievolleyball.com",
+        "basis": "Official club season information and RMR member reference; Aurora/east practice area; current dates require independent review",
+        "extractedIdentityFound": false,
+        "matchedRecords": [],
+        "organizationVerified": false,
+        "youthParticipationVerified": false,
+        "currentTeamsPrograms": 0,
+        "currentOpportunities": 0,
+        "classificationCorrect": null,
+        "consumerVisible": false,
+        "referenceCheck": {
+          "name": "Colorado Valkyrie Volleyball",
+          "url": "https://coloradovalkyrievolleyball.com/services",
+          "attemptedAt": "2026-11-10T17:27:57.185Z",
+          "status": "retrieved",
+          "bodySha256": "83f3f343536b3b9a71617df2104f47348747c4915af37318b881d791afd9a334",
+          "title": "Club Season 26-27' — Colorado Valkyrie Volleyball",
+          "retrievedAt": "2026-11-10T17:27:59.814Z"
+        },
+        "reason": "No matching named identity or official-publisher record within the frozen 36-source traversal. Reference-only access does not count as discovery.",
+        "nextAction": "An accessible reference exists, but generic discovery did not reach it. Review governing/member link paths; do not seed benchmark URLs into the measured run."
+      }
+    ],
+    "bySport": [
+      {
+        "sport": "lacrosse",
+        "expected": 3,
+        "identified": 0,
+        "organizationVerified": 0,
+        "youthVerified": 0,
+        "visible": 0
+      },
+      {
+        "sport": "volleyball",
+        "expected": 3,
+        "identified": 0,
+        "organizationVerified": 0,
+        "youthVerified": 0,
+        "visible": 0
+      }
+    ]
+  },
+  "newListings": [
+    {
+      "id": "ap-org-4333545b528fbd218522",
+      "name": "City of Colorado Springs",
+      "sport": "lacrosse",
+      "designation": "community",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-10",
+      "evidence": [
+        {
+          "id": "claim-50f91f604b26f0b898a3",
+          "url": "https://coloradosprings.gov/parks/page/colorado-springs-youth-lacrosse",
+          "sourceId": "Reviewed City of Colorado Springs publication",
+          "title": "Reviewed City of Colorado Springs publication",
+          "fetchedAt": "2026-11-10T15:56:50.102Z",
+          "bodySha256": "94a950a33bec37079a659a4fb154fe343b597653a474e80623bd59a04b6d8672",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Colorado Springs Youth Lacrosse | City of Colorado Springs"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-2f65b3ff1b13009b6b85",
+          "url": "https://coloradosprings.gov/parks/page/colorado-springs-youth-lacrosse",
+          "sourceId": "Reviewed City of Colorado Springs publication",
+          "title": "Reviewed City of Colorado Springs publication",
+          "fetchedAt": "2026-11-10T15:56:50.102Z",
+          "bodySha256": "94a950a33bec37079a659a4fb154fe343b597653a474e80623bd59a04b6d8672",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "Colorado Springs"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-7550d5ce20ae05531aa1",
+          "url": "https://coloradosprings.gov/parks/page/colorado-springs-youth-lacrosse",
+          "sourceId": "Reviewed City of Colorado Springs publication",
+          "title": "Reviewed City of Colorado Springs publication",
+          "fetchedAt": "2026-11-10T15:56:50.102Z",
+          "bodySha256": "94a950a33bec37079a659a4fb154fe343b597653a474e80623bd59a04b6d8672",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "Youth Lacrosse"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-50f91f604b26f0b898a3",
+          "url": "https://coloradosprings.gov/parks/page/colorado-springs-youth-lacrosse",
+          "sourceId": "Reviewed City of Colorado Springs publication",
+          "title": "Reviewed City of Colorado Springs publication",
+          "fetchedAt": "2026-11-10T15:56:50.102Z",
+          "bodySha256": "94a950a33bec37079a659a4fb154fe343b597653a474e80623bd59a04b6d8672",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Colorado Springs Youth Lacrosse | City of Colorado Springs"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "ap-org-ca058be7acc292f30a6f",
+      "name": "Foothills Pack",
+      "sport": "lacrosse",
+      "designation": "youth",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-10",
+      "evidence": [
+        {
+          "id": "claim-9eae5c1c8be3bbd1a77b",
+          "url": "https://www.foothillspack.com/",
+          "sourceId": "Reviewed Foothills Pack publication",
+          "title": "Reviewed Foothills Pack publication",
+          "fetchedAt": "2026-11-10T15:57:43.598Z",
+          "bodySha256": "f97ecd63d6e40c611b6fec1eb5969d17d7480b90db271faa0839c65d736b8181",
+          "selector": "meta[property=\"og:site_name\"]",
+          "facts": {
+            "publishedValue": "Foothills Pack"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-5135d41dd851e140b6e3",
+          "url": "https://www.foothillspack.com/",
+          "sourceId": "Reviewed Foothills Pack publication",
+          "title": "Reviewed Foothills Pack publication",
+          "fetchedAt": "2026-11-10T15:57:43.598Z",
+          "bodySha256": "f97ecd63d6e40c611b6fec1eb5969d17d7480b90db271faa0839c65d736b8181",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "BOULDER COUNTY, COLORADO"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-303bf0977edc78b94ec2",
+          "url": "https://www.foothillspack.com/",
+          "sourceId": "Reviewed Foothills Pack publication",
+          "title": "Reviewed Foothills Pack publication",
+          "fetchedAt": "2026-11-10T15:57:43.598Z",
+          "bodySha256": "f97ecd63d6e40c611b6fec1eb5969d17d7480b90db271faa0839c65d736b8181",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "YOUTH THROUGH HIGH SCHOOL"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-91732041fc1eb60ea065",
+          "url": "https://www.foothillspack.com/",
+          "sourceId": "Reviewed Foothills Pack publication",
+          "title": "Reviewed Foothills Pack publication",
+          "fetchedAt": "2026-11-10T15:57:43.598Z",
+          "bodySha256": "f97ecd63d6e40c611b6fec1eb5969d17d7480b90db271faa0839c65d736b8181",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Girls Lacrosse Club in Boulder & Denver | Foothills Pack"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "ap-org-b85989eb31200774a9b7",
+      "name": "Prime Volleyball Academy",
+      "sport": "volleyball",
+      "designation": "youth",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [
+        "Youth Programs"
+      ],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-10",
+      "evidence": [
+        {
+          "id": "claim-dec3553ef2d80bcc3c58",
+          "url": "https://www.primevolleyballacademy.com/",
+          "sourceId": "Reviewed Prime Volleyball Academy publication",
+          "title": "Reviewed Prime Volleyball Academy publication",
+          "fetchedAt": "2026-11-10T15:57:58.842Z",
+          "bodySha256": "86eaf53452e6995fc1ea651eae81c31fc43df3f64ad45c523e27fed28f18ca8f",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Prime Volleyball Academy"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-01a46e5fef7292598f55",
+          "url": "https://www.primevolleyballacademy.com/",
+          "sourceId": "Reviewed Prime Volleyball Academy publication",
+          "title": "Reviewed Prime Volleyball Academy publication",
+          "fetchedAt": "2026-11-10T15:57:58.842Z",
+          "bodySha256": "86eaf53452e6995fc1ea651eae81c31fc43df3f64ad45c523e27fed28f18ca8f",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "located in Thornton, CO"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-52215b92e3c379e10c0d",
+          "url": "https://www.primevolleyballacademy.com/",
+          "sourceId": "Reviewed Prime Volleyball Academy publication",
+          "title": "Reviewed Prime Volleyball Academy publication",
+          "fetchedAt": "2026-11-10T15:57:58.842Z",
+          "bodySha256": "86eaf53452e6995fc1ea651eae81c31fc43df3f64ad45c523e27fed28f18ca8f",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "youth training"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-dec3553ef2d80bcc3c58",
+          "url": "https://www.primevolleyballacademy.com/",
+          "sourceId": "Reviewed Prime Volleyball Academy publication",
+          "title": "Reviewed Prime Volleyball Academy publication",
+          "fetchedAt": "2026-11-10T15:57:58.842Z",
+          "bodySha256": "86eaf53452e6995fc1ea651eae81c31fc43df3f64ad45c523e27fed28f18ca8f",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Prime Volleyball Academy"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "ap-org-bb0d6f29c059b5fb8a2d",
+      "name": "Northern Power Lacrosse",
+      "sport": "lacrosse",
+      "designation": "youth",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-10",
+      "evidence": [
+        {
+          "id": "claim-3f632a38702f9ee711ab",
+          "url": "https://northernpowerlax.com/",
+          "sourceId": "Reviewed Northern Power Lacrosse publication",
+          "title": "Reviewed Northern Power Lacrosse publication",
+          "fetchedAt": "2026-11-10T15:57:14.531Z",
+          "bodySha256": "abb6d0bc2fbe5eee86caff1a3a0b7d0f34ee0dbc0c168b3d00f66576e309c1ab",
+          "selector": "meta[property=\"og:site_name\"]",
+          "facts": {
+            "publishedValue": "Northern Power Lacrosse"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-087dcc3cf82fb88292e9",
+          "url": "https://northernpowerlax.com/",
+          "sourceId": "Reviewed Northern Power Lacrosse publication",
+          "title": "Reviewed Northern Power Lacrosse publication",
+          "fetchedAt": "2026-11-10T15:57:14.531Z",
+          "bodySha256": "abb6d0bc2fbe5eee86caff1a3a0b7d0f34ee0dbc0c168b3d00f66576e309c1ab",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "Northern Colorado"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-63fe604fc2a779ed96db",
+          "url": "https://northernpowerlax.com/",
+          "sourceId": "Reviewed Northern Power Lacrosse publication",
+          "title": "Reviewed Northern Power Lacrosse publication",
+          "fetchedAt": "2026-11-10T15:57:14.531Z",
+          "bodySha256": "abb6d0bc2fbe5eee86caff1a3a0b7d0f34ee0dbc0c168b3d00f66576e309c1ab",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > p:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "1st-8th grade"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-3f632a38702f9ee711ab",
+          "url": "https://northernpowerlax.com/",
+          "sourceId": "Reviewed Northern Power Lacrosse publication",
+          "title": "Reviewed Northern Power Lacrosse publication",
+          "fetchedAt": "2026-11-10T15:57:14.531Z",
+          "bodySha256": "abb6d0bc2fbe5eee86caff1a3a0b7d0f34ee0dbc0c168b3d00f66576e309c1ab",
+          "selector": "meta[property=\"og:site_name\"]",
+          "facts": {
+            "publishedValue": "Northern Power Lacrosse"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "ap-org-66037976e1d156ad6d58",
+      "name": "Grand Valley Lacrosse",
+      "sport": "lacrosse",
+      "designation": "youth",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-10",
+      "evidence": [
+        {
+          "id": "claim-bfe241149637d5054783",
+          "url": "https://www.grandvalleylax.com/about/about-us/9321",
+          "sourceId": "Reviewed Grand Valley Lacrosse publication",
+          "title": "Reviewed Grand Valley Lacrosse publication",
+          "fetchedAt": "2026-11-10T15:58:28.420Z",
+          "bodySha256": "e32ae102cc034456bf47e3a8fff66feda054809f1c523568454919e123b9262c",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "About Us | Grand Valley Lacrosse"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-6d356d1bbfcb3ff48bab",
+          "url": "https://www.grandvalleylax.com/about/about-us/9321",
+          "sourceId": "Reviewed Grand Valley Lacrosse publication",
+          "title": "Reviewed Grand Valley Lacrosse publication",
+          "fetchedAt": "2026-11-10T15:58:28.420Z",
+          "bodySha256": "e32ae102cc034456bf47e3a8fff66feda054809f1c523568454919e123b9262c",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(3)",
+          "facts": {
+            "publishedValue": "Western Colorado"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-398ec8b8e9b5511fd731",
+          "url": "https://www.grandvalleylax.com/about/about-us/9321",
+          "sourceId": "Reviewed Grand Valley Lacrosse publication",
+          "title": "Reviewed Grand Valley Lacrosse publication",
+          "fetchedAt": "2026-11-10T15:58:28.420Z",
+          "bodySha256": "e32ae102cc034456bf47e3a8fff66feda054809f1c523568454919e123b9262c",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(3)",
+          "facts": {
+            "publishedValue": "Youth Lacrosse"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-bfe241149637d5054783",
+          "url": "https://www.grandvalleylax.com/about/about-us/9321",
+          "sourceId": "Reviewed Grand Valley Lacrosse publication",
+          "title": "Reviewed Grand Valley Lacrosse publication",
+          "fetchedAt": "2026-11-10T15:58:28.420Z",
+          "bodySha256": "e32ae102cc034456bf47e3a8fff66feda054809f1c523568454919e123b9262c",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "About Us | Grand Valley Lacrosse"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "co-organization-6e899780d09a6602da7f",
+      "name": "Denver Lacrosse Club",
+      "sport": "lacrosse",
+      "designation": "youth",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [
+        "Boys Spring"
+      ],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-10",
+      "evidence": [
+        {
+          "id": "claim-cabd7309f0d0dda294c4",
+          "url": "https://www.denverlacrosse.org/boys-spring",
+          "sourceId": "Reviewed Denver Lacrosse Club publication",
+          "title": "Reviewed Denver Lacrosse Club publication",
+          "fetchedAt": "2026-11-10T15:58:30.870Z",
+          "bodySha256": "21c4a70fe6b5a9d9ab0b421c30630acb64c371c3f0cb87dd4041e831f114227e",
+          "selector": "meta[property=\"og:site_name\"]",
+          "facts": {
+            "publishedValue": "Denver Lacrosse Club"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-5b733b551b911519cc02",
+          "url": "https://www.denverlacrosse.org/boys-spring",
+          "sourceId": "Reviewed Denver Lacrosse Club publication",
+          "title": "Reviewed Denver Lacrosse Club publication",
+          "fetchedAt": "2026-11-10T15:58:30.870Z",
+          "bodySha256": "21c4a70fe6b5a9d9ab0b421c30630acb64c371c3f0cb87dd4041e831f114227e",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > footer:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "Denver, CO"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-50360269a2082c74b924",
+          "url": "https://www.denverlacrosse.org/boys-spring",
+          "sourceId": "Reviewed Denver Lacrosse Club publication",
+          "title": "Reviewed Denver Lacrosse Club publication",
+          "fetchedAt": "2026-11-10T15:58:30.870Z",
+          "bodySha256": "21c4a70fe6b5a9d9ab0b421c30630acb64c371c3f0cb87dd4041e831f114227e",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "2nd - 8th grade"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-cabd7309f0d0dda294c4",
+          "url": "https://www.denverlacrosse.org/boys-spring",
+          "sourceId": "Reviewed Denver Lacrosse Club publication",
+          "title": "Reviewed Denver Lacrosse Club publication",
+          "fetchedAt": "2026-11-10T15:58:30.870Z",
+          "bodySha256": "21c4a70fe6b5a9d9ab0b421c30630acb64c371c3f0cb87dd4041e831f114227e",
+          "selector": "meta[property=\"og:site_name\"]",
+          "facts": {
+            "publishedValue": "Denver Lacrosse Club"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "ap-org-75dd51522baad95ce1d5",
+      "name": "Ranger Youth Lacrosse",
+      "sport": "lacrosse",
+      "designation": "youth",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-10",
+      "evidence": [
+        {
+          "id": "claim-7cae561799c8c3d46071",
+          "url": "https://www.rangerlacrosse.org/about/about-us/18227",
+          "sourceId": "Reviewed Ranger Youth Lacrosse publication",
+          "title": "Reviewed Ranger Youth Lacrosse publication",
+          "fetchedAt": "2026-11-10T15:53:39.638Z",
+          "bodySha256": "790cbebe2e95c9f0621b538076c689224166b3671d890b34a3d4ef455f69e0f9",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "About Us | Ranger Youth Lacrosse"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-983ab93a9780af8c9431",
+          "url": "https://www.rangerlacrosse.org/about/about-us/18227",
+          "sourceId": "Reviewed Ranger Youth Lacrosse publication",
+          "title": "Reviewed Ranger Youth Lacrosse publication",
+          "fetchedAt": "2026-11-10T15:53:39.638Z",
+          "bodySha256": "790cbebe2e95c9f0621b538076c689224166b3671d890b34a3d4ef455f69e0f9",
+          "selector": "p:public-block-3",
+          "facts": {
+            "publishedValue": "Northern Colorado Springs"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-3b22220da8c91bd9030b",
+          "url": "https://www.rangerlacrosse.org/about/about-us/18227",
+          "sourceId": "Reviewed Ranger Youth Lacrosse publication",
+          "title": "Reviewed Ranger Youth Lacrosse publication",
+          "fetchedAt": "2026-11-10T15:53:39.638Z",
+          "bodySha256": "790cbebe2e95c9f0621b538076c689224166b3671d890b34a3d4ef455f69e0f9",
+          "selector": "p:public-block-3",
+          "facts": {
+            "publishedValue": "Youth Lacrosse"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-7cae561799c8c3d46071",
+          "url": "https://www.rangerlacrosse.org/about/about-us/18227",
+          "sourceId": "Reviewed Ranger Youth Lacrosse publication",
+          "title": "Reviewed Ranger Youth Lacrosse publication",
+          "fetchedAt": "2026-11-10T15:53:39.638Z",
+          "bodySha256": "790cbebe2e95c9f0621b538076c689224166b3671d890b34a3d4ef455f69e0f9",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "About Us | Ranger Youth Lacrosse"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "ap-org-993acb251e73236da637",
+      "name": "Jets Lacrosse Club",
+      "sport": "lacrosse",
+      "designation": "youth",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-10",
+      "evidence": [
+        {
+          "id": "claim-f45e405a1b7caf02a637",
+          "url": "https://www.jetslacrosse.com/",
+          "sourceId": "Reviewed Jets Lacrosse Club publication",
+          "title": "Reviewed Jets Lacrosse Club publication",
+          "fetchedAt": "2026-11-10T15:57:21.498Z",
+          "bodySha256": "f16782a12a59e66e7eeeffb664cc08bb0503f5f8d3e2337cba60c8616a713196",
+          "selector": "meta[property=\"og:site_name\"]",
+          "facts": {
+            "publishedValue": "Jets Lacrosse Club"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-126b377aa1baf401765d",
+          "url": "https://www.jetslacrosse.com/",
+          "sourceId": "Reviewed Jets Lacrosse Club publication",
+          "title": "Reviewed Jets Lacrosse Club publication",
+          "fetchedAt": "2026-11-10T15:57:21.498Z",
+          "bodySha256": "f16782a12a59e66e7eeeffb664cc08bb0503f5f8d3e2337cba60c8616a713196",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "organization in Denver, CO"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-0fcccde3e7ef06fac286",
+          "url": "https://www.jetslacrosse.com/",
+          "sourceId": "Reviewed Jets Lacrosse Club publication",
+          "title": "Reviewed Jets Lacrosse Club publication",
+          "fetchedAt": "2026-11-10T15:57:21.498Z",
+          "bodySha256": "f16782a12a59e66e7eeeffb664cc08bb0503f5f8d3e2337cba60c8616a713196",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > article:nth-of-type(1) > section:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(8)",
+          "facts": {
+            "publishedValue": "1st-4th grade"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-f45e405a1b7caf02a637",
+          "url": "https://www.jetslacrosse.com/",
+          "sourceId": "Reviewed Jets Lacrosse Club publication",
+          "title": "Reviewed Jets Lacrosse Club publication",
+          "fetchedAt": "2026-11-10T15:57:21.498Z",
+          "bodySha256": "f16782a12a59e66e7eeeffb664cc08bb0503f5f8d3e2337cba60c8616a713196",
+          "selector": "meta[property=\"og:site_name\"]",
+          "facts": {
+            "publishedValue": "Jets Lacrosse Club"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "ap-org-9897e9863dd82b75ac18",
+      "name": "Boulder Valley Lacrosse",
+      "sport": "lacrosse",
+      "designation": "youth",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [
+        "SPRING LEAGUE"
+      ],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-10",
+      "evidence": [
+        {
+          "id": "claim-18fdf1791f1a5f8a99c2",
+          "url": "https://www.boulderlacrosse.org/",
+          "sourceId": "Reviewed Boulder Valley Lacrosse publication",
+          "title": "Reviewed Boulder Valley Lacrosse publication",
+          "fetchedAt": "2026-11-10T16:02:20.205Z",
+          "bodySha256": "28d41b3e7f8bee7731bc05d2421779ab44430efc74debce1d497442c271e2276",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Boulder Valley Lacrosse"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-c383f5468979e17224fb",
+          "url": "https://www.boulderlacrosse.org/",
+          "sourceId": "Reviewed Boulder Valley Lacrosse publication",
+          "title": "Reviewed Boulder Valley Lacrosse publication",
+          "fetchedAt": "2026-11-10T16:02:20.205Z",
+          "bodySha256": "28d41b3e7f8bee7731bc05d2421779ab44430efc74debce1d497442c271e2276",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(2)",
+          "facts": {
+            "publishedValue": "Lafayette, CO 80026"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-866b9034192dad00150c",
+          "url": "https://www.boulderlacrosse.org/program/spring-league/6518",
+          "sourceId": "Reviewed Boulder Valley Lacrosse publication",
+          "title": "Reviewed Boulder Valley Lacrosse publication",
+          "fetchedAt": "2026-11-10T15:54:04.493Z",
+          "bodySha256": "0e1719fa347e8b6dd0ade56f8ac77114be41e573fd4d8ff579d64c5bc69bb022",
+          "selector": "p:public-block-6",
+          "facts": {
+            "publishedValue": "1st-3rd grade"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-18fdf1791f1a5f8a99c2",
+          "url": "https://www.boulderlacrosse.org/",
+          "sourceId": "Reviewed Boulder Valley Lacrosse publication",
+          "title": "Reviewed Boulder Valley Lacrosse publication",
+          "fetchedAt": "2026-11-10T16:02:20.205Z",
+          "bodySha256": "28d41b3e7f8bee7731bc05d2421779ab44430efc74debce1d497442c271e2276",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Boulder Valley Lacrosse"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "ap-org-1c0ba0509df959c4ba47",
+      "name": "Colorado Boom Volleyball Club",
+      "sport": "volleyball",
+      "designation": "youth",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-10",
+      "evidence": [
+        {
+          "id": "claim-d244aaf9dc6d0db218ec",
+          "url": "https://coloradoboom.com/",
+          "sourceId": "Reviewed Colorado Boom Volleyball Club publication",
+          "title": "Reviewed Colorado Boom Volleyball Club publication",
+          "fetchedAt": "2026-11-10T15:58:01.100Z",
+          "bodySha256": "f7d404f8ee875f5e4e60b9588bef2352a4e5878a58fe5e6b5d464b984743c4f5",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Colorado Boom Volleyball Club | Where Potential Booms, Aurora, CO"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-d244aaf9dc6d0db218ec",
+          "url": "https://coloradoboom.com/",
+          "sourceId": "Reviewed Colorado Boom Volleyball Club publication",
+          "title": "Reviewed Colorado Boom Volleyball Club publication",
+          "fetchedAt": "2026-11-10T15:58:01.100Z",
+          "bodySha256": "f7d404f8ee875f5e4e60b9588bef2352a4e5878a58fe5e6b5d464b984743c4f5",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Colorado Boom Volleyball Club | Where Potential Booms, Aurora, CO"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-71b0ec9fe65e509c42ca",
+          "url": "https://coloradoboom.com/",
+          "sourceId": "Reviewed Colorado Boom Volleyball Club publication",
+          "title": "Reviewed Colorado Boom Volleyball Club publication",
+          "fetchedAt": "2026-11-10T15:58:01.100Z",
+          "bodySha256": "f7d404f8ee875f5e4e60b9588bef2352a4e5878a58fe5e6b5d464b984743c4f5",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "Youth Volleyball"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-d244aaf9dc6d0db218ec",
+          "url": "https://coloradoboom.com/",
+          "sourceId": "Reviewed Colorado Boom Volleyball Club publication",
+          "title": "Reviewed Colorado Boom Volleyball Club publication",
+          "fetchedAt": "2026-11-10T15:58:01.100Z",
+          "bodySha256": "f7d404f8ee875f5e4e60b9588bef2352a4e5878a58fe5e6b5d464b984743c4f5",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Colorado Boom Volleyball Club | Where Potential Booms, Aurora, CO"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "ap-org-7dd1f60c52ec1a0416ae",
+      "name": "The EDGE Volleyball Club",
+      "sport": "volleyball",
+      "designation": "youth",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [
+        "Developmental Volleyball Program"
+      ],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-10",
+      "evidence": [
+        {
+          "id": "claim-13c0ca7c08482374002a",
+          "url": "https://www.theedgevc.com/developmental",
+          "sourceId": "Reviewed The EDGE Volleyball Club publication",
+          "title": "Reviewed The EDGE Volleyball Club publication",
+          "fetchedAt": "2026-11-10T15:58:05.129Z",
+          "bodySha256": "a906a6580a0ee1f6b7a85621ed17fed2673d08c0b2fac5f03ec3b19a5f9c95ac",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "The EDGE Volleyball Club, Littleton, CO - Developmental Volleyball Program"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-1ba043c2c65634cf72f6",
+          "url": "https://www.theedgevc.com/developmental",
+          "sourceId": "Reviewed The EDGE Volleyball Club publication",
+          "title": "Reviewed The EDGE Volleyball Club publication",
+          "fetchedAt": "2026-11-10T15:58:05.129Z",
+          "bodySha256": "a906a6580a0ee1f6b7a85621ed17fed2673d08c0b2fac5f03ec3b19a5f9c95ac",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "Canyon Rd Littleton, CO 80128"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-5ca84a37ede76d5b8267",
+          "url": "https://www.theedgevc.com/developmental",
+          "sourceId": "Reviewed The EDGE Volleyball Club publication",
+          "title": "Reviewed The EDGE Volleyball Club publication",
+          "fetchedAt": "2026-11-10T15:58:05.129Z",
+          "bodySha256": "a906a6580a0ee1f6b7a85621ed17fed2673d08c0b2fac5f03ec3b19a5f9c95ac",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "ages 11-14"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-13c0ca7c08482374002a",
+          "url": "https://www.theedgevc.com/developmental",
+          "sourceId": "Reviewed The EDGE Volleyball Club publication",
+          "title": "Reviewed The EDGE Volleyball Club publication",
+          "fetchedAt": "2026-11-10T15:58:05.129Z",
+          "bodySha256": "a906a6580a0ee1f6b7a85621ed17fed2673d08c0b2fac5f03ec3b19a5f9c95ac",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "The EDGE Volleyball Club, Littleton, CO - Developmental Volleyball Program"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "ap-org-dd11a99235fb55d6411b",
+      "name": "VC Denver",
+      "sport": "volleyball",
+      "designation": "youth",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [
+        "Youth Volleyball Programs"
+      ],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-10",
+      "evidence": [
+        {
+          "id": "claim-77c2561c07ce9ef1b51c",
+          "url": "https://www.vcdenver.org/youth-program",
+          "sourceId": "Reviewed VC Denver publication",
+          "title": "Reviewed VC Denver publication",
+          "fetchedAt": "2026-11-10T15:57:49.397Z",
+          "bodySha256": "1a36d963a8258f566eda67cae40d3beea922e4aae980bfb6a8f82888faf8e085",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Youth Volleyball Programs | VC Denver | Denver, CO"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-77c2561c07ce9ef1b51c",
+          "url": "https://www.vcdenver.org/youth-program",
+          "sourceId": "Reviewed VC Denver publication",
+          "title": "Reviewed VC Denver publication",
+          "fetchedAt": "2026-11-10T15:57:49.397Z",
+          "bodySha256": "1a36d963a8258f566eda67cae40d3beea922e4aae980bfb6a8f82888faf8e085",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Youth Volleyball Programs | VC Denver | Denver, CO"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-38c1efdda778d7250c8a",
+          "url": "https://www.vcdenver.org/youth-program",
+          "sourceId": "Reviewed VC Denver publication",
+          "title": "Reviewed VC Denver publication",
+          "fetchedAt": "2026-11-10T15:57:49.397Z",
+          "bodySha256": "1a36d963a8258f566eda67cae40d3beea922e4aae980bfb6a8f82888faf8e085",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "Youth Volleyball"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-77c2561c07ce9ef1b51c",
+          "url": "https://www.vcdenver.org/youth-program",
+          "sourceId": "Reviewed VC Denver publication",
+          "title": "Reviewed VC Denver publication",
+          "fetchedAt": "2026-11-10T15:57:49.397Z",
+          "bodySha256": "1a36d963a8258f566eda67cae40d3beea922e4aae980bfb6a8f82888faf8e085",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Youth Volleyball Programs | VC Denver | Denver, CO"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "ap-org-2c2483e8aa906bf1167c",
+      "name": "Rise Volleyball Club",
+      "sport": "volleyball",
+      "designation": "youth",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-10",
+      "evidence": [
+        {
+          "id": "claim-5c0e05f78f08e8a00ffd",
+          "url": "https://www.risevbcolorado.com/",
+          "sourceId": "Reviewed Rise Volleyball Club publication",
+          "title": "Reviewed Rise Volleyball Club publication",
+          "fetchedAt": "2026-11-10T15:58:12.093Z",
+          "bodySha256": "ab4b7a001ab728f01a84439c61d91ff746a50b5ae7dedffb99b68c161afccc20",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Rise Volleyball Club"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-ac35ac5ab7dc0d599875",
+          "url": "https://www.risevbcolorado.com/",
+          "sourceId": "Reviewed Rise Volleyball Club publication",
+          "title": "Reviewed Rise Volleyball Club publication",
+          "fetchedAt": "2026-11-10T15:58:12.093Z",
+          "bodySha256": "ab4b7a001ab728f01a84439c61d91ff746a50b5ae7dedffb99b68c161afccc20",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "facts": {
+            "publishedValue": "Littleton, CO"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-3b8dbae261ee040d2c6e",
+          "url": "https://www.risevbcolorado.com/program/8u-13u-friday-nights/11215",
+          "sourceId": "Reviewed Rise Volleyball Club publication",
+          "title": "Reviewed Rise Volleyball Club publication",
+          "fetchedAt": "2026-11-10T15:54:34.848Z",
+          "bodySha256": "9b101ff6709a225511553453e797c2ca57da73ac4f5e99f1e97945c85cced883",
+          "selector": "p:public-block-4",
+          "facts": {
+            "publishedValue": "youth program"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-5c0e05f78f08e8a00ffd",
+          "url": "https://www.risevbcolorado.com/",
+          "sourceId": "Reviewed Rise Volleyball Club publication",
+          "title": "Reviewed Rise Volleyball Club publication",
+          "fetchedAt": "2026-11-10T15:58:12.093Z",
+          "bodySha256": "ab4b7a001ab728f01a84439c61d91ff746a50b5ae7dedffb99b68c161afccc20",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Rise Volleyball Club"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "ap-org-c8399f3514a2a818e4a5",
+      "name": "RoughRiders Lacrosse",
+      "sport": "lacrosse",
+      "designation": "youth",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-09",
+      "evidence": [
+        {
+          "id": "public-18e0bb4a71e83e8dbd126064",
+          "url": "https://synergysportsoperations.com/our-brands/",
+          "sourceId": "Reviewed RoughRiders Lacrosse publication",
+          "title": "Reviewed RoughRiders Lacrosse publication",
+          "fetchedAt": "2026-11-09T21:38:48.914Z",
+          "bodySha256": "8f54144ef3a182cdd53575dd1776d3fea3a93cb7116997fefc117bf7cac65e26",
+          "selector": "h3",
+          "facts": {
+            "publishedValue": "RoughRiders Lacrosse"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "public-7d4b8cc674d694e521d9368f",
+          "url": "https://synergysportsoperations.com/our-brands/",
+          "sourceId": "Reviewed RoughRiders Lacrosse publication",
+          "title": "Reviewed RoughRiders Lacrosse publication",
+          "fetchedAt": "2026-11-09T21:38:48.914Z",
+          "bodySha256": "8f54144ef3a182cdd53575dd1776d3fea3a93cb7116997fefc117bf7cac65e26",
+          "selector": "h3",
+          "facts": {
+            "publishedValue": "RoughRiders Lacrosse Youth Lacrosse • Superior, CO View Brand +"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "public-7d4b8cc674d694e521d9368f",
+          "url": "https://synergysportsoperations.com/our-brands/",
+          "sourceId": "Reviewed RoughRiders Lacrosse publication",
+          "title": "Reviewed RoughRiders Lacrosse publication",
+          "fetchedAt": "2026-11-09T21:38:48.914Z",
+          "bodySha256": "8f54144ef3a182cdd53575dd1776d3fea3a93cb7116997fefc117bf7cac65e26",
+          "selector": "h3",
+          "facts": {
+            "publishedValue": "RoughRiders Lacrosse Youth Lacrosse • Superior, CO View Brand +"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "public-7d4b8cc674d694e521d9368f",
+          "url": "https://synergysportsoperations.com/our-brands/",
+          "sourceId": "Reviewed RoughRiders Lacrosse publication",
+          "title": "Reviewed RoughRiders Lacrosse publication",
+          "fetchedAt": "2026-11-09T21:38:48.914Z",
+          "bodySha256": "8f54144ef3a182cdd53575dd1776d3fea3a93cb7116997fefc117bf7cac65e26",
+          "selector": "h3",
+          "facts": {
+            "publishedValue": "RoughRiders Lacrosse Youth Lacrosse • Superior, CO View Brand +"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "ap-org-d18d8c5fe37677d0c433",
+      "name": "Rocky Mountain Rattlers Lacrosse",
+      "sport": "lacrosse",
+      "designation": "youth",
+      "youthParticipationVerified": true,
+      "defaultYouthVisible": true,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-09",
+      "evidence": [
+        {
+          "id": "public-30b8f33022d51a33525850f0",
+          "url": "https://synergysportsoperations.com/our-brands/",
+          "sourceId": "Reviewed Rocky Mountain Rattlers Lacrosse publication",
+          "title": "Reviewed Rocky Mountain Rattlers Lacrosse publication",
+          "fetchedAt": "2026-11-09T21:38:48.914Z",
+          "bodySha256": "8f54144ef3a182cdd53575dd1776d3fea3a93cb7116997fefc117bf7cac65e26",
+          "selector": "h3",
+          "facts": {
+            "publishedValue": "Rocky Mountain Rattlers Lacrosse"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "public-1153c90347f3cdc0535cba06",
+          "url": "https://synergysportsoperations.com/our-brands/",
+          "sourceId": "Reviewed Rocky Mountain Rattlers Lacrosse publication",
+          "title": "Reviewed Rocky Mountain Rattlers Lacrosse publication",
+          "fetchedAt": "2026-11-09T21:38:48.914Z",
+          "bodySha256": "8f54144ef3a182cdd53575dd1776d3fea3a93cb7116997fefc117bf7cac65e26",
+          "selector": "h3",
+          "facts": {
+            "publishedValue": "Rocky Mountain Rattlers Lacrosse Youth Lacrosse • Broomfield / Erie, Co View Brand +"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "public-204795c418dfdd618939b06f",
+          "url": "https://synergysportsoperations.com/our-brands/",
+          "sourceId": "Reviewed Rocky Mountain Rattlers Lacrosse publication",
+          "title": "Reviewed Rocky Mountain Rattlers Lacrosse publication",
+          "fetchedAt": "2026-11-09T21:38:48.914Z",
+          "bodySha256": "8f54144ef3a182cdd53575dd1776d3fea3a93cb7116997fefc117bf7cac65e26",
+          "selector": "h3",
+          "facts": {
+            "publishedValue": "in Rattlers Lacrosse Youth Lacrosse • Broomfield / Erie, Co View Brand +"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "public-1153c90347f3cdc0535cba06",
+          "url": "https://synergysportsoperations.com/our-brands/",
+          "sourceId": "Reviewed Rocky Mountain Rattlers Lacrosse publication",
+          "title": "Reviewed Rocky Mountain Rattlers Lacrosse publication",
+          "fetchedAt": "2026-11-09T21:38:48.914Z",
+          "bodySha256": "8f54144ef3a182cdd53575dd1776d3fea3a93cb7116997fefc117bf7cac65e26",
+          "selector": "h3",
+          "facts": {
+            "publishedValue": "Rocky Mountain Rattlers Lacrosse Youth Lacrosse • Broomfield / Erie, Co View Brand +"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    },
+    {
+      "id": "ap-org-308938e101dfc6374356",
+      "name": "Kings Lacrosse Club",
+      "sport": "lacrosse",
+      "designation": "unclassified",
+      "youthParticipationVerified": false,
+      "defaultYouthVisible": false,
+      "explicitAllVerifiedVisible": true,
+      "namedPrograms": [],
+      "currentTeamsSeasonConfirmed": false,
+      "registrationStatus": "unknown",
+      "reviewedAt": "2026-11-10",
+      "evidence": [
+        {
+          "id": "claim-6205680921d5fd0e289a",
+          "url": "https://kingslacrosseclub.com/",
+          "sourceId": "Reviewed Kings Lacrosse Club publication",
+          "title": "Reviewed Kings Lacrosse Club publication",
+          "fetchedAt": "2026-11-10T17:15:07.148Z",
+          "bodySha256": "88511361ba26c0d01e9822e5853e2875c838e3ab7ff96ce87f884ffd38054163",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Kings Lacrosse Club | Elite Boys Club Lacrosse in Colorado"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-6205680921d5fd0e289a",
+          "url": "https://kingslacrosseclub.com/",
+          "sourceId": "Reviewed Kings Lacrosse Club publication",
+          "title": "Reviewed Kings Lacrosse Club publication",
+          "fetchedAt": "2026-11-10T17:15:07.148Z",
+          "bodySha256": "88511361ba26c0d01e9822e5853e2875c838e3ab7ff96ce87f884ffd38054163",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Kings Lacrosse Club | Elite Boys Club Lacrosse in Colorado"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        },
+        {
+          "id": "claim-6205680921d5fd0e289a",
+          "url": "https://kingslacrosseclub.com/",
+          "sourceId": "Reviewed Kings Lacrosse Club publication",
+          "title": "Reviewed Kings Lacrosse Club publication",
+          "fetchedAt": "2026-11-10T17:15:07.148Z",
+          "bodySha256": "88511361ba26c0d01e9822e5853e2875c838e3ab7ff96ce87f884ffd38054163",
+          "selector": "title",
+          "facts": {
+            "publishedValue": "Kings Lacrosse Club | Elite Boys Club Lacrosse in Colorado"
+          },
+          "scope": "Reviewed public fact; current availability separate"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "https://teamsideline.com/sites/denverlacrosse/schedules",
+      "sport": "lacrosse",
+      "code": "NETWORK_ERROR",
+      "message": "The operation was aborted due to timeout"
+    },
+    {
+      "source": "https://citylaxdenver.org/programs/",
+      "sport": "lacrosse",
+      "code": "ROBOTS_UNAVAILABLE",
+      "message": "Robots could not be verified (HTTP 301)"
+    },
+    {
+      "source": "https://www.rmrvolleyball.org/page/show/6830537-club-directory",
+      "sport": "volleyball",
+      "code": "HTTP_403",
+      "message": "Public source returned HTTP 403"
+    },
+    {
+      "source": "https://www.rmrvolleyball.org/page/show/6830532",
+      "sport": "volleyball",
+      "code": "HTTP_403",
+      "message": "Public source returned HTTP 403"
+    },
+    {
+      "source": "https://www.rmrvolleyball.org/page/show/6830534-for-parents-",
+      "sport": "volleyball",
+      "code": "HTTP_403",
+      "message": "Public source returned HTTP 403"
+    },
+    {
+      "source": "https://www.coloradovolleyball.org/",
+      "sport": "volleyball",
+      "code": "HTTP_403",
+      "message": "Public source returned HTTP 403"
+    },
+    {
+      "source": "https://www.auroragov.org/things_to_do/recreation___sports_programs/youth_sports/lacrosse",
+      "sport": "lacrosse",
+      "code": "ROBOTS_UNAVAILABLE",
+      "message": "Robots could not be verified (HTTP 301)"
+    },
+    {
+      "source": "https://thealliancelacrosseleague.com/partner_teams/bpg-nationals/",
+      "sport": "lacrosse",
+      "code": "HTTP_404",
+      "message": "Public source returned HTTP 404"
+    },
+    {
+      "source": "https://www.teamsideline.com/sites/longmont/schedules",
+      "sport": "lacrosse",
+      "code": "ROBOTS_UNAVAILABLE",
+      "message": "Robots could not be verified (HTTP 302)"
+    },
+    {
+      "source": "https://elevationvball.com/",
+      "sport": "volleyball",
+      "code": "HTTP_403",
+      "message": "Public source returned HTTP 403"
+    }
+  ],
+  "unprocessedFrontier": [
+    {
+      "depth": 1,
+      "count": 237
+    },
+    {
+      "depth": 2,
+      "count": 137
+    }
+  ],
+  "preservation": {
+    "priorRecords": 600,
+    "retainedPriorRecords": 600,
+    "approvedPinsPreserved": true
+  },
+  "liveDiscoveryOperational": false,
+  "schedulerOperational": false,
+  "statewideComplete": false
+}

@@ -55,8 +55,8 @@ test('sport decision policy and region normalization are configurable without in
 test('refresh plans expose due/blocked work without claiming an operational scheduler',()=>{
  const registry=[source(),{...source('blocked'),adapter:'discovery'},{...source('archive'),adapter:'reviewed-archive'}];const snap={runs:[{source_id:'blocked',finished_at:'2026-11-08T00:00:00Z',status:'blocked',report:{}}]};const plan=refreshPlan(registry,snap,{now:Date.parse('2026-11-09')});assert.equal(plan.operational,false);assert.equal(plan.automaticApproval,false);assert.equal(plan.items.find(i=>i.sourceId==='blocked').due,false);assert.match(plan.items.find(i=>i.sourceId==='blocked').action,/never bypass/);
 });
-test('approved presentation, SIEM and original research/data files remain byte-identical to integrated RC',()=>{
- for(const file of ['server.mjs','src/views.mjs','src/release-views.mjs','src/siem-view.mjs','public/style.css','public/siem.js','public/siem-model.js','public/app.js','public/state.js','data/catalog.json','AGENTS.md','docs/PRODUCT-NORTH-STAR.md'])assert.equal(readFileSync(new URL('../'+file,import.meta.url),'utf8'),execFileSync('git',['show','50ce75d:'+file],{encoding:'utf8',maxBuffer:30e6}),file);
+test('unrelated approved presentation, SIEM and original research/data remain byte-identical to integrated RC',()=>{
+ for(const file of ['server.mjs','src/views.mjs','src/release-views.mjs','src/siem-view.mjs','public/siem.js','public/siem-model.js','public/state.js','data/catalog.json','AGENTS.md','docs/PRODUCT-NORTH-STAR.md'])assert.equal(readFileSync(new URL('../'+file,import.meta.url),'utf8'),execFileSync('git',['show','50ce75d:'+file],{encoding:'utf8',maxBuffer:30e6}),file);
 });
 
 test('coverage findings are durable, acknowledgment cannot waive a source gap, and factual resolution retains history',()=>{

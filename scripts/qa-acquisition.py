@@ -46,7 +46,7 @@ class AcquisitionQA(release.ReleaseQA):
         self.page.goto(self.console_url+'/?sport=lacrosse&view=consumerYouthOrganizations')
         self.assertIn('Denver Elite',self.page.locator('#baseline-names').inner_text())
         self.assertIn('Team 180',self.page.locator('#baseline-names').inner_text())
-        self.assertNotIn('Northern Power',self.page.locator('#baseline-names').inner_text())
+        self.assertIn('Northern Power',self.page.locator('#baseline-names').inner_text())
 
     def test_internal_console_phone_tablet_desktop_and_keyboard(self):
         artifacts=base.ARTIFACTS.parent/'acquisition-v2-qa'

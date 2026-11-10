@@ -47,7 +47,8 @@ export function validateParticipation(snapshot,{entities=[],evidence=[],records=
   if(a.reviewStatus!=='verified'||!a.evidenceIds?.length||a.evidenceIds.some(id=>!ev.has(id))||!a.reason)errors.push('UNREVIEWED_TEAM_PARENT:'+a.teamId);
   if(['league-organizer','event-organizer'].includes(byId.get(p.organizationId)?.category)&&(!Array.isArray(a.parentOwnershipEvidence)||!a.parentOwnershipEvidence.length||a.parentOwnershipEvidence.some(id=>!ev.has(id))))errors.push('ORGANIZER_NOT_TEAM_PARENT:'+a.teamId);
  }}
- const classified=new Set([...programs.filter(p=>p.reviewStatus==='verified').map(p=>p.organizationId),...(snapshot.teamAssignments||[]).map(a=>a.teamId)]),queued=new Set((snapshot.exceptions||[]).filter(e=>e.status!=='resolved').map(e=>e.entityId));
+ for(const v of snapshot.organizationVerifications||[]){const org=byId.get(v.organizationId);if(org?.kind!=='organization'||!org.sports?.includes(v.sport)||!v.reviewer||!v.reviewedAt||!['identityEvidenceIds','sportEvidenceIds','geographyEvidenceIds'].every(k=>v[k]?.length&&v[k].every(id=>ev.has(id))))errors.push('UNVERIFIED_ORGANIZATION:'+v.organizationId);}
+ const classified=new Set([...(snapshot.organizationVerifications||[]).map(v=>v.organizationId),...programs.filter(p=>p.reviewStatus==='verified').map(p=>p.organizationId),...(snapshot.teamAssignments||[]).map(a=>a.teamId)]),queued=new Set((snapshot.exceptions||[]).filter(e=>e.status!=='resolved').map(e=>e.entityId));
  for(const e of entities.filter(e=>['organization','team'].includes(e.kind)&&e.reviewStatus==='verified'))if(!classified.has(canonicalID(e.id,snapshot.canonicalLinks))&&!classified.has(e.id)&&!queued.has(e.id))errors.push('SILENTLY_UNCLASSIFIED:'+e.id);
  return {valid:!errors.length,errors:[...new Set(errors)]};
 }

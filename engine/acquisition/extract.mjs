@@ -34,9 +34,9 @@ export function extractAcquisition(response,source){
  }else{
   const generic=/^(?:home|about(?: us)?|welcome|programs?|teams?|contact(?: us)?)$/i;
   const genericTitle=/^(?:home|about(?: us)?|welcome|programs?|teams?|contact(?: us)?|what we do)$/i;
-  const parts=text($('title').text()).split(/\s*[|–]\s*/);const sportName=new RegExp(source.sport==='swimming'?'swim':source.sport,'i');
+  const parts=text(($('head > title').first().text()||$('title').first().text())).split(/\s*[|–]\s*/);const sportName=new RegExp(source.sport==='swimming'?'swim':source.sport,'i');
   let name=source.nameSelector?text($(source.nameSelector).first().text()):parts.find(p=>!genericTitle.test(p)&&sportName.test(p))||parts.find(p=>!genericTitle.test(p))||$('meta[property="og:site_name"]').attr('content');
-  if(!name||name.length>150||!new RegExp(source.sport==='swimming'?'swim':source.sport==='basketball'?'basketball':source.sport,'i').test(content+' '+text($('body').text())+' '+text($('title').text()))){issues.push('LAYOUT_OR_SPORT_EVIDENCE_MISSING');}
+  if(!name||name.length>150||!new RegExp(source.sport==='swimming'?'swim':source.sport==='basketball'?'basketball':source.sport,'i').test(content+' '+text($('body').text())+' '+text(($('head > title').first().text()||$('title').first().text())))){issues.push('LAYOUT_OR_SPORT_EVIDENCE_MISSING');}
   else{push({nativeId:'profile',name,kind:['facility','league','association','program','event','registration'].includes(source.type)?source.type:'organization',url:response.url,publicQualificationEvidence:publicQualificationEvidence($,response)},content);
    for(const h of $('h2,h3').toArray()){const name=text($(h).text());if(!name||name.length>85||!/youth|\b\d{2,4}\b|girls|boys|development|tryouts?|camps?|junior|masters/i.test(name))continue;if(/roster|player profiles/i.test(name))continue;push({nativeId:'section:'+name,name,kind:/tryouts?|registration/i.test(name)?'registration':'program',url:response.url,reportedParent:'profile'},name+' '+text($(h).next('p').text()));}
   }

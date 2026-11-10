@@ -10,7 +10,7 @@ export function datedRange(text){
 export function publicQualificationEvidence($,response){
  const facts=[];const add=(type,value,selector,context)=>{if(!value)return;const fact={type,value,selector,context:safe(context).slice(0,180),url:response.url,bodySha256:response.sha256,retrievedAt:response.fetchedAt};fact.id='claim-'+hash([type,value,selector,response.url,response.sha256]).slice(0,20);if(!facts.some(f=>f.id===fact.id))facts.push(fact);};
  const brand=$('meta[property="og:site_name"]').attr('content');if(brand&&brand.length<140)add('organization-name',safe(brand),'meta[property="og:site_name"]',brand);
- const title=clean($('title').text());if(title&&title.length<180)add('page-title',safe(title),'title',title);
+ const title=clean(($('head > title').first().text()||$('title').first().text()));if(title&&title.length<180)add('page-title',safe(title),'title',title);
  // Explicit address elements may sit outside main content. They are location claims only, not automatic service-area proof.
  const nodes=$('address,[itemprop="address"],main p,main h1,main h2,main h3,main li,article p,article h1,article h2,article h3,body p,body h1,body h2,body h3').toArray();
  for(let i=0;i<nodes.length;i++){const el=nodes[i],t=clean($(el).text());if(t.length<3||t.length>900)continue;const segments=[];let n=$(el);while(n.length&&n[0].tagName){const tag=n[0].tagName,index=n.parent().children(tag).toArray().indexOf(n[0])+1;segments.unshift(tag+':nth-of-type('+Math.max(index,1)+')');n=n.parent();}const selector=segments.join(' > ');

@@ -1,0 +1,8 @@
+{
+  "frozenAt": "2026-11-10T17:03:55.135002+00:00",
+  "hashes": {
+    "protocol.json": "f5703be5a65591eb88f86ede291bed26664170673c372e3337c6aacb5976e216",
+    "withheld.json": "a22e60991b8563e9de17c517a24988823bc3bae7cfa18b07a61d7f5bfaeb178a"
+  },
+  "excludedPriorBenchmarkAndScopedReviewNames": true
+}
