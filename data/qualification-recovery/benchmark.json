@@ -1,0 +1,13 @@
+{
+  "methodology":"Fresh purposive source-adjudicated sample, not the prior 12 holdouts or their development sets. Independently researched publisher pages; same analyst, no external blind reviewer. Frozen before recovery implementation and acquisition. No statewide inference. Blocked publisher pages remain unverifiable for qualification, never replaced by easier examples.",
+  "records":[
+    {"sport":"lacrosse","name":"Denver City Lax","aliases":["Denver City Lacrosse"],"publisherHost":"citylaxdenver.org","url":"https://citylaxdenver.org/programs/","basis":"Publisher programs description: school-age youth league play in Colorado"},
+    {"sport":"lacrosse","name":"Bison Lacrosse Club","aliases":[],"publisherHost":"bisonlaxclub.com","url":"https://www.bisonlaxclub.com/","basis":"Club homepage and Commerce City municipal leagues directory: youth participation in Commerce City/Denver area","independentSource":"https://www.c3gov.com/Parks-Recreation-Golf/Programs-Classes-Services/Leagues"},
+    {"sport":"lacrosse","name":"Grizzlies Girls Lacrosse","aliases":[],"publisherHost":"grizzliesgirlslacrosse.org","url":"https://www.grizzliesgirlslacrosse.org/","basis":"Publisher homepage: Southern Colorado girls program; explicit ages/current season require additional evidence"},
+    {"sport":"lacrosse","name":"Mountain Lacrosse League","aliases":["Mountain Lacrosse"],"publisherHost":"mountainlax.com","url":"https://www.mountainlax.com/content/872/General-Information","basis":"Publisher explicitly describes a youth organization, not merely a competition operator; K–8 teams and Colorado service area"},
+    {"sport":"volleyball","name":"The EDGE Volleyball Club","aliases":["The EDGE"],"publisherHost":"theedgevc.com","url":"https://www.theedgevc.com/developmental","basis":"Publisher developmental program: ages 11–14, Littleton CO publisher location"},
+    {"sport":"volleyball","name":"Colorado Boom Volleyball Club","aliases":["Colorado Boom"],"publisherHost":"coloradoboom.com","url":"https://coloradoboom.com/","basis":"Publisher describes Denver metro youth volleyball, Aurora CO"},
+    {"sport":"volleyball","name":"Alliance Youth Sports Association","aliases":["Alliance YOSA"],"publisherHost":"allianceyosa.sportngin.com","url":"https://allianceyosa.sportngin.com/youthprograms","basis":"Publisher youth programs including Colorado Eagles middle school; registration explicitly not currently available"},
+    {"sport":"volleyball","name":"Colorado Springs Altitude Volleyball Club","aliases":["CSA Volleyball","CSA VBC"],"publisherHost":"csavbc.org","url":"https://www.csavbc.org/page/show/1920794-contact-us","basis":"Publisher age ranges 10–18 and Colorado Springs CO location; private contact data excluded"}
+  ]
+}

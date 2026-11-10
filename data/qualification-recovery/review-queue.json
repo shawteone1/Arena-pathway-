@@ -1,0 +1,3632 @@
+{
+  "notice": "All scoped records remain here for unresolved current-date/registration or identity/classification review; unknown is never treated as false or hidden.",
+  "records": [
+    {
+      "recordId": "acq-025be0933ae693ce93fb92ed",
+      "name": "July 30, 2026",
+      "rawKind": "program",
+      "url": "https://www.primevolleyballacademy.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-04713ec8006280628dee9a93",
+      "name": "Synergy Sports Operations",
+      "rawKind": "organization",
+      "url": "https://synergysportsoperations.com/about-us/",
+      "verifiedOrganization": true,
+      "profileEligible": false,
+      "issues": [
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-048d183d0db151b90b9473e1",
+      "name": "Youth Swimming Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-06018261f75d0872dbcc952a",
+      "name": "Send your request to Denver Soccer Camp.",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-068da37394210a37d9f7433d",
+      "name": "Kings Win 2027 NLF National Championship in Overtime",
+      "rawKind": "program",
+      "url": "https://kingslacrosseclub.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-09ea78aac8968cc054b622cb",
+      "name": "WINTER INDOOR",
+      "rawKind": "organization",
+      "url": "https://www.boulderlacrosse.org/program/winter-indoor/6373",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-0a08e45cb9ac77fdc16c4f83",
+      "name": "FOOTHILLS PACK GIRLS LACROSSE",
+      "rawKind": "program",
+      "url": "https://www.foothillspack.com/about",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-0ae71a22ca9e3669505ef302",
+      "name": "Colorado Boom Volleyball Club",
+      "rawKind": "organization",
+      "url": "https://coloradoboom.com/",
+      "verifiedOrganization": true,
+      "profileEligible": true,
+      "issues": [
+        "Dated current youth offering not proven",
+        "Current registration availability not verified"
+      ]
+    },
+    {
+      "recordId": "acq-0b23d18fed26d0cca6b14d6b",
+      "name": "Pittsburgh: Men's Fall '26",
+      "rawKind": "program",
+      "url": "https://ulax.org/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-0bf5f3249a5821a661839213",
+      "name": "Rocky Mountain Youth League (RYL)",
+      "rawKind": "program",
+      "url": "https://coloradoboom.com/programs.html",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-0caf3866e4667e371389351a",
+      "name": "6:00-7:00 (5th-8th grade)",
+      "rawKind": "program",
+      "url": "https://www.jetslacrosse.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-0da23a41627f0a87af4e757a",
+      "name": "Summer 2027 Kings Tryouts – December 12 & 14",
+      "rawKind": "registration",
+      "url": "https://kingslacrosseclub.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-0db11bb53606c4645381f5d6",
+      "name": "$1000",
+      "rawKind": "program",
+      "url": "https://www.grandvalleylax.com/about/become-a-sponsor/10397",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-0dc09e1ca78846c1a263d178",
+      "name": "18 Purple takes Power 6!",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-0ec92cb71ae9bef9a995fc77",
+      "name": "Boulder Elite",
+      "rawKind": "organization",
+      "url": "https://www.boulderelite.com/",
+      "verifiedOrganization": true,
+      "profileEligible": false,
+      "issues": [
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-0f032aa799c1737f9afb7fb6",
+      "name": "All skills camp",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/program/2026-camps-and-clinics/10747",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-1009c9aedb401acfa0c46122",
+      "name": "Click Here for Grand Junction HS Boys Lacrosse Schedule",
+      "rawKind": "program",
+      "url": "https://www.grandvalleylax.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-114a3c4f3fb858aced5e83c3",
+      "name": "The EDGE Volleyball Club",
+      "rawKind": "organization",
+      "url": "https://www.theedgevc.com/developmental",
+      "verifiedOrganization": true,
+      "profileEligible": true,
+      "issues": [
+        "Dated current youth offering not proven",
+        "Current registration availability not verified"
+      ]
+    },
+    {
+      "recordId": "acq-16b7a039e8ffced05320c3a8",
+      "name": "Boys Fall League",
+      "rawKind": "program",
+      "url": "https://northernpowerlax.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-181cc32905a70d68227bf713",
+      "name": "Rocky Mountain Youth League (RYL)",
+      "rawKind": "program",
+      "url": "https://www.theedgevc.com/ryl",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-1acf99cba0cff4558b3e326a",
+      "name": "Youth Climbing Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-1bfeca423d6e4f5664f0563e",
+      "name": "Rise Volleyball Club est. 2022",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/about/about-us/17080",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-1c9c4ab5e554284ab9a746a9",
+      "name": "Colorado Boom Volleyball Club",
+      "rawKind": "organization",
+      "url": "https://coloradoboom.com/programs.html",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-1cba170872e3c4224acda70a",
+      "name": "Since 2004, Denver Fencing Center has brought the sport of fencing to Coloradans.",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-1d0b018d0766777292f27f00",
+      "name": "Denver Lacrosse Club",
+      "rawKind": "organization",
+      "url": "https://www.denverlacrosse.org/boys-spring",
+      "verifiedOrganization": true,
+      "profileEligible": true,
+      "issues": [
+        "Dated current youth offering not proven",
+        "Current registration availability not verified"
+      ]
+    },
+    {
+      "recordId": "acq-1fced4e4fc2519cf25a74dad",
+      "name": "Click Here for Grand Junction HS Girls Lacrosse Schedule",
+      "rawKind": "program",
+      "url": "https://www.grandvalleylax.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-1ff914bd075357ebc392253d",
+      "name": "Grand Valley Lacrosse",
+      "rawKind": "organization",
+      "url": "https://www.grandvalleylax.com/about/become-a-sponsor/10397",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-2168e5689a381b37c647fb65",
+      "name": "Girls Spring League",
+      "rawKind": "program",
+      "url": "https://northernpowerlax.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-2207be42225d418a2b3d3b73",
+      "name": "Arizona freshman Gigi Whann earns Big 12 Volleyball Starting Seven",
+      "rawKind": "organization",
+      "url": "https://www.azdesertswarm.com/volleyball/85088/arizona-freshman-gigi-whann-earns-big-12-volleyball-starting-seven-honors",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-24c9a7ba39a0f6c503839634",
+      "name": "Next Youth League Registration NOW OPEN",
+      "rawKind": "registration",
+      "url": "https://www.primevolleyballacademy.com/news/next-youth-league-registration-now-open/30263",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-24effac6f565a0c8605fc69d",
+      "name": "Youth Martial Arts Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-252f5b29ed652ce74dfe7098",
+      "name": "2031",
+      "rawKind": "program",
+      "url": "https://www.foothillspack.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-25992e4d150967f8ea9a5871",
+      "name": "Lacrosse training, camps & lessons in Boulder County",
+      "rawKind": "program",
+      "url": "https://www.parentedge.com/find/boulder-county-co/lacrosse",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-2647c5214452a249188c2406",
+      "name": "Prime Volleyball Academy",
+      "rawKind": "organization",
+      "url": "https://www.primevolleyballacademy.com/about/newsletters/179125",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-2662a6672aecda07583661fb",
+      "name": "18 Yellow wins Power 4",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-2781bb74360ccd150df7e812",
+      "name": "Youth Sports Leagues and Camps -",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-294b0234f74d27e46a748656",
+      "name": "City of Colorado Springs",
+      "rawKind": "organization",
+      "url": "https://coloradosprings.gov/parks/page/colorado-springs-youth-lacrosse",
+      "verifiedOrganization": true,
+      "profileEligible": true,
+      "issues": [
+        "Dated current youth offering not proven",
+        "Current registration availability not verified"
+      ]
+    },
+    {
+      "recordId": "acq-2b49f19f1bf4bc678d3e2bfe",
+      "name": "Youth Sailing Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-2c3f31ec32f3a41d5759df51",
+      "name": "Youth Cheerleading Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-2c6525d84cdcbb407f671e08",
+      "name": "southsuburbansports.com",
+      "rawKind": "source-candidate",
+      "url": "https://www.laxsquatch.store/pages/find-a-team",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Unclassified source link; not an imported club/team/program",
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-2e860dd31379f572629cba7a",
+      "name": "2036",
+      "rawKind": "program",
+      "url": "https://www.foothillspack.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-2e9b9fef7f5e462fba219a62",
+      "name": "TRYOUT DETAILS",
+      "rawKind": "registration",
+      "url": "https://kingslacrosseclub.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-300ad43700406e1f95c1282b",
+      "name": "$500",
+      "rawKind": "program",
+      "url": "https://www.grandvalleylax.com/about/become-a-sponsor/10397",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-3053540f09ae16a978020aa5",
+      "name": "South Suburban Parks and Recreation",
+      "rawKind": "organization",
+      "url": "https://www.southsuburbansports.com/youth-lacrosse",
+      "verifiedOrganization": true,
+      "profileEligible": false,
+      "issues": [
+        "Colorado location/service relationship not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-31322c7aad7c55481cddf61e",
+      "name": "Mondays from 5:30-6:30",
+      "rawKind": "program",
+      "url": "https://www.jetslacrosse.com/winter-lax",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-354b72e001721050adf397a3",
+      "name": "Prime Volleyball Academy",
+      "rawKind": "organization",
+      "url": "https://www.primevolleyballacademy.com/news/next-youth-league-registration-now-open/30263",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-35fbaeea7220686d0d13c55e",
+      "name": "Our Lacrosse Program",
+      "rawKind": "organization",
+      "url": "https://www.boulderelite.com/program",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-36a2ce007fc9621e1492800c",
+      "name": "Foothills Pack",
+      "rawKind": "organization",
+      "url": "https://www.foothillspack.com/",
+      "verifiedOrganization": true,
+      "profileEligible": true,
+      "issues": [
+        "Dated current youth offering not proven",
+        "Current registration availability not verified"
+      ]
+    },
+    {
+      "recordId": "acq-382d46614abac9b424d163eb",
+      "name": "YOUTH SPORTS",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-38db1d4d428db9c28adcf5c4",
+      "name": "About BoulderLacrosse.com",
+      "rawKind": "organization",
+      "url": "https://www.boulderlacrosse.com/about/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-3a474aea7b168fc5b40d06d2",
+      "name": "Prime Volleyball Academy",
+      "rawKind": "organization",
+      "url": "https://www.primevolleyballacademy.com/",
+      "verifiedOrganization": true,
+      "profileEligible": true,
+      "issues": [
+        "Dated current youth offering not proven",
+        "Current registration availability not verified"
+      ]
+    },
+    {
+      "recordId": "acq-3cc9a7d2a3e8bc88950fb46f",
+      "name": "June 30, 2026",
+      "rawKind": "program",
+      "url": "https://www.primevolleyballacademy.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-3cd66326b771efb7068a0674",
+      "name": "Northern Power Lacrosse",
+      "rawKind": "organization",
+      "url": "https://northernpowerlax.com/",
+      "verifiedOrganization": true,
+      "profileEligible": true,
+      "issues": [
+        "Dated current youth offering not proven",
+        "Current registration availability not verified"
+      ]
+    },
+    {
+      "recordId": "acq-3d69d0cc1c1d7f5b73b319a8",
+      "name": "2034",
+      "rawKind": "program",
+      "url": "https://www.foothillspack.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-3da53c07ae8a519070f6d499",
+      "name": "18 Yellow | Power Champs",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-3e291bc4dc52957d87b26854",
+      "name": "Grand Valley Lacrosse",
+      "rawKind": "organization",
+      "url": "https://www.grandvalleylax.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-3fddc4b130420cf344c7e3bf",
+      "name": "The Pay-to-Play Model Has Broken Youth SportsSearchCloseSearchClose",
+      "rawKind": "organization",
+      "url": "https://nymag.com/intelligencer/article/youth-sports-private-equity-travel-leagues.html?utm_campaign=feed-part&utm_medium=social_acct&utm_source=rss",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-400ef89cbcec7314752017a8",
+      "name": "Youth Skiing/Boarding Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-40ed33bb42673e118f22ea9e",
+      "name": "2033",
+      "rawKind": "program",
+      "url": "https://www.foothillspack.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-41b11712ef1a969f56c2ff06",
+      "name": "Colorado Youth Lacrosse Association",
+      "rawKind": "organization",
+      "url": "https://www.bisonlaxclub.com/copy-of-team-3",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-41cf7e585e908aecc51240f3",
+      "name": "Youth League Nov/Dec 2026",
+      "rawKind": "program",
+      "url": "https://www.primevolleyballacademy.com/program/youth-programs/22364",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-431fa81060548c34c47c6c5f",
+      "name": "Boston: Women's Fall '26",
+      "rawKind": "program",
+      "url": "https://ulax.org/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-434220c5bc1dd609740a9265",
+      "name": "Prime Volleyball Academy",
+      "rawKind": "organization",
+      "url": "https://www.primevolleyballacademy.com/about/about-us/51245",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-4a6fb8b47fd28ba141f975e4",
+      "name": "25",
+      "rawKind": "program",
+      "url": "https://www.primevolleyballacademy.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-4b0137b6e2506aa8a0a3085c",
+      "name": "Year-Round Equine Classes, Shows & Camps at The Urban Farm!",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-4b49f8e08a67ac69edc51aa4",
+      "name": "How Youth Lacrosse Is Organized",
+      "rawKind": "program",
+      "url": "https://www.boulderlacrosse.com/post/boulder-valley-youth-lacrosse/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-4c6ce001277728dc4cc88569",
+      "name": "Austin: Men's Fall '26",
+      "rawKind": "program",
+      "url": "https://ulax.org/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-4ce8b3c79f0f724ec2e63e0c",
+      "name": "2030",
+      "rawKind": "program",
+      "url": "https://www.foothillspack.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-4e05ac657ba9e0d67067b9f6",
+      "name": "Youth Volleyball Game Schedule",
+      "rawKind": "organization",
+      "url": "https://www.vcdenver.org/youth-program-game-schedule",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-511557e10677f23764fcf5f1",
+      "name": "Skiing and Snowboarding Lessons, Parties, Camps and Open Gym!",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-52683a557b8bc5215f852a62",
+      "name": "SUMMER CAMPS",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-5330faeb6bfa7b5d293468f0",
+      "name": "Youth Tennis Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-54564f4c3f661759215dcc8b",
+      "name": "kingslacrosseclub.com",
+      "rawKind": "source-candidate",
+      "url": "https://www.laxsquatch.store/pages/find-a-team",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Unclassified source link; not an imported club/team/program",
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-55ece392813b32ae4c2d5e69",
+      "name": "Kings Newsletter – 5 Stars, Jake Renschen and 2029 Kings!",
+      "rawKind": "program",
+      "url": "https://kingslacrosseclub.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-578b99165965c3b5e11f05a3",
+      "name": "The EDGE Volleyball Club, Littleton, CO - Rocky Mountain Youth League (RYL)",
+      "rawKind": "organization",
+      "url": "https://www.theedgevc.com/ryl",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-57e51dfea089f3d3647580d4",
+      "name": "Grand Valley Lacrosse",
+      "rawKind": "organization",
+      "url": "https://www.grandvalleylax.com/about/about-us/9321",
+      "verifiedOrganization": true,
+      "profileEligible": true,
+      "issues": [
+        "Dated current youth offering not proven",
+        "Current registration availability not verified"
+      ]
+    },
+    {
+      "recordId": "acq-5951c9ba66abc09189b4ba7d",
+      "name": "The EDGE Volleyball Club Developmental Program Practice Schedule",
+      "rawKind": "organization",
+      "url": "https://www.theedgevc.com/schedules/developmental",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-5987988875bf94997826fbe0",
+      "name": "Boulder Youth Sports Programs",
+      "rawKind": "organization",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-5b6aa4356b9dcc5841a07122",
+      "name": "U11 — Ages 9 to 10 (Third and Fourth Grade)",
+      "rawKind": "program",
+      "url": "https://www.boulderlacrosse.com/post/boulder-valley-youth-lacrosse/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-5b852dba29d729e8353cb43e",
+      "name": "Littleton Youth Sports",
+      "rawKind": "organization",
+      "url": "https://www.littletonyouthsports.org/lacrosse-faqs",
+      "verifiedOrganization": true,
+      "profileEligible": false,
+      "issues": [
+        "Colorado location/service relationship not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-5bc3eba9c65112ba9d7fbae0",
+      "name": "Summer Camp",
+      "rawKind": "program",
+      "url": "https://www.bisonlaxclub.com/summer-camp",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-5cd7389873263043649696cd",
+      "name": "Clicke Here for Fruita Boys HS Lacrosse Schedule",
+      "rawKind": "program",
+      "url": "https://www.grandvalleylax.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-5d7201935a0c03568215833c",
+      "name": "Congrats to our 2026 Fall League Champs - Mystery Shots!",
+      "rawKind": "program",
+      "url": "https://ulax.org/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-610950e9df86b7889eb3be47",
+      "name": "The EDGE Volleyball Club, Littleton, CO - USAV Club Program",
+      "rawKind": "organization",
+      "url": "https://www.theedgevc.com/about",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-66314cda5a330f8887929fb4",
+      "name": "Boulder Soccer Camps, Leagues and Classes",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-66522d888612c70f5b1daa9b",
+      "name": "SPRING LEAGUE",
+      "rawKind": "organization",
+      "url": "https://www.boulderlacrosse.org/program/spring-league/6518",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-675ab1e14a2544a8a5dee7fa",
+      "name": "Prime Volleyball Academy",
+      "rawKind": "organization",
+      "url": "https://www.primevolleyballacademy.com/about/book-a-court/191124",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-67de4183889d10f9abf3cf58",
+      "name": "Boston: Men's Fall '26",
+      "rawKind": "program",
+      "url": "https://ulax.org/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-67fca58810213926f74eceec",
+      "name": "2026 Rise RYL Details",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/program/2026-ryl-season/11219",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-686f8d07bc9dfa262ebe0d19",
+      "name": "Girls Fall Season",
+      "rawKind": "program",
+      "url": "https://northernpowerlax.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-689ac4f5084ac252de576605",
+      "name": "Upcoming Sessions - 2027",
+      "rawKind": "program",
+      "url": "https://www.vcdenver.org/youth-program",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-68e1ec3e6ad238b999e78bd3",
+      "name": "30+",
+      "rawKind": "program",
+      "url": "https://www.primevolleyballacademy.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-69bf6349edd3adf8b0c17017",
+      "name": "ULAX Lacrosse League",
+      "rawKind": "organization",
+      "url": "https://ulax.org/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-6af52ee95d8402432fcea5ab",
+      "name": "Click Here for Fruita Girls HS Lacrosse Schedule",
+      "rawKind": "program",
+      "url": "https://www.grandvalleylax.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-6e93a38d39eca1927c616c92",
+      "name": "YOUTH LEAGUE NOVEMBER-DECEMBER",
+      "rawKind": "program",
+      "url": "https://www.primevolleyballacademy.com/program/youth-programs/22364",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-6ec1e7a52c036dfb2da8bf54",
+      "name": "Youth Lacrosse Leagues",
+      "rawKind": "program",
+      "url": "https://www.southsuburbansports.com/youth-lacrosse",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-6ee33af4e2e80c2ca32f6cb1",
+      "name": "Skill Clinic",
+      "rawKind": "organization",
+      "url": "https://www.primevolleyballacademy.com/program/skills-clinics/14298",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-6eedd8089653af3ab5cf8462",
+      "name": "Winter/Spring Developmental Practice Part 2 (Teams)",
+      "rawKind": "program",
+      "url": "https://www.theedgevc.com/schedules/developmental",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-718818053d6f8c76ba74a3e2",
+      "name": "bclax.leagueapps.com",
+      "rawKind": "source-candidate",
+      "url": "https://www.laxsquatch.store/pages/find-a-team",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Unclassified source link; not an imported club/team/program",
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-72d66a13f70a69a61dd807b9",
+      "name": "$2500",
+      "rawKind": "program",
+      "url": "https://www.grandvalleylax.com/about/become-a-sponsor/10397",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-76342ea351067781075d98c4",
+      "name": "14 Yellow wins Power 2",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-77aad9842f9707b7bf715c77",
+      "name": "Youth Soccer Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-77ad2fbb09ea0ef800e39e2c",
+      "name": "Arapahoe Youth Lacrosse",
+      "rawKind": "program",
+      "url": "https://www.bisonlaxclub.com/copy-of-team-3",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-7a70546a5e43a6b3e0db4dcf",
+      "name": "Youth Golf Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-7b935920a74967260fae7004",
+      "name": "rangerlacrosse.org",
+      "rawKind": "source-candidate",
+      "url": "https://www.laxsquatch.store/pages/find-a-team",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Unclassified source link; not an imported club/team/program",
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-7df31e8d4456f8a7d96e64e6",
+      "name": "Youth Equestrian Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-7e3437c3c5b20330772d568c",
+      "name": "CYL Tryouts",
+      "rawKind": "organization",
+      "url": "https://www.primevolleyballacademy.com/program/youth-programs/22364",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-7ef7e215def64790f9a71e1d",
+      "name": "July 3, 2026",
+      "rawKind": "program",
+      "url": "https://www.primevolleyballacademy.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-7fb0c3a498db11dac5f25276",
+      "name": "Kings Lacrosse Club",
+      "rawKind": "organization",
+      "url": "https://kingslacrosseclub.com/",
+      "verifiedOrganization": true,
+      "profileEligible": false,
+      "issues": [
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-7fff3eb1d50211cfbbc70844",
+      "name": "Aurora Youth Lacrosse",
+      "rawKind": "source-candidate",
+      "url": "https://www.laxsquatch.store/pages/find-a-team",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Unclassified source link; not an imported club/team/program",
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-8146485f19bb1aa822b63e6f",
+      "name": "2025-2026 Club Season",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/program/2026-2027-club-volleyball/6682",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-81668dfae25b285386bd2906",
+      "name": "Littleton, CO. Est. 2022",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-82801bb02f94c8ecf411b6c8",
+      "name": "12 Purple wins Power 4",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-82855e98ce9a45f4b90ec78a",
+      "name": "Boulder Valley Lacrosse",
+      "rawKind": "organization",
+      "url": "https://www.boulderlacrosse.org/",
+      "verifiedOrganization": true,
+      "profileEligible": true,
+      "issues": [
+        "Dated current youth offering not proven",
+        "Current registration availability not verified"
+      ]
+    },
+    {
+      "recordId": "acq-86c6d84a955d8c7e49b5fb58",
+      "name": "Youth Lacrosse in Boulder County, CO — 7 Programs, Rec to Travel (2026) · ParentEdge",
+      "rawKind": "organization",
+      "url": "https://www.parentedge.com/find/boulder-county-co/lacrosse",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-893bb9998fbd7548faa4555f",
+      "name": "Camps & Clinics",
+      "rawKind": "program",
+      "url": "https://coloradoboom.com/programs.html",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-898eb10faa2804e020e51ed2",
+      "name": "FOOTHILLS PACK GIRLS LACROSSE",
+      "rawKind": "program",
+      "url": "https://www.foothillspack.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-89d060d512821ba9914bfc60",
+      "name": "Challenger Sports Programs and Camps!",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-8a7c548b31b13400979aea62",
+      "name": "03",
+      "rawKind": "program",
+      "url": "https://www.foothillspack.com/about",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-8aca60acacdf1304a1e8d2ca",
+      "name": "Rise Volleyball Club",
+      "rawKind": "organization",
+      "url": "https://www.risevbcolorado.com/program/2026-2027-club-volleyball/6682",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-8bbc8bd6234be893e48127d3",
+      "name": "2035",
+      "rawKind": "program",
+      "url": "https://www.foothillspack.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-8c2b57be912f0107be9a3730",
+      "name": "Youth Volleyball Training",
+      "rawKind": "program",
+      "url": "https://coloradoboom.com/programs.html",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-916c0a60f5e59a176d286a45",
+      "name": "Bison Lacrosse Club",
+      "rawKind": "organization",
+      "url": "https://www.bisonlaxclub.com/",
+      "verifiedOrganization": true,
+      "profileEligible": false,
+      "issues": [
+        "Colorado location/service relationship not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-93dc91f9fa56b38b59ef70ed",
+      "name": "August 19, 2026",
+      "rawKind": "program",
+      "url": "https://www.primevolleyballacademy.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-951af84e1a2bfce01736a5b8",
+      "name": "Youth Clinics",
+      "rawKind": "program",
+      "url": "https://ulax.org/youth/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-9530b5ded6c03862dbda4815",
+      "name": "Rise Volleyball Club",
+      "rawKind": "organization",
+      "url": "https://www.risevbcolorado.com/",
+      "verifiedOrganization": true,
+      "profileEligible": true,
+      "issues": [
+        "Dated current youth offering not proven",
+        "Current registration availability not verified"
+      ]
+    },
+    {
+      "recordId": "acq-954559fff9c268631a8ee2e4",
+      "name": "Youth Basketball Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-97660892ec510a539cb3088e",
+      "name": "Winter/Spring Developmental Practice Part 1 (Camp Style)",
+      "rawKind": "program",
+      "url": "https://www.theedgevc.com/schedules/developmental",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-988319efe77eb993e3fb94fa",
+      "name": "Youth Multiple Sports Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-99bc5107726074c8bdf2f1fc",
+      "name": "November 13, 2024",
+      "rawKind": "program",
+      "url": "https://www.primevolleyballacademy.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-9ba469e5a0a1c1271651dc1e",
+      "name": "14 Purple | Power Champs",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-9da31e34ee435e8bcb0e22cf",
+      "name": "A Parent's Guide to Youth Lacrosse · ParentEdge",
+      "rawKind": "organization",
+      "url": "https://www.parentedge.com/guides/lacrosse/parents-guide",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-9e56ffa5a759572073600ee5",
+      "name": "15 Purple - Power 1 Winners!",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-9f67cff3904cc430391c727f",
+      "name": "Youth Football Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-9fe53bbe29d7c12b246cbe7b",
+      "name": "Find The Best Youth Sports Program Now",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-a2e94fe3f671f9a4a5d6b8cc",
+      "name": "RYL Tryouts Details",
+      "rawKind": "registration",
+      "url": "https://www.theedgevc.com/ryl",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-a36d584a4dd60b9557078dd3",
+      "name": "Girls League",
+      "rawKind": "program",
+      "url": "https://coloradoboom.com/programs.html",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-a3d0c4246e9b5eb24302f0bb",
+      "name": "5:00-6:00 (1st-4th grade)",
+      "rawKind": "program",
+      "url": "https://www.jetslacrosse.com/winter-lax",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-a49d01e4a01cf5dd6d149028",
+      "name": "Youth Gymnastics Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-a52c6b4e873da9610b00aa77",
+      "name": "VC Denver",
+      "rawKind": "organization",
+      "url": "https://www.vcdenver.org/youth-program",
+      "verifiedOrganization": true,
+      "profileEligible": true,
+      "issues": [
+        "Dated current youth offering not proven",
+        "Current registration availability not verified"
+      ]
+    },
+    {
+      "recordId": "acq-a653697d01fdf77786b56c70",
+      "name": "Developmental Training",
+      "rawKind": "program",
+      "url": "https://coloradoboom.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-a76cf286258660f69e81f3d4",
+      "name": "Send your request to adidas Tennis Camps.",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-a9e61c78c2c7c5fb5c0c009f",
+      "name": "The EDGE Volleyball Club, Littleton, CO",
+      "rawKind": "organization",
+      "url": "https://www.theedgevc.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-aa43f11cb93397a3bef9c767",
+      "name": "17 Yellow takes Bronze | RMR Showdown",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-abb27f86f4691f1af2ce2627",
+      "name": "Registrations for Youth Clinics and Middle School - Adult Scrimmage Leagues are OPEN",
+      "rawKind": "registration",
+      "url": "https://www.grandvalleylax.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-adab9b30ff7cb0de48af3fd8",
+      "name": "About — Denver Lacrosse Club",
+      "rawKind": "organization",
+      "url": "https://www.denverlacrosse.org/about",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-b25c53a69ec2c6561f6e52d1",
+      "name": "Youth Fencing Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-b2f14f23cc148b4edcb48a90",
+      "name": "Youth Lacrosse Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-b5857dd0ed6e73023ba859ea",
+      "name": "SELECT",
+      "rawKind": "organization",
+      "url": "https://www.boulderlacrosse.org/program/boulder-select/6610",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-b63391acb1ef7a07fa513eab",
+      "name": "2026-2027 Club Season",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/program/2026-2027-club-volleyball/6682",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-b7c72575109f726a12724d46",
+      "name": "Denver Lacrosse Club",
+      "rawKind": "organization",
+      "url": "https://www.denverlacrosse.org/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-b7d38ebaea999c7f820a4d78",
+      "name": "ULAX Lacrosse League - Youth Clinics",
+      "rawKind": "organization",
+      "url": "https://ulax.org/youth/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-b888abc65b567021b9ae6ad5",
+      "name": "$100",
+      "rawKind": "program",
+      "url": "https://www.grandvalleylax.com/about/become-a-sponsor/10397",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-b9d0e657aea22ddbc302d8c7",
+      "name": "2032",
+      "rawKind": "program",
+      "url": "https://www.foothillspack.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-ba4087416667257871d91373",
+      "name": "Send your request to US Sports Camps - Nike Sports Camps.",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-ba9689394d9da4dec31aba56",
+      "name": "U15 / Middle School — Ages 13 to 14 (Seventh and Eighth Grade)",
+      "rawKind": "program",
+      "url": "https://www.boulderlacrosse.com/post/boulder-valley-youth-lacrosse/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-bc6087a8a8df7015b32cbda9",
+      "name": "6:00-7:00 (5th-8th grade)",
+      "rawKind": "program",
+      "url": "https://www.jetslacrosse.com/winter-lax",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-c00cf172b72e8e57d0d75d99",
+      "name": "NO TRYOUT DAY. JUST REACH OUT.",
+      "rawKind": "registration",
+      "url": "https://www.foothillspack.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-c01e28cf711225d5eb779b85",
+      "name": "Youth Bowling Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-c06cfcc51aca73e182e38733",
+      "name": "2023 Sponsorship Packages",
+      "rawKind": "program",
+      "url": "https://www.grandvalleylax.com/about/become-a-sponsor/10397",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-c06ef13aa32ed15bf49c911b",
+      "name": "Youth Lacrosse in Boulder County: A Parent's Guide",
+      "rawKind": "organization",
+      "url": "https://www.boulderlacrosse.com/post/youth-lacrosse-boulder-county-parents-guide/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-c72e839543b7e5a06537aa08",
+      "name": "U13 — Ages 11 to 12 (Fifth and Sixth Grade)",
+      "rawKind": "program",
+      "url": "https://www.boulderlacrosse.com/post/boulder-valley-youth-lacrosse/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-c779e7c266149caf8e7cebfc",
+      "name": "Winter/Spring Developmental Program",
+      "rawKind": "program",
+      "url": "https://www.theedgevc.com/developmental",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-c7826f064d3fcebe34410346",
+      "name": "Ranger Youth Lacrosse",
+      "rawKind": "organization",
+      "url": "https://www.rangerlacrosse.org/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-d15bc3583679d0ca33b9a4a7",
+      "name": "Bison Lacrosse Club",
+      "rawKind": "organization",
+      "url": "https://www.bisonlaxclub.com/summer-camp",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-d3b89724820ed673fb3fc501",
+      "name": "2026-2027 Club Season Information",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/program/2026-2027-club-volleyball/6682",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-d543e54471d854ef6d14d83f",
+      "name": "2024 CYL Program",
+      "rawKind": "organization",
+      "url": "https://www.risevbcolorado.com/program/2026-ryl-season/11219",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-d84908736f415786f781dcc7",
+      "name": "15 Purple | Division 1 Power Champs",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-d8eeb43b58366c6f2bb23d29",
+      "name": "RYL Tryouts",
+      "rawKind": "registration",
+      "url": "https://www.risevbcolorado.com/program/2026-ryl-season/11219",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-dbfc1944384bc068d2205df9",
+      "name": "ParentEdge — A personal advisor for youth sports parents",
+      "rawKind": "organization",
+      "url": "https://www.parentedge.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-e2c1b01347d9d1be6ac7c86e",
+      "name": "THANK YOU to all our 2025 SPONSORS!",
+      "rawKind": "program",
+      "url": "https://www.grandvalleylax.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-e2d4822d72d5dc44c0eb3115",
+      "name": "ULAX Lacrosse League - Denver Youth Clinic",
+      "rawKind": "organization",
+      "url": "https://ulax.org/youth/denver/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-e388e62f6f654639793b8854",
+      "name": "Youth Baseball Programs",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-e3be5186a04427a1e74417e1",
+      "name": "Boys Spring League",
+      "rawKind": "program",
+      "url": "https://northernpowerlax.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-e3ed3b03e33dffc71c310b6c",
+      "name": "5:00-6:00 (1st-4th grade)",
+      "rawKind": "program",
+      "url": "https://www.jetslacrosse.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-e428cbcc546bac7ae0b899a4",
+      "name": "Next Youth League Registration NOW OPEN",
+      "rawKind": "registration",
+      "url": "https://www.primevolleyballacademy.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-e45bc743c7f793a61f99c56c",
+      "name": "Girls Lacrosse Club in Boulder & Denver",
+      "rawKind": "organization",
+      "url": "https://www.foothillspack.com/about",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-e5201b3b6dc5079dea24590c",
+      "name": "SUMMER - THE EDGE YOUTH DEVELOPMENTAL LEAGUES",
+      "rawKind": "program",
+      "url": "https://www.theedgevc.com/developmental",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-e547382d54f1121aa96bc557",
+      "name": "All Skills Camp",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/program/2026-camps-and-clinics/10747",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-e692b2522281ed91fad3086f",
+      "name": "Colorado Springs Parks",
+      "rawKind": "source-candidate",
+      "url": "https://www.laxsquatch.store/pages/find-a-team",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Unclassified source link; not an imported club/team/program",
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-e852a9a3b290e665bac5eee1",
+      "name": "Ranger Youth Lacrosse",
+      "rawKind": "organization",
+      "url": "https://www.rangerlacrosse.org/about/about-us/18227",
+      "verifiedOrganization": true,
+      "profileEligible": true,
+      "issues": [
+        "Dated current youth offering not proven",
+        "Current registration availability not verified"
+      ]
+    },
+    {
+      "recordId": "acq-e88f8a7c82efcbce5e6ca0d0",
+      "name": "Colorado Boom Camps",
+      "rawKind": "program",
+      "url": "https://coloradoboom.com/programs.html",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-e8cbacd488e2aab0d467f1c7",
+      "name": "Jets Lacrosse Club",
+      "rawKind": "organization",
+      "url": "https://www.jetslacrosse.com/",
+      "verifiedOrganization": true,
+      "profileEligible": true,
+      "issues": [
+        "Dated current youth offering not proven",
+        "Current registration availability not verified"
+      ]
+    },
+    {
+      "recordId": "acq-eb21c0ac5122e3f18baf8671",
+      "name": "Rise Volleyball Club",
+      "rawKind": "organization",
+      "url": "https://www.risevbcolorado.com/about/about-us/17080",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-ec62e0bd4e4bbd50ccba7008",
+      "name": "denverlacrosse.org",
+      "rawKind": "source-candidate",
+      "url": "https://www.laxsquatch.store/pages/find-a-team",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Unclassified source link; not an imported club/team/program",
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-ee92e87d76d41c29c83b4d4e",
+      "name": "TRYOUTS",
+      "rawKind": "registration",
+      "url": "https://www.boulderlacrosse.org/program/boulder-select/6610",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-eec5efeb123d6c04925df5d8",
+      "name": "$250",
+      "rawKind": "program",
+      "url": "https://www.grandvalleylax.com/about/become-a-sponsor/10397",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-ef3f951c1acbe72f56567664",
+      "name": "15",
+      "rawKind": "program",
+      "url": "https://www.primevolleyballacademy.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-ef57c853f45f751c10888bf8",
+      "name": "01",
+      "rawKind": "program",
+      "url": "https://www.foothillspack.com/about",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-f26916a082be2bc86feda4d7",
+      "name": "Summer 2026!",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/program/2026-camps-and-clinics/10747",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-f2a30d80566590a4083d306b",
+      "name": "Send your request to PGA Junior Golf Camps.",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-f4e0ad8b473f09b59f59aaa5",
+      "name": "Camps and Clinics",
+      "rawKind": "organization",
+      "url": "https://www.risevbcolorado.com/program/2026-camps-and-clinics/10747",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-f4fee4fe3ba56cd10f693fdd",
+      "name": "Beyond the court: How Maya Stillwell’s character defines her game",
+      "rawKind": "organization",
+      "url": "https://www.insidenu.com/northwestern-volleyball/73536/beyond-the-court-how-maya-stillwells-character-defines-her-game",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-f538982a8f08f3bc53c41e00",
+      "name": "02",
+      "rawKind": "program",
+      "url": "https://www.foothillspack.com/about",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-f5fc2cf51ccf2a4dd012a75d",
+      "name": "Summer Youth Program",
+      "rawKind": "organization",
+      "url": "https://www.risevbcolorado.com/program/8u-13u-friday-nights/11215",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-f77c9efb65114eadd12a98a1",
+      "name": "Mondays from 5:30-6:30",
+      "rawKind": "program",
+      "url": "https://www.jetslacrosse.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-f816d7e36a8e4219c7ae69ed",
+      "name": "ULAX Lacrosse League - Boulder Youth Clinic",
+      "rawKind": "organization",
+      "url": "https://ulax.org/youth/boulder/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-f8fccafdf02cf1a626f190f3",
+      "name": "14 Orange | Power 5 Champs",
+      "rawKind": "program",
+      "url": "https://www.risevbcolorado.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-f965313e8471547629850d40",
+      "name": "Boulder Valley Youth Lacrosse: Ages 6 to 14",
+      "rawKind": "organization",
+      "url": "https://www.boulderlacrosse.com/post/boulder-valley-youth-lacrosse/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-fb86548b2f11916157af17eb",
+      "name": "Team Registrations are OPEN for our 2026 Spring QUICKSTIX Tournament!",
+      "rawKind": "registration",
+      "url": "https://www.grandvalleylax.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-fd0080daf7b8b073634c44be",
+      "name": "WINTER Programs — Jets Lacrosse Club",
+      "rawKind": "organization",
+      "url": "https://www.jetslacrosse.com/winter-lax",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-fd2700088977b6076b82b4f6",
+      "name": "October 2, 2026",
+      "rawKind": "program",
+      "url": "https://www.primevolleyballacademy.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-fe72f8d34aa913cfea862a5e",
+      "name": "Camps & Clinics",
+      "rawKind": "program",
+      "url": "https://coloradoboom.com/",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    },
+    {
+      "recordId": "acq-ff1e1f38218b7c3b544c8cb5",
+      "name": "Youth climbing classes, clubs and camps at The Spot -",
+      "rawKind": "program",
+      "url": "https://www.boulderkids.com/Sports_Programs.php",
+      "verifiedOrganization": false,
+      "profileEligible": false,
+      "issues": [
+        "Record is not an organization; retain program/team/source-candidate classification",
+        "Source stale/failed, record missing, or retrieval time invalid",
+        "Organization identity not independently reviewed",
+        "Colorado location/service relationship not reviewed",
+        "Organization-operated youth program not reviewed",
+        "Dated current youth offering not proven",
+        "Current registration availability not verified",
+        "Participation designation not reviewed for publication"
+      ]
+    }
+  ],
+  "sourceFailures": [
+    {
+      "source": "Frequently Asked Questions – Rocky Mountain Storm Lacrosse",
+      "url": "https://rockymountainstormlacrosse.teamsnapsites.com/faq/",
+      "sport": "lacrosse",
+      "lastAttempt": "2026-11-10T15:57:07.726Z",
+      "lastSuccess": null,
+      "error": {
+        "code": "HTTP_410",
+        "message": "Public source returned HTTP 410"
+      },
+      "action": "Honor access/backoff; seek a separately permitted publisher export or independent authoritative source. No restriction bypass."
+    },
+    {
+      "source": "Mesa Juniors Volleyball Company",
+      "url": "https://www.mesajuniors.org/",
+      "sport": "volleyball",
+      "lastAttempt": "2026-11-10T15:57:51.504Z",
+      "lastSuccess": null,
+      "error": {
+        "code": "HTTP_403",
+        "message": "Public source returned HTTP 403"
+      },
+      "action": "Honor access/backoff; seek a separately permitted publisher export or independent authoritative source. No restriction bypass."
+    },
+    {
+      "source": "Ranger Lax Fall Registration",
+      "url": "https://www.rangerlacrosse.org/program/ranger-lax-fall-registration/13358",
+      "sport": "lacrosse",
+      "lastAttempt": "2026-11-10T15:53:59.792Z",
+      "lastSuccess": null,
+      "error": {
+        "code": "RATE_LIMIT",
+        "message": "HTTP 503; Retry-After not provided. No automatic immediate retry."
+      },
+      "action": "Honor access/backoff; seek a separately permitted publisher export or independent authoritative source. No restriction bypass."
+    },
+    {
+      "source": "Arapahoe Youth League",
+      "url": "https://www.aylsports.org/home",
+      "sport": "lacrosse",
+      "lastAttempt": "2026-11-10T15:57:15.253Z",
+      "lastSuccess": null,
+      "error": {
+        "code": "ROBOTS_UNAVAILABLE",
+        "message": "Robots could not be verified (HTTP 406)"
+      },
+      "action": "Honor access/backoff; seek a separately permitted publisher export or independent authoritative source. No restriction bypass."
+    },
+    {
+      "source": "Warriors Youth Sports",
+      "url": "https://www.warriorsyouthsports.com/content/34032/LAX-FAQ",
+      "sport": "lacrosse",
+      "lastAttempt": "2026-11-10T15:57:19.057Z",
+      "lastSuccess": null,
+      "error": {
+        "code": "ROBOTS_UNAVAILABLE",
+        "message": "Robots could not be verified (HTTP 406)"
+      },
+      "action": "Honor access/backoff; seek a separately permitted publisher export or independent authoritative source. No restriction bypass."
+    },
+    {
+      "source": "Boys Lacrosse",
+      "url": "https://www.spartanyouthclub.com/boyslacrosse",
+      "sport": "lacrosse",
+      "lastAttempt": "2026-11-10T15:57:29.284Z",
+      "lastSuccess": null,
+      "error": {
+        "code": "HTTP_403",
+        "message": "Public source returned HTTP 403"
+      },
+      "action": "Honor access/backoff; seek a separately permitted publisher export or independent authoritative source. No restriction bypass."
+    },
+    {
+      "source": "Programs | Denver City Lacrosse",
+      "url": "https://citylaxdenver.org/programs/",
+      "sport": "lacrosse",
+      "lastAttempt": "2026-11-10T15:57:08.615Z",
+      "lastSuccess": null,
+      "error": {
+        "code": "ROBOTS_UNAVAILABLE",
+        "message": "Robots could not be verified (HTTP 202)"
+      },
+      "action": "Honor access/backoff; seek a separately permitted publisher export or independent authoritative source. No restriction bypass."
+    },
+    {
+      "source": "Ranger Youth Lacrosse",
+      "url": "https://www.rangerlacrosse.org/",
+      "sport": "lacrosse",
+      "lastAttempt": "2026-11-10T15:56:59.547Z",
+      "lastSuccess": "2026-11-10T15:51:59.038Z",
+      "error": {
+        "code": "ERROR",
+        "message": "Source host refresh window is not due"
+      },
+      "action": "Honor access/backoff; seek a separately permitted publisher export or independent authoritative source. No restriction bypass."
+    },
+    {
+      "source": "Youth Programs",
+      "url": "https://allianceyosa.sportngin.com/youthprograms",
+      "sport": "volleyball",
+      "lastAttempt": "2026-11-10T15:58:14.153Z",
+      "lastSuccess": null,
+      "error": {
+        "code": "HTTP_403",
+        "message": "Public source returned HTTP 403"
+      },
+      "action": "Honor access/backoff; seek a separately permitted publisher export or independent authoritative source. No restriction bypass."
+    },
+    {
+      "source": "Volleyball - City of Aurora",
+      "url": "https://www.auroragov.org/things_to_do/recreation___sports_programs/youth_sports/volleyball",
+      "sport": "volleyball",
+      "lastAttempt": "2026-11-10T15:57:52.507Z",
+      "lastSuccess": null,
+      "error": {
+        "code": "ROBOTS_UNAVAILABLE",
+        "message": "Robots could not be verified (HTTP 301)"
+      },
+      "action": "Honor access/backoff; seek a separately permitted publisher export or independent authoritative source. No restriction bypass."
+    },
+    {
+      "source": "10th Mountain Lacrosse",
+      "url": "https://www.10thmtnlax.com/",
+      "sport": "lacrosse",
+      "lastAttempt": "2026-11-10T15:57:05.272Z",
+      "lastSuccess": null,
+      "error": {
+        "code": "HTTP_403",
+        "message": "Public source returned HTTP 403"
+      },
+      "action": "Honor access/backoff; seek a separately permitted publisher export or independent authoritative source. No restriction bypass."
+    }
+  ]
+}

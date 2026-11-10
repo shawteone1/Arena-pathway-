@@ -1,0 +1,18 @@
+{
+  "baseCommit": "38ddb29e275247207720fc00d1446e5035343cf1",
+  "scope": ["Colorado youth lacrosse", "Colorado youth volleyball"],
+  "benchmarkDesign": "New source-adjudicated positives excluded from both earlier benchmark sets, frozen before recovery code or discovery. Separate benchmark research and generic acquisition queries. Same analyst, no external blinding; no statewide inference.",
+  "thresholds": {"identityRecall":0.9,"qualifiedYouthRecall":0.9,"precision":0.95,"traceability":1,"freshnessDays":30,"consumerVisibleRecall":0.9},
+  "discoveryQueries": [
+    "Colorado youth lacrosse league member clubs organizations",
+    "Boulder Denver youth lacrosse clubs programs official",
+    "Colorado Springs Northern Colorado youth lacrosse clubs programs official",
+    "Western Colorado mountain youth lacrosse clubs programs official",
+    "Colorado youth volleyball clubs official programs registration"
+  ],
+  "enrichmentPolicy": "Search only names actually acquired from generic queries or source member links; derive missing-field queries uniformly. No benchmark answer URLs or aliases as acquisition inputs. Log every query/returned URL. Search results are leads only; strict PublicSourceClient retrieves evidence.",
+  "qualificationPolicy": "Organization identity, Colorado geography, youth program and current dated program/registration are separate scoped claims with URL/hash/date and review. A current page retrieval is not proof of current program availability. No automatic verified flag from regex matching or source snippets.",
+  "budgets": {"discoverySources":48,"linkedDepth":1,"pagesPerSource":6,"enrichmentSources":24},
+  "deliveryGate": "Only commit reviewable implementation if live recovery measurably improves discovery or evidence-backed qualification. Otherwise retain original code and deliver failure evidence only.",
+  "publication": "No consumer changes. Report organization eligibility separately from current program/registration eligibility. Unknowns fail acceptance."
+}

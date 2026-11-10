@@ -1,0 +1,53 @@
+{
+  "directory": "https://www.laxsquatch.store/pages/find-a-team",
+  "expectedScope": "Explicit Colorado table links; not statewide census",
+  "observedRows": [
+    {
+      "recordId": "acq-2c6525d84cdcbb407f671e08",
+      "name": "southsuburbansports.com",
+      "url": "https://www.southsuburbansports.com/youth-lacrosse"
+    },
+    {
+      "recordId": "acq-54564f4c3f661759215dcc8b",
+      "name": "kingslacrosseclub.com",
+      "url": "https://kingslacrosseclub.com/"
+    },
+    {
+      "recordId": "acq-718818053d6f8c76ba74a3e2",
+      "name": "bclax.leagueapps.com",
+      "url": "https://bclax.leagueapps.com/"
+    },
+    {
+      "recordId": "acq-7b935920a74967260fae7004",
+      "name": "rangerlacrosse.org",
+      "url": "https://www.rangerlacrosse.org/"
+    },
+    {
+      "recordId": "acq-7fff3eb1d50211cfbbc70844",
+      "name": "Aurora Youth Lacrosse",
+      "url": "https://www.auroragov.org/things_to_do/recreation___sports_programs/youth_sports/lacrosse"
+    },
+    {
+      "recordId": "acq-e692b2522281ed91fad3086f",
+      "name": "Colorado Springs Parks",
+      "url": "https://coloradosprings.gov/parks/page/colorado-springs-youth-lacrosse"
+    },
+    {
+      "recordId": "acq-ec62e0bd4e4bbd50ccba7008",
+      "name": "denverlacrosse.org",
+      "url": "https://www.denverlacrosse.org/"
+    }
+  ],
+  "followed": [
+    "https://www.southsuburbansports.com/youth-lacrosse",
+    "https://kingslacrosseclub.com/",
+    "https://bclax.leagueapps.com/"
+  ],
+  "unprocessed": [
+    {
+      "name": "Aurora Youth Lacrosse",
+      "url": "https://www.auroragov.org/things_to_do/recreation___sports_programs/youth_sports/lacrosse",
+      "reason": "Explicit new-source budget reached; remains a candidate"
+    }
+  ]
+}

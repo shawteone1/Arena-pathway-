@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Denver City Lax",
+    "url": "https://citylaxdenver.org/programs/",
+    "status": "failed",
+    "code": "ROBOTS_UNAVAILABLE",
+    "message": "Robots could not be verified (HTTP 202)"
+  },
+  {
+    "name": "Bison Lacrosse Club",
+    "url": "https://www.bisonlaxclub.com/",
+    "status": "retrieved",
+    "bodySha256": "a70efa139faf1c4bbc35127e929a6bb2d31ef5c2812874b5ff21a829d0bd785c",
+    "retrievedAt": "2026-11-10T15:49:05.008Z",
+    "title": "Club Lacrosse Team | Bison Lacrosse Club",
+    "inspection": [
+      "Welcome to Bison Lacrosse! We strive to build an inclusive lacrosse community northeast of Denver. Communities served have included Commerce City, Brighton, Lochbuie, Thornton, and Northglenn. As our area and the sport of lacrosse continues to grow, we believe it is our responsibility to provide this opportunity to the youth in our community. Our goal is to grow the sport of lacrosse by offering an encouraging environment for players who have never picked up a stick to more advanced players who want to grow as a player and as a person."
+    ]
+  },
+  {
+    "name": "Grizzlies Girls Lacrosse",
+    "url": "https://www.grizzliesgirlslacrosse.org/",
+    "status": "failed",
+    "code": "HTTP_403",
+    "message": "Public source returned HTTP 403"
+  },
+  {
+    "name": "Mountain Lacrosse League",
+    "url": "https://www.mountainlax.com/content/872/General-Information",
+    "status": "failed",
+    "code": "ROBOTS_UNAVAILABLE",
+    "message": "Robots could not be verified (HTTP 406)"
+  },
+  {
+    "name": "The EDGE Volleyball Club",
+    "url": "https://www.theedgevc.com/developmental",
+    "status": "retrieved",
+    "bodySha256": "136f74c1154c6c6114b1bf2f9c2b476d811baefa942885c08be92a5d46174bf0",
+    "retrievedAt": "2026-11-10T15:49:13.346Z",
+    "title": "The EDGE Volleyball Club, Littleton, CO - Developmental Volleyball Program",
+    "inspection": [
+      "SUMMER - THE EDGE YOUTH DEVELOPMENTAL LEAGUES"
+    ]
+  },
+  {
+    "name": "Colorado Boom Volleyball Club",
+    "url": "https://coloradoboom.com/",
+    "status": "retrieved",
+    "bodySha256": "39519a4b3cb83141965d8b03309b7a4395f494495f97ed1921a52f4345e4ec39",
+    "retrievedAt": "2026-11-10T15:49:15.718Z",
+    "title": "Colorado Boom Volleyball Club | Where Potential Booms, Aurora, CO",
+    "inspection": [
+      "Colorado Boom Volleyball Club",
+      "Where Potential Booms: Youth Volleyball in Denver Metro",
+      "RMR OCS: offers are sent through the RMR OCS as tryouts wrap, pre-evaluated players first; accept within 48 hours. Players without a current 2026–27 RMR membership need a $20 tryout/RYL membership ($15 applies toward your full membership when you commit).",
+      "Girls 10U–18U and Boys 13U–18U. Sanctioned by RMR and USA Volleyball. Girls 10U–14U Club & RYL tryouts run Oct 11, 2026 are now by appointment: email [email protected].",
+      "Ages 8–16. Tues / Thurs, 5:00–6:30 PM. Pick 1 or 2 days. Monthly, cancel anytime. Drop-in and grass league included.",
+      "Ages 9–18. Position-specific summer skills, hitters, setters, defensive specialists. Led by regional-level coaches.",
+      "Club volleyball is organized, competitive volleyball played outside the school system. Players join a club, try out for a team, and compete in tournaments through the season, all sanctioned by USA Volleyball (USAV) and, here in Colorado, the Rocky Mountain Region (RMR).",
+      "Why Colorado Boom?",
+      "Real feedback from Colorado Boom parents and players.",
+      "\"Colorado Boom has been transformative for my daughter. The coaching staff is incredibly dedicated, and I've seen massive improvements in her skills and confidence.\"",
+      "Colorado Boom Club Update",
+      "Open Spots: 12s · Any Position • 14s · Libero, Setter & Middle • 15s · Middle • 17s · Middle All other teams: practice player and developmental league spots only. Ages 6–11 are welcome to join Littles Skills Development classes. Email [email protected]"
+    ]
+  },
+  {
+    "name": "Alliance Youth Sports Association",
+    "url": "https://allianceyosa.sportngin.com/youthprograms",
+    "status": "failed",
+    "code": "HTTP_403",
+    "message": "Public source returned HTTP 403"
+  },
+  {
+    "name": "Colorado Springs Altitude Volleyball Club",
+    "url": "https://www.csavbc.org/page/show/1920794-contact-us",
+    "status": "failed",
+    "code": "HTTP_403",
+    "message": "Public source returned HTTP 403"
+  }
+]
