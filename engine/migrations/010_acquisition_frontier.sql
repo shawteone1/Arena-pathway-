@@ -1,0 +1,1 @@
+CREATE TABLE acquisition_frontier(job TEXT NOT NULL, url TEXT NOT NULL, sport TEXT NOT NULL, depth INTEGER NOT NULL, status TEXT NOT NULL, config_json TEXT NOT NULL, last_run TEXT REFERENCES acquisition_runs(id), PRIMARY KEY(job,url));

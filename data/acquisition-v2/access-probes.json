@@ -1,0 +1,78 @@
+[
+  {
+    "url": "https://www.rmrvolleyball.org/page/show/6830537-club-directory",
+    "status": "blocked",
+    "failureCode": "HTTP_403",
+    "reason": "Public source returned HTTP 403",
+    "attemptedAt": "2026-11-09T20:59:38.681Z"
+  },
+  {
+    "url": "https://cdn1.sportngin.com/attachments/document/b6d7-3408270/26-01-28.Girls.Clubs_and_Codes_25-26.pdf",
+    "status": "blocked",
+    "failureCode": "ROBOTS_UNAVAILABLE",
+    "reason": "Robots could not be verified (HTTP 403)",
+    "attemptedAt": "2026-11-09T20:59:38.689Z"
+  },
+  {
+    "url": "https://cdn3.sportngin.com/attachments/document/34fb-2753153/26-01-28.Boys.Clubs_and_Codes_25-26.pdf",
+    "status": "blocked",
+    "failureCode": "ROBOTS_UNAVAILABLE",
+    "reason": "Robots could not be verified (HTTP 403)",
+    "attemptedAt": "2026-11-09T20:59:38.810Z"
+  },
+  {
+    "url": "https://teamsideline.com/sites/denverlacrosse/schedules",
+    "status": "blocked",
+    "failureCode": "NETWORK_ERROR",
+    "reason": "The operation was aborted due to timeout",
+    "attemptedAt": "2026-11-09T20:59:56.650Z"
+  },
+  {
+    "url": "https://synergysportsoperations.com/our-brands/",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "8f54144ef3a182cdd53575dd1776d3fea3a93cb7116997fefc117bf7cac65e26",
+    "retrievedAt": "2026-11-09T20:59:39.166Z",
+    "bytes": 91595,
+    "workspaceFile": "/workspace/scratch/acquisition-live/39d2fe45392d.html"
+  },
+  {
+    "url": "https://www.stickwithit.com/colorado-club-programs-youth/",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "10504ae834024f5eb6caa79b75807011e4158517466b7d87b918a3e161888adb",
+    "retrievedAt": "2026-11-09T20:59:41.830Z",
+    "bytes": 1231244,
+    "workspaceFile": "/workspace/scratch/acquisition-live/37edf3ba90a1.html"
+  },
+  {
+    "url": "https://mountainlax.com/content/426/History",
+    "status": "blocked",
+    "failureCode": "ROBOTS_UNAVAILABLE",
+    "reason": "Robots could not be verified (HTTP 406)",
+    "attemptedAt": "2026-11-09T20:59:37.953Z"
+  },
+  {
+    "url": "https://www.grandvalleylax.com/about/about-us/9321",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "67d94289d71fa095e276c055da693788e4b691681bb7f526f301e220496e6335",
+    "retrievedAt": "2026-11-09T20:59:42.799Z",
+    "bytes": 67374,
+    "workspaceFile": "/workspace/scratch/acquisition-live/a47d6fbe89a7.html"
+  },
+  {
+    "url": "https://www.spartanyouthclub.com/boyslacrosse",
+    "status": "blocked",
+    "failureCode": "HTTP_403",
+    "reason": "Public source returned HTTP 403",
+    "attemptedAt": "2026-11-09T20:59:38.706Z"
+  },
+  {
+    "url": "https://www.aylsports.org/home",
+    "status": "blocked",
+    "failureCode": "ROBOTS_UNAVAILABLE",
+    "reason": "Robots could not be verified (HTTP 406)",
+    "attemptedAt": "2026-11-09T20:59:37.529Z"
+  }
+]

@@ -1,0 +1,926 @@
+[
+  {
+    "id": "progressive-roots-lacrosse",
+    "sport": "lacrosse",
+    "geography": "CO",
+    "participation": "youth",
+    "alternativePaths": [
+      "independent-club",
+      "school",
+      "college",
+      "recreation",
+      "adult-participation"
+    ],
+    "stages": [
+      "association",
+      "league-directory",
+      "organization",
+      "program-team",
+      "age-division",
+      "schedule-event",
+      "opportunity"
+    ],
+    "sources": [
+      {
+        "id": "v2-80b7000fb584e9fc4db7",
+        "name": "teamsideline.com /sites/denverlacrosse/schedules",
+        "url": "https://teamsideline.com/sites/denverlacrosse/schedules",
+        "urls": [
+          "https://teamsideline.com/sites/denverlacrosse/schedules"
+        ],
+        "sport": "lacrosse",
+        "geography": "CO",
+        "region": "denver-metro",
+        "owner": null,
+        "type": "other",
+        "adapter": "legacy-engine",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "teamsideline.com",
+          "www.teamsideline.com"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "reviewedAt": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "title": "Denver Lacrosse TeamSideline schedules",
+        "sports": [
+          "lacrosse"
+        ],
+        "scope": "Denver Lacrosse TeamSideline schedules published organization/team pages; statewide coverage remains partial",
+        "state": "CO",
+        "maxPages": 25,
+        "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+        "followURLPattern": "/sites/denverlacrosse/(schedules|schedule/|locations)",
+        "leagueName": "Denver Lacrosse Club leagues",
+        "programType": "field-lacrosse",
+        "audience": "youth",
+        "organizationName": "Denver Lacrosse Club",
+        "category": "league-organizer",
+        "extractEvents": true,
+        "legacyAdapter": "standings",
+        "discoveryRole": "schedule-event",
+        "participationScope": "youth",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-0f4a5579e27831514a33",
+        "name": "www.coloradolacrosseleague.com /leagues/teamlinkt",
+        "url": "https://www.coloradolacrosseleague.com/leagues/teamlinkt",
+        "urls": [
+          "https://www.coloradolacrosseleague.com/leagues/teamlinkt"
+        ],
+        "sport": "lacrosse",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "legacy-engine",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "www.coloradolacrosseleague.com",
+          "leagues.teamlinkt.com"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "reviewedAt": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "title": "Colorado Lacrosse League adult and school formats",
+        "sports": [
+          "lacrosse"
+        ],
+        "scope": "Colorado Lacrosse League adult and school formats published organization/team pages; statewide coverage remains partial",
+        "state": "CO",
+        "maxPages": 12,
+        "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+        "followURLPattern": "coloradolacrosseleague|leagues.teamlinkt.com/coloradolacrosseleague/(Schedule|Standings|Teams)",
+        "audience": "adult",
+        "legacyAdapter": "discovery",
+        "discoveryRole": "league-directory",
+        "participationScope": "youth",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-80b2c2eb736f8efc3f2f",
+        "name": "Programs | Denver City Lacrosse",
+        "url": "https://citylaxdenver.org/programs/",
+        "urls": [
+          "https://citylaxdenver.org/programs/"
+        ],
+        "sport": "lacrosse",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "profile-evidence",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "citylaxdenver.org",
+          "citylaxdenver.org",
+          "www.citylaxdenver.org"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "searchEvidence": {
+          "query": "Colorado youth lax clubs recreation teams programs official",
+          "rank": 1
+        },
+        "discoveredFrom": "public-search",
+        "participationScope": "youth",
+        "discoveryRole": "organization",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-1f9595241ce5ee268062",
+        "name": "About Synergy Sports Operations | Colorado Youth Lacrosse",
+        "url": "https://synergysportsoperations.com/about-us/",
+        "urls": [
+          "https://synergysportsoperations.com/about-us/"
+        ],
+        "sport": "lacrosse",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "profile-evidence",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "synergysportsoperations.com",
+          "synergysportsoperations.com",
+          "www.synergysportsoperations.com"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "searchEvidence": {
+          "query": "Colorado lacrosse association league member clubs youth programs official",
+          "rank": 2
+        },
+        "discoveredFrom": "public-search",
+        "participationScope": "youth",
+        "discoveryRole": "organization",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-479d7148a066f0ccacc6",
+        "name": "Find a team – LAXsquatch",
+        "url": "https://www.laxsquatch.store/pages/find-a-team",
+        "urls": [
+          "https://www.laxsquatch.store/pages/find-a-team"
+        ],
+        "sport": "lacrosse",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "directory",
+        "adapter": "legacy-engine",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "www.laxsquatch.store",
+          "laxsquatch.store",
+          "www.laxsquatch.store"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "legacyAdapter": "discovery",
+        "followPattern": "club|team|member|lacrosse|lax|volley|about|program|home",
+        "searchEvidence": {
+          "query": "Colorado youth lax clubs recreation teams programs official",
+          "rank": 2
+        },
+        "discoveredFrom": "public-search",
+        "participationScope": "youth",
+        "discoveryRole": "league-directory",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-6366e99f3be0b4bf0703",
+        "name": "Colorado Club Programs – Youth – STICK WITH IT!",
+        "url": "https://www.stickwithit.com/colorado-club-programs-youth/",
+        "urls": [
+          "https://www.stickwithit.com/colorado-club-programs-youth/"
+        ],
+        "sport": "lacrosse",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "profile-evidence",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "www.stickwithit.com",
+          "stickwithit.com",
+          "www.stickwithit.com"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "searchEvidence": {
+          "query": "Colorado youth lax clubs recreation teams programs official",
+          "rank": 4
+        },
+        "discoveredFrom": "public-search",
+        "participationScope": "youth",
+        "discoveryRole": "organization",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-e98d0154a4b5bd73092a",
+        "name": "Youth Sports - City of Longmont",
+        "url": "https://longmontcolorado.gov/recreation-services/activities/youth-sports/",
+        "urls": [
+          "https://longmontcolorado.gov/recreation-services/activities/youth-sports/"
+        ],
+        "sport": "lacrosse",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "profile-evidence",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "longmontcolorado.gov",
+          "longmontcolorado.gov",
+          "www.longmontcolorado.gov"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "searchEvidence": {
+          "query": "Colorado youth lax clubs recreation teams programs official",
+          "rank": 5
+        },
+        "discoveredFrom": "public-search",
+        "participationScope": "youth",
+        "discoveryRole": "organization",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-bc508dbb7909f6854d91",
+        "name": "Clubs – US Club Lax",
+        "url": "https://usclublax.com/clubs/",
+        "urls": [
+          "https://usclublax.com/clubs/"
+        ],
+        "sport": "lacrosse",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "profile-evidence",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "usclublax.com",
+          "usclublax.com",
+          "www.usclublax.com"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "searchEvidence": {
+          "query": "Colorado youth lax clubs recreation teams programs official",
+          "rank": 6
+        },
+        "discoveredFrom": "public-search",
+        "participationScope": "youth",
+        "discoveryRole": "organization",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-4dad688267da21ea06fa",
+        "name": "North Springs Lax",
+        "url": "https://www.northspringslax.org/",
+        "urls": [
+          "https://www.northspringslax.org/"
+        ],
+        "sport": "lacrosse",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "profile-evidence",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "www.northspringslax.org",
+          "northspringslax.org",
+          "www.northspringslax.org"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "searchEvidence": {
+          "query": "Colorado youth lax clubs recreation teams programs official",
+          "rank": 7
+        },
+        "discoveredFrom": "public-search",
+        "participationScope": "youth",
+        "discoveryRole": "organization",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      }
+    ],
+    "followLinks": false,
+    "maxSources": 9
+  },
+  {
+    "id": "progressive-roots-volleyball",
+    "sport": "volleyball",
+    "geography": "CO",
+    "participation": "youth",
+    "alternativePaths": [
+      "independent-club",
+      "school",
+      "college",
+      "recreation",
+      "adult-participation"
+    ],
+    "stages": [
+      "association",
+      "league-directory",
+      "organization",
+      "program-team",
+      "age-division",
+      "schedule-event",
+      "opportunity"
+    ],
+    "sources": [
+      {
+        "id": "v2-f88912116d3841319682",
+        "name": "www.rmrvolleyball.org /page/show/6830537-club-directory",
+        "url": "https://www.rmrvolleyball.org/page/show/6830537-club-directory",
+        "urls": [
+          "https://www.rmrvolleyball.org/page/show/6830537-club-directory"
+        ],
+        "sport": "volleyball",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "legacy-engine",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "www.rmrvolleyball.org"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "reviewedAt": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "title": "RMR official girls club list discovery",
+        "sports": [
+          "volleyball"
+        ],
+        "scope": "RMR official club directory and linked girls membership; access and underlying club expansion must be verified.",
+        "state": "CO",
+        "maxPages": 12,
+        "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+        "followURLPattern": "rmrvolleyball.org/page/show/",
+        "genders": [
+          "girls"
+        ],
+        "programType": "indoor-volleyball",
+        "legacyAdapter": "discovery",
+        "discoveryRole": "association",
+        "participationScope": "youth",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-42ff88a33b6c858619e2",
+        "name": "www.rmrvolleyball.org /page/show/6830532",
+        "url": "https://www.rmrvolleyball.org/page/show/6830532",
+        "urls": [
+          "https://www.rmrvolleyball.org/page/show/6830532"
+        ],
+        "sport": "volleyball",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "legacy-engine",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "www.rmrvolleyball.org"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "reviewedAt": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "title": "RMR official boys club list discovery",
+        "sports": [
+          "volleyball"
+        ],
+        "scope": "RMR official boys club list discovery published organization/team pages; statewide coverage remains partial",
+        "state": "CO",
+        "maxPages": 12,
+        "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+        "followURLPattern": "^https://www\\.rmrvolleyball\\.org/page/show/6830532$",
+        "genders": [
+          "boys"
+        ],
+        "programType": "indoor-volleyball",
+        "legacyAdapter": "discovery",
+        "discoveryRole": "association",
+        "participationScope": "youth",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-817ea5ba61afde54a2aa",
+        "name": "www.rmrvolleyball.org /page/show/6830534-for-parents-",
+        "url": "https://www.rmrvolleyball.org/page/show/6830534-for-parents-",
+        "urls": [
+          "https://www.rmrvolleyball.org/page/show/6830534-for-parents-"
+        ],
+        "sport": "volleyball",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "legacy-engine",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "www.rmrvolleyball.org"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "reviewedAt": "2026-11-08",
+          "basis": "Public organizational information only. Honor robots.txt, publisher access restrictions and per-source scope; no credentials, roster data, contacts or solicitation."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "title": "RMR official beach club list discovery",
+        "sports": [
+          "volleyball"
+        ],
+        "scope": "RMR official beach club list discovery published organization/team pages; statewide coverage remains partial",
+        "state": "CO",
+        "maxPages": 12,
+        "followPattern": "teams|clubs|membership|division|schedule|standings|competition|locations",
+        "followURLPattern": "^https://www\\.rmrvolleyball\\.org/page/show/6830534-for-parents-$",
+        "programType": "beach-volleyball",
+        "legacyAdapter": "discovery",
+        "discoveryRole": "association",
+        "participationScope": "youth",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-d863cb9c3a027a38a0fb",
+        "name": "Colorado Volleyball Association",
+        "url": "https://www.coloradovolleyball.org/",
+        "urls": [
+          "https://www.coloradovolleyball.org/"
+        ],
+        "sport": "volleyball",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "profile-evidence",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "www.coloradovolleyball.org",
+          "coloradovolleyball.org",
+          "www.coloradovolleyball.org"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "searchEvidence": {
+          "query": "Colorado volleyball regional association club directory youth clubs official",
+          "rank": 6
+        },
+        "discoveredFrom": "public-search",
+        "participationScope": "youth",
+        "discoveryRole": "association",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-3fce6d77a2cf4318a61c",
+        "name": "Membership - USA Volleyball",
+        "url": "https://usavolleyball.org/membership/",
+        "urls": [
+          "https://usavolleyball.org/membership/"
+        ],
+        "sport": "volleyball",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "profile-evidence",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "usavolleyball.org",
+          "usavolleyball.org",
+          "www.usavolleyball.org"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "searchEvidence": {
+          "query": "Colorado volleyball regional association club directory youth clubs official",
+          "rank": 9
+        },
+        "discoveredFrom": "public-search",
+        "participationScope": "youth",
+        "discoveryRole": "organization",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-5c154449ca712d454d96",
+        "name": "Colorado Volleyball Association · Junior Volleyball Clubs Denver Area",
+        "url": "https://clubvolleyballdenverco.omeka.net/items/show/3",
+        "urls": [
+          "https://clubvolleyballdenverco.omeka.net/items/show/3"
+        ],
+        "sport": "volleyball",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "profile-evidence",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "clubvolleyballdenverco.omeka.net",
+          "clubvolleyballdenverco.omeka.net",
+          "www.clubvolleyballdenverco.omeka.net"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "searchEvidence": {
+          "query": "Colorado volleyball regional association club directory youth clubs official",
+          "rank": 11
+        },
+        "discoveredFrom": "public-search",
+        "participationScope": "youth",
+        "discoveryRole": "association",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-c6cfc64ea37c4b502703",
+        "name": "Volleyball Clubs in Colorado | WhichVBClub",
+        "url": "https://whichvbclub.com/state/colorado",
+        "urls": [
+          "https://whichvbclub.com/state/colorado"
+        ],
+        "sport": "volleyball",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "directory",
+        "adapter": "legacy-engine",
+        "expectedRecordTypes": [
+          "source-candidate"
+        ],
+        "allowedHosts": [
+          "whichvbclub.com",
+          "whichvbclub.com",
+          "www.whichvbclub.com"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "legacyAdapter": "links",
+        "followPattern": "clubs/",
+        "selector": "main a[href^='/clubs/']",
+        "linkNameSelector": "h2,h3,h4",
+        "entityKind": "source-candidate",
+        "scope": "Public Colorado directory member links; primary organization, youth and geography verification remain separate",
+        "searchEvidence": {
+          "query": "Colorado volleyball regional association club directory youth clubs official",
+          "rank": 13
+        },
+        "discoveredFrom": "public-search",
+        "participationScope": "youth",
+        "discoveryRole": "league-directory",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-bd2a9b6bb5a8018c0f15",
+        "name": "VC Denver Volleyball | Club Teams | Denver, CO",
+        "url": "https://www.vcdenver.org/club-volleyball",
+        "urls": [
+          "https://www.vcdenver.org/club-volleyball"
+        ],
+        "sport": "volleyball",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "profile-evidence",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "www.vcdenver.org",
+          "vcdenver.org",
+          "www.vcdenver.org"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "searchEvidence": {
+          "query": "Colorado volleyball regional association club directory youth clubs official",
+          "rank": 14
+        },
+        "discoveredFrom": "public-search",
+        "participationScope": "youth",
+        "discoveryRole": "organization",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      },
+      {
+        "id": "v2-37ddf59f37e8ad592e92",
+        "name": "The EDGE Volleyball Club, Littleton, CO",
+        "url": "https://www.theedgevc.com/",
+        "urls": [
+          "https://www.theedgevc.com/"
+        ],
+        "sport": "volleyball",
+        "geography": "CO",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "profile-evidence",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "www.theedgevc.com",
+          "theedgevc.com",
+          "www.theedgevc.com"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "searchEvidence": {
+          "query": "Colorado volleyball regional association club directory youth clubs official",
+          "rank": 15
+        },
+        "discoveredFrom": "public-search",
+        "participationScope": "youth",
+        "discoveryRole": "organization",
+        "discoveryStages": [
+          "association",
+          "league-directory",
+          "organization",
+          "program-team",
+          "age-division",
+          "schedule-event",
+          "opportunity"
+        ]
+      }
+    ],
+    "followLinks": false,
+    "maxSources": 9
+  }
+]

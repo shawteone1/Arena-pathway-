@@ -1,0 +1,11 @@
+{
+  "sourceId": "replay-team180",
+  "scope": "Explicit prior reviewed identity, not a statewide/source membership census.",
+  "scopeClosed": false,
+  "reviewedAt": "2026-11-09",
+  "reviewer": "Codex preservation review against approved RC evidence",
+  "evidenceURL": "https://team180elite.com/about-team180/",
+  "expectedRecordIds": [
+    "replay-team180:team-180"
+  ]
+}

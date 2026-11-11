@@ -81,7 +81,8 @@ function renderWorkspace(){
  for(const id of modules){const definition=moduleDefinitions.find(m=>m.id===id);nav.append(anchor(definition.label,'#'+id));container.append(document.getElementById('template-'+id).content.cloneNode(true));}
  for(const link of $$('[data-explore]'))link.href='/sports/'+p.sport+'/'+link.dataset.explore;
  const saved=p.saved.map(findRecord).filter(Boolean),scope=(data.participation?.programs||[]).filter(r=>r.sport===p.sport&&(r.designation===(p.participationDesignation||'youth')||r.designation==='community'&&(p.participationDesignation||'youth')==='community')&&(p.participationLevel==='any'||!p.participationLevel||r.levels.includes(p.participationLevel))&&regionMatch(r,p.region));
- const ownerIds=new Set(scope.filter(r=>r.programKind!=='league').map(r=>r.organizationId));
+ const directOrganizations=(data.participation?.verifiedOrganizations||[]).filter(r=>r.sports.includes(p.sport)&&r.youthParticipationVerified&&(r.designation===(p.participationDesignation||'youth')||r.communityBased&&(p.participationDesignation||'youth')==='youth')&&(p.participationLevel==='any'||!p.participationLevel||r.levels.includes(p.participationLevel))&&regionMatch(r,p.region));
+ const ownerIds=new Set([...scope.filter(r=>r.programKind!=='league').map(r=>r.organizationId),...directOrganizations.map(r=>r.id)]);
  const allowedTeams=new Set((data.participation?.teamAssignments||[]).filter(a=>scope.some(p=>p.id===a.programId)).map(a=>a.teamId));
  const opportunities=new Set(scope.flatMap(r=>r.relatedRecordIds));
  const candidates=[...data.organizations,...data.teams,...data.opportunities,...data.communities,...(data.locations||[])].filter(r=>ownerIds.has(r.id)||allowedTeams.has(r.id)||opportunities.has(r.id));

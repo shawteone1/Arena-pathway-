@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "methodology": "Purposive, small source-stratified sample. Not a statewide census. Same analyst assembled benchmark; no external blind adjudicator. Held-out new club URLs absent from independent-job seeds. Access-limited publisher entries retained with qualification.",
+  "records": [
+    {
+      "name": "Denver Elite",
+      "aliases": [
+        "Denver Elite Field"
+      ],
+      "url": "https://www.colorado.adrln.com/program/denver-elite-field/4424",
+      "split": "development",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Prior reviewed official youth/high-school field program",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Team 180 Elite",
+      "aliases": [
+        "Team 180",
+        "Urban Elite"
+      ],
+      "url": "https://team180elite.com/about-team180/",
+      "split": "development",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Prior reviewed girls club and documented merger",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Denver Lacrosse Club",
+      "aliases": [],
+      "url": "https://www.denverlacrosse.org/",
+      "split": "development",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Official home identifies youth recreational and school-age programs",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Grand Valley Lacrosse",
+      "aliases": [],
+      "url": "https://www.grandvalleylax.com/about/about-us/9321",
+      "split": "development",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Official nonprofit youth offering in Grand Junction",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Spartan Youth Club",
+      "aliases": [
+        "Spartans Lacrosse"
+      ],
+      "url": "https://www.spartanyouthclub.com/boyslacrosse",
+      "split": "development",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Official youth club and AYL membership page",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "STICK WITH IT!",
+      "aliases": [
+        "Stick With It Lacrosse"
+      ],
+      "url": "https://www.stickwithit.com/colorado-club-programs-youth/",
+      "split": "development",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Publisher identifies Colorado youth program; headquarters is CA, participation is CO",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Boulder Valley Lacrosse",
+      "aliases": [
+        "BVL"
+      ],
+      "url": "https://www.boulderlacrosse.org/",
+      "split": "held-out",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Official source describes school-age spring/camp programs; annual dates may be historical",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Foothills Pack",
+      "aliases": [
+        "Foothills Pack Girls Lacrosse"
+      ],
+      "url": "https://www.foothillspack.com/",
+      "split": "held-out",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Publisher explicitly identifies Boulder County girls youth-through-high-school scope",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Warriors Youth Sports",
+      "aliases": [
+        "Warriors Lacrosse"
+      ],
+      "url": "https://www.warriorsyouthsports.com/content/34032/LAX-FAQ",
+      "split": "held-out",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Official FAQ: ages 6\u201314, AYL member and service territory",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Littleton Youth Sports",
+      "aliases": [
+        "Thunder Lacrosse"
+      ],
+      "url": "https://www.littletonyouthsports.org/lacrosse-faqs",
+      "split": "held-out",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Official FAQ: K\u20138 and AYL territory",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Denver United Lacrosse",
+      "aliases": [],
+      "url": "https://www.unitedlacrosse.org/",
+      "split": "held-out",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Official source describes Denver youth, boys/girls, age/grade programs",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Ranger Youth Lacrosse",
+      "aliases": [
+        "Ranger Lacrosse"
+      ],
+      "url": "https://www.rangerlacrosse.org/about/about-us/18227",
+      "split": "held-out",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Official publisher identifies youth boys in Tri-Lakes/Northern Colorado Springs",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    }
+  ]
+}

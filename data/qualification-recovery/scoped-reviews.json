@@ -1,0 +1,447 @@
+{
+  "notice": "Scoped source-evidence review receipts only; no legacy approval pins changed and no consumer publication.",
+  "reviews": [
+    {
+      "recordId": "acq-04713ec8006280628dee9a93",
+      "recordVersion": 3,
+      "bodySha256": "5fd637babc0e5a4e801b39567425f9200ef33fe7f78a56cb3537716507651834",
+      "sport": "lacrosse",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.972Z",
+      "reason": "Publisher identity only. Portfolio-card addresses belong to distinct clubs/facilities and must not qualify the umbrella operator.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-4cb954d97498d79ff1ac",
+          "confirmedName": "Synergy Sports Operations",
+          "relationship": "publisher-identity"
+        }
+      }
+    },
+    {
+      "recordId": "acq-0ec92cb71ae9bef9a995fc77",
+      "recordVersion": 2,
+      "bodySha256": "ba4cd8f0f91fbe7f4f06b6832ac6d276efd74128b2e1980cfe72b2caccf462dc",
+      "sport": "lacrosse",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Published brand identity. Explicit youth-age and Colorado-location claims remain incomplete in extracted evidence.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-3c3610831609e8be5573",
+          "confirmedName": "Boulder Elite",
+          "relationship": "publisher-identity"
+        }
+      }
+    },
+    {
+      "recordId": "acq-294b0234f74d27e46a748656",
+      "recordVersion": 2,
+      "bodySha256": "94a950a33bec37079a659a4fb154fe343b597653a474e80623bd59a04b6d8672",
+      "sport": "lacrosse",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Official municipal publisher operates the named youth lacrosse service. Classify as community/recreation provider, not a separate youth club.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-50f91f604b26f0b898a3",
+          "confirmedName": "City of Colorado Springs",
+          "relationship": "publisher-identity"
+        },
+        "geography": {
+          "claimId": "claim-2f65b3ff1b13009b6b85",
+          "relationship": "program-service-area"
+        },
+        "youthProgram": {
+          "claimId": "claim-7550d5ce20ae05531aa1",
+          "relationship": "organization-operated-youth-program"
+        }
+      },
+      "participationDesignation": "community"
+    },
+    {
+      "recordId": "acq-36a2ce007fc9621e1492800c",
+      "recordVersion": 2,
+      "bodySha256": "f97ecd63d6e40c611b6fec1eb5969d17d7480b90db271faa0839c65d736b8181",
+      "sport": "lacrosse",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Publisher identifies its own girls program as youth through high school and places the club in Boulder County, Colorado. No active dated season is established.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-9eae5c1c8be3bbd1a77b",
+          "confirmedName": "Foothills Pack",
+          "relationship": "publisher-identity"
+        },
+        "geography": {
+          "claimId": "claim-5135d41dd851e140b6e3",
+          "relationship": "program-service-area"
+        },
+        "youthProgram": {
+          "claimId": "claim-303bf0977edc78b94ec2",
+          "relationship": "organization-operated-youth-program"
+        }
+      },
+      "participationDesignation": "youth"
+    },
+    {
+      "recordId": "acq-3a474aea7b168fc5b40d06d2",
+      "recordVersion": 2,
+      "bodySha256": "86eaf53452e6995fc1ea651eae81c31fc43df3f64ad45c523e27fed28f18ca8f",
+      "sport": "volleyball",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Official publisher explicitly describes a youth training organization located in Thornton, CO. Current registration and active date interval are not independently established.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-dec3553ef2d80bcc3c58",
+          "confirmedName": "Prime Volleyball Academy",
+          "relationship": "publisher-identity"
+        },
+        "geography": {
+          "claimId": "claim-01a46e5fef7292598f55",
+          "relationship": "organization-location"
+        },
+        "youthProgram": {
+          "claimId": "claim-52215b92e3c379e10c0d",
+          "relationship": "organization-operated-youth-program"
+        }
+      },
+      "participationDesignation": "youth"
+    },
+    {
+      "recordId": "acq-3cd66326b771efb7068a0674",
+      "recordVersion": 2,
+      "bodySha256": "abb6d0bc2fbe5eee86caff1a3a0b7d0f34ee0dbc0c168b3d00f66576e309c1ab",
+      "sport": "lacrosse",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Official club publisher describes its own first-through-eighth-grade opportunities and Northern Colorado area. Existing organization; additional scoped evidence, not a new club identity.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-3f632a38702f9ee711ab",
+          "confirmedName": "Northern Power Lacrosse",
+          "relationship": "publisher-identity"
+        },
+        "geography": {
+          "claimId": "claim-087dcc3cf82fb88292e9",
+          "relationship": "program-service-area"
+        },
+        "youthProgram": {
+          "claimId": "claim-63fe604fc2a779ed96db",
+          "relationship": "organization-operated-youth-program"
+        }
+      },
+      "participationDesignation": "youth"
+    },
+    {
+      "recordId": "acq-57e51dfea089f3d3647580d4",
+      "recordVersion": 5,
+      "bodySha256": "e32ae102cc034456bf47e3a8fff66feda054809f1c523568454919e123b9262c",
+      "sport": "lacrosse",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Club about page identifies its own Western Colorado youth program and ages 6\u201315. Retain existing prior approval/version history. No active current program dates confirmed.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-bfe241149637d5054783",
+          "confirmedName": "Grand Valley Lacrosse",
+          "relationship": "publisher-identity"
+        },
+        "geography": {
+          "claimId": "claim-6d356d1bbfcb3ff48bab",
+          "relationship": "program-service-area"
+        },
+        "youthProgram": {
+          "claimId": "claim-398ec8b8e9b5511fd731",
+          "relationship": "organization-operated-youth-program"
+        }
+      },
+      "participationDesignation": "youth"
+    },
+    {
+      "recordId": "acq-1d0b018d0766777292f27f00",
+      "recordVersion": 1,
+      "bodySha256": "21c4a70fe6b5a9d9ab0b421c30630acb64c371c3f0cb87dd4041e831f114227e",
+      "sport": "lacrosse",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Club-branded page offers its own second-through-eighth-grade spring lacrosse and publishes Denver, CO location. Spring 2027 is a future season; do not mark current or open automatically.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-cabd7309f0d0dda294c4",
+          "confirmedName": "Denver Lacrosse Club",
+          "relationship": "publisher-identity"
+        },
+        "geography": {
+          "claimId": "claim-5b733b551b911519cc02",
+          "relationship": "organization-location"
+        },
+        "youthProgram": {
+          "claimId": "claim-50360269a2082c74b924",
+          "relationship": "organization-operated-youth-program"
+        }
+      },
+      "participationDesignation": "youth"
+    },
+    {
+      "recordId": "acq-e852a9a3b290e665bac5eee1",
+      "recordVersion": 1,
+      "bodySha256": "790cbebe2e95c9f0621b538076c689224166b3671d890b34a3d4ef455f69e0f9",
+      "sport": "lacrosse",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Official about page explicitly identifies youth nonprofit service in Northern Colorado Springs. Homepage refresh later failed under host backoff; this separate successful page remains dated evidence, not a live registration claim.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-7cae561799c8c3d46071",
+          "confirmedName": "Ranger Youth Lacrosse",
+          "relationship": "publisher-identity"
+        },
+        "geography": {
+          "claimId": "claim-983ab93a9780af8c9431",
+          "relationship": "program-service-area"
+        },
+        "youthProgram": {
+          "claimId": "claim-3b22220da8c91bd9030b",
+          "relationship": "organization-operated-youth-program"
+        }
+      },
+      "participationDesignation": "youth"
+    },
+    {
+      "recordId": "acq-e8cbacd488e2aab0d467f1c7",
+      "recordVersion": 2,
+      "bodySha256": "f16782a12a59e66e7eeeffb664cc08bb0503f5f8d3e2337cba60c8616a713196",
+      "sport": "lacrosse",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Official club publisher describes its own grade-group programs and organization in Denver, CO. Current program date range not established.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-f45e405a1b7caf02a637",
+          "confirmedName": "Jets Lacrosse Club",
+          "relationship": "publisher-identity"
+        },
+        "geography": {
+          "claimId": "claim-126b377aa1baf401765d",
+          "relationship": "organization-location"
+        },
+        "youthProgram": {
+          "claimId": "claim-0fcccde3e7ef06fac286",
+          "relationship": "organization-operated-youth-program"
+        }
+      },
+      "participationDesignation": "youth"
+    },
+    {
+      "recordId": "acq-5b852dba29d729e8353cb43e",
+      "recordVersion": 1,
+      "bodySha256": "4b2cc997631fc069e06c90f85253c836fd9190b65c88f4c3a4443610ab6b3329",
+      "sport": "lacrosse",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Supported public HTML fragment supplies actual club identity and K\u20138 lacrosse facts; JSON config is not used. Explicit Colorado geography is still missing.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-9e71aa8793cff2c93883",
+          "confirmedName": "Littleton Youth Sports",
+          "relationship": "publisher-identity"
+        },
+        "youthProgram": {
+          "claimId": "claim-1ef4c2b6d763cf40c467",
+          "relationship": "organization-operated-youth-program"
+        }
+      }
+    },
+    {
+      "recordId": "acq-82855e98ce9a45f4b90ec78a",
+      "recordVersion": 1,
+      "bodySha256": "28d41b3e7f8bee7731bc05d2421779ab44430efc74debce1d497442c271e2276",
+      "sport": "lacrosse",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Actual publisher home supplies brand and Lafayette, CO location; captured same-publisher navigation links the spring-league child, which supplies grade evidence. SELECT is a program, not a second club.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-18fdf1791f1a5f8a99c2",
+          "confirmedName": "Boulder Valley Lacrosse",
+          "relationship": "publisher-identity"
+        },
+        "geography": {
+          "claimId": "claim-c383f5468979e17224fb",
+          "relationship": "organization-location"
+        },
+        "youthProgram": {
+          "claimId": "claim-866b9034192dad00150c",
+          "relationship": "organization-operated-youth-program",
+          "recordId": "acq-66522d888612c70f5b1daa9b",
+          "recordVersion": 1,
+          "bodySha256": "0e1719fa347e8b6dd0ade56f8ac77114be41e573fd4d8ff579d64c5bc69bb022"
+        }
+      },
+      "participationDesignation": "youth"
+    },
+    {
+      "recordId": "acq-916c0a60f5e59a176d286a45",
+      "recordVersion": 1,
+      "bodySha256": "a70efa139faf1c4bbc35127e929a6bb2d31ef5c2812874b5ff21a829d0bd785c",
+      "sport": "lacrosse",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Publisher identity and captured same-publisher camp link support a published grade-group program. Colorado geography has not been established in the acquired facts.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-ee80c8a440797b127b4a",
+          "confirmedName": "Bison Lacrosse Club",
+          "relationship": "publisher-identity"
+        },
+        "youthProgram": {
+          "claimId": "claim-b5a091e04db8f4957910",
+          "relationship": "organization-operated-youth-program",
+          "recordId": "acq-d15bc3583679d0ca33b9a4a7",
+          "recordVersion": 1,
+          "bodySha256": "d668856f58916de1cd0ec3532a05df09f73dd897297122b0f67d789fa6bd1ceb"
+        }
+      }
+    },
+    {
+      "recordId": "acq-0ae71a22ca9e3669505ef302",
+      "recordVersion": 2,
+      "bodySha256": "f7d404f8ee875f5e4e60b9588bef2352a4e5878a58fe5e6b5d464b984743c4f5",
+      "sport": "volleyball",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Official club page title publishes Aurora, CO; page describes its own youth volleyball and age-group programs. This is first-party location evidence, not a tournament venue or regional-directory default.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-d244aaf9dc6d0db218ec",
+          "confirmedName": "Colorado Boom Volleyball Club",
+          "relationship": "publisher-identity"
+        },
+        "geography": {
+          "claimId": "claim-d244aaf9dc6d0db218ec",
+          "relationship": "program-service-area"
+        },
+        "youthProgram": {
+          "claimId": "claim-71b0ec9fe65e509c42ca",
+          "relationship": "organization-operated-youth-program"
+        }
+      },
+      "participationDesignation": "youth"
+    },
+    {
+      "recordId": "acq-114a3c4f3fb858aced5e83c3",
+      "recordVersion": 2,
+      "bodySha256": "a906a6580a0ee1f6b7a85621ed17fed2673d08c0b2fac5f03ec3b19a5f9c95ac",
+      "sport": "volleyball",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Club-branded developmental page explicitly serves ages 11\u201314 and publishes Littleton, CO address. No current season year/date range is independently confirmed.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-13c0ca7c08482374002a",
+          "confirmedName": "The EDGE Volleyball Club",
+          "relationship": "publisher-identity"
+        },
+        "geography": {
+          "claimId": "claim-1ba043c2c65634cf72f6",
+          "relationship": "organization-location"
+        },
+        "youthProgram": {
+          "claimId": "claim-5ca84a37ede76d5b8267",
+          "relationship": "organization-operated-youth-program"
+        }
+      },
+      "participationDesignation": "youth"
+    },
+    {
+      "recordId": "acq-a52c6b4e873da9610b00aa77",
+      "recordVersion": 1,
+      "bodySha256": "1a36d963a8258f566eda67cae40d3beea922e4aae980bfb6a8f82888faf8e085",
+      "sport": "volleyball",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Supported public fragment contains rendered youth-volleyball content and a club title identifying Denver, CO. Ignore CSS/SSR/configuration strings. No current date interval or open registration is established.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-77c2561c07ce9ef1b51c",
+          "confirmedName": "VC Denver",
+          "relationship": "publisher-identity"
+        },
+        "geography": {
+          "claimId": "claim-77c2561c07ce9ef1b51c",
+          "relationship": "program-service-area"
+        },
+        "youthProgram": {
+          "claimId": "claim-38c1efdda778d7250c8a",
+          "relationship": "organization-operated-youth-program"
+        }
+      },
+      "participationDesignation": "youth"
+    },
+    {
+      "recordId": "acq-9530b5ded6c03862dbda4815",
+      "recordVersion": 2,
+      "bodySha256": "ab4b7a001ab728f01a84439c61d91ff746a50b5ae7dedffb99b68c161afccc20",
+      "sport": "volleyball",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Publisher home provides identity/location and links its own age-group summer program. That published/historical summer offering must not be presented as active in November.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-5c0e05f78f08e8a00ffd",
+          "confirmedName": "Rise Volleyball Club",
+          "relationship": "publisher-identity"
+        },
+        "geography": {
+          "claimId": "claim-ac35ac5ab7dc0d599875",
+          "relationship": "organization-location"
+        },
+        "youthProgram": {
+          "claimId": "claim-3b8dbae261ee040d2c6e",
+          "relationship": "organization-operated-youth-program",
+          "recordId": "acq-f5fc2cf51ccf2a4dd012a75d",
+          "recordVersion": 1,
+          "bodySha256": "9b101ff6709a225511553453e797c2ca57da73ac4f5e99f1e97945c85cced883"
+        }
+      },
+      "participationDesignation": "youth"
+    },
+    {
+      "recordId": "acq-7fb0c3a498db11dac5f25276",
+      "recordVersion": 1,
+      "bodySha256": "fc453b124b5d1d05a8e5d4dcd2ff9d10ee0cf6234dbcd08d33fbf6216925b303",
+      "sport": "lacrosse",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Official linked club publisher identity. Current youth eligibility and separately reviewed Colorado program/location claims remain unresolved.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-bf4fded2e2ecfbf7ee10",
+          "confirmedName": "Kings Lacrosse Club",
+          "relationship": "publisher-identity"
+        }
+      }
+    },
+    {
+      "recordId": "acq-3053540f09ae16a978020aa5",
+      "recordVersion": 1,
+      "bodySha256": "a4eab15420b6d2dc27bb15140cf9d17b7f29bf4f7879d267dd12ebb58e413d7b",
+      "sport": "lacrosse",
+      "reviewer": "Codex public-source review (same analyst; not external audit)",
+      "reviewedAt": "2026-11-10T16:12:55.973Z",
+      "reason": "Official recreation-provider page describes its youth lacrosse service. Explicit state/address evidence is absent in acquired claims; do not infer Colorado solely from the directory.",
+      "decisions": {
+        "identity": {
+          "claimId": "claim-5de3b23c17af7eeb8950",
+          "confirmedName": "South Suburban Parks and Recreation",
+          "relationship": "publisher-identity"
+        },
+        "youthProgram": {
+          "claimId": "claim-7378f76b0747bba0f9ad",
+          "relationship": "organization-operated-youth-program"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+CREATE TABLE acquisition_identity_links(id INTEGER PRIMARY KEY, from_record TEXT NOT NULL REFERENCES acquisition_records(id), to_record TEXT NOT NULL REFERENCES acquisition_records(id), at TEXT NOT NULL, reviewer TEXT NOT NULL, reason TEXT NOT NULL, evidence_json TEXT NOT NULL);

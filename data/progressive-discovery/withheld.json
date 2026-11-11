@@ -1,0 +1,11 @@
+{
+ "methodology":"New six-case source-separated reference sample; no organization from either previous benchmark set or scoped recovery review list. Selected from independent publisher research before implementation/acquisition. Same analyst; no external blind audit. Blocked references remain in denominator and are not replaced.",
+ "records":[
+  {"name":"Highlands Ranch Metro District","sport":"lacrosse","designation":"community","url":"https://www.highlandsranch.org/recreation/youth-programs/lacrosse","host":"highlandsranch.org","basis":"Official district youth lacrosse page: boys and girls introductory program; Colorado district"},
+  {"name":"City of Aurora","sport":"lacrosse","designation":"community","url":"https://www.auroragov.org/things_to_do/recreation___sports_programs/youth_sports/lacrosse","host":"auroragov.org","basis":"Official municipal sports page: spring/fall lacrosse ages 6–14; organization is the city provider, not a club named Lacrosse"},
+  {"name":"10th Mountain Lacrosse","sport":"lacrosse","designation":"youth","url":"https://www.10thmtnlax.com/","host":"10thmtnlax.com","basis":"Official publisher describes a nonprofit youth organization in Colorado mountain communities; prior inaccessible source retained as a hard reference case"},
+  {"name":"Colorado Nationals Volleyball Club","sport":"volleyball","designation":"youth","url":"https://coloradonationalsvolleyball.sportngin.com/","host":"coloradonationalsvolleyball.sportngin.com","basis":"Official club publisher and RMR listed club identity; youth program opportunities, 2026–27 season text is not proof of open registration"},
+  {"name":"Ark Valley Volleyball","sport":"volleyball","designation":"youth","url":"https://www.arkvalleyvolleyball.com/","host":"arkvalleyvolleyball.com","basis":"Official publisher describes youth volleyball serving Chaffee County Colorado; tryout headline alone is not current availability"},
+  {"name":"Colorado Valkyrie Volleyball","sport":"volleyball","designation":"youth","url":"https://coloradovalkyrievolleyball.com/services","host":"coloradovalkyrievolleyball.com","basis":"Official club season information and RMR member reference; Aurora/east practice area; current dates require independent review"}
+ ]
+}

@@ -1,0 +1,2977 @@
+{
+  "schemaVersion": 1,
+  "commit": "50ce75d58074485054e65e92a3b5413591cf1712",
+  "reviewedAt": "2026-11-09",
+  "reviewer": "Codex retention audit of completed RC",
+  "purpose": "Immutable RC preservation baseline only; not an independent source-membership or statewide denominator.",
+  "records": [
+    {
+      "id": "denver-elite",
+      "name": "Denver Elite",
+      "sha256": "0a5ac9c4d1fa7d2e7d9d37297191926f709d09790ea2e67bac2846c107a6cc53"
+    },
+    {
+      "id": "team-180",
+      "name": "Team 180 Elite",
+      "sha256": "240195da6efe680f1bbfc1742fb0c8d7935fbd5b9e096ff069b1fb705a96ee9f"
+    },
+    {
+      "id": "3d-colorado",
+      "name": "3d Colorado",
+      "sha256": "e1620133bf1352e25ab890b88706d89b6a822a363747d51e6c3487f869d438bb"
+    },
+    {
+      "id": "front-range",
+      "name": "Front Range Volleyball Club",
+      "sha256": "5bd4fd4f110fb4e136b88abd539dac6e35b1f940f01352d92589224283f79fe3"
+    },
+    {
+      "id": "denver-juniors",
+      "name": "Denver Juniors Volleyball Club",
+      "sha256": "2da10859235343601328499a1370082f4c030d4a4b6a31ca11d72f4554134b8e"
+    },
+    {
+      "id": "skyline",
+      "name": "Colorado Skyline Juniors",
+      "sha256": "19c845aaf6a12a276362b6e5b4ab045a7f6705912851c61b0ec2e4c74c20b7bf"
+    },
+    {
+      "id": "cbc",
+      "name": "Colorado Basketball Club",
+      "sha256": "14c46ceae2b381f73167806c08c3cf180f0eeb47f9bb21e9b47e1a993d4ecc57"
+    },
+    {
+      "id": "colorado-premier",
+      "name": "Colorado Premier",
+      "sha256": "e465e5ed56aea928c1eb9afad4e4397340965664d9c0c5179bba569c097d813c"
+    },
+    {
+      "id": "dsa",
+      "name": "Denver Swim Academy",
+      "sha256": "233049301857e6f34878f3a0774f2962fd6333c0001e47ae24cccb4564e02ff3"
+    },
+    {
+      "id": "fst",
+      "name": "Foothills Swim Team",
+      "sha256": "e7d27ec3719330992369d60a30d9cb251aa9108fde393ca7c119c91c2a855b68"
+    },
+    {
+      "id": "loveland",
+      "name": "Loveland Swim Club",
+      "sha256": "e285221096be606fc766043489467b5841c8866326832e62e184444fa26040bc"
+    },
+    {
+      "id": "wsl-aspen",
+      "name": "Aspen",
+      "sha256": "55be645dbfe8ec94c3feff78a2f8b3aabc28f4fecd5a3dbfc497f31dbc9510b8"
+    },
+    {
+      "id": "wsl-avon",
+      "name": "Avon",
+      "sha256": "8be185bfacb716c1ba2ef95e5024b5c3be77d935e50b60bf5e767730e3fd4fdd"
+    },
+    {
+      "id": "wsl-cortez",
+      "name": "Cortez Water Dragons",
+      "sha256": "1fa7af1a9e3f89e486ea7f8bfa1aad2dd30263f7d9727f53ff48deb102495f05"
+    },
+    {
+      "id": "wsl-delta",
+      "name": "Delta Barracudas",
+      "sha256": "c0bec62e5988847c3b8ada4a6f155790f1d47e5ebfc957ee7f96d98b9c8e4b63"
+    },
+    {
+      "id": "wsl-durango",
+      "name": "Durango Swim Club",
+      "sha256": "ffaf73d05afc4e8698b924f1efce9762be74f5983489023802ecd6b7d9697815"
+    },
+    {
+      "id": "wsl-gunnison",
+      "name": "Gunnison Stingrays",
+      "sha256": "7bb708c3be785370c491b9042f5326ddf117c024c8229c87d0a27693b21a47b6"
+    },
+    {
+      "id": "wsl-maverick",
+      "name": "Maverick Aquatics",
+      "sha256": "11c1ed3cd55ee131bda835375076ea01417b2062a168e511ab185ad57f91e1b5"
+    },
+    {
+      "id": "wsl-meeker",
+      "name": "Meeker Marlins",
+      "sha256": "e79420a5c509bd85cce210d0ca9f470852ab99fcf6186f804bff7b69a0bfaa6d"
+    },
+    {
+      "id": "wsl-montrose",
+      "name": "Montrose Marlins",
+      "sha256": "beac74f91d386d0e8392713f975b7324c930ce0df0040f5629cddaccd2e6e77a"
+    },
+    {
+      "id": "wsl-ouray",
+      "name": "Ouray Swim Club",
+      "sha256": "a2ba3b30995b90c1b7c91456fc53d34c216ed6375982a355db8c533700e044a2"
+    },
+    {
+      "id": "wsl-pagosa",
+      "name": "Pagosa Springs Porpoises",
+      "sha256": "564133957116f3d08ed9cc40fd426310a065d09edbe469079ed031833466a6eb"
+    },
+    {
+      "id": "wsl-rangely",
+      "name": "Rangely",
+      "sha256": "719d716cf97ea67a21e7f3cd932aae934dc14feefb4f451d543fa5710b640e38"
+    },
+    {
+      "id": "wsl-silverthorn",
+      "name": "Silverthorn Tsunami",
+      "sha256": "2d906d678f6a58a02e45fce96a2bda35133b279050ad0faf77a457eb7deb836a"
+    },
+    {
+      "id": "wsl-steamboat",
+      "name": "Steamboat Springs Swim Team",
+      "sha256": "a7b6673c78b09bd800af6f58796ce556210f85a42599c63a887023c03e78dae2"
+    },
+    {
+      "id": "wsl-sopris",
+      "name": "Team Sopris",
+      "sha256": "c3ad9a1f1a2e50c86361abc4eb4a0e31d0099ce989100084911c51b133191e1b"
+    },
+    {
+      "id": "wsl-telluride",
+      "name": "Telluride",
+      "sha256": "cdfae4204342266bf4b9be33e90dbd9c6c5668c62ea447678877009166a7cb3f"
+    },
+    {
+      "id": "mhsl-wc3",
+      "name": "Willow Creek III Dolphins",
+      "sha256": "46953833d8ab6d0b21f7dad5bbba0f367b14d18412c900c770f0d7c4d0164c33"
+    },
+    {
+      "id": "mhsl-wc1",
+      "name": "Willow Creek 1 Barracudas",
+      "sha256": "af86d66be140b11770b0741f11959d36235351a3ecc56e20578e3ab258087fce"
+    },
+    {
+      "id": "mhsl-fox",
+      "name": "Fox Ridge Foxes",
+      "sha256": "548c9e92866feb06c461e471c467d8fa415e2ae489c5cf19b288640dc2af2828"
+    },
+    {
+      "id": "mhsl-cpvs",
+      "name": "Castle Pines Village Stingrays",
+      "sha256": "c8c81b047d6c69a98fe241bc89a3267eba85b2117e5a348d9c8c5b0ba28b927a"
+    },
+    {
+      "id": "mhsl-monm",
+      "name": "Colorado Athletic Club Monaco Marlins",
+      "sha256": "c1613778a623cec84b308a1fc49a3a77bcbd4622face1c010ae30b9648cbae3a"
+    },
+    {
+      "id": "du",
+      "name": "University of Denver",
+      "sha256": "f8ba318a4a09ca8f08218369921844e1a67b89d79483e3e43e7ad07256625f85"
+    },
+    {
+      "id": "csu",
+      "name": "Colorado State University",
+      "sha256": "c4958a96f75e340d72cf641fdc8c6838c641c9db9e8f2e866bc277932424df9b"
+    },
+    {
+      "id": "regis",
+      "name": "Regis University",
+      "sha256": "52d3aaf55a86c549162e995a90add5ee8355e21658686a1880f7f934e25731b1"
+    },
+    {
+      "id": "legacy-organizer-cll",
+      "name": "Colorado Lacrosse League organizer",
+      "sha256": "de7f1f93f0df25d87605ea104fb1e379cb6a8021a34abd0317c896db01824287"
+    },
+    {
+      "id": "wsl",
+      "name": "Western Slope League",
+      "sha256": "c2a6cfe501b92a7ad1876f3372ac48b0b7ae2ec410e333520fbf7ea18ec9fc06"
+    },
+    {
+      "id": "mhsl",
+      "name": "Mile High Swim League",
+      "sha256": "7bbaa8de19b36fdad2bfbfc090846bd98c69b8af32312833fc784a291b115f35"
+    },
+    {
+      "id": "cll",
+      "name": "Colorado Lacrosse League",
+      "sha256": "edb79a127a4c9a12d3d037c6aa5fd3bfa5ffc18aee198f45d465d68ebc81bd75"
+    },
+    {
+      "id": "de-2031-blue",
+      "name": "Denver Elite 2031 Blue",
+      "sha256": "23ca842673a418be05b5fb148c5675ccc1dece40d14850d472c287661152fa7f"
+    },
+    {
+      "id": "de-2031-silver",
+      "name": "Denver Elite 2031 Silver",
+      "sha256": "e7889cb9149ec7c15edef20716789001adcdf3eb79517a6c37f82ceac12a1f7c"
+    },
+    {
+      "id": "dj-11-kiki",
+      "name": "Denver Juniors 11 Kiki",
+      "sha256": "e7be6ce83fe1ab6e75de89aec1aafcbc308652ea238ca0357a3cf63045928e02"
+    },
+    {
+      "id": "dj-12-caitlin",
+      "name": "Denver Juniors 12 Caitlin",
+      "sha256": "2874e9095b0c8eb11209d8f04e6c8d1053ef2b94d4a62f7b77281c14725033c7"
+    },
+    {
+      "id": "dj-13-susanne",
+      "name": "Denver Juniors 13 Susanne",
+      "sha256": "a8f35da708cac57485c226ee7c014471194dcfb1c083c3d5070d735c1453c725"
+    },
+    {
+      "id": "dj-14-sara",
+      "name": "Denver Juniors 14 Sara",
+      "sha256": "39588424e1771d51392ceb20ef08cf07d100ff7bfd1e9c06bb1caba18f919ffc"
+    },
+    {
+      "id": "dj-14-madeline",
+      "name": "Denver Juniors 14 Madeline",
+      "sha256": "f3d90cb24a027173f0d0c57dc05a32924db48de9cb875fdda8c765b8b0eb38f3"
+    },
+    {
+      "id": "dj-14-nina",
+      "name": "Denver Juniors 14 Nina",
+      "sha256": "9a8d4ddb29ea53adeb045027cb4731e346c1af695b730a1d543ea4a587aeb310"
+    },
+    {
+      "id": "dj-15-nitosha",
+      "name": "Denver Juniors 15 Nitosha",
+      "sha256": "d93c40e8a34e3ec63152373a7a038445b0bdf51f25c77b431facc44091614938"
+    },
+    {
+      "id": "dj-15-andy",
+      "name": "Denver Juniors 15 Andy",
+      "sha256": "7b44c40989a96661a88175e8282c29d89ae328d65991b1fe8a3517f5b6fe2f14"
+    },
+    {
+      "id": "dj-15-sara",
+      "name": "Denver Juniors 15 Sara",
+      "sha256": "ac8bbc7bcbcb14d9efebd170667c6dff337d2deda8c6299784e011203f0f5e13"
+    },
+    {
+      "id": "dj-15-jessica",
+      "name": "Denver Juniors 15 Jessica",
+      "sha256": "0ba68a2a4291572a75fe7e58eac19f20bc2a8509702c80760b0edd9117c46624"
+    },
+    {
+      "id": "dj-16-leah",
+      "name": "Denver Juniors 16 Leah",
+      "sha256": "2eaa3dd34e0dd64f595c1bcf61400c094353cc47fb97c2f0b5f22e7f177ea0a8"
+    },
+    {
+      "id": "dj-16-tim",
+      "name": "Denver Juniors 16 Tim",
+      "sha256": "22872ebb51b073d19dfa2a53e2897e86c2a806d16abddd497d2d74582be52813"
+    },
+    {
+      "id": "dj-16-erin",
+      "name": "Denver Juniors 16 Erin",
+      "sha256": "80a2d3e3ec3493ee897b1279bd2d5a99f6344e217cd0701d1879c70ef3a52177"
+    },
+    {
+      "id": "dj-16-will",
+      "name": "Denver Juniors 16 Will",
+      "sha256": "366c01a65dd0cc80de2a57b1851112120d9678fcaa794bab388395054c70944f"
+    },
+    {
+      "id": "dj-17-caitlin",
+      "name": "Denver Juniors 17 Caitlin",
+      "sha256": "596daa822e94007838cb872ec6511265e6f62d8c724a62f27f345a8c3eececfa"
+    },
+    {
+      "id": "dj-17-adam",
+      "name": "Denver Juniors 17 Adam",
+      "sha256": "116e60f69c86fbf37b23170a92f0cd06b1aafc6997293916f6ac06f58261445c"
+    },
+    {
+      "id": "dj-17-jae",
+      "name": "Denver Juniors 17 Jae",
+      "sha256": "35b994d19458ae46a8a893f56b1ddccc5d6bd4efb8288ce680ea6fc3df12c07e"
+    },
+    {
+      "id": "dj-18-jessica",
+      "name": "Denver Juniors 18 Jessica",
+      "sha256": "cf9e0a978feb75bcf0a4d2f99e4d29ff77fa1720dfc7a3eb493515615657b283"
+    },
+    {
+      "id": "sky-18-royal",
+      "name": "Skyline 18 Royal",
+      "sha256": "c0c20689f7e43292ab8da70d8548c5861c7bc1e0a2ccb0de3f580615a86597f5"
+    },
+    {
+      "id": "sky-17-royal",
+      "name": "Skyline 17 Royal",
+      "sha256": "d64b1013070aae75777a4c95850d719f80ad499ad1286498ed8bbf3a1c0ee72f"
+    },
+    {
+      "id": "sky-16-royal",
+      "name": "Skyline 16 Royal",
+      "sha256": "621aa3b07ef714b259435d96ed7674465c2196cd8caa247e460d65625a3a1a2d"
+    },
+    {
+      "id": "sky-16-black",
+      "name": "Skyline 16 Black",
+      "sha256": "f8c93a1c5e529304e471bae71897db0b934bd1fb42a57e3f39c46720b1d28fc7"
+    },
+    {
+      "id": "sky-15-royal",
+      "name": "Skyline 15 Royal",
+      "sha256": "ab6be39ac92cb5f6a2497355adeb982ba1c7e91d718b51d68781e18a5e44e9f5"
+    },
+    {
+      "id": "sky-15-black",
+      "name": "Skyline 15 Black",
+      "sha256": "c5873282ab410bb9c363c839184a79a499584f80ab78fd0d5c4d8734d71b6794"
+    },
+    {
+      "id": "sky-14-royal",
+      "name": "Skyline 14 Royal",
+      "sha256": "75268303cf6467d8e64e3b35876de058bef4599f4f959fd787e40808dd04403e"
+    },
+    {
+      "id": "sky-14-black",
+      "name": "Skyline 14 Black",
+      "sha256": "c1a5e3522f7715a369713f556847a4b9462592900e54cae84cfdc9fa277fa97e"
+    },
+    {
+      "id": "sky-13-royal",
+      "name": "Skyline 13 Royal",
+      "sha256": "2fbe562a0ffe2e6e4baaa32088e3d31b408ebe678f9cfea1d97f870d2de3bc04"
+    },
+    {
+      "id": "sky-13-black",
+      "name": "Skyline 13 Black",
+      "sha256": "695148c07c4fadfbe03e559664731f7899097fb36e3ebd9fe1bf139cdf7197e0"
+    },
+    {
+      "id": "sky-12-royal",
+      "name": "Skyline 12 Royal",
+      "sha256": "1cfbef502ed91934a32df578ca2cc1d032444bad75cae85bd2865468268242b6"
+    },
+    {
+      "id": "cbc-8th-elite---jr-eybl",
+      "name": "CBC 8th Elite - Jr EYBL",
+      "sha256": "bf6c7264bb917c60432776a4a4afb35a2910229218c95f1e7390049591b1bb61"
+    },
+    {
+      "id": "cbc-7th-elite",
+      "name": "CBC 7th Elite",
+      "sha256": "548addaf17bdefaf2396dccf587541b27beb8789f271426c6c140f4146b74b4d"
+    },
+    {
+      "id": "cbc-7th-select",
+      "name": "CBC 7th Select",
+      "sha256": "1303e20ac7820bbfc9427c3cc976bf9076684f9aba3ab12d66fa12c1911407a1"
+    },
+    {
+      "id": "cbc-6th-elite",
+      "name": "CBC 6th Elite",
+      "sha256": "3944592856436e2ac211805e7b288dabf66ab84e84ceb39729d558124a9e472d"
+    },
+    {
+      "id": "cbc-5th-elite",
+      "name": "CBC 5th Elite",
+      "sha256": "2fc2ac24305a2dc28d73e7b66a2f2a1b0446123d8b8c596284f39883a3008d68"
+    },
+    {
+      "id": "du-lacrosse-men",
+      "name": "Denver Men’s Lacrosse",
+      "sha256": "636cc9485041666d054001017c5c597cff7cc3700bbfb34ffb4d2e83a60f3dd6"
+    },
+    {
+      "id": "du-lacrosse-women",
+      "name": "Denver Women’s Lacrosse",
+      "sha256": "8a724481774dcecf81dcb80e50969a2c62c26911017c4d6006a2a90783f2162d"
+    },
+    {
+      "id": "du-volleyball-women",
+      "name": "Denver Women’s Volleyball",
+      "sha256": "ff42a29bd44a79978cf9c2a96e779a1d04ed6dc9245f057662e838fe91f6de6e"
+    },
+    {
+      "id": "du-basketball-men",
+      "name": "Denver Men’s Basketball",
+      "sha256": "d0fda80efec7576dc7d982fa67f59d2ef7281d4e260febb1e170248a67120e95"
+    },
+    {
+      "id": "du-basketball-women",
+      "name": "Denver Women’s Basketball",
+      "sha256": "419721bfdde2eefb461456889a896eaf820f1980b9a9dc3607224f393fd3830a"
+    },
+    {
+      "id": "du-swimming-men",
+      "name": "Denver Men’s Swimming & Diving",
+      "sha256": "992e47e5e74d70571caa8486142c355ef80fb9d6fd7af0b0e7bbd2b92e91c8f6"
+    },
+    {
+      "id": "du-swimming-women",
+      "name": "Denver Women’s Swimming & Diving",
+      "sha256": "780c60e1395bc0e3e6c022cf1ff001d903c99648446525f04b9fba37bbac1c4e"
+    },
+    {
+      "id": "csu-basketball-men",
+      "name": "Colorado State University Men’s Basketball",
+      "sha256": "f01b92e7a339b7a46a31601232a707db01e3bfdc54f26214a4be9d7f095bec0a"
+    },
+    {
+      "id": "csu-basketball-women",
+      "name": "Colorado State University Women’s Basketball",
+      "sha256": "5c295cec27518692ff11a0b2abd9ed5b7372e1d34039f7fadb83801c96f85f30"
+    },
+    {
+      "id": "csu-volleyball-women",
+      "name": "Colorado State University Women’s Volleyball",
+      "sha256": "56eb5cbb40afad2c27b8a3eddeb7627a43622677a08c9c2ad68dd26daac3e427"
+    },
+    {
+      "id": "csu-swimming-women",
+      "name": "Colorado State University Women’s Swimming & Diving",
+      "sha256": "aeea29777a9fd576b80b78745594e5c86e5626d6d7604fac1bad154faa1e31fa"
+    },
+    {
+      "id": "regis-basketball-men",
+      "name": "Regis University Men’s Basketball",
+      "sha256": "8da240a0d571fc61e7d2d3f51374601dd7207f4874f5d614ca827fc3bf796db8"
+    },
+    {
+      "id": "regis-basketball-women",
+      "name": "Regis University Women’s Basketball",
+      "sha256": "0350bf4f882f92b635b1ec466e66547e46da3430890c7e2201cd05be03af7e7c"
+    },
+    {
+      "id": "regis-volleyball-women",
+      "name": "Regis University Women’s Volleyball",
+      "sha256": "aae002da49384016dc4a93f0107566d6e7b9cd9fb34be32bceeb48a55acb47df"
+    },
+    {
+      "id": "regis-lacrosse-women",
+      "name": "Regis University Women’s Lacrosse",
+      "sha256": "657e5126160ac82b9ba95511e7bec1350b44123997a72d4e3f5f7ed10b31b23c"
+    },
+    {
+      "id": "cll-genisis-lc",
+      "name": "Genisis LC",
+      "sha256": "fcd9f8a266958ef6d28b9667b443fa162e263f9913627bee770a361cb46e1eb7"
+    },
+    {
+      "id": "cll-bushwood-lc",
+      "name": "Bushwood LC",
+      "sha256": "c68a253fc1c2c956261f0a50de287ddc8d51e54009515a00b67debf16322deb2"
+    },
+    {
+      "id": "cll-olde-forty",
+      "name": "Olde Forty",
+      "sha256": "481c0bbf7f35f8fe75933740c7a869e79d53202307aeaeab4e764f464b4b6691"
+    },
+    {
+      "id": "cll-old-dawgs",
+      "name": "Old Dawgs",
+      "sha256": "cb1d8aa9b0ee4065c04ea9d6b18ccb1038ce37981dab7890b3e435652046342c"
+    },
+    {
+      "id": "cll-lax-gear",
+      "name": "Lax Gear",
+      "sha256": "fe9ad5dd7662ed87950b85c151381d8bf0576b79a206804099498c7539099f5e"
+    },
+    {
+      "id": "cll-sports-plus",
+      "name": "Sports Plus",
+      "sha256": "f121e490e1578c66dbd441fab93e0c4c8c61529e3868377d8d99779ab1fa44e8"
+    },
+    {
+      "id": "cll-moose-knuckles",
+      "name": "Moose Knuckles",
+      "sha256": "ffd98d6a071267704988c83cca6519bc2ea6399e219d87700db44dfc73c37b6b"
+    },
+    {
+      "id": "cll-10th-mt-whiskey",
+      "name": "10th Mt. Whiskey",
+      "sha256": "648dd66ff18c833e20fec8fc2eecde247099f3eced0dcce86c61f0ebf05cfd2e"
+    },
+    {
+      "id": "cll-low-back-pain",
+      "name": "Low Back Pain",
+      "sha256": "646f2b267d924b032923d10f7e37aa92ea0aafcfdd0a642d26dcabe5d647cd00"
+    },
+    {
+      "id": "cll-blueberry-bulldogs",
+      "name": "Blueberry Bulldogs",
+      "sha256": "169b9c6fc84c6f4bd3fc4297479b69337a6da0fe1e1fac87a3b1f09117b95fba"
+    },
+    {
+      "id": "cll-mountain-timers",
+      "name": "Mountain Timers",
+      "sha256": "ad7a69570d3c7f827fe4577e6e447652ed9c96bfb9d1260f2587e0a96571d01e"
+    },
+    {
+      "id": "cll-down-hill",
+      "name": "Down Hill",
+      "sha256": "6690667ed07bf73459d34853509c7ffa22c03706caa79981f56194d45ea33cdc"
+    },
+    {
+      "id": "cll-tou-canned-sam",
+      "name": "Tou-Canned Sam",
+      "sha256": "cf330af04b5f61194a4a34a94aa0f7e800d5b548dacc3f2481cb4367156d6e77"
+    },
+    {
+      "id": "cll-fighting-red-pandas",
+      "name": "Fighting Red Pandas",
+      "sha256": "6eaee5d06ce756f368248c41c7dcc28cd69cfb8fc962c387cd41d7828a4d8c2e"
+    },
+    {
+      "id": "cll-grey-herd",
+      "name": "Grey Herd",
+      "sha256": "3835ae8694a77452faf00a86cb31b22a2e684d7e280229c2dc1f6e688dbc7baf"
+    },
+    {
+      "id": "cll-slow-break",
+      "name": "Slow Break",
+      "sha256": "11607071319f62a24e3be980f2c8886dbb84882314167823b3ce918efc29be3c"
+    },
+    {
+      "id": "cll-misfits",
+      "name": "Misfits",
+      "sha256": "f69f4d45e1f790068dce7baef3b1dc1d195ab958b23fc0d1496f125fb463d7a0"
+    },
+    {
+      "id": "wc3-published",
+      "name": "Willow Creek III published division subset",
+      "sha256": "7d6e276c21d1b32d5a468064b227e415aa7f98bfd34cbde6a0ef2bec8901e5b1"
+    },
+    {
+      "id": "cll-fall-a",
+      "name": "CLL Fall Box · A",
+      "sha256": "e41d4898b7587eaf62155444d58693fcc13af76cac2e7948760c3c8d233ae38f"
+    },
+    {
+      "id": "cll-fall-b",
+      "name": "CLL Fall Box · B",
+      "sha256": "65b961a0a6fcda5abe8e0934f28bddd6181493850f6b02fcf21332db45a12c92"
+    },
+    {
+      "id": "cll-fall-grand-masters",
+      "name": "CLL Fall Box · Grand Masters",
+      "sha256": "e706b2e444cca804c6a2364a5d63bb75e04fe762864244bc7fb4888997c2433b"
+    },
+    {
+      "id": "cll-fall-c",
+      "name": "CLL Fall Box · C",
+      "sha256": "522fb0d6ee93872162b40665a80c609ad1d7099009c8fa6f1f818202f6259a35"
+    },
+    {
+      "id": "cll-fall-draft",
+      "name": "CLL Fall Box · Draft",
+      "sha256": "5fc923c7c48b35fac9aa0db281d441b4d5fab026f6f17e8ce4134907f70f646f"
+    },
+    {
+      "id": "cll-field-super-masters",
+      "name": "CLL Field · Super Masters",
+      "sha256": "5d560c9ad2e708291d2a7341656d233347217ade572f8e08694ea35d7e0ccd6a"
+    },
+    {
+      "id": "cll-field-competitive",
+      "name": "CLL Field · Competitive",
+      "sha256": "3e62d439be37aec5dde305882ba1eb5c723b237796f992c03ebefa522f1fb45d"
+    },
+    {
+      "id": "cll-field-recreation",
+      "name": "CLL Field · Recreation",
+      "sha256": "46e964dcf7447c9d8237c1f0ec7b0680bc3e0e418c51416cfcd44fd6ef434f5a"
+    },
+    {
+      "id": "co-organization-4a62ff362978042f8056",
+      "name": "Arapahoe Lake Whalers",
+      "sha256": "efcf0146b254e9224482cbfca0836d2632cfa8679a8cacf947c59b89e64c42bf"
+    },
+    {
+      "id": "co-league-364be7afb0efde6cce09",
+      "name": "Mountain Hi Swim League",
+      "sha256": "62abd6fd9aad0a9818e4ccf13d812bc7cfef15828bde1fe3c2c993e8b217b425"
+    },
+    {
+      "id": "co-competition-162bef5ee4d049ded991",
+      "name": "MHSL summer league",
+      "sha256": "6893900decfb62f2b24cf780b01b6ec0847200f5d2f4edeee6496f128d8a6bc9"
+    },
+    {
+      "id": "co-season-7c3179ae15d26f0a4a26",
+      "name": "MHSL summer league 2026",
+      "sha256": "fc85b9d29606ac736bb29c02dcae32d80b2d17d485c8d29a9ea1599fad274abe"
+    },
+    {
+      "id": "co-division-fec01717b3a8f97be644",
+      "name": "C",
+      "sha256": "6c23daedfc614695d91e20233e1979ea94eaaa5b2d7a893245156172782407d5"
+    },
+    {
+      "id": "co-team-33bfa842152e7919f51c",
+      "name": "Arapahoe Lake Whalers",
+      "sha256": "8b2f176f92020bb6b2e80e39acf075aa53f815dea9fec191c44b9d8a2744b4c0"
+    },
+    {
+      "id": "co-organization-17f23c69d25906499a3f",
+      "name": "Castle Pines Crocs",
+      "sha256": "53c7f2b2f80b09d36df47fcda4329cacb989d38f1567277061c4830dcec47520"
+    },
+    {
+      "id": "co-division-2aff8616dc382cc73e4a",
+      "name": "B",
+      "sha256": "6ef5e237533c8ae01156b5a2014a6134a7948c306ccc959021fd246613fdfd51"
+    },
+    {
+      "id": "co-team-e8e00f7fdab3f62d89f0",
+      "name": "Castle Pines Crocs",
+      "sha256": "46c61214f6a8562513f97b98b21058e8a09269a8622c0d36c4acafe06f8ee313"
+    },
+    {
+      "id": "co-organization-6e7af77cfc6890b7fdec",
+      "name": "Clarke Farms Tsunamis",
+      "sha256": "2ac36322137e819a0b22a23bb2a5fee05d2f63cfd6a8bf495c0cfc0ceb0fd200"
+    },
+    {
+      "id": "co-division-08ae26d9897e44dda63f",
+      "name": "A",
+      "sha256": "1d114930368c39d962cabd86cf817b12b8d81e739eb0c6ca67b0c95074319c38"
+    },
+    {
+      "id": "co-team-e573e5619ebd2a52c361",
+      "name": "Clarke Farms Tsunamis",
+      "sha256": "8eba9e6c4a4d61a76b527d39106d115454a9488bfe5d62388672a7faaaf38a64"
+    },
+    {
+      "id": "co-organization-9e1d7b5bc4468d9be654",
+      "name": "Canterberry Crossing Crocs",
+      "sha256": "bcae447f1ad9d70464af228567dd41b4f73053d83fd636ce4312a28767949905"
+    },
+    {
+      "id": "co-team-cce1f3351eecb804a4dc",
+      "name": "Canterberry Crossing Crocs",
+      "sha256": "d642548595ee5e6826d49bbf97e86156ce139d768a69ec7a0db5e855704b3f6e"
+    },
+    {
+      "id": "co-organization-4f9da23308151205f5af",
+      "name": "Cook Creek Wahoos",
+      "sha256": "d71ce6ddc9f0c1308245ce56d90da0a900a31ac6dd553c174a92d9b99362ebb7"
+    },
+    {
+      "id": "co-team-853e547f5173474fedd3",
+      "name": "Cook Creek Wahoos",
+      "sha256": "378d888b28343b34a3c99b1ce01e930ba6be95ae191dab2779704fcaa3bb8293"
+    },
+    {
+      "id": "co-division-51e6fa4321da05f264d6",
+      "name": "D",
+      "sha256": "69d44bff8632f362668dfa2c3fec1f94c229a24d6689e9542ca3b729efaea996"
+    },
+    {
+      "id": "co-team-807932a8a112f1670a4e",
+      "name": "Castle Pines Village Stingrays",
+      "sha256": "df222ce9ce484c47416f671daca0bc0ec12d7b6563bb992e04c8f833c753937a"
+    },
+    {
+      "id": "co-organization-42e72a97d40d9cc1aad3",
+      "name": "Dam West Dolphins",
+      "sha256": "b52d79049d03da68fda6530b7ae54b3f83c02af4a189cdb02d16c99e7985879a"
+    },
+    {
+      "id": "co-team-4c872b3a15b0f4f54115",
+      "name": "Dam West Dolphins",
+      "sha256": "7037bc511566b63d34dfb8b8cc5cf06adf9ca5f7b2c21485b2b849ecb7315ba6"
+    },
+    {
+      "id": "co-team-34478da024f76dc8e42e",
+      "name": "Foxridge Foxes",
+      "sha256": "8ccc2fdb9f4d84ac906daf498383f950c73df51296eec98f2475768c0f8f5d02"
+    },
+    {
+      "id": "co-organization-5663da1ec73749298ae6",
+      "name": "Hills West Waves",
+      "sha256": "f2dd4d02c8cf04b05699e5795409de082aa3a056b7ebf45665d33bbe25454d2d"
+    },
+    {
+      "id": "co-team-e6b64b5d37b8d684ecd0",
+      "name": "Hills West Waves",
+      "sha256": "1c1f26e014dd2d8eeda0f77878c327ca67f3f12cb22040d93712319bf58b23bf"
+    },
+    {
+      "id": "co-organization-34687bbf50ca7c7eeed4",
+      "name": "Holly Park Sharks",
+      "sha256": "d0d0c1bead3b38b40ecac71cab69c7cea36347605fc994f3b99a0e996231ea62"
+    },
+    {
+      "id": "co-team-dbdb42a13b7a7d90fedf",
+      "name": "Holly Park Sharks",
+      "sha256": "c0298a47a88020b2af1348cb67ca2006244d4382a83498cf5bbab6e7b93572b2"
+    },
+    {
+      "id": "co-organization-468c953296eae2b96b8c",
+      "name": "Lifetime Lightning Bolts",
+      "sha256": "adec50e1ea20e3066a89753ecda77c3bbe526e25a5185a5bbdadc7ad53ff4aaf"
+    },
+    {
+      "id": "co-team-c0c040f41ec60bc6c1d4",
+      "name": "Lifetime Lightning Bolts",
+      "sha256": "8d849a20c674d85ff83b1748fbecdd4bec810d15f79741c4ac35550558a731d2"
+    },
+    {
+      "id": "co-team-f558dc8e866118608125",
+      "name": "CAC Monaco Marlins",
+      "sha256": "5b26b3066bd6b4ba16120a2bfa1585979ae60cae1f7ffa41e1ab15af7f605745"
+    },
+    {
+      "id": "co-organization-6e40e4262df0e50ec7d3",
+      "name": "Piney Creek Heat",
+      "sha256": "2a8e2367fcb6f72fc1f90c6e6cac1bdb5c760e20de293141f3b6fb49ae8d56d8"
+    },
+    {
+      "id": "co-team-5825eae29bb6fcdca320",
+      "name": "Piney Creek Heat",
+      "sha256": "092088315b6147b5b3b493fac4e3abe4c618c0b4b5ac487a0d220c7d1abf5ad2"
+    },
+    {
+      "id": "co-organization-c219ba4c0994fdf67633",
+      "name": "Southglenn Country Club Gators",
+      "sha256": "24a6929b7f98aff7468e62f12d7b10181d9df74590d1b600ea42e5ca952259e2"
+    },
+    {
+      "id": "co-team-cedde0967e22abc29f77",
+      "name": "Southglenn Country Club Gators",
+      "sha256": "6bf9c30bacaba8dc79048c46085d70878ee9850ea21c14cdf8d9bac74ea8ea6e"
+    },
+    {
+      "id": "co-organization-0d44ad8f64b47727fdea",
+      "name": "Southshore Sharks",
+      "sha256": "eb9a084b4672d50de7d5b59bdeffd803b0fb2170ecd1a2d03b498bfc93e64fd8"
+    },
+    {
+      "id": "co-team-7fc22acfe91bcac34876",
+      "name": "Southshore Sharks",
+      "sha256": "a272c4d083e3d8ae4cd121e1eceaf0789f50d24f019df1f94bb58ac4fa41860f"
+    },
+    {
+      "id": "co-organization-4c8fcab92a172737bbc5",
+      "name": "Smoky Hill Sharks",
+      "sha256": "71ac413caed84329614cd9425fd93d8cd17f999763a7875bdef99a5d11f2be00"
+    },
+    {
+      "id": "co-team-7cd711c0ea80f1a66d11",
+      "name": "Smoky Hill Sharks",
+      "sha256": "cdbdbcdd2d54136287099e49d06a7dd97763b1441ebc5a2dd7384e15ff7b7996"
+    },
+    {
+      "id": "co-organization-5cebb868b269f40ef3ad",
+      "name": "Stroh Ranch Anthology Dolphins",
+      "sha256": "956285b374d528737583c4f4a14dd078b3936e97551d7e75542be2ea5013c197"
+    },
+    {
+      "id": "co-team-f7b45b77be48c77faa02",
+      "name": "Stroh Ranch Anthology Dolphins",
+      "sha256": "c9cbfb91f3a1905099c23866852619d7e9e1e23a070ec2a494c1cc3abc1b84be"
+    },
+    {
+      "id": "co-organization-3049c95b9c79e9e51712",
+      "name": "Tallyn's Reach Tiger Sharks",
+      "sha256": "a4225fcd74e14f8598ffa6382d3e37c2b04c6972e05f6ee3d7605610e21da139"
+    },
+    {
+      "id": "co-team-7f737237cf3000998561",
+      "name": "Tallyn's Reach Tiger Sharks",
+      "sha256": "513db57f26e36d4def72243b6b34a4a96808fe90f6a39b9d272a493f514369ed"
+    },
+    {
+      "id": "co-team-20186a197d81732dda05",
+      "name": "Willow Creek I Barracudas",
+      "sha256": "ed5b1b0709a620a9c3ffd40b91293ef54accd034e75f491691a55e481591959c"
+    },
+    {
+      "id": "co-team-4999bc846431dbf821e9",
+      "name": "Willow Creek III Dolphins",
+      "sha256": "411e203b858862a73d92815813c81f3feb3e5aa27f59ba9bccd57aad44300d95"
+    },
+    {
+      "id": "co-organization-2c2b3418cefa13dfbff0",
+      "name": "Wildcat Ridge Tiger Sharks",
+      "sha256": "cacf2fe670313ee7dac14bb767afca1921ed93f000818af4ab9ef89ed80407f0"
+    },
+    {
+      "id": "co-team-6982b567b77bc76d56dc",
+      "name": "Wildcat Ridge Tiger Sharks",
+      "sha256": "2cdd34422204bc1d4700b314f7e764277532c06eb5f432a9a15c2e2b6537a4f1"
+    },
+    {
+      "id": "co-organization-b2bb5daea6dac8a9bcbb",
+      "name": "Aquawolves Swim Team",
+      "sha256": "f69118be1d71c194c06343c8c1e2cf99c80910e49ea6cae26f844949110495c6"
+    },
+    {
+      "id": "co-organization-e5860c86b7c0b76b7a69",
+      "name": "ACES Swim Club",
+      "sha256": "6c87f538c8bfbb42bbd2f19936c33c70fca119af53c126de6d7643fd4a23c44e"
+    },
+    {
+      "id": "co-organization-a32bc598237d07b743b8",
+      "name": "Bear Creek Swim Club",
+      "sha256": "07a308452152cb82eb469fb7ff6fd06f55b9ca5899b54ac2ff6ee60c7aeeea02"
+    },
+    {
+      "id": "co-league-ae5ccba2197b6bf9f077",
+      "name": "South Jeffco Swim League",
+      "sha256": "0e6ad2f089a72f7968416b5c7c69174323c043ceb007b13f52d056fff4540d84"
+    },
+    {
+      "id": "co-team-74133dadf38d4afc1064",
+      "name": "Bear Creek Swim Club",
+      "sha256": "67f43f429056ede404a4a423e31849b066aea576fd0d085a8a51f5863909e6d7"
+    },
+    {
+      "id": "co-organization-a0fb96e6b3e489907488",
+      "name": "Columbine Knolls Swim Team",
+      "sha256": "63ce012424834f00dc63f10013c8480967571f52d602f6db2e5ae43e8e7f647a"
+    },
+    {
+      "id": "co-team-654f7c51d97704b9ecc7",
+      "name": "Columbine Knolls Swim Team",
+      "sha256": "54d80f6aca98a8e623a90ca9533855e1be099945032e2568b0a58493796a8add"
+    },
+    {
+      "id": "co-organization-193f2e291490402720fc",
+      "name": "Governor's Ranch Gators Swim Team",
+      "sha256": "512df9d53e7a76ffaa06604af22f4d1c24fa0f19d440f7808bd3ce43047cea00"
+    },
+    {
+      "id": "co-team-ea83b4f32a6f53f3a433",
+      "name": "Governor's Ranch Gators Swim Team",
+      "sha256": "3060f6cee1b42004b374bc26252f93528b4e03ef5f98e909e02f38da487fa999"
+    },
+    {
+      "id": "co-organization-3d9acf85749e501d8369",
+      "name": "Grant Ranch Barracudas Swim Team",
+      "sha256": "99cdf87942443d3fd4cb8042778bb441320d87805c8db19f5aa1daac37bee6b4"
+    },
+    {
+      "id": "co-team-e2c545b9a4bb6d64d49a",
+      "name": "Grant Ranch Barracudas Swim Team",
+      "sha256": "1ce6229972dbe5cd0e6b61be2de6b53d16130856c4a3617c2a732288e34ba167"
+    },
+    {
+      "id": "co-organization-465d28e04a28475ac946",
+      "name": "Ken Caryl Lightning Swim Club",
+      "sha256": "3f783840931378910d76a0c5c5a3397a0140ecbc48c4c25ffa5ed550cc0c8511"
+    },
+    {
+      "id": "co-team-3a4e2d54847108bdd66b",
+      "name": "Ken Caryl Lightning Swim Club",
+      "sha256": "9d5d855a0544792a85ddc255fd1e0f6dd559f68b8db4351b6cfcbf38917e3a3b"
+    },
+    {
+      "id": "co-organization-bf39f178c2b84aaed927",
+      "name": "Platte Canyon Piranhas Swim Team",
+      "sha256": "789198f51c1aaaf0a409926e193e1ffd79ee06511bf3a7dc349fc68817793bd9"
+    },
+    {
+      "id": "co-team-3ad1b19c7c9e90fde195",
+      "name": "Platte Canyon Piranhas Swim Team",
+      "sha256": "a1611d5052854217b739fb1240fe027324204fee18d303ee340acac0af654ac2"
+    },
+    {
+      "id": "co-organization-2e4c76d20038413ae747",
+      "name": "Woodbourne Wave Swim Team",
+      "sha256": "57c4314e72d84d23f5edb31e5e22ddf334de7ea8397764f06fda5208bac481b1"
+    },
+    {
+      "id": "co-team-8997f7ca4c8c056c0e9b",
+      "name": "Woodbourne Wave Swim Team",
+      "sha256": "41ef2df9a4cc6dafc338d306987e314784c849fd6212d91033ee40d4ba7d4776"
+    },
+    {
+      "id": "co-organization-bb5aec5a25f6fa3d31c3",
+      "name": "Colorado Mesa University",
+      "sha256": "f02964161229852b1a2a1242155ccbf5e41a0217c95183d5c9fb225128661460"
+    },
+    {
+      "id": "co-team-e003976baba00b99dbac",
+      "name": "Colorado Mesa University men’s Basketball",
+      "sha256": "9e6c34e72ecb6786803b14b713d37f742b11769c278257754bcf824aad599fee"
+    },
+    {
+      "id": "co-team-9b0faba40ffc0bb6f491",
+      "name": "Colorado Mesa University women’s Basketball",
+      "sha256": "6fa6f17449cb315a9d8dc81f1b7325aa5c490573c40cd773a120a8136c7fe831"
+    },
+    {
+      "id": "co-team-200b606ea0515da37e01",
+      "name": "Colorado Mesa University men’s Lacrosse",
+      "sha256": "477522f529c3db4e006d9e4bd49f7b5799fa018090aba805375a4f50b1364131"
+    },
+    {
+      "id": "co-team-eb9ec1022841b89ac612",
+      "name": "Colorado Mesa University women’s Lacrosse",
+      "sha256": "57df65c521b4af203b607b9ddaa737f79bbb45b07302efe86ee69f2841605a96"
+    },
+    {
+      "id": "co-team-d31c0ae26f2cfea8f5c4",
+      "name": "Colorado Mesa University men’s Swimming & Diving",
+      "sha256": "2a1f3018047ed5bca88108fb30c3b89770f79f5103b04a04b6c964211035adf3"
+    },
+    {
+      "id": "co-team-8f1e491b971f328782a3",
+      "name": "Colorado Mesa University women’s Swimming & Diving",
+      "sha256": "14e1bb9217093fcdd429bd395186000c6b6665bd93eec17ab68997e7777477e5"
+    },
+    {
+      "id": "co-team-2f5afed8a986f214eafc",
+      "name": "Colorado Mesa University women’s Volleyball",
+      "sha256": "41b4daf56f57167467386f572cc8ae060ecdff367216723cc01eb64187f66620"
+    },
+    {
+      "id": "co-organization-6e899780d09a6602da7f",
+      "name": "Denver Lacrosse Club",
+      "sha256": "c1e2e836202d3b6c695f1353453337c8e8c98bd8e2b90ac5ecd6c229136642c6"
+    },
+    {
+      "id": "co-league-7ea3b5de5eebd535fa9e",
+      "name": "Denver Lacrosse Club leagues",
+      "sha256": "774b932dc4ee2909645618dbe072ded8ed082342282f0c2be5bca59a42113977"
+    },
+    {
+      "id": "co-competition-90a18c30677056341923",
+      "name": "DLC FALL HIGH SCHOOL",
+      "sha256": "4b3aa09ede0109fe2d3ebd1c35108f7533b81bd442d02c112fbc1e70645418e3"
+    },
+    {
+      "id": "co-season-fa3002aee68856105ef6",
+      "name": "DLC FALL HIGH SCHOOL — year unconfirmed",
+      "sha256": "fcaa1c294da775eb8d618586be2cf43bfa625dcfd5fa9503f645f832dc80bae4"
+    },
+    {
+      "id": "co-division-a2d00827c233561c6540",
+      "name": "ELITE-KIWI",
+      "sha256": "43f4e5927d91d8ca61f5c83f2f4a77134f877b42da34bca572040db95bcf9df9"
+    },
+    {
+      "id": "co-team-8017cc89f92b77a92246",
+      "name": "Arapahoe ELITE",
+      "sha256": "a6c29a4d8a41830fdb98d5592fb7aba663fba79eb4a39b7dc929e1cc8f6cb08d"
+    },
+    {
+      "id": "co-team-91d0303d02a6fb3b84ab",
+      "name": "Cherokee Trail",
+      "sha256": "2b840a1e255175b36090cff58f1744af65419f47f210f8c752af5b227bce5250"
+    },
+    {
+      "id": "co-team-1fcd77bc06d832e7dd02",
+      "name": "Creek Elite",
+      "sha256": "8c017b0c239ceeab5e720328072c5f5c3face3235b0dca3919b19a0e282b347c"
+    },
+    {
+      "id": "co-team-685530498079259adfd5",
+      "name": "East Elite",
+      "sha256": "0b20eb588235342aa6df5f9de2ef8ad458107bfe37112208e6dbe6251bef5549"
+    },
+    {
+      "id": "co-team-a3b4a766af787c32106a",
+      "name": "Lakewood Elite",
+      "sha256": "dbec55ad03d33da2e0873367690fcb2f129faa2c56d2c11b42031d97a08d9bd7"
+    },
+    {
+      "id": "co-team-f89030cc04bad753ee3d",
+      "name": "Legend Elite",
+      "sha256": "41abd16fa33f5228b27beaa2828f7634e71e99ef7aa9bbd8b92be31f6eae414c"
+    },
+    {
+      "id": "co-team-ee635d9904714a85f41a",
+      "name": "Rock Canyon ELITE",
+      "sha256": "ab8e7392b0e1974dac23765ff4c47e834b410098fc0cd5eb4dbd4da60a3ee33d"
+    },
+    {
+      "id": "co-division-229056f5b735c69db796",
+      "name": "ELITE-MANGO",
+      "sha256": "a2d33aa48bdf6bbff7259a3908ba6eb5bb104141c94bacb0457648f430d5fb43"
+    },
+    {
+      "id": "co-team-ab8c377c44652e6e7787",
+      "name": "Castleview Elite",
+      "sha256": "611cbd622358b92cff95fc9ea4ac21cb7ab54197d308bccc53e5b1f0ebb82da7"
+    },
+    {
+      "id": "co-team-d0d93f1e8c778191cd22",
+      "name": "Cheyenne Mtn Elite",
+      "sha256": "fa1c2c1d596d66a8017a8d07e385430636c3300f638742e459c886e05482fe95"
+    },
+    {
+      "id": "co-team-f1489110768cc43916f4",
+      "name": "Colorado Academy ELITE",
+      "sha256": "c1e809d4b0a74fdfd653ab4388f55f081010aebe2d118bcd213c12f20c3c1117"
+    },
+    {
+      "id": "co-team-2f52e507881342812174",
+      "name": "Fusion Elite",
+      "sha256": "86ecba1cd12c9f00ae51b56032fba86a7b95bd36c5e7387b4b9ab8d3897d7be0"
+    },
+    {
+      "id": "co-team-97e2151aa87daaff77da",
+      "name": "Grandview Elite",
+      "sha256": "fa651eeacf57d1db368ceb69e87dce6e5d0d51e0cf60d9de5e84f6f2c87cd165"
+    },
+    {
+      "id": "co-team-624a31ff9402444eb7f1",
+      "name": "Heritage Elite",
+      "sha256": "35b4c091f638290f036f7376601588e3f28b9086504b1e60d8fe01cfaf4edeb1"
+    },
+    {
+      "id": "co-team-9845c42c8242eb391320",
+      "name": "Monarch Elite",
+      "sha256": "3059186b7d809d0b1790b428b8c3cf692446d8fc3fff8cb704c318aa40c9c538"
+    },
+    {
+      "id": "co-division-3f84bd190974ac957f0a",
+      "name": "PRO-JV-PAPAYA",
+      "sha256": "12213ff54b2603a27f7ce6e031acea49352a5ff7aca77afcb44ffe191386527b"
+    },
+    {
+      "id": "co-team-22889f12facfd81a598f",
+      "name": "Arapahoe JV",
+      "sha256": "bcd7cd7df55eb1d7e90f4db3c709f9b286f02feea8c3178f5775370478fa9937"
+    },
+    {
+      "id": "co-team-c7d2e27b0ac0e0d8ec07",
+      "name": "Creek JV",
+      "sha256": "8c2e7210cec82fc8d811e35c92d63bd7827bae7ea200371342adfdc12066acae"
+    },
+    {
+      "id": "co-team-e78b4d0787e44daa7818",
+      "name": "East JV",
+      "sha256": "c687ff1d8017b9038f0ecec25a16a231e0b2fac579470aef15c854c3853a1232"
+    },
+    {
+      "id": "co-team-8f39158d1e52fc17ab70",
+      "name": "Lakewood JV",
+      "sha256": "78acf8d44049b0b23e00d212348cf5688536fe3e8d9f13d28f22355e8dea7366"
+    },
+    {
+      "id": "co-team-1f3a9f5c2b4bffad7002",
+      "name": "Regis JV",
+      "sha256": "20b1b6be3f7fd619e05ca9c09a88eb8e8fc6e8d3f542155c3e49629a98ba9f75"
+    },
+    {
+      "id": "co-team-e7e89a25cf1889aaed18",
+      "name": "Rock Canyon JV",
+      "sha256": "8f2fbfb9f58d3af19d9ad280bf913ebe902691788f90b639d3e2f19b63991ccd"
+    },
+    {
+      "id": "co-division-53c32d9164f48a440cd2",
+      "name": "PRO-JV-COCONUT",
+      "sha256": "c3d6a4846e4765d7fe48feb4558aabb3729bb171ebc1eceb021fab01d4116335"
+    },
+    {
+      "id": "co-team-9c7bd1dddd4a3c4eb452",
+      "name": "Arvada West JV",
+      "sha256": "7c15cae46272ef218dac202bac0f7b81e49268b0cc8797b70c78b2f6904eedc5"
+    },
+    {
+      "id": "co-team-356488fb5dddf294b322",
+      "name": "Castle View JV",
+      "sha256": "0bbc7d01518f28bda9a40018864d36cdc407d558fe108064d63d38745a16f271"
+    },
+    {
+      "id": "co-team-1c21595637178a95b019",
+      "name": "Chatfield JV",
+      "sha256": "a29dbcfef8ba092176f26e9ee2889ca116e67c540373990d1118b3de314115a5"
+    },
+    {
+      "id": "co-team-91cb014e3de94f8ad3f8",
+      "name": "Cherokee Trail JV",
+      "sha256": "f7a436bfbe594dd8c6029bd5eaaf92d1044c6166e7adaac54684722c7a65f141"
+    },
+    {
+      "id": "co-team-118e51d8a21394b97941",
+      "name": "Cheyenne Mountain JV",
+      "sha256": "e224be386bec0443214f43baedde8b69c07ecac1fb0bdba2ae43296fb3dfdbae"
+    },
+    {
+      "id": "co-team-b5eb7ab142dd1bb08feb",
+      "name": "Fusion JV",
+      "sha256": "f57ed97858f531c04037c95040ca2629bfbb61a05d423ef0537da481b1d3939d"
+    },
+    {
+      "id": "co-team-c08fee3833d01c39959a",
+      "name": "Northfield JV",
+      "sha256": "8ffc823f7550f25c78704366357e90b87552299220eabb2a0e36f1b9f88fb488"
+    },
+    {
+      "id": "co-competition-b802cf6c095a2b90c3d4",
+      "name": "DLC Fall Youth Boys",
+      "sha256": "9b5d67e50584793b46560284f27d0c0ae64720e520cdcabf3df02e82e6a4ef5a"
+    },
+    {
+      "id": "co-season-3c9157e437473674ed19",
+      "name": "DLC Fall Youth Boys — year unconfirmed",
+      "sha256": "f3c3b287455ebb948e7b7da2be9a2626f225d8e33c5ac84ecce832c15cfaec52"
+    },
+    {
+      "id": "co-division-b01e1c9891c7b7dcbe08",
+      "name": "34-Grade",
+      "sha256": "c4cd07eed4d0f9baaaedf3304a755450a73d8119009ecce8fc146d2357ef76e4"
+    },
+    {
+      "id": "co-team-0eaae40e28955361d7aa",
+      "name": "DLC Dawgs",
+      "sha256": "13a6a53cf2004e99489dc5eaad7af6f473da397b01eab53a4d0af9f0feb9eec1"
+    },
+    {
+      "id": "co-team-2f044155560b3cf01520",
+      "name": "DULCLax",
+      "sha256": "c5fcd37bf6a9c8d15c0c71295a9be741dc46b3810055e008621701f72d41e319"
+    },
+    {
+      "id": "co-team-6f6d7f86a334a6fcb3cf",
+      "name": "Foster",
+      "sha256": "6a1bbe2647692fccc96b55de034fd3efbf8b816ef5dbc9009e3cdc751b8ae7ff"
+    },
+    {
+      "id": "co-team-1964b6b9d750fb904823",
+      "name": "Powell",
+      "sha256": "a2b1ec5daf4b486682058a07ac268dcd5b953be23f01d9ad4e5de2c1566bb715"
+    },
+    {
+      "id": "co-division-3b6561a151643a644cca",
+      "name": "56-Grade",
+      "sha256": "a6a9aec973b41876e2d7f18d195c310787048ec2355dba880d84598b8cdb3b50"
+    },
+    {
+      "id": "co-team-76f8eb7f4d52555935b0",
+      "name": "5/6 Louis",
+      "sha256": "9a390b65a7082b53077c108afd3926a2cbe66192bb888244ab242b0e9c6faa73"
+    },
+    {
+      "id": "co-team-05256481f0e16639b776",
+      "name": "DLC Fusion",
+      "sha256": "0b5285a0a5999d070e47d6e2c0d0aad32e05b892eb9afe16ad84d88a9e8d154c"
+    },
+    {
+      "id": "co-team-44bf50ad045e7ff4ded9",
+      "name": "DLC Kerwin",
+      "sha256": "101b6105a0800cc58de9cf83927a8313d28a607fe45709a6c1a3e121a8601af5"
+    },
+    {
+      "id": "co-team-699ed4739e443ffc3ea3",
+      "name": "DLC Sillstrop",
+      "sha256": "92753baa5cf1ff6cbf61a208bcc4f66d1b734a92fd8147dd3274f9d6b7ff1ea4"
+    },
+    {
+      "id": "co-division-93abab96e0abfb8f4d7a",
+      "name": "PRO-VARSITY-GUAVA",
+      "sha256": "11cd75f7abfe7fa2d6ba7857a99afa5cfc7f470e41d28f2a28556a2c15eb82af"
+    },
+    {
+      "id": "co-team-ef3bed53068fc1176870",
+      "name": "Air Academy",
+      "sha256": "a31018a65388ec00bf8391be283224b0a8679bbb219983ac6a63582e3ff5e5d6"
+    },
+    {
+      "id": "co-team-38160cf2a010dd8adb08",
+      "name": "Chatfield",
+      "sha256": "e3e1086f94ea659cc79b3d46151bf051c4c34468756842f4137fd63f383f4423"
+    },
+    {
+      "id": "co-team-6b9dc57767cee11d907c",
+      "name": "Creek Pro Varsity",
+      "sha256": "fdd169b32fd1de85eefb0d68b7a4d9a5dd498df4e575a1dcc180b035ef9b6d42"
+    },
+    {
+      "id": "co-team-a2d0caf92605db21c32e",
+      "name": "Lutheran",
+      "sha256": "2a67bf08a108ba25d43bdde71b87b2b1d1ddbe962b4a412c9ce945a96e1ce2db"
+    },
+    {
+      "id": "co-team-82bb8e81a4761ee3a5fe",
+      "name": "Northfield Var",
+      "sha256": "199a239d3ddc595ce0e31e2ff2682bed7b99772fb61f33ff449bf2538fc3fc31"
+    },
+    {
+      "id": "co-team-8b828a34d3107a0c3cac",
+      "name": "Rambels",
+      "sha256": "4383adee1ac9fed9d2caed9d04326d64f953e8a1927b7c9d19949821cc7befd9"
+    },
+    {
+      "id": "co-division-170557504cf0b180ee32",
+      "name": "1st2nd-Grade",
+      "sha256": "af8eaec577d870e18d7433a1a78961533d4c8b7574c1e816f38efadc03d712ee"
+    },
+    {
+      "id": "co-team-89630fc98e7afd80531d",
+      "name": "Davis",
+      "sha256": "174ea9d965ad12d62702671afa293f64668d277ab05580f4bce1901962de26b8"
+    },
+    {
+      "id": "co-team-1107724ba9a42331d647",
+      "name": "Harvey",
+      "sha256": "61504122de1dd010001a89bd89d5e7e859c8667359e435a1616078d75510b752"
+    },
+    {
+      "id": "co-team-bac08384cb050c1f9532",
+      "name": "North FA Matt S",
+      "sha256": "deb841e8b8f84403fda404e20a5353fbe17cd327e0283d9551f72d2bf837ee66"
+    },
+    {
+      "id": "co-team-ec7871bdbe33cd25564e",
+      "name": "South Spilker",
+      "sha256": "a2be3e88cc9d27f2df38de79c83ff73a5adb7abc428a55bb1476ccc8c6cb0807"
+    },
+    {
+      "id": "co-division-553645fa54d7e5f06f67",
+      "name": "PPO-VARSITY-PINEAPPLE",
+      "sha256": "7de19887b937a2db4b3a338017ea01ba34e072a3935dd29b5ee3dae157f4bd39"
+    },
+    {
+      "id": "co-team-05de46f5c2a1de8813b0",
+      "name": "Dakota Ridge",
+      "sha256": "750a163af3e87b5bf5ec611a7cc97a0a918823603c67687dbf6e50b1ade16e11"
+    },
+    {
+      "id": "co-team-d497baf061ce44bf99e3",
+      "name": "Eaglecrest",
+      "sha256": "fbae10a8f9e2c2fc4b3db7f41e5bd706e07d17e1d472fa1609a2c2eb88a9746f"
+    },
+    {
+      "id": "co-team-272bca5889e0dffef541",
+      "name": "Fraser Valley",
+      "sha256": "072e7b2250dab594a33f50630de374bdbaa5eae42d77cbe45c516b2e440c2580"
+    },
+    {
+      "id": "co-team-07c84db6024927348000",
+      "name": "Lewis-Palmer",
+      "sha256": "493a89214d085245a831a37f0704e7c433e012d3a14faec4045d76487fa31278"
+    },
+    {
+      "id": "co-team-fbb2c7b4209f1d290a4b",
+      "name": "Smoky Hill",
+      "sha256": "c0b7fa6b9555204d387018a8f2eb1dd93f6c80d766eaf298ee6e33a98f49fa71"
+    },
+    {
+      "id": "co-team-ed685d1cac8e33139320",
+      "name": "South",
+      "sha256": "996b139a308564b5aa898489f94f0d92f0638f148554ca0bd176da4cb764c81a"
+    },
+    {
+      "id": "co-team-c91e8ed38932fadbd5f4",
+      "name": "Thunderridge",
+      "sha256": "1afeaecd6f06cfb7366b6778b5945124db58e2522f9ce66de0a45e3c62945140"
+    },
+    {
+      "id": "co-division-44007279a38d1e333e7b",
+      "name": "CHAMPIONSHIP-GAMES",
+      "sha256": "e02ae6c7a276429dac73e18c6c464a5b5e04472c3d9988815fce2e62f12a1550"
+    },
+    {
+      "id": "co-team-298386195ac3cb333b89",
+      "name": "Air Academy",
+      "sha256": "1ec2fc36fa4745dd42bde29627ad9a91908fbd4f729491dc8779ef84e1f0bde3"
+    },
+    {
+      "id": "co-team-1466ae5fbdd0ea7e82a0",
+      "name": "Arapahoe JV",
+      "sha256": "b7e95a96f6231a7004a2adb40cbd894f7e94a41c03c54fc392bee4da24aec02c"
+    },
+    {
+      "id": "co-team-b184b5d41857b595b579",
+      "name": "Castle View Elite",
+      "sha256": "db27ddb74fc6770dbd0132470b7039ef8e8bde70c06d84854a2e9baad51d6757"
+    },
+    {
+      "id": "co-team-b606156647345ff15968",
+      "name": "Fusion Elite",
+      "sha256": "9f3311f85db7fd27077a3c6dbd3218d0344c6e12fb7b6dca0e372b968b3ba2a9"
+    },
+    {
+      "id": "co-team-c59b23233094101d9204",
+      "name": "Lewis Palmer",
+      "sha256": "740f8606dfc9b012d81d79d1d0e495c79d4eb87948d17721d68e0d51e3e866f9"
+    },
+    {
+      "id": "co-team-8cb9856a2fbb89afcaac",
+      "name": "Regis JV",
+      "sha256": "acfb0e079a8f74ac15e45fa33daf0ece6bf50c0dff88b8a80a8c9b7e9e127993"
+    },
+    {
+      "id": "co-league-8cb65b6a0e237b23cd09",
+      "name": "Foothills Swimming Association",
+      "sha256": "7ad96a177167159014ee3aec07bbcac9fe9b278b57a348fd79798ed3bc0fe60e"
+    },
+    {
+      "id": "co-league-61dbf5a5500c22c82a05",
+      "name": "Metro League",
+      "sha256": "dee72eef1c28b4859f99845ee2419029b930444e2da0d5762da239ea0f1d30b8"
+    },
+    {
+      "id": "co-league-022bbf52ac9a61386d61",
+      "name": "South Jeffco Swimming League",
+      "sha256": "75d320f34411b3c42696e78ff8334cc76d7d863e13c887deb6bff4964119f74e"
+    },
+    {
+      "id": "co-organization-e6924f68601d80f9537d",
+      "name": "City of Longmont Recreation Services",
+      "sha256": "98081c5102d1a2caa488bea6e7cf5c47ee6a358514a01465912ff92b428821f4"
+    },
+    {
+      "id": "co-community-a86d7409d2a508f8ef4c",
+      "name": "SCOPE Assisted Swimming",
+      "sha256": "2de6b5c9791bfe90f66bc28bb552b2804f638facf6af383bd566ecba8f6fc132"
+    },
+    {
+      "id": "co-community-4431e4d2a90031d263a0",
+      "name": "SCOPE Basketball",
+      "sha256": "13af7616920a9c4ee555d8ce02690b2ddfcc297d71f9d34355654a56a6cf4a21"
+    },
+    {
+      "id": "co-community-94d9cc62a5536ce5151c",
+      "name": "SCOPE Independent Swimming",
+      "sha256": "744523bf9bf1ad66b2d074f1a37c7e1244fb79efc6b31c9a1f1bb12ceb8319c6"
+    },
+    {
+      "id": "co-community-229fd80f09f3d0210e61",
+      "name": "SCOPE Volleyball",
+      "sha256": "65159c92044d6c6c774dfda6878b466cbff4a54c2833276c9b9ffc02efed70f1"
+    },
+    {
+      "id": "co-organization-46fb90038203de77f3ab",
+      "name": "Montrose Recreation District",
+      "sha256": "738c596ff357e0a59119632556592700fc18b4bfe32d8ebe4d6276fcc0570574"
+    },
+    {
+      "id": "co-community-77c4b0e83fdb5856b54d",
+      "name": "Montrose Adaptive Swim Lessons",
+      "sha256": "7b916eccc74d0e6670355bac99956b91d76dcce86534394e0b3bae5142badb0e"
+    },
+    {
+      "id": "co-organization-24fcccf8ae0879827be0",
+      "name": "Denver Parks and Recreation",
+      "sha256": "c048e59fd98c6bf9f04e2e090ff89d1f9b5ca73565181abc399b5bf7d40e8471"
+    },
+    {
+      "id": "co-community-8b01c82b9b5c2b7daf9b",
+      "name": "Denver Adaptive Swim Lessons",
+      "sha256": "b0efed8317d2d40572b2fa0931018bbf26a491a84d4301ad86b634086c1b6ef7"
+    },
+    {
+      "id": "co-community-e0a785cb418bec5e5b52",
+      "name": "Denver Special Olympics Basketball",
+      "sha256": "b1385c11c19b1361b87d2721efcf0e67cf8cbc004ba441c0a7fd2a9769429e74"
+    },
+    {
+      "id": "co-community-dcebde56222ffa01374d",
+      "name": "Denver Special Olympics Volleyball",
+      "sha256": "f0e8a5c5432301c34c575031b5bc40170442f093661da3c6ecf1d433820706ec"
+    },
+    {
+      "id": "co-organization-3a41fc264010e0c2637a",
+      "name": "Foothills Park & Recreation District",
+      "sha256": "9d92cad1f3b473c770d38a731de8e2bf0d669f4818263e275d2e5fee5972239c"
+    },
+    {
+      "id": "co-team-3ce4cdc921b9a701e4ca",
+      "name": "Foothills C.A.R.A. Swim Team",
+      "sha256": "a7e91cedf1ef06856232b070e01bd10caca401a989fae58ba0b655b066df395b"
+    },
+    {
+      "id": "co-organization-ab969bf11a4f9cc905b7",
+      "name": "Central Park Stingrays",
+      "sha256": "2bb7fe05327db1ac4f7fbd86182c4d8c069f072ce109c1ad0a092847c99d13b5"
+    },
+    {
+      "id": "co-league-b61cc6d31da64fe70ccd",
+      "name": "Denver Metro League Swimming Association",
+      "sha256": "5099fb41488f8ef2cd3614e01b04e74d836cdfd6ccb5a3a673925cba01d75d52"
+    },
+    {
+      "id": "co-team-260635b1f1b7868c0faa",
+      "name": "Central Park Stingrays",
+      "sha256": "6717accadcf93368622d9b9122a388709c18a7a5555a94fba80310fc072f1464"
+    },
+    {
+      "id": "co-organization-c4312ba348f6c25b8453",
+      "name": "Crestmoor Community Association",
+      "sha256": "0a6707e61a075af61e8257089f836997324ef2772f01ff01e32b3adda59520c3"
+    },
+    {
+      "id": "co-team-8929b79e51dc748aebfd",
+      "name": "Crestmoor Community Association",
+      "sha256": "d5b6ad7e02b2695fae958dc0273156550a353e9cc8d1b12290004368b6b16cd7"
+    },
+    {
+      "id": "co-organization-fd27de67814cd96f4517",
+      "name": "Eastmoor Swim & Tennis Club",
+      "sha256": "3803c904aabf486a2033fcb1735668e26d9bb6f0faeea86209b3fe23eba1c023"
+    },
+    {
+      "id": "co-team-d0051c018166e2f791d5",
+      "name": "Eastmoor Swim & Tennis Club",
+      "sha256": "a2b8c79b990689e3cbf047b39887569650f3bee1d4b7af5b36c486cf0602dba2"
+    },
+    {
+      "id": "co-organization-16de9c0887a7e99d96ed",
+      "name": "Skyline Acres Swim & Tennis Club",
+      "sha256": "ef9526b829a42fcefff2cf84503e27d6022808941a41511f8c83c69a333de586"
+    },
+    {
+      "id": "co-team-37190d3909d52dcb1d1f",
+      "name": "Skyline Acres Swim & Tennis Club",
+      "sha256": "481b2d27216d550a0b5f1d80fd5c7eb6b130b2c9d302ba0a72ecc07e2cc338be"
+    },
+    {
+      "id": "co-organization-fcf7240d45dc718b4b6d",
+      "name": "Virginia Vale Swim Club",
+      "sha256": "13cf0464b054328f5b37ac214c88435fcb8f8e28fb5827535dae27b5a06fb429"
+    },
+    {
+      "id": "co-team-66aa385bbde54210dcdd",
+      "name": "Virginia Vale Swim Club",
+      "sha256": "53c2fdbaec51850a2a59ed1454b2be7a4445ae9ef28b5b65b35bcb9c72a6d36b"
+    },
+    {
+      "id": "co-organization-e8c9cbf9b100aa4b3923",
+      "name": "Fort Lewis College",
+      "sha256": "8d213e3dc638548bdaf56b264d0c70b141667ebca6dc2b70e01f075741561f46"
+    },
+    {
+      "id": "co-team-9517a1ef516ff6151da3",
+      "name": "Fort Lewis College men’s Basketball",
+      "sha256": "e75c5820488d6a9c865a4e8bb813a1c183bf22acaddd540f2e0b6bf08bed9c9a"
+    },
+    {
+      "id": "co-team-7ce2649e7783f10447c8",
+      "name": "Fort Lewis College women’s Basketball",
+      "sha256": "7fb6ad5fb845aa9a4a6e076d0f368893dc17fc95edd143f2374733895dd2b07c"
+    },
+    {
+      "id": "co-team-75531dbb12057e812d28",
+      "name": "Fort Lewis College women’s Lacrosse",
+      "sha256": "e151f0d60f7f450ea5c12546e181b07d11155582b48109f2d09c7c77cec22ff1"
+    },
+    {
+      "id": "co-team-7d2743726e24d520c455",
+      "name": "Fort Lewis College women’s Volleyball",
+      "sha256": "5413bec7e3efbe2726f906199dabedf883e79f88a19a1fd5f72214c747aa9897"
+    },
+    {
+      "id": "co-organization-8c2bd3b2a4b8ed579db2",
+      "name": "5 Parks Stingrays",
+      "sha256": "756e1236487006c1e565a1bad45396063ed35f3185b9979828acfd669d4fbde4"
+    },
+    {
+      "id": "co-team-8493d24ff57a28579df3",
+      "name": "5 Parks Stingrays",
+      "sha256": "f09dc345dc1b25ae68ae7919c228e40cf87ea7a25fae8d54a053a22f04b51255"
+    },
+    {
+      "id": "co-organization-cb813542359593345d3f",
+      "name": "Applewood Athletic Club",
+      "sha256": "40617a8b33d168e6e8ebf26ee5e7a5d279e0980a1d83ba0a7a1516aab5ab4b45"
+    },
+    {
+      "id": "co-team-9612e48cad78a479de8e",
+      "name": "Applewood Athletic Club",
+      "sha256": "487b869ef8767377ab210b9beb2353a081db285a9292153b933df80120df2477"
+    },
+    {
+      "id": "co-organization-1e28e851bcf87f220ed9",
+      "name": "Applewood Knolls",
+      "sha256": "5cf4d365c4834e7b8c8267255e7a166f7cef1b2322446f8d605d48485fdb9025"
+    },
+    {
+      "id": "co-team-c421578c186228d686b2",
+      "name": "Applewood Knolls",
+      "sha256": "d0be7053c065aeef08e3c84c8607aef4a2373ba6f3f5bf8c033a8182922f8c76"
+    },
+    {
+      "id": "co-organization-945ce80f03a6422a1197",
+      "name": "Genesee",
+      "sha256": "b4986d3e8d5200df4028a09da0d8feaf76e1655ebc85e43b93964675b370bcd5"
+    },
+    {
+      "id": "co-team-efe5f8b8925a143bc5c6",
+      "name": "Genesee",
+      "sha256": "5876451f7cf08c7ac57bb1fc084c1a2dd1613e1b66ec6f73d6bfd8d60884eab6"
+    },
+    {
+      "id": "co-organization-dc9b25cba93e2926ef91",
+      "name": "Golden Marlins",
+      "sha256": "8c13f04d63b3e239660c639d09e2da834390dcfaaab2b6fe7f8766aa3c2218e1"
+    },
+    {
+      "id": "co-team-0ad6edc2c0ff2437aeb2",
+      "name": "Golden Marlins",
+      "sha256": "3641be5a16fa6f98a1f2fe9fff44f23c29306b63aed343dbbe91efa48bb1f2f7"
+    },
+    {
+      "id": "co-organization-e34f7904c071fce76506",
+      "name": "Green Mountain Swim Club",
+      "sha256": "f7b4f509db903bf76a144d5dc77ccf1b6bd5b26b8815b7dc9d9f13847ab2b11b"
+    },
+    {
+      "id": "co-team-9157cd0d9d40c2b9d896",
+      "name": "Green Mountain Swim Club",
+      "sha256": "e864ef0d70919a25fd1b8fb44afef0130cd692a6c632724c0f09f31c433b53dc"
+    },
+    {
+      "id": "co-organization-eccee8f4d6ef69cb249f",
+      "name": "Stingrays Swim Team at 6th Avenue West",
+      "sha256": "2f8c47ea0b346e3826b113b7eb502c0f21cf174eb1f1b8fc6a8c28e6491531c1"
+    },
+    {
+      "id": "co-team-09a9e0a50300fb49f106",
+      "name": "Stingrays Swim Team at 6th Avenue West",
+      "sha256": "3b269cd87d32b9400a6e61e95b3f5920c9aded60658b296b2698ecc0508ce845"
+    },
+    {
+      "id": "co-organization-a69fc6a2840bccc5b775",
+      "name": "Wheat Ridge Swim Team",
+      "sha256": "673555161c9f11bf42e8bab68dcdaf0de93ed5f435f12e6918a52d85198a3308"
+    },
+    {
+      "id": "co-team-c879241d4f3a0896c44a",
+      "name": "Wheat Ridge Swim Team",
+      "sha256": "0d20d96018f96a57119f35d38c3baa7f9587d40846973918b4b2c2cea2fd113f"
+    },
+    {
+      "id": "co-organization-430c29207d7d504cb29f",
+      "name": "City of Burlington Recreation",
+      "sha256": "a0734cc2fbc5ace64b0ae8525324570fb43e90b158875164e8853344b09240da"
+    },
+    {
+      "id": "co-competition-3ea8cb6059700a11d34e",
+      "name": "Burlington summer swimming",
+      "sha256": "8124b91688edb78ebfe30ce57957fddc1c101f1e039dff07f9159866080934cf"
+    },
+    {
+      "id": "co-season-f13682f987a4a9f1448b",
+      "name": "Burlington summer swimming 2026",
+      "sha256": "74d9b3dad7531aabda9ea9a4766045c8c8e0f29e717868b5d1d7f1535dec49af"
+    },
+    {
+      "id": "co-team-4ec3134a1a455b07a6d9",
+      "name": "Burlington Swim Team",
+      "sha256": "9706854f5ec50b22c992794bcd5c74d336d360313050a1bf0b126656bb6bbe58"
+    },
+    {
+      "id": "co-location-c229156f474ee9c20ea1",
+      "name": "Burlington Swimming Pool",
+      "sha256": "65ead684fa050b80e222c2f4c5f608bee7cd345da33a56f497ec6d617f38a8e3"
+    },
+    {
+      "id": "co-location-5327910afda099560b03",
+      "name": "Trinidad Family Aquatic Center",
+      "sha256": "9657600ac345c893295369a84f33ca1c82cb5417715f873e0f9969d2cd81617e"
+    },
+    {
+      "id": "co-organization-72ecd96bff5a476e027a",
+      "name": "Adams State University",
+      "sha256": "90207c2cb8fc761441c6b4fbf085e1512efba85f81db211d671250375810a114"
+    },
+    {
+      "id": "co-team-cfe99cd5aeb908d16b17",
+      "name": "Adams State University men’s Basketball",
+      "sha256": "dfd40cc9333a8142a6a16dcbfdfb3bed6928100675371a0638d95115d4145a29"
+    },
+    {
+      "id": "co-team-28694898d4a2598b0054",
+      "name": "Adams State University women’s Basketball",
+      "sha256": "6ae007fcdcb37f235b827759bff14b8b23d58b4e2e3ff7b10ffbb9e61cdcdd7c"
+    },
+    {
+      "id": "co-team-bbc3d4b1cf97afba2f18",
+      "name": "Adams State University men’s Lacrosse",
+      "sha256": "acede688a6327f911466e78022fd1e7ef8918b9b2ec8daa58dd7b2c456a0dc3c"
+    },
+    {
+      "id": "co-team-b1b519f711d04eb63732",
+      "name": "Adams State University Swimming",
+      "sha256": "f2d5dc04fff07b5534977f06868e7fc3fc5897658a53c9603496bc3387780785"
+    },
+    {
+      "id": "co-team-1449875af4fb2809424a",
+      "name": "Adams State University women’s Volleyball",
+      "sha256": "515320e88ea8c22c176e75931e95d133c77b5336e967a40691a63092591c1235"
+    },
+    {
+      "id": "co-organization-782b23d3aeb403bf4668",
+      "name": "Colorado State University Pueblo",
+      "sha256": "0371f58200b4637c8577543d11ad54ab6ff3c17a10c57c66f1f3fdfb189cbe8d"
+    },
+    {
+      "id": "co-team-20fa867bb50a540269b8",
+      "name": "Colorado State University Pueblo men’s Basketball",
+      "sha256": "d457ae69911be988aa875fd0ef1b894a9440fcc4cb2de98a92e635a5c76e0022"
+    },
+    {
+      "id": "co-team-6d7c454d9f7eef98b8d4",
+      "name": "Colorado State University Pueblo women’s Basketball",
+      "sha256": "f7e6ceff7f7aed07d9d3d1c55e649cc88cab335d45ff202c57adfcc86125b4c1"
+    },
+    {
+      "id": "co-team-5a21c362867dbad37e98",
+      "name": "Colorado State University Pueblo women’s Lacrosse",
+      "sha256": "5d501ac3596fdbb9c5befe0c1af4bd5e5645d6897069e812af84c217ba5e453f"
+    },
+    {
+      "id": "co-team-388d0e028e1a67ebf908",
+      "name": "Colorado State University Pueblo women’s Swimming & Diving",
+      "sha256": "1318c1b400966c54c120cb4c708c161f179c27efb5f6fa9eae482c8a28cf7ab3"
+    },
+    {
+      "id": "co-team-0494efdd50b8a6d83955",
+      "name": "Colorado State University Pueblo women’s Volleyball",
+      "sha256": "bf7550e9da3c50bd4d0272f4eaf890ac7a9cbe75989e16230fc24df7892b5d43"
+    },
+    {
+      "id": "co-organization-ee7cf5a0bd5785d5a8c4",
+      "name": "Colorado College",
+      "sha256": "c58686c2fad758328c641db99a41c12263e30e67cac892bb11e1f51d42e85c3c"
+    },
+    {
+      "id": "co-team-4ca6b92565adea41d464",
+      "name": "Colorado College men’s Basketball",
+      "sha256": "2a415bb3ccb962ee85ee98627e5118f6103164babba6771707f2667dd80d3d12"
+    },
+    {
+      "id": "co-team-a6910396d8da5499f2c0",
+      "name": "Colorado College women’s Basketball",
+      "sha256": "b4c843f43a5dc5e622639f382cc47ee10aa3c5bbd49547726fb5a1e0b0e00b9d"
+    },
+    {
+      "id": "co-team-7bf13589aecc27551afd",
+      "name": "Colorado College men’s Lacrosse",
+      "sha256": "a5ea427f5a05b965f5e71dea86f37cc79182ac05df7e43f5d912092fdfb0db03"
+    },
+    {
+      "id": "co-team-e6aeca0896dd5373f937",
+      "name": "Colorado College women’s Lacrosse",
+      "sha256": "ad6e9a203b5a3efdd8aeb737da01662791fb2b07fd2b6bb9212cb6ba108bfb0d"
+    },
+    {
+      "id": "co-team-5a02bf8f1cef6f53c5e5",
+      "name": "Colorado College men’s Swimming & Diving",
+      "sha256": "2cdc2c3a8c7cabe9342dc4a31d02590699c7a5b6c99100e5ec36e65de26e6646"
+    },
+    {
+      "id": "co-team-9c8250fe801778c9502a",
+      "name": "Colorado College women’s Swimming & Diving",
+      "sha256": "c30d161e2c2b87e97a324a43e7a3cedbb1be6e0dcfa0c7b84bbf15fb01198326"
+    },
+    {
+      "id": "co-team-3662ef75b9287c5a13ac",
+      "name": "Colorado College women’s Volleyball",
+      "sha256": "b71ac23416d62516823c56a212a4a54cf3dd469cb05ccc5606bd36d9579b2fe5"
+    },
+    {
+      "id": "co-organization-564d06d310147b6f422f",
+      "name": "Special Olympics Colorado",
+      "sha256": "0c59297624c5bdb1c5856269968b94e6f68363aacda54175c6caac29e0db293e"
+    },
+    {
+      "id": "co-community-98984d02ac7e68223fbd",
+      "name": "Special Olympics Colorado Basketball",
+      "sha256": "63d509d6bd668097adb2619af3c9f52af43d716f8ee182ac5f76a90acb481d90"
+    },
+    {
+      "id": "co-community-352227afcbfd9d5b042f",
+      "name": "Special Olympics Colorado Swimming",
+      "sha256": "7f27c27453d1795390be0a3ee02153cb47855416e2e918772ee452a797026a22"
+    },
+    {
+      "id": "co-community-3a6d904a7db87dc0d36f",
+      "name": "Special Olympics Colorado Volleyball",
+      "sha256": "2a3f76715c4e25348232206b722bec24eebefd02c2f6eeab3932b5e14c018674"
+    },
+    {
+      "id": "co-organization-e675e492f266e45db383",
+      "name": "Silver Creek High School",
+      "sha256": "441a490583705de39aa4e0a9c1d5cc41f767539d0140c67965cd28564b09ff18"
+    },
+    {
+      "id": "co-team-11d1c21ac42bc93f7089",
+      "name": "Silver Creek High School Boys Swim & Dive",
+      "sha256": "7fea9d0c435e7e00aa7ba0cd0ea21c0363144c5c979fef6e618733a827721bbe"
+    },
+    {
+      "id": "co-organization-96e7fe1954d41aeecb13",
+      "name": "5 Parks",
+      "sha256": "18e27d3259e5b0c342998f11354d1d72b395b9001298a158d45784f1dab7ddce"
+    },
+    {
+      "id": "co-team-4f8f90e356166680c193",
+      "name": "5 Parks",
+      "sha256": "f32640127caf0b9eb455dd4dbf560085be5ed00ce7b007b0d5ab9816685b8c7e"
+    },
+    {
+      "id": "co-organization-41991e7a466727f0c9c7",
+      "name": "Aspire Aquatics of Colorado",
+      "sha256": "8256e6d58aa26d8c18307d248238c152851fed474e7600facc0096f87b1a02eb"
+    },
+    {
+      "id": "co-organization-0ad5bccab49984fda6b5",
+      "name": "Air Force Academy",
+      "sha256": "7400acaf3d4441ecaf92646592a536edad6e71f7e90b390efd239057c857b87b"
+    },
+    {
+      "id": "co-organization-c4d6872cfc5c93f8d504",
+      "name": "Aspen Swim Club",
+      "sha256": "5ec073df4a485d618a38ee9904d42df410d1d10c7b4353255a2b49828e4fe254"
+    },
+    {
+      "id": "co-organization-1bc6720eba36f513ea4e",
+      "name": "Avon Swim Club",
+      "sha256": "4a136c5ec817d07ee49e5972c25376f2dac1210cbc35ce58cbfd7cbcbf8c9a39"
+    },
+    {
+      "id": "co-organization-99f225ccc9adfa91d6ce",
+      "name": "Brighton Bullfrogs",
+      "sha256": "f38bf2365ef37e1ac2fa45e65becc1cc11bbdd3de6195895da8bcc1ae9ac391f"
+    },
+    {
+      "id": "co-organization-4b599ca668d905ed8e1a",
+      "name": "Boulder Swimming",
+      "sha256": "5888173cf9680caaea888326d1282b445fa96a5be76c7be7cae4e3f9cc8643f7"
+    },
+    {
+      "id": "co-organization-8f62e96f9ed817b2b15b",
+      "name": "Bure-Aqua",
+      "sha256": "d79b420c71574dd40fc1d88b606d0d021c6e0ff03b7c9a3272a3d68300fbe542"
+    },
+    {
+      "id": "co-organization-55ff204d5b43e23ec01f",
+      "name": "Canon City Swim Club",
+      "sha256": "da4a824b8c7bfa78d3b6643a3ebca7c1746ba938730335e263a702eb83f705ff"
+    },
+    {
+      "id": "co-organization-3c3d25b1058341b45e74",
+      "name": "Colorado Blue",
+      "sha256": "de1bde522c7de18c9bd6c203cf4724e455b38b650955851ac088c83dcf0a535a"
+    },
+    {
+      "id": "co-organization-27bc19c8f528fdb71000",
+      "name": "Colorado Springs Area Swimming",
+      "sha256": "1b591c4f2ceaca786eb04f8887068b9f62ca1840fd4a2e96be79e98aa0e4e0f9"
+    },
+    {
+      "id": "co-organization-4ad97ff61b6b0f2a4049",
+      "name": "Colorado Torpedoes",
+      "sha256": "936cdec3708a1b6efe820fc97bd4cbbb4a0ea4e63fc97a221e93fabeec43818f"
+    },
+    {
+      "id": "co-organization-c902e8a1edc74772cf8f",
+      "name": "Front Range Barracudas",
+      "sha256": "e4c28177fa9183393cf6b32f7b6987df1ce4e899aa1a8626882f08dfe180dcab"
+    },
+    {
+      "id": "co-organization-ef40cc501bcb22362da6",
+      "name": "The Denver Athletic Club",
+      "sha256": "36a547e24e4488eb0ca978e0fb48583aa45fcc8313054f965c92db51514e686c"
+    },
+    {
+      "id": "co-organization-10a8376f8d3ac283cc47",
+      "name": "Delta Barracudas Swim Team",
+      "sha256": "58b87629a085d831b007dc480c3b5dd12f65c538f923566e3824d621c6ff8718"
+    },
+    {
+      "id": "co-organization-731ef50d17940b6675e0",
+      "name": "Swim Dogs",
+      "sha256": "daf452ba8bc1b8f68e521baa5c4124ba2c76c62c845048bd337a35e681d03067"
+    },
+    {
+      "id": "co-organization-04e85d487c6f73d868f4",
+      "name": "Denver Triton Swim Team",
+      "sha256": "f11e68b2b2f75cf79746ca9fec86d8381e7802b9cde71600fed8f4e5392615bc"
+    },
+    {
+      "id": "co-organization-cc859371f796a138d061",
+      "name": "Elevation Athletics",
+      "sha256": "b08d3130aa8b364fcc8b922626d2be32c1c86d7a8666a45e7c21402f9c01c0bd"
+    },
+    {
+      "id": "co-organization-2b14b073e662821af257",
+      "name": "Evergreen Swim Team",
+      "sha256": "251452aaa23452e71e52edca808fac77d7e8513e1f8e7144412a74e39799875a"
+    },
+    {
+      "id": "co-organization-fa4139cb179d0e1a931b",
+      "name": "Flatiron Athletic Club",
+      "sha256": "e91b0e3cb7939e14ae6c44e6e3a8d4711c2f1805266535aff81b30d13f30aacf"
+    },
+    {
+      "id": "co-organization-6d1ff61502bf0985268e",
+      "name": "Fort Collins Area Swim Team",
+      "sha256": "844319ecd1fe9e2e80da96192ca352a74933c6b199ce9ac29594ea7192f43b5b"
+    },
+    {
+      "id": "co-organization-a8d1e31fb3948cf5fa18",
+      "name": "Falfins Swimming",
+      "sha256": "f3159459a376269122f493caf666b12633b9c34b40fd714eca560f765112193c"
+    },
+    {
+      "id": "co-organization-3bc5f2387a8a0f165122",
+      "name": "FORM Swim Team",
+      "sha256": "5cacd6736e7be89aa36ec5b0ca3482f8e5b023e5dd195d97f52e27a91f91b21d"
+    },
+    {
+      "id": "co-organization-49341f5b6fa67941aec0",
+      "name": "Greenwood Tiger Sharks",
+      "sha256": "18c21c2049171fcc2e37043974197306ec7bb5b1c5d6aec9cff53b2e7e1be8fc"
+    },
+    {
+      "id": "co-organization-23c5dba1bdf3333175d9",
+      "name": "Highlands Ranch Aquatics",
+      "sha256": "441fc35c8ddcc5fd73244990bba586df804402db8f21c48ce2896c57efa7836e"
+    },
+    {
+      "id": "co-organization-270fa39c0fe75d6fb3bf",
+      "name": "Full Armour Swim Team",
+      "sha256": "d4f2ccb78f6ce74ada391f2ce94c6c7b02bb4597bf035ea2ca5edf1380c3a7bc"
+    },
+    {
+      "id": "co-organization-72f265553db7ab922155",
+      "name": "Lamarlins Swim Team",
+      "sha256": "b7eedc537e1d35ebf7745df0de1a26abd5c0464e6af26bfc42819dd6e323db38"
+    },
+    {
+      "id": "co-organization-1d8efe7eaadddcc5829e",
+      "name": "Las Animas Trofins",
+      "sha256": "ea80ffa374e6b87b03f7f846ed146bc5c62192ae7f6f14f8ec2f7f9b3014470e"
+    },
+    {
+      "id": "co-organization-57136ba7d3f609ee2143",
+      "name": "Life Time Colorado Swim Team",
+      "sha256": "d14cbaa3f7c13fe7d0b7e45dd3326b4933d815627bbc064a54c645fb362f1a13"
+    },
+    {
+      "id": "co-organization-acd9859d2ac6d7bfefc5",
+      "name": "LaJunta Tiger Sharks",
+      "sha256": "050aeb8b360aad8361d19d36fdad3b3a81a2c38dc52e4d1dac0ad757d087a530"
+    },
+    {
+      "id": "co-organization-abccb08feda2d6f9c023",
+      "name": "Longmont Swim Club",
+      "sha256": "b61d2cafd9d29a8f1fb0767125d2e31196c80ce5be6e7f0301ea0ad62d1ce8e4"
+    },
+    {
+      "id": "co-organization-d8c51fa324faf627a4c7",
+      "name": "Mission Aurora Colorado Swimming",
+      "sha256": "b31bb94ea6552c93133c4f19c5518f90b25c6716f588d3a8dd8de6269797887a"
+    },
+    {
+      "id": "co-organization-83d0e092eae9f4201acb",
+      "name": "Meeker Swim Club",
+      "sha256": "9520349a67a89b092c514b642d14235111c7bfd6c9b5df6604161b0c59d44b2b"
+    },
+    {
+      "id": "co-organization-d254fe591c453fe2f588",
+      "name": "Montrose Marlins Swim Club",
+      "sha256": "2802174b2609d8dead540cb69e63e2d34ce32643726bba00a731abcef8d783ac"
+    },
+    {
+      "id": "co-organization-25bdbaa69080d6bb447c",
+      "name": "Morgan Marlins Swim Team",
+      "sha256": "d2d22584e45efce1bd261ca4b135bc75f84d5e11a26746a02f8223478d33e830"
+    },
+    {
+      "id": "co-organization-d86ee0a1b587b8c14bd1",
+      "name": "Mountain Valley Performance Academy",
+      "sha256": "ea52c04b2447ef7053e99498200da40480a2b56c83fe81084c31caab8830dc55"
+    },
+    {
+      "id": "co-organization-1df309b4f635204094fc",
+      "name": "Northglenn Fusion Swim Club",
+      "sha256": "3abe2f9a1831975d6bf7d183c22abdca3ef6eae53e7851c265360889418cc0ea"
+    },
+    {
+      "id": "co-organization-ad31645f41173919832b",
+      "name": "North Jeffco Swim Team",
+      "sha256": "b4243f1b3caac492149feb7b8dc24afc25dfa5eca05dcaf026a0bef5798257e7"
+    },
+    {
+      "id": "co-organization-fc7825e5d69ca1e20315",
+      "name": "Northern Colorado Swim Club",
+      "sha256": "902f07baded21276053cf7c885d37d3afab05976dc3757ffa659ee8a516c4bd2"
+    },
+    {
+      "id": "co-organization-d829bb0c64a06e23adbb",
+      "name": "Pagosa Lakes Porpoises",
+      "sha256": "f5a69d3c3d8e037fec71cc358fed2d66640e5d8a4b938db0e82c2dc5b4917095"
+    },
+    {
+      "id": "co-organization-7654bd0f2c9ee1f33ba3",
+      "name": "Parker Phenomena",
+      "sha256": "a3ad2f28efc4cfccd4ed40f96d8cf076cbc605afccc6182f998dabe8c0ea1cc2"
+    },
+    {
+      "id": "co-organization-320fce6f550bb9e289d0",
+      "name": "Pueblo County Swim Team",
+      "sha256": "bd3b3f43c89597a3a9b968b6b22e4143f4901e8d92aa5b1701aa0dedb6a424d7"
+    },
+    {
+      "id": "co-organization-2bc20beb543c095e92e7",
+      "name": "PEAK Swim Team",
+      "sha256": "fb832229ec214b91e1a50a904909143290ca127b0c51b96c2ac607f674042545"
+    },
+    {
+      "id": "co-organization-8ba6a28d27ea1529a996",
+      "name": "Pikes Peak Athletics",
+      "sha256": "0e4fb9435769e4dcf4099ce937025adc26348756d48865bc52789b91c3620531"
+    },
+    {
+      "id": "co-organization-097b396474f0293ae60a",
+      "name": "Pueblo Swim Club",
+      "sha256": "aa46f6eebc0cc0f50307e9a8e9ba155ce9c0610f1ad6afd0783dd98a813848d2"
+    },
+    {
+      "id": "co-organization-918231aaf82f56b998de",
+      "name": "Colorado Stingrays",
+      "sha256": "373b98fa8ae5a365fcca380e304c67d4cdd550e39b3624012853fa4fc6428483"
+    },
+    {
+      "id": "co-organization-b1507486b3ba183feebf",
+      "name": "Rocky Ford Blue Marlins",
+      "sha256": "ed735e9529561f97204bb0c3cbc9cdd78e2143600e91a3e6710cfbb7f650d3f1"
+    },
+    {
+      "id": "co-organization-e950c3eaa644ac88755d",
+      "name": "Riptide CAC Boulder",
+      "sha256": "6f2119fb6537a41f8731b1f57f0642acf8ca89e40ba29239d491197e7f7092f9"
+    },
+    {
+      "id": "co-organization-7ad72d44b8b0dc013d76",
+      "name": "Castle Rock Swimming",
+      "sha256": "2b17f9fe7dd960699408a1b98f5bfbb764d6cf7bed5c27ca092f10d70820bb24"
+    },
+    {
+      "id": "co-organization-ee3d054084ed750c7c56",
+      "name": "Rocky Mountain Rapids",
+      "sha256": "cc2824931975f0ea5a9464a359df06bee2a19c23163e5f78b1e2025035d8c73b"
+    },
+    {
+      "id": "co-organization-db8b3b5bc385ee0712ae",
+      "name": "Salida Cyclones",
+      "sha256": "d8501d6c2daee6c97684d8664c420acfb5401f0658cad6fadffc231aaa4a4333"
+    },
+    {
+      "id": "co-organization-bab08642a6406dc98ab0",
+      "name": "Team Sopris Swimming",
+      "sha256": "92baba8bf5ad9c92dbb200884b18f8e19164607f5b1184a06e87607aa0c695b5"
+    },
+    {
+      "id": "co-organization-1a60a538ae9dc601224c",
+      "name": "SlipStream Aquatics",
+      "sha256": "e4ad4ffff0c1c017977ef7e9028f573485911a9367c01abb9d8daa686ddbf181"
+    },
+    {
+      "id": "co-organization-76a26b554999a9973057",
+      "name": "Telluride Swim Team",
+      "sha256": "a46a58689aad149d52cc305a13ef95a1869f18dd342569d7632acd04ccf82cdf"
+    },
+    {
+      "id": "co-organization-992ddcb626338d07f3e6",
+      "name": "University of Denver Hilltoppers",
+      "sha256": "1245fa1facebab2461d3a727f4411cb78818e7dbb36f833af8ba2308728eff33"
+    },
+    {
+      "id": "co-organization-880ca61f3ee700b6ebab",
+      "name": "Silverthorne Tsunami Swim Club",
+      "sha256": "05a0f9985c98445c6ad352704e1d26e0d0c413174d1e83574f262cdf60f9bb68"
+    },
+    {
+      "id": "co-organization-c87851f3e10ca56dc2d9",
+      "name": "University of Northern Colorado",
+      "sha256": "8fecce9c47278d65bc7d3865bbad57cf628dba696dcadcd5ab9a0fe5326d8ffa"
+    },
+    {
+      "id": "co-organization-73d5fe80f9500e37ad5d",
+      "name": "Team Vortex",
+      "sha256": "3f332604fe9fdc4538db6db34b261b0bfe28e62d16f673e653800307f37587c2"
+    },
+    {
+      "id": "co-organization-977951baf5031f158185",
+      "name": "Eaton Red Waves",
+      "sha256": "161452474fee1805716bbf464e4aebd6e802c429f61bfb66b4ed7360327e423c"
+    },
+    {
+      "id": "co-organization-c1f7012f8a882f040b85",
+      "name": "Woodmoor Tsunamis Swim Team",
+      "sha256": "ed5ed25bdf499a8086e30e63b3982544ad53a719dc6daab2ba223c6151c4f33b"
+    },
+    {
+      "id": "co-organization-a6fdd53a058cbcdc38db",
+      "name": "Elevation Flyers",
+      "sha256": "a02e224f07121d09ee22c76bf4486e8a41c91ac02afed39160d599c41157bfe6"
+    },
+    {
+      "id": "co-organization-937217eb849c13cd436c",
+      "name": "Pro Skills Basketball Denver",
+      "sha256": "7a48e418716a820281052fd077eecb34da67bcc524724786973d8a77459946c5"
+    },
+    {
+      "id": "co-organization-dfb8b3d00204a5ecdaf5",
+      "name": "Colorado Riot Squad Academy",
+      "sha256": "749d52673aa5c103b77d0ff19d363fbc4e617af4da8612de26469b59a2abaa8e"
+    },
+    {
+      "id": "co-organization-b38b4984b3b24f16b046",
+      "name": "Gold Crown Foundation",
+      "sha256": "3f26085bfd37cffe72b13ecc1bd17ce809d7bb56c28f15923609951c13639c92"
+    },
+    {
+      "id": "co-organization-97afc84b606ff9d600a9",
+      "name": "B & B Academy",
+      "sha256": "9ddfc16280b54205f3a131705ce87e23686883bf0b996a1b286e67b9407ae3d0"
+    },
+    {
+      "id": "co-organization-a95c2ef14f57856bd775",
+      "name": "Boulder Bulls",
+      "sha256": "d564ffc26a18f0f63d538b0a03e633741f4d94db8b58ef612986dbd0845b0d90"
+    },
+    {
+      "id": "co-organization-5ba91131676a7e1b7241",
+      "name": "Castle Rock Raptors",
+      "sha256": "a337c364152ddbb6cb6a30fc90135297b87bd711517309be1e6bf5b30f96d51b"
+    },
+    {
+      "id": "co-organization-671bfb891b3c0adb27fd",
+      "name": "College Bound Elite (CB)",
+      "sha256": "abf8265b4a85e3dd2e0298b4fe02366fed20d99cccd305fcce49dcaf5bf07b04"
+    },
+    {
+      "id": "co-organization-8a25119e85958cff017f",
+      "name": "Colorado Collective",
+      "sha256": "2f6c0e1ba158ba397140b3057fe2081f2555922e254678d057e73af1e1a3df01"
+    },
+    {
+      "id": "co-organization-c241c45a93951c04ad56",
+      "name": "Colorado Lightning",
+      "sha256": "420d439bfb14fb0514e0c041c68d0eb2674ebd45b26d7fb6a974d024dcbde548"
+    },
+    {
+      "id": "co-organization-83df9532de7ac11b7fe4",
+      "name": "Colorado Magic",
+      "sha256": "7c73921d615fc420819a500df9ad1e6f2b2e001c26e27cc7fd3d4549fa300fb4"
+    },
+    {
+      "id": "co-organization-8ed4cf0f605b8656fef5",
+      "name": "Colorado Miners",
+      "sha256": "9b65edbacaf99c1e80dbecb764c0b68385cb0ace3c17e11eb346437853924814"
+    },
+    {
+      "id": "co-organization-ba28aa9f297efa1915a9",
+      "name": "Colorado Swoosh Basketball Club",
+      "sha256": "eb88148e8497fbecb9808c64051e3577d63f74fd0470beb0111e89ff691ae81f"
+    },
+    {
+      "id": "co-organization-207c82c82c8544d12ba8",
+      "name": "Colorado Triple Threat",
+      "sha256": "b898edbfadf499f68b179862c338c1b14a5c21d6a1d35b89fcc5fd343c60ec3c"
+    },
+    {
+      "id": "co-organization-1dd66f090f3af2e4827d",
+      "name": "Hard2Guard",
+      "sha256": "11822d63120010a8a6f27e486c3a4dd7b5647049c854da3fe93f395c128e4cae"
+    },
+    {
+      "id": "co-organization-0ed28157f6b99c23fe29",
+      "name": "Hardwood Evolution",
+      "sha256": "012553fb274ee092a34147f51dd2dcc7fb2845f5b4a1e166ee594784bca078d3"
+    },
+    {
+      "id": "co-organization-c3b03c53fe3486312bd1",
+      "name": "International Basketball Academy",
+      "sha256": "c098479d2ed0e21f49d9cd13794a3e4926adc0626572d226d95c53be36f86e9b"
+    },
+    {
+      "id": "co-organization-f42d85f30cd2c36257b1",
+      "name": "J19 Lions",
+      "sha256": "07b26ecd27298bb139d2db7b0b0e5d9d96ed6e037d18f1f1dd75d3b42c1da5b2"
+    },
+    {
+      "id": "co-organization-2c5f0f5741f3129c13b0",
+      "name": "MONDO Athletics-North",
+      "sha256": "5ae0f27d37303b93d4f1be9efa5f85c58392014a15c60b3fa73b0cc1c0b897d4"
+    },
+    {
+      "id": "co-organization-0939212af9d892a69533",
+      "name": "MONDO Athletics-South",
+      "sha256": "f802039396ac0add56183b6ae4118cb1d3c2f2889a62f4002c287bb41eb91037"
+    },
+    {
+      "id": "co-organization-d8da81d3948b40ce09d2",
+      "name": "Nothin' But Net",
+      "sha256": "ede5317cbf5e7cb156ee5197d164a8bc8c41c3aef60cb7fa4deec8705dad59a6"
+    },
+    {
+      "id": "co-organization-97da2b79f5742defed33",
+      "name": "RU ELITE",
+      "sha256": "0458ebe94e7194c2c2c5f90633d82a37818d311d860a7f47e2a80c6ead99980f"
+    },
+    {
+      "id": "co-organization-4c53999eb77c9254d8a7",
+      "name": "Rocky Mountain Fever",
+      "sha256": "5e576e3f65e48155313438add51218990e1b541622e50d2475288d727708472d"
+    },
+    {
+      "id": "co-organization-23bc7eae8fa33131c597",
+      "name": "State 38",
+      "sha256": "78ac5e495250d0d2738c40ced25ea36384c1513cd3a14debd4a49e88a5d23315"
+    },
+    {
+      "id": "co-organization-68605b047ec2da346aaf",
+      "name": "altitude Basketball",
+      "sha256": "71929a6158298da0fc5a4461734287846e667a7fb76849e96395e3eafb90b557"
+    },
+    {
+      "id": "co-organization-140d5d93b36369d18e0e",
+      "name": "Colorado Hoopsters",
+      "sha256": "1dcd6cc7b78a24ea3f029bea3f824620fb79f81759a28e39751275f083a0a5ca"
+    },
+    {
+      "id": "co-organization-9ca986b01a4a46d51cd9",
+      "name": "Colorado Lady LIghtning",
+      "sha256": "743956e985bca97a918b0aad5e1aa832b20026cf95e80abe393abcfddcb0108c"
+    },
+    {
+      "id": "co-organization-966201ad4fb10e28911b",
+      "name": "Colorado Prestige",
+      "sha256": "190cc839dd871a653dbf20b22efca0f7f10cee9e5b218f8cb7c3036b9385990f"
+    },
+    {
+      "id": "co-organization-7524d1dd5baf8d845a32",
+      "name": "DRIP Nation",
+      "sha256": "70efbd1895a2f1c207dd06db37ad8171abe7be347e1ad206e01129c6aebc48fa"
+    },
+    {
+      "id": "co-organization-b470ce0b5dffaca143f8",
+      "name": "Lady Blackhawks",
+      "sha256": "9c247464c8d195c249581e7abc84656b5d4f3b98b0c3c5a6827921c5c535a19c"
+    },
+    {
+      "id": "co-organization-a3ae8cde2610ba376b4e",
+      "name": "Northern Colorado Premier",
+      "sha256": "13683fbc9ae9ca34670dac25ac87db0e1007e8d7a47839449a2a9bfb7c69d4e8"
+    },
+    {
+      "id": "co-organization-9cda3f7e596d4883338f",
+      "name": "Rocky Mountain Hoops",
+      "sha256": "2661da7cc925cafae1453c1df5953d48be0081c4d7a59eca41f9292135525ad3"
+    },
+    {
+      "id": "co-organization-9658304a86079b9a1d58",
+      "name": "7070 Athletics",
+      "sha256": "fd492152b58fd1babb25794fb6fa2c9f3706a0e4cdeb0dbfc7e25d377eb84c72"
+    },
+    {
+      "id": "co-organization-bf831d8eafccbd3ceda2",
+      "name": "BXST Legacy Hoops",
+      "sha256": "8ff723f205617476f909db8044c69a48d059cd49f596ce5be66913b04a286417"
+    },
+    {
+      "id": "co-organization-9c66678f862a9ee95cdf",
+      "name": "Colorado Clutch",
+      "sha256": "df6ed3fe55377f5b96819165b35987785a82ab9a32f80f91950c5e5ebb6347c1"
+    },
+    {
+      "id": "co-organization-cc5e6866694197f9235d",
+      "name": "Eagles",
+      "sha256": "c7e5b06d0d45057be4cc7e6a87442c3ea8e55374d83a5b91e45271f75b38d6db"
+    },
+    {
+      "id": "co-organization-08751f3fd6698161f60c",
+      "name": "Falcons",
+      "sha256": "0e8cf26d5374ff69656404a516c28c90d579fa127e2fad6144965075cf8735f8"
+    },
+    {
+      "id": "co-organization-66b0bf774fd4e432c457",
+      "name": "Lil' Kings",
+      "sha256": "e371baea78a7b7ac7a7a8f33fa9c65416e5bc22b4994e13da0d90da1a52e11d3"
+    },
+    {
+      "id": "co-organization-87dcbcca3625fba46477",
+      "name": "Love of Basketball",
+      "sha256": "f0e3da0911002e0c85224738d50adaff8d22407b6fcd8c5f2ddffd4d2748b818"
+    },
+    {
+      "id": "co-organization-227e464331519eb62103",
+      "name": "Olympic City Elite",
+      "sha256": "89aff79abda43951475fcafdd9ba78d4c62f473e08b99a778147529af80914ef"
+    },
+    {
+      "id": "co-organization-132ffb09aa1831e69f47",
+      "name": "Powerhouse Sports",
+      "sha256": "dcdb7202732a881c0fd258873bb73272a674de8452cf3c0ef7134521466a8b62"
+    },
+    {
+      "id": "co-organization-8dd7e2d0448f1ae5b64f",
+      "name": "Pueblo Hoops",
+      "sha256": "c63dcc92adc242ab49a23156d4763428a4c035b3cdc810bfcf17052d462c8081"
+    },
+    {
+      "id": "co-organization-0b55a7a64405c4d8a823",
+      "name": "Pueblo Punishers",
+      "sha256": "c55db2e1595f5830d49fbde6950f7e441dd7530744bead6176554e216ea49506"
+    },
+    {
+      "id": "co-organization-958ce723af38318daaa9",
+      "name": "Rising Stars",
+      "sha256": "e767e5f94be608292b0068f1cfa1324aae7bd40547a1542fee3558654df6ade9"
+    },
+    {
+      "id": "co-organization-cc8bdd24aaf7d60c258a",
+      "name": "Slammin 'n' jammin",
+      "sha256": "6ee48744b067a372df655bcaea74b23c36fcfd18b250e79ef57819c62ef110bf"
+    },
+    {
+      "id": "co-organization-b48f6b23dcb286b63c85",
+      "name": "Southern Colorado Premier",
+      "sha256": "56aab6728520ff13edf83854edb228bbee7549d50772af6ea7fb4c7a92d8676f"
+    },
+    {
+      "id": "co-organization-0d024ff5e80e7e0c705e",
+      "name": "Spartan Hoops",
+      "sha256": "0b4648dff003a18f3d141008eadb36bb2c8d17ebf8b5be9933f1edd7c65caf97"
+    },
+    {
+      "id": "co-organization-40396a00e6ef5a568725",
+      "name": "WE > ME",
+      "sha256": "bdf86ef92fe5ef3942d75ff159ed4b1a0af130c984abd1614721935609fbde1a"
+    },
+    {
+      "id": "co-organization-66990e1db59aedadbcc9",
+      "name": "All-out Ballerinas",
+      "sha256": "33f0ddba17f85eeafc41161e34ebc4617e931802e0f0d2763369b016f18ddee5"
+    },
+    {
+      "id": "co-organization-82697d258da77383abeb",
+      "name": "Altitude Hoops",
+      "sha256": "ad4451123df34cb6198761755198466b8d2f753105755d4eee8224ac1d53fe1d"
+    },
+    {
+      "id": "co-organization-d7f0b987ca3a92635191",
+      "name": "BXST LEgacy",
+      "sha256": "2361e89d317c46be027ecbd4de319308ddf8ee97bf0cdc271daa3441144cfdd8"
+    },
+    {
+      "id": "co-organization-4413e2292e899dc68397",
+      "name": "Co Springs Basketball Club (CSBC)",
+      "sha256": "47582c7541f8db5b3f7128b7c5ea9054dc3ef235ae23947e37546152a0529aff"
+    },
+    {
+      "id": "co-organization-d72bc5bfc24b9398fea0",
+      "name": "Colorado Storm",
+      "sha256": "a06552d5220413311af5cf946b4c02736ed8bb96f976a1d7fb9121f7ec345fbd"
+    },
+    {
+      "id": "co-organization-1ba1ef1d0eeada5ab702",
+      "name": "JLT Girls Basketball",
+      "sha256": "5428e4302a9cb9a3db4981d89bb0862c1f928bdb206060ee5523487de4d80bef"
+    },
+    {
+      "id": "co-organization-036792ae266d005bb276",
+      "name": "Longshots",
+      "sha256": "e073d937f3c3abf0ef738e1d6aecbcb0c3ea606902a98ac7238b246d8fbcbd4e"
+    },
+    {
+      "id": "co-organization-d843887053a244106ca6",
+      "name": "PUEBLO WEST Thunder",
+      "sha256": "c2dc40b08d95d0efefc12f60999b17212a011621ba983ad66ed948753b3cef20"
+    },
+    {
+      "id": "co-league-6e510651b688df0c4d04",
+      "name": "Gold Crown Competitive Basketball League",
+      "sha256": "b8eed923d15e80a234ed2f03cdb9fa5f81ad3182a1bed907c1e5b33908b3522a"
+    },
+    {
+      "id": "co-organization-c11060740062bcb85267",
+      "name": "B & B Basketball Academy",
+      "sha256": "42c04f3a3381fee5a1a9a6f08230ca9e1b01cfee3a1ef7ba7b8f46441218be1d"
+    },
+    {
+      "id": "co-organization-77c3b6f723f1aa3b03e7",
+      "name": "COLORADO MUSTANGS",
+      "sha256": "30a721a15d743c88ebce70ffdc9f5ee985a88640e64c96003960aea952d4b77b"
+    },
+    {
+      "id": "co-organization-6870c234412daaed678c",
+      "name": "Arapahoe Feeder Program",
+      "sha256": "d841706025ca28a9129698f7835b8cf6a4e4ccde18cda537638868e51f070764"
+    },
+    {
+      "id": "co-organization-821ff33fecd98180a290",
+      "name": "Arvada West Feeder Program",
+      "sha256": "157c957486857a2b77d3a023aac5dc38af49bfc89c896dbcc6d21dc44965bf15"
+    },
+    {
+      "id": "co-organization-4ed7511886986d0a722a",
+      "name": "Castle View Feeder Program",
+      "sha256": "0cc4b010ac77d0dbc2e636f72d7ba10a7f8c2a2d43b6016fe9599d2c4c0e133f"
+    },
+    {
+      "id": "co-organization-061e0eeb1f697524357c",
+      "name": "Chaparral Feeder Program",
+      "sha256": "6ce40f75c7d492b37fb46a41df21c6a8f7f62089dfed529146affc0a4515c421"
+    },
+    {
+      "id": "co-organization-d184be883221c7bea0c7",
+      "name": "Chatfield Feeder Program",
+      "sha256": "20d04773b06956bc9f6957968dbfe2baede8731efe9ec73ffdd936dc41769f41"
+    },
+    {
+      "id": "co-organization-3bca5eab4d487e4b3550",
+      "name": "Cherry Creek Feeder Program",
+      "sha256": "a769c948033b5b01f60e4711c663bdad02bcb64f97fc6da59780a92f0b42fd96"
+    },
+    {
+      "id": "co-organization-6da40fa438f6a2a034a3",
+      "name": "Conifer Feeder Program",
+      "sha256": "5170c48220b9001b235f867bd43c8538a1a299f240bde08dbd9e66dad9b7ccf6"
+    },
+    {
+      "id": "co-organization-181016afda610bdf49ed",
+      "name": "D'Evelyn Feeder Program",
+      "sha256": "859209fabc6c4b5fe3ddfaedef70ed7991d5c31a9e448f11c6a7bbb776e5fc2b"
+    },
+    {
+      "id": "co-organization-5dd283d19e1837078d30",
+      "name": "Dakota Ridge Feeder Program",
+      "sha256": "83930a92ee21334451608afb69c1afc00e8ee0954bb0531eb48e6f064382e492"
+    },
+    {
+      "id": "co-organization-84e192588d83064f7012",
+      "name": "Denver South Feeder Program",
+      "sha256": "ccee20ffcbe5e12e7d08398aaf406af825fb3d24a88cf1591861d10aebfd228e"
+    },
+    {
+      "id": "co-organization-ccf9a6090585a236879d",
+      "name": "Douglas County Feeder Program",
+      "sha256": "0ef9dc3ef43e9369c1b12118353d335d5256b1381b7f657f6c972490f1d2ebad"
+    },
+    {
+      "id": "co-organization-24ddbb71bca23dea0a23",
+      "name": "Eaglecrest Feeder Program",
+      "sha256": "986c632fc60a30e883871b97b12163acce4655fc597869ccebecfb5e4a1de4d3"
+    },
+    {
+      "id": "co-organization-33380997180d11626d3b",
+      "name": "Golden Feeder Program",
+      "sha256": "7501ce33d2004357d801ef4beaedf51fe02c0ef63a2a5d70e6e9f716427c012f"
+    },
+    {
+      "id": "co-organization-1227ee07b8d47304e4ea",
+      "name": "Heritage High School Feeder Program",
+      "sha256": "1a645873a2279badda5b6656a9182a2fea3c21748382fcfd2362c46d4a197863"
+    },
+    {
+      "id": "co-organization-0947d44d825f9e761fb3",
+      "name": "Highlands Ranch Feeder Program",
+      "sha256": "00bd63799712efa4fd817418c663db79f341c4074afe51daadb3dfeca0604049"
+    },
+    {
+      "id": "co-organization-4cba422a9799f0e59393",
+      "name": "Holy Family Feeder Program",
+      "sha256": "951d418b4376ae47b7d243104f93edf935e5cd3bc29eac0758d198bb4b394f9f"
+    },
+    {
+      "id": "co-organization-dc6b5d5526bd30364894",
+      "name": "LOB Elite",
+      "sha256": "9abee537dcf0df7481c7cefbb3fb77ae8e58aba990d4c71230681166154a01fc"
+    },
+    {
+      "id": "co-organization-a7e5265e0629f088bac4",
+      "name": "Lakewood Feeder Program",
+      "sha256": "6b53ee376280897cca918ae7ec481dcd1511b6a20e0101afebaf3ac3e2df4295"
+    },
+    {
+      "id": "co-organization-042a9c89fa966799fdb3",
+      "name": "Legend Feeder Program",
+      "sha256": "f5ccd59b6349e78bc29dc2f622da253feeb192b1ede3f9cfddd24b3a70a6c7e7"
+    },
+    {
+      "id": "co-organization-cfc71b5a0fbd3337fd98",
+      "name": "Lutheran Feeder Program",
+      "sha256": "6425e3447900eb7bab5f99644edf51d3126b9f57cb23ddd60c94cb8bdcd4f25c"
+    },
+    {
+      "id": "co-organization-b012e0c1c6167a83825d",
+      "name": "Mountain Vista Feeder Program",
+      "sha256": "a49adab4d6ed9b9fa36f306189d2cede501f080c0935792573fa44029860311c"
+    },
+    {
+      "id": "co-organization-32b75666aee318e8bb96",
+      "name": "Mullen Feeder Program",
+      "sha256": "71f9a8449d97902aa494cb6e92b61f4a93e2577508ad52617b5d0342cafa669d"
+    },
+    {
+      "id": "co-organization-a163b9bb2fd4ca966e95",
+      "name": "Pomona Feeder Program",
+      "sha256": "72b989e6373ad00e02dae0028297bb1c886467e1a132694409333068d90ac164"
+    },
+    {
+      "id": "co-organization-759be2ce678ed6a4399e",
+      "name": "Ralston Valley Feeder Program",
+      "sha256": "2648df6c48badef7e1b4e90f3367249a92fb92affba784d61925adb50a4fb5fc"
+    },
+    {
+      "id": "co-organization-8b066fab8df62f8e16d9",
+      "name": "Rangeview Feeder Program",
+      "sha256": "4d02e1a76069477ed528092d40f7c129753c73032bb95429152070c031da2df4"
+    },
+    {
+      "id": "co-organization-9a385f539889a8533aa5",
+      "name": "Rock Canyon Feeder Program",
+      "sha256": "8997cb704ef10bedec144f7ebeb2debe104b87d6206fbd57a0f614354a0c6d73"
+    },
+    {
+      "id": "co-organization-c1a3a2e027743e68e149",
+      "name": "Sky View Academy Feeder Program",
+      "sha256": "53036bb9286162cb28367ad374f4cb138329ae6bb4e8b113504b4c07c16e129d"
+    },
+    {
+      "id": "co-organization-5559a7c596d7e1197158",
+      "name": "Standley Lake Feeder Program",
+      "sha256": "227f8b4b56fb80da1f37651afab4a18617ba168ddac3826be50f87d0fc0ae32d"
+    },
+    {
+      "id": "co-organization-597b6448602c636e9b50",
+      "name": "Wheat Ridge Feeder Program",
+      "sha256": "fc3c4d9bf19349916580b9527bbcf00c06f3a34ee78b68e1f803c394ce689c22"
+    },
+    {
+      "id": "co-organization-1c679516372694828b32",
+      "name": "BC Denver",
+      "sha256": "ee60f431938b0a95a653b9aa7cdb7ec452aa7a37fa13d8e0a3a35bc44d51d2fb"
+    },
+    {
+      "id": "co-organization-1bff20ecd1963aca3fce",
+      "name": "Heritage Feeder Program",
+      "sha256": "51805fafd6dd25fc64b7e3950158162c1dc115a20ccbd2b9ca468b85850b2e77"
+    },
+    {
+      "id": "co-organization-655305c1e60a96b04d47",
+      "name": "Highland Ranch Feeder Program",
+      "sha256": "1c61058dac6baf57ca2d8d0321a1c6f8671b2cd8ebfbb4675f26364ecb86f56b"
+    },
+    {
+      "id": "co-organization-b9927117a095be858d5d",
+      "name": "Littleton Feeder Team",
+      "sha256": "d9790f05d5121c512e954e6417dca513b87a3b783599141602647cf13132fb07"
+    },
+    {
+      "id": "co-organization-109e9bb5ab6dd6d10067",
+      "name": "Overland Feeder Program",
+      "sha256": "a711dab0bd857d3702bb702a42357b3327bbe8e1d1a25e93eaca60e35c629a5a"
+    },
+    {
+      "id": "co-organization-0617c3f334421b3d185e",
+      "name": "Rocky Mountain Soldiers",
+      "sha256": "9c1fda76d72295366817765e963902d6816ac0641337a7f96e0464c0470cab5a"
+    },
+    {
+      "id": "co-organization-51b5316275e4296132b4",
+      "name": "Thunder Ridge Feeder Program",
+      "sha256": "c24bfb668b7a205aa37541f43e89c60a2aaa7dd51c313aa174fef69e99983a0a"
+    },
+    {
+      "id": "co-organization-50171a906a6c64daacc3",
+      "name": "Vista Peak Feeder Program",
+      "sha256": "0ac0d44e18a25a430d3bcffbbde2c604329e8477f1278d0926448e132974ff83"
+    },
+    {
+      "id": "co-organization-acca85ca9b918b37aa93",
+      "name": "Mountain Recreation",
+      "sha256": "94d7ec5023f4d44f630ad9ea9eabffec4b88b609af523f02eedd11001a497ed3"
+    },
+    {
+      "id": "co-community-d5ad1578d3903e7aba2b",
+      "name": "Mountain Recreation youth lacrosse",
+      "sha256": "9feb8a7b4c90a699eeb5118b14795a4ee6cc7519a520b11c0cf21ba3f2f0335f"
+    },
+    {
+      "id": "co-organization-d7d54c8c25e39b00b579",
+      "name": "YMCA of Northern Colorado",
+      "sha256": "2777f0469a607c8851760645e727aa9faec029a93a60832e79f9e1e4ab41bffe"
+    },
+    {
+      "id": "co-community-2d8f42cfdd331217ae3e",
+      "name": "YMCA Northern Colorado basketball",
+      "sha256": "d4e909afd003ce9d5b9a938c5489bb0a9215c9dab909b59a6b7c5e7984dd91dc"
+    },
+    {
+      "id": "co-community-fa2fee86886e56b7c390",
+      "name": "YMCA Northern Colorado volleyball",
+      "sha256": "4b6246fafab2ccccb1990f67bad9462f56f9de2125b9217db399e577b4c695aa"
+    },
+    {
+      "id": "co-community-138b7c01d1b7ed75c150",
+      "name": "YMCA Northern Colorado swim programs",
+      "sha256": "7f11a004a17cc06f14bffc11978be09b49765067cc0a79ddfb73a3b806b55822"
+    },
+    {
+      "id": "co-organization-c9153974a4c1f708e867",
+      "name": "Niwot High School",
+      "sha256": "6aa13c39219b86be9c614b6d09663107f1f1b160f89e1855235b985c73621f64"
+    },
+    {
+      "id": "co-team-1e641b8938a138e856ff",
+      "name": "Niwot High School Girls Basketball C Team",
+      "sha256": "9033011e7cbb4fc64d1879c7d57e2c6f7810d2702a911e31959660e479004cde"
+    },
+    {
+      "id": "co-team-64b4f6a0143982e1a68e",
+      "name": "Niwot High School Girls Basketball Junior Varsity",
+      "sha256": "a398597041f98ab3708082e180fc73edcab8213d8d5a8ad4fcca203b1c883d5b"
+    },
+    {
+      "id": "co-team-eb4be69fcff803fc44fb",
+      "name": "Niwot High School Girls Basketball Varsity",
+      "sha256": "d2d264a03cefc559edf574f70f746935bd7024f9f4e57c880559380a7966591f"
+    },
+    {
+      "id": "co-team-74f21be6cea827bedfc9",
+      "name": "Niwot High School Girls Volleyball C Team",
+      "sha256": "8acb3a622038c0f64081260f8cedfc2794196d9825822138840efb3aa6d2f9e7"
+    },
+    {
+      "id": "co-team-fbf76af19215b4a5c522",
+      "name": "Niwot High School Girls Volleyball D Team",
+      "sha256": "55d9292be55a0f013f206151729f18ca099142e610c668d39e042fc5c484b699"
+    },
+    {
+      "id": "co-team-cbe6a61724b5a5284d8c",
+      "name": "Niwot High School Girls Volleyball Junior Varsity",
+      "sha256": "237aa4c51dea5453ed230dfe027ca4a2976de3253a411d141f60f6c1553425d4"
+    },
+    {
+      "id": "co-team-d710492d3d8b40dd148e",
+      "name": "Niwot High School Girls Volleyball Varsity",
+      "sha256": "ed1ef2787941bb982bd0699801e1b8fa95a14144ca7a89c19adb3b7793b0c5c3"
+    },
+    {
+      "id": "co-team-f4903f76c6ed54cdf2ad",
+      "name": "Niwot High School Boys Volleyball C Team",
+      "sha256": "8182e2238ddf81be319796b6d9c4a2520bc17f07e34fd6637c6beb840791296d"
+    },
+    {
+      "id": "co-team-237ce57fe161379c227c",
+      "name": "Niwot High School Boys Volleyball Junior Varsity",
+      "sha256": "8d6f33d421ff8dad51a97d5c1c448d6aeee563193c8166aeb07235da3d43600c"
+    },
+    {
+      "id": "co-team-e46d3973b245d4944888",
+      "name": "Niwot High School Boys Volleyball Varsity",
+      "sha256": "d4f9ea8b66fad9c02df1086f613e2ebb0f4fda85289aa9f9451945fc38f024fa"
+    }
+  ],
+  "publication": [
+    {
+      "sport": "lacrosse",
+      "designation": "youth",
+      "ids": [
+        "co-organization-acca85ca9b918b37aa93",
+        "denver-elite",
+        "team-180"
+      ]
+    },
+    {
+      "sport": "lacrosse",
+      "designation": "high-school",
+      "ids": []
+    },
+    {
+      "sport": "lacrosse",
+      "designation": "college",
+      "ids": [
+        "co-organization-72ecd96bff5a476e027a",
+        "co-organization-782b23d3aeb403bf4668",
+        "co-organization-bb5aec5a25f6fa3d31c3",
+        "co-organization-e8c9cbf9b100aa4b3923",
+        "co-organization-ee7cf5a0bd5785d5a8c4",
+        "du",
+        "regis"
+      ]
+    },
+    {
+      "sport": "lacrosse",
+      "designation": "adult",
+      "ids": [
+        "legacy-organizer-cll"
+      ]
+    },
+    {
+      "sport": "lacrosse",
+      "designation": "professional",
+      "ids": []
+    },
+    {
+      "sport": "lacrosse",
+      "designation": "community",
+      "ids": [
+        "co-organization-acca85ca9b918b37aa93"
+      ]
+    },
+    {
+      "sport": "volleyball",
+      "designation": "youth",
+      "ids": [
+        "co-organization-d7d54c8c25e39b00b579",
+        "denver-juniors",
+        "front-range",
+        "skyline"
+      ]
+    },
+    {
+      "sport": "volleyball",
+      "designation": "high-school",
+      "ids": [
+        "co-organization-c9153974a4c1f708e867"
+      ]
+    },
+    {
+      "sport": "volleyball",
+      "designation": "college",
+      "ids": [
+        "co-organization-72ecd96bff5a476e027a",
+        "co-organization-782b23d3aeb403bf4668",
+        "co-organization-bb5aec5a25f6fa3d31c3",
+        "co-organization-e8c9cbf9b100aa4b3923",
+        "co-organization-ee7cf5a0bd5785d5a8c4",
+        "csu",
+        "du",
+        "regis"
+      ]
+    },
+    {
+      "sport": "volleyball",
+      "designation": "adult",
+      "ids": []
+    },
+    {
+      "sport": "volleyball",
+      "designation": "professional",
+      "ids": []
+    },
+    {
+      "sport": "volleyball",
+      "designation": "community",
+      "ids": [
+        "co-organization-24fcccf8ae0879827be0",
+        "co-organization-564d06d310147b6f422f",
+        "co-organization-d7d54c8c25e39b00b579",
+        "co-organization-e6924f68601d80f9537d"
+      ]
+    },
+    {
+      "sport": "basketball",
+      "designation": "youth",
+      "ids": [
+        "cbc",
+        "co-organization-036792ae266d005bb276",
+        "co-organization-042a9c89fa966799fdb3",
+        "co-organization-0617c3f334421b3d185e",
+        "co-organization-061e0eeb1f697524357c",
+        "co-organization-08751f3fd6698161f60c",
+        "co-organization-0939212af9d892a69533",
+        "co-organization-0947d44d825f9e761fb3",
+        "co-organization-0b55a7a64405c4d8a823",
+        "co-organization-0d024ff5e80e7e0c705e",
+        "co-organization-0ed28157f6b99c23fe29",
+        "co-organization-109e9bb5ab6dd6d10067",
+        "co-organization-1227ee07b8d47304e4ea",
+        "co-organization-132ffb09aa1831e69f47",
+        "co-organization-140d5d93b36369d18e0e",
+        "co-organization-181016afda610bdf49ed",
+        "co-organization-1ba1ef1d0eeada5ab702",
+        "co-organization-1bff20ecd1963aca3fce",
+        "co-organization-1c679516372694828b32",
+        "co-organization-1dd66f090f3af2e4827d",
+        "co-organization-207c82c82c8544d12ba8",
+        "co-organization-227e464331519eb62103",
+        "co-organization-23bc7eae8fa33131c597",
+        "co-organization-24ddbb71bca23dea0a23",
+        "co-organization-2c5f0f5741f3129c13b0",
+        "co-organization-32b75666aee318e8bb96",
+        "co-organization-33380997180d11626d3b",
+        "co-organization-3bca5eab4d487e4b3550",
+        "co-organization-40396a00e6ef5a568725",
+        "co-organization-4413e2292e899dc68397",
+        "co-organization-4c53999eb77c9254d8a7",
+        "co-organization-4cba422a9799f0e59393",
+        "co-organization-4ed7511886986d0a722a",
+        "co-organization-50171a906a6c64daacc3",
+        "co-organization-51b5316275e4296132b4",
+        "co-organization-5559a7c596d7e1197158",
+        "co-organization-597b6448602c636e9b50",
+        "co-organization-5ba91131676a7e1b7241",
+        "co-organization-5dd283d19e1837078d30",
+        "co-organization-655305c1e60a96b04d47",
+        "co-organization-66990e1db59aedadbcc9",
+        "co-organization-66b0bf774fd4e432c457",
+        "co-organization-671bfb891b3c0adb27fd",
+        "co-organization-68605b047ec2da346aaf",
+        "co-organization-6870c234412daaed678c",
+        "co-organization-6da40fa438f6a2a034a3",
+        "co-organization-7524d1dd5baf8d845a32",
+        "co-organization-759be2ce678ed6a4399e",
+        "co-organization-77c3b6f723f1aa3b03e7",
+        "co-organization-821ff33fecd98180a290",
+        "co-organization-82697d258da77383abeb",
+        "co-organization-83df9532de7ac11b7fe4",
+        "co-organization-84e192588d83064f7012",
+        "co-organization-87dcbcca3625fba46477",
+        "co-organization-8a25119e85958cff017f",
+        "co-organization-8b066fab8df62f8e16d9",
+        "co-organization-8dd7e2d0448f1ae5b64f",
+        "co-organization-8ed4cf0f605b8656fef5",
+        "co-organization-937217eb849c13cd436c",
+        "co-organization-958ce723af38318daaa9",
+        "co-organization-9658304a86079b9a1d58",
+        "co-organization-966201ad4fb10e28911b",
+        "co-organization-97afc84b606ff9d600a9",
+        "co-organization-97da2b79f5742defed33",
+        "co-organization-9a385f539889a8533aa5",
+        "co-organization-9c66678f862a9ee95cdf",
+        "co-organization-9ca986b01a4a46d51cd9",
+        "co-organization-9cda3f7e596d4883338f",
+        "co-organization-a163b9bb2fd4ca966e95",
+        "co-organization-a3ae8cde2610ba376b4e",
+        "co-organization-a6fdd53a058cbcdc38db",
+        "co-organization-a7e5265e0629f088bac4",
+        "co-organization-a95c2ef14f57856bd775",
+        "co-organization-b012e0c1c6167a83825d",
+        "co-organization-b470ce0b5dffaca143f8",
+        "co-organization-b48f6b23dcb286b63c85",
+        "co-organization-b9927117a095be858d5d",
+        "co-organization-ba28aa9f297efa1915a9",
+        "co-organization-bf831d8eafccbd3ceda2",
+        "co-organization-c1a3a2e027743e68e149",
+        "co-organization-c241c45a93951c04ad56",
+        "co-organization-c3b03c53fe3486312bd1",
+        "co-organization-cc5e6866694197f9235d",
+        "co-organization-cc8bdd24aaf7d60c258a",
+        "co-organization-ccf9a6090585a236879d",
+        "co-organization-cfc71b5a0fbd3337fd98",
+        "co-organization-d184be883221c7bea0c7",
+        "co-organization-d72bc5bfc24b9398fea0",
+        "co-organization-d7d54c8c25e39b00b579",
+        "co-organization-d7f0b987ca3a92635191",
+        "co-organization-d843887053a244106ca6",
+        "co-organization-d8da81d3948b40ce09d2",
+        "co-organization-dc6b5d5526bd30364894",
+        "co-organization-dfb8b3d00204a5ecdaf5",
+        "co-organization-f42d85f30cd2c36257b1",
+        "colorado-premier"
+      ]
+    },
+    {
+      "sport": "basketball",
+      "designation": "high-school",
+      "ids": [
+        "co-organization-c9153974a4c1f708e867"
+      ]
+    },
+    {
+      "sport": "basketball",
+      "designation": "college",
+      "ids": [
+        "co-organization-72ecd96bff5a476e027a",
+        "co-organization-782b23d3aeb403bf4668",
+        "co-organization-bb5aec5a25f6fa3d31c3",
+        "co-organization-e8c9cbf9b100aa4b3923",
+        "co-organization-ee7cf5a0bd5785d5a8c4",
+        "csu",
+        "du",
+        "regis"
+      ]
+    },
+    {
+      "sport": "basketball",
+      "designation": "adult",
+      "ids": []
+    },
+    {
+      "sport": "basketball",
+      "designation": "professional",
+      "ids": []
+    },
+    {
+      "sport": "basketball",
+      "designation": "community",
+      "ids": [
+        "co-organization-24fcccf8ae0879827be0",
+        "co-organization-564d06d310147b6f422f",
+        "co-organization-d7d54c8c25e39b00b579",
+        "co-organization-e6924f68601d80f9537d"
+      ]
+    },
+    {
+      "sport": "swimming",
+      "designation": "youth",
+      "ids": [
+        "co-organization-04e85d487c6f73d868f4",
+        "co-organization-097b396474f0293ae60a",
+        "co-organization-0d44ad8f64b47727fdea",
+        "co-organization-10a8376f8d3ac283cc47",
+        "co-organization-16de9c0887a7e99d96ed",
+        "co-organization-17f23c69d25906499a3f",
+        "co-organization-193f2e291490402720fc",
+        "co-organization-1a60a538ae9dc601224c",
+        "co-organization-1bc6720eba36f513ea4e",
+        "co-organization-1d8efe7eaadddcc5829e",
+        "co-organization-1df309b4f635204094fc",
+        "co-organization-1e28e851bcf87f220ed9",
+        "co-organization-23c5dba1bdf3333175d9",
+        "co-organization-25bdbaa69080d6bb447c",
+        "co-organization-270fa39c0fe75d6fb3bf",
+        "co-organization-27bc19c8f528fdb71000",
+        "co-organization-2b14b073e662821af257",
+        "co-organization-2bc20beb543c095e92e7",
+        "co-organization-2c2b3418cefa13dfbff0",
+        "co-organization-2e4c76d20038413ae747",
+        "co-organization-3049c95b9c79e9e51712",
+        "co-organization-320fce6f550bb9e289d0",
+        "co-organization-34687bbf50ca7c7eeed4",
+        "co-organization-3a41fc264010e0c2637a",
+        "co-organization-3bc5f2387a8a0f165122",
+        "co-organization-3c3d25b1058341b45e74",
+        "co-organization-3d9acf85749e501d8369",
+        "co-organization-41991e7a466727f0c9c7",
+        "co-organization-42e72a97d40d9cc1aad3",
+        "co-organization-465d28e04a28475ac946",
+        "co-organization-468c953296eae2b96b8c",
+        "co-organization-49341f5b6fa67941aec0",
+        "co-organization-4a62ff362978042f8056",
+        "co-organization-4ad97ff61b6b0f2a4049",
+        "co-organization-4b599ca668d905ed8e1a",
+        "co-organization-4c8fcab92a172737bbc5",
+        "co-organization-4f9da23308151205f5af",
+        "co-organization-55ff204d5b43e23ec01f",
+        "co-organization-5663da1ec73749298ae6",
+        "co-organization-57136ba7d3f609ee2143",
+        "co-organization-5cebb868b269f40ef3ad",
+        "co-organization-6d1ff61502bf0985268e",
+        "co-organization-6e40e4262df0e50ec7d3",
+        "co-organization-6e7af77cfc6890b7fdec",
+        "co-organization-72f265553db7ab922155",
+        "co-organization-731ef50d17940b6675e0",
+        "co-organization-73d5fe80f9500e37ad5d",
+        "co-organization-7654bd0f2c9ee1f33ba3",
+        "co-organization-76a26b554999a9973057",
+        "co-organization-7ad72d44b8b0dc013d76",
+        "co-organization-83d0e092eae9f4201acb",
+        "co-organization-880ca61f3ee700b6ebab",
+        "co-organization-8ba6a28d27ea1529a996",
+        "co-organization-8f62e96f9ed817b2b15b",
+        "co-organization-918231aaf82f56b998de",
+        "co-organization-945ce80f03a6422a1197",
+        "co-organization-96e7fe1954d41aeecb13",
+        "co-organization-977951baf5031f158185",
+        "co-organization-992ddcb626338d07f3e6",
+        "co-organization-99f225ccc9adfa91d6ce",
+        "co-organization-9e1d7b5bc4468d9be654",
+        "co-organization-a0fb96e6b3e489907488",
+        "co-organization-a32bc598237d07b743b8",
+        "co-organization-a69fc6a2840bccc5b775",
+        "co-organization-a8d1e31fb3948cf5fa18",
+        "co-organization-ab969bf11a4f9cc905b7",
+        "co-organization-abccb08feda2d6f9c023",
+        "co-organization-acd9859d2ac6d7bfefc5",
+        "co-organization-ad31645f41173919832b",
+        "co-organization-b1507486b3ba183feebf",
+        "co-organization-b2bb5daea6dac8a9bcbb",
+        "co-organization-bab08642a6406dc98ab0",
+        "co-organization-bf39f178c2b84aaed927",
+        "co-organization-c1f7012f8a882f040b85",
+        "co-organization-c219ba4c0994fdf67633",
+        "co-organization-c4312ba348f6c25b8453",
+        "co-organization-c4d6872cfc5c93f8d504",
+        "co-organization-c902e8a1edc74772cf8f",
+        "co-organization-cb813542359593345d3f",
+        "co-organization-cc859371f796a138d061",
+        "co-organization-d254fe591c453fe2f588",
+        "co-organization-d829bb0c64a06e23adbb",
+        "co-organization-d86ee0a1b587b8c14bd1",
+        "co-organization-d8c51fa324faf627a4c7",
+        "co-organization-db8b3b5bc385ee0712ae",
+        "co-organization-dc9b25cba93e2926ef91",
+        "co-organization-e34f7904c071fce76506",
+        "co-organization-e5860c86b7c0b76b7a69",
+        "co-organization-e950c3eaa644ac88755d",
+        "co-organization-eccee8f4d6ef69cb249f",
+        "co-organization-ee3d054084ed750c7c56",
+        "co-organization-ef40cc501bcb22362da6",
+        "co-organization-fa4139cb179d0e1a931b",
+        "co-organization-fc7825e5d69ca1e20315",
+        "co-organization-fcf7240d45dc718b4b6d",
+        "co-organization-fd27de67814cd96f4517",
+        "dsa",
+        "fst",
+        "loveland",
+        "mhsl-cpvs",
+        "mhsl-fox",
+        "mhsl-monm",
+        "mhsl-wc1",
+        "mhsl-wc3",
+        "wsl-cortez",
+        "wsl-durango",
+        "wsl-gunnison",
+        "wsl-maverick",
+        "wsl-steamboat"
+      ]
+    },
+    {
+      "sport": "swimming",
+      "designation": "high-school",
+      "ids": [
+        "co-organization-c9153974a4c1f708e867",
+        "co-organization-e675e492f266e45db383"
+      ]
+    },
+    {
+      "sport": "swimming",
+      "designation": "college",
+      "ids": [
+        "co-organization-0ad5bccab49984fda6b5",
+        "co-organization-72ecd96bff5a476e027a",
+        "co-organization-782b23d3aeb403bf4668",
+        "co-organization-bb5aec5a25f6fa3d31c3",
+        "co-organization-c87851f3e10ca56dc2d9",
+        "co-organization-ee7cf5a0bd5785d5a8c4",
+        "csu",
+        "du"
+      ]
+    },
+    {
+      "sport": "swimming",
+      "designation": "adult",
+      "ids": [
+        "wsl-durango"
+      ]
+    },
+    {
+      "sport": "swimming",
+      "designation": "professional",
+      "ids": []
+    },
+    {
+      "sport": "swimming",
+      "designation": "community",
+      "ids": [
+        "co-organization-24fcccf8ae0879827be0",
+        "co-organization-3a41fc264010e0c2637a",
+        "co-organization-46fb90038203de77f3ab",
+        "co-organization-564d06d310147b6f422f",
+        "co-organization-d7d54c8c25e39b00b579",
+        "co-organization-e6924f68601d80f9537d"
+      ]
+    }
+  ]
+}

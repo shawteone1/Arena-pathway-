@@ -1,0 +1,92 @@
+{
+  "organizationReviews": [
+    {
+      "recordId": "acq-7fb0c3a498db11dac5f25276",
+      "recordVersion": 2,
+      "bodySha256": "88511361ba26c0d01e9822e5853e2875c838e3ab7ff96ce87f884ffd38054163",
+      "name": "Kings Lacrosse Club",
+      "sport": "lacrosse",
+      "identityClaimId": "claim-6205680921d5fd0e289a",
+      "sportClaimId": "claim-6205680921d5fd0e289a",
+      "geographyClaimId": "claim-6205680921d5fd0e289a",
+      "reviewer": "Codex public-source review; same analyst",
+      "reviewedAt": "2026-11-10T17:18:50.226631+00:00",
+      "reason": "Publisher title explicitly identifies its own elite boys club lacrosse in Colorado. Organization/sport/geography only; no supported age group or current season is inferred."
+    }
+  ],
+  "programReviews": [
+    {
+      "recordId": "acq-66522d888612c70f5b1daa9b",
+      "recordVersion": 1,
+      "bodySha256": "0e1719fa347e8b6dd0ade56f8ac77114be41e573fd4d8ff579d64c5bc69bb022",
+      "name": "SPRING LEAGUE",
+      "nameClaimId": "claim-d173af732b98000044e7",
+      "reviewer": "Codex public-source review; same analyst",
+      "reviewedAt": "2026-11-10T17:11:36.380338+00:00",
+      "reason": "Official publisher names this program. It is a program, not an inferred competition team. No current season, team membership or registration is asserted."
+    },
+    {
+      "recordId": "acq-1d0b018d0766777292f27f00",
+      "recordVersion": 1,
+      "bodySha256": "21c4a70fe6b5a9d9ab0b421c30630acb64c371c3f0cb87dd4041e831f114227e",
+      "name": "Boys Spring",
+      "nameClaimId": "claim-31407e8139263d7c45db",
+      "reviewer": "Codex public-source review; same analyst",
+      "reviewedAt": "2026-11-10T17:11:36.380353+00:00",
+      "reason": "Official publisher names this program. It is a program, not an inferred competition team. No current season, team membership or registration is asserted.",
+      "gradeClaimId": "claim-50360269a2082c74b924",
+      "gender": "boys",
+      "genderClaimId": "claim-31407e8139263d7c45db",
+      "publishedAgeGroupClaimId": "claim-2ddbba551678c35749ae"
+    },
+    {
+      "recordId": "acq-114a3c4f3fb858aced5e83c3",
+      "recordVersion": 2,
+      "bodySha256": "a906a6580a0ee1f6b7a85621ed17fed2673d08c0b2fac5f03ec3b19a5f9c95ac",
+      "name": "Developmental Volleyball Program",
+      "nameClaimId": "claim-13c0ca7c08482374002a",
+      "reviewer": "Codex public-source review; same analyst",
+      "reviewedAt": "2026-11-10T17:11:36.380359+00:00",
+      "reason": "Official publisher names this program. It is a program, not an inferred competition team. No current season, team membership or registration is asserted.",
+      "ageClaimId": "claim-5ca84a37ede76d5b8267"
+    },
+    {
+      "recordId": "acq-a52c6b4e873da9610b00aa77",
+      "recordVersion": 1,
+      "bodySha256": "1a36d963a8258f566eda67cae40d3beea922e4aae980bfb6a8f82888faf8e085",
+      "name": "Youth Volleyball Programs",
+      "nameClaimId": "claim-77c2561c07ce9ef1b51c",
+      "reviewer": "Codex public-source review; same analyst",
+      "reviewedAt": "2026-11-10T17:11:36.380375+00:00",
+      "reason": "Official publisher names this program. It is a program, not an inferred competition team. No current season, team membership or registration is asserted."
+    },
+    {
+      "recordId": "acq-7e3437c3c5b20330772d568c",
+      "recordVersion": 1,
+      "bodySha256": "c1f040d1acaadd6773ab38a81f5c9ae6434e4cb2a151866873b07a31e9089052",
+      "name": "Youth Programs",
+      "nameClaimId": "claim-a0a3c95e8b3308b9bdba",
+      "reviewer": "Codex public-source review; same analyst",
+      "reviewedAt": "2026-11-10T17:11:36.380384+00:00",
+      "reason": "Official publisher names this program. It is a program, not an inferred competition team. No current season, team membership or registration is asserted."
+    }
+  ],
+  "aliasReviews": [
+    {
+      "fromName": "Northern Power Lacrosse Club",
+      "toName": "Northern Power Lacrosse",
+      "reason": "Previously reviewed parent portfolio card and current club publisher identify the same brand. Preserve both published names; no age-group club duplication.",
+      "evidenceURLs": [
+        "https://synergysportsoperations.com/our-brands/",
+        "https://northernpowerlax.com/"
+      ]
+    }
+  ],
+  "canonicalOrganizationLinks": [
+    {
+      "name": "Denver Lacrosse Club",
+      "organizationId": "co-organization-6e899780d09a6602da7f",
+      "reason": "Exact reviewed name/sport matches existing canonical organization. League schedule participants are not asserted to be club-owned teams."
+    }
+  ]
+}

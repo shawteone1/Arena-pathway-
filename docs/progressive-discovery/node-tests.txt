@@ -1,0 +1,1183 @@
+
+> arena-pathway@0.7.0 check
+> node --check server.mjs && node --check src/views.mjs && node --check public/app.js && node --check public/siem.js && node --check public/siem-model.js && node --check src/siem-view.mjs && node --check src/release-views.mjs && node --check public/release-demo.js && node --check public/release-demo-model.js && npm run validate:data && npm run validate:participation && npm run discovery:check && node --check scripts/acquire-v2.mjs && node --check scripts/acquisition-console.mjs && npm test
+
+
+> arena-pathway@0.7.0 validate:data
+> node scripts/validate-data.mjs
+
+Catalog: PASS
+Counts: {"organizations":32,"teams":68,"schools":3,"leagues":3,"divisions":9}
+Western Slope member table: 16/16 — snapshot-complete
+Willow Creek III division table: 5/5 — snapshot-complete
+Denver Juniors West team navigation: 18/18 — snapshot-complete
+Skyline team navigation: 11/11 — snapshot-complete
+CBC team navigation: 5/5 — needs-review
+Denver school programs: 7/7 — snapshot-complete
+Colorado State University launch-sport programs: 4/4 — snapshot-complete
+Regis University launch-sport programs: 4/4 — snapshot-complete
+CLL fall box division headings: 5/5 — snapshot-complete
+CLL schedule unique team labels: 17/17 — needs-review
+Quality: {"missingRequiredFields":[],"seasonUnconfirmed":75,"sourceReviewsOverdue":[],"needsReviewImports":["cbc-teams","cll-schedule-teams"]}
+
+> arena-pathway@0.7.0 validate:participation
+> node scripts/validate-participation.mjs
+
+{
+  "valid": true,
+  "normalizedRecords": 513,
+  "programs": 296,
+  "assignedTeams": 132,
+  "openExceptions": 95,
+  "errors": []
+}
+
+> arena-pathway@0.7.0 discovery:check
+> node scripts/sports-discovery.mjs check
+
+(node:12561) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+{
+  "valid": true,
+  "statewideComplete": false,
+  "retentionRegressions": [],
+  "publicationErrors": [],
+  "graphErrors": [],
+  "sports": [
+    {
+      "sport": "swimming",
+      "storedOrganizations": 137,
+      "storedTeams": 54,
+      "categories": [
+        [
+          "youth",
+          109
+        ],
+        [
+          "high-school",
+          2
+        ],
+        [
+          "college",
+          8
+        ],
+        [
+          "adult",
+          1
+        ],
+        [
+          "professional",
+          0
+        ],
+        [
+          "community",
+          6
+        ]
+      ],
+      "unpublishedOrganizations": [
+        "Aspen",
+        "Avon",
+        "Delta Barracudas",
+        "Meeker Marlins",
+        "Montrose Marlins",
+        "Ouray Swim Club",
+        "Pagosa Springs Porpoises",
+        "Rangely",
+        "Silverthorn Tsunami",
+        "Team Sopris",
+        "Telluride",
+        "City of Burlington Recreation"
+      ],
+      "unassignedTeams": 1
+    },
+    {
+      "sport": "volleyball",
+      "storedOrganizations": 16,
+      "storedTeams": 44,
+      "categories": [
+        [
+          "youth",
+          9
+        ],
+        [
+          "high-school",
+          1
+        ],
+        [
+          "college",
+          8
+        ],
+        [
+          "adult",
+          0
+        ],
+        [
+          "professional",
+          0
+        ],
+        [
+          "community",
+          4
+        ]
+      ],
+      "unpublishedOrganizations": [],
+      "unassignedTeams": 0
+    },
+    {
+      "sport": "lacrosse",
+      "storedOrganizations": 13,
+      "storedTeams": 87,
+      "categories": [
+        [
+          "youth",
+          13
+        ],
+        [
+          "high-school",
+          0
+        ],
+        [
+          "college",
+          7
+        ],
+        [
+          "adult",
+          1
+        ],
+        [
+          "professional",
+          0
+        ],
+        [
+          "community",
+          2
+        ]
+      ],
+      "unpublishedOrganizations": [
+        "3d Colorado"
+      ],
+      "unassignedTeams": 75
+    },
+    {
+      "sport": "basketball",
+      "storedOrganizations": 110,
+      "storedTeams": 24,
+      "categories": [
+        [
+          "youth",
+          96
+        ],
+        [
+          "high-school",
+          1
+        ],
+        [
+          "college",
+          8
+        ],
+        [
+          "adult",
+          0
+        ],
+        [
+          "professional",
+          0
+        ],
+        [
+          "community",
+          4
+        ]
+      ],
+      "unpublishedOrganizations": [
+        "B & B Basketball Academy"
+      ],
+      "unassignedTeams": 0
+    }
+  ]
+}
+
+> arena-pathway@0.7.0 test
+> node --test
+
+TAP version 13
+# (node:12601) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: thresholds and held-out benchmarks were frozen before live evaluation; intake has no answer-list dependency
+ok 1 - thresholds and held-out benchmarks were frozen before live evaluation; intake has no answer-list dependency
+  ---
+  duration_ms: 9.513143
+  type: 'test'
+  ...
+# Subtest: live captures are measured separately from blocked prescribed capture and controlled demonstrations
+ok 2 - live captures are measured separately from blocked prescribed capture and controlled demonstrations
+  ---
+  duration_ms: 0.338581
+  type: 'test'
+  ...
+# Subtest: all prescribed operational-change scenarios assert behavior, including retirement, alias and second sport
+ok 3 - all prescribed operational-change scenarios assert behavior, including retirement, alias and second sport
+  ---
+  duration_ms: 60.476416
+  type: 'test'
+  ...
+# Subtest: fixture transport cannot be labeled a live run
+ok 4 - fixture transport cannot be labeled a live run
+  ---
+  duration_ms: 2.693648
+  type: 'test'
+  ...
+# Subtest: unchanged acquisition creates no new versions even when retrieval timestamps change; 304 uses compatible cache
+ok 5 - unchanged acquisition creates no new versions even when retrieval timestamps change; 304 uses compatible cache
+  ---
+  duration_ms: 6.870401
+  type: 'test'
+  ...
+# Subtest: explicit zero membership retains historical approved information until manual retirement and reactivation
+ok 6 - explicit zero membership retains historical approved information until manual retirement and reactivation
+  ---
+  duration_ms: 11.345074
+  type: 'test'
+  ...
+# Subtest: pagination captures page evidence; partial page budgets and failures cannot mark absent members retired
+ok 7 - pagination captures page evidence; partial page budgets and failures cannot mark absent members retired
+  ---
+  duration_ms: 8.369921
+  type: 'test'
+  ...
+# Subtest: changed layout and temporary source failure preserve prior records and prevent verification from missing current evidence
+ok 8 - changed layout and temporary source failure preserve prior records and prevent verification from missing current evidence
+  ---
+  duration_ms: 7.189242
+  type: 'test'
+  ...
+# Subtest: unprocessed frontier persists and can resume before revisiting seed pages
+ok 9 - unprocessed frontier persists and can resume before revisiting seed pages
+  ---
+  duration_ms: 8.177195
+  type: 'test'
+  ...
+# Subtest: alias resolution is evidence-scoped and typed; graph never invents team ownership
+ok 10 - alias resolution is evidence-scoped and typed; graph never invents team ownership
+  ---
+  duration_ms: 2.113258
+  type: 'test'
+  ...
+# Subtest: portable acquisition snapshots preserve source history, versions, reviews and frontier; bad references roll back
+ok 11 - portable acquisition snapshots preserve source history, versions, reviews and frontier; bad references roll back
+  ---
+  duration_ms: 73.637119
+  type: 'test'
+  ...
+# Subtest: operational view distinguishes staged, reviewed and consumer counts with source/name drilldown
+ok 12 - operational view distinguishes staged, reviewed and consumer counts with source/name drilldown
+  ---
+  duration_ms: 304.995969
+  type: 'test'
+  ...
+# Subtest: quality metrics do not count excluded records as outstanding work or monitoring
+ok 13 - quality metrics do not count excluded records as outstanding work or monitoring
+  ---
+  duration_ms: 0.468123
+  type: 'test'
+  ...
+# Subtest: acceptance command fails explicitly; refresh defaults to no-network planning
+ok 14 - acceptance command fails explicitly; refresh defaults to no-network planning
+  ---
+  duration_ms: 342.032878
+  type: 'test'
+  ...
+# Subtest: unrelated application, original research and governing documents remain unchanged; progressive views are authorized separately
+ok 15 - unrelated application, original research and governing documents remain unchanged; progressive views are authorized separately
+  ---
+  duration_ms: 254.154948
+  type: 'test'
+  ...
+# Subtest: discovery rejects private literal/local hosts and treats unsupported evidence as unverified
+ok 16 - discovery rejects private literal/local hosts and treats unsupported evidence as unverified
+  ---
+  duration_ms: 6.53927
+  type: 'test'
+  ...
+# Subtest: catalog reconciles expanded records without claiming statewide completeness
+ok 17 - catalog reconciles expanded records without claiming statewide completeness
+  ---
+  duration_ms: 2.973101
+  type: 'test'
+  ...
+# Subtest: missing imported members, duplicate aliases, duplicate teams, orphan teams and broken provenance fail validation
+ok 18 - missing imported members, duplicate aliases, duplicate teams, orphan teams and broken provenance fail validation
+  ---
+  duration_ms: 4.409638
+  type: 'test'
+  ...
+# Subtest: freshness expires after 90 days and is independent of unknown season
+ok 19 - freshness expires after 90 days and is independent of unknown season
+  ---
+  duration_ms: 0.172796
+  type: 'test'
+  ...
+# Subtest: profile state recovers corrupt storage, migrates legacy preferences with media OFF, and sanitizes fields
+ok 20 - profile state recovers corrupt storage, migrates legacy preferences with media OFF, and sanitizes fields
+  ---
+  duration_ms: 1.000081
+  type: 'test'
+  ...
+# Subtest: saves, notes and schedules remain isolated between family profiles
+ok 21 - saves, notes and schedules remain isolated between family profiles
+  ---
+  duration_ms: 5.986362
+  type: 'test'
+  ...
+# Subtest: calendar export uses exclusive end dates, escapes injected lines and folds UTF-8 safely
+ok 22 - calendar export uses exclusive end dates, escapes injected lines and folds UTF-8 safely
+  ---
+  duration_ms: 0.730561
+  type: 'test'
+  ...
+# Subtest: all routes, source assets, search filters, strict 404s, and internal navigation work
+ok 23 - all routes, source assets, search filters, strict 404s, and internal navigation work
+  ---
+  duration_ms: 2034.572548
+  type: 'test'
+  ...
+# Subtest: responsive and accessibility code includes narrow layouts, tap targets, label associations and opt-in defaults
+ok 24 - responsive and accessibility code includes narrow layouts, tap targets, label associations and opt-in defaults
+  ---
+  duration_ms: 0.595803
+  type: 'test'
+  ...
+# Subtest: reviewed catalog and catalog queries remain byte-preserved while participation behavior evolves
+ok 25 - reviewed catalog and catalog queries remain byte-preserved while participation behavior evolves
+  ---
+  duration_ms: 1.169521
+  type: 'test'
+  ...
+# Subtest: homepage is an umbrella editorial experience with a single five-destination Sports menu
+ok 26 - homepage is an umbrella editorial experience with a single five-destination Sports menu
+  ---
+  duration_ms: 1.117444
+  type: 'test'
+  ...
+# Subtest: generic A is not rendered and only approved artwork is used when the brand is ready
+ok 27 - generic A is not rendered and only approved artwork is used when the brand is ready
+  ---
+  duration_ms: 0.708088
+  type: 'test'
+  ...
+# Subtest: sport landing pages retain sections, use their own images and emphasize View All Teams
+ok 28 - sport landing pages retain sections, use their own images and emphasize View All Teams
+  ---
+  duration_ms: 26.520259
+  type: 'test'
+  ...
+# Subtest: directories separate participation categories, group clubs first and retain explicit team searches
+ok 29 - directories separate participation categories, group clubs first and retain explicit team searches
+  ---
+  duration_ms: 2.620359
+  type: 'test'
+  ...
+# Subtest: swimming classification follows explicit catalog evidence without inventing summer status
+ok 30 - swimming classification follows explicit catalog evidence without inventing summer status
+  ---
+  duration_ms: 13.8817
+  type: 'test'
+  ...
+# Subtest: onboarding retains every existing interaction hook and media defaults while exposing journey chapters
+ok 31 - onboarding retains every existing interaction hook and media defaults while exposing journey chapters
+  ---
+  duration_ms: 0.524827
+  type: 'test'
+  ...
+# Subtest: requested palette, iPhone input sizing, responsive assets and keyboard focus have structural coverage
+ok 32 - requested palette, iPhone input sizing, responsive assets and keyboard focus have structural coverage
+  ---
+  duration_ms: 0.712024
+  type: 'test'
+  ...
+# Subtest: new responsive photos, font assets and version are served without broad filesystem exposure
+ok 33 - new responsive photos, font assets and version are served without broad filesystem exposure
+  ---
+  duration_ms: 71.466891
+  type: 'test'
+  ...
+# Subtest: primary text and action palette pairs meet WCAG AA normal-text contrast
+ok 34 - primary text and action palette pairs meet WCAG AA normal-text contrast
+  ---
+  duration_ms: 0.544366
+  type: 'test'
+  ...
+# Subtest: approved AP original is retained exactly and all derivative bytes match the reviewed manifest
+ok 35 - approved AP original is retained exactly and all derivative bytes match the reviewed manifest
+  ---
+  duration_ms: 5.549705
+  type: 'test'
+  ...
+# Subtest: homepage, shared navigation, mobile picture source and browser icons use approved asset paths
+ok 36 - homepage, shared navigation, mobile picture source and browser icons use approved asset paths
+  ---
+  duration_ms: 37.235501
+  type: 'test'
+  ...
+# (node:12633) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: linked profile identity uses a configured heading, not the directory publisher or program title
+ok 37 - linked profile identity uses a configured heading, not the directory publisher or program title
+  ---
+  duration_ms: 11.681672
+  type: 'test'
+  ...
+# Subtest: embedded structured scripts and incidental team names cannot qualify geography or youth
+ok 38 - embedded structured scripts and incidental team names cannot qualify geography or youth
+  ---
+  duration_ms: 2.460743
+  type: 'test'
+  ...
+# Subtest: qualification evidence points to the actual service-area statement rather than an incidental name
+ok 39 - qualification evidence points to the actual service-area statement rather than an incidental name
+  ---
+  duration_ms: 1.828957
+  type: 'test'
+  ...
+# Subtest: missing configured identity heading is a layout failure and never silently emits a publisher identity
+ok 40 - missing configured identity heading is a layout failure and never silently emits a publisher identity
+  ---
+  duration_ms: 0.969145
+  type: 'test'
+  ...
+# Subtest: HTML-labeled JSON fragment wrappers remain unsupported instead of supplying qualification facts
+ok 41 - HTML-labeled JSON fragment wrappers remain unsupported instead of supplying qualification facts
+  ---
+  duration_ms: 0.944579
+  type: 'test'
+  ...
+# Subtest: configured member traversal captures club profiles while excluding unrelated and roster links
+ok 42 - configured member traversal captures club profiles while excluding unrelated and roster links
+  ---
+  duration_ms: 34.381978
+  type: 'test'
+  ...
+# (node:12642) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: diagnosis names category exclusions, blocked source gaps and retained Skyline teams without inventing clubs
+ok 43 - diagnosis names category exclusions, blocked source gaps and retained Skyline teams without inventing clubs
+  ---
+  duration_ms: 1.868005
+  type: 'test'
+  ...
+# Subtest: actual published API and all paginated HTML agree for every category and team/league tool
+ok 44 - actual published API and all paginated HTML agree for every category and team/league tool
+  ---
+  duration_ms: 695.273511
+  type: 'test'
+  ...
+# Subtest: retention compares IDs and original payloads, so equal totals cannot hide a lost validated club
+ok 45 - retention compares IDs and original payloads, so equal totals cannot hide a lost validated club
+  ---
+  duration_ms: 110.303197
+  type: 'test'
+  ...
+# Subtest: retention review exceptions require explicit scope, named reviewer, rationale and evidence
+ok 46 - retention review exceptions require explicit scope, named reviewer, rationale and evidence
+  ---
+  duration_ms: 8.198647
+  type: 'test'
+  ...
+# Subtest: source registry revisions persist edits and reversions without overwriting history
+ok 47 - source registry revisions persist edits and reversions without overwriting history
+  ---
+  duration_ms: 14.904864
+  type: 'test'
+  ...
+# Subtest: another comparable source is added by configuration and an extraction plugin without page code
+ok 48 - another comparable source is added by configuration and an extraction plugin without page code
+  ---
+  duration_ms: 9.009727
+  type: 'test'
+  ...
+# Subtest: configured JSON pagination is followed and unresolved pagination cannot be complete
+ok 49 - configured JSON pagination is followed and unresolved pagination cannot be complete
+  ---
+  duration_ms: 6.585259
+  type: 'test'
+  ...
+# Subtest: unexplained membership decreases cannot be approved and do not delete preserved identities
+ok 50 - unexplained membership decreases cannot be approved and do not delete preserved identities
+  ---
+  duration_ms: 5.345703
+  type: 'test'
+  ...
+# Subtest: graph keeps league participants separate from verified team ownership and rejects invalid edges
+ok 51 - graph keeps league participants separate from verified team ownership and rejects invalid edges
+  ---
+  duration_ms: 18.800821
+  type: 'test'
+  ...
+# Subtest: a directory-only or missing-members source cannot claim completeness
+ok 52 - a directory-only or missing-members source cannot claim completeness
+  ---
+  duration_ms: 0.520951
+  type: 'test'
+  ...
+# Subtest: both real configured archive replays retain verified clubs, programs and evidence idempotently
+ok 53 - both real configured archive replays retain verified clubs, programs and evidence idempotently
+  ---
+  duration_ms: 757.177035
+  type: 'test'
+  ...
+# Subtest: versioned registry/expectations and task histories survive audit snapshot restoration
+ok 54 - versioned registry/expectations and task histories survive audit snapshot restoration
+  ---
+  duration_ms: 7.048374
+  type: 'test'
+  ...
+# Subtest: sport decision policy and region normalization are configurable without inventing classification
+ok 55 - sport decision policy and region normalization are configurable without inventing classification
+  ---
+  duration_ms: 0.462404
+  type: 'test'
+  ...
+# Subtest: refresh plans expose due/blocked work without claiming an operational scheduler
+ok 56 - refresh plans expose due/blocked work without claiming an operational scheduler
+  ---
+  duration_ms: 0.308877
+  type: 'test'
+  ...
+# Subtest: unrelated approved presentation, SIEM and original research/data remain byte-identical to integrated RC
+ok 57 - unrelated approved presentation, SIEM and original research/data remain byte-identical to integrated RC
+  ---
+  duration_ms: 49.144942
+  type: 'test'
+  ...
+# Subtest: coverage findings are durable, acknowledgment cannot waive a source gap, and factual resolution retains history
+ok 58 - coverage findings are durable, acknowledgment cannot waive a source gap, and factual resolution retains history
+  ---
+  duration_ms: 13.911203
+  type: 'test'
+  ...
+# Subtest: audit restoration rejects tampered registry evidence and rolls back staged restore writes
+ok 59 - audit restoration rejects tampered registry evidence and rolls back staged restore writes
+  ---
+  duration_ms: 8.628724
+  type: 'test'
+  ...
+# Subtest: staged database identities are distinguished from the public snapshot, not silently counted as visible clubs
+ok 60 - staged database identities are distinguished from the public snapshot, not silently counted as visible clubs
+  ---
+  duration_ms: 4.916639
+  type: 'test'
+  ...
+# (node:12675) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: independent expected IDs detect removed memberships and cannot be substituted by current stored totals
+ok 61 - independent expected IDs detect removed memberships and cannot be substituted by current stored totals
+  ---
+  duration_ms: 1.99273
+  type: 'test'
+  ...
+# Subtest: a directory-only page, unknown denominator, pagination or membership frontier cannot be complete
+ok 62 - a directory-only page, unknown denominator, pagination or membership frontier cannot be complete
+  ---
+  duration_ms: 0.437077
+  type: 'test'
+  ...
+# Subtest: counts balance duplicate/excluded/unresolved candidates and unresolved rows block completion
+ok 63 - counts balance duplicate/excluded/unresolved candidates and unresolved rows block completion
+  ---
+  duration_ms: 0.273906
+  type: 'test'
+  ...
+# Subtest: unexplained decreases block a source even if its changed list is self-consistent
+ok 64 - unexplained decreases block a source even if its changed list is self-consistent
+  ---
+  duration_ms: 0.178344
+  type: 'test'
+  ...
+# Subtest: duplicate clubs/aliases and team identities fail while distinct seasons/divisions remain separate
+ok 65 - duplicate clubs/aliases and team identities fail while distinct seasons/divisions remain separate
+  ---
+  duration_ms: 1.339959
+  type: 'test'
+  ...
+# Subtest: orphans, cross-sport relationships and incorrect season/competition associations fail
+ok 66 - orphans, cross-sport relationships and incorrect season/competition associations fail
+  ---
+  duration_ms: 0.319623
+  type: 'test'
+  ...
+# Subtest: summer and USA year-round swimming cannot be merged through parent classification
+ok 67 - summer and USA year-round swimming cannot be merged through parent classification
+  ---
+  duration_ms: 0.192415
+  type: 'test'
+  ...
+# Subtest: stale or unconfirmed schedules are never current and event dates must fit the declared season
+ok 68 - stale or unconfirmed schedules are never current and event dates must fit the declared season
+  ---
+  duration_ms: 0.238012
+  type: 'test'
+  ...
+# Subtest: organizational adapters never retain source contacts or minor roster fields
+ok 69 - organizational adapters never retain source contacts or minor roster fields
+  ---
+  duration_ms: 8.417711
+  type: 'test'
+  ...
+# Subtest: meet candidates distinguish unattached, out-of-state and unverifiable club affiliations
+ok 70 - meet candidates distinguish unattached, out-of-state and unverifiable club affiliations
+  ---
+  duration_ms: 1.122682
+  type: 'test'
+  ...
+# Subtest: request policy blocks private hosts, unregistered redirects, credentials and roster routes
+ok 71 - request policy blocks private hosts, unregistered redirects, credentials and roster routes
+  ---
+  duration_ms: 3.969817
+  type: 'test'
+  ...
+# Subtest: robots and rate-limit responses prevent content traversal instead of bypassing restrictions
+ok 72 - robots and rate-limit responses prevent content traversal instead of bypassing restrictions
+  ---
+  duration_ms: 5.655052
+  type: 'test'
+  ...
+# Subtest: SQLite staging does not publish until explicit review, approvals are idempotent and conflicts roll back
+ok 73 - SQLite staging does not publish until explicit review, approvals are idempotent and conflicts roll back
+  ---
+  duration_ms: 5.097807
+  type: 'test'
+  ...
+# Subtest: re-imports preserve entity IDs, cannot approve landing-only missing expectations, and do not delete reviewed data
+ok 74 - re-imports preserve entity IDs, cannot approve landing-only missing expectations, and do not delete reviewed data
+  ---
+  duration_ms: 2.434243
+  type: 'test'
+  ...
+# Subtest: concurrent source runs and migration tampering are rejected; durable databases survive reopen
+ok 75 - concurrent source runs and migration tampering are rejected; durable databases survive reopen
+  ---
+  duration_ms: 17.200292
+  type: 'test'
+  ...
+# Subtest: failed imports retain a blocked history entry without touching verified entities
+ok 76 - failed imports retain a blocked history entry without touching verified entities
+  ---
+  duration_ms: 4.317582
+  type: 'test'
+  ...
+# Subtest: multi-sport college organization stays canonical without combining distinct gender teams
+ok 77 - multi-sport college organization stays canonical without combining distinct gender teams
+  ---
+  duration_ms: 0.576794
+  type: 'test'
+  ...
+# Subtest: runner keeps out-of-scope related pages unresolved instead of fetching them
+ok 78 - runner keeps out-of-scope related pages unresolved instead of fetching them
+  ---
+  duration_ms: 5.612478
+  type: 'test'
+  ...
+# Subtest: aggregate PDF team summaries retain tied rankings and reject individual result layouts
+ok 79 - aggregate PDF team summaries retain tied rankings and reject individual result layouts
+  ---
+  duration_ms: 1.042864
+  type: 'test'
+  ...
+# Subtest: association extraction traverses every member and keeps adjacent team names separate
+ok 80 - association extraction traverses every member and keeps adjacent team names separate
+  ---
+  duration_ms: 1.441143
+  type: 'test'
+  ...
+# Subtest: retirement retains revision history, protects the baseline and rejects active orphaning
+ok 81 - retirement retains revision history, protects the baseline and rejects active orphaning
+  ---
+  duration_ms: 3.321196
+  type: 'test'
+  ...
+# Subtest: persistent host reservations honor newly learned longer crawl delays and cooldowns
+ok 82 - persistent host reservations honor newly learned longer crawl delays and cooldowns
+  ---
+  duration_ms: 2.257732
+  type: 'test'
+  ...
+# (node:12683) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: portable audit restores reviewed entities, candidate history and approvals transactionally
+ok 83 - portable audit restores reviewed entities, candidate history and approvals transactionally
+  ---
+  duration_ms: 298.397261
+  type: 'test'
+  ...
+# Subtest: published overlay preserves every original reviewed record and excludes all unresolved games
+ok 84 - published overlay preserves every original reviewed record and excludes all unresolved games
+  ---
+  duration_ms: 23.224295
+  type: 'test'
+  ...
+# Subtest: directory filters distinguish seasons, collegiate genders, geography and adaptive programs
+ok 85 - directory filters distinguish seasons, collegiate genders, geography and adaptive programs
+  ---
+  duration_ms: 5.918902
+  type: 'test'
+  ...
+# Subtest: coverage and first-party routes serve partial source denominators with read-only HTTP access
+ok 86 - coverage and first-party routes serve partial source denominators with read-only HTTP access
+  ---
+  duration_ms: 57.454252
+  type: 'test'
+  ...
+# Subtest: saved directory divisions and facilities can be resolved by the existing athlete workspace
+ok 87 - saved directory divisions and facilities can be resolved by the existing athlete workspace
+  ---
+  duration_ms: 1.184183
+  type: 'test'
+  ...
+# Subtest: new explicit module choices are independent of goal, interests and saved clubs
+ok 88 - new explicit module choices are independent of goal, interests and saved clubs
+  ---
+  duration_ms: 1.699516
+  type: 'test'
+  ...
+# Subtest: all seven modules can be selected independently, sanitized and ordered without mandatory progression
+ok 89 - all seven modules can be selected independently, sanitized and ordered without mandatory progression
+  ---
+  duration_ms: 0.465979
+  type: 'test'
+  ...
+# Subtest: removing every module retains saved records, personal calendars, recruiting plans and media preferences after reload
+ok 90 - removing every module retains saved records, personal calendars, recruiting plans and media preferences after reload
+  ---
+  duration_ms: 0.451929
+  type: 'test'
+  ...
+# Subtest: family profiles retain independent module selections, ordering and media sources
+ok 91 - family profiles retain independent module selections, ordering and media sources
+  ---
+  duration_ms: 0.375225
+  type: 'test'
+  ...
+# Subtest: legacy profiles migrate expressed choices without deriving recruiting from saved clubs, college records or notes
+ok 92 - legacy profiles migrate expressed choices without deriving recruiting from saved clubs, college records or notes
+  ---
+  duration_ms: 0.48671
+  type: 'test'
+  ...
+# Subtest: existing v2 storage migrates nondestructively and remains idempotent
+ok 93 - existing v2 storage migrates nondestructively and remains idempotent
+  ---
+  duration_ms: 0.199716
+  type: 'test'
+  ...
+# Subtest: media is off by default and retained sources do not display without module opt-in
+ok 94 - media is off by default and retained sources do not display without module opt-in
+  ---
+  duration_ms: 0.353884
+  type: 'test'
+  ...
+# Subtest: workspace navigation starts empty and optional features are inert templates until selected
+ok 95 - workspace navigation starts empty and optional features are inert templates until selected
+  ---
+  duration_ms: 1.047981
+  type: 'test'
+  ...
+# Subtest: workspace supports keyboard reorder and retains organization lookup without recruiting side effects
+ok 96 - workspace supports keyboard reorder and retains organization lookup without recruiting side effects
+  ---
+  duration_ms: 0.400192
+  type: 'test'
+  ...
+# Subtest: reviewed identity, sport and geography publish independently of current opportunities
+ok 97 - reviewed identity, sport and geography publish independently of current opportunities
+  ---
+  duration_ms: 0.959991
+  type: 'test'
+  ...
+# Subtest: historical and stale participation stays visible with explicit currency limits
+ok 98 - historical and stale participation stays visible with explicit currency limits
+  ---
+  duration_ms: 0.273354
+  type: 'test'
+  ...
+# Subtest: default youth discovery excludes unconfirmed participation, explicit all-verified view includes it
+ok 99 - default youth discovery excludes unconfirmed participation, explicit all-verified view includes it
+  ---
+  duration_ms: 9.812706
+  type: 'test'
+  ...
+# Subtest: all previously public IDs survive and new organization cards are canonical, not age-group clones
+ok 100 - all previously public IDs survive and new organization cards are canonical, not age-group clones
+  ---
+  duration_ms: 37.598038
+  type: 'test'
+  ...
+# Subtest: no-program organizations render without a fabricated program or competition team
+ok 101 - no-program organizations render without a fabricated program or competition team
+  ---
+  duration_ms: 0.420612
+  type: 'test'
+  ...
+# Subtest: named programs and published age-group sections never become current teams
+ok 102 - named programs and published age-group sections never become current teams
+  ---
+  duration_ms: 0.64826
+  type: 'test'
+  ...
+# Subtest: registration filters are explicit and unknowns do not leak into positive filters
+ok 103 - registration filters are explicit and unknowns do not leak into positive filters
+  ---
+  duration_ms: 1.489695
+  type: 'test'
+  ...
+# Subtest: new source aliases and community/youth overlap reuse one canonical identity
+ok 104 - new source aliases and community/youth overlap reuse one canonical identity
+  ---
+  duration_ms: 0.989895
+  type: 'test'
+  ...
+# Subtest: current opportunities require current explicit availability evidence, not a URL or historic season
+ok 105 - current opportunities require current explicit availability evidence, not a URL or historic season
+  ---
+  duration_ms: 0.499319
+  type: 'test'
+  ...
+# Subtest: the participation graph preserves many-to-many reviewed links and rejects orphan or cross-sport programs
+ok 106 - the participation graph preserves many-to-many reviewed links and rejects orphan or cross-sport programs
+  ---
+  duration_ms: 2.051006
+  type: 'test'
+  ...
+# Subtest: source planning follows association/member paths and retains alternative school/recreation scopes
+ok 107 - source planning follows association/member paths and retains alternative school/recreation scopes
+  ---
+  duration_ms: 4.726337
+  type: 'test'
+  ...
+# Subtest: public API and profiles expose reviewed facts and unknown status; unrelated data/branding preserved
+ok 108 - public API and profiles expose reviewed facts and unknown status; unrelated data/branding preserved
+  ---
+  duration_ms: 218.166943
+  type: 'test'
+  ...
+# Subtest: a separately reviewed current season does not imply registration availability
+ok 109 - a separately reviewed current season does not imply registration availability
+  ---
+  duration_ms: 0.30377
+  type: 'test'
+  ...
+# Subtest: public provider fragment parses HTML and navigation without treating config as geography
+ok 110 - public provider fragment parses HTML and navigation without treating config as geography
+  ---
+  duration_ms: 12.499103
+  type: 'test'
+  ...
+# Subtest: arbitrary JSON config remains unsupported instead of silently becoming verified HTML
+ok 111 - arbitrary JSON config remains unsupported instead of silently becoming verified HTML
+  ---
+  duration_ms: 0.223211
+  type: 'test'
+  ...
+# Subtest: public evidence never becomes verification without an explicit source-bound review
+ok 112 - public evidence never becomes verification without an explicit source-bound review
+  ---
+  duration_ms: 1.212585
+  type: 'test'
+  ...
+# Subtest: verified organization and published youth program do not prove a current dated offering
+ok 113 - verified organization and published youth program do not prove a current dated offering
+  ---
+  duration_ms: 0.153718
+  type: 'test'
+  ...
+# Subtest: current program needs an explicit same-program date review and expires outside its interval
+ok 114 - current program needs an explicit same-program date review and expires outside its interval
+  ---
+  duration_ms: 0.284501
+  type: 'test'
+  ...
+# Subtest: stale retrieval, failed source, changed hash/version or invented identity cannot be approved
+ok 115 - stale retrieval, failed source, changed hash/version or invented identity cannot be approved
+  ---
+  duration_ms: 0.27656
+  type: 'test'
+  ...
+# Subtest: directory publisher facts cannot qualify every listed club
+ok 116 - directory publisher facts cannot qualify every listed club
+  ---
+  duration_ms: 3.513261
+  type: 'test'
+  ...
+# Subtest: a bare season, historical date or future start never implies current enrollment
+ok 117 - a bare season, historical date or future start never implies current enrollment
+  ---
+  duration_ms: 0.312492
+  type: 'test'
+  ...
+# Subtest: a linked publisher program can supply scoped evidence; an unrelated club or wrong sport cannot
+ok 118 - a linked publisher program can supply scoped evidence; an unrelated club or wrong sport cannot
+  ---
+  duration_ms: 0.397959
+  type: 'test'
+  ...
+# Subtest: all three demonstrations reuse SIEM normalization, show changes/conflicts/actions and remain isolated
+ok 119 - all three demonstrations reuse SIEM normalization, show changes/conflicts/actions and remain isolated
+  ---
+  duration_ms: 12.150416
+  type: 'test'
+  ...
+# Subtest: integration preserves reviewed records, source URLs and approved charter/brand assets while allowing additions
+ok 120 - integration preserves reviewed records, source URLs and approved charter/brand assets while allowing additions
+  ---
+  duration_ms: 210.182463
+  type: 'test'
+  ...
+# Subtest: SIEM opportunities have verified youth program ownership and schedule state
+ok 121 - SIEM opportunities have verified youth program ownership and schedule state
+  ---
+  duration_ms: 0.321145
+  type: 'test'
+  ...
+# Subtest: integrated presentation routes, scenario boundaries and CSP remain valid
+ok 122 - integrated presentation routes, scenario boundaries and CSP remain valid
+  ---
+  duration_ms: 53.854453
+  type: 'test'
+  ...
+# Subtest: family and child scopes isolate reads and writes, reject role and sport mismatch
+ok 123 - family and child scopes isolate reads and writes, reject role and sport mismatch
+  ---
+  duration_ms: 2.087019
+  type: 'test'
+  ...
+# Subtest: duplicate candidates preserve both sources and evidence; reimports are idempotent
+ok 124 - duplicate candidates preserve both sources and evidence; reimports are idempotent
+  ---
+  duration_ms: 0.629551
+  type: 'test'
+  ...
+# Subtest: overlapping child and parent commitments conflict, touching events do not
+ok 125 - overlapping child and parent commitments conflict, touching events do not
+  ---
+  duration_ms: 0.710031
+  type: 'test'
+  ...
+# Subtest: event revisions retain history, cancellation and unverified status
+ok 126 - event revisions retain history, cancellation and unverified status
+  ---
+  duration_ms: 0.59461
+  type: 'test'
+  ...
+# Subtest: priority, deadlines, requirements and opportunity rules are deterministic
+ok 127 - priority, deadlines, requirements and opportunity rules are deterministic
+  ---
+  duration_ms: 1.038638
+  type: 'test'
+  ...
+# Subtest: acknowledgment, resolution, reopening and reminders are scoped and audited
+ok 128 - acknowledgment, resolution, reopening and reminders are scoped and audited
+  ---
+  duration_ms: 0.744893
+  type: 'test'
+  ...
+# Subtest: provider failures retain events and last success, unsupported systems remain unconnected
+ok 129 - provider failures retain events and last success, unsupported systems remain unconnected
+  ---
+  duration_ms: 0.476655
+  type: 'test'
+  ...
+# Subtest: minimal product events require consent and omit document/health/payment payloads
+ok 130 - minimal product events require consent and omit document/health/payment payloads
+  ---
+  duration_ms: 0.431609
+  type: 'test'
+  ...
+# Subtest: normalization drops arbitrary sensitive fields and unsafe URLs
+ok 131 - normalization drops arbitrary sensitive fields and unsafe URLs
+  ---
+  duration_ms: 0.443046
+  type: 'test'
+  ...
+# Subtest: ICS parses UTC snapshots, rejects recurrence and local-time ambiguity atomically
+ok 132 - ICS parses UTC snapshots, rejects recurrence and local-time ambiguity atomically
+  ---
+  duration_ms: 0.999159
+  type: 'test'
+  ...
+# Subtest: wellness defaults off and respects availability, preferences, travel, pickups and confirmed commitments
+ok 133 - wellness defaults off and respects availability, preferences, travel, pickups and confirmed commitments
+  ---
+  duration_ms: 0.381675
+  type: 'test'
+  ...
+# Subtest: interests do not cause conflicts until explicitly confirmed; recurring plans have stable IDs
+ok 134 - interests do not cause conflicts until explicitly confirmed; recurring plans have stable IDs
+  ---
+  duration_ms: 0.473541
+  type: 'test'
+  ...
+# Subtest: SIEM route and scripts retain CSP and private data has no server endpoint
+ok 135 - SIEM route and scripts retain CSP and private data has no server endpoint
+  ---
+  duration_ms: 38.960645
+  type: 'test'
+  ...
+# Subtest: revoking product consent hides status events; unsupported providers cannot inject verified events
+ok 136 - revoking product consent hides status events; unsupported providers cannot inject verified events
+  ---
+  duration_ms: 0.367664
+  type: 'test'
+  ...
+# Subtest: ICS rejects impossible calendar dates and excessive input
+ok 137 - ICS rejects impossible calendar dates and excessive input
+  ---
+  duration_ms: 0.169381
+  type: 'test'
+  ...
+# (node:12755) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: all sport primary directories enforce youth / school / college / adult separation
+ok 138 - all sport primary directories enforce youth / school / college / adult separation
+  ---
+  duration_ms: 35.23484
+  type: 'test'
+  ...
+# Subtest: club-first results retain one parent while individual team search finds the child
+ok 139 - club-first results retain one parent while individual team search finds the child
+  ---
+  duration_ms: 1.052117
+  type: 'test'
+  ...
+# Subtest: CSI explicit Year Round, Seasonal and Collegiate codes reconcile independently and metadata is not a club
+ok 140 - CSI explicit Year Round, Seasonal and Collegiate codes reconcile independently and metadata is not a club
+  ---
+  duration_ms: 1.111636
+  type: 'test'
+  ...
+# Subtest: static published Apps Script clubs are parsed without running scripts or importing footer/roster fields
+ok 141 - static published Apps Script clubs are parsed without running scripts or importing footer/roster fields
+  ---
+  duration_ms: 8.553221
+  type: 'test'
+  ...
+# Subtest: community programs use actual providers; a facility alone does not create a program
+ok 142 - community programs use actual providers; a facility alone does not create a program
+  ---
+  duration_ms: 1.208539
+  type: 'test'
+  ...
+# Subtest: Gold Crown is a league organizer, not a club or owner of every feeder team
+ok 143 - Gold Crown is a league organizer, not a club or owner of every feeder team
+  ---
+  duration_ms: 13.931263
+  type: 'test'
+  ...
+# Subtest: unknown ownership and classification are queued, not silently hidden or made into youth clubs
+ok 144 - unknown ownership and classification are queued, not silently hidden or made into youth clubs
+  ---
+  duration_ms: 0.789369
+  type: 'test'
+  ...
+# Subtest: participation validator rejects missing designations, orphan programs and cross-sport formats
+ok 145 - participation validator rejects missing designations, orphan programs and cross-sport formats
+  ---
+  duration_ms: 0.585347
+  type: 'test'
+  ...
+# Subtest: parent ownership correction cannot be bypassed with a boolean flag
+ok 146 - parent ownership correction cannot be bypassed with a boolean flag
+  ---
+  duration_ms: 0.429466
+  type: 'test'
+  ...
+# Subtest: seasonal USA membership cannot be relabeled summer recreational or Masters youth
+ok 147 - seasonal USA membership cannot be relabeled summer recreational or Masters youth
+  ---
+  duration_ms: 0.453802
+  type: 'test'
+  ...
+# Subtest: current registration requires dated source evidence rather than a URL or team participation
+ok 148 - current registration requires dated source evidence rather than a URL or team participation
+  ---
+  duration_ms: 0.254948
+  type: 'test'
+  ...
+# Subtest: age and grade fields keep mixed published units instead of turning 17U into grade 17
+ok 149 - age and grade fields keep mixed published units instead of turning 17U into grade 17
+  ---
+  duration_ms: 0.188809
+  type: 'test'
+  ...
+# Subtest: historical or yearless schedules cannot enter current public fixtures
+ok 150 - historical or yearless schedules cannot enter current public fixtures
+  ---
+  duration_ms: 0.593468
+  type: 'test'
+  ...
+# Subtest: source references for configured registration facts must still exist on the published page
+ok 151 - source references for configured registration facts must still exist on the published page
+  ---
+  duration_ms: 3.457999
+  type: 'test'
+  ...
+# Subtest: accessible membership pagination is processed and incomplete budgets remain partial
+ok 152 - accessible membership pagination is processed and incomplete budgets remain partial
+  ---
+  duration_ms: 14.496229
+  type: 'test'
+  ...
+# Subtest: classification snapshots are durable, reviewed and refuse silent program deletion
+ok 153 - classification snapshots are durable, reviewed and refuse silent program deletion
+  ---
+  duration_ms: 18.370295
+  type: 'test'
+  ...
+# Subtest: every original reviewed normalized entity and evidence payload remains present and identical
+ok 154 - every original reviewed normalized entity and evidence payload remains present and identical
+  ---
+  duration_ms: 46.074687
+  type: 'test'
+  ...
+# Subtest: seven independent workspace modules keep saved records and optional recruiting/media
+ok 155 - seven independent workspace modules keep saved records and optional recruiting/media
+  ---
+  duration_ms: 0.587871
+  type: 'test'
+  ...
+# Subtest: first-party profiles and hierarchy routes work, while unknown sports and bogus organizations stay 404
+ok 156 - first-party profiles and hierarchy routes work, while unknown sports and bogus organizations stay 404
+  ---
+  duration_ms: 95.410911
+  type: 'test'
+  ...
+# Subtest: program names and facility venues never override verified participation designations
+ok 157 - program names and facility venues never override verified participation designations
+  ---
+  duration_ms: 0.371029
+  type: 'test'
+  ...
+# Subtest: newly approved source identities enter a durable classification queue before publication
+ok 158 - newly approved source identities enter a durable classification queue before publication
+  ---
+  duration_ms: 4.777332
+  type: 'test'
+  ...
+# Subtest: missing or conflicting aliases cannot merge teams into parent organization identities
+ok 159 - missing or conflicting aliases cannot merge teams into parent organization identities
+  ---
+  duration_ms: 0.366062
+  type: 'test'
+  ...
+# Subtest: registration references retain program ownership and survive a fresh SQLite audit restore
+ok 160 - registration references retain program ownership and survive a fresh SQLite audit restore
+  ---
+  duration_ms: 141.239123
+  type: 'test'
+  ...
+1..160
+# tests 160
+# suites 0
+# pass 160
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3721.288964

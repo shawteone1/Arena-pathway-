@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "5d554b947f5ad700fe2770b84b6a9511d8cedb7d",
+  "scope": {"sports": ["volleyball", "lacrosse"], "state": "CO", "participation": "youth"},
+  "thresholdsDeclaredBeforeEvaluation": true,
+  "thresholds": {"prescribedAccessibleScopeRecall": 1, "heldOutOrganizationRecall": 0.90, "organizationPrecision": 0.95, "classificationAccuracy": 0.95, "duplicateRateMaximum": 0, "traceability": 1, "freshWithinDays": 30, "freshnessRate": 0.90, "userVisibleRecall": 0.90},
+  "rules": [
+    "No statewide total without a defensible independent denominator.",
+    "Recall counts a benchmark organization once; aliases, program cohorts and squads are not extra clubs.",
+    "A search snippet is a discovery lead, not a successfully retrieved publisher page or verified organization.",
+    "Blocked sources remain failures; public publisher-issued alternate documents may be separately registered subject to their own access rules.",
+    "Source snapshot publication date is separate from retrieval date; a 2025-26 list is historical evidence, not proof of 2026-27 membership.",
+    "No club ownership from schedule opponent names; no youth eligibility from a name alone.",
+    "Prescribed source results and held-out independent discovery are evaluated separately.",
+    "Blocked prescribed sources are blocked/not evaluated, never passed on fixture results.",
+    "Controlled fixtures prove change handling only, never live discovery recall.",
+    "Acquisition reads job configuration and permitted live pages only; benchmarks are read only by the separate evaluator after result sealing.",
+    "Benchmark assembly uses separate research and publisher lists; same-analyst and small-sample limitations must be disclosed.",
+    "New verified records are reviewed before optional publication; unknown fields and incomplete sources remain explicit."
+  ],
+  "discoveryInputs": {"lacrosse": "Find youth lacrosse organizations throughout Colorado.", "volleyball": "Find youth volleyball organizations throughout Colorado."},
+  "genericSearchQueries": {"lacrosse": ["Colorado youth lacrosse clubs association member organizations", "Colorado youth lacrosse league member clubs programs"], "volleyball": ["Colorado youth volleyball club directory Rocky Mountain Region clubs"]},
+  "budgets": {"maxSourcesPerJob": 24, "maxPagesPerSource": 6, "minHostIntervalMs": 2000, "timeoutMs": 20000},
+  "publicationPolicy": "Review-only acquisition catalog initially. Consumer website unchanged until explicitly reviewed identity/program facts are approved; report user-visible recall separately."
+}

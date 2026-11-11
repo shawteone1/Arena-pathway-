@@ -1,0 +1,141 @@
+{
+  "consumerPublication": false,
+  "records": [
+    {
+      "nativeId": "https://synergysportsoperations.com/northern-power-lacrosse/",
+      "name": "Northern Power Lacrosse Club",
+      "kind": "organization",
+      "url": "https://synergysportsoperations.com/northern-power-lacrosse/",
+      "classification": {
+        "confidence": "candidate-only; page/card context requires review",
+        "qualificationEvidence": {
+          "state": "Northern Power Lacrosse Club Youth Lacrosse • Northern Colorado View Brand +",
+          "youth": "Northern Power Lacrosse Club Youth Lacrosse • Northern Colorado View Brand +"
+        },
+        "youthEligible": true,
+        "state": "CO",
+        "ageGradeText": null,
+        "participationLevel": null
+      },
+      "evidenceText": "Northern Power Lacrosse Club Youth Lacrosse • Northern Colorado View Brand +",
+      "id": "acq-00b6dda5d099dcbac8e3fe32",
+      "sport": "lacrosse",
+      "sourceId": "v2-3d33b1812f34e128c9be",
+      "region": "unknown",
+      "state": "CO",
+      "evidence": {
+        "url": "https://synergysportsoperations.com/our-brands/",
+        "bodySha256": "8f54144ef3a182cdd53575dd1776d3fea3a93cb7116997fefc117bf7cac65e26",
+        "retrievedAt": "2026-11-09T21:38:48.914Z",
+        "sourceDate": "2026-09-18T18:23:55+00:00",
+        "selector": "h3"
+      },
+      "verification": "reviewed",
+      "sourceRetrievalStatus": "partial",
+      "pendingNewVersion": false,
+      "lifecycle": "observed"
+    },
+    {
+      "nativeId": "https://www.roughriderslacrosse.com/",
+      "name": "RoughRiders Lacrosse",
+      "kind": "organization",
+      "url": "https://www.roughriderslacrosse.com/",
+      "classification": {
+        "confidence": "candidate-only; page/card context requires review",
+        "qualificationEvidence": {
+          "state": "RoughRiders Lacrosse Youth Lacrosse • Superior, CO View Brand +",
+          "youth": "RoughRiders Lacrosse Youth Lacrosse • Superior, CO View Brand +"
+        },
+        "youthEligible": true,
+        "state": "CO",
+        "ageGradeText": null,
+        "participationLevel": null
+      },
+      "evidenceText": "RoughRiders Lacrosse Youth Lacrosse • Superior, CO View Brand +",
+      "id": "acq-4ce55a398c516ca3aeddcb45",
+      "sport": "lacrosse",
+      "sourceId": "v2-3d33b1812f34e128c9be",
+      "region": "unknown",
+      "state": "CO",
+      "evidence": {
+        "url": "https://synergysportsoperations.com/our-brands/",
+        "bodySha256": "8f54144ef3a182cdd53575dd1776d3fea3a93cb7116997fefc117bf7cac65e26",
+        "retrievedAt": "2026-11-09T21:38:48.914Z",
+        "sourceDate": "2026-09-18T18:23:55+00:00",
+        "selector": "h3"
+      },
+      "verification": "reviewed",
+      "sourceRetrievalStatus": "partial",
+      "pendingNewVersion": false,
+      "lifecycle": "observed"
+    },
+    {
+      "nativeId": "profile",
+      "name": "Grand Valley Lacrosse",
+      "kind": "organization",
+      "url": "https://www.grandvalleylax.com/about/about-us/9321",
+      "classification": {
+        "confidence": "candidate-only; page/card context requires review",
+        "qualificationEvidence": {
+          "state": " About Us About GV LAXGrand Valley Lacrosse is Western Colorado's Premier Youth Lacrosse Organization. We are a community sponsored n",
+          "youth": "LAXGrand Valley Lacrosse is Western Colorado's Premier Youth Lacrosse Organization. We are a community sponsored non-profit 501(c)"
+        },
+        "youthEligible": true,
+        "state": "CO",
+        "ageGradeText": "ages 6-15",
+        "participationLevel": "competitive"
+      },
+      "evidenceText": "About Us Board of Directors Become a Sponsor Contact Us About Us About GV LAXGrand Valley Lacrosse is Western Colorado's Premier Youth Lacrosse Organi",
+      "id": "acq-57e51dfea089f3d3647580d4",
+      "sport": "lacrosse",
+      "sourceId": "v2-2e5abc960fde621f5c2a",
+      "region": "unknown",
+      "state": "CO",
+      "evidence": {
+        "url": "https://www.grandvalleylax.com/about/about-us/9321",
+        "bodySha256": "c4695eb1563dd669971b870f5176a3d36a4f7c9a81d0d0c9e6a95247d3d48dd7",
+        "retrievedAt": "2026-11-09T21:38:54.909Z",
+        "sourceDate": null,
+        "selector": "profile-evidence"
+      },
+      "verification": "reviewed",
+      "sourceRetrievalStatus": "partial",
+      "pendingNewVersion": false,
+      "lifecycle": "observed"
+    },
+    {
+      "nativeId": "https://synergysportsoperations.com/rocky-mountain-rattlers-lacrosse/",
+      "name": "Rocky Mountain Rattlers Lacrosse",
+      "kind": "organization",
+      "url": "https://synergysportsoperations.com/rocky-mountain-rattlers-lacrosse/",
+      "classification": {
+        "confidence": "candidate-only; page/card context requires review",
+        "qualificationEvidence": {
+          "state": "in Rattlers Lacrosse Youth Lacrosse • Broomfield / Erie, Co View Brand +",
+          "youth": "Rocky Mountain Rattlers Lacrosse Youth Lacrosse • Broomfield / Erie, Co View Brand +"
+        },
+        "youthEligible": true,
+        "state": "CO",
+        "ageGradeText": null,
+        "participationLevel": null
+      },
+      "evidenceText": "Rocky Mountain Rattlers Lacrosse Youth Lacrosse • Broomfield / Erie, Co View Brand +",
+      "id": "acq-b32c2f1aca93539c8124641e",
+      "sport": "lacrosse",
+      "sourceId": "v2-3d33b1812f34e128c9be",
+      "region": "unknown",
+      "state": "CO",
+      "evidence": {
+        "url": "https://synergysportsoperations.com/our-brands/",
+        "bodySha256": "8f54144ef3a182cdd53575dd1776d3fea3a93cb7116997fefc117bf7cac65e26",
+        "retrievedAt": "2026-11-09T21:38:48.914Z",
+        "sourceDate": "2026-09-18T18:23:55+00:00",
+        "selector": "h3"
+      },
+      "verification": "reviewed",
+      "sourceRetrievalStatus": "partial",
+      "pendingNewVersion": false,
+      "lifecycle": "observed"
+    }
+  ]
+}

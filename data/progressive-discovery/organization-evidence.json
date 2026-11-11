@@ -1,0 +1,239 @@
+{
+  "records": [
+    {
+      "id": "acq-7fb0c3a498db11dac5f25276",
+      "source_id": "v2-e3b2f014b4a9c10e3d5f",
+      "native_id": "profile",
+      "current_version": 2,
+      "approved_version": null,
+      "lifecycle": "observed",
+      "record": {
+        "nativeId": "profile",
+        "name": "Kings Lacrosse Club",
+        "kind": "organization",
+        "url": "https://kingslacrosseclub.com/",
+        "publicQualificationEvidence": [
+          {
+            "type": "organization-name",
+            "value": "Kings Lacrosse Colorado",
+            "selector": "meta[property=\"og:site_name\"]",
+            "context": "Kings Lacrosse Colorado",
+            "url": "https://kingslacrosseclub.com/",
+            "bodySha256": "88511361ba26c0d01e9822e5853e2875c838e3ab7ff96ce87f884ffd38054163",
+            "retrievedAt": "2026-11-10T17:15:07.148Z",
+            "id": "claim-6a93a798848e1d8c5376"
+          },
+          {
+            "type": "page-title",
+            "value": "Kings Lacrosse Club | Elite Boys Club Lacrosse in Colorado",
+            "selector": "title",
+            "context": "Kings Lacrosse Club | Elite Boys Club Lacrosse in Colorado",
+            "url": "https://kingslacrosseclub.com/",
+            "bodySha256": "88511361ba26c0d01e9822e5853e2875c838e3ab7ff96ce87f884ffd38054163",
+            "retrievedAt": "2026-11-10T17:15:07.148Z",
+            "id": "claim-6205680921d5fd0e289a"
+          },
+          {
+            "type": "page-heading",
+            "value": "Kings Lacrosse Club",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+            "context": "Kings Lacrosse Club",
+            "url": "https://kingslacrosseclub.com/",
+            "bodySha256": "88511361ba26c0d01e9822e5853e2875c838e3ab7ff96ce87f884ffd38054163",
+            "retrievedAt": "2026-11-10T17:15:07.148Z",
+            "id": "claim-ca7adfa1151d2d1b8978"
+          },
+          {
+            "type": "page-heading",
+            "value": "SUMMER TRYOUTS",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h1:nth-of-type(1)",
+            "context": "SUMMER TRYOUTS",
+            "url": "https://kingslacrosseclub.com/",
+            "bodySha256": "88511361ba26c0d01e9822e5853e2875c838e3ab7ff96ce87f884ffd38054163",
+            "retrievedAt": "2026-11-10T17:15:07.148Z",
+            "id": "claim-1d2b5a96109d764b8b89"
+          }
+        ],
+        "classification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": "on: South Suburban, 4790 E. County Line Road, Littleton, CO 80126 (field entrance is off County Line Road) REGISTER FOR TRYOUTS K",
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": "CO",
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "evidenceText": "Skip to content Contact | Mailing List | My Account Menu Our Club About The Kings Contact Us Coaching Staff Tryouts College Commitments Teams Training",
+        "pageEvidence": {
+          "url": "https://kingslacrosseclub.com/",
+          "bodySha256": "88511361ba26c0d01e9822e5853e2875c838e3ab7ff96ce87f884ffd38054163",
+          "retrievedAt": "2026-11-10T17:15:07.148Z",
+          "sourceDate": "2026-10-26T23:31:44+00:00",
+          "selector": "profile-evidence"
+        },
+        "id": "acq-7fb0c3a498db11dac5f25276",
+        "sport": "lacrosse",
+        "sourceId": "v2-e3b2f014b4a9c10e3d5f",
+        "region": "unknown",
+        "state": "CO",
+        "evidence": {
+          "url": "https://kingslacrosseclub.com/",
+          "bodySha256": "88511361ba26c0d01e9822e5853e2875c838e3ab7ff96ce87f884ffd38054163",
+          "retrievedAt": "2026-11-10T17:15:07.148Z",
+          "sourceDate": "2026-10-26T23:31:44+00:00",
+          "selector": "profile-evidence"
+        },
+        "verification": "unreviewed"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "v2-e3b2f014b4a9c10e3d5f",
+      "sport": "lacrosse",
+      "region": "unknown",
+      "last_attempt": "2026-11-10T17:15:07.229Z",
+      "last_success": "2026-11-10T17:15:07.229Z",
+      "retrieval_status": "partial",
+      "failure_reason": null,
+      "next_due": "2026-11-17T17:15:07.229Z",
+      "config": {
+        "id": "v2-e3b2f014b4a9c10e3d5f",
+        "name": "Previously discovered club publisher",
+        "url": "https://kingslacrosseclub.com/",
+        "urls": [
+          "https://kingslacrosseclub.com/"
+        ],
+        "sport": "lacrosse",
+        "geography": "Colorado participation requested; source evidence required",
+        "region": "unknown",
+        "owner": null,
+        "type": "other",
+        "adapter": "profile-evidence",
+        "expectedRecordTypes": [
+          "organization",
+          "program",
+          "registration"
+        ],
+        "allowedHosts": [
+          "kingslacrosseclub.com",
+          "kingslacrosseclub.com",
+          "www.kingslacrosseclub.com"
+        ],
+        "accessPolicy": {
+          "decision": "allowed",
+          "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+        },
+        "minIntervalMs": 2000,
+        "refreshHours": 168,
+        "depth": 0
+      }
+    }
+  ],
+  "runs": [
+    {
+      "id": "75ad6c85-3724-45b6-8662-8b559000a1a8",
+      "job": "progressive-retained-publisher",
+      "mode": "live",
+      "started_at": "2026-11-10T17:15:01.303Z",
+      "finished_at": "2026-11-10T17:15:07.231Z",
+      "status": "partial",
+      "report": {
+        "runId": "75ad6c85-3724-45b6-8662-8b559000a1a8",
+        "job": "progressive-retained-publisher",
+        "mode": "live",
+        "status": "partial",
+        "input": null,
+        "sourceCount": 1,
+        "retrieved": 1,
+        "failures": 0,
+        "changes": [
+          {
+            "type": "changed",
+            "id": "acq-7fb0c3a498db11dac5f25276",
+            "name": "Kings Lacrosse Club",
+            "previousVersion": 1,
+            "version": 2,
+            "classificationChanged": false
+          }
+        ],
+        "deferred": [],
+        "exceptions": [],
+        "observations": [
+          {
+            "sourceId": "v2-e3b2f014b4a9c10e3d5f",
+            "status": "partial",
+            "httpStatus": 200,
+            "at": "2026-11-10T17:15:07.229Z",
+            "error": null,
+            "extracted": 5,
+            "declaredCount": null,
+            "issues": [],
+            "changes": [
+              {
+                "type": "changed",
+                "id": "acq-7fb0c3a498db11dac5f25276",
+                "name": "Kings Lacrosse Club",
+                "previousVersion": 1,
+                "version": 2,
+                "classificationChanged": false
+              }
+            ],
+            "bodySha256": "88511361ba26c0d01e9822e5853e2875c838e3ab7ff96ce87f884ffd38054163",
+            "sourceDate": "2026-10-26T23:31:44+00:00",
+            "links": [],
+            "sourceScopeComplete": false,
+            "parserVersionChanged": false,
+            "configurationChanged": false,
+            "seenRecordIds": [
+              "acq-7fb0c3a498db11dac5f25276",
+              "acq-2e9b9fef7f5e462fba219a62",
+              "acq-0da23a41627f0a87af4e757a",
+              "acq-55ece392813b32ae4c2d5e69",
+              "acq-068da37394210a37d9f7433d"
+            ],
+            "captureCountReconciled": false,
+            "sourceConfigSha256": "b015ebe6bfda49465b3b06d9debb0244d03487de9a898a5aec21c1f1dec789fb",
+            "sourceConfig": {
+              "id": "v2-e3b2f014b4a9c10e3d5f",
+              "name": "Previously discovered club publisher",
+              "url": "https://kingslacrosseclub.com/",
+              "urls": [
+                "https://kingslacrosseclub.com/"
+              ],
+              "sport": "lacrosse",
+              "geography": "Colorado participation requested; source evidence required",
+              "region": "unknown",
+              "owner": null,
+              "type": "other",
+              "adapter": "profile-evidence",
+              "expectedRecordTypes": [
+                "organization",
+                "program",
+                "registration"
+              ],
+              "allowedHosts": [
+                "kingslacrosseclub.com",
+                "kingslacrosseclub.com",
+                "www.kingslacrosseclub.com"
+              ],
+              "accessPolicy": {
+                "decision": "allowed",
+                "basis": "Public organizational research only; robots and access controls enforced. Publisher-specific limits remain authoritative."
+              },
+              "minIntervalMs": 2000,
+              "refreshHours": 168,
+              "depth": 0
+            },
+            "extractionVersion": "296ba986efff32af6b0f4cbdd16562093e636c088cd39922f90a38b2c1ddfecf"
+          }
+        ],
+        "statewideComplete": false,
+        "sourceScopeComplete": false,
+        "benchmarkRead": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "sports": [
+    "lacrosse",
+    "volleyball",
+    "basketball",
+    "swimming"
+  ],
+  "regions": [
+    "denver-metro",
+    "northern-front-range",
+    "pikes-peak",
+    "eastern-plains",
+    "southeast",
+    "southwest",
+    "western-slope",
+    "central-mountains",
+    "san-luis-valley"
+  ],
+  "states": [
+    "CO"
+  ],
+  "programTypes": [
+    "year-round-usa-swimming",
+    "seasonal-usa-swimming",
+    "masters-swimming",
+    "summer-swimming",
+    "high-school-swimming",
+    "collegiate-swimming",
+    "indoor-volleyball",
+    "beach-volleyball",
+    "other-volleyball",
+    "field-lacrosse",
+    "box-lacrosse",
+    "basketball",
+    "unknown"
+  ],
+  "programTypeSports": {
+    "year-round-usa-swimming": "swimming",
+    "seasonal-usa-swimming": "swimming",
+    "masters-swimming": "swimming",
+    "summer-swimming": "swimming",
+    "high-school-swimming": "swimming",
+    "collegiate-swimming": "swimming",
+    "indoor-volleyball": "volleyball",
+    "beach-volleyball": "volleyball",
+    "other-volleyball": "volleyball",
+    "field-lacrosse": "lacrosse",
+    "box-lacrosse": "lacrosse",
+    "basketball": "basketball"
+  },
+  "regionStates": {
+    "denver-metro": "CO",
+    "northern-front-range": "CO",
+    "pikes-peak": "CO",
+    "eastern-plains": "CO",
+    "southeast": "CO",
+    "southwest": "CO",
+    "western-slope": "CO",
+    "central-mountains": "CO",
+    "san-luis-valley": "CO"
+  }
+}

@@ -1,17 +1,18 @@
+import {sourceDecisionPlans} from './discovery/decision.mjs';
+import {extractResponse,defaultAdapters} from './adapters/index.mjs';
+import {attachRunVersions,recordTasks} from './discovery/registry.mjs';
 import {PublicSourceClient,publicURL} from './fetcher.mjs';
-import {extractJSON} from './adapters/json.mjs';
-import {extractHTML} from './adapters/html.mjs';
-import {extractClubPDF} from './adapters/pdf.mjs';
 import {normalizeRow} from './normalize.mjs';
 import {reconcile,hash} from './models.mjs';
-export async function importSource(store,source,{client=new PublicSourceClient(),manifest=null,maxPages=source.maxPages||25}={}){
- const runId=store.start(source),pages=[],frontier=source.urls.map(url=>({url,status:'pending'})),rows=[],evidence=[],issues=[];const existing=store.entities(),seenRows=new Map();
+export async function importSource(store,source,{client=new PublicSourceClient(),manifest=null,maxPages=source.maxPages||25,adapters=defaultAdapters}={}){
+ const runId=store.start(source);attachRunVersions(store,source,manifest,runId);const pages=[],frontier=source.urls.map(url=>({url,status:'pending'})),rows=[],evidence=[],issues=[];const existing=store.entities(),seenRows=new Map();
  let index=0;
  try{
+ sourceDecisionPlans(source);
  while(index<frontier.length&&pages.length<maxPages){const task=frontier[index++];if(task.status!=='pending')continue;
   try{
    const response=await client.get(task.url,source);if(response.status===304){task.status='unresolved';pages.push({url:task.url,status:'needs-review',role:'unknown',extractedRows:0,code:'NOT_MODIFIED_REQUIRES_REUSE'});continue;}
-   const parsed=source.adapter==='json-feed'?extractJSON(response.body.toString('utf8'),source):response.contentType.includes('pdf')?extractClubPDF(response.body,source):extractHTML(response.body,response.url,source);issues.push(...parsed.issues);
+   const parsed=await extractResponse(response,source,adapters);issues.push(...parsed.issues);
    for(const raw of parsed.rows){const {row,evidence:ev}=normalizeRow(raw,source,response,existing);if(seenRows.has(row.sourceRecordId))continue;seenRows.set(row.sourceRecordId,row);rows.push(row);evidence.push(ev);}
    const isLanding=source.adapter==='discovery'||source.landingURLs?.includes(task.url);
    pages.push({url:response.url,requestedURL:task.url,status:'processed',role:isLanding?'landing':source.adapter,extractedRows:parsed.rows.length,paginationUnresolved:parsed.paginationUnresolved,paginationURLs:(parsed.paginationLinks||[]).map(l=>l.url),bodySha256:response.sha256,fetchedAt:response.fetchedAt});task.status='processed';
@@ -23,8 +24,8 @@ export async function importSource(store,source,{client=new PublicSourceClient()
  }
  for(const p of pages)if(p.paginationUnresolved&&p.paginationURLs?.length&&p.paginationURLs.every(url=>pages.some(n=>n.url===url&&n.status==='processed')))p.paginationUnresolved=false;
  const previous=store.db.prepare('SELECT report_json FROM runs WHERE source_id=? AND approved_at IS NOT NULL ORDER BY finished_at DESC LIMIT 1').get(source.id);const prev=previous?JSON.parse(previous.report_json):null;
- const report=reconcile({source,manifest,rows,pages,frontier,previousCount:prev?prev.counts.imported+prev.counts.duplicate:null,decreaseReason:source.decreaseReason});report.sourceConfig=source;report.independentExpectation=manifest;report.sourceConfigSha256=hash(source);report.expectationSha256=manifest?hash(manifest):null;report.pages=pages;report.frontier=frontier;report.opponentCandidates=[...new Map(rows.filter(r=>r.entity?.kind==='event').flatMap(r=>(r.supportingEntities||[]).filter(e=>e.kind==='team').map(e=>({key:[e.name,e.sport,e.seasonId,e.divisionId].join('|'),name:e.name,sport:e.sport,seasonId:e.seasonId,divisionId:e.divisionId,status:'candidate',reason:'Public opponent label; parent ownership and participation require independent corroboration'}))).map(e=>[e.key,e])).values()];report.extractionIssues=issues;report.latestVerificationDate=pages.filter(p=>p.fetchedAt).map(p=>p.fetchedAt).sort().at(-1)||null;
+ const report=reconcile({source,manifest,rows,pages,frontier,previousCount:prev?prev.counts.imported+prev.counts.duplicate:null,decreaseReason:source.decreaseReason});report.sourceConfig=source;report.independentExpectation=manifest;report.sourceConfigSha256=hash(source);report.expectationSha256=manifest?hash(manifest):null;report.pages=pages;report.frontier=frontier;report.opponentCandidates=[...new Map(rows.filter(r=>r.entity?.kind==='event').flatMap(r=>(r.supportingEntities||[]).filter(e=>e.kind==='team').map(e=>({key:[e.name,e.sport,e.seasonId,e.divisionId].join('|'),name:e.name,sport:e.sport,seasonId:e.seasonId,divisionId:e.divisionId,status:'candidate',reason:'Public opponent label; parent ownership and participation require independent corroboration'}))).map(e=>[e.key,e])).values()];report.discoveryPlan=sourceDecisionPlans(source,{rows:rows.length,frontierResolved:frontier.every(t=>['processed','excluded'].includes(t.status)),scopeReconciled:report.status==='complete'});report.extractionIssues=issues;report.latestVerificationDate=pages.filter(p=>p.fetchedAt).map(p=>p.fetchedAt).sort().at(-1)||null;
  if(issues.length){report.errors.push(...issues);if(report.status==='complete')report.status='needs-review';}
- store.finish(runId,{rows,evidence,report});return {runId,report,rows,evidence};
+ store.finish(runId,{rows,evidence,report});recordTasks(store,runId,source,report);return {runId,report,rows,evidence};
  }catch(error){store.finish(runId,{rows:[],evidence:[],report:{sourceId:source.id,status:'blocked',counts:{candidate:0,imported:0,excluded:0,duplicate:0,unresolved:0},errors:['IMPORT_FAILURE:'+error.message],pages,frontier,statewideComplete:false}});throw error;}
 }

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "methodology": "Purposive, small source-stratified sample. Not a statewide census. Same analyst assembled benchmark; no external blind adjudicator. Held-out new club URLs absent from independent-job seeds. Access-limited publisher entries retained with qualification.",
+  "records": [
+    {
+      "name": "Front Range Volleyball Club",
+      "aliases": [
+        "Front Range Volleyball Club Inc",
+        "Front Range Volleyball"
+      ],
+      "url": "https://www.frvbc.com/page/home",
+      "split": "development",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Prior reviewed boys/girls club programs",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Denver Juniors Volleyball Club",
+      "aliases": [
+        "DENVER JUNIORS VC",
+        "Denver Juniors VC"
+      ],
+      "url": "https://www.denverjuniorsvc.com/",
+      "split": "development",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Official club and 2026\u201327 tryout publication",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Colorado Skyline Juniors",
+      "aliases": [
+        "Colorado Skyline Juniors Volleyball"
+      ],
+      "url": "https://www.coskylinejrs.com/",
+      "split": "development",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Prior reviewed youth club and directory reference",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Colorado Elite Volleyball Club",
+      "aliases": [],
+      "url": "https://www.coloradoelitevbc.com/page/show/6403363-programs",
+      "split": "development",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Official youth development/club programs and publisher RMR source listing",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "NORCO",
+      "aliases": [
+        "NORCO Volleyball Club",
+        "NORCO Juniors"
+      ],
+      "url": "https://www.norcovolleyball.com/clubfaq",
+      "split": "held-out",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Official age 10\u201318 club description and Loveland location",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Elevation Volleyball Club",
+      "aliases": [
+        "Elevation Volleyball"
+      ],
+      "url": "https://www.elevationvball.com/regional",
+      "split": "held-out",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Publisher describes youth regional program; direct open was blocked, indexed official text used; current verification limited",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Colorado Momentum Volleyball Club",
+      "aliases": [
+        "Momentum Volleyball Club"
+      ],
+      "url": "https://momentumvbc.com/",
+      "split": "held-out",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Official indexed mission identifies Colorado youth; direct open blocked, live verification limited",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "ClubOne Volleyball",
+      "aliases": [
+        "ClubOne"
+      ],
+      "url": "https://www.clubonevolleyball.com/pride",
+      "split": "held-out",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Publisher identifies Northern Colorado youth program",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "Prime Volleyball Academy",
+      "aliases": [],
+      "url": "https://www.primevolleyballacademy.com/",
+      "split": "held-out",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Official publisher identifies Thornton youth program",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    },
+    {
+      "name": "VC Denver",
+      "aliases": [
+        "VC Denver Club Volleyball"
+      ],
+      "url": "https://www.vcdenver.org/youth-program",
+      "split": "held-out",
+      "expectedType": "organization",
+      "expectedYouthEligible": true,
+      "geography": "CO participation",
+      "basis": "Official youth program identifies ages 8\u201316",
+      "researchChannel": "Separate official publisher page/index or prior reviewed dataset; not acquisition output",
+      "reviewedAt": "2026-11-09",
+      "independentReviewer": false,
+      "freshness": "Source dates/availability not inferred from indexed crawl date"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+// Diagnostic official-page inspection, never a discovery seed or acceptance input.
+import{readFileSync,writeFileSync}from'node:fs';
+import{PublicSourceClient}from'../engine/fetcher.mjs';
+import{sourceDefinition}from'../engine/acquisition/run.mjs';
+import{extractAcquisition}from'../engine/acquisition/extract.mjs';
+const only=process.argv[2],client=new PublicSourceClient(),results=only?JSON.parse(readFileSync('data/discovery-analysis/official-diagnostics.json')).filter(r=>r.name!==only):[];
+try{for(const sport of ['lacrosse','volleyball']){const benchmark=JSON.parse(readFileSync('data/acquisition-v2/benchmarks/'+sport+'.json'));for(const row of benchmark.records.filter(r=>r.split==='held-out'&&(!only||r.name===only))){const source=sourceDefinition(row.url,sport,{type:'club'});try{const response=await client.get(row.url,source),parsed=extractAcquisition(response,source);results.push({name:row.name,sport,url:row.url,diagnosticOnly:true,status:'retrieved',finalURL:response.url,sha256:response.sha256,at:response.fetchedAt,records:parsed.records,links:parsed.links,issues:parsed.issues});}catch(e){results.push({name:row.name,sport,url:row.url,diagnosticOnly:true,status:'failed',code:e.code,message:e.message,at:new Date().toISOString()});}console.log(row.name,results.at(-1).status,results.at(-1).code||results.at(-1).records.length);}}}finally{await client.close();writeFileSync('data/discovery-analysis/official-diagnostics.json',JSON.stringify(results,null,2)+'\n');}

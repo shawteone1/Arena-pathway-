@@ -1,0 +1,305 @@
+{
+  "trial": "post-hoc regression; not fresh independent blind validation",
+  "originalAccepted": false,
+  "accepted": false,
+  "reason": "Official prescribed source blocked; live qualification/publication and unknown precision/freshness prevent acceptance. All original thresholds remain unchanged.",
+  "diagnosticOfficialSourcesExcluded": true,
+  "statewideComplete": false,
+  "baselineCommit": "16e49df9c2990cdaece4c6c4f55d6aaf24fd871f",
+  "runs": [
+    {
+      "job": "analysis-rmr",
+      "id": "4df401d4-1ce3-4a17-9098-37a96355d311",
+      "status": "blocked",
+      "started": "2026-11-09T22:18:21.956Z",
+      "finished": "2026-11-09T22:18:24.000Z",
+      "retrieved": 0,
+      "failures": 1,
+      "remaining": 0
+    },
+    {
+      "job": "analysis-lacrosse",
+      "id": "8d222d03-d10c-43c1-a131-e5aebc9b29f8",
+      "status": "partial",
+      "started": "2026-11-09T22:18:24.029Z",
+      "finished": "2026-11-09T22:21:42.488Z",
+      "retrieved": 34,
+      "failures": 14,
+      "remaining": 5
+    },
+    {
+      "job": "analysis-volleyball",
+      "id": "26f60180-a557-4365-a9e6-5239bee5182d",
+      "status": "partial",
+      "started": "2026-11-09T22:21:42.526Z",
+      "finished": "2026-11-09T22:25:08.790Z",
+      "retrieved": 103,
+      "failures": 0,
+      "remaining": 0
+    }
+  ],
+  "sports": [
+    {
+      "sport": "lacrosse",
+      "heldOut": 6,
+      "identityFound": 0,
+      "youthEvidence": 0,
+      "qualifiedCandidates": 0,
+      "reviewed": 0,
+      "visible": 0,
+      "named": [
+        {
+          "name": "Boulder Valley Lacrosse",
+          "recordIds": [],
+          "identityFound": false,
+          "youthEvidence": false,
+          "coloradoEvidence": false,
+          "qualifiedCandidate": false,
+          "reviewed": false,
+          "consumerVisible": false,
+          "evidence": []
+        },
+        {
+          "name": "Foothills Pack",
+          "recordIds": [],
+          "identityFound": false,
+          "youthEvidence": false,
+          "coloradoEvidence": false,
+          "qualifiedCandidate": false,
+          "reviewed": false,
+          "consumerVisible": false,
+          "evidence": []
+        },
+        {
+          "name": "Warriors Youth Sports",
+          "recordIds": [],
+          "identityFound": false,
+          "youthEvidence": false,
+          "coloradoEvidence": false,
+          "qualifiedCandidate": false,
+          "reviewed": false,
+          "consumerVisible": false,
+          "evidence": []
+        },
+        {
+          "name": "Littleton Youth Sports",
+          "recordIds": [],
+          "identityFound": false,
+          "youthEvidence": false,
+          "coloradoEvidence": false,
+          "qualifiedCandidate": false,
+          "reviewed": false,
+          "consumerVisible": false,
+          "evidence": []
+        },
+        {
+          "name": "Denver United Lacrosse",
+          "recordIds": [],
+          "identityFound": false,
+          "youthEvidence": false,
+          "coloradoEvidence": false,
+          "qualifiedCandidate": false,
+          "reviewed": false,
+          "consumerVisible": false,
+          "evidence": []
+        },
+        {
+          "name": "Ranger Youth Lacrosse",
+          "recordIds": [],
+          "identityFound": false,
+          "youthEvidence": false,
+          "coloradoEvidence": false,
+          "qualifiedCandidate": false,
+          "reviewed": false,
+          "consumerVisible": false,
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "sport": "volleyball",
+      "heldOut": 6,
+      "identityFound": 6,
+      "youthEvidence": 3,
+      "qualifiedCandidates": 0,
+      "reviewed": 0,
+      "visible": 0,
+      "named": [
+        {
+          "name": "NORCO",
+          "recordIds": [
+            "acq-cfc77c69f4d546f18f6e2269",
+            "acq-dde6429c33e08d83840b54c8"
+          ],
+          "identityFound": true,
+          "youthEvidence": true,
+          "coloradoEvidence": false,
+          "qualifiedCandidate": false,
+          "reviewed": false,
+          "consumerVisible": false,
+          "evidence": [
+            {
+              "url": "https://www.vbnerd.com/clubtracker/clubs/1048",
+              "bodySha256": "b6b501d7509847b4b970b139f1aac8286dfeb8f43d5b09248fdc1ec1832d251f",
+              "retrievedAt": "2026-11-09T22:23:54.619Z",
+              "sourceDate": null,
+              "selector": "profile-evidence"
+            },
+            {
+              "url": "https://www.vbnerd.com/clubtracker/regions/3",
+              "bodySha256": "807ce84972d930f166e3583d237330a4a87f38d33918ec3ece30010c026d1579",
+              "retrievedAt": "2026-11-09T22:21:44.730Z",
+              "sourceDate": null,
+              "selector": "table tbody tr"
+            }
+          ]
+        },
+        {
+          "name": "Elevation Volleyball Club",
+          "recordIds": [
+            "acq-77b8dd691dd04022c20e8f5f",
+            "acq-89b60402aef7e03f6dbdc41f"
+          ],
+          "identityFound": true,
+          "youthEvidence": true,
+          "coloradoEvidence": false,
+          "qualifiedCandidate": false,
+          "reviewed": false,
+          "consumerVisible": false,
+          "evidence": [
+            {
+              "url": "https://www.vbnerd.com/clubtracker/regions/3",
+              "bodySha256": "807ce84972d930f166e3583d237330a4a87f38d33918ec3ece30010c026d1579",
+              "retrievedAt": "2026-11-09T22:21:44.730Z",
+              "sourceDate": null,
+              "selector": "table tbody tr"
+            },
+            {
+              "url": "https://www.vbnerd.com/clubtracker/clubs/8085",
+              "bodySha256": "8d0774559e66546972640678e3ce4f833113c7d7cae93d9f283fb57aff30d2f2",
+              "retrievedAt": "2026-11-09T22:23:00.734Z",
+              "sourceDate": null,
+              "selector": "profile-evidence"
+            }
+          ]
+        },
+        {
+          "name": "Colorado Momentum Volleyball Club",
+          "recordIds": [
+            "acq-bed2709cbde43d36b1c201db",
+            "acq-e27cdb429c77d2160c72c15e"
+          ],
+          "identityFound": true,
+          "youthEvidence": true,
+          "coloradoEvidence": false,
+          "qualifiedCandidate": false,
+          "reviewed": false,
+          "consumerVisible": false,
+          "evidence": [
+            {
+              "url": "https://www.vbnerd.com/clubtracker/regions/3",
+              "bodySha256": "807ce84972d930f166e3583d237330a4a87f38d33918ec3ece30010c026d1579",
+              "retrievedAt": "2026-11-09T22:21:44.730Z",
+              "sourceDate": null,
+              "selector": "table tbody tr"
+            },
+            {
+              "url": "https://www.vbnerd.com/clubtracker/clubs/2782",
+              "bodySha256": "58164a86369c53df1fc6c2f3ab34d48a427556373a2364d2447f100f15a92a29",
+              "retrievedAt": "2026-11-09T22:22:26.877Z",
+              "sourceDate": null,
+              "selector": "profile-evidence"
+            }
+          ]
+        },
+        {
+          "name": "ClubOne Volleyball",
+          "recordIds": [
+            "acq-4318fc1d0f502b7385538944",
+            "acq-45da5a1294941ab8f7565ed1"
+          ],
+          "identityFound": true,
+          "youthEvidence": false,
+          "coloradoEvidence": false,
+          "qualifiedCandidate": false,
+          "reviewed": false,
+          "consumerVisible": false,
+          "evidence": [
+            {
+              "url": "https://www.vbnerd.com/clubtracker/regions/3",
+              "bodySha256": "807ce84972d930f166e3583d237330a4a87f38d33918ec3ece30010c026d1579",
+              "retrievedAt": "2026-11-09T22:21:44.730Z",
+              "sourceDate": null,
+              "selector": "table tbody tr"
+            },
+            {
+              "url": "https://www.vbnerd.com/clubtracker/clubs/18507",
+              "bodySha256": "085138a326de197313711f0f1ef238e586a60df4286598a3ca2be56fc33eecea",
+              "retrievedAt": "2026-11-09T22:22:08.833Z",
+              "sourceDate": null,
+              "selector": "profile-evidence"
+            }
+          ]
+        },
+        {
+          "name": "Prime Volleyball Academy",
+          "recordIds": [
+            "acq-27b109bb2d2f8e268ab1ec15",
+            "acq-7e4a38c6953f89a2726553b6"
+          ],
+          "identityFound": true,
+          "youthEvidence": false,
+          "coloradoEvidence": false,
+          "qualifiedCandidate": false,
+          "reviewed": false,
+          "consumerVisible": false,
+          "evidence": [
+            {
+              "url": "https://www.vbnerd.com/clubtracker/regions/3",
+              "bodySha256": "807ce84972d930f166e3583d237330a4a87f38d33918ec3ece30010c026d1579",
+              "retrievedAt": "2026-11-09T22:21:44.730Z",
+              "sourceDate": null,
+              "selector": "table tbody tr"
+            },
+            {
+              "url": "https://www.vbnerd.com/clubtracker/clubs/24295",
+              "bodySha256": "d4a601977b9f330cd78e4d5beb9183406a8db87fcc7dca29a31c758916f51714",
+              "retrievedAt": "2026-11-09T22:24:06.836Z",
+              "sourceDate": null,
+              "selector": "profile-evidence"
+            }
+          ]
+        },
+        {
+          "name": "VC Denver",
+          "recordIds": [
+            "acq-4f2606beec9d6757aeae6811",
+            "acq-bbf672ed92e1fb37107b7a8e"
+          ],
+          "identityFound": true,
+          "youthEvidence": false,
+          "coloradoEvidence": false,
+          "qualifiedCandidate": false,
+          "reviewed": false,
+          "consumerVisible": false,
+          "evidence": [
+            {
+              "url": "https://www.vbnerd.com/clubtracker/regions/3",
+              "bodySha256": "807ce84972d930f166e3583d237330a4a87f38d33918ec3ece30010c026d1579",
+              "retrievedAt": "2026-11-09T22:21:44.730Z",
+              "sourceDate": null,
+              "selector": "table tbody tr"
+            },
+            {
+              "url": "https://www.vbnerd.com/clubtracker/clubs/28531",
+              "bodySha256": "db31e71b13f11e2859cd44469449c81e943daf2140cf1833048c2473f0615d06",
+              "retrievedAt": "2026-11-09T22:24:46.867Z",
+              "sourceDate": null,
+              "selector": "profile-evidence"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

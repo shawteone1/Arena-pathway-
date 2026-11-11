@@ -1,0 +1,3 @@
+{
+ "https://whichvbclub.com/state/colorado":{"adapter":"legacy-engine","legacyAdapter":"links","type":"directory","selector":"main a[href^='/clubs/']","linkNameSelector":"h2,h3,h4","entityKind":"source-candidate","followPattern":"clubs/","expectedRecordTypes":["source-candidate"],"scope":"Public Colorado directory member links; primary organization, youth and geography verification remain separate"}
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "url": "https://www.vbnerd.com/clubtracker/regions/3",
+    "status": 200,
+    "sha256": "807ce84972d930f166e3583d237330a4a87f38d33918ec3ece30010c026d1579",
+    "retrievedAt": "2026-11-09T21:02:59.549Z",
+    "bytes": 30819,
+    "workspaceFile": "/workspace/scratch/acquisition-live/ffe85b59b708.html"
+  },
+  {
+    "url": "https://www.coloradojuniorsbeachvolleyballtournaments.com/index.php/clubs-programs/beach",
+    "status": "blocked",
+    "failureCode": "ROBOTS_UNAVAILABLE",
+    "reason": "Robots could not be verified (HTTP 503)",
+    "attemptedAt": "2026-11-09T21:02:58.706Z"
+  },
+  {
+    "url": "https://www.denverlacrosse.org/",
+    "status": 200,
+    "sha256": "84197944568b432d8cd84f52322c4d58dd4fc13188fe820c281f258ca3909d95",
+    "retrievedAt": "2026-11-09T21:02:59.978Z",
+    "bytes": 194078,
+    "workspaceFile": "/workspace/scratch/acquisition-live/c08dc88fcbfb.html"
+  },
+  {
+    "url": "https://www.frvbc.com/page/home",
+    "status": "blocked",
+    "failureCode": "ROBOTS_UNAVAILABLE",
+    "reason": "Robots could not be verified (HTTP 406)",
+    "attemptedAt": "2026-11-09T21:02:59.892Z"
+  },
+  {
+    "url": "https://www.denverjuniorsvc.com/",
+    "status": 200,
+    "sha256": "b5c22ec3c2d7e787f1c337a07b8aad5ef49e3585dd81a1c62ca1d42381db7130",
+    "retrievedAt": "2026-11-09T21:03:00.894Z",
+    "bytes": 844299,
+    "workspaceFile": "/workspace/scratch/acquisition-live/f1decebb691d.html"
+  },
+  {
+    "url": "https://team180elite.com/about-team180/",
+    "status": "blocked",
+    "failureCode": "ROBOTS_UNAVAILABLE",
+    "reason": "Robots could not be verified (HTTP 500)",
+    "attemptedAt": "2026-11-09T21:02:58.397Z"
+  },
+  {
+    "url": "https://www.colorado.adrln.com/program/denver-elite-field/4424",
+    "status": 200,
+    "sha256": "567469b1e72af7de41fe0399187e89d575dece96c957ee1cc1f18c941ec50452",
+    "retrievedAt": "2026-11-09T21:03:04.386Z",
+    "bytes": 46491,
+    "workspaceFile": "/workspace/scratch/acquisition-live/cb78019f3594.html"
+  }
+]

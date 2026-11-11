@@ -1,0 +1,15 @@
+{
+  "profile-evidence": ["organization", "program", "registration"],
+  "scoped-table": ["organization"],
+  "scoped-cards": ["organization", "league", "association", "facility"],
+  "standings": ["team", "division", "season", "event", "facility"],
+  "csi-clubs": ["organization", "program"],
+  "hdn-programs": ["organization", "program"],
+  "goldcrown-programs": ["organization", "program", "registration"],
+  "college": ["organization", "team", "program"],
+  "mhsl": ["team", "division", "league"],
+  "association-list": ["team", "organization"],
+  "links": ["team", "organization"],
+  "pdf-team-scores": ["organization"],
+  "discovery": ["source-reference"]
+}

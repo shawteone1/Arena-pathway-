@@ -1,0 +1,60 @@
+{
+  "mode": "controlled",
+  "liveDiscoveryEvidence": false,
+  "passed": true,
+  "steps": [
+    {
+      "scenario": "initial known scope",
+      "records": 2,
+      "added": 2,
+      "passed": true
+    },
+    {
+      "scenario": "unchanged repeat",
+      "newVersions": 0,
+      "passed": true
+    },
+    {
+      "scenario": "addition",
+      "added": 1,
+      "retained": 3,
+      "passed": true
+    },
+    {
+      "scenario": "removal requires review; explicit retirement retains history",
+      "recordRows": 3,
+      "retired": 1,
+      "passed": true
+    },
+    {
+      "scenario": "classification change retains last approved version pending review",
+      "passed": true
+    },
+    {
+      "scenario": "duplicate/alias requires evidence and prevents cycles",
+      "passed": true
+    },
+    {
+      "scenario": "temporary inaccessible source retains rows and last success",
+      "passed": true
+    },
+    {
+      "scenario": "changed layout is partial, not a successful empty import",
+      "passed": true
+    },
+    {
+      "scenario": "partial result cannot retire absent members",
+      "passed": true
+    },
+    {
+      "scenario": "new league/association typed separately from clubs",
+      "passed": true
+    },
+    {
+      "scenario": "same extractor/ledger works for second sport",
+      "passed": true
+    }
+  ],
+  "retainedRecords": 8,
+  "versionHistory": 9
+}

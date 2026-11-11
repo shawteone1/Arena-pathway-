@@ -1,0 +1,11 @@
+{
+  "sourceId": "replay-front-range",
+  "scope": "Explicit prior reviewed identity, not a statewide/source membership census.",
+  "scopeClosed": false,
+  "reviewedAt": "2026-11-09",
+  "reviewer": "Codex preservation review against approved RC evidence",
+  "evidenceURL": "https://www.frvbc.com/page/home",
+  "expectedRecordIds": [
+    "replay-front-range:front-range"
+  ]
+}

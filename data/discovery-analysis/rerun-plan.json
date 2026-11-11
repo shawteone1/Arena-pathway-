@@ -1,0 +1,7 @@
+{
+  "base": "16e49df9c2990cdaece4c6c4f55d6aaf24fd871f",
+  "design": "Post-hoc regression of the original independent trial, not a new blinded benchmark. No held-out names or official diagnostic URLs are seeds.",
+  "changes": ["Follow bounded linked club detail pages with configurable URL rules and name selector", "Strip embedded JSON/scripts from visible qualification context", "Do not infer Colorado from a team name or incidental Colorado mention"],
+  "jobs": ["Same lacrosse roots, increased depth 2 and budget 48", "Existing VBNerd directory, all 102 linked club pages within budget 110", "RMR official source repeat, no access bypass"],
+  "acceptance": "Keep original thresholds and original trial immutable. Unknown precision, freshness and publication prevent acceptance. Diagnostic official-page fetches are excluded from discovery results."
+}

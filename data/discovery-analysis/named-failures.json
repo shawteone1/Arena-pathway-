@@ -1,0 +1,517 @@
+{
+  "baseCommit": "16e49df9c2990cdaece4c6c4f55d6aaf24fd871f",
+  "diagnosticsAreNotIndependentDiscovery": true,
+  "records": [
+    {
+      "name": "NORCO",
+      "sport": "volleyball",
+      "officialURL": "https://www.norcovolleyball.com/clubfaq",
+      "initial": {
+        "sourceDiscovery": "Directory identity found; official program page not followed.",
+        "extraction": "Named directory row captured; no age/location facts present.",
+        "identity": "Matched using the frozen benchmark aliases; no identity mismatch explains initial miss.",
+        "geography": "No acquired record established a Colorado youth service area.",
+        "youth": "No acquired record established youth eligibility for this identity.",
+        "review": "No approved version for this held-out identity.",
+        "publication": "Absent from consumer directory. Review-only acquisition export is not connected to consumer publication; no filter-only bug demonstrated."
+      },
+      "diagnostic": {
+        "name": "NORCO",
+        "sport": "volleyball",
+        "url": "https://www.norcovolleyball.com/clubfaq",
+        "diagnosticOnly": true,
+        "status": "failed",
+        "code": "HTTP_403",
+        "message": "Public source returned HTTP 403",
+        "at": "2026-11-09T22:18:56.699Z",
+        "extractedName": null,
+        "candidateClassification": null,
+        "issues": [],
+        "extractedRows": 0
+      },
+      "officialEvidence": "Alternate directory records the identity and 14 reported teams. Official FAQ content was not obtained (403).",
+      "evidence": "VBNerd directory identity and reported team count; original source/body hash is preserved in the sealed trial.",
+      "unknown": [
+        "Current program/registration availability",
+        "Fresh current membership",
+        "Independently reviewed identity-to-program link",
+        "Explicit validated Colorado geography",
+        "Youth eligibility in acquired usable content"
+      ],
+      "nextAction": "Request permitted publisher data or an authorized public program export; the official FAQ returned 403. Use accessible VBNerd details for historical participation only, not Colorado location or current registration."
+    },
+    {
+      "name": "Elevation Volleyball Club",
+      "sport": "volleyball",
+      "officialURL": "https://www.elevationvball.com/regional",
+      "initial": {
+        "sourceDiscovery": "Directory identity found; official program page not followed.",
+        "extraction": "Named directory row captured; no age/location facts present.",
+        "identity": "Matched using the frozen benchmark aliases; no identity mismatch explains initial miss.",
+        "geography": "No acquired record established a Colorado youth service area.",
+        "youth": "No acquired record established youth eligibility for this identity.",
+        "review": "No approved version for this held-out identity.",
+        "publication": "Absent from consumer directory. Review-only acquisition export is not connected to consumer publication; no filter-only bug demonstrated."
+      },
+      "diagnostic": {
+        "name": "Elevation Volleyball Club",
+        "sport": "volleyball",
+        "url": "https://www.elevationvball.com/regional",
+        "diagnosticOnly": true,
+        "status": "failed",
+        "code": "HTTP_403",
+        "message": "Public source returned HTTP 403",
+        "at": "2026-11-09T22:18:58.884Z",
+        "extractedName": null,
+        "candidateClassification": null,
+        "issues": [],
+        "extractedRows": 0
+      },
+      "officialEvidence": "Alternate directory records the identity and 24 reported teams. Official regional-program content was not obtained (403).",
+      "evidence": "VBNerd directory identity and reported team count; original source/body hash is preserved in the sealed trial.",
+      "unknown": [
+        "Current program/registration availability",
+        "Fresh current membership",
+        "Independently reviewed identity-to-program link",
+        "Explicit validated Colorado geography",
+        "Youth eligibility in acquired usable content"
+      ],
+      "nextAction": "Request permitted official program/location evidence or use a separately authorized public league source. Official regional page returned 403; do not turn indexed regional text into a verified retrieval."
+    },
+    {
+      "name": "Colorado Momentum Volleyball Club",
+      "sport": "volleyball",
+      "officialURL": "https://momentumvbc.com/",
+      "initial": {
+        "sourceDiscovery": "Directory identity found; official program page not followed.",
+        "extraction": "Named directory row captured; no age/location facts present.",
+        "identity": "Matched using the frozen benchmark aliases; no identity mismatch explains initial miss.",
+        "geography": "No acquired record established a Colorado youth service area.",
+        "youth": "No acquired record established youth eligibility for this identity.",
+        "review": "No approved version for this held-out identity.",
+        "publication": "Absent from consumer directory. Review-only acquisition export is not connected to consumer publication; no filter-only bug demonstrated."
+      },
+      "diagnostic": {
+        "name": "Colorado Momentum Volleyball Club",
+        "sport": "volleyball",
+        "url": "https://momentumvbc.com/",
+        "diagnosticOnly": true,
+        "status": "failed",
+        "code": "ROBOTS_UNAVAILABLE",
+        "message": "Robots could not be verified (HTTP 403)",
+        "at": "2026-11-09T22:18:59.905Z",
+        "extractedName": null,
+        "candidateClassification": null,
+        "issues": [],
+        "extractedRows": 0
+      },
+      "officialEvidence": "Alternate directory records the identity and 12 reported teams. Official site content was not obtained because robots could not be verified.",
+      "evidence": "VBNerd directory identity and reported team count; original source/body hash is preserved in the sealed trial.",
+      "unknown": [
+        "Current program/registration availability",
+        "Fresh current membership",
+        "Independently reviewed identity-to-program link",
+        "Explicit validated Colorado geography",
+        "Youth eligibility in acquired usable content"
+      ],
+      "nextAction": "Seek a publisher-authorized program export or permitted association membership list with location/age facts. Robots were unavailable; historical directory membership and a Colorado club name are insufficient."
+    },
+    {
+      "name": "ClubOne Volleyball",
+      "sport": "volleyball",
+      "officialURL": "https://www.clubonevolleyball.com/pride",
+      "initial": {
+        "sourceDiscovery": "Directory identity found; official program page not followed.",
+        "extraction": "Named directory row captured; no age/location facts present.",
+        "identity": "Matched using the frozen benchmark aliases; no identity mismatch explains initial miss.",
+        "geography": "No acquired record established a Colorado youth service area.",
+        "youth": "No acquired record established youth eligibility for this identity.",
+        "review": "No approved version for this held-out identity.",
+        "publication": "Absent from consumer directory. Review-only acquisition export is not connected to consumer publication; no filter-only bug demonstrated."
+      },
+      "diagnostic": {
+        "name": "ClubOne Volleyball",
+        "sport": "volleyball",
+        "url": "https://www.clubonevolleyball.com/pride",
+        "diagnosticOnly": true,
+        "status": "failed",
+        "code": "HTTP_403",
+        "message": "Public source returned HTTP 403",
+        "at": "2026-11-09T22:19:02.311Z",
+        "extractedName": null,
+        "candidateClassification": null,
+        "issues": [],
+        "extractedRows": 0
+      },
+      "officialEvidence": "Alternate directory records ClubOne and 8 reported teams. Official Pride program content was not obtained (403).",
+      "evidence": "VBNerd directory identity and reported team count; original source/body hash is preserved in the sealed trial.",
+      "unknown": [
+        "Current program/registration availability",
+        "Fresh current membership",
+        "Independently reviewed identity-to-program link",
+        "Explicit validated Colorado geography",
+        "Youth eligibility in acquired usable content"
+      ],
+      "nextAction": "Seek a permitted official Pride program/location source or authorized export. Keep ClubOne as the observed directory identity; do not merge same-named clubs without website/identifier evidence. Official page returned 403."
+    },
+    {
+      "name": "Prime Volleyball Academy",
+      "sport": "volleyball",
+      "officialURL": "https://www.primevolleyballacademy.com/",
+      "initial": {
+        "sourceDiscovery": "Directory identity found; official program page not followed.",
+        "extraction": "Named directory row captured; no age/location facts present.",
+        "identity": "Matched using the frozen benchmark aliases; no identity mismatch explains initial miss.",
+        "geography": "No acquired record established a Colorado youth service area.",
+        "youth": "No acquired record established youth eligibility for this identity.",
+        "review": "No approved version for this held-out identity.",
+        "publication": "Absent from consumer directory. Review-only acquisition export is not connected to consumer publication; no filter-only bug demonstrated."
+      },
+      "diagnostic": {
+        "name": "Prime Volleyball Academy",
+        "sport": "volleyball",
+        "url": "https://www.primevolleyballacademy.com/",
+        "diagnosticOnly": true,
+        "status": "retrieved",
+        "finalURL": "https://www.primevolleyballacademy.com/",
+        "sha256": "498749f452152537472303daa9ab388d5dd36adecec022b97e3cc0862cf152b8",
+        "at": "2026-11-09T22:19:08.325Z",
+        "issues": [],
+        "extractedName": "Prime Volleyball Academy",
+        "candidateClassification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": "my is a youth training organization located in Thornton, CO. We host USAV competitive club teams, open gyms and clinics for girls",
+            "youth": "sroads Colorado Convention Center October 2, 2026 Next Youth League Registration NOW OPEN Primes Mountain Skills Clinics Open Gyms"
+          },
+          "youthEligible": true,
+          "state": "CO",
+          "ageGradeText": "ages 3-18",
+          "participationLevel": "competitive"
+        },
+        "extractedRows": 11
+      },
+      "officialEvidence": "Official page describes a youth training organization in Thornton, CO; ages/program facts remain candidate evidence, not approved publication.",
+      "evidence": "VBNerd directory identity and reported team count; original source/body hash is preserved in the sealed trial.",
+      "unknown": [
+        "Current program/registration availability",
+        "Fresh current membership",
+        "Independently reviewed identity-to-program link"
+      ],
+      "nextAction": "Official page supports a youth training organization located in Thornton, CO. Link the retrieved official-domain evidence to the directory identity using explicit review; verify season/registration dates separately, then review publication scope."
+    },
+    {
+      "name": "VC Denver",
+      "sport": "volleyball",
+      "officialURL": "https://www.vcdenver.org/youth-program",
+      "initial": {
+        "sourceDiscovery": "Directory identity found; official program page not followed.",
+        "extraction": "Named directory row captured; no age/location facts present.",
+        "identity": "Matched using the frozen benchmark aliases; no identity mismatch explains initial miss.",
+        "geography": "No acquired record established a Colorado youth service area.",
+        "youth": "No acquired record established youth eligibility for this identity.",
+        "review": "No approved version for this held-out identity.",
+        "publication": "Absent from consumer directory. Review-only acquisition export is not connected to consumer publication; no filter-only bug demonstrated."
+      },
+      "diagnostic": {
+        "name": "VC Denver",
+        "sport": "volleyball",
+        "url": "https://www.vcdenver.org/youth-program",
+        "diagnosticOnly": true,
+        "status": "retrieved",
+        "finalURL": "https://www.vcdenver.org/youth-program",
+        "sha256": "575c13e8d921575e606d30fe83f8fa3406afec329128db2e1566b5ef40809c76",
+        "at": "2026-11-09T22:20:02.984Z",
+        "issues": [
+          "PROFILE_JSON_WRAPPER_REQUIRES_ADAPTER"
+        ],
+        "extractedName": null,
+        "candidateClassification": null,
+        "extractedRows": 0
+      },
+      "officialEvidence": "Official URL returned a JSON configuration/HTML-fragment wrapper labeled text/html. The corrected parser reports an unsupported layout and emits no qualification records.",
+      "evidence": "VBNerd directory identity and reported team count; original source/body hash is preserved in the sealed trial.",
+      "unknown": [
+        "Current program/registration availability",
+        "Fresh current membership",
+        "Independently reviewed identity-to-program link",
+        "Explicit validated Colorado geography",
+        "Youth eligibility in acquired usable content"
+      ],
+      "nextAction": "Implement a narrowly scoped provider-fragment adapter only after confirming the published response contract and permissions, or obtain a normal public HTML/export page. The endpoint returns a JSON wrapper labeled text/html; configuration strings cannot qualify identity/geography."
+    },
+    {
+      "name": "Boulder Valley Lacrosse",
+      "sport": "lacrosse",
+      "officialURL": "https://www.boulderlacrosse.org/",
+      "initial": {
+        "sourceDiscovery": "No identity/source reached from selected seeds within the trial traversal.",
+        "extraction": "Not reached; extraction is not the demonstrated cause.",
+        "identity": "No candidate to match; aliases cannot repair source non-discovery.",
+        "geography": "No acquired record established a Colorado youth service area.",
+        "youth": "No acquired record established youth eligibility for this identity.",
+        "review": "No approved version for this held-out identity.",
+        "publication": "Absent from consumer directory. Review-only acquisition export is not connected to consumer publication; no filter-only bug demonstrated."
+      },
+      "diagnostic": {
+        "name": "Boulder Valley Lacrosse",
+        "sport": "lacrosse",
+        "url": "https://www.boulderlacrosse.org/",
+        "diagnosticOnly": true,
+        "status": "retrieved",
+        "finalURL": "https://www.boulderlacrosse.org/",
+        "sha256": "f4acad342b122430039c3a56dc795a0eb808d5b6b1ef0caf7c0e9462d4abfa99",
+        "at": "2026-11-09T22:18:37.678Z",
+        "issues": [],
+        "extractedName": "Boulder Valley Lacrosse",
+        "candidateClassification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": null
+          },
+          "youthEligible": null,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": "competitive"
+        },
+        "extractedRows": 1
+      },
+      "officialEvidence": "Homepage and official spring/camp program links retrieved; selected homepage context did not expose explicit ages or a state statement.",
+      "evidence": "Original benchmark publisher research was not an acquisition result.",
+      "unknown": [
+        "Current program/registration availability",
+        "Fresh current membership",
+        "Independently reviewed identity-to-program link",
+        "Explicit validated Colorado geography",
+        "Youth eligibility in acquired usable content"
+      ],
+      "nextAction": "Acquire the already-linked /program/spring-league/6518 page through the permitted client; capture ages/grades and a Colorado service/address statement before reviewing its program. Homepage alone did not qualify youth or geography."
+    },
+    {
+      "name": "Foothills Pack",
+      "sport": "lacrosse",
+      "officialURL": "https://www.foothillspack.com/",
+      "initial": {
+        "sourceDiscovery": "No identity/source reached from selected seeds within the trial traversal.",
+        "extraction": "Not reached; extraction is not the demonstrated cause.",
+        "identity": "No candidate to match; aliases cannot repair source non-discovery.",
+        "geography": "No acquired record established a Colorado youth service area.",
+        "youth": "No acquired record established youth eligibility for this identity.",
+        "review": "No approved version for this held-out identity.",
+        "publication": "Absent from consumer directory. Review-only acquisition export is not connected to consumer publication; no filter-only bug demonstrated."
+      },
+      "diagnostic": {
+        "name": "Foothills Pack",
+        "sport": "lacrosse",
+        "url": "https://www.foothillspack.com/",
+        "diagnosticOnly": true,
+        "status": "retrieved",
+        "finalURL": "https://www.foothillspack.com/",
+        "sha256": "0fbce3be157cbc8d51af6bcfd659f0d4fb040b3ffd9cbba85a5fd47f4c00df66",
+        "at": "2026-11-09T22:18:40.356Z",
+        "issues": [],
+        "extractedName": "Girls Lacrosse Club in Boulder & Denver",
+        "candidateClassification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": "BOULDER COUNTY GIRLS LACROSSE · YOUTH THROUGH HIGH SCHOOL ONE TRYOUT. ONE DAY. THAT'S NOT HOW WE DO IT HERE"
+          },
+          "youthEligible": true,
+          "state": null,
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "extractedRows": 10
+      },
+      "officialEvidence": "Official page describes Boulder County girls youth through high school; SEO title is a generic girls-lacrosse description. State remains unvalidated.",
+      "evidence": "Original benchmark publisher research was not an acquisition result.",
+      "unknown": [
+        "Current program/registration availability",
+        "Fresh current membership",
+        "Independently reviewed identity-to-program link",
+        "Explicit validated Colorado geography"
+      ],
+      "nextAction": "Use the official homepage brand link as identity evidence for Foothills Pack Girls Lacrosse, not the SEO title. Obtain an explicit state/address statement or reviewed location evidence; Boulder/Denver words alone are not machine-validated state evidence."
+    },
+    {
+      "name": "Warriors Youth Sports",
+      "sport": "lacrosse",
+      "officialURL": "https://www.warriorsyouthsports.com/content/34032/LAX-FAQ",
+      "initial": {
+        "sourceDiscovery": "No identity/source reached from selected seeds within the trial traversal.",
+        "extraction": "Not reached; extraction is not the demonstrated cause.",
+        "identity": "No candidate to match; aliases cannot repair source non-discovery.",
+        "geography": "No acquired record established a Colorado youth service area.",
+        "youth": "No acquired record established youth eligibility for this identity.",
+        "review": "No approved version for this held-out identity.",
+        "publication": "Absent from consumer directory. Review-only acquisition export is not connected to consumer publication; no filter-only bug demonstrated."
+      },
+      "diagnostic": {
+        "name": "Warriors Youth Sports",
+        "sport": "lacrosse",
+        "url": "https://www.warriorsyouthsports.com/content/34032/LAX-FAQ",
+        "diagnosticOnly": true,
+        "status": "failed",
+        "code": "ROBOTS_UNAVAILABLE",
+        "message": "Robots could not be verified (HTTP 406)",
+        "at": "2026-11-09T22:18:41.328Z",
+        "extractedName": null,
+        "candidateClassification": null,
+        "issues": [],
+        "extractedRows": 0
+      },
+      "officialEvidence": "No permitted live publisher content obtained: robots retrieval returned HTTP 406. Prior indexed FAQ research describes ages/AYL, but is not a successful engine retrieval.",
+      "evidence": "Original benchmark publisher research was not an acquisition result.",
+      "unknown": [
+        "Current program/registration availability",
+        "Fresh current membership",
+        "Independently reviewed identity-to-program link",
+        "Explicit validated Colorado geography",
+        "Youth eligibility in acquired usable content"
+      ],
+      "nextAction": "Obtain a publisher-authorized public program export or permitted league membership source. Robots returned HTTP 406/unavailable, so stop automated retrieval; indexed FAQ claims are leads only. Do not reuse basketball evidence as lacrosse qualification."
+    },
+    {
+      "name": "Littleton Youth Sports",
+      "sport": "lacrosse",
+      "officialURL": "https://www.littletonyouthsports.org/lacrosse-faqs",
+      "initial": {
+        "sourceDiscovery": "No identity/source reached from selected seeds within the trial traversal.",
+        "extraction": "Not reached; extraction is not the demonstrated cause.",
+        "identity": "No candidate to match; aliases cannot repair source non-discovery.",
+        "geography": "No acquired record established a Colorado youth service area.",
+        "youth": "No acquired record established youth eligibility for this identity.",
+        "review": "No approved version for this held-out identity.",
+        "publication": "Absent from consumer directory. Review-only acquisition export is not connected to consumer publication; no filter-only bug demonstrated."
+      },
+      "diagnostic": {
+        "name": "Littleton Youth Sports",
+        "sport": "lacrosse",
+        "url": "https://www.littletonyouthsports.org/lacrosse-faqs",
+        "diagnosticOnly": true,
+        "status": "retrieved",
+        "finalURL": "https://www.littletonyouthsports.org/lacrosse-faqs",
+        "sha256": "4b2cc997631fc069e06c90f85253c836fd9190b65c88f4c3a4443610ab6b3329",
+        "at": "2026-11-09T22:18:43.689Z",
+        "issues": [],
+        "extractedName": "Littleton Youth Sports",
+        "candidateClassification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": "ted situations, we do allow 5 year old’s to play up to age 6. This situation requires a discussion with a Thunder Lacrosse represe"
+          },
+          "youthEligible": true,
+          "state": null,
+          "ageGradeText": "K-8",
+          "participationLevel": "competitive"
+        },
+        "extractedRows": 1
+      },
+      "officialEvidence": "Official FAQ reports K–8 teams and Thunder/AYL context. State not explicitly established by the selected text.",
+      "evidence": "Original benchmark publisher research was not an acquisition result.",
+      "unknown": [
+        "Current program/registration availability",
+        "Fresh current membership",
+        "Independently reviewed identity-to-program link",
+        "Explicit validated Colorado geography"
+      ],
+      "nextAction": "Retain the explicit K–8 youth claim and Thunder alias as reported facts; acquire an official Colorado address/service-area page, then review the alias and lacrosse program separately from the multi-sport parent."
+    },
+    {
+      "name": "Denver United Lacrosse",
+      "sport": "lacrosse",
+      "officialURL": "https://www.unitedlacrosse.org/",
+      "initial": {
+        "sourceDiscovery": "No identity/source reached from selected seeds within the trial traversal.",
+        "extraction": "Not reached; extraction is not the demonstrated cause.",
+        "identity": "No candidate to match; aliases cannot repair source non-discovery.",
+        "geography": "No acquired record established a Colorado youth service area.",
+        "youth": "No acquired record established youth eligibility for this identity.",
+        "review": "No approved version for this held-out identity.",
+        "publication": "Absent from consumer directory. Review-only acquisition export is not connected to consumer publication; no filter-only bug demonstrated."
+      },
+      "diagnostic": {
+        "name": "Denver United Lacrosse",
+        "sport": "lacrosse",
+        "url": "https://www.unitedlacrosse.org/",
+        "diagnosticOnly": true,
+        "status": "retrieved",
+        "finalURL": "https://www.unitedlacrosse.org/",
+        "sha256": "01ca31e9d44be2406c20f153689ff47726f77f283acf9ed7c67d3efd1597800e",
+        "at": "2026-11-09T22:18:48.038Z",
+        "issues": [],
+        "extractedName": "DENVER UNITED LACROSSE",
+        "candidateClassification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": null,
+            "youth": "N! What we DO LEARN TO PLAY LEARN TO PLAY Boys & Girls Ages 4-6 Spring, Summer, & Fall Learn more BOY’S TEAMS Boy’s Teams Boys K th"
+          },
+          "youthEligible": true,
+          "state": null,
+          "ageGradeText": "Ages 4-6",
+          "participationLevel": null
+        },
+        "extractedRows": 1
+      },
+      "officialEvidence": "Official page reports learn-to-play ages 4–6 and school-age teams. Operator Colorado origins do not establish service geography.",
+      "evidence": "Original benchmark publisher research was not an acquisition result.",
+      "unknown": [
+        "Current program/registration availability",
+        "Fresh current membership",
+        "Independently reviewed identity-to-program link",
+        "Explicit validated Colorado geography"
+      ],
+      "nextAction": "Retain school-age program facts; get a verified Colorado service/address statement. “Colorado Natives” describes operators, not program geography. Do not infer state from Denver alone."
+    },
+    {
+      "name": "Ranger Youth Lacrosse",
+      "sport": "lacrosse",
+      "officialURL": "https://www.rangerlacrosse.org/about/about-us/18227",
+      "initial": {
+        "sourceDiscovery": "No identity/source reached from selected seeds within the trial traversal.",
+        "extraction": "Not reached; extraction is not the demonstrated cause.",
+        "identity": "No candidate to match; aliases cannot repair source non-discovery.",
+        "geography": "No acquired record established a Colorado youth service area.",
+        "youth": "No acquired record established youth eligibility for this identity.",
+        "review": "No approved version for this held-out identity.",
+        "publication": "Absent from consumer directory. Review-only acquisition export is not connected to consumer publication; no filter-only bug demonstrated."
+      },
+      "diagnostic": {
+        "name": "Ranger Youth Lacrosse",
+        "sport": "lacrosse",
+        "url": "https://www.rangerlacrosse.org/about/about-us/18227",
+        "diagnosticOnly": true,
+        "status": "retrieved",
+        "finalURL": "https://www.rangerlacrosse.org/about/about-us/18227",
+        "sha256": "4f5fcd837a3fd2d68fd434993849d4ba94e762d54f534b3f067159e16aa1863e",
+        "at": "2026-11-09T22:18:54.510Z",
+        "issues": [],
+        "extractedName": "Ranger Youth Lacrosse",
+        "candidateClassification": {
+          "confidence": "candidate-only; page/card context requires review",
+          "qualificationEvidence": {
+            "state": "he Tri-Lakes (Monument, Woodmoor, and Palmer Lake) and Northern Colorado Springs area with the opportunity to learn and participate in the fas",
+            "youth": "About Us About Us Ranger Lacrosse Ranger Youth Lacrosse is a non-profit 501(c)(3) providing boys of the Tri-Lakes (M"
+          },
+          "youthEligible": true,
+          "state": "CO",
+          "ageGradeText": null,
+          "participationLevel": null
+        },
+        "extractedRows": 1
+      },
+      "officialEvidence": "Official about page reports a youth nonprofit serving Tri-Lakes and Northern Colorado Springs.",
+      "evidence": "Original benchmark publisher research was not an acquisition result.",
+      "unknown": [
+        "Current program/registration availability",
+        "Fresh current membership",
+        "Independently reviewed identity-to-program link"
+      ],
+      "nextAction": "Official about page supports youth and Northern Colorado Springs. Add that source only through a new declared assisted-source job or independently discovered link; review parent identity/current program facts before any publication. It was not reached in the original trial."
+    }
+  ]
+}

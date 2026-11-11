@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Highlands Ranch Metro District",
+    "url": "https://www.highlandsranch.org/recreation/youth-programs/lacrosse",
+    "attemptedAt": "2026-11-10T17:27:47.073Z",
+    "status": "failed",
+    "code": "ROBOTS_UNAVAILABLE",
+    "message": "Robots could not be verified (HTTP 403)"
+  },
+  {
+    "name": "City of Aurora",
+    "url": "https://www.auroragov.org/things_to_do/recreation___sports_programs/youth_sports/lacrosse",
+    "attemptedAt": "2026-11-10T17:27:49.288Z",
+    "status": "failed",
+    "code": "ROBOTS_UNAVAILABLE",
+    "message": "Robots could not be verified (HTTP 301)"
+  },
+  {
+    "name": "10th Mountain Lacrosse",
+    "url": "https://www.10thmtnlax.com/",
+    "attemptedAt": "2026-11-10T17:27:50.008Z",
+    "status": "failed",
+    "code": "HTTP_403",
+    "message": "Public source returned HTTP 403"
+  },
+  {
+    "name": "Colorado Nationals Volleyball Club",
+    "url": "https://coloradonationalsvolleyball.sportngin.com/",
+    "attemptedAt": "2026-11-10T17:27:52.417Z",
+    "status": "failed",
+    "code": "HTTP_403",
+    "message": "Public source returned HTTP 403"
+  },
+  {
+    "name": "Ark Valley Volleyball",
+    "url": "https://www.arkvalleyvolleyball.com/",
+    "attemptedAt": "2026-11-10T17:27:54.781Z",
+    "status": "failed",
+    "code": "HTTP_403",
+    "message": "Public source returned HTTP 403"
+  },
+  {
+    "name": "Colorado Valkyrie Volleyball",
+    "url": "https://coloradovalkyrievolleyball.com/services",
+    "attemptedAt": "2026-11-10T17:27:57.185Z",
+    "status": "retrieved",
+    "bodySha256": "83f3f343536b3b9a71617df2104f47348747c4915af37318b881d791afd9a334",
+    "title": "Club Season 26-27' — Colorado Valkyrie Volleyball",
+    "retrievedAt": "2026-11-10T17:27:59.814Z"
+  }
+]
