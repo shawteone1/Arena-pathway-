@@ -7,5 +7,7 @@ export function preservedBytes(base,file,options={}){
  }
  // Preserve the latest My AP navigation in the retired renderer too.
  if(['src/release-views.mjs','src/siem-view.mjs','public/siem-model.js'].includes(file))ref='332ba1b';
- return execFileSync('git',['show',ref+':'+file],options);
+ const original=execFileSync('git',['show',ref+':'+file],options);
+ if(file==='src/release-views.mjs'){const next=original.toString().replace("'/build','Choose your pathway modules'","'/recruiting','Explore recruiting'");return typeof original==='string'?next:Buffer.from(next);}
+ return original;
 }

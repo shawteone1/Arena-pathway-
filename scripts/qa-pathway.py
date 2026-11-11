@@ -152,7 +152,7 @@ class PathwayBrowserQA(unittest.TestCase):
         self.page.locator('#move-camps-up').focus()
         self.page.keyboard.press('Enter')
         self.assertEqual(self.navigation(), ['teams', 'camps', 'community'])
-        self.assertEqual(len(self.page.locator('#profile-nav a').all()), 6)
+        self.assertEqual(len(self.page.locator('#profile-nav a').all()), 7)
         self.assertEqual(self.page.locator(':focus').get_attribute('id'), 'move-camps-up')
         self.page.reload()
         self.page.wait_for_selector('#workspace:not([hidden])')

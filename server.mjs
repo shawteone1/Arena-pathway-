@@ -14,7 +14,7 @@ import {photography,brand} from './src/presentation.mjs';
 import { esc, layout, home, sportPage, builder, advancedBuilder, myPathway, dataPage, credits, organizationPage, classificationPage } from './src/views.mjs';
 const assets = { 'style.css':'text/css; charset=utf-8', 'app.js':'text/javascript; charset=utf-8', 'state.js':'text/javascript; charset=utf-8', 'regions.js':'text/javascript; charset=utf-8', 'stadium.jpg':'image/jpeg' };
 assets['siem-platform.css']='text/css; charset=utf-8';
-for(const name of ['siem-platform-boot.js','siem-family-fixtures.js','siem-platform.js','siem-platform-model.js','siem-platform-fixtures.js','siem.js','siem-model.js','release-demo.js','release-demo-model.js'])assets[name]='text/javascript; charset=utf-8';
+for(const name of ['siem-calendar.js','siem-platform-boot.js','siem-family-fixtures.js','siem-platform.js','siem-platform-model.js','siem-platform-fixtures.js','siem.js','siem-model.js','release-demo.js','release-demo-model.js'])assets[name]='text/javascript; charset=utf-8';
 assets['fonts/barlow-condensed-bold.ttf']='font/ttf';
 for(const p of Object.values(photography)){assets[p.asset]='image/webp';assets[p.smallAsset]='image/webp';}
 if(brand.status==='ready')for(const key of ['desktopAsset','mobileAsset','homepageAsset','faviconAsset','appleTouchAsset']){const path=brand[key];assets[path]=path.endsWith('.webp')?'image/webp':'image/png';}
@@ -48,6 +48,7 @@ export function createServer() {
    if(path==='/siem/setup')return send(200,siemPage());
    if(path==='/pathway/settings')return send(200,advancedBuilder());
    if(path==='/build')return send(200,builder());
+   if(path==='/recruiting')return send(200,myPathway({recruiting:true}));
    if(path==='/my-pathway')return send(200,myPathway());
    if(path==='/data')return send(200,dataPage());
    if(path==='/credits')return send(200,credits());

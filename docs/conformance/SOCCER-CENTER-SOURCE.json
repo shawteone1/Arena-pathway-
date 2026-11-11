@@ -1,0 +1,72 @@
+{
+  "repository": "shawteone1/Soccer-Center",
+  "commit": "11de067414e63c5d3e3e221dfc14cc026dfbd8d0",
+  "access": "read-only through GitHub connector; no build or mutation",
+  "files": [
+    {
+      "path": "src/pages/parent-portal.tsx",
+      "blobSha": "3ca880b060e116ca6712d4b93c85ca020e3006a1",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/pages/parent-portal.tsx"
+    },
+    {
+      "path": "src/pages/parent-portal-player.tsx",
+      "blobSha": "aa52f8203e06c553d50aa0601a54dc795fddbf29",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/pages/parent-portal-player.tsx"
+    },
+    {
+      "path": "src/pages/parent-portal-player-create.tsx",
+      "blobSha": "2a2a585bf20d4db0c8b84e81ba0f193d60eb5e34",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/pages/parent-portal-player-create.tsx"
+    },
+    {
+      "path": "src/components/portal/ProfileBuilder.tsx",
+      "blobSha": "c2c820adf86856e753284f3e6c9c7870a6db25fc",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/ProfileBuilder.tsx"
+    },
+    {
+      "path": "src/components/portal/ParentRecruitingHub.tsx",
+      "blobSha": "6030540fab50aaebe48c6603c35332462d5011f7",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/ParentRecruitingHub.tsx"
+    },
+    {
+      "path": "src/components/portal/CalendarViews.tsx",
+      "blobSha": "803d1480864f6e8919cabfc5ad3af54e232ea80f",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/CalendarViews.tsx"
+    },
+    {
+      "path": "src/components/portal/PpCalendarTab.tsx",
+      "blobSha": "ce911bc026cb7242be05e4efe4d2cbf09fa9a209",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/PpCalendarTab.tsx"
+    },
+    {
+      "path": "src/lib/portal/calendar-display.ts",
+      "blobSha": "fe065cd3a338bfede65a5b75b94c007ddcc07ac2",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/lib/portal/calendar-display.ts"
+    },
+    {
+      "path": "src/lib/portal/event-ref.ts",
+      "blobSha": "076ceab181d81bb73664f504052b2c5e4854e8f2",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/lib/portal/event-ref.ts"
+    },
+    {
+      "path": "src/lib/parent-options.ts",
+      "blobSha": "d03e363b98baa9237d02fa50f218d439dbb7b8cf",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/lib/parent-options.ts"
+    },
+    {
+      "path": "src/components/portal/PpPrimitives.tsx",
+      "blobSha": "4316d07cbe7cb091a8f06e0f53ec129e090b25d0",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/PpPrimitives.tsx"
+    },
+    {
+      "path": "src/components/portal/PpNetworkTab.tsx",
+      "blobSha": "7b2e728c9d7a441d1ab61a6430ab59a27fea8f58",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/PpNetworkTab.tsx"
+    },
+    {
+      "path": "src/styles/portal-calendar.css",
+      "blobSha": "07c9499ef06e15d9517b68d2ff20164ad3cf0bb1",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/styles/portal-calendar.css"
+    }
+  ]
+}

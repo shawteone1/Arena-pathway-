@@ -1,28 +1,29 @@
 # Final UX conformance review
 
-Review branch: `codex/final-ux-conformance`. Base: My AP consolidation `332ba1b`. Reviewed discovery dependency: progressive sports discovery `5470bca`, applied as a separate dependency commit (`638b454`) without merging branches. Main and both source branches remain unchanged. No remote push, deployment, production change or publication was performed.
+Review branch: `codex/final-ux-conformance`. Base: My AP consolidation `332ba1b`. Reviewed discovery dependency: progressive sports discovery `5470bca`, applied as a separate dependency commit (`638b454`) without merging branches. Main and both dependency branches remain unchanged. The review branch is prepared for the explicitly requested pull request; no merge, application publication, deployment or production change is authorized.
 
 ## Existing versus required audit
 
 | Area | Existing implementation | Focused change |
 | --- | --- | --- |
 | Athlete entry | Three configuration chapters before a module workspace | Name, sport, optional team and position/event; save opens the profile immediately |
-| Profile destination | Optional module list with no fixed athlete profile sections | Schedule, Stats, Media, Development, Community and Network; one visible section at a time; edit basics later |
+| Profile destination | Optional module list with no fixed athlete profile sections | Profile overview (default), Schedule, Stats, Media, Development, Community and Network; one visible section at a time; edit basics later |
 | Shared identity | Local Pathway identity already supported parent-managed associations in local SIEM, but latest My AP displayed fixtures only | My Family reads existing local IDs, local setup accepts the same athlete IDs, and SIEM-only local associations remain accessible without copying profiles |
-| Calendar | Upcoming agenda | Day/week/month date-range agenda views, date selector and labeled practice/game/tournament/other colors |
+| Calendar | Upcoming agenda | Daily agenda, visual weekly columns, monthly grid with selected-day agenda, previous/next controls and labeled activity colors |
 | Messages | Simulated title and related-activity drilldown | Evidence preview, provider, original timestamp and priority/action text; retained drilldown |
 | Discovery entry | Three youth preview cards | Full searchable reviewed result list directly on sport entry; all records rendered, without preview or page limits |
 | Geography | Exclusive engine regions | Additional overlapping search areas; original source geography retained |
 | Commercial separation | Optional Recruiting and minimal Locked In statuses | Preserved; saving never activates Recruiting; external sharing remains off |
 
-The Soccer Center source archive was not provided and was not inspected. Exact layout, typography, field semantics, interaction order, parent permission behavior and visual parity cannot be certified. This review implements the supplied conformance requirements using existing AP components and the approved AP charter.
+Soccer Center’s GitHub export is now available and has been inspected read-only at `11de067`. See the [source-based reuse/gap assessment](SOCCER-CENTER-REUSE.md) and [file/blob manifest](SOCCER-CENTER-SOURCE.json). AP reuses its profile and calendar patterns while retaining AP components and data contracts. Exact visual/live-service parity with GoDaddy Airo production is not certified.
 
 ## Review paths
 
 Run `npm ci`, `npm start` on Node >=22.13. A local server is also running at `http://localhost:3000` in this session.
 
 - `/build?new=1`: create an athlete; name, sport, team and sport-appropriate position/event suggestions.
-- `/my-pathway`: profile, six sections, edit, optional preferences and separate local recruiting planner.
+- `/my-pathway`: profile overview, six additional sections, edit, optional preferences and separate local recruiting planner.
+- `/recruiting`: college research independently of athlete creation; reuse the selected athlete’s optional planner.
 - `/pathway/settings`: preserved advanced preferences, moved out of initial creation.
 - `/my-ap`: My Day, Calendar, Messages, My Family.
 - `/my-ap?section=family`: local athlete identity alongside clearly identified fictional family fixtures.
@@ -53,8 +54,14 @@ See [validation results](VALIDATION.md), [UX changed files](UX-FILES.txt) and [i
 - No production authentication, verified parent identity, provider OAuth or live private inbox/calendar integration. My AP scenarios use fictional dated fixtures. Local setup supports manual events and ICS snapshots; it is not live sync.
 - Recruiting is a local research planner. All sharing is off; no public profile, coach outreach or external sharing is implemented. A pilot requires verified parent authorization and secure server-side access control before sharing can be enabled. The guardian checkbox is only a local preference.
 - Stats and Network expose honest empty states; no performance imports or live networking are connected. Media retains selected publisher links; uploads and connected media accounts are not implemented.
-- Calendar modes are accessible date-range agendas, not a drag-and-drop calendar grid. Activity colors supplement visible text labels. Fixture tournament recognition uses its existing title; no source event type is rewritten.
+- Calendar provides a daily agenda, responsive weekly columns and a monthly grid with a selected-day agenda. No drag-and-drop editing is implied. Activity colors supplement visible text labels. Fixture tournament recognition applies only to game titles; RSVP deadlines remain other activities. No source event type is rewritten.
 - Reviewed organization and youth-participation facts are independent of current registration, actual team ownership and live coverage. No clubs, eligibility facts, openings or dates were invented. Previously failed live data-quality gates remain failed; this UX pass does not certify current statewide coverage or rerun live acquisition.
-- Automated WebKit is actual Playwright WebKit, not physical iPhone/iPad Safari. Device testing and exact Soccer Center parity remain pilot acceptance work.
+- Automated WebKit is actual Playwright WebKit, not physical iPhone/iPad Safari. Physical device testing and live Airo visual parity remain final acceptance work; source-level reuse is documented.
 
 No new dashboard, authentication system, data engine or product architecture was introduced.
+
+For final sign-off, use the [acceptance checklist and journey matrix](ACCEPTANCE.md).
+
+## PR delivery
+
+The requested PR is blocked by HTTP 403 on both Git push and the connected GitHub write action. The branch remains local and committed. [Prepared PR description](PR-DRAFT.md) · [exact blocker and bundle handoff](HANDOFF.md). No review PR URL is claimed.

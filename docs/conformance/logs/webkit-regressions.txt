@@ -5,6 +5,6 @@ test_module_load_failure_has_visible_recoverable_error (__main__.WebKitQA.test_m
 test_optional_resize_listener_absence_does_not_block_initialization (__main__.WebKitQA.test_optional_resize_listener_absence_does_not_block_initialization) ... ok
 
 ----------------------------------------------------------------------
-Ran 5 tests in 12.835s
+Ran 5 tests in 19.953s
 
 OK

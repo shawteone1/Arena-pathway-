@@ -10,6 +10,6 @@ test_saving_club_preserves_identity_and_does_not_trigger_recruiting (__main__.Pa
 test_storage_failure_keeps_existing_choices_and_records (__main__.PathwayBrowserQA.test_storage_failure_keeps_existing_choices_and_records) ... ok
 
 ----------------------------------------------------------------------
-Ran 10 tests in 16.020s
+Ran 10 tests in 29.161s
 
 OK

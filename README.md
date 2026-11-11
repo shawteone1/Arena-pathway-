@@ -201,3 +201,5 @@ This review carries forward `codex/progressive-sports-discovery` at `5470bca` al
 ## Final UX conformance review
 
 Local review branch `codex/final-ux-conformance`: [gap map, preview paths, screenshots, changed files and pilot gaps](docs/conformance/REVIEW.md) · [precise validation results](docs/conformance/VALIDATION.md). Quick athlete creation opens `/my-pathway`; My AP reads the same local identity. No production authentication or live provider connection is claimed.
+
+[Soccer Center source reuse](docs/conformance/SOCCER-CENTER-REUSE.md) · [Final acceptance checklist](docs/conformance/ACCEPTANCE.md) · [Review PR delivery/handoff](docs/conformance/HANDOFF.md).
