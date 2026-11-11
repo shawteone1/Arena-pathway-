@@ -56,8 +56,10 @@ class PlatformQA(unittest.TestCase):
         self.assertEqual(self.page.locator(':focus').get_attribute('id'),'platform-feedback')
         self.page.locator('[data-alert=deadline]').get_by_role('button',name='Resolve locally').click()
         self.assertIn('resolved',self.page.locator('[data-alert=deadline]').inner_text().lower())
+        self.page.locator('#platform-settings').evaluate('(el)=>el.open=true')
         self.page.locator('#platform-scenario').select_option('coach')
         self.assertIn('open',self.page.locator('[data-alert=deadline]').inner_text().lower())
+        self.page.locator('#platform-settings').evaluate('(el)=>el.open=true')
         self.page.locator('#platform-scenario').select_option('parent')
         self.assertIn('open',self.page.locator('[data-alert=deadline]').inner_text().lower())
         self.assertEqual(self.page.evaluate('localStorage.length'),0)
@@ -130,6 +132,7 @@ class PlatformQA(unittest.TestCase):
             self.assertGreaterEqual(control.bounding_box()['height'],44)
         self.assertEqual(self.page.locator('main').count(),1)
         self.assertTrue(self.page.evaluate('Array.from(document.querySelectorAll("button")).filter(b=>b.getClientRects().length).every(b=>(b.getAttribute("aria-label")||b.textContent).trim().length>0)'))
+        self.page.locator('#platform-settings').evaluate('(el)=>el.open=true')
         self.assertTrue(self.page.get_by_label('Demo experience',exact=True).is_visible())
 
     def test_no_provider_requests_or_family_storage_changes(self):
@@ -139,6 +142,7 @@ class PlatformQA(unittest.TestCase):
         self.page.on('request',lambda req:requests.append(req.url))
         self.open()
         for scenario in ['coach','college','parent']:
+            self.page.locator('#platform-settings').evaluate('(el)=>el.open=true')
             self.page.locator('#platform-scenario').select_option(scenario)
             self.page.locator('#platform-reset').click()
         self.assertEqual(self.page.evaluate('localStorage.getItem("arenaPathway.siem.v1")'),'keep-me')

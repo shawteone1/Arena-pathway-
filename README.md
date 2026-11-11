@@ -177,3 +177,19 @@ See [findings and verification limits](docs/SIEM-SAFARI-STARTUP-FINDINGS.md).
 Run `npm run test:siem:webkit` with Python Playwright and a working WebKit install;
 `WEBKIT_PATH` optionally selects an environment-provided launcher. The physical
 iPad's version/console trace is still needed to confirm its specific failure.
+
+## My AP consolidation review
+
+The primary SIEM entry is now `/my-ap`, defaulting to the fictional Rivera family.
+My Day, Calendar, Messages and My Family organize the existing SIEM panels; Everyday,
+Command and Display remain optional presentation modes. Settings holds connections
+and optional role demos. `/siem/platform?scenario=family&mode=everyday` remains a
+working Safari-compatible alias. Older `/siem` and `/demos/*` bookmarks redirect;
+existing browser-local family setup and tools are preserved at `/siem/setup` with
+no migration or deletion. There is still no production sign-in or live integration.
+
+See [routes/legacy cleanup](docs/MY-AP-ROUTES-AND-CLEANUP.md),
+[QA](docs/MY-AP-QA.md), [7-minute walkthrough](docs/MY-AP-FAMILY-WALKTHROUGH.md) and
+[readiness](docs/MY-AP-READINESS.md). Run `npm run test:my-ap:browser` in Chromium,
+or set `MY_AP_BROWSER=webkit` for actual Playwright WebKit. Keep this work on the
+separate review branch; do not push, merge, publish or deploy without approval.

@@ -65,7 +65,10 @@ class WebKitQA(unittest.TestCase):
         self.ctx.add_init_script(LEGACY);self.open();self.assert_family()
         self.assertEqual(self.page.locator('#platform-sidebar-toggle').get_attribute('aria-expanded'),'false')
         self.page.set_viewport_size({'width':1280,'height':900})
-        self.page.wait_for_function('document.querySelector("#platform-sidebar-toggle").getAttribute("aria-expanded")==="true"')
+        for _ in range(30):
+            if self.page.locator('#platform-sidebar-toggle').get_attribute('aria-expanded')=='true':break
+            self.page.wait_for_timeout(50)
+        self.assertEqual(self.page.locator('#platform-sidebar-toggle').get_attribute('aria-expanded'),'true')
         self.assert_family();self.page.screenshot(path=str(ARTIFACTS/'webkit-legacy-fixed.png'))
     def test_optional_resize_listener_absence_does_not_block_initialization(self):
         self.ctx.add_init_script(NO_EVENTS);self.open();self.assert_family()
