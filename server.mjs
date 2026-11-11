@@ -11,8 +11,8 @@ import {clientCatalog,directory,reviewReport} from './src/unified-directory.mjs'
 import {DESIGNATIONS} from './engine/participation.mjs';
 import {engineCoverageHTML} from './src/engine-views.mjs';
 import {photography,brand} from './src/presentation.mjs';
-import { esc, layout, home, sportPage, builder, myPathway, dataPage, credits, organizationPage, classificationPage } from './src/views.mjs';
-const assets = { 'style.css':'text/css; charset=utf-8', 'app.js':'text/javascript; charset=utf-8', 'state.js':'text/javascript; charset=utf-8', 'stadium.jpg':'image/jpeg' };
+import { esc, layout, home, sportPage, builder, advancedBuilder, myPathway, dataPage, credits, organizationPage, classificationPage } from './src/views.mjs';
+const assets = { 'style.css':'text/css; charset=utf-8', 'app.js':'text/javascript; charset=utf-8', 'state.js':'text/javascript; charset=utf-8', 'regions.js':'text/javascript; charset=utf-8', 'stadium.jpg':'image/jpeg' };
 assets['siem-platform.css']='text/css; charset=utf-8';
 for(const name of ['siem-platform-boot.js','siem-family-fixtures.js','siem-platform.js','siem-platform-model.js','siem-platform-fixtures.js','siem.js','siem-model.js','release-demo.js','release-demo-model.js'])assets[name]='text/javascript; charset=utf-8';
 assets['fonts/barlow-condensed-bold.ttf']='font/ttf';
@@ -46,6 +46,7 @@ export function createServer() {
    const siemRedirect=legacySiemDestination(path,url.searchParams);if(siemRedirect){res.setHeader('Location',siemRedirect);return send(302,'Continue to My AP.','text/plain');}
    if(path==='/my-ap'||path==='/siem/platform')return send(200,siemPlatformPage());
    if(path==='/siem/setup')return send(200,siemPage());
+   if(path==='/pathway/settings')return send(200,advancedBuilder());
    if(path==='/build')return send(200,builder());
    if(path==='/my-pathway')return send(200,myPathway());
    if(path==='/data')return send(200,dataPage());

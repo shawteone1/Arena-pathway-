@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {cleanProfile,loadState,persist,STORAGE_KEY,modulesFor,setModules,toggleSaved,scheduleFor,moduleDefinitions} from '../public/state.js';
-import {builder,myPathway} from '../src/views.mjs';
+import {builder,advancedBuilder,myPathway} from '../src/views.mjs';
 const memory=()=>{const map=new Map();return {getItem:k=>map.get(k)||null,setItem:(k,v)=>map.set(k,v)};};
 const profile=extra=>cleanProfile({id:'athlete',sport:'volleyball',role:'parent',guardian:true,modules:[],...extra});
 
@@ -48,7 +48,7 @@ test('workspace navigation starts empty and optional features are inert template
  const html=myPathway();assert.match(html,/<nav id="workspace-nav"[^>]*><\/nav>/);assert.match(html,/<div id="workspace-modules"><\/div>/);
  for(const {id} of moduleDefinitions)assert.ok(html.includes('id="template-'+id+'"'));
  const outsideTemplates=html.replace(/<template[^>]*>[\s\S]*?<\/template>/g,'');assert.ok(!outsideTemplates.includes('href="#recruiting"'));assert.ok(!outsideTemplates.includes('id="recruiting-form"'));
- const form=builder();assert.equal((form.match(/name="workspace-module"/g)||[]).length,7);assert.ok(!/<input[^>]*name="workspace-module"[^>]*checked/.test(form));assert.ok(form.includes('name="interests"'));
+ const form=advancedBuilder();assert.equal((form.match(/name="workspace-module"/g)||[]).length,7);assert.ok(!/<input[^>]*name="workspace-module"[^>]*checked/.test(form));assert.ok(form.includes('name="interests"'));
 });
 test('workspace supports keyboard reorder and retains organization lookup without recruiting side effects',()=>{
  const app=readFileSync(new URL('../public/app.js',import.meta.url),'utf8');assert.ok(app.includes('setModules(p,modules)'));assert.ok(app.includes("button.setAttribute('aria-label','Move '"));assert.ok(!app.includes('innerHTML'));

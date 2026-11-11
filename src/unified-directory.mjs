@@ -1,3 +1,4 @@
+import {inSearchRegion} from '../public/regions.js';
 import {progressive,progressiveEvidence,progressiveOrganizations,progressivePrograms,supplementRows} from './progressive-directory.mjs';
 import {readFileSync} from 'node:fs';
 import {catalog,engineSnapshot,sourceFor as engineSource} from './engine-directory.mjs';
@@ -24,7 +25,7 @@ function matches(p,params){
  const searchable=[p.name,org?.name,...(org?.aliases||[]),p.serviceArea,p.city,...children.map(t=>t.name)].join(' ').toLowerCase();
  if(term&&!searchable.includes(term))return false;
  if(params.get('city')&&(params.get('city')==='unknown'?!!p.city:p.city!==params.get('city')))return false;
- if(params.get('region')&&(p.region||'unknown')!==params.get('region'))return false;
+ if(!inSearchRegion({...org,...p},params.get('region')))return false;
  if(params.get('gender')&&(params.get('gender')==='unknown'?p.genders.length:p.genders.indexOf(params.get('gender'))<0))return false;
  if(params.get('level')&&(params.get('level')==='unknown'?p.levels.length:!p.levels.includes(params.get('level'))))return false;
  const format=params.get('format')||({ 'year-round':'year-round-competitive','summer-league':'summer-recreational','high-school':'high-school',collegiate:'collegiate',seasonal:'seasonal-competitive',masters:'masters',unclassified:'unknown'})[params.get('program')];

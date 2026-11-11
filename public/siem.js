@@ -7,7 +7,7 @@ let state=empty(),storage,catalog,filters={},connections=structuredClone(provide
 try{storage=localStorage;const saved=JSON.parse(storage.getItem(key)||'null');if(saved?.version===1&&saved.familyId==='local-family'&&Array.isArray(saved.events)&&Array.isArray(saved.athletes)&&saved.actions&&Array.isArray(saved.audit)&&saved.permissions)state=saved;}catch{notice('Browser storage unavailable or invalid; session-only mode.');}
 let pathway;try{pathway=loadState(storage);}catch{pathway={profiles:[]};}
 // Existing profile remains the authority for athlete identity and sport. Never copy notes.
-state.athletes=[...pathway.profiles.filter(p=>p.role==='parent'&&p.guardian).map(p=>({id:p.id,name:p.nickname||p.sport+' athlete',sport:p.sport,type:'athlete'})),...state.athletes.filter(a=>a.type==='parent'||a.origin==='siem')];
+state.athletes=[...pathway.profiles.map(p=>({id:p.id,name:p.nickname||p.sport+' athlete',sport:p.sport,type:'athlete'})),...state.athletes.filter(a=>a.type==='parent'||a.origin==='siem')];
 // Keep inaccessible records in storage; scoped() controls presentation without destructive deletion.
 state.audit.push({at:new Date().toISOString(),actor:'local-parent',action:'command-center.opened'});
 const ctx=()=>({id:'local-parent',familyId:state.familyId,role:'parent',athleteIds:state.athletes.map(a=>a.id)});

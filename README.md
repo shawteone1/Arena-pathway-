@@ -197,3 +197,7 @@ separate review branch; do not push, merge, publish or deploy without approval.
 ## Reviewed discovery dependency
 
 This review carries forward `codex/progressive-sports-discovery` at `5470bca` alongside My AP consolidation at `332ba1b`. See [publication rules and runbook](docs/progressive-discovery/RULES-AND-RUNBOOK.md), [live acceptance](docs/progressive-discovery/LIVE-ACCEPTANCE.md) and [sports discovery diagnosis](docs/SPORTS-DISCOVERY-DIAGNOSIS.md). Coverage and current registration remain separate verification gates.
+
+## Final UX conformance review
+
+Local review branch `codex/final-ux-conformance`: [gap map, preview paths, screenshots, changed files and pilot gaps](docs/conformance/REVIEW.md) · [precise validation results](docs/conformance/VALIDATION.md). Quick athlete creation opens `/my-pathway`; My AP reads the same local identity. No production authentication or live provider connection is claimed.

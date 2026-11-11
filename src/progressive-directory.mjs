@@ -1,3 +1,4 @@
+import {inSearchRegion} from '../public/regions.js';
 import{readFileSync}from'node:fs';import{progressiveStates,publicationDecision,validateProgressive}from'../engine/progressive.mjs';import{effectiveRegistration}from'../engine/participation.mjs';
 export const progressive=JSON.parse(readFileSync(new URL('../data/progressive-discovery/approved.json',import.meta.url)));
 const valid=validateProgressive(progressive);if(!valid.valid)throw Error('Invalid progressive publication: '+valid.errors.join('; '));
@@ -13,7 +14,7 @@ export function stateForRow(row,allEvidence){const org=progressiveOrganizations.
 }
 export function verificationMatches(row,params){const s=row.verificationState||{},key=params.get('verification');return !key||({organization:s.organizationVerified,youth:s.youthParticipationVerified,teams:s.namedTeamProgramVerified,'current-season':s.currentTeamsSeasonConfirmed,'registration-open':s.registrationAvailable,'registration-unknown':s.registrationStatus==='unknown',additional:s.additionalVerificationNeeded})[key]===true;}
 export function progressiveMatches(org,params,ps=[]){const q=(params.get('q')||'').toLowerCase();if(q&&![org.name,...org.aliases,org.city,org.serviceArea,...ps.map(p=>p.name)].join(' ').toLowerCase().includes(q))return false;
- if(params.get('city')&&(params.get('city')==='unknown'?!!(org.city||org.cities?.length):![org.city,...org.cities||[]].includes(params.get('city'))))return false;if(params.get('region')&&!([org.region||'unknown',...org.regions||[]].includes(params.get('region'))))return false;
+ if(params.get('city')&&(params.get('city')==='unknown'?!!(org.city||org.cities?.length):![org.city,...org.cities||[]].includes(params.get('city'))))return false;if(!inSearchRegion(org,params.get('region')))return false;
  // Missing fields are available explicitly as unknown, never as a positive match.
  for(const key of ['gender','level','age','grade','season','competitionType','registrationMethod','tryout'])if(params.get(key)&&params.get(key)!=='unknown')return false;
  if(params.get('registration')&&params.get('registration')!=='unknown')return false;if(params.get('format')||params.get('program'))return false;return true;}

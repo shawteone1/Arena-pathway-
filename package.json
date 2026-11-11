@@ -45,7 +45,9 @@
     "acquisition:acceptance": "node scripts/evaluate-acquisition-v2.mjs --assert-acceptance",
     "acquisition:controlled": "node scripts/acquisition-controlled.mjs",
     "acquisition:console": "node scripts/acquisition-console.mjs",
-    "test:acquisition:browser": "python scripts/qa-acquisition.py"
+    "test:acquisition:browser": "python scripts/qa-acquisition.py",
+    "test:conformance:browser": "python scripts/qa-conformance.py",
+    "test:conformance:webkit": "MY_AP_BROWSER=webkit python scripts/qa-conformance.py"
   },
   "dependencies": {
     "cheerio": "1.2.0",

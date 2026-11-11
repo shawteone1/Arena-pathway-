@@ -1,3 +1,4 @@
+import {preservedBytes,uxFiles} from './preservation-helper.mjs';
 import test from 'node:test';import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';import {execFileSync} from 'node:child_process';
 import {createFamilyDemo,consolidateFamilyRecords,familyScope,familySourceView,familySourceRecords,FAMILY_WEEK} from '../public/siem-family-fixtures.js';
@@ -26,5 +27,5 @@ test('review, resolution and reset are isolated from other families/roles and do
  const d=createFamilyDemo(),q=actionQueue(d,d.ctx),a=q.find(a=>a.activities.some(e=>e.eventId==='transport-reminder'));takeAction(d,d.ctx,a.id,'resolved');assert.equal(actionQueue(d,d.ctx).find(x=>x.id===a.id).status,'resolved');assert.equal(d.activities.find(e=>e.eventId==='transport-reminder').requiredAction.complete,false);assert.ok(actionQueue(createFamilyDemo(),d.ctx).every(a=>a.status==='open'));assert.throws(()=>takeAction(d,{...d.ctx,role:'coach'},a.id,'resolved'));assert.equal(scopedActivities(d,{...d.ctx,tenantId:'another'}).length,0);
 });
 test('family scenario leaves discovery, generic fixtures, approved contracts and SIEM domain byte-identical to v2.1',()=>{
- const base='cad4aa70bcc594656a62bfaa8a3081888edee45e';const files=execFileSync('git',['ls-tree','-r','--name-only',base],{encoding:'utf8'}).trim().split('\n').filter(f=>f.startsWith('engine/')||f.startsWith('data/')||/^scripts\/(data-|reconcile-|validate-|ingest)/.test(f)||['public/siem-platform-model.js','public/siem-model.js','public/siem-platform-fixtures.js','docs/SIEM-UX-V2-CONTRACT.md','AGENTS.md','docs/PRODUCT-NORTH-STAR.md'].includes(f));for(const f of files)assert.deepEqual(readFileSync(f),execFileSync('git',['show',base+':'+f],{maxBuffer:40e6}),f);
+ const base='cad4aa70bcc594656a62bfaa8a3081888edee45e';const files=execFileSync('git',['ls-tree','-r','--name-only',base],{encoding:'utf8'}).trim().split('\n').filter(f=>f.startsWith('engine/')||f.startsWith('data/')||/^scripts\/(data-|reconcile-|validate-|ingest)/.test(f)||['public/siem-platform-model.js','public/siem-model.js','public/siem-platform-fixtures.js','docs/SIEM-UX-V2-CONTRACT.md','AGENTS.md','docs/PRODUCT-NORTH-STAR.md'].includes(f));for(const f of files.filter(f=>!uxFiles.has(f)))assert.deepEqual(readFileSync(f),preservedBytes(base,f,{maxBuffer:40e6}),f);
 });

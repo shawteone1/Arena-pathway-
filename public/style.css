@@ -526,3 +526,7 @@ body:not([data-page='home']) .section > h2 { margin-top: 45px; }
 
 /* Independent evidence states; retain the approved visual system. */
 .verification-badges{display:flex;flex-wrap:wrap;gap:.5rem}.verification-badges .badge{white-space:normal}.verification-summary{margin:1rem 0}.verification-gaps{margin:.5rem 0}.verification-gaps summary{cursor:pointer;padding:.6rem 0;min-height:44px}.verification-gaps p{font-size:.95rem}
+
+#profile-nav [aria-current=page]{font-weight:700;color:var(--red);border-bottom:3px solid currentColor}#profile-nav a{min-height:44px;display:inline-flex;align-items:center}#profile-sections:empty{display:none}
+/* Native WebKit selects must shrink within the searchable directory. */
+.unified-filters,.engine-filter-options,.engine-filter-grid>div{min-width:0;max-width:100%}.unified-filters select,.unified-filters input{min-width:0;max-width:100%;width:100%}

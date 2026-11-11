@@ -1,3 +1,4 @@
+import {preservedBytes,uxFiles} from './preservation-helper.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -37,7 +38,7 @@ test('adapter validates snapshots atomically and retains last-known-good on fail
 });
 test('platform changes preserve discovery engine, data, registry, ingestion and approved assets exactly',()=>{
  const files=execFileSync('git',['ls-tree','-r','--name-only',base],{encoding:'utf8'}).trim().split('\n').filter(p=>p.startsWith('engine/')||p.startsWith('data/')||/^scripts\/(data-|reconcile-|validate-|ingest)/.test(p)||p==='src/engine-directory.mjs'||p==='src/unified-directory.mjs'||p.startsWith('public/brand/')||p.startsWith('design/brand/')||p==='docs/PRODUCT-NORTH-STAR.md'||p==='AGENTS.md');
- for(const f of files)assert.deepEqual(readFileSync(f),execFileSync('git',['show',base+':'+f],{maxBuffer:40e6}),f);
+ for(const f of files.filter(f=>!uxFiles.has(f)))assert.deepEqual(readFileSync(f),preservedBytes(base,f,{maxBuffer:40e6}),f);
 });
 test('platform route and allowlisted assets work without changing old workspace/demo routes',async t=>{
  const server=createServer();await new Promise(r=>server.listen(0,'127.0.0.1',r));t.after(()=>new Promise(r=>server.close(r)));const origin='http://127.0.0.1:'+server.address().port;

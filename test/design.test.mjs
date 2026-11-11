@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {createServer} from '../server.mjs';
-import {home,builder,sportPage,layout} from '../src/views.mjs';
+import {home,builder,advancedBuilder,sportPage,layout} from '../src/views.mjs';
 import {catalog,sports} from '../src/catalog.mjs';
 import {photography,brand,swimProgram} from '../src/presentation.mjs';
 const root=new URL('../',import.meta.url);
@@ -30,7 +30,7 @@ test('generic A is not rendered and only approved artwork is used when the brand
  }else{assert.equal(brand.status,'awaiting-original');assert.equal(brand.sourceSha256,null);assert.ok(!layout('Test','').includes('rel="icon"'));}
 });
 test('sport landing pages retain sections, use their own images and emphasize View All Teams',()=>{
- for(const s of sports){const html=sportPage(s,undefined,new URLSearchParams());assert.ok(html.includes('photos/'+s+'.webp'));assert.match(html,/View All Teams/);for(const section of ['teams','tryouts','camps','community'])assert.ok(html.includes(`/sports/${s}/${section}`));assert.ok(html.includes(`/build?sport=${s}`));}
+ for(const s of sports){const html=sportPage(s,undefined,new URLSearchParams());assert.ok(html.includes('photos/'+s+'.webp'));assert.match(html,/role="search"/);for(const section of ['youth','tryouts','camps','community'])assert.ok(html.includes(`/sports/${s}/${section}`));assert.ok(html.includes('result-count'));}
 });
 test('directories separate participation categories, group clubs first and retain explicit team searches',()=>{
  const html=sportPage('lacrosse','teams',new URLSearchParams());
@@ -49,7 +49,7 @@ test('swimming classification follows explicit catalog evidence without inventin
  html=sportPage('swimming','teams',new URLSearchParams('program=summer-league'));assert.ok(html.includes('Summer-league programs'));assert.ok(!html.includes('data-record="dsa"'));assert.ok(!html.includes('data-record="fst"'));
 });
 test('onboarding retains every existing interaction hook and media defaults while exposing journey chapters',()=>{
- const html=builder();for(const id of ['pathway-form','role','nickname','parent-controls','guardian','sport','region','goal','media-enabled','media-options','form-status'])assert.ok(html.includes(`id="${id}"`));
+ const html=advancedBuilder();for(const id of ['pathway-form','role','nickname','parent-controls','guardian','sport','region','goal','media-enabled','media-options','form-status'])assert.ok(html.includes(`id="${id}"`));
  for(const id of ['your-start','your-direction','your-sources'])assert.ok(html.includes(`id="${id}"`));
  assert.ok(!html.match(/<input[^>]*id="media-enabled"[^>]*checked/));assert.match(html,/id="media-options" hidden/);
  assert.equal((html.match(/name="interests"/g)||[]).length,5);assert.equal((html.match(/name="media-source"/g)||[]).length,catalog.mediaSources.length);

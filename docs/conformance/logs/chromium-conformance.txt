@@ -1,0 +1,18 @@
+
+> arena-pathway@0.7.0 test:conformance:browser
+> python scripts/qa-conformance.py
+
+test_calendar_ranges_activity_labels_and_messages (__main__.ConformanceQA.test_calendar_ranges_activity_labels_and_messages) ... ok
+test_exact_route_fresh_modern_and_legacy_initialization (__main__.ConformanceQA.test_exact_route_fresh_modern_and_legacy_initialization) ... ok
+test_home_siem_opens_latest_family_and_four_sections (__main__.ConformanceQA.test_home_siem_opens_latest_family_and_four_sections) ... ok
+test_keyboard_privacy_settings_and_no_real_connection (__main__.ConformanceQA.test_keyboard_privacy_settings_and_no_real_connection) ... ok
+test_legacy_routes_and_local_family_setup_preserve_data (__main__.ConformanceQA.test_legacy_routes_and_local_family_setup_preserve_data) ... ok
+test_navigation_preserves_actions_filters_and_source_drilldown (__main__.ConformanceQA.test_navigation_preserves_actions_filters_and_source_drilldown) ... ok
+test_quick_athlete_profile_edit_shared_identity_and_club_save (__main__.ConformanceQA.test_quick_athlete_profile_edit_shared_identity_and_club_save) ... ok
+test_responsive_sections_modes_and_ipad_screenshots (__main__.ConformanceQA.test_responsive_sections_modes_and_ipad_screenshots) ... ok
+test_sport_entry_full_results_search_regions_mobile (__main__.ConformanceQA.test_sport_entry_full_results_search_regions_mobile) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 21.806s
+
+OK
