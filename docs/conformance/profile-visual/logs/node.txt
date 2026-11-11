@@ -1,0 +1,32 @@
+✔ catalog reconciles expanded records without claiming statewide completeness (25.149012ms)
+✔ missing imported members, duplicate aliases, duplicate teams, orphan teams and broken provenance fail validation (13.164572ms)
+✔ freshness expires after 90 days and is independent of unknown season (0.330918ms)
+✔ profile state recovers corrupt storage, migrates legacy preferences with media OFF, and sanitizes fields (2.522841ms)
+✔ saves, notes and schedules remain isolated between family profiles (13.3614ms)
+✔ calendar export uses exclusive end dates, escapes injected lines and folds UTF-8 safely (2.168597ms)
+✔ all routes, source assets, search filters, strict 404s, and internal navigation work (5143.841097ms)
+✔ responsive and accessibility code includes narrow layouts, tap targets, label associations and opt-in defaults (18.912751ms)
+✔ editing identity preserves local history and unknown extension data across reload (5.623231ms)
+✔ search areas intentionally overlap without rewriting source geography (4.408702ms)
+✔ initial sport entry renders every searchable reviewed directory row (462.492446ms)
+✔ all inherited dependency engine/data and fixtures remain exact at their appropriate tips (2599.653595ms)
+✔ new explicit module choices are independent of goal, interests and saved clubs (11.303189ms)
+✔ all seven modules can be selected independently, sanitized and ordered without mandatory progression (0.540094ms)
+✔ removing every module retains saved records, personal calendars, recruiting plans and media preferences after reload (0.955009ms)
+✔ family profiles retain independent module selections, ordering and media sources (8.858896ms)
+✔ legacy profiles migrate expressed choices without deriving recruiting from saved clubs, college records or notes (1.149151ms)
+✔ existing v2 storage migrates nondestructively and remains idempotent (0.479102ms)
+✔ media is off by default and retained sources do not display without module opt-in (0.342916ms)
+✔ workspace navigation starts empty and optional features are inert templates until selected (5.751535ms)
+✔ workspace supports keyboard reorder and retains organization lookup without recruiting side effects (0.682648ms)
+✔ visual follow-up keeps accepted SIEM/calendar, directory, engine, data and state contracts unchanged (49.306631ms)
+✔ accepted directory HTML stays byte-identical while profile markup becomes card-based (463.235333ms)
+✔ optional local avatar is additive and survives load without losing identity or unrelated records (2.596492ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5997.268278

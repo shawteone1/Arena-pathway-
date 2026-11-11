@@ -1,0 +1,62 @@
+{
+  "sourceRepository": "shawteone1/Soccer-Center",
+  "sourceCommit": "11de067414e63c5d3e3e221dfc14cc026dfbd8d0",
+  "november11UserScreenshotsAvailable": false,
+  "referenceKind": "Unchanged exported React parent/player components, rendered locally against fictional fixture data and explicit dependency stubs; not SC production screenshots.",
+  "sourceFiles": [
+    {
+      "path": "src/pages/parent-portal.tsx",
+      "blobSha": "3ca880b060e116ca6712d4b93c85ca020e3006a1"
+    },
+    {
+      "path": "src/pages/parent-portal-player.tsx",
+      "blobSha": "aa52f8203e06c553d50aa0601a54dc795fddbf29"
+    },
+    {
+      "path": "src/components/portal/PpPrimitives.tsx",
+      "blobSha": "4316d07cbe7cb091a8f06e0f53ec129e090b25d0"
+    },
+    {
+      "path": "src/styles/globals.css",
+      "blobSha": "716ddb0aebd6bf7e8cfa8bfc24617db7bfbbfd0b"
+    },
+    {
+      "path": "src/styles/member-experience-polish.css",
+      "blobSha": "ec1e3d3a24e85ec9acf2a0f011180623a4edf96c"
+    },
+    {
+      "path": "src/styles/parent-home-polish.css",
+      "blobSha": "f96ad451da9b23366b5aa552f671a196bbf57314"
+    },
+    {
+      "path": "tailwind.config.js",
+      "blobSha": "b181e9a63d927ce9effd459748375543a4b45cbe"
+    }
+  ],
+  "apBaseline": "8c48179998ca0c09b6ed4e56060e10acf670068b",
+  "capture": {
+    "engine": "Playwright WebKit",
+    "iPadPortrait": {
+      "width": 810,
+      "height": 1080
+    },
+    "iPadLandscape": {
+      "width": 1080,
+      "height": 810
+    },
+    "additionalTablet": {
+      "width": 768,
+      "height": 1024
+    },
+    "photoFixture": "Synthetic canvas avatar; no real athlete photo",
+    "physicalDevice": false
+  },
+  "stubs": [
+    "Fixture useSession (no real login)",
+    "Fixture fetch response objects; non-GET requests rejected",
+    "Reconstructed virtual:content labels",
+    "Club-logo lookup returns null",
+    "Unrelated child sections return null"
+  ],
+  "temporaryTooling": "React 19.2.0, ReactDOM 19.2.0, esbuild 0.25.12, Tailwind 3.4.18, lucide-react 0.468.0; installed under /workspace/scratch/sc-profile-reference only. No AP dependency or SC repository changes."
+}

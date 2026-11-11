@@ -1,0 +1,25 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {build} from 'esbuild';
+const root=process.cwd();
+const labels={parent_portal_player:{identityCard:{editButton:'Edit player',backButton:'Back to family',parentManagedBadge:'Parent managed',profileCompleteLabel:'Profile complete',footLabel:'foot'},about:{heading:'About my soccer',ageGroupLabel:'Age group',birthYearLabel:'Birth year',jerseyLabel:'Jersey',levelLabel:'Level',footLabel:'Preferred foot'},positions:{heading:'Positions & goals',positionsLabel:'Positions',primarySuffix:'Primary',goalsLabel:'Goals'},club:{heading:'Club & team',parentEnteredBadge:'Parent entered',directoryMatchBadge:'Directory match',seasonNotSet:'Season not set',ageGroupNotSet:'Age group not set'},training:{heading:'Training preferences',modeLabel:'Training mode',sessionLengthLabel:'Session length',frequencyLabel:'Frequency',focusAreasLabel:'Focus areas',interestsLabel:'Development interests'},tryouts:{heading:'Tryout interest',onLabel:'Interested in tryouts',offLabel:'Not currently exploring tryouts'},setupCta:{heading:'Complete your player profile',pctSuffix:'% complete',button:'Edit player'},privacyNotice:'Private player profile · managed by the parent or guardian.'},parent_portal_ui:{identityCard:{roleLabel:'Parent / Guardian',privateBadge:'Private profile'},familyOverview:{addPlayerButton:'Add player',addFirstPlayerButton:'Add your first player',noPlayersBody:'Your players appear here.'},rightSidebar:{setupCtaBody:'Manage your players and family preferences.',setupCtaButton:'Manage profile'}}};
+const stubNames=[...new Set([...fs.readFileSync('src/pages/parent-portal.tsx','utf8').matchAll(/\bPpAdmin[A-Za-z0-9]+\b/g)].map(m=>m[0]))];
+const plugin={name:'read-only-reference',setup(build){
+ build.onResolve({filter:/^(virtual:content|@\/|react-router$|@dr\.pogodin\/react-helmet$)/},args=>{
+  if(args.path==='@/components/portal/PpPrimitives')return {path:path.join(root,'src/components/portal/PpPrimitives.tsx')};
+  if(args.path.startsWith('@/styles/')){const actual=path.join(root,'src',args.path.slice(2));return fs.existsSync(actual)?{path:actual}:{path:args.path,namespace:'empty-css'};}
+  return {path:args.path,namespace:'reference-stub'};
+ });
+ build.onLoad({filter:/.*/,namespace:'empty-css'},()=>({contents:'',loader:'css'}));
+ build.onLoad({filter:/.*/,namespace:'reference-stub'},args=>{
+  let contents='';
+  if(args.path==='virtual:content')contents=Object.entries(labels).map(([key,value])=>`export const ${key}=${JSON.stringify(value)};`).join('\n');
+  else if(args.path==='react-router')contents='const navigate=()=>{};export const useNavigate=()=>navigate;export const useParams=()=>({playerId:"existing-alex"});export const useLocation=()=>({pathname:location.pathname,search:location.search});';
+  else if(args.path==='@dr.pogodin/react-helmet')contents='export const Helmet=()=>null;';
+  else if(args.path==='@/lib/auth/auth-client')contents='const session={isPending:false,isAuthenticated:true,user:{id:"fixture-parent",name:"Casey Rivera",isAdmin:false,email:"fixture@example.invalid"}};export const useSession=()=>session;export const signOut=async()=>{};';
+  else if(args.path==='@/lib/portal/club-logos')contents='export const getClubLogoAsset=()=>null;';
+  else contents='export default function ReferenceExternalSection(){return null;}\n'+stubNames.map(n=>`export const ${n}=()=>null;`).join('\n');
+  return {contents,loader:'tsx'};
+ });
+}};
+await build({entryPoints:['entry.tsx'],bundle:true,outfile:'dist/reference.js',format:'esm',jsx:'automatic',plugins:[plugin]});

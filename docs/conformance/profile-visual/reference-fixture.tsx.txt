@@ -1,0 +1,20 @@
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import Player from './src/pages/parent-portal-player';
+import Parent from './src/pages/parent-portal';
+import './src/styles/member-experience-polish.css';
+const player={id:'existing-alex',label:'Alex Rivera',birthYear:null,jersey:null,avatarInitials:'AR',avatarUrl:null,primaryPosition:'Midfielder',secondaryPosition:null,foot:null,goals:[],ageBand:'U14',ageYears:null,positions:['Midfielder'],skillLevel:'Competitive',developmentInterests:['Fitness'],trainingMode:'Team',clubName:'Rivera club team · family-entered',clubUrl:null,clubDirectoryId:null,trainingPreferences:null,tryoutInterest:false,sortOrder:0,statGp:null,statGoals:null,statAssists:null,statShots:null,statGa:null,statSaves:null,statSo:null,statsAvailable:false,affiliations:[]};
+const parent={id:'fixture-parent',displayName:'Casey Rivera',bio:'Your athletes. Their sport. Your family.',avatarInitials:'CR',avatarUrl:null,coverPhotoUrl:null,coverStyle:'stadium-blue',privacyPrivate:true,location:'Colorado',tryoutsEnabled:false,notifyScheduleChanges:false};
+window.fetch=async(url:any,init:any)=>{
+ if(init?.method&&init.method!=='GET')throw Error('Read-only fixture reference');
+ const p=String(url);let body:any={};
+ if(p==='/api/my-soccer/me')body={accessType:'PARENT',parentOnboardingDone:true,entitlements:[],user:{name:'Casey Rivera',email:'fixture@example.invalid'}};
+ else if(p==='/api/parent/profile')body={profile:parent,v2ColsAvailable:true};
+ else if(p==='/api/parent/players')body={players:[player,{...player,id:'existing-jordan',label:'Jordan Rivera',avatarInitials:'JR',primaryPosition:'Forward',positions:['Forward'],clubName:'Rivera club team · family-entered'}]};
+ else if(p.includes('match-records-summary'))body={tableAvailable:false,totals:{}};
+ else if(p.includes('coach-requests'))body={unreadCount:0};
+ else if(p==='/api/parent/players/existing-alex')body={player};
+ return new Response(JSON.stringify(body),{status:200,headers:{'Content-Type':'application/json'}});
+};
+const isParent=new URLSearchParams(location.search).get('view')==='parent';
+createRoot(document.getElementById('root')!).render(<div className="sc-member-polish"><div className="sc-member-content">{isParent?<Parent/>:<Player/>}</div></div>);

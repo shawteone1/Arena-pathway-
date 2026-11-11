@@ -532,3 +532,79 @@ body:not([data-page='home']) .section > h2 { margin-top: 45px; }
 .unified-filters,.engine-filter-options,.engine-filter-grid>div{min-width:0;max-width:100%}.unified-filters select,.unified-filters input{min-width:0;max-width:100%;width:100%}
 /* SC identity-card structure, using the existing AP palette and local identity. */
 .profile-summary{position:relative;background:var(--cream);color:var(--navy);border:1px solid var(--line);padding-top:52px}.profile-summary::before{content:"";display:block;height:74px;background:var(--navy);position:absolute;inset:0 0 auto}.profile-summary p{color:var(--navy)}.athlete-initials{position:relative;display:flex;align-items:center;justify-content:center;width:74px;height:74px;border:4px solid var(--cream);border-radius:50%;background:var(--red);color:white;font-weight:700;font-size:26px;margin-bottom:14px}.athlete-participation{padding:16px 0}.athlete-participation summary{min-height:44px;cursor:pointer}.profile-summary .secondary{display:inline-flex;align-items:center;min-height:44px}
+
+/* Profile-only visual alignment with SC parent/player cards (11de067).
+   Calendar and directory selectors, templates and data remain unchanged. */
+.athlete-profile-page{background:var(--cream);font-size:14px;line-height:1.5;min-width:0}
+.athlete-profile-container{width:calc(100% - 48px);max-width:1040px;margin:0 auto;padding:24px 0 48px}
+.athlete-profile-page .profile-context{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px}
+.athlete-profile-page .profile-context h1{font:700 23px/1.2 var(--display);margin:0;color:var(--muted)}
+.athlete-profile-page .profile-context>a{font-size:13px;min-height:44px;display:inline-flex;align-items:center;text-decoration:none;font-weight:600}
+.athlete-profile-page .profile-toolbar{justify-content:space-between;align-items:center;margin-bottom:14px;gap:12px}
+.athlete-profile-page .profile-toolbar>div{display:flex;align-items:center;gap:10px;min-width:0;flex:initial}
+.athlete-profile-page .profile-toolbar label{margin:0;font-size:12px;color:var(--muted)}
+.athlete-profile-page .profile-toolbar select{min-width:160px;max-width:290px;width:auto;min-height:44px;margin:0;padding:8px 36px 8px 12px;background:var(--white);border-radius:8px;font-size:14px}
+.athlete-profile-page .profile-summary{padding:0;margin:0;border-radius:16px;background:var(--white);border:1px solid var(--line);box-shadow:0 1px 3px #11182709;overflow:hidden;position:relative}
+.athlete-profile-page .profile-summary::before{display:none}
+.athlete-profile-page .profile-cover{height:128px;display:flex;align-items:flex-start;justify-content:space-between;padding:22px 26px;color:var(--white);background:linear-gradient(112deg,var(--navy) 10%,#2c3443 65%,#5c2935);position:relative;overflow:hidden}
+.athlete-profile-page .profile-cover::after{content:"";width:280px;height:280px;border:32px solid #ffffff09;position:absolute;right:70px;top:-140px;transform:rotate(30deg)}
+.athlete-profile-page .profile-cover-sport{font:700 20px/1 var(--display);text-transform:uppercase;letter-spacing:.08em}
+.athlete-profile-page .profile-cover-caption{font-size:10px;font-weight:700;letter-spacing:.14em;position:relative;z-index:1}
+.athlete-profile-page .profile-identity-body{padding:0 26px 20px}
+.athlete-profile-page .profile-identity-top{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;position:relative;margin-top:-45px;margin-bottom:14px}
+.athlete-profile-page .profile-avatar-wrap{position:relative;flex-shrink:0}
+.athlete-profile-page .profile-avatar{width:96px;height:96px;border:5px solid var(--white);border-radius:50%;background:#e9e5dc;color:var(--navy);display:flex;align-items:center;justify-content:center;font:700 31px/1 var(--body);overflow:hidden;box-shadow:0 1px 6px #11182714;flex-shrink:0}
+.athlete-profile-page .profile-avatar canvas{width:100%;height:100%;border-radius:50%;object-fit:cover}
+.athlete-profile-page .profile-photo-button{position:absolute;width:44px;height:44px;right:-12px;bottom:-2px;display:flex;align-items:center;justify-content:center;border:3px solid white;border-radius:50%;background:var(--navy);color:white;padding:8px}
+.athlete-profile-page .profile-identity-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;padding-top:54px}
+.athlete-profile-page .button,.athlete-profile-page .secondary{min-height:44px;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 15px;font:600 13px/1.4 var(--body);border-radius:8px;text-decoration:none;margin:0;letter-spacing:0;text-transform:none}
+.athlete-profile-page .button{background:var(--red);color:white}
+.athlete-profile-page .secondary{background:var(--white);border:1px solid var(--line);color:var(--navy)}
+.athlete-profile-page .profile-summary .profile-athlete-name{font:700 36px/1.15 var(--display);margin:0 0 10px;letter-spacing:-.015em;overflow-wrap:anywhere}
+.athlete-profile-page .profile-club-name{display:flex;align-items:center;gap:9px;font:600 15px/1.4 var(--body);margin:0 0 6px;color:var(--navy)}
+.athlete-profile-page .profile-club-name svg{width:18px;height:18px;color:var(--muted);flex-shrink:0}
+.athlete-profile-page .profile-summary .profile-athlete-subtitle{color:var(--muted);font-size:14px;margin:0}
+.athlete-profile-page .profile-identity-badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.athlete-profile-page .profile-badge{display:inline-flex;border-radius:20px;padding:5px 11px;background:#f3e8ea;color:#702332;font-size:12px;font-weight:600}
+.athlete-profile-page .profile-badge-muted{background:#f1f1ed;color:#50545c}
+.athlete-profile-page .profile-identity-footer{border-top:1px solid #eeebe5;padding-top:12px;margin-top:16px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:12px}
+.athlete-profile-page .profile-privacy{display:flex;align-items:center;gap:8px;padding:11px 14px;margin:14px 0;font-size:12px;line-height:1.5;border:1px solid #dfdcd5;border-radius:10px;color:#4e5157;background:#eeebe4}
+.athlete-profile-page #profile-nav{display:flex;flex-wrap:nowrap;gap:4px;border:1px solid var(--line);border-radius:12px;padding:5px;background:var(--white);margin-bottom:18px;overflow-x:auto;scrollbar-width:thin;min-width:0}
+.athlete-profile-page #profile-nav a{display:inline-flex;flex:1 0 auto;justify-content:center;align-items:center;gap:7px;min-height:48px;padding:10px 12px;border:1px solid transparent;border-radius:8px;text-decoration:none;font:600 13px/1.3 var(--body);white-space:nowrap;color:var(--muted)}
+.athlete-profile-page #profile-nav a svg{width:17px;height:17px;flex-shrink:0}
+.athlete-profile-page #profile-nav a[aria-current=page]{background:#f6ecee;color:#762638;border:1px solid #e6cdd2;font-weight:700}
+.athlete-profile-page .workspace-section{padding:0;margin:0 0 16px;min-width:0}
+.athlete-profile-page .workspace-section[hidden]{display:none}
+.athlete-profile-page .profile-section-title{font:600 16px/1.4 var(--body);margin:0 0 12px}
+.athlete-profile-page .athlete-card,.athlete-profile-page .athlete-section{padding:22px;border:1px solid var(--line);border-radius:14px;background:var(--white);box-shadow:0 1px 3px #11182708;min-width:0;margin-bottom:16px}
+.athlete-profile-page .athlete-card-heading,.athlete-profile-page .athlete-section-heading{display:flex;align-items:center;gap:9px;margin-bottom:16px;color:var(--navy)}
+.athlete-profile-page .athlete-card-heading svg,.athlete-profile-page .athlete-section-heading svg{color:#67636b;flex-shrink:0}
+.athlete-profile-page .athlete-card-heading h3{margin:0;font:650 16px/1.3 var(--body)}
+.athlete-profile-page .athlete-section h2{font:700 28px/1.2 var(--display);margin:0 0 12px}
+.athlete-profile-page .athlete-section-heading h2{margin:0}
+.athlete-profile-page .athlete-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin:0}
+.athlete-profile-page .athlete-facts dt{font-size:12px;color:var(--muted);margin-bottom:5px}
+.athlete-profile-page .athlete-facts dd{font-size:14px;font-weight:600;margin:0;overflow-wrap:anywhere}
+.athlete-profile-page .profile-card-lead{font:600 15px/1.4 var(--body);color:var(--navy);margin:0 0 7px;overflow-wrap:anywhere}
+.athlete-profile-page .profile-card-note{font-size:13px;color:var(--muted);margin:0 0 12px}
+.athlete-profile-page .text-link{min-height:44px;display:inline-flex;align-items:center;font-size:13px;padding:8px 0;margin:0}
+.athlete-profile-page .profile-empty-state{padding:28px 18px;margin-top:16px;background:var(--paper);border:1px dashed var(--line);border-radius:10px;color:var(--muted);font-size:14px;text-align:center}
+.athlete-profile-page .records{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.athlete-profile-page .record,.athlete-profile-page .panel{border-radius:10px;padding:18px}
+.athlete-profile-page .record h3,.athlete-profile-page .panel h3{font:700 23px/1.2 var(--display)}
+.athlete-profile-page .record p,.athlete-profile-page .schedule-entry p{font-size:13px}
+.athlete-profile-page .two-col{gap:18px}
+.athlete-profile-page .module-customizer,.athlete-profile-page .profile-management,.athlete-profile-page #optional-recruiting{padding:16px 20px;margin:16px 0;border:1px solid var(--line);border-radius:12px;background:var(--white)}
+.athlete-profile-page :is(.module-customizer,.profile-management,#optional-recruiting)>summary{font:600 14px/1.4 var(--body);min-height:44px;align-content:center;cursor:pointer}
+.athlete-profile-page .profile-management{background:transparent;font-size:13px}
+.athlete-profile-page .profile-text-button{background:none;border:0;text-decoration:underline;font-size:12px;min-height:44px;padding:5px;color:var(--muted)}
+.athlete-profile-page .family-avatar{background:var(--red);color:white}
+.athlete-profile-page .family-athlete-list{display:grid;gap:12px}
+.athlete-profile-page .family-athlete-card{display:flex;align-items:center;gap:16px;padding:16px;border:1px solid #e5e1d9;border-radius:12px;min-width:0}
+.athlete-profile-page .profile-avatar-small{width:64px;height:64px;font-size:21px;border-width:2px}
+.athlete-profile-page .family-athlete-info{flex:1;min-width:0}
+.athlete-profile-page .family-athlete-info h3{font:700 23px/1.2 var(--display);margin:0 0 5px;overflow-wrap:anywhere}
+.athlete-profile-page .family-athlete-info p{font-size:13px;margin:0 0 3px;overflow-wrap:anywhere}
+@media(max-width:850px){.athlete-profile-page #profile-nav a{padding:10px 9px;font-size:12px;flex-direction:column;gap:5px}.athlete-profile-page .profile-identity-body{padding:0 22px 18px}.athlete-profile-page .athlete-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.athlete-profile-page .records{grid-template-columns:1fr}.athlete-profile-page .profile-identity-actions{padding-top:54px}}
+@media(max-width:560px){.athlete-profile-container{width:calc(100% - 24px);padding-top:12px}.athlete-profile-page .profile-cover{height:112px;padding:18px}.athlete-profile-page .profile-cover-caption{font-size:8px;max-width:130px;text-align:right}.athlete-profile-page .profile-identity-body{padding:0 18px 18px}.athlete-profile-page .profile-identity-top{align-items:flex-end;gap:16px;flex-wrap:wrap}.athlete-profile-page .profile-identity-actions{padding-top:0;flex:1 1 100%;justify-content:stretch}.athlete-profile-page .profile-identity-actions>*{flex:1}.athlete-profile-page .profile-summary .profile-athlete-name{font-size:32px}.athlete-profile-page .athlete-card,.athlete-profile-page .athlete-section{padding:18px}.athlete-profile-page .profile-toolbar select{min-width:0;max-width:180px}.athlete-profile-page .profile-toolbar>div{flex:1;min-width:0}.athlete-profile-page .profile-toolbar label{display:none}.athlete-profile-page .two-col{grid-template-columns:1fr}.athlete-profile-page .family-athlete-card{flex-wrap:wrap;padding:14px;gap:12px}.athlete-profile-page .family-athlete-card>.secondary{width:100%}.athlete-profile-page .profile-context h1{font-size:21px}}
+.athlete-profile-page .parent-profile-editor{width:min(480px,calc(100% - 32px));max-height:85vh;overflow:auto;border:1px solid var(--line);border-radius:16px;padding:24px;color:var(--navy);background:white}.athlete-profile-page .parent-profile-editor::backdrop{background:#11182780}.athlete-profile-page .parent-profile-editor h2{font:700 30px/1.2 var(--display);margin:0 0 12px}.athlete-profile-page .parent-profile-editor input:not([type=checkbox]){width:100%;min-height:44px;border-radius:8px;font-size:16px}.athlete-profile-page .profile-editor-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:20px}
