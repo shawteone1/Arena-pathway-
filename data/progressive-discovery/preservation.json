@@ -1,0 +1,45 @@
+{
+  "runs": {
+    "previous": 32,
+    "preserved": 32
+  },
+  "observations": {
+    "previous": 377,
+    "preserved": 377
+  },
+  "versions": {
+    "previous": 872,
+    "preserved": 872
+  },
+  "reviews": {
+    "previous": 7,
+    "preserved": 7
+  },
+  "sourceConfigHistory": {
+    "previous": 284,
+    "preserved": 284
+  },
+  "identityLinks": {
+    "previous": 1,
+    "preserved": 1
+  },
+  "records": {
+    "previous": 600,
+    "preserved": 600,
+    "approvedPinsPreserved": true
+  },
+  "sources": {
+    "previous": 247,
+    "preserved": 247
+  },
+  "archives": [
+    {
+      "file": "base-ledger.json.gz",
+      "sha256": "32f7873fe4edd9064e7ebb195a207c03716ff6e33aedfdb9603606869ec6c794"
+    },
+    {
+      "file": "ledger.json.gz",
+      "sha256": "2e1ff520e2ac59354c65eadfa38f66cb3a8a7a75784e2a079b8f2c586dc9b02f"
+    }
+  ]
+}

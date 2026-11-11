@@ -1,0 +1,11 @@
+{
+ "baseCommit":"9157faa660b28ceb69100595ebd2ed6b4da52ad8",
+ "scope":["Colorado lacrosse","Colorado volleyball"],
+ "freshSample":"Six new organization references, excluded from the previous benchmark sets and scoped-review receipts; independent publisher research, frozen before implementation/acquisition. Same analyst, not external blind adjudication.",
+ "thresholds":{"identificationRecall":0.9,"classificationAccuracy":0.95,"evidenceTraceability":1,"eligibleConsumerVisibility":1,"unverifiedExclusion":1},
+ "rules":["Org identity, sport and geography required for verified-organization status","Missing registration cannot hide a verified organization","Published/historical youth participation never proves current season or availability","No placeholder programs or inferred teams to satisfy a join","Canonical organization IDs reused; many-to-many relationships preserve evidence","Blocked sources remain blocked; never replace hard cases to improve a score"],
+ "discoveryQueries":["Colorado lacrosse association league member clubs youth programs official","Colorado youth lax clubs recreation teams programs official","Colorado volleyball regional association club directory youth clubs official"],
+ "sourceBudget":36,
+ "searchBridge":"Logged explicit public-search tool calls, not an unattended production provider API",
+ "publication":"Review branch only; no external push, merge or deployment"
+}

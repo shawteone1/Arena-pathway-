@@ -1,0 +1,5 @@
+
+> arena-pathway@0.7.0 check:brand
+> node scripts/check-brand.mjs
+
+Approved source, source hash and all web treatments verified. Visual fidelity still requires manual comparison.
