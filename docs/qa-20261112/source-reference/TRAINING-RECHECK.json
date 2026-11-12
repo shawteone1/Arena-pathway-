@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-11-12T18:40:08.285049+00:00",
+  "method": "Public unauthenticated HTTP access, redirects, official-site links and individual written-content inspection. No account creation or newsletter submissions.",
+  "newApproval": "Only Sarah Pavan’s written goal-setting article; the original20 approved items remain unchanged.",
+  "videoResult": "Public YouTube oEmbed probes for official-site Elevate Yourself/HGR embeds failed at the tunnel with HTTP403; playback and availability remain unverified. No video activated.",
+  "otherFindings": {
+    "Breakthrough Basketball": "Found working drill index and youth dribbling overview; linked video/bonus PDF not verified for unrestricted instructional access. Remains inactive.",
+    "Pro Skills Basketball": "Working blog; reviewed index points to program guidance rather than an individually verified free drill. Remains inactive.",
+    "Swax Lax": "Both drill-titled URLs returned a customization/retail body without drill instructions. Remains inactive."
+  },
+  "probes": [
+    {
+      "name": "Breakthrough Basketball",
+      "url": "https://www.breakthroughbasketball.com/drills/basketballdrills",
+      "status": 200,
+      "finalUrl": "https://www.breakthroughbasketball.com/drills/basketballdrills",
+      "sha256": "7d83b4e141c339c15e89176f0c11111d8919adef082f8ea6a17f089bbe5c3015",
+      "title": "200+ Basketball Drills for Coaches"
+    },
+    {
+      "name": "Breakthrough Basketball",
+      "url": "https://www.breakthroughbasketball.com/drills/basketball-drills-players",
+      "status": 200,
+      "finalUrl": "https://www.breakthroughbasketball.com/drills/basketball-drills-players",
+      "sha256": "57bbe1565ba36ce4892bce0603b7ec965a46e0591f76aefb9c3c93219649851a",
+      "title": "150+ Basketball Training Drills For Players - Individual & Partner"
+    },
+    {
+      "name": "Pro Skills Basketball",
+      "url": "https://proskillsbasketball.com/blog/",
+      "status": 200,
+      "finalUrl": "https://proskillsbasketball.com/blog/",
+      "sha256": "2dba34eb90fbc111a4bc08bfb10fda827b71fa96790add1c5a33b2753e7d0feb",
+      "title": "Youth Basketball Blog | Pro Skills Basketball"
+    },
+    {
+      "name": "Sarah Pavan Volleyball",
+      "url": "https://www.sarahpavan.com/blog/goal-setting",
+      "status": 200,
+      "finalUrl": "https://www.sarahpavan.com/blog/goal-setting",
+      "sha256": "8c2665e81cd577252b99debfe0e50cb1939be4096ed19de816c44c6dc019ce1a",
+      "title": "The Importance of Setting Goals — Sarah Pavan"
+    },
+    {
+      "name": "Sarah Pavan Volleyball",
+      "url": "https://www.sarahpavan.com/blog/tall-volleyball",
+      "status": 200,
+      "finalUrl": "https://www.sarahpavan.com/blog/tall-volleyball",
+      "sha256": "0c1f540dc0cc53c780307fb9f82bc7744d24b53712052cb7e414eddabb98c662",
+      "title": "Do I Need To Be Tall To Play Volleyball? — Sarah Pavan"
+    },
+    {
+      "name": "Swax Lax",
+      "url": "https://swaxsports.com/pages/lacrosse-drills-for-boys",
+      "status": 200,
+      "finalUrl": "https://swaxsports.com/pages/lacrosse-drills-for-boys",
+      "sha256": "8988cbe4ca88ba9a93a39a40a504bd86a7bb595bdeae36d68da330011cb7d964",
+      "title": "Lacrosse Drills for Boys | Video Lacrosse Drills Swax Lax Balls\n – Swax Sports | The Original Patented Training Balls"
+    },
+    {
+      "name": "Swax Lax",
+      "url": "https://swaxsports.com/pages/lacrosse-drills-training-videos",
+      "status": 200,
+      "finalUrl": "https://swaxsports.com/pages/lacrosse-drills-training-videos",
+      "sha256": "b02a4bb158df37610b01758a4e4d93970bef632738c34a930591d0ba33bd388c",
+      "title": "Swax Lax Lacrosse Training Drills | Lacrosse Training Videos\n – Swax Sports | The Original Patented Training Balls"
+    },
+    {
+      "name": "Elevate Yourself",
+      "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7qRzBXGvezQ&format=json",
+      "status": "unavailable",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "name": "HGR Lacrosse",
+      "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBg58pUa-eO0&format=json",
+      "status": "unavailable",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "name": "Breakthrough Basketball",
+      "url": "https://www.breakthroughbasketball.com/youth/seven-dribbling-drills",
+      "status": 200,
+      "finalUrl": "https://www.breakthroughbasketball.com/youth/seven-dribbling-drills",
+      "sha256": "3db8cd19ad5de88eb824ba6fe9da81f5aba4600d25260a6490bf4755c6044fb3",
+      "title": "7 Best Youth Basketball Dribbling Drills"
+    }
+  ]
+}

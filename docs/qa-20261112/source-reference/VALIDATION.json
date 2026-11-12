@@ -1,0 +1,55 @@
+{
+  "apBaseline": "eca2d25",
+  "soccerCenterReference": "11de067414e63c5d3e3e221dfc14cc026dfbd8d0",
+  "sourceReadOnly": true,
+  "originalScreenshotPixelsCompared": false,
+  "physicalDeviceTest": false,
+  "finalResults": [
+    {
+      "suite": "source-final-check",
+      "passed": 218,
+      "failed": 0
+    },
+    {
+      "suite": "source-final-test",
+      "passed": 218,
+      "failed": 0
+    },
+    {
+      "suite": "source-final-browser",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "suite": "source-final-webkit",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "suite": "source-final-profile",
+      "passed": 8,
+      "failed": 0
+    },
+    {
+      "suite": "source-final-profile-webkit",
+      "passed": 8,
+      "failed": 0
+    },
+    {
+      "suite": "source-final-conformance",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "suite": "source-final-conformance-webkit",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "suite": "source-final-siem",
+      "passed": 18,
+      "failed": 0
+    }
+  ],
+  "earlierAttempt": "initial-parallel-webkit-FAILED.log documents a video navigation timeout; final WebKit suite was isolated and passed after strengthening the existing schedule-save test wait."
+}

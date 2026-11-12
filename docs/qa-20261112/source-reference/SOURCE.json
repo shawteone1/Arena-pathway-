@@ -1,0 +1,113 @@
+{
+  "repository": "shawteone1/Soccer-Center",
+  "branch": "main",
+  "commit": "11de067414e63c5d3e3e221dfc14cc026dfbd8d0",
+  "commitDate": "2026-11-11T17:02:28Z",
+  "message": "Import Soccer Center source from GoDaddy",
+  "tree": "50fe916e7b12f721753a6eb99f78e71b6be101f1",
+  "verification": "Read-only GitHub commit history, branches and non-truncated recursive tree; targeted source files fetched at the pinned commit. No whole-application transfer, production changes or runtime functionality assertion.",
+  "files": [
+    {
+      "path": "src/pages/parent-portal.tsx",
+      "sha": "3ca880b060e116ca6712d4b93c85ca020e3006a1",
+      "lines": 2231,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/pages/parent-portal.tsx"
+    },
+    {
+      "path": "src/pages/parent-portal-player.tsx",
+      "sha": "aa52f8203e06c553d50aa0601a54dc795fddbf29",
+      "lines": 975,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/pages/parent-portal-player.tsx"
+    },
+    {
+      "path": "src/components/portal/PlayerScheduleTab.tsx",
+      "sha": "fb8362af91ebc23d679b9b22ec2232bdf31ba4e4",
+      "lines": 2119,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/PlayerScheduleTab.tsx"
+    },
+    {
+      "path": "src/components/portal/PlayerStatsTab.tsx",
+      "sha": "5c4429494956fd3e6315cfddd28aa360a5abc263",
+      "lines": 316,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/PlayerStatsTab.tsx"
+    },
+    {
+      "path": "src/components/portal/PlayerMediaTab.tsx",
+      "sha": "802e52a82f54ceefc467ef852f378fa8defbe2b5",
+      "lines": 1208,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/PlayerMediaTab.tsx"
+    },
+    {
+      "path": "src/components/portal/PpSourceFeed.tsx",
+      "sha": "2b87b2e33c930a6fb9a9951fb4ae081bc913e8f4",
+      "lines": 542,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/PpSourceFeed.tsx"
+    },
+    {
+      "path": "src/components/portal/UnifiedFeedWall.tsx",
+      "sha": "2e43d601cf213894b9c91a37f2d7df75249c30af",
+      "lines": 781,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/UnifiedFeedWall.tsx"
+    },
+    {
+      "path": "src/components/portal/PpNetworkTab.tsx",
+      "sha": "7b2e728c9d7a441d1ab61a6430ab59a27fea8f58",
+      "lines": 434,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/PpNetworkTab.tsx"
+    },
+    {
+      "path": "src/components/portal/RecruitingTab.tsx",
+      "sha": "9ea46f1f02d8d52e4fb9f9098179239f5280bb47",
+      "lines": 2554,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/RecruitingTab.tsx"
+    },
+    {
+      "path": "src/components/portal/ParentRecruitingHub.tsx",
+      "sha": "6030540fab50aaebe48c6603c35332462d5011f7",
+      "lines": 87,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/ParentRecruitingHub.tsx"
+    },
+    {
+      "path": "src/components/portal/PpCalendarTab.tsx",
+      "sha": "ce911bc026cb7242be05e4efe4d2cbf09fa9a209",
+      "lines": 830,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/PpCalendarTab.tsx"
+    },
+    {
+      "path": "src/components/portal/CalendarViews.tsx",
+      "sha": "803d1480864f6e8919cabfc5ad3af54e232ea80f",
+      "lines": 94,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/CalendarViews.tsx"
+    },
+    {
+      "path": "src/components/portal/GameDetailsPanel.tsx",
+      "sha": "ccdfdfded48d2a9cecdc386f5facd0e1ea0b6160",
+      "lines": 1235,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/GameDetailsPanel.tsx"
+    },
+    {
+      "path": "src/components/DevTab.tsx",
+      "sha": "a9510db708264673baae2c860e4b9b326bbe57a4",
+      "lines": 107,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/DevTab.tsx"
+    },
+    {
+      "path": "src/content/pages/parent_portal_player.json",
+      "sha": "0f599c50b6ca85197e3b5edb16e26c2679996f0c",
+      "lines": 56,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/content/pages/parent_portal_player.json"
+    },
+    {
+      "path": "src/styles/parent-home-polish.css",
+      "sha": "f96ad451da9b23366b5aa552f671a196bbf57314",
+      "lines": 173,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/styles/parent-home-polish.css"
+    },
+    {
+      "path": "src/styles/globals.css",
+      "sha": "716ddb0aebd6bf7e8cfa8bfc24617db7bfbbfd0b",
+      "lines": 735,
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/styles/globals.css"
+    }
+  ]
+}

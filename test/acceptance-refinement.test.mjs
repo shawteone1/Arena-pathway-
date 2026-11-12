@@ -1,9 +1,10 @@
 import test from 'node:test';import assert from 'node:assert/strict';import{readFileSync}from'node:fs';import{execFileSync}from'node:child_process';
 import{reviewedSources,selectedContent}from'../public/content-library.js';import{loadState,persist}from'../public/state.js';
 const review=JSON.parse(readFileSync('data/content-review.json')),now=new Date(review.reviewedAt),options={now};
-test('all40 candidate identities receive individual decisions; only20 inspected written items are approved',()=>{
+test('all40 candidate identities receive individual decisions; only21 inspected written items are approved',()=>{
  const original=JSON.parse(readFileSync('data/sport-content-sources.json')),ids=Object.entries(original.sports).flatMap(([sport,categories])=>Object.entries(categories).flatMap(([category,names])=>names.map(name=>sport+':'+category+':'+name)));
- assert.equal(review.sources.length,40);assert.deepEqual(new Set(review.sources.map(s=>s.id)),new Set(ids));assert.equal(review.sources.filter(s=>s.decision==='approved').length,18);assert.equal(review.sources.flatMap(s=>s.items).length,20);
+ assert.equal(review.sources.length,40);assert.deepEqual(new Set(review.sources.map(s=>s.id)),new Set(ids));assert.equal(review.sources.filter(s=>s.decision==='approved').length,19);assert.equal(review.sources.flatMap(s=>s.items).length,21);
+ const baseline=JSON.parse(execFileSync('git',['show','eca2d25:data/content-review.json'],{encoding:'utf8'}));for(const prior of baseline.sources.flatMap(s=>s.items))assert.deepEqual(review.sources.flatMap(s=>s.items).find(i=>i.id===prior.id),prior,'Previously approved item preserved');
  for(const s of review.sources){assert.ok(s.reason&&s.checkedAt&&s.validUntil&&s.evidence.length);if(s.decision==='approved')for(const item of s.items){assert.equal(item.free,true);assert.equal(item.youthSuitable,true);assert.ok(item.summary&&item.reviewScope);assert.ok(s.evidence.some(e=>e.finalUrl===item.url&&e.status===200&&e.sha256));}else assert.equal(s.items.length,0);}
 });
 test('old candidate interests never turn on subscriptions and source filters keep sport/category boundaries',()=>{

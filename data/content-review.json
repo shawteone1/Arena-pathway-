@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "mode": "reviewed-outbound-content-snapshot-not-live-feed",
   "selectionPolicy": "Explicit new opt-in per existing athlete. Legacy candidate interests are preserved without automatic subscription.",
-  "reviewedAt": "2026-11-12T17:55:07.192180+00:00",
+  "reviewedAt": "2026-11-12T18:34:38.822099+00:00",
   "sources": [
     {
       "id": "basketball:news:ESPN Basketball",
@@ -572,12 +572,23 @@
       "category": "development",
       "name": "Sarah Pavan Volleyball",
       "url": "https://www.sarahpavan.com/",
-      "decision": "inactive",
-      "reason": "Official creator site works, but the proposed YouTube route was inaccessible; an individual free instructional item was not verified.",
-      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
-      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "decision": "approved",
+      "reason": "Only the publicly readable goal-setting guide is approved for youth development. The external YouTube channel/videos remain unverified.",
+      "checkedAt": "2026-11-12T18:34:38.822099+00:00",
+      "validUntil": "2026-12-12T18:34:38.822099+00:00",
       "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
-      "items": [],
+      "items": [
+        {
+          "id": "5cd01cbd58f81c83",
+          "title": "The Importance of Setting Goals",
+          "url": "https://www.sarahpavan.com/blog/goal-setting",
+          "summary": "Sarah Pavan explains growth, accountability and short- versus long-term goals, with examples for young athletes and team practices.",
+          "format": "guide",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only the public written goal-setting article. No approval of linked videos, the whole channel, paid services or redistribution rights."
+        }
+      ],
       "evidence": [
         {
           "url": "https://www.youtube.com/@SarahPavanVolleyball/videos",
@@ -592,6 +603,13 @@
           "status": 200,
           "sha256": "3b50767de80bc507166bb92feb567e52d8c742b24e8a6fa1404d31aaa9ff64db",
           "title": "Sarah Pavan"
+        },
+        {
+          "url": "https://www.sarahpavan.com/blog/goal-setting",
+          "finalUrl": "https://www.sarahpavan.com/blog/goal-setting",
+          "status": 200,
+          "sha256": "8c2665e81cd577252b99debfe0e50cb1939be4096ed19de816c44c6dc019ce1a",
+          "title": "The Importance of Setting Goals — Sarah Pavan"
         }
       ]
     },

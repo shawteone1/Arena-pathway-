@@ -1,0 +1,13 @@
+test_edit_keeps_existing_id_records_and_recruiting_notes (__main__.ProfileVisualQA.test_edit_keeps_existing_id_records_and_recruiting_notes) ... ok
+test_invalid_photo_and_quota_failure_preserve_saved_records (__main__.ProfileVisualQA.test_invalid_photo_and_quota_failure_preserve_saved_records) ... ok
+test_ipad_parent_to_athlete_hierarchy_and_screenshots (__main__.ProfileVisualQA.test_ipad_parent_to_athlete_hierarchy_and_screenshots) ... ok
+test_local_photo_survives_reload_and_does_not_change_identity (__main__.ProfileVisualQA.test_local_photo_survives_reload_and_does_not_change_identity) ... ok
+test_parent_profile_actions_update_the_existing_local_parent (__main__.ProfileVisualQA.test_parent_profile_actions_update_the_existing_local_parent) ... ok
+test_photo_is_attached_to_original_id_when_switching_athletes (__main__.ProfileVisualQA.test_photo_is_attached_to_original_id_when_switching_athletes) ... ok
+test_sections_preserve_modules_and_card_navigation (__main__.ProfileVisualQA.test_sections_preserve_modules_and_card_navigation) ... ok
+test_view_athlete_links_reload_and_unknown_ids_are_safe (__main__.ProfileVisualQA.test_view_athlete_links_reload_and_unknown_ids_are_safe) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 16.626s
+
+OK
