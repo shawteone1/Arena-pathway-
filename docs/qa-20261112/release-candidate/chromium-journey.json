@@ -1,0 +1,15 @@
+{
+  "parentId": "10b6e7cf-04e7-4270-8ed4-e07eefbc641f",
+  "athleteId": "35400128-2d03-4db9-9208-5a01c5608fcb",
+  "seriesId": "7aa55098-a743-4725-a57f-caf5bc18bc19",
+  "eventRef": "fec9106f-c3e9-49ad-8294-cef355fac491",
+  "media": [
+    {
+      "id": "8fcacc1e-6311-4250-9e78-1e5d2cd4d91f",
+      "athleteId": "35400128-2d03-4db9-9208-5a01c5608fcb",
+      "eventRef": "fec9106f-c3e9-49ad-8294-cef355fac491"
+    }
+  ],
+  "profileCount": 1,
+  "externalWrites": []
+}

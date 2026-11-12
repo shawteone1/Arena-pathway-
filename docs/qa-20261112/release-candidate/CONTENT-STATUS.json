@@ -1,0 +1,487 @@
+{
+  "checkedAt": "2026-11-12T21:21:59.961472+00:00",
+  "candidateCount": 40,
+  "approvedSources": 19,
+  "inactiveSources": 21,
+  "approvedWrittenItems": 21,
+  "approvedVideos": 0,
+  "developmentCandidatesWithoutVideoApproval": 20,
+  "liveFeedConnections": 0,
+  "perSport": [
+    {
+      "sport": "basketball",
+      "candidates": 10,
+      "approvedNewsSources": 3,
+      "approvedDevelopmentSources": 1,
+      "approvedWrittenItems": 4,
+      "inactiveSources": 6,
+      "approvedVideos": 0,
+      "developmentCandidatesWithoutVideoApproval": 5
+    },
+    {
+      "sport": "volleyball",
+      "candidates": 10,
+      "approvedNewsSources": 3,
+      "approvedDevelopmentSources": 2,
+      "approvedWrittenItems": 6,
+      "inactiveSources": 5,
+      "approvedVideos": 0,
+      "developmentCandidatesWithoutVideoApproval": 5
+    },
+    {
+      "sport": "lacrosse",
+      "candidates": 10,
+      "approvedNewsSources": 3,
+      "approvedDevelopmentSources": 1,
+      "approvedWrittenItems": 5,
+      "inactiveSources": 6,
+      "approvedVideos": 0,
+      "developmentCandidatesWithoutVideoApproval": 5
+    },
+    {
+      "sport": "swimming",
+      "candidates": 10,
+      "approvedNewsSources": 5,
+      "approvedDevelopmentSources": 1,
+      "approvedWrittenItems": 6,
+      "inactiveSources": 4,
+      "approvedVideos": 0,
+      "developmentCandidatesWithoutVideoApproval": 5
+    }
+  ],
+  "activationPolicy": "Only existing individual written-item approvals retained. Following remains opt-in per athlete. No reactivation or new URL/content approval performed during feature freeze.",
+  "sources": [
+    {
+      "id": "basketball:news:ESPN Basketball",
+      "sport": "basketball",
+      "category": "news",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Mixed public/subscription publisher; the sampled roster-analysis article\u2019s unrestricted browser access was not established. No ESPN+ entitlement is implied."
+    },
+    {
+      "id": "basketball:news:SLAM / WSLAM",
+      "sport": "basketball",
+      "category": "news",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "basketball:news:FIBA",
+      "sport": "basketball",
+      "category": "news",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "basketball:news:USA Basketball",
+      "sport": "basketball",
+      "category": "news",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Homepage/news routes return a JavaScript shell or no displayed data; a readable individual news item was not verified."
+    },
+    {
+      "id": "basketball:news:CBS Sports Basketball",
+      "sport": "basketball",
+      "category": "news",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "basketball:development:Jr. NBA / WNBA",
+      "sport": "basketball",
+      "category": "development",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "basketball:development:Pro Skills Basketball",
+      "sport": "basketball",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Official site works, but the proposed drill path failed. Current pages promote teams/camps; no individual free drill was verified."
+    },
+    {
+      "id": "basketball:development:Breakthrough Basketball",
+      "sport": "basketball",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Homepage works and advertises free resources, but the drill path was inaccessible. Specific instructional items still require review."
+    },
+    {
+      "id": "basketball:development:ShotMechanics",
+      "sport": "basketball",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Homepage advertises free workouts, but its linked workout route resolves to unrelated Webflow template content. Instruction/access integrity not established."
+    },
+    {
+      "id": "basketball:development:Championship Productions",
+      "sport": "basketball",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Reviewed catalog promotes paid videos/DVDs. No individually free youth instruction approved."
+    },
+    {
+      "id": "volleyball:news:VolleyballMag",
+      "sport": "volleyball",
+      "category": "news",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "volleyball:news:Volleyball World",
+      "sport": "volleyball",
+      "category": "news",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "volleyball:news:USA Volleyball",
+      "sport": "volleyball",
+      "category": "news",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "volleyball:news:WorldofVolley",
+      "sport": "volleyball",
+      "category": "news",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Sampled story contains sports-betting offer discussion. Rejected from this youth-focused content selection; no automatic news ingestion."
+    },
+    {
+      "id": "volleyball:news:AVCA",
+      "sport": "volleyball",
+      "category": "news",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Sampled recognition page provides introductory copy and an embedded profile; the substantive profile/video was not independently verified."
+    },
+    {
+      "id": "volleyball:development:Elevate Yourself",
+      "sport": "volleyball",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Official site and tutorial directory work; individual externally hosted tutorial availability/playback was not verified. Proposed YouTube route was inaccessible."
+    },
+    {
+      "id": "volleyball:development:Sarah Pavan Volleyball",
+      "sport": "volleyball",
+      "category": "development",
+      "decision": "approved",
+      "validUntil": "2026-12-12T18:34:38.822099+00:00",
+      "items": 1,
+      "reason": "Only the publicly readable goal-setting guide is approved for youth development. The external YouTube channel/videos remain unverified."
+    },
+    {
+      "id": "volleyball:development:JVA Training Curriculum",
+      "sport": "volleyball",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Public index works, but both sampled drill pages explicitly require JVA membership/login. An index is not free instruction."
+    },
+    {
+      "id": "volleyball:development:USA Volleyball USAVlearn",
+      "sport": "volleyball",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Coach Academy describes member access. Free access to the named learning service\u2019s individual instruction was not verified."
+    },
+    {
+      "id": "volleyball:development:Art of Coaching Volleyball",
+      "sport": "volleyball",
+      "category": "development",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 2,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "swimming:news:SwimSwam",
+      "sport": "swimming",
+      "category": "news",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "swimming:news:Swimming World",
+      "sport": "swimming",
+      "category": "news",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "swimming:news:World Aquatics",
+      "sport": "swimming",
+      "category": "news",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "swimming:news:USA Swimming",
+      "sport": "swimming",
+      "category": "news",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "swimming:news:CSCAA",
+      "sport": "swimming",
+      "category": "news",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "swimming:development:Chloe Sutton",
+      "sport": "swimming",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Proposed YouTube channel route was inaccessible; identity, free item availability and suitability remain unverified."
+    },
+    {
+      "id": "swimming:development:Skills N\u2019 Talents",
+      "sport": "swimming",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Proposed site returns an empty/script-dependent response. No accessible individual instruction verified."
+    },
+    {
+      "id": "swimming:development:The Race Club",
+      "sport": "swimming",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Sampled technique article redirects to Restricted Content and paid membership. No free item approved."
+    },
+    {
+      "id": "swimming:development:Effortless Swimming",
+      "sport": "swimming",
+      "category": "development",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "swimming:development:USA Swimming Network",
+      "sport": "swimming",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Official video hub exists, but individual playable instructional content and youth suitability were not verified. Initial YouTube route was inaccessible."
+    },
+    {
+      "id": "lacrosse:news:Inside Lacrosse",
+      "sport": "lacrosse",
+      "category": "news",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Sampled article is public human-interest reporting involving injury/postpartum recovery. Held outside this release\u2019s selected youth fundamentals/results scope; other items need individual review."
+    },
+    {
+      "id": "lacrosse:news:USA Lacrosse Magazine",
+      "sport": "lacrosse",
+      "category": "news",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "lacrosse:news:Premier Lacrosse League",
+      "sport": "lacrosse",
+      "category": "news",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Official headlines use redirect links; an individual final article\u2019s free body was not verified."
+    },
+    {
+      "id": "lacrosse:news:National Lacrosse League",
+      "sport": "lacrosse",
+      "category": "news",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "lacrosse:news:World Lacrosse",
+      "sport": "lacrosse",
+      "category": "news",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 1,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "lacrosse:development:USA Lacrosse",
+      "sport": "lacrosse",
+      "category": "development",
+      "decision": "approved",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 2,
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval."
+    },
+    {
+      "id": "lacrosse:development:POWLAX",
+      "sport": "lacrosse",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Current Skills Academy pages promote program/team access rather than a verified free individual drill."
+    },
+    {
+      "id": "lacrosse:development:Swax Lax",
+      "sport": "lacrosse",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Redirects to Swax Sports retail products; no individual free instructional resource verified."
+    },
+    {
+      "id": "lacrosse:development:HGR Lacrosse",
+      "sport": "lacrosse",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Current site promotes local teams/camps/member training. No individual free instruction verified."
+    },
+    {
+      "id": "lacrosse:development:ADVNC Lacrosse",
+      "sport": "lacrosse",
+      "category": "development",
+      "decision": "inactive",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "items": 0,
+      "reason": "Current pages promote paid camps/team programs; no individual free instructional item verified."
+    }
+  ],
+  "frozenFiles": [
+    {
+      "file": "data/content-review.json",
+      "sha256": "3357a1a7bec71092ea3f25dbbff00bbf189cb69c02583f522d3838c2f1e89643",
+      "unchangedFrom": "5941684"
+    },
+    {
+      "file": "data/sport-content-sources.json",
+      "sha256": "4752aeae8208ecf8d7725cb3f05db293e466d86bc14cee908a0cf52ca9c1fadf",
+      "unchangedFrom": "5941684"
+    },
+    {
+      "file": "public/state.js",
+      "sha256": "2555d4cfcd80c6b9bca08ec09d7a6b2633ed053dddb92a364f3d13638b52481f",
+      "unchangedFrom": "5941684"
+    },
+    {
+      "file": "public/recurring-plans.js",
+      "sha256": "b15264d8906b9b6d7594c182d46ccaa8b3632952f7459dc74d00c87917d67797",
+      "unchangedFrom": "5941684"
+    },
+    {
+      "file": "public/athlete-records.js",
+      "sha256": "cef5ed119a1a57667a4fbaa9bd2ebcf65d7a904b8234cec27e21cadada445241",
+      "unchangedFrom": "5941684"
+    },
+    {
+      "file": "public/media-library.js",
+      "sha256": "86dbcdba4b867dfc85b1cca0763e0acc9da10c6901806f55eea16184fc9dcfcf",
+      "unchangedFrom": "5941684"
+    },
+    {
+      "file": "public/local-family-calendar.js",
+      "sha256": "46ad5b2b7ffc2815fb09f94d9e3b43de32ccc9ebbd5b0ecba40866cd4b75f88c",
+      "unchangedFrom": "5941684"
+    },
+    {
+      "file": "public/siem-family-fixtures.js",
+      "sha256": "6144f697a667929de7d4cd0b7727016695f6dcb0791dc52986bf08deb8aa2ae3",
+      "unchangedFrom": "5941684"
+    },
+    {
+      "file": "public/siem-platform-fixtures.js",
+      "sha256": "d57763878f19baa228a9138fa4ddb42afce609c53bc4c02acfde2e0cc2da2bb1",
+      "unchangedFrom": "5941684"
+    },
+    {
+      "file": "public/siem-platform-model.js",
+      "sha256": "58692d1572ca56125b4055db6878019931cbae39464ab9e3c5a4a61893579346",
+      "unchangedFrom": "5941684"
+    },
+    {
+      "file": "public/siem-calendar.js",
+      "sha256": "97396ce38ad9171c1208e89faf80ee3eb3be7a5a586708c404d2b815f003d23d",
+      "unchangedFrom": "5941684"
+    },
+    {
+      "file": "public/style.css",
+      "sha256": "8a8861fbeb0eeb304e22395c662ee4ae28349135068ffda92d3d3221f0242305",
+      "unchangedFrom": "5941684"
+    },
+    {
+      "file": "src/brand.json",
+      "sha256": "eca1c0c8e6199446d94da59cd45a831885750d3eca978eb93de1abcf8b5ca891",
+      "unchangedFrom": "5941684"
+    },
+    {
+      "file": "src/photography.json",
+      "sha256": "0e5583ea16c40cdbcb072b0e7cb69fc8a0b64d23c4ded6615e5f0cdeca88798d",
+      "unchangedFrom": "5941684"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "repository": "shawteone1/Soccer-Center",
+  "commit": "11de067414e63c5d3e3e221dfc14cc026dfbd8d0",
+  "method": "Read-only GitHub fetch_file at pinned import; hashes match prior SOURCE.json. The older locally rendered SC fixture is not the definitive visual reference.",
+  "originalScreenshotPixelsCompared": false,
+  "files": [
+    {
+      "path": "src/pages/parent-portal.tsx",
+      "sha": "3ca880b060e116ca6712d4b93c85ca020e3006a1",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/pages/parent-portal.tsx"
+    },
+    {
+      "path": "src/components/portal/PlayerScheduleTab.tsx",
+      "sha": "fb8362af91ebc23d679b9b22ec2232bdf31ba4e4",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/PlayerScheduleTab.tsx"
+    },
+    {
+      "path": "src/components/portal/PlayerMediaTab.tsx",
+      "sha": "802e52a82f54ceefc467ef852f378fa8defbe2b5",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/PlayerMediaTab.tsx"
+    },
+    {
+      "path": "src/components/portal/UnifiedFeedWall.tsx",
+      "sha": "2e43d601cf213894b9c91a37f2d7df75249c30af",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/UnifiedFeedWall.tsx"
+    },
+    {
+      "path": "src/components/portal/PpNetworkTab.tsx",
+      "sha": "7b2e728c9d7a441d1ab61a6430ab59a27fea8f58",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/PpNetworkTab.tsx"
+    },
+    {
+      "path": "src/components/portal/RecruitingTab.tsx",
+      "sha": "9ea46f1f02d8d52e4fb9f9098179239f5280bb47",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/components/portal/RecruitingTab.tsx"
+    },
+    {
+      "path": "src/pages/parent-portal-player.tsx",
+      "sha": "aa52f8203e06c553d50aa0601a54dc795fddbf29",
+      "url": "https://github.com/shawteone1/Soccer-Center/blob/11de067414e63c5d3e3e221dfc14cc026dfbd8d0/src/pages/parent-portal-player.tsx"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "baseline": "59416845eac1c66468f14f2a062ff534cb6d47d9",
+  "branch": "codex/ap-qa-20261112",
+  "generatedAt": "2026-11-12T21:31:37.507884+00:00",
+  "sourceReference": "11de067414e63c5d3e3e221dfc14cc026dfbd8d0",
+  "finalResults": [
+    {
+      "suite": "check",
+      "passed": 218,
+      "failed": 0,
+      "log": "check.log"
+    },
+    {
+      "suite": "test",
+      "passed": 218,
+      "failed": 0,
+      "log": "test.log"
+    },
+    {
+      "suite": "rc-chromium",
+      "passed": 2,
+      "failed": 0,
+      "log": "rc-chromium.log"
+    },
+    {
+      "suite": "acceptance-chromium",
+      "passed": 12,
+      "failed": 0,
+      "log": "acceptance-chromium.log"
+    },
+    {
+      "suite": "profile-chromium",
+      "passed": 8,
+      "failed": 0,
+      "log": "profile-chromium.log"
+    },
+    {
+      "suite": "conformance-chromium",
+      "passed": 12,
+      "failed": 0,
+      "log": "conformance-chromium.log"
+    },
+    {
+      "suite": "siem-family-chromium",
+      "passed": 18,
+      "failed": 0,
+      "log": "siem-family-chromium.log"
+    },
+    {
+      "suite": "release-chromium",
+      "passed": 20,
+      "failed": 0,
+      "log": "release-chromium.log"
+    },
+    {
+      "suite": "siem-platform-chromium",
+      "passed": 7,
+      "failed": 0,
+      "log": "siem-platform-chromium.log"
+    },
+    {
+      "suite": "siem-refinement-chromium",
+      "passed": 12,
+      "failed": 0,
+      "log": "siem-refinement-chromium.log"
+    },
+    {
+      "suite": "acquisition-chromium",
+      "passed": 23,
+      "failed": 0,
+      "log": "acquisition-chromium.log"
+    },
+    {
+      "suite": "rc-webkit",
+      "passed": 2,
+      "failed": 0,
+      "log": "rc-webkit.log"
+    },
+    {
+      "suite": "acceptance-webkit",
+      "passed": 12,
+      "failed": 0,
+      "log": "acceptance-webkit.log"
+    },
+    {
+      "suite": "profile-webkit",
+      "passed": 8,
+      "failed": 0,
+      "log": "profile-webkit.log"
+    },
+    {
+      "suite": "conformance-webkit",
+      "passed": 12,
+      "failed": 0,
+      "log": "conformance-webkit.log"
+    },
+    {
+      "suite": "siem-webkit",
+      "passed": 5,
+      "failed": 0,
+      "log": "siem-webkit.log"
+    }
+  ],
+  "browserTestExecutions": 153,
+  "browserFailures": 0,
+  "countsAreExecutionsNotUniqueTests": true,
+  "physicalDeviceTested": false,
+  "originalScreenshotPixelsCompared": false,
+  "noExternalWritesInJourney": true
+}

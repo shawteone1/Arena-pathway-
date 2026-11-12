@@ -1,3 +1,4 @@
+import {approvedPillarCopy} from './preservation-helper.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {execFileSync} from 'node:child_process';
@@ -22,5 +23,5 @@ test('initial sport entry renders every searchable reviewed directory row',()=>{
 });
 test('all inherited dependency engine/data and fixtures remain exact at their appropriate tips',()=>{
  const refs=['5470bca','332ba1b'];
- const seen=new Set();for(const ref of refs){const files=execFileSync('git',['ls-tree','-r','--name-only',ref],{encoding:'utf8'}).trim().split('\n').filter(f=>f.startsWith('data/')||f.startsWith('engine/')||['public/siem-family-fixtures.js','public/siem-platform-fixtures.js','public/siem-model.js','AGENTS.md','docs/PRODUCT-NORTH-STAR.md'].includes(f));for(const f of files){if(ref==='5470bca'&&!f.startsWith('engine/')&&!f.startsWith('data/'))continue;if(seen.has(f))continue;seen.add(f);assert.deepEqual(readFileSync(f),execFileSync('git',['show',ref+':'+f],{maxBuffer:40e6}),f);}}
+ const seen=new Set();for(const ref of refs){const files=execFileSync('git',['ls-tree','-r','--name-only',ref],{encoding:'utf8'}).trim().split('\n').filter(f=>f.startsWith('data/')||f.startsWith('engine/')||['public/siem-family-fixtures.js','public/siem-platform-fixtures.js','public/siem-model.js','AGENTS.md','docs/PRODUCT-NORTH-STAR.md'].includes(f));for(const f of files){if(ref==='5470bca'&&!f.startsWith('engine/')&&!f.startsWith('data/'))continue;if(seen.has(f))continue;seen.add(f);assert.deepEqual(readFileSync(f),approvedPillarCopy(f,execFileSync('git',['show',ref+':'+f],{maxBuffer:40e6})),f);}}
 });

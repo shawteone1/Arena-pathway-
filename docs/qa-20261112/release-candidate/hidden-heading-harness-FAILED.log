@@ -1,0 +1,16 @@
+test_01_parent_first_journey_and_module_independence (__main__.ReleaseCandidate.test_01_parent_first_journey_and_module_independence) ... ok
+test_02_siem_without_profile_lockedin_off_and_independent_research (__main__.ReleaseCandidate.test_02_siem_without_profile_lockedin_off_and_independent_research) ... FAIL
+
+======================================================================
+FAIL: test_02_siem_without_profile_lockedin_off_and_independent_research (__main__.ReleaseCandidate.test_02_siem_without_profile_lockedin_off_and_independent_research)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-release-candidate.py", line 49, in test_02_siem_without_profile_lockedin_off_and_independent_research
+    p=self.page;p.goto(base.BASE+'/siem/setup');self.assertEqual(p.get_by_role('heading',name='Four pillars. Your permissions.',exact=True).count(),1);p.locator('#siem-participant-add input[name=nickname]').fill('Lightweight SIEM participant');p.locator('#siem-participant-add select[name=sport]').select_option('swimming');p.get_by_role('button',name='Add lightweight athlete',exact=True).click();p.wait_for_function('()=>JSON.parse(localStorage.getItem("arenaPathway.siem.v1")).athletes.length===1');athlete=self.family()['athletes'][0]['id'];self.assertEqual(self.family()['athletes'][0]['origin'],'siem');self.assertFalse(self.family()['permissions']['recruiting']);self.assertFalse(self.family()['permissions']['lockedIn']);self.assertEqual(p.evaluate('JSON.parse(localStorage.getItem("arenaPathway.v2")||"null")?.profiles?.length||0'),0)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 2 tests in 12.199s
+
+FAILED (failures=1)

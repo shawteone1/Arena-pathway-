@@ -1,0 +1,47 @@
+[
+  {
+    "suite": "rc-webkit",
+    "command": [
+      "python",
+      "scripts/qa-release-candidate.py"
+    ],
+    "exitCode": 0,
+    "seconds": 11.73
+  },
+  {
+    "suite": "acceptance-webkit",
+    "command": [
+      "python",
+      "scripts/qa-acceptance-refinement.py"
+    ],
+    "exitCode": 0,
+    "seconds": 36.92
+  },
+  {
+    "suite": "profile-webkit",
+    "command": [
+      "python",
+      "scripts/qa-profile-visual.py"
+    ],
+    "exitCode": 0,
+    "seconds": 10.09
+  },
+  {
+    "suite": "conformance-webkit",
+    "command": [
+      "python",
+      "scripts/qa-conformance.py"
+    ],
+    "exitCode": 0,
+    "seconds": 21.71
+  },
+  {
+    "suite": "siem-webkit",
+    "command": [
+      "python",
+      "scripts/qa-siem-webkit.py"
+    ],
+    "exitCode": 0,
+    "seconds": 7.63
+  }
+]

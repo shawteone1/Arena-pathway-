@@ -1,0 +1,16 @@
+test_01_parent_first_journey_and_module_independence (__main__.ReleaseCandidate.test_01_parent_first_journey_and_module_independence) ... FAIL
+test_02_siem_without_profile_lockedin_off_and_independent_research (__main__.ReleaseCandidate.test_02_siem_without_profile_lockedin_off_and_independent_research) ... ok
+
+======================================================================
+FAIL: test_01_parent_first_journey_and_module_independence (__main__.ReleaseCandidate.test_01_parent_first_journey_and_module_independence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-release-candidate.py", line 33, in test_01_parent_first_journey_and_module_independence
+    p.goto(base.BASE+'/siem/setup');p.wait_for_selector('#siem-people');family=self.family();self.assertEqual(len([a for a in family['athletes'] if a['id']==athlete]),1);self.assertEqual(len([a for a in family['athletes'] if a['id']==parent]),1)
+                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 2 tests in 11.464s
+
+FAILED (failures=1)

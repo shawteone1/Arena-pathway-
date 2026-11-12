@@ -47,7 +47,13 @@ Neither entry pathway requires use of every commercial product.
 
 SIEM must also be directly accessible without requiring either sport pathway or a full athlete profile.
 
-3. Three commercial pillars
+3. Four independent commercial pillars
+
+Profile
+
+Family and athlete sports profiles, relevant content, schedules, media and development. Profile is independent of Recruiting.
+
+Release-candidate decision, November 12, 2026: Profile, SIEM, LockedIn and Recruiting are the four independent pillars. LockedIn is Coming Soon in AP; no verification or document service is implemented.
 
 SIEM — Sports Information, Events & Management
 
@@ -59,7 +65,7 @@ SIEM is independent of recruiting profiles.
 
 Recruiting
 
-A content-rich, parent-controlled athlete profile and progression platform.
+An optional, parent-controlled recruiting extension that reuses approved athlete information.
 
 Combines LinkedIn-style identity and networking with CRM-style relationship tracking, college/program research, recruiting activity, media, performance information, showcases and development opportunities.
 
@@ -75,7 +81,7 @@ Supports authorized identity/age verification, administrative workflows, documen
 
 Sensitive data remains within authorized systems. SIEM receives only necessary status and action metadata.
 
-Commercial rule: All three pillars must function independently or together. Customers can use none, one, two or all three, subject to eligibility and organization-sponsored access.
+Commercial rule: All four pillars must function independently or together. Customers choose the capabilities they need, subject to eligibility and organization-sponsored access. Switching optional modules off preserves underlying information.
 
 4. Shared identity, not mandatory profiles
 

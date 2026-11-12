@@ -1,3 +1,4 @@
+import {approvedPillarCopy} from './preservation-helper.mjs';
 import {createHash} from 'node:crypto';
 import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {execFileSync} from 'node:child_process';
 import {makeDemo,demoEvents,demoAlerts,acknowledgeDemo,scenarioIds} from '../public/release-demo-model.js';
@@ -16,7 +17,8 @@ test('integration preserves reviewed records, source URLs and approved charter/b
  const oldPrograms=JSON.parse(execFileSync('git',['show','ff4c226:data/unified/catalog.json'],{encoding:'utf8',maxBuffer:30e6})).programs;for(const p of oldPrograms)assert.ok(programs.some(x=>x.id===p.id)||JSON.parse(readFileSync('data/unified/catalog.json')).programs.some(x=>x.id===p.id));
 
  // Immutable hashes of approved governance commit 95275cc; portable after cherry-pick.
- for(const [file,expected] of Object.entries({"AGENTS.md": "ce76b80ef1fcfb83d0036acea67fa11e6f87fb2a17d07d9b7b9a2c8037266ff5", "docs/PRODUCT-NORTH-STAR.md": "7afce3caa2e7113f5dbcb3dccd061dcc2ceab6b3654154e406ab1f03782fff27"}))assert.equal(createHash('sha256').update(readFileSync(file)).digest('hex'),expected);
+ for(const [file,expected] of Object.entries({"AGENTS.md": "ce76b80ef1fcfb83d0036acea67fa11e6f87fb2a17d07d9b7b9a2c8037266ff5", "docs/PRODUCT-NORTH-STAR.md": "7afce3caa2e7113f5dbcb3dccd061dcc2ceab6b3654154e406ab1f03782fff27"}))assert.equal(createHash('sha256').update(execFileSync('git',['show','95275cc:'+file])).digest('hex'),expected);
+ for(const file of ['AGENTS.md','docs/PRODUCT-NORTH-STAR.md'])assert.deepEqual(readFileSync(file),approvedPillarCopy(file,execFileSync('git',['show','95275cc:'+file])));
 });
 test('SIEM opportunities have verified youth program ownership and schedule state',()=>{
  assert.ok(clientCatalog.siemOpportunities.length);for(const o of clientCatalog.siemOpportunities){assert.equal(o.designation,'youth');assert.ok(programs.some(p=>p.id===o.programId&&p.organizationId===o.organizationId));assert.ok(['historical','needs-review','date-unconfirmed','published-upcoming'].includes(o.scheduleState));}

@@ -51,7 +51,9 @@
     "test:qa-20261112:browser": "python scripts/qa-20261112.py",
     "test:qa-20261112:webkit": "PROFILE_BROWSER=webkit python scripts/qa-20261112.py",
     "test:acceptance:browser": "python scripts/qa-acceptance-refinement.py",
-    "test:acceptance:webkit": "PROFILE_BROWSER=webkit python scripts/qa-acceptance-refinement.py"
+    "test:acceptance:webkit": "PROFILE_BROWSER=webkit python scripts/qa-acceptance-refinement.py",
+    "test:rc:browser": "python scripts/qa-release-candidate.py",
+    "test:rc:webkit": "PROFILE_BROWSER=webkit python scripts/qa-release-candidate.py"
   },
   "dependencies": {
     "cheerio": "1.2.0",
