@@ -67,7 +67,7 @@ class ProfileVisualQA(unittest.TestCase):
             self.assertIn('Parent-managed',self.page.locator('#profile-summary').inner_text())
             self.assertLess(self.page.locator('#profile-summary').bounding_box()['y'],300)
             self.assertLess(self.page.locator('#profile-nav').bounding_box()['y'],780)
-            self.assertEqual(self.page.locator('#overview .athlete-card').count(),5)
+            self.assertEqual(self.page.locator('#overview .athlete-card').count(),6)
             self.page.screenshot(path=str(OUT/f'{ENGINE}-{label}-athlete-viewport.png'))
             self.page.screenshot(path=str(OUT/f'{ENGINE}-{label}-athlete.png'),full_page=True)
         self.assertEqual(self.state(),original)
@@ -94,8 +94,8 @@ class ProfileVisualQA(unittest.TestCase):
         dialog.get_by_role('button',name='Cancel',exact=True).click();self.assertEqual(self.page.evaluate('JSON.parse(localStorage.getItem("arenaPathway.siem.v1"))'),after)
     def test_sections_preserve_modules_and_card_navigation(self):
         self.open();before=self.state()
-        for label,id in [('Profile overview','overview'),('Schedule','schedules'),('Stats','stats'),('Media','profile-media'),('Development','camps'),('Community','community'),('Network','network')]:
-            link=self.page.locator('#profile-nav').get_by_role('link',name=label,exact=True);link.click()
+        for label,id in [('Profile','overview'),('Schedule','schedules'),('Stats','stats'),('Media','profile-media'),('Development','camps'),('Community','community'),('Network','network')]:
+            link=self.page.locator('#profile-nav, #athlete-resource-nav').get_by_role('link',name=label,exact=True);link.click()
             self.assertTrue(self.page.locator('#'+id).is_visible());self.assertEqual(link.get_attribute('aria-current'),'page')
             self.assertFalse(self.page.evaluate('document.documentElement.scrollWidth>innerWidth+1'))
         self.assertFalse(self.page.locator('#optional-recruiting').evaluate('(el)=>el.open'))

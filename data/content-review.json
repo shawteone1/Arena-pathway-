@@ -1,0 +1,1428 @@
+{
+  "schemaVersion": 1,
+  "mode": "reviewed-outbound-content-snapshot-not-live-feed",
+  "selectionPolicy": "Explicit new opt-in per existing athlete. Legacy candidate interests are preserved without automatic subscription.",
+  "reviewedAt": "2026-11-12T17:55:07.192180+00:00",
+  "sources": [
+    {
+      "id": "basketball:news:ESPN Basketball",
+      "sport": "basketball",
+      "category": "news",
+      "name": "ESPN Basketball",
+      "url": "https://www.espn.com/nba/",
+      "decision": "inactive",
+      "reason": "Mixed public/subscription publisher; the sampled roster-analysis article’s unrestricted browser access was not established. No ESPN+ entitlement is implied.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://www.espn.com/nba/",
+          "finalUrl": "https://www.espn.com/nba/",
+          "status": 200,
+          "sha256": "bcd0e7d7c2e52de4f0cd98451d6587602611e3000c346a9768bad9292738fc14",
+          "title": "NBA on ESPN - Scores, Stats and Highlights"
+        },
+        {
+          "url": "https://www.espn.com/nba/story/_/id/50427876/heat-lakers-knicks-76ers-roster-decisions",
+          "finalUrl": "https://www.espn.com/nba/story/_/id/50427876/heat-lakers-knicks-76ers-roster-decisions",
+          "status": 200,
+          "sha256": "a8b1aadb9dc09d7f83b246f6be7fa0226ed31aa8d1b6c88b6925ce30bb81b43a",
+          "title": "NBA core danger tiers: 19 teams with major roster decisions - ESPN"
+        }
+      ]
+    },
+    {
+      "id": "basketball:news:SLAM / WSLAM",
+      "sport": "basketball",
+      "category": "news",
+      "name": "SLAM / WSLAM",
+      "url": "https://slamonline.com/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "59ed83b43f5b98a0",
+          "title": "Miami Heat Starting to Find Their Footing After Slow Start",
+          "url": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/",
+          "summary": "A team-results report on Miami’s early-season progress.",
+          "format": "article",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.slamonline.com/",
+          "finalUrl": "https://slamonline.com/",
+          "status": 200,
+          "sha256": "480c6226f9d1d72d736e22edc289aa9e49a686d0d28560eeed6b7f86671cf0ed",
+          "title": "SLAM - Respect the Game"
+        },
+        {
+          "url": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/",
+          "finalUrl": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/",
+          "status": 200,
+          "sha256": "114328cbcc8208552c13170cc41ff3d18deb434aa595839e4a45d9d11f65d9fe",
+          "title": "Miami Heat Starting to Find Their Footing After Slow Start – SLAM"
+        }
+      ]
+    },
+    {
+      "id": "basketball:news:FIBA",
+      "sport": "basketball",
+      "category": "news",
+      "name": "FIBA",
+      "url": "https://www.fiba.basketball/en",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "1af96c8db0de6e1e",
+          "title": "Suhail to light up the court as Official Mascot of the FIBA Basketball World Cup 2027 | FIBA Basketball",
+          "url": "https://www.fiba.basketball/en/news/suhail-to-light-up-the-court-as-official-mascot-of-the-fiba-basketball-world-cup-2027",
+          "summary": "FIBA’s public introduction to its 2027 World Cup mascot and the competition’s identity.",
+          "format": "article",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.fiba.basketball/",
+          "finalUrl": "https://www.fiba.basketball/en",
+          "status": 200,
+          "sha256": "c45d2c2c027c4674662f58d4705c039f4d5a6060bf49dcbddba321744a74d0d7",
+          "title": "The Home of FIBA Basketball - News, Stats, Games, Results, Calendar & Events | FIBA Basketball"
+        },
+        {
+          "url": "https://www.fiba.basketball/en/news/suhail-to-light-up-the-court-as-official-mascot-of-the-fiba-basketball-world-cup-2027",
+          "finalUrl": "https://www.fiba.basketball/en/news/suhail-to-light-up-the-court-as-official-mascot-of-the-fiba-basketball-world-cup-2027",
+          "status": 200,
+          "sha256": "956dfec313ea06520fb24d25b8505cd0af7beda1016e92dbe8b35f8c7a9e2dce",
+          "title": "Suhail to light up the court as Official Mascot of the FIBA Basketball World Cup 2027 | FIBA Basketball"
+        }
+      ]
+    },
+    {
+      "id": "basketball:news:USA Basketball",
+      "sport": "basketball",
+      "category": "news",
+      "name": "USA Basketball",
+      "url": "https://www.usab.com/",
+      "decision": "inactive",
+      "reason": "Homepage/news routes return a JavaScript shell or no displayed data; a readable individual news item was not verified.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://www.usab.com/",
+          "finalUrl": "https://www.usab.com/",
+          "status": 200,
+          "sha256": "ba886acb2386e7cf70c737c411b99b60031204198d6e15f30249432ae1b78aa8",
+          "title": "USA Basketball"
+        },
+        {
+          "url": "https://www.usab.com/news",
+          "finalUrl": "https://www.usab.com/news",
+          "status": 200,
+          "sha256": "14065050b269a80d7a1c7c6b90169e0259b60ff12a0c3342ec0e2c1a9911720f",
+          "title": "USA Basketball"
+        }
+      ]
+    },
+    {
+      "id": "basketball:news:CBS Sports Basketball",
+      "sport": "basketball",
+      "category": "news",
+      "name": "CBS Sports Basketball",
+      "url": "https://www.cbssports.com/nba/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "11168ee498273b95",
+          "title": "NBA Power Rankings: Lakers thriving behind two-way Luka Dončić, plus a new team at No. 1 - CBS Sports",
+          "url": "https://www.cbssports.com/nba/news/nba-power-rankings-lakers-luka-doncic-nov-11/",
+          "summary": "An NBA team-performance roundup and power rankings.",
+          "format": "article",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cbssports.com/nba/",
+          "finalUrl": "https://www.cbssports.com/nba/",
+          "status": 200,
+          "sha256": "29f1663d35b94f55d616725a27c6a4eb21af13e626c9e445c5fd6f7e3dc3f6dc",
+          "title": "NBA News, Scores, Stats, Standings and Rumors - National Basketball Association - CBS Sports"
+        },
+        {
+          "url": "https://www.cbssports.com/nba/news/nba-power-rankings-lakers-luka-doncic-nov-11/",
+          "finalUrl": "https://www.cbssports.com/nba/news/nba-power-rankings-lakers-luka-doncic-nov-11/",
+          "status": 200,
+          "sha256": "2c310cd7b633f574c39e66bfd93145fc73c657a73184587120e9338b761f8218",
+          "title": "NBA Power Rankings: Lakers thriving behind two-way Luka Dončić, plus a new team at No. 1 - CBS Sports"
+        }
+      ]
+    },
+    {
+      "id": "basketball:development:Jr. NBA / WNBA",
+      "sport": "basketball",
+      "category": "development",
+      "name": "Jr. NBA / WNBA",
+      "url": "https://jr.nba.com/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "08f76f843173c7da",
+          "title": "Jr. NBA/Jr. WNBA Instructional Curriculum",
+          "url": "https://jr.nba.com/jr-nba-instructional-curriculum/",
+          "summary": "An official youth curriculum overview explaining skill-based levels, learning through play and age-appropriate progression. Linked downloads/videos are not individually approved by this item.",
+          "format": "guide",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://jr.nba.com/",
+          "finalUrl": "https://jr.nba.com/",
+          "status": 200,
+          "sha256": "2a574d47f9aa7ee2cac79bcff810508359f43c7d4e84b07cf34e1fa5e45e7262",
+          "title": "Jr. NBA/Jr. WNBA Homepage - NBA.com: Jr. NBA"
+        },
+        {
+          "url": "https://jr.nba.com/jr-nba-instructional-curriculum/",
+          "finalUrl": "https://jr.nba.com/jr-nba-instructional-curriculum/",
+          "status": 200,
+          "sha256": "17839ab471a4623466c22ceceb1f06597ca1ca820aa09cbeb10ba917bdd90bfb",
+          "title": "Jr. NBA/Jr. WNBA Instructional Curriculum - NBA.com: Jr. NBA"
+        },
+        {
+          "url": "https://jr.nba.com/category/ball-handling/",
+          "finalUrl": "https://jr.nba.com/category/ball-handling/",
+          "status": 200,
+          "sha256": "84cf23e90af63f88841d66731d57f991a7f9807a9a9dd3a992e24b41dd603982",
+          "title": "Ball Handling Archives - NBA.com: Jr. NBA"
+        },
+        {
+          "url": "https://jr.nba.com/video/gates-dribbling/",
+          "finalUrl": "https://jr.nba.com/video/gates-dribbling/",
+          "status": 200,
+          "sha256": "c751afadb314fa622d5346c84fd0470cc57c17cc03eb22a250763911d3b0e0cf",
+          "title": "Gates Dribbling - NBA.com: Jr. NBA"
+        }
+      ]
+    },
+    {
+      "id": "basketball:development:Pro Skills Basketball",
+      "sport": "basketball",
+      "category": "development",
+      "name": "Pro Skills Basketball",
+      "url": "https://proskillsbasketball.com/",
+      "decision": "inactive",
+      "reason": "Official site works, but the proposed drill path failed. Current pages promote teams/camps; no individual free drill was verified.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://proskillsbasketball.com/basketball-drills/",
+          "finalUrl": null,
+          "status": "unavailable",
+          "sha256": null,
+          "title": null
+        },
+        {
+          "url": "https://proskillsbasketball.com/",
+          "finalUrl": "https://proskillsbasketball.com/",
+          "status": 200,
+          "sha256": "4f5bc456b597bbf6762e6d8df33cf2184019c048f2b9bcf2231a92c6e9ff46e4",
+          "title": "Youth Basketball Teams, Camps & Clinics | Pro Skills Basketball"
+        }
+      ]
+    },
+    {
+      "id": "basketball:development:Breakthrough Basketball",
+      "sport": "basketball",
+      "category": "development",
+      "name": "Breakthrough Basketball",
+      "url": "https://www.breakthroughbasketball.com/",
+      "decision": "inactive",
+      "reason": "Homepage works and advertises free resources, but the drill path was inaccessible. Specific instructional items still require review.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://www.breakthroughbasketball.com/drills/",
+          "finalUrl": null,
+          "status": "unavailable",
+          "sha256": null,
+          "title": null
+        },
+        {
+          "url": "https://www.breakthroughbasketball.com/",
+          "finalUrl": "https://www.breakthroughbasketball.com/",
+          "status": 200,
+          "sha256": "b8b90b75689d4ea50b88086a9c47ba1fe2d68bd56b7ae3068dca5d122f5cd9c7",
+          "title": "Breakthrough Basketball | Basketball Camps, Coaching Programs & Drills"
+        }
+      ]
+    },
+    {
+      "id": "basketball:development:ShotMechanics",
+      "sport": "basketball",
+      "category": "development",
+      "name": "ShotMechanics",
+      "url": "https://shotmechanics.com/",
+      "decision": "inactive",
+      "reason": "Homepage advertises free workouts, but its linked workout route resolves to unrelated Webflow template content. Instruction/access integrity not established.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://www.shotmechanics.com/",
+          "finalUrl": "https://shotmechanics.com/",
+          "status": 200,
+          "sha256": "c85886925700335f745a7490a4bc295130286c138706d1125d5a7d1b1f37046f",
+          "title": "ShotMechanics"
+        },
+        {
+          "url": "https://shotmechanics.com/services/services-c",
+          "finalUrl": "https://shotmechanics.com/services/services-c",
+          "status": 200,
+          "sha256": "05f0a120f3d5d54d326b32a41921c2278878217b2a967ea7ac33455afedb0839",
+          "title": "Services C - Zeus - Webflow Ecommerce website template"
+        }
+      ]
+    },
+    {
+      "id": "basketball:development:Championship Productions",
+      "sport": "basketball",
+      "category": "development",
+      "name": "Championship Productions",
+      "url": "https://www.championshipproductions.com/cgi-bin/champ/index.html",
+      "decision": "inactive",
+      "reason": "Reviewed catalog promotes paid videos/DVDs. No individually free youth instruction approved.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://www.championshipproductions.com/",
+          "finalUrl": "https://www.championshipproductions.com/cgi-bin/champ/index.html",
+          "status": 200,
+          "sha256": "6f2f80389f47041f2f3c557a54698928c36932fbaa618a401d6a6068b959266a",
+          "title": "Instructional Videos & DVDs for Coaches & Athletes"
+        }
+      ]
+    },
+    {
+      "id": "volleyball:news:VolleyballMag",
+      "sport": "volleyball",
+      "category": "news",
+      "name": "VolleyballMag",
+      "url": "https://volleyballmag.com/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "d12fbeb1e06de380",
+          "title": "Los Angeles Orbit Open at Houston Dec. 18, Then Host Nebraska at Intuit Dome - Volleyballmag.com",
+          "url": "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/",
+          "summary": "News about Los Angeles Orbit’s inaugural professional volleyball season.",
+          "format": "article",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://volleyballmag.com/",
+          "finalUrl": "https://volleyballmag.com/",
+          "status": 200,
+          "sha256": "fb46bd86661cd9d2955d62fd7d41b50a2657df2019dfe783de4c3b3e55ef1f0c",
+          "title": "Volleyballmag.com - Volleyball never sleeps. Expert volleyball coverage on NCAA, pro, beach, and much more—all right here at Volleyballmag.com."
+        },
+        {
+          "url": "https://volleyballmag.com/2025-ncaa-mens-championships-preview/",
+          "finalUrl": "https://volleyballmag.com/2025-ncaa-mens-championships-preview/",
+          "status": 200,
+          "sha256": "3476a146f9592ec9009e48a1d5e0b948c11e3a6f95f63b94629c29e4c4c97beb",
+          "title": "2025 NCAA Men's Championships Preview - Volleyballmag.com"
+        },
+        {
+          "url": "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/",
+          "finalUrl": "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/",
+          "status": 200,
+          "sha256": "23af4de2c2f2191395a8ed7540618e6492f865e94f36a303fa46e9e5a71dd010",
+          "title": "Los Angeles Orbit Open at Houston Dec. 18, Then Host Nebraska at Intuit Dome - Volleyballmag.com"
+        }
+      ]
+    },
+    {
+      "id": "volleyball:news:Volleyball World",
+      "sport": "volleyball",
+      "category": "news",
+      "name": "Volleyball World",
+      "url": "https://en.volleyballworld.com/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "082ecdefb2526f2a",
+          "title": "What to watch on VBTV this week",
+          "url": "https://en.volleyballworld.com/news/what-to-watch-on-vbtv-this-week-x9957",
+          "summary": "Public volleyball viewing-program news. Match streaming may require a separate paid subscription.",
+          "format": "article",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://en.volleyballworld.com/",
+          "finalUrl": "https://en.volleyballworld.com/",
+          "status": 200,
+          "sha256": "9fc2d6800d3626d751b658e41225f431427c8bfbbb8d717199d4084e208ba77e",
+          "title": "Volleyball World | Live Volleyball, Schedule, Rankings and News"
+        },
+        {
+          "url": "https://en.volleyballworld.com/news/what-to-watch-on-vbtv-this-week-x9957",
+          "finalUrl": "https://en.volleyballworld.com/news/what-to-watch-on-vbtv-this-week-x9957",
+          "status": 200,
+          "sha256": "ef56f5272fc7bbacabd733f9aeb99758c364ce08398561b87d81f95f9673cc7e",
+          "title": "What to watch on VBTV (Volleyball TV) this week: Italy’s SuperLega Credem Banca and Del Monte Supercoppa (men), Japan’s Daido Life SV.League (men and women), Poland’s TAURON Liga (men and women), Turkiye’s Vodafone Sultanlar Ligi and AXA Sigorta Kupa Voley (women), SMS Grup Efeler Ligi (men)"
+        }
+      ]
+    },
+    {
+      "id": "volleyball:news:USA Volleyball",
+      "sport": "volleyball",
+      "category": "news",
+      "name": "USA Volleyball",
+      "url": "https://usavolleyball.org/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "ad5b84dc263b99b1",
+          "title": "USA Volleyball Names Three-Time Olympic Medalist April Ross First Female Head Coach of Women’s Beach National Teams - USA Volleyball",
+          "url": "https://usavolleyball.org/story/usa-volleyball-names-three-time-olympic-medalist-april-ross-first-female-head-coach-of-womens-beach-national-teams/",
+          "summary": "The governing body’s public announcement about women’s beach national-team coaching.",
+          "format": "article",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://usavolleyball.org/",
+          "finalUrl": "https://usavolleyball.org/",
+          "status": 200,
+          "sha256": "9ad2815109646885b53c9d46846df74a546b0887fb8d62a3a5a0a20c27e517e0",
+          "title": "USA Volleyball — Events, Stories, Resources, and Results"
+        },
+        {
+          "url": "https://usavolleyball.org/story/usa-volleyball-names-three-time-olympic-medalist-april-ross-first-female-head-coach-of-womens-beach-national-teams/",
+          "finalUrl": "https://usavolleyball.org/story/usa-volleyball-names-three-time-olympic-medalist-april-ross-first-female-head-coach-of-womens-beach-national-teams/",
+          "status": 200,
+          "sha256": "9dda998749f09a3d4837c8942dbe846b40c824890966ca1c6f367d7f7a1d638c",
+          "title": "USA Volleyball Names Three-Time Olympic Medalist April Ross First Female Head Coach of Women’s Beach National Teams - USA Volleyball"
+        }
+      ]
+    },
+    {
+      "id": "volleyball:news:WorldofVolley",
+      "sport": "volleyball",
+      "category": "news",
+      "name": "WorldofVolley",
+      "url": "https://worldofvolley.com/",
+      "decision": "inactive",
+      "reason": "Sampled story contains sports-betting offer discussion. Rejected from this youth-focused content selection; no automatic news ingestion.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://worldofvolley.com/",
+          "finalUrl": "https://worldofvolley.com/",
+          "status": 200,
+          "sha256": "aa0e91e95f24ef2dc5328c862d22909c7672f3874644786ded845385a6c3f085",
+          "title": "WorldofVolley :: WorldOfVolley - volleyball news from around the world"
+        },
+        {
+          "url": "https://worldofvolley.com/stories/337295/the-decisions-behind-success-in-volleyball.html",
+          "finalUrl": "https://worldofvolley.com/stories/337295/the-decisions-behind-success-in-volleyball.html",
+          "status": 200,
+          "sha256": "dc6d6f03edd6cb3c48daacfaf167659b17613da87b2d1b3a29501906b06b2f14",
+          "title": "WorldofVolley :: The Decisions Behind Success in Volleyball - WorldOfVolley"
+        }
+      ]
+    },
+    {
+      "id": "volleyball:news:AVCA",
+      "sport": "volleyball",
+      "category": "news",
+      "name": "AVCA",
+      "url": "https://www.avca.org/",
+      "decision": "inactive",
+      "reason": "Sampled recognition page provides introductory copy and an embedded profile; the substantive profile/video was not independently verified.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://www.avca.org/",
+          "finalUrl": "https://www.avca.org/",
+          "status": 200,
+          "sha256": "517146b29417dc273f8d4d2dda4b812dffab5f504f3c0718280faec2e04614e7",
+          "title": "American Volleyball Coaches Association - Serving Volleyball"
+        },
+        {
+          "url": "https://www.avca.org/award/2026-battles-won-profile-taylor-estervig/",
+          "finalUrl": "https://www.avca.org/award/2026-battles-won-profile-taylor-estervig/",
+          "status": 200,
+          "sha256": "ac61309294ec9fe4bcfa338c16cf0881d9e43018fab978fa6fed15d42ef75a2f",
+          "title": "2026 AVCA-The Marines Battles Won Award | Taylor Estervig"
+        }
+      ]
+    },
+    {
+      "id": "volleyball:development:Elevate Yourself",
+      "sport": "volleyball",
+      "category": "development",
+      "name": "Elevate Yourself",
+      "url": "https://www.elevateyourself.org/",
+      "decision": "inactive",
+      "reason": "Official site and tutorial directory work; individual externally hosted tutorial availability/playback was not verified. Proposed YouTube route was inaccessible.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/@ElevateYourselfOfficial/videos",
+          "finalUrl": null,
+          "status": "unavailable",
+          "sha256": null,
+          "title": null
+        },
+        {
+          "url": "https://elevateyourself.org/",
+          "finalUrl": "https://www.elevateyourself.org/",
+          "status": 200,
+          "sha256": "fa981b36bc5772c261896714154d9660351fa9d239de68daa7fbca7d0acde98b",
+          "title": "ELEVATE YOURSELF - Home"
+        },
+        {
+          "url": "https://www.elevateyourself.org/tutorial-videos.html",
+          "finalUrl": "https://www.elevateyourself.org/tutorial-videos.html",
+          "status": 200,
+          "sha256": "47b6c9fdfca69c50399613a64f8cfca8dda3eee368100ac05d148747e3d251ed",
+          "title": "Tutorial Videos - ELEVATE YOURSELF"
+        }
+      ]
+    },
+    {
+      "id": "volleyball:development:Sarah Pavan Volleyball",
+      "sport": "volleyball",
+      "category": "development",
+      "name": "Sarah Pavan Volleyball",
+      "url": "https://www.sarahpavan.com/",
+      "decision": "inactive",
+      "reason": "Official creator site works, but the proposed YouTube route was inaccessible; an individual free instructional item was not verified.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/@SarahPavanVolleyball/videos",
+          "finalUrl": null,
+          "status": "unavailable",
+          "sha256": null,
+          "title": null
+        },
+        {
+          "url": "https://www.sarahpavan.com/",
+          "finalUrl": "https://www.sarahpavan.com/",
+          "status": 200,
+          "sha256": "3b50767de80bc507166bb92feb567e52d8c742b24e8a6fa1404d31aaa9ff64db",
+          "title": "Sarah Pavan"
+        }
+      ]
+    },
+    {
+      "id": "volleyball:development:JVA Training Curriculum",
+      "sport": "volleyball",
+      "category": "development",
+      "name": "JVA Training Curriculum",
+      "url": "https://jvavolleyball.org/education/",
+      "decision": "inactive",
+      "reason": "Public index works, but both sampled drill pages explicitly require JVA membership/login. An index is not free instruction.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://jvavolleyball.org/education/",
+          "finalUrl": "https://jvavolleyball.org/education/",
+          "status": 200,
+          "sha256": "93abbeb32df57aa12975fc6c31359a2adab67687b93c94252c972727ef5b67dc",
+          "title": "Education | Junior Volleyball Association"
+        },
+        {
+          "url": "https://jvavolleyball.org/education/player-development/",
+          "finalUrl": "https://jvavolleyball.org/education/player-development/",
+          "status": 200,
+          "sha256": "d8258578b835039b81fd2e9da4e19c8ccf7a341af789a5109bb09a4d0d866bb0",
+          "title": "Player Development | Junior Volleyball Association"
+        },
+        {
+          "url": "https://jvavolleyball.org/education_resources/3-ball-juggle-drill/",
+          "finalUrl": "https://jvavolleyball.org/education_resources/3-ball-juggle-drill/",
+          "status": 200,
+          "sha256": "6f0414a7e91d0105e3f2330017ddd1cd540c17aad7273f349f694016ffbf4c8a",
+          "title": "3 Ball Juggle Drill | Junior Volleyball Association"
+        },
+        {
+          "url": "https://jvavolleyball.org/education_resources/attacking-footwork-drills-for-home/",
+          "finalUrl": "https://jvavolleyball.org/education_resources/attacking-footwork-drills-for-home/",
+          "status": 200,
+          "sha256": "dbac1a6b61c02beaaaf3c6b269ea44e2791bc584f032cc322988596ff259a549",
+          "title": "Attacking Footwork Drills for Home | Junior Volleyball Association"
+        }
+      ]
+    },
+    {
+      "id": "volleyball:development:USA Volleyball USAVlearn",
+      "sport": "volleyball",
+      "category": "development",
+      "name": "USA Volleyball USAVlearn",
+      "url": "https://usavolleyball.org/resources-for-coaches/",
+      "decision": "inactive",
+      "reason": "Coach Academy describes member access. Free access to the named learning service’s individual instruction was not verified.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://usavolleyball.org/resources-for-coaches/",
+          "finalUrl": "https://usavolleyball.org/resources-for-coaches/",
+          "status": 200,
+          "sha256": "1688f33f1164e8b0544d78cecdacfe47da84f3a0dbeb4df7ab50a27dcd229aeb",
+          "title": "Resources for Coaches - USA Volleyball"
+        },
+        {
+          "url": "https://usavolleyball.org/resources-for-coaches/coach-academy/",
+          "finalUrl": "https://usavolleyball.org/resources-for-coaches/coach-academy/",
+          "status": 200,
+          "sha256": "6b9dd42e43b90687cce34d175293b2079748120cea3e94f86bea043d2e57b908",
+          "title": "Coach Academy - USA Volleyball"
+        }
+      ]
+    },
+    {
+      "id": "volleyball:development:Art of Coaching Volleyball",
+      "sport": "volleyball",
+      "category": "development",
+      "name": "Art of Coaching Volleyball",
+      "url": "https://www.theartofcoachingvolleyball.com/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "f1d308305e871242",
+          "title": "Easy wall passing and setting for all ages",
+          "url": "https://www.theartofcoachingvolleyball.com/wall-passing-setting/",
+          "summary": "Free written passing/setting instructions, with repetitions explicitly adapted to age. Use with a parent or coach; other paid courses are not included.",
+          "format": "guide",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        },
+        {
+          "id": "ddf191be3503e17d",
+          "title": "Ball handling progression for all levels",
+          "url": "https://www.theartofcoachingvolleyball.com/ball-handling-progression/",
+          "summary": "Free written ball-control progression that explicitly adapts to athlete ability. Other premium resources are not included.",
+          "format": "guide",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.theartofcoachingvolleyball.com/",
+          "finalUrl": "https://www.theartofcoachingvolleyball.com/",
+          "status": 200,
+          "sha256": "5797d07ff8cc0e318188852fd698c5469ebbe49a87794677fbdb0ba328240b8a",
+          "title": "The Art of Coaching Volleyball - Skills, Drills, Clinics, and Videos for College, High School, and Club Coaches"
+        },
+        {
+          "url": "https://www.theartofcoachingvolleyball.com/category/drill/passing-drills/",
+          "finalUrl": "https://www.theartofcoachingvolleyball.com/category/drill/passing-drills/",
+          "status": 200,
+          "sha256": "891982a129b03a6fd7e752d77d5c3f6f7832e3f9a3495322446e2762df4d3aad",
+          "title": "Volleyball Passing Drills - The Art of Coaching Volleyball"
+        },
+        {
+          "url": "https://www.theartofcoachingvolleyball.com/home-drills-skills/",
+          "finalUrl": "https://www.theartofcoachingvolleyball.com/home-drills-skills/",
+          "status": 200,
+          "sha256": "014077ee9be2cfc66195ade225e5bb96aade67961177cbe977595969a6fec465",
+          "title": "Home Drills & Skills - The Art of Coaching Volleyball"
+        },
+        {
+          "url": "https://www.theartofcoachingvolleyball.com/wall-passing-setting/",
+          "finalUrl": "https://www.theartofcoachingvolleyball.com/wall-passing-setting/",
+          "status": 200,
+          "sha256": "88e619d0a2adac868e3651edba60ac5767a829da239dbc4012c4d2140b258479",
+          "title": "Easy wall passing and setting for all ages - The Art of Coaching Volleyball"
+        },
+        {
+          "url": "https://www.theartofcoachingvolleyball.com/ball-handling-progression/",
+          "finalUrl": "https://www.theartofcoachingvolleyball.com/ball-handling-progression/",
+          "status": 200,
+          "sha256": "62cd1a761c61dc6a52eeba383c28460c84ccc2711c3b5fdbe4a0847ea7a013d5",
+          "title": "Ball handling progression for all levels - The Art of Coaching Volleyball"
+        }
+      ]
+    },
+    {
+      "id": "swimming:news:SwimSwam",
+      "sport": "swimming",
+      "category": "news",
+      "name": "SwimSwam",
+      "url": "https://swimswam.com/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "7e95aaa1c93ff5eb",
+          "title": "2026-27 Ivy League Dual Meet Championship Week One: Princeton Men and Women, Harvard Men, and Penn Women Undefeated",
+          "url": "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/",
+          "summary": "A collegiate swimming dual-meet results roundup.",
+          "format": "article",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://swimswam.com/",
+          "finalUrl": "https://swimswam.com/",
+          "status": 200,
+          "sha256": "b11508f64e7a0319abfeebc5c2ec714d05339c44be7676551160d8d0d1d75ebe",
+          "title": "SwimSwam: News & Information for Competitive Swimmers"
+        },
+        {
+          "url": "https://swimswam.com/event/2026-italian-sc-swimming-championship/",
+          "finalUrl": "https://swimswam.com/event/2026-italian-sc-swimming-championship/",
+          "status": 200,
+          "sha256": "cbc7df0e637a6efddc49c9a65bbbfee7a75f001f387b69cd918ee95097b17ca5",
+          "title": "2026 Italian SC Swimming Championship"
+        },
+        {
+          "url": "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/",
+          "finalUrl": "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/",
+          "status": 200,
+          "sha256": "813b4ae659de34f605cc391b9bb4ce492521423c794c3b251285dbbbc0536cd7",
+          "title": "2026-27 Ivy League Dual Meet Championship Week One: Princeton Men and Women, Harvard Men, and Penn Women Undefeated"
+        }
+      ]
+    },
+    {
+      "id": "swimming:news:Swimming World",
+      "sport": "swimming",
+      "category": "news",
+      "name": "Swimming World",
+      "url": "https://www.swimmingworldmagazine.com/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "ac34d2a4c523eaa6",
+          "title": "Van Mathias Hoping to Continue Astonishing Run at SC Worlds",
+          "url": "https://www.swimmingworldmagazine.com/news/van-mathias-looking-to-continue-astonishing-run-at-short-course-worlds/",
+          "summary": "Reporting on Van Mathias’s competition progress ahead of the short-course championships.",
+          "format": "article",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.swimmingworldmagazine.com/",
+          "finalUrl": "https://www.swimmingworldmagazine.com/",
+          "status": 200,
+          "sha256": "04366ced464f20161211c0b28bd7b8e4194ccc08ee9ee73b8e145fcc006fd2df",
+          "title": "Swimming News | Swimming World"
+        },
+        {
+          "url": "https://www.swimmingworldmagazine.com/news/van-mathias-looking-to-continue-astonishing-run-at-short-course-worlds/",
+          "finalUrl": "https://www.swimmingworldmagazine.com/news/van-mathias-looking-to-continue-astonishing-run-at-short-course-worlds/",
+          "status": 200,
+          "sha256": "e5885460a39214ec91c127f73bfa66df18860bd5a2804581024d9373e69ac5ad",
+          "title": "Van Mathias Hoping to Continue Astonishing Run at SC Worlds"
+        }
+      ]
+    },
+    {
+      "id": "swimming:news:World Aquatics",
+      "sport": "swimming",
+      "category": "news",
+      "name": "World Aquatics",
+      "url": "https://www.worldaquatics.com/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "d14e9ce4b90f856e",
+          "title": "Wild Card Athletes confirmed ahead of World Aquatics Swimming Championships (25m) in Beijing",
+          "url": "https://www.worldaquatics.com/news/4607549/wild-card-athletes-confirmed-ahead-of-world-swimming-championships-in-beijing",
+          "summary": "The federation’s announcement of swimming championship wild-card athletes.",
+          "format": "article",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.worldaquatics.com/",
+          "finalUrl": "https://www.worldaquatics.com/",
+          "status": 200,
+          "sha256": "aa51a8d9edc10fb4058bff42a28f5977281c8338d13f81711bd157f116d22671",
+          "title": "World Aquatics"
+        },
+        {
+          "url": "https://www.worldaquatics.com/news/4607549/wild-card-athletes-confirmed-ahead-of-world-swimming-championships-in-beijing",
+          "finalUrl": "https://www.worldaquatics.com/news/4607549/wild-card-athletes-confirmed-ahead-of-world-swimming-championships-in-beijing",
+          "status": 200,
+          "sha256": "9ac0ecbe593fc3358f14f200726446397f9ebd2e9ee5056558afd162fb262cb5",
+          "title": "Wild Card Athletes confirmed ahead of World Aquatics Swimming Championships (25m) in Beijing"
+        }
+      ]
+    },
+    {
+      "id": "swimming:news:USA Swimming",
+      "sport": "swimming",
+      "category": "news",
+      "name": "USA Swimming",
+      "url": "https://www.usaswimming.org/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "db2114e7e01b801f",
+          "title": "2028 U.S. Olympic Team Trials – Swimming Dates Announced",
+          "url": "https://www.usaswimming.org/news/2026/09/15/2028-us-olympic-team-trials-swimming-dates-announced",
+          "summary": "USA Swimming’s announcement of its 2028 Olympic Trials plans.",
+          "format": "article",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.usaswimming.org/",
+          "finalUrl": "https://www.usaswimming.org/",
+          "status": 200,
+          "sha256": "6c557d5c4568969f755d02220c4ff19c399709d35a9beb7f55f8b4a5c0b3f5ce",
+          "title": "Home"
+        },
+        {
+          "url": "https://www.usaswimming.org/news/2026/09/15/2028-us-olympic-team-trials-swimming-dates-announced",
+          "finalUrl": "https://www.usaswimming.org/news/2026/09/15/2028-us-olympic-team-trials-swimming-dates-announced",
+          "status": 200,
+          "sha256": "10e27bc23fa836ba944d8755b7f5587d0a5c9633c00c8a496d08424b351e8735",
+          "title": "2028 U.S. Olympic Team Trials – Swimming Dates Announced"
+        }
+      ]
+    },
+    {
+      "id": "swimming:news:CSCAA",
+      "sport": "swimming",
+      "category": "news",
+      "name": "CSCAA",
+      "url": "https://cscaa.org/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "fbc44a17dcd1de4e",
+          "title": "Nova Southeastern Women and Tampa Men Lead October CSCAA Division II Top 25 Rankings - College Swimming and Diving Coaches Association",
+          "url": "https://cscaa.org/nova-southeastern-women-and-tampa-men-lead-october-cscaa-division-ii-top-25-rankings/",
+          "summary": "The coaches association’s October collegiate Division II swimming rankings.",
+          "format": "article",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cscaa.org/",
+          "finalUrl": "https://cscaa.org/",
+          "status": 200,
+          "sha256": "15c732841fb0ba490bb394efc535b43ac038773418bc8a258d88a47b82002638",
+          "title": "College Swimming and Diving Coaches | CSADCA"
+        },
+        {
+          "url": "https://cscaa.org/nova-southeastern-women-and-tampa-men-lead-october-cscaa-division-ii-top-25-rankings/",
+          "finalUrl": "https://cscaa.org/nova-southeastern-women-and-tampa-men-lead-october-cscaa-division-ii-top-25-rankings/",
+          "status": 200,
+          "sha256": "047c03d356426d38dbf27350a3c60cb2944dd1192e6506fd3461f9e94d618aba",
+          "title": "Nova Southeastern Women and Tampa Men Lead October CSCAA Division II Top 25 Rankings - College Swimming and Diving Coaches Association"
+        }
+      ]
+    },
+    {
+      "id": "swimming:development:Chloe Sutton",
+      "sport": "swimming",
+      "category": "development",
+      "name": "Chloe Sutton",
+      "url": "https://www.youtube.com/@ChloeSuttonSwim/videos",
+      "decision": "inactive",
+      "reason": "Proposed YouTube channel route was inaccessible; identity, free item availability and suitability remain unverified.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/@ChloeSuttonSwim/videos",
+          "finalUrl": null,
+          "status": "unavailable",
+          "sha256": null,
+          "title": null
+        }
+      ]
+    },
+    {
+      "id": "swimming:development:Skills N’ Talents",
+      "sport": "swimming",
+      "category": "development",
+      "name": "Skills N’ Talents",
+      "url": "https://www.skillsnt.com/",
+      "decision": "inactive",
+      "reason": "Proposed site returns an empty/script-dependent response. No accessible individual instruction verified.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://www.skillsnt.com/",
+          "finalUrl": "https://www.skillsnt.com/",
+          "status": 200,
+          "sha256": "6dc9c7fc93bb488bb0520a6c780a8d3c0fb5486a4711aca49b4c53fac7393023",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": "swimming:development:The Race Club",
+      "sport": "swimming",
+      "category": "development",
+      "name": "The Race Club",
+      "url": "https://theraceclub.com/",
+      "decision": "inactive",
+      "reason": "Sampled technique article redirects to Restricted Content and paid membership. No free item approved.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://theraceclub.com/",
+          "finalUrl": "https://theraceclub.com/",
+          "status": 200,
+          "sha256": "5a0a90c42cd537c9a9b85eb011cefb4a289ad11cbb4e3293c88488cabd1b5e5d",
+          "title": "Professional Swim Training in Oceanside | The Race Club"
+        },
+        {
+          "url": "https://theraceclub.com/aqua_note/freestyle-arm-recovery-2/",
+          "finalUrl": "https://theraceclub.com/restricted-content/?r=357044&wcm_redirect_to=aqua_note&wcm_redirect_id=357044",
+          "status": 200,
+          "sha256": "2f27678937ce063ff6f6d924ff4a13b5c6866c606bad8c9d0caa28cae56a806c",
+          "title": "Restricted Content - The Race Club"
+        }
+      ]
+    },
+    {
+      "id": "swimming:development:Effortless Swimming",
+      "sport": "swimming",
+      "category": "development",
+      "name": "Effortless Swimming",
+      "url": "https://effortlessswimming.com/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "c9da583a43e1a3f9",
+          "title": "If You Want Your Swimming To 'Click', Do This (3 Steps) with Brenton Ford",
+          "url": "https://effortlessswimming.com/if-you-want-your-swimming-to-click-do-this-3-steps-with-brenton-ford/",
+          "summary": "A freely readable technique transcript about freestyle alignment, relaxed recovery and stroke timing. Informational technique discussion for parent/coach review, not an unsupervised swim workout or a paid-course endorsement.",
+          "format": "guide",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://effortlessswimming.com/",
+          "finalUrl": "https://effortlessswimming.com/",
+          "status": 200,
+          "sha256": "6c9a2a13e03721f720a3b9e321edc825c071417a7592507d594ad5950d7e5f1e",
+          "title": "The Simplest Way To Become a Faster Swimmer"
+        },
+        {
+          "url": "https://effortlessswimming.com/podcast/",
+          "finalUrl": "https://effortlessswimming.com/podcast/",
+          "status": 200,
+          "sha256": "b385e45015d5e08a77f3a8aeacca7b3ffb43570fdfd707ece7f3216a93d83969",
+          "title": "podcast Archives - Effortless Swimming"
+        },
+        {
+          "url": "https://effortlessswimming.com/if-you-want-your-swimming-to-click-do-this-3-steps-with-brenton-ford/",
+          "finalUrl": "https://effortlessswimming.com/if-you-want-your-swimming-to-click-do-this-3-steps-with-brenton-ford/",
+          "status": 200,
+          "sha256": "d1851cc61276f9dbb4d12128d877335498fc999e1c45d097035dc3e88c3ba52f",
+          "title": "If You Want Your Swimming To 'Click', Do This (3 Steps) with Brenton Ford - Effortless Swimming"
+        }
+      ]
+    },
+    {
+      "id": "swimming:development:USA Swimming Network",
+      "sport": "swimming",
+      "category": "development",
+      "name": "USA Swimming Network",
+      "url": "https://www.usaswimming.org/utility/landing-pages/usa-swimming-network",
+      "decision": "inactive",
+      "reason": "Official video hub exists, but individual playable instructional content and youth suitability were not verified. Initial YouTube route was inaccessible.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/@usaswimming/videos",
+          "finalUrl": null,
+          "status": "unavailable",
+          "sha256": null,
+          "title": null
+        },
+        {
+          "url": "https://www.usaswimming.org/utility/landing-pages/usa-swimming-network",
+          "finalUrl": "https://www.usaswimming.org/utility/landing-pages/usa-swimming-network",
+          "status": 200,
+          "sha256": "76794e679a95ae5655af0048d987cab999395fbbc801d1a528ac57a4161476d3",
+          "title": "USA Swimming Network"
+        }
+      ]
+    },
+    {
+      "id": "lacrosse:news:Inside Lacrosse",
+      "sport": "lacrosse",
+      "category": "news",
+      "name": "Inside Lacrosse",
+      "url": "https://www.insidelacrosse.com/",
+      "decision": "inactive",
+      "reason": "Sampled article is public human-interest reporting involving injury/postpartum recovery. Held outside this release’s selected youth fundamentals/results scope; other items need individual review.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://www.insidelacrosse.com/",
+          "finalUrl": "https://www.insidelacrosse.com/",
+          "status": 200,
+          "sha256": "7d533d30cd5ec0ff9ff884ac3b0c008190506aaeeca8a6e3ab73c33ceb125309",
+          "title": "Lacrosse News, Scores and Recruiting | Inside Lacrosse"
+        },
+        {
+          "url": "https://www.insidelacrosse.com/article/no-excuses-noelle-lambert-continues-to-defy-after-postpartum-nyc-marathon/b621df57-478c-4cf2-a729-12c1de7ae396",
+          "finalUrl": "https://www.insidelacrosse.com/article/no-excuses-noelle-lambert-continues-to-defy-after-postpartum-nyc-marathon/b621df57-478c-4cf2-a729-12c1de7ae396",
+          "status": 200,
+          "sha256": "44341d85eb2dd52e670020f54d37a026e930693337be17f3042f614905f8567b",
+          "title": "No Excuses: Noelle Lambert Continues to Defy After Postpartum NYC Marathon"
+        }
+      ]
+    },
+    {
+      "id": "lacrosse:news:USA Lacrosse Magazine",
+      "sport": "lacrosse",
+      "category": "news",
+      "name": "USA Lacrosse Magazine",
+      "url": "https://www.usalacrosse.com/magazine",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "de643f42a9f0ef10",
+          "title": "Play Like a Big Man: Blythewood (S.C.) Attackman Carson Hall Owns His Game",
+          "url": "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game",
+          "summary": "A public youth lacrosse player-development story about finding a role and avoiding positional stereotypes.",
+          "format": "article",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.usalacrosse.com/magazine",
+          "finalUrl": "https://www.usalacrosse.com/magazine",
+          "status": 200,
+          "sha256": "4611c846c96368900e6205927672af61664af913dad8b1fe5d38b1dfb5da5401",
+          "title": "Magazine | USA Lacrosse"
+        },
+        {
+          "url": "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game",
+          "finalUrl": "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game",
+          "status": 200,
+          "sha256": "d6f08a7a008826bfc08e194b432253858cee38a3b27aa569481d9c2d0e3d2db3",
+          "title": "Play Like a Big Man: Blythewood (S.C.) Attackman Carson Hall Owns His Game | USA Lacrosse"
+        }
+      ]
+    },
+    {
+      "id": "lacrosse:news:Premier Lacrosse League",
+      "sport": "lacrosse",
+      "category": "news",
+      "name": "Premier Lacrosse League",
+      "url": "https://premierlacrosseleague.com/",
+      "decision": "inactive",
+      "reason": "Official headlines use redirect links; an individual final article’s free body was not verified.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://premierlacrosseleague.com/",
+          "finalUrl": "https://premierlacrosseleague.com/",
+          "status": 200,
+          "sha256": "ba48e4c784bd48ca9653f59eed847a1027e2691953a1d5b74a2b01e05d1c9bc7",
+          "title": "Premier Lacrosse League"
+        }
+      ]
+    },
+    {
+      "id": "lacrosse:news:National Lacrosse League",
+      "sport": "lacrosse",
+      "category": "news",
+      "name": "National Lacrosse League",
+      "url": "https://www.nll.com/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "f46e6dacf92b1780",
+          "title": "National Lacrosse League Announces 2026-27 Prime Video Broadcast Schedule for U.S. Viewers via FloSports Channel - NLL",
+          "url": "https://www.nll.com/news/national-lacrosse-league-announces-2026-27-prime-video-broadcast-schedule-for-u-s-viewers-via-flosports-channel/",
+          "summary": "A public league broadcast announcement. Prime Video/FloSports viewing may require payment.",
+          "format": "article",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.nll.com/",
+          "finalUrl": "https://www.nll.com/",
+          "status": 200,
+          "sha256": "db614121672ef4dfc4f61adce3423620c4e40ba319a97fd68a95f1dbecee5ed1",
+          "title": "National Lacrosse League | Pro Box Lacrosse"
+        },
+        {
+          "url": "https://www.nll.com/news/national-lacrosse-league-announces-2026-27-prime-video-broadcast-schedule-for-u-s-viewers-via-flosports-channel/",
+          "finalUrl": "https://www.nll.com/news/national-lacrosse-league-announces-2026-27-prime-video-broadcast-schedule-for-u-s-viewers-via-flosports-channel/",
+          "status": 200,
+          "sha256": "ff3d736b5451901a04d6b407cae5e05c79b9c94e4cda96afc8aaaef00cbdc8bb",
+          "title": "National Lacrosse League Announces 2026-27 Prime Video Broadcast Schedule for U.S. Viewers via FloSports Channel - NLL"
+        }
+      ]
+    },
+    {
+      "id": "lacrosse:news:World Lacrosse",
+      "sport": "lacrosse",
+      "category": "news",
+      "name": "World Lacrosse",
+      "url": "https://worldlacrosse.sport/",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "a42ef437becdee39",
+          "title": "Switzerland upsets Czechia as men’s competition opens at 2026 European Sixes Lacrosse Championships - World Lacrosse",
+          "url": "https://worldlacrosse.sport/eslc26-day-nine/",
+          "summary": "An international sixes competition report from the European championships.",
+          "format": "article",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://worldlacrosse.sport/",
+          "finalUrl": "https://worldlacrosse.sport/",
+          "status": 200,
+          "sha256": "0a930476f6c62ab49903d1959cfc701799c697641e26dbaaaa9bda9adf047be5",
+          "title": "Home - World Lacrosse"
+        },
+        {
+          "url": "https://worldlacrosse.sport/2024-box-championships-roster-tracker/",
+          "finalUrl": "https://worldlacrosse.sport/2024-box-championships-roster-tracker/",
+          "status": 200,
+          "sha256": "588800b668fafe4bed22a1539411f8db342edc20819b3bbebf752c362a1df02c",
+          "title": "2024 Box Championships Roster Tracker - World Lacrosse"
+        },
+        {
+          "url": "https://worldlacrosse.sport/eslc26-day-nine/",
+          "finalUrl": "https://worldlacrosse.sport/eslc26-day-nine/",
+          "status": 200,
+          "sha256": "cac6b7e6b2e8ffd78ce98f1fe3f943f34c5fb700c12fe45e6fa7d282ff872f62",
+          "title": "Switzerland upsets Czechia as men’s competition opens at 2026 European Sixes Lacrosse Championships - World Lacrosse"
+        }
+      ]
+    },
+    {
+      "id": "lacrosse:development:USA Lacrosse",
+      "sport": "lacrosse",
+      "category": "development",
+      "name": "USA Lacrosse",
+      "url": "https://www.usalacrosse.com/athletes/learn-the-basics",
+      "decision": "approved",
+      "reason": "Specific public written items reviewed for free access and sport/youth relevance. Other content is outside approval.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [
+        {
+          "id": "52c522eaad5ec2f2",
+          "title": "Learn the Basics",
+          "url": "https://www.usalacrosse.com/athletes/learn-the-basics",
+          "summary": "Public beginner guidance on scooping, catching, cradling and passing, with separate boys/girls fundamentals. External video playback is not certified here.",
+          "format": "guide",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        },
+        {
+          "id": "7141a1df5c40ef62",
+          "title": "Athlete Development Model",
+          "url": "https://www.usalacrosse.com/athletes/athlete-development",
+          "summary": "The governing body’s publicly readable, athlete-centered development model, including age/skill stages and foundational learning.",
+          "format": "guide",
+          "free": true,
+          "youthSuitable": true,
+          "reviewScope": "Only this public written item; not all source content, linked videos, memberships or advertising."
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.usalacrosse.com/player-development",
+          "finalUrl": null,
+          "status": "unavailable",
+          "sha256": null,
+          "title": null
+        },
+        {
+          "url": "https://www.usalacrosse.com/athletes/learn-the-basics",
+          "finalUrl": "https://www.usalacrosse.com/athletes/learn-the-basics",
+          "status": 200,
+          "sha256": "8237ff8e47537471f1c194e87b69356aab5f41147333d1d2c4dbb28749ee37cd",
+          "title": "Learn the Basics | USA Lacrosse"
+        },
+        {
+          "url": "https://www.usalacrosse.com/athletes/athlete-development",
+          "finalUrl": "https://www.usalacrosse.com/athletes/athlete-development",
+          "status": 200,
+          "sha256": "b1f8af822baedf3ea15e024e428986ab03f6a21ac1f46773f497153a8f5743a3",
+          "title": "Athlete Development Model | USA Lacrosse"
+        }
+      ]
+    },
+    {
+      "id": "lacrosse:development:POWLAX",
+      "sport": "lacrosse",
+      "category": "development",
+      "name": "POWLAX",
+      "url": "https://powlax.com/",
+      "decision": "inactive",
+      "reason": "Current Skills Academy pages promote program/team access rather than a verified free individual drill.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://powlax.com/",
+          "finalUrl": "https://powlax.com/",
+          "status": 200,
+          "sha256": "413619d5298276722d3d297576f9aadcf1b4ca8e1c7d88361b524ea1eda702d7",
+          "title": "POWLAX. The Lacrosse Development Engine"
+        },
+        {
+          "url": "https://powlax.com/skills-academy",
+          "finalUrl": "https://app.powlax.com/skills-academy",
+          "status": 200,
+          "sha256": "05db10791679664a42d8222ddd13d8b89e7fa59d5aa58a91e179038b7bd8e7c1",
+          "title": "Skills Academy: Every Player Knows What to Work On Next | POWLAX"
+        }
+      ]
+    },
+    {
+      "id": "lacrosse:development:Swax Lax",
+      "sport": "lacrosse",
+      "category": "development",
+      "name": "Swax Lax",
+      "url": "https://swaxsports.com/",
+      "decision": "inactive",
+      "reason": "Redirects to Swax Sports retail products; no individual free instructional resource verified.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://swaxlax.com/",
+          "finalUrl": "https://swaxsports.com/",
+          "status": 200,
+          "sha256": "3472ce9611b2064cc9de0f02efbe6948d9c562bd33bcaa73cef1d31979da1a34",
+          "title": "Patented Swax Sports Training Balls\n – Swax Sports | The Original Patented Training Balls"
+        }
+      ]
+    },
+    {
+      "id": "lacrosse:development:HGR Lacrosse",
+      "sport": "lacrosse",
+      "category": "development",
+      "name": "HGR Lacrosse",
+      "url": "https://hgrlacrosse.com/",
+      "decision": "inactive",
+      "reason": "Current site promotes local teams/camps/member training. No individual free instruction verified.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://hgrlacrosse.com/",
+          "finalUrl": "https://hgrlacrosse.com/",
+          "status": 200,
+          "sha256": "e12109458974e9414d6035257cc17f272c477eeafdd3c4707a884c0500f601eb",
+          "title": "HGR Lacrosse Leagues, Teams, and Camps -"
+        }
+      ]
+    },
+    {
+      "id": "lacrosse:development:ADVNC Lacrosse",
+      "sport": "lacrosse",
+      "category": "development",
+      "name": "ADVNC Lacrosse",
+      "url": "https://www.advnclacrosse.com/",
+      "decision": "inactive",
+      "reason": "Current pages promote paid camps/team programs; no individual free instructional item verified.",
+      "checkedAt": "2026-11-12T17:55:07.192180+00:00",
+      "validUntil": "2026-12-12T17:55:07.192180+00:00",
+      "reviewer": "Codex acceptance review; access checks plus individual written-content inspection",
+      "items": [],
+      "evidence": [
+        {
+          "url": "https://www.advnclacrosse.com/",
+          "finalUrl": "https://www.advnclacrosse.com/",
+          "status": 200,
+          "sha256": "524094f755a5e741fb1bb47d3454adc016b260784b80be0467d88440a701e69a",
+          "title": "ADVNC Lacrosse | Comprehensive Lacrosse Training"
+        }
+      ]
+    }
+  ]
+}

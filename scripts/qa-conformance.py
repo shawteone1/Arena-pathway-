@@ -37,7 +37,7 @@ class ConformanceQA(base['MyAPQA']):
         self.page.get_by_role('button',name='Save athlete profile').click()
         self.page.wait_for_selector('#profile-summary h2')
         athlete=self.page.evaluate('JSON.parse(localStorage.getItem("arenaPathway.v2")).profiles[0]')
-        for label in ['Profile overview','Schedule','Stats','Media','Development','Community','Network']:
+        for label in ['Profile','Schedule','Stats','Media','Recruiting']:
             self.assertTrue(self.page.locator('#profile-nav').get_by_role('link',name=label,exact=True).is_visible())
         self.assertNotIn('recruiting',athlete['modules'])
         self.page.locator('#profile-nav').get_by_role('link',name='Stats',exact=True).click()
@@ -48,7 +48,7 @@ class ConformanceQA(base['MyAPQA']):
         self.page.get_by_role('button',name='Save athlete profile').click()
         self.page.wait_for_selector('#profile-summary h2')
         self.assertIn('200m freestyle',self.page.locator('#profile-summary').inner_text())
-        self.page.locator('#profile-nav').get_by_role('link',name='Profile overview',exact=True).click()
+        self.page.locator('#profile-nav').get_by_role('link',name='Profile',exact=True).click()
         self.page.evaluate('()=>{document.activeElement?.blur();scrollTo(0,0);}')
         self.page.screenshot(path=str(OUT/f'{ENGINE}-athlete-profile.png'),full_page=True)
         self.page.goto(BASE+'/my-ap?section=family');self.page.wait_for_selector('#platform-content[data-startup-state=ready] .ap-local-athletes')
