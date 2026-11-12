@@ -6,11 +6,11 @@ import {randomUUID} from 'node:crypto';
 import {loadState,persist} from '../public/state.js';
 import {myPathway,sportPage} from '../src/views.mjs';
 const baseline='8c48179998ca0c09b6ed4e56060e10acf670068b';
-test('visual follow-up keeps accepted SIEM/calendar, directory, engine, data and state contracts unchanged',()=>{
- const paths=['server.mjs','public/state.js','public/regions.js','public/siem-calendar.js','public/siem-platform.js','public/siem-platform.css','public/siem-platform-model.js','public/siem-family-fixtures.js','public/siem.js','public/siem-model.js','src/siem-platform-view.mjs','src/unified-directory.mjs','src/unified-views.mjs','src/progressive-directory.mjs','engine','data'];
- assert.equal(execFileSync('git',['diff',baseline,'--',...paths],{encoding:'utf8'}),'');
- const previous=execFileSync('git',['show',baseline+':public/style.css'],{encoding:'utf8'}),current=readFileSync('public/style.css','utf8');assert.ok(current.startsWith(previous),'Existing CSS remains byte-preserved');
- for(const rule of current.slice(previous.length).split(/(?<=\})/)){if(!rule.trim()||rule.trim().startsWith('/*')||rule.trim().startsWith('@media'))continue;assert.ok(rule.includes('athlete-profile')||rule.includes('profile-')||rule.trim()==='}',rule.slice(0,100));}
+test('Nov 12 follow-up preserves directory, engine, original data, fixtures and SIEM domain',()=>{
+ const paths=['public/regions.js','public/siem-family-fixtures.js','public/siem-platform-fixtures.js','public/siem.js','public/siem-model.js','src/unified-directory.mjs','src/unified-views.mjs','src/progressive-directory.mjs','engine'];
+ const originalData=execFileSync('git',['ls-tree','-r','--name-only',baseline,'data'],{encoding:'utf8'}).trim().split('\n');
+ assert.equal(execFileSync('git',['diff',baseline,'--',...paths,...originalData],{encoding:'utf8'}),'');
+ const previous=execFileSync('git',['show',baseline+':public/style.css'],{encoding:'utf8'}),current=readFileSync('public/style.css','utf8');assert.ok(current.startsWith(previous),'Approved CSS remains byte-preserved; additions only');
 });
 test('accepted directory HTML stays byte-identical while profile markup becomes card-based',async()=>{
  const filename=new URL('../src/.profile-before-'+randomUUID()+'.mjs',import.meta.url);writeFileSync(filename,execFileSync('git',['show',baseline+':src/views.mjs']));

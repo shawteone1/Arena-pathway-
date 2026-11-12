@@ -144,7 +144,7 @@ class ConformanceQA(base['MyAPQA']):
         self.assertNotIn('Alex · Soccer',calendar.inner_text())
         self.page.get_by_role('button',name='Clear filters',exact=True).click()
         colors=calendar.locator('[aria-label="Activity colors"] [data-activity-type]').evaluate_all('(els)=>els.map(e=>getComputedStyle(e).borderLeftColor)')
-        self.assertEqual(len(set(colors)),4)
+        self.assertEqual(len(set(colors)),7)
         calendar.get_by_role('button',name='Month',exact=True).click()
         calendar.get_by_role('button',name='Saturday, May 11: 3 events',exact=True).click()
         event=calendar.locator('.ap-month-agenda .ap-activity').filter(has_text='Front Range volleyball tournament')

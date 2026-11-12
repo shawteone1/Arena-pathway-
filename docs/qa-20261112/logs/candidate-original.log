@@ -1,0 +1,13 @@
+✔ single events retain date and category (1.633622ms)
+✔ weekly recurring practice has stable occurrence IDs (1.967857ms)
+✔ calendar boundary and week intervals filter correctly (2.2155ms)
+✔ invalid repeat end date rejected (0.376468ms)
+✔ malformed legacy plans ignored rather than crashing (0.327373ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 127.957681

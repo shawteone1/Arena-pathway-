@@ -11,7 +11,7 @@
     "dev": "node --watch server.mjs",
     "test": "node --test",
     "validate:data": "node scripts/validate-data.mjs",
-    "check": "node --check server.mjs && node --check src/views.mjs && node --check public/app.js && node --check public/siem.js && node --check public/siem-model.js && node --check src/siem-view.mjs && node --check src/release-views.mjs && node --check public/release-demo.js && node --check public/release-demo-model.js && node --check public/siem-platform.js && node --check public/siem-platform-model.js && node --check public/siem-platform-fixtures.js && node --check src/siem-platform-view.mjs && node --check public/siem-family-fixtures.js && node --check public/siem-platform-boot.js && node --check src/siem-navigation.mjs && npm run validate:data && npm run validate:participation && npm run discovery:check && npm test",
+    "check": "node --check server.mjs && node --check src/views.mjs && node --check public/app.js && node --check public/profile-qa.js && node --check public/recurring-plans.js && node --check public/calendar-import.js && node --check public/athlete-records.js && node --check public/media-library.js && node --check public/local-family-calendar.js && node --check public/siem.js && node --check public/siem-model.js && node --check src/siem-view.mjs && node --check src/release-views.mjs && node --check public/release-demo.js && node --check public/release-demo-model.js && node --check public/siem-platform.js && node --check public/siem-platform-model.js && node --check public/siem-platform-fixtures.js && node --check src/siem-platform-view.mjs && node --check public/siem-family-fixtures.js && node --check public/siem-platform-boot.js && node --check src/siem-navigation.mjs && npm run validate:data && npm run validate:participation && npm run discovery:check && npm test",
     "prepare:brand": "node scripts/prepare-brand.mjs",
     "check:brand": "node scripts/check-brand.mjs",
     "data:import": "node scripts/data-engine.mjs import",
@@ -47,7 +47,9 @@
     "acquisition:console": "node scripts/acquisition-console.mjs",
     "test:acquisition:browser": "python scripts/qa-acquisition.py",
     "test:conformance:browser": "python scripts/qa-conformance.py",
-    "test:conformance:webkit": "MY_AP_BROWSER=webkit python scripts/qa-conformance.py"
+    "test:conformance:webkit": "MY_AP_BROWSER=webkit python scripts/qa-conformance.py",
+    "test:qa-20261112:browser": "python scripts/qa-20261112.py",
+    "test:qa-20261112:webkit": "PROFILE_BROWSER=webkit python scripts/qa-20261112.py"
   },
   "dependencies": {
     "cheerio": "1.2.0",

@@ -1,0 +1,10 @@
+{
+  "status": "candidate-source-registry-not-live-feeds",
+  "selectionPolicy": "Parent opt-in per sport and publisher; only reviewed public/free content becomes active",
+  "sports": {
+    "basketball": {"news": ["ESPN Basketball", "SLAM / WSLAM", "FIBA", "USA Basketball", "CBS Sports Basketball"], "development": ["Jr. NBA / WNBA", "Pro Skills Basketball", "Breakthrough Basketball", "ShotMechanics", "Championship Productions"]},
+    "volleyball": {"news": ["VolleyballMag", "Volleyball World", "USA Volleyball", "WorldofVolley", "AVCA"], "development": ["Elevate Yourself", "Sarah Pavan Volleyball", "JVA Training Curriculum", "USA Volleyball USAVlearn", "Art of Coaching Volleyball"]},
+    "swimming": {"news": ["SwimSwam", "Swimming World", "World Aquatics", "USA Swimming", "CSCAA"], "development": ["Chloe Sutton", "Skills N’ Talents", "The Race Club", "Effortless Swimming", "USA Swimming Network"]},
+    "lacrosse": {"news": ["Inside Lacrosse", "USA Lacrosse Magazine", "Premier Lacrosse League", "National Lacrosse League", "World Lacrosse"], "development": ["USA Lacrosse", "POWLAX", "Swax Lax", "HGR Lacrosse", "ADVNC Lacrosse"]}
+  }
+}

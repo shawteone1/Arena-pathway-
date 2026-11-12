@@ -1,0 +1,13 @@
+// One browser-local blob library; stable athlete/event references, no duplicate identity store.
+const DB='arenaPathway.media.v1',STORE='media';
+export function openLibrary(){return new Promise((resolve,reject)=>{const request=indexedDB.open(DB,1);request.onupgradeneeded=()=>{const db=request.result;if(!db.objectStoreNames.contains(STORE)){const store=db.createObjectStore(STORE,{keyPath:'id'});store.createIndex('athleteId','athleteId');}};request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);});}
+async function transaction(mode,fn){const db=await openLibrary();try{return await new Promise((resolve,reject)=>{const tx=db.transaction(STORE,mode),request=fn(tx.objectStore(STORE));let result;request.onsuccess=()=>{result=request.result;};tx.oncomplete=()=>resolve(result);tx.onerror=()=>reject(request.error||tx.error||Error('Media storage failed.'));tx.onabort=()=>reject(tx.error||Error('Media storage failed.'));});}finally{db.close();}}
+export async function listMedia(athleteId){const records=await transaction('readonly',store=>store.index('athleteId').getAll(athleteId));return records.map(record=>({...record,blob:record.blob||new Blob([record.bytes],{type:record.type})}));}
+export async function putMedia({athleteId,file,caption='',eventRef='',id=crypto.randomUUID()}){
+ if(!athleteId||!file||!['image/jpeg','image/png','image/webp','video/mp4','video/webm','video/quicktime'].includes(file.type))throw Error('Choose a JPG, PNG, WebP, MP4, WebM or MOV file.');
+ if(file.size>25*1024*1024)throw Error('Choose media up to 25 MB.');
+ const existing=await listMedia(athleteId);if(existing.length>=50&&!existing.some(m=>m.id===id))throw Error('This athlete has 50 media items. Remove an item before adding another.');
+ const record={id,athleteId,eventRef:String(eventRef),caption:String(caption||file.name).slice(0,200),name:String(file.name).slice(0,180),type:file.type,size:file.size,bytes:new Uint8Array(await file.arrayBuffer()),createdAt:new Date().toISOString()};await transaction('readwrite',store=>store.put(record));return record;
+}
+export async function removeMedia(athleteId,id){const records=await listMedia(athleteId);if(!records.some(m=>m.id===id))throw Error('Media is not associated with this athlete.');return transaction('readwrite',store=>store.delete(id));}
+export async function updateMedia(athleteId,id,changes){const record=(await listMedia(athleteId)).find(m=>m.id===id);if(!record)throw Error('Media unavailable.');const {blob,...stored}=record;if(!stored.bytes)stored.bytes=new Uint8Array(await blob.arrayBuffer());return transaction('readwrite',store=>store.put({...stored,caption:String(changes.caption??record.caption).slice(0,200),eventRef:String(changes.eventRef??record.eventRef)}));}

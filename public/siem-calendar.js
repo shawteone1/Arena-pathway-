@@ -16,13 +16,14 @@ export function calendarRange(key,view){
  const end=new Date(start);if(view==='month')end.setUTCMonth(end.getUTCMonth()+1);else end.setUTCDate(end.getUTCDate()+(view==='week'?7:1));
  return {start:start.toISOString().slice(0,10),end:end.toISOString().slice(0,10)};
 }
-export function activityKind(event){return event.eventType==='tournament'||event.eventType==='game'&&/\btournament\b/i.test(event.title)?'tournament':['practice','game'].includes(event.eventType)?event.eventType:'other';}
-export const activityLabels={practice:'Practice',game:'Game',tournament:'Tournament',other:'Other activity'};
+export function activityKind(event){return event.eventType==='tournament'||event.eventType==='game'&&/\btournament\b/i.test(event.title)?'tournament':['practice','game','meet','camp','travel'].includes(event.eventType)?event.eventType:'other';}
+export function activityDates(event){const start=calendarDate(event.start),last=Number.isFinite(Date.parse(event.end))?calendarDate(new Date(Date.parse(event.end)-1).toISOString()):start;return {start,end:last<start?start:last};}
+export const activityLabels={practice:'Practice',game:'Game',tournament:'Tournament',meet:'Meet',camp:'Camp',travel:'Travel',other:'Other activity'};
 const node=(tag,text,cls)=>{const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el;};
 // Same month grid + selected-day agenda and responsive week columns as SC. No event copies are persisted.
 export function calendarGrid({events,anchor,view,selectedDay,today,onDay,renderEvent}){
  const {start,end}=calendarRange(anchor,view),root=node('section',undefined,'ap-visual-calendar');root.setAttribute('aria-label',view==='month'?'Monthly calendar':'Weekly calendar');
- const byDate=new Map();for(const e of events){const key=calendarDate(e.start);if(!byDate.has(key))byDate.set(key,[]);byDate.get(key).push(e);}
+ const byDate=new Map();for(const e of events){const dates=activityDates(e);for(let key=dates.start<start?start:dates.start;key<=dates.end&&key<end;key=shiftCalendarDate(key,'day',1)){if(!byDate.has(key))byDate.set(key,[]);byDate.get(key).push(e);}}
  const label=key=>new Date(key+'T12:00:00Z').toLocaleDateString('en-US',{timeZone:'UTC',weekday:'long',month:'long',day:'numeric'});
  if(view==='week'){
   const grid=node('div',undefined,'ap-week-grid');for(let key=start;key<end;key=shiftCalendarDate(key,'day',1)){

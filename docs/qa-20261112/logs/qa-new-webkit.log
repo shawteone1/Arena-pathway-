@@ -1,0 +1,12 @@
+test_01_recurring_edit_skip_export_and_parent_projection (__main__.Remediation.test_01_recurring_edit_skip_export_and_parent_projection) ... ok
+test_02_records_and_media_refs_survive_reload_and_athlete_switch (__main__.Remediation.test_02_records_and_media_refs_survive_reload_and_athlete_switch) ... ok
+test_03_optional_sources_tryouts_and_recruiting (__main__.Remediation.test_03_optional_sources_tryouts_and_recruiting) ... ok
+test_04_responsive_profile_parent_navigation (__main__.Remediation.test_04_responsive_profile_parent_navigation) ... ok
+test_05_categories_delete_and_import_preview_deduplicate (__main__.Remediation.test_05_categories_delete_and_import_preview_deduplicate) ... ok
+test_06_parent_local_preview_and_revocation (__main__.Remediation.test_06_parent_local_preview_and_revocation) ... ok
+test_07_slack_reply_is_local_draft_and_no_posts (__main__.Remediation.test_07_slack_reply_is_local_draft_and_no_posts) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 25.669s
+
+OK

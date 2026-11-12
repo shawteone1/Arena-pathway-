@@ -9,7 +9,7 @@ export function activityContract(raw){
  if(raw.schemaVersion!==CONTRACT_VERSION)throw Error('Unsupported activity contract');
  for(const k of ['tenantId','sourceId','sourceIdentity','eventId','organizationId','participantId','title'])required(raw[k],k);
  if(!roles.includes(raw.role)||!roles.includes(raw.permissionScope?.role))throw Error('Unknown role');
- if(!['scheduled','canceled','completed'].includes(raw.status)||!['game','practice','class','meeting','personal','deadline','communication','opportunity'].includes(raw.eventType))throw Error('Invalid event type/status');
+ if(!['scheduled','canceled','completed'].includes(raw.status)||!['game','practice','meet','tournament','camp','travel','class','meeting','personal','deadline','communication','opportunity'].includes(raw.eventType))throw Error('Invalid event type/status');
  if(!timestamp(raw.start)||!timestamp(raw.end)||Date.parse(raw.end)<=Date.parse(raw.start))throw Error('Invalid event interval');
  try{new Intl.DateTimeFormat('en',{timeZone:raw.timezone}).format();}catch{throw Error('Invalid timezone');}
  if(!raw.timezone||!timestamp(raw.originalSourceTimestamp)||(raw.lastSynchronizedAt!==null&&!timestamp(raw.lastSynchronizedAt)))throw Error('Invalid source timestamps');
@@ -29,6 +29,7 @@ export function scopedActivities(dataset,ctx,filters={}){
  return dataset.activities.filter(e=>canRead(e,ctx)).filter(e=>(!filters.organizations?.length||filters.organizations.includes(e.organizationId))&&(!filters.teams?.length||filters.teams.includes(e.teamId))&&(!filters.participant||filters.participant===e.participantId)&&(!filters.source||filters.source===e.sourceId));
 }
 export function sourceHealth(source,now){
+ if(source.status==='local')return {state:'local',label:'Browser-local · no provider sync',age:null};
  if(source.status==='disconnected')return {state:'disconnected',label:'Not connected',age:null};
  if(source.status==='failed')return {state:'failed',label:'Demo import failed',age:null};
  const at=Date.parse(source.lastSynchronizedAt);if(!Number.isFinite(at))return {state:'unknown',label:'No sync evidence',age:null};
@@ -39,7 +40,7 @@ export function projection(dataset,ctx,filters={}){
  const events=scopedActivities(dataset,ctx,filters),state=empty();state.familyId=ctx.tenantId;state.actions=dataset.actions;
  const ids=[...new Set(events.map(e=>e.participantId))];state.athletes=ids.map(id=>({id,name:id,sport:'personal',type:'athlete'}));
  const internal={id:ctx.personId,familyId:ctx.tenantId,role:'parent',athleteIds:ids},lookup=new Map();
- const project=e=>({athleteId:e.participantId,source:e.sourceId.includes('calendar')?'ics':'manual',ref:activityKey(e),title:e.title,type:['class','meeting','personal'].includes(e.eventType)?'practice':e.eventType,start:e.start,end:e.end,status:e.status,organization:e.organizationId,team:e.teamId,location:e.location,evidence:e.evidence.summary,sourceURL:e.evidence.url,requirements:e.requiredAction?[e.requiredAction]:[]});
+ const project=e=>({athleteId:e.participantId,source:e.sourceId.includes('calendar')?'ics':'manual',ref:activityKey(e),title:e.title,type:['class','meeting','personal','meet','tournament','camp','travel'].includes(e.eventType)?'practice':e.eventType,start:e.start,end:e.end,status:e.status,organization:e.organizationId,team:e.teamId,location:e.location,evidence:e.evidence.summary,sourceURL:e.evidence.url,requirements:e.requiredAction?[e.requiredAction]:[]});
  for(const e of events){const prior=dataset.history[activityKey(e)]||[];for(const h of prior.filter(h=>canRead(h,ctx)&&activityKey(h)===activityKey(e)))upsert(state,internal,project(h));const entry=upsert(state,internal,project(e));lookup.set(entry.id,e);}
  return {state,internal,lookup,events};
 }

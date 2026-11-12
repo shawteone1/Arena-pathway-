@@ -58,7 +58,7 @@ class UnifiedSportsQA(base.PathwayBrowserQA):
         self.assertIn('Front Range high school team camp', self.page.locator('#opportunity-saved').inner_text())
         self.assertNotIn('Front Range high school team camp', self.page.locator('#saved-list').inner_text())
         self.assertEqual(self.page.locator('#recruiting').count(), 0)
-        self.page.goto(base.BASE + '/build')
+        self.page.goto(base.BASE + '/pathway/settings')
         self.assertEqual(self.page.locator('[name=workspace-module]').count(), 7)
         self.page.select_option('#participation-level', 'competitive')
         self.page.select_option('#participation-designation', 'youth')
@@ -67,7 +67,7 @@ class UnifiedSportsQA(base.PathwayBrowserQA):
         self.page.wait_for_selector('#workspace:not([hidden])')
         self.assertEqual(self.current()['participationLevel'], 'competitive')
         self.assertNotIn('recruiting', self.navigation())
-        self.page.goto(base.BASE + '/build')
+        self.page.goto(base.BASE + '/pathway/settings')
         self.assertEqual(self.page.input_value('#participation-level'), 'competitive')
 
     def test_verified_school_programs_and_real_named_tiers(self):

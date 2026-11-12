@@ -1,5 +1,5 @@
 import {execFileSync} from 'node:child_process';
-export const uxFiles=new Set(['server.mjs','src/views.mjs','src/unified-directory.mjs','src/unified-views.mjs','src/progressive-directory.mjs','public/state.js','public/app.js','public/siem.js']);
+export const uxFiles=new Set(['server.mjs','src/views.mjs','src/unified-directory.mjs','src/unified-views.mjs','src/progressive-directory.mjs','public/state.js','public/app.js','public/siem.js','public/siem-platform-model.js']); // Nov 12: additive event categories/local source; domain and fixtures remain frozen.
 export function preservedBytes(base,file,options={}){
  let ref=base;
  if(file.startsWith('engine/')||file.startsWith('data/')||/^scripts\/(data-|reconcile-|validate-|ingest)/.test(file)){

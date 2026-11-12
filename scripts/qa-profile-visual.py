@@ -67,7 +67,7 @@ class ProfileVisualQA(unittest.TestCase):
             self.assertIn('Parent-managed',self.page.locator('#profile-summary').inner_text())
             self.assertLess(self.page.locator('#profile-summary').bounding_box()['y'],300)
             self.assertLess(self.page.locator('#profile-nav').bounding_box()['y'],780)
-            self.assertEqual(self.page.locator('#overview .athlete-card').count(),4)
+            self.assertEqual(self.page.locator('#overview .athlete-card').count(),5)
             self.page.screenshot(path=str(OUT/f'{ENGINE}-{label}-athlete-viewport.png'))
             self.page.screenshot(path=str(OUT/f'{ENGINE}-{label}-athlete.png'),full_page=True)
         self.assertEqual(self.state(),original)

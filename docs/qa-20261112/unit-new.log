@@ -1,0 +1,19 @@
+✔ strict calendar dates, bounded recurrence and nonexistent DST times reject without writes (17.096421ms)
+✔ moved/skipped occurrences preserve references and do not mutate the series (35.07993ms)
+✔ legacy plan ID, recurrence overrides, recruiting choices and unknown extensions survive reload (7.790904ms)
+✔ ICS round trip preserves timed/all-day occurrence UIDs and detects repeat imports (11.997666ms)
+✔ shared family projection reads original IDs without writing, scopes events and handles all categories (12.199245ms)
+✔ stats upsert per stable event; swimming results do not sum unrelated times or places (12.530469ms)
+✔ recruiting stays independent, parent-controlled, age16 gated and references selected local highlights (0.566183ms)
+✔ all 40 supplied sources remain opt-in inactive candidates with no invented feed URLs (0.435416ms)
+✔ multi-day travel covers inclusive dates without spilling exclusive midnight into another day (0.951524ms)
+✔ local SIEM records and parent identities are projected once without changing either store (7.300485ms)
+✔ saved published dates join the same read-only family projection with official attribution (2.579659ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 193.120152
