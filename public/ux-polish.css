@@ -1,0 +1,150 @@
+/* Focused October30 SC hierarchy/touch patterns in AP's existing collegiate identity.
+   Presentation scopes only: no profile, event, data, brand or fixture changes. */
+body:is([data-page=sport],[data-page=directory],[data-page=resources],[data-page=community],[data-page=locked-in-demo],[data-page=my-pathway],[data-page=build]){background:#f3f5f7;color:#172638}
+body:is([data-page=sport],[data-page=directory],[data-page=resources],[data-page=community],[data-page=locked-in-demo],[data-page=my-pathway],[data-page=build]) :is(h1,h2,h3,h4){line-height:1.18;text-wrap:balance}
+body:is([data-page=sport],[data-page=directory],[data-page=resources],[data-page=community],[data-page=locked-in-demo],[data-page=my-pathway],[data-page=build]) :is(p,label,small){line-height:1.65}
+body:is([data-page=sport],[data-page=directory],[data-page=resources],[data-page=community],[data-page=locked-in-demo],[data-page=my-pathway],[data-page=build]) :is(.button,.secondary,button,select,input:not([type=hidden]):not([type=checkbox]):not([type=radio]),summary){border-radius:9px;min-height:44px;box-sizing:border-box}
+body:is([data-page=sport],[data-page=directory],[data-page=resources],[data-page=community],[data-page=locked-in-demo],[data-page=my-pathway],[data-page=build]) :is(.button,.secondary){display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:12px 18px;font:600 14px/1.35 var(--body);text-decoration:none}
+body:is([data-page=sport],[data-page=directory],[data-page=resources],[data-page=community],[data-page=locked-in-demo],[data-page=my-pathway],[data-page=build]) .button{background:#a52a3b;color:#fff;border:1px solid #a52a3b;box-shadow:0 2px 4px #1a2e451a}
+body:is([data-page=sport],[data-page=directory],[data-page=resources],[data-page=community],[data-page=locked-in-demo],[data-page=my-pathway],[data-page=build]) .secondary{background:white;color:#1c334f;border:1px solid #cbd5df}
+body:is([data-page=sport],[data-page=directory],[data-page=resources],[data-page=community],[data-page=locked-in-demo],[data-page=my-pathway],[data-page=build]) :is(a,button,input,select,summary):focus-visible,body[data-page=siem-platform] :is(a,button,input,select,summary):focus-visible{outline:3px solid #2563eb;outline-offset:3px}
+body[data-page=sport] main{max-width:1240px;margin:auto;padding:24px}
+body[data-page=sport] .directory-heading{padding:0;display:grid;grid-template-columns:1.05fr 1fr;gap:0;min-height:360px;background:#15283f;border:0;border-radius:18px;overflow:clip;box-shadow:0 8px 24px #15283f12}
+body[data-page=sport] .directory-title{padding:36px;align-self:center}
+body[data-page=sport] .directory-title h1{font-size:clamp(52px,6vw,84px);color:white;margin:16px 0}
+body[data-page=sport] .directory-title p{color:#edf2f8;font-size:16px;max-width:45ch}
+body[data-page=sport] .directory-title>.eyebrow{color:#f2cad2;display:inline-block;min-height:44px;align-content:center}
+body[data-page=sport] .directory-photo{height:100%;min-height:360px;max-height:470px;border:0;position:relative}
+body[data-page=sport] .directory-photo img{width:100%;height:100%;object-fit:cover;display:block}
+body[data-page=sport] .directory-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#15283f40,transparent 45%);pointer-events:none}
+body[data-page=sport] .sport-hero-actions{gap:12px;margin-top:24px;flex-wrap:wrap}
+body[data-page=sport] .sport-hero-actions .secondary{background:#ffffff12;border-color:#a0afc0;color:white}
+body[data-page=sport] .participation-nav{margin:24px 0;gap:8px}
+body[data-page=sport] .participation-nav a{background:white;border:1px solid #d5dde6;border-radius:9px;padding:12px 16px;min-height:44px;display:inline-flex;align-items:center;font-size:14px}
+body[data-page=sport] .sport-information{padding:24px 0;margin:0;border:0}
+body[data-page=sport] .sport-information>h2{font-size:38px;margin:10px 0 16px}
+body[data-page=sport] .sport-information>p:not(.eyebrow){max-width:85ch;font-size:16px;color:#44546a}
+body[data-page=sport] .sport-pathways{gap:10px;margin:22px 0 30px}
+body[data-page=sport] .sport-pathways .secondary{background:#e5ebf2;border-color:transparent;box-shadow:none}
+body[data-page=sport] .sport-pathways .secondary:hover{background:#d6e0ed}
+body[data-page=sport] .sport-editorial{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:24px;align-items:start;border:0;margin:28px 0}
+body[data-page=sport] .sport-editorial>section{min-width:0}
+body[data-page=sport] .sport-editorial h3{font-size:28px;margin:0 0 18px}
+body[data-page=sport] .sport-editorial article{background:#fff;padding:22px;margin-bottom:14px;border:1px solid #dce2e8;border-radius:14px;box-shadow:0 2px 8px #11233406}
+body[data-page=sport] .sport-editorial h4{font:700 21px/1.35 var(--body);letter-spacing:-.02em;margin:8px 0 14px}
+body[data-page=sport] .sport-editorial h4 a{color:#152b45;text-decoration:none}
+body[data-page=sport] .sport-editorial h4 a:hover{text-decoration:underline}
+body[data-page=sport] .sport-editorial :is(p,small,time){font-size:14px;color:#49596c}
+body[data-page=sport] .sport-editorial .publisher-label{color:#9b2535;font-size:12px;font-weight:700;letter-spacing:.04em}
+body[data-page=sport] .sport-community-card{grid-column:1/-1;background:#e7edf4;padding:24px;border-radius:14px;display:grid;grid-template-columns:1fr auto;gap:10px 24px}
+body[data-page=sport] .sport-community-card :is(h3,p){grid-column:1;margin:0}
+body[data-page=sport] .sport-community-card .secondary{grid-column:2;grid-row:1/4;align-self:center}
+body[data-page=sport] .directory{padding:26px;background:white;border:1px solid #dce2e8;border-radius:16px;scroll-margin-top:20px}
+body[data-page=sport] .filters{background:#f5f7fa;padding:20px;border-radius:12px;border-color:#e0e6ed}
+body[data-page=sport] .directory-records>article{border-bottom:1px solid #dce2e8;padding-block:26px}
+body[data-page=sport] .directory-records>article h2{font-size:30px}
+body[data-page=sport] .small{font-size:13px}
+body:is([data-page=resources],[data-page=community]) :is(.editorial-card,.community-category){background:white;border:1px solid #dce2e8;border-radius:14px;padding:24px;box-shadow:0 2px 8px #11233406}
+body[data-page=locked-in-demo] .lockedin-external{background:white;border:1px solid #dce2e8;border-radius:16px;box-shadow:0 4px 18px #11233409;padding:32px;margin-bottom:24px}
+body[data-page=locked-in-demo] .lockedin-external h2{font-size:36px;margin:12px 0 20px}
+body[data-page=locked-in-demo] #lockedin-external-demo{font-size:17px;min-height:52px;margin:12px 0}
+body[data-page=locked-in-demo] #ap-local-demo-reference{padding:20px;border:1px solid #dce2e8;border-radius:12px;background:#fff;margin:24px 0}
+/* SIEM: preserve grid geometry, ID colours, source boundaries and event controls. */
+body[data-page=siem-platform]{background:#f3f5f7}
+body[data-page=siem-platform] .ap-main{background:#f3f5f7}
+body[data-page=siem-platform] .ap-panel{border:1px solid #dce2e8;border-radius:14px;box-shadow:0 2px 8px #11233406}
+body[data-page=siem-platform] :is(.ap-control,.ap-button,.ap-text-button,.ap-tour-discover){border-radius:8px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;gap:6px}
+body[data-page=siem-platform] .ap-button,body[data-page=siem-platform] .ap-tour-discover{background:#a52a3b;color:white;border:1px solid #a52a3b;box-shadow:0 2px 4px #15283f12;font-weight:700}
+body[data-page=siem-platform] .ap-tour-discover{padding:10px 18px;font-size:14px;min-height:48px;white-space:normal;text-decoration:none}
+body[data-page=siem-platform] .ap-control{background:white;border-color:#cbd5df;color:#213952}
+body[data-page=siem-platform] .ap-action{border-radius:12px;background:#f7f9fc}
+body[data-page=siem-platform] .ap-action-evidence{font-size:13px;margin:6px 0}
+body[data-page=siem-platform] .ap-action-evidence>summary{min-height:44px;align-content:center;cursor:pointer;color:#43556b}
+body[data-page=siem-platform] .ap-entry-panel{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:28px;padding:28px;margin:22px 0;background:#fff;border:1px solid #dce2e8;border-radius:16px;box-shadow:0 3px 16px #11233408}
+body[data-page=siem-platform] .ap-entry-panel h2{font:700 34px/1.1 var(--display);margin:12px 0 18px}
+body[data-page=siem-platform] .ap-entry-panel p{font-size:16px;line-height:1.6;color:#45576d}
+body[data-page=siem-platform] .ap-entry-actions{display:grid;gap:10px;align-content:center}
+body[data-page=siem-platform] .ap-entry-actions :is(a,button){font-size:15px;padding:12px 16px;text-decoration:none}
+body[data-page=siem-platform] .ap-entry-actions>span{font-size:13px;color:#45576d}
+@media(min-width:700px){
+ body[data-page=siem-platform] .ap-main{padding:0 28px 32px}
+ body[data-page=siem-platform] .ap-intro{margin:16px 0 12px}
+ body[data-page=siem-platform] .ap-intro h1{font-size:38px;line-height:1.15}
+ body[data-page=siem-platform] .ap-intro>div>p:not(.ap-kicker){font-size:14px;line-height:1.6}
+ body[data-page=siem-platform] .ap-panel{padding:22px}
+ body[data-page=siem-platform] .ap-panel-heading h2{font-size:28px}
+ body[data-page=siem-platform] .ap-activity{padding:18px 0!important;gap:16px}
+ body[data-page=siem-platform] .ap-activity h3,body[data-page=siem-platform] .ap-action h3{font-size:18px;line-height:1.4}
+ body[data-page=siem-platform] .ap-activity p,body[data-page=siem-platform] .ap-action :is(.ap-impact,.ap-next-step){font-size:14px;line-height:1.6}
+ body[data-page=siem-platform] :is(.ap-control,.ap-button,.ap-text-button){font-size:14px;padding:10px 14px}
+ body[data-page=siem-platform] .ap-time{width:90px}
+ body[data-page=siem-platform] .ap-time strong{font-size:15px}
+ body[data-page=siem-platform] .ap-source-summary{font-size:12px;padding:10px 0;min-height:44px;display:flex;align-items:center}
+ body[data-page=siem-platform] .ap-message{padding:22px;margin-bottom:18px;border-radius:12px}
+ body[data-page=siem-platform] .ap-message h3{font-size:19px}
+ body[data-page=siem-platform] .ap-message>p{font-size:15px;line-height:1.6}
+ body[data-page=siem-platform] .ap-small,body[data-page=siem-platform] .ap-family-source{font-size:13px;line-height:1.5}
+ body[data-page=siem-platform] .ap-calendar-controls input,body[data-page=siem-platform] .ap-filters select{font-size:15px}
+ body[data-page=siem-platform] .ap-activity .ap-detail-button{min-height:44px;min-width:44px;font-size:13px!important}
+}
+@media(max-width:800px){body[data-page=sport] .directory-heading{grid-template-columns:1fr 1fr}body[data-page=sport] .directory-title{padding:24px}body[data-page=sport] .sport-editorial{grid-template-columns:1fr}body[data-page=sport] .sport-development{display:grid;grid-template-columns:1fr 1fr;gap:14px}body[data-page=sport] .sport-development>h3,body[data-page=sport] .sport-development>a{grid-column:1/-1}body[data-page=sport] .sport-development article{margin:0}body[data-page=siem-platform] .ap-entry-panel{grid-template-columns:1fr}}
+@media(max-width:650px){
+ body[data-page=sport] main{padding:16px}
+ body[data-page=sport] .directory-heading{display:flex;flex-direction:column-reverse}
+ body[data-page=sport] .directory-photo{min-height:190px;max-height:230px;height:210px;width:100%}
+ body[data-page=sport] .directory-title{padding:24px}
+ body[data-page=sport] .directory-title h1{font-size:56px;margin:8px 0}
+ body[data-page=sport] .directory-title>.eyebrow{min-height:24px}
+ body[data-page=sport] .sport-hero-actions :is(a){width:100%}
+ body[data-page=sport] .sport-information>h2{font-size:32px}
+ body[data-page=sport] .sport-pathways .secondary{flex:1 1 40%}
+ body[data-page=sport] .sport-development,body[data-page=sport] .sport-community-card{display:block}
+ body[data-page=sport] .sport-community-card .secondary{margin-top:18px}
+ body[data-page=sport] .directory{padding:18px}
+ body[data-page=sport] .filters{padding:12px}
+ body[data-page=sport] :is(input,select){font-size:16px}
+ body[data-page=locked-in-demo] .lockedin-external{padding:22px}
+ body[data-page=locked-in-demo] .lockedin-external h2{font-size:30px}
+ body[data-page=siem-platform] .ap-tour-discover{font-size:12px;max-width:115px;padding:8px}
+ body[data-page=siem-platform] .ap-entry-panel{padding:20px;gap:12px}
+}
+@media(prefers-reduced-motion:reduce){body[data-page=sport] *,body[data-page=siem-platform] *{scroll-behavior:auto!important;transition:none!important}}
+
+/* Shared profile surfaces retain all existing card/tab structures and AP cover art. */
+body[data-page=my-pathway] :is(.athlete-card,.athlete-section,.profile-summary,.family-profile-summary,.research-card){border-color:#dce2e8;box-shadow:0 2px 8px #11233406}
+body[data-page=my-pathway] :is(.parent-workspace-nav,.athlete-resource-nav) a{border-color:transparent;background:#e7edf4;color:#203852;border-radius:9px;min-height:44px;padding:11px 15px;font-size:14px}
+body[data-page=my-pathway] :is(.parent-workspace-nav,.athlete-resource-nav) a[aria-current=page]{background:#17334e;color:white;border-color:#17334e}
+body[data-page=my-pathway] .profile-overview>.athlete-card{padding:22px}
+body[data-page=my-pathway] .athlete-card-heading h3{font-size:18px}
+body[data-page=my-pathway] .profile-card-note,body[data-page=my-pathway] .profile-card-lead{font-size:15px;line-height:1.6}
+body[data-page=my-pathway] :is(input:not([type=checkbox]),select,textarea){border:1px solid #bdc9d6;border-radius:8px;min-height:44px;font-size:16px;box-sizing:border-box}
+body[data-page=my-pathway] .source-chips button{min-height:44px;border-radius:24px;padding:10px 16px}
+body[data-page=my-pathway] .record-editor{border-color:#dce2e8;border-radius:12px;background:#f8fafc}
+body[data-page=my-pathway] :is(.record-editor,.media-item-editor)>summary{min-height:44px;align-content:center;font-size:15px}
+body[data-page=my-pathway] .recruiting-preview{background:#f3f6fa;border-radius:12px;padding:18px}
+body[data-page=my-pathway] .recruiting-preview:empty{display:none}
+body[data-page=siem-platform] .ap-location{font-weight:600;color:#314c68}
+@media(max-width:650px){body[data-page=my-pathway] .profile-overview>.athlete-card{padding:18px}body[data-page=my-pathway] :is(.parent-workspace-nav,.athlete-resource-nav) a{font-size:13px;padding:10px 12px}}
+body[data-page=sport] .sport-review-notes{margin:24px 0;background:#e7edf4;border-radius:10px;padding:8px 18px}
+body[data-page=sport] .sport-review-notes>summary{cursor:pointer;min-height:44px;align-content:center;font-weight:600;font-size:14px}
+body[data-page=siem-platform] .ap-inline-source>summary{min-height:44px;align-content:center;cursor:pointer}
+@media(min-width:700px){body[data-page=siem-platform] .ap-family-source{font-size:13px!important;line-height:1.6}body[data-page=siem-platform] .ap-message .ap-message-byline{font-size:14px;color:#45576d}}
+/* A tablet-sized filter set must also wrap when the browser rotates/narrows. */
+@media(max-width:699px){body[data-page=siem-platform] .ap-filters{flex-wrap:wrap}body[data-page=siem-platform] .ap-filters>.ap-link-button{flex-shrink:0}}
+
+/* Editorial hierarchy: two-column headlines above the existing resource cards. */
+body[data-page=sport] .sport-editorial{grid-template-columns:repeat(2,minmax(0,1fr))}
+body[data-page=sport] .sport-editorial>section:first-child{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+body[data-page=sport] .sport-editorial>section:first-child>h3,body[data-page=sport] .sport-editorial>section:first-child>.text-link{grid-column:1/-1}
+body[data-page=sport] .sport-editorial .sport-news-card{margin:0}
+body[data-page=sport] .sport-news-card:nth-of-type(3){grid-column:1/-1}
+body[data-page=sport] .sport-community-card{grid-column:auto;display:block}
+body[data-page=sport] .sport-community-card .secondary{margin-top:18px}
+body[data-page=siem-platform] :is(#platform-detail,#siem-tour){border-radius:16px;padding:24px;font-size:15px}
+body[data-page=siem-platform] .ap-detail-grid{line-height:1.65;overflow-wrap:anywhere}
+body[data-page=my-pathway] :is(.profile-empty-state,.empty),body[data-page=siem-platform] .ap-empty{background:#f4f7fa;border-radius:12px;line-height:1.6}
+@media(max-width:800px){body[data-page=sport] .sport-editorial{grid-template-columns:1fr}body[data-page=sport] .sport-community-card{grid-column:1/-1}}
+@media(max-width:650px){body[data-page=sport] .sport-editorial>section:first-child{display:block}body[data-page=sport] .sport-editorial .sport-news-card{margin-bottom:14px}}
+@media(min-width:700px){body[data-page=siem-platform] .ap-toolbar #platform-modes button{font-size:13px;padding:9px 11px}body[data-page=siem-platform] .ap-settings>summary{font-size:13px}body[data-page=siem-platform] .ap-settings :is(p,a,label){font-size:13px!important}}
+@media(min-width:700px) and (max-width:900px){body[data-page=siem-platform] .ap-panel[data-section=calendar] .ap-time{width:64px}body[data-page=siem-platform] .ap-panel[data-section=calendar] .ap-activity h3{font-size:16px}}
+body[data-page=sport] .participation-nav a[aria-current=page]{background:#193550;color:white;border-color:#193550}

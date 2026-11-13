@@ -1,0 +1,40 @@
+test_action_detail_duplicate_and_scenario_state_isolation (__main__.FamilyQA.test_action_detail_duplicate_and_scenario_state_isolation) ... ok
+test_alert_scan_lines_timeline_and_touch_targets (__main__.FamilyQA.test_alert_scan_lines_timeline_and_touch_targets) ... ok
+test_child_team_sport_and_source_filters (__main__.FamilyQA.test_child_team_sport_and_source_filters) ... ok
+test_compact_filters_keyboard_scope_and_disclosure (__main__.FamilyQA.test_compact_filters_keyboard_scope_and_disclosure) ... ok
+test_family_cross_feed_change_and_sources (__main__.FamilyQA.test_family_cross_feed_change_and_sources) ... ok
+test_family_privacy_and_no_provider_requests (__main__.FamilyQA.test_family_privacy_and_no_provider_requests) ... ok
+test_feed_health_refresh_and_pause (__main__.FamilyQA.test_feed_health_refresh_and_pause) ... ok
+test_first_screen_and_capture_comparison (__main__.FamilyQA.test_first_screen_and_capture_comparison) ... FAIL
+test_keyboard_labels_touch_targets_and_dialog_focus (__main__.FamilyQA.test_keyboard_labels_touch_targets_and_dialog_focus) ... ok
+test_modes_scenarios_and_responsive_layouts (__main__.FamilyQA.test_modes_scenarios_and_responsive_layouts) ... ok
+test_no_provider_requests_or_family_storage_changes (__main__.FamilyQA.test_no_provider_requests_or_family_storage_changes) ... ok
+test_phone_full_calendar_and_action_controls_remain_available (__main__.FamilyQA.test_phone_full_calendar_and_action_controls_remain_available) ... ok
+test_privacy_redacts_dom_details_and_display_defaults (__main__.FamilyQA.test_privacy_redacts_dom_details_and_display_defaults) ... ok
+test_role_and_organization_isolation (__main__.FamilyQA.test_role_and_organization_isolation) ... ok
+test_sidebar_keyboard_touch_and_ipad_default (__main__.FamilyQA.test_sidebar_keyboard_touch_and_ipad_default) ... ok
+test_signature_modes_devices_and_screenshots (__main__.FamilyQA.test_signature_modes_devices_and_screenshots) ... FAIL
+test_simulated_approval_no_sending_and_reset (__main__.FamilyQA.test_simulated_approval_no_sending_and_reset) ... ok
+test_tournament_arrival_rsvp_and_locked_in_status (__main__.FamilyQA.test_tournament_arrival_rsvp_and_locked_in_status) ... ok
+
+======================================================================
+FAIL: test_first_screen_and_capture_comparison (__main__.FamilyQA.test_first_screen_and_capture_comparison)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-siem-refinement.py", line 32, in test_first_screen_and_capture_comparison
+    self.assertLess(measurements['actionTitleBottom'],height,str((label,kind,mode,measurements)))
+AssertionError: 1257.484375 not less than 1024 : ('ipad-portrait', 'parent', 'everyday', {'kpiHeight': 57, 'commitmentTop': 566.59375, 'commitmentTitleBottom': 609.78125, 'actionTop': 1198.296875, 'actionTitleBottom': 1257.484375, 'nextActionBottom': 1337.265625})
+
+======================================================================
+FAIL: test_signature_modes_devices_and_screenshots (__main__.FamilyQA.test_signature_modes_devices_and_screenshots)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-siem-family.py", line 31, in test_signature_modes_devices_and_screenshots
+    else:self.assertIn('SportsEngine DEMO',self.page.locator('[data-section=calendar]').inner_text())
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'SportsEngine DEMO' not found in 'YOUR NEXT COMMITMENTS\n\nWhat’s next?\nTODAY\nTODAY · MON, MAY 6\n4:45 PM\nto 6:15 PM\nJordan · Volleyball practice\n\nJordan Rivera · Rise 14U Volleyball\n\nPRACTICE\nDEMO COMMITMENT\nFIXTURE\n\nSummit Courts · fictional Denver metro venue\n\nSportsEngine · DEMO\nDetails ↗\nPRACTICE\n5:15 PM\nto 6:30 PM\nAlex · Soccer practice\n\nAlex Rivera · Foothills U13 Soccer\n\nPRACTICE\nDEMO COMMITMENT\nFIXTURE\n\nWillow Creek Fields · Field 3 (fictional)\n\nPlayMetrics · DEMO\nDetails ↗\nPRACTICE\n6:30 PM\nto 8:00 PM\nTaylor · Volleyball practice\n\nTaylor Rivera · Rise 12U Volleyball\n\nPRACTICE\nDEMO COMMITMENT\nFIXTURE\n\nSummit Courts · fictional Denver metro venue\n\nSportsEngine · DEMO\nDetails ↗\nPRACTICE\nTUE, MAY 7 · UPCOMING\n4:15 PM\nto 5:30 PM\nTaylor · Soccer practice\n\nTaylor Rivera · Foothills U11 Soccer\n\nPRACTICE\nDEMO COMMITMENT\nFIXTURE\n\nWillow Creek Fields · fictional Denver metro venue\n\nPlayMetrics · DEMO\nDetails ↗\nPRACTICE\nSee the full calendar →'
+
+----------------------------------------------------------------------
+Ran 18 tests in 23.376s
+
+FAILED (failures=2)

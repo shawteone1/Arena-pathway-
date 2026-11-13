@@ -12,9 +12,9 @@ test('Nov 12 follow-up preserves directory, engine, original data, fixtures and 
  assert.equal(execFileSync('git',['diff',baseline,'--',...paths,...originalData],{encoding:'utf8'}),'');
  const previous=execFileSync('git',['show',baseline+':public/style.css'],{encoding:'utf8'}),current=readFileSync('public/style.css','utf8');assert.ok(current.startsWith(previous),'Approved CSS remains byte-preserved; additions only');
 });
-test('accepted directory HTML stays byte-identical while profile markup becomes card-based',async()=>{
+test('accepted directory HTML stays preserved apart from the approved scoped polish stylesheet',async()=>{
  const filename=new URL('../src/.profile-before-'+randomUUID()+'.mjs',import.meta.url);writeFileSync(filename,execFileSync('git',['show',baseline+':src/views.mjs']));
- try{const before=await import(filename.href);for(const sport of ['lacrosse','volleyball','basketball','swimming'])for(const section of [undefined,'youth','college']){const params=new URLSearchParams('region=all');assert.equal(sportPage(sport,section,params),before.sportPage(sport,section,params),sport+'/'+section);}}
+ try{const before=await import(filename.href);for(const sport of ['lacrosse','volleyball','basketball','swimming'])for(const section of [undefined,'youth','college']){const params=new URLSearchParams('region=all');assert.equal(sportPage(sport,section,params).replace('<link rel="stylesheet" href="/assets/ux-polish.css">',''),before.sportPage(sport,section,params),sport+'/'+section);}}
  finally{unlinkSync(filename);}
  const html=myPathway();for(const id of ['family-profile','profile-summary','profile-nav','module-customizer','profile-select','delete-profile'])assert.ok(html.includes('id="'+id+'"'));
  for(const id of ['teams','saved','schedules','media','camps','community','recruiting'])assert.ok(html.includes('id="template-'+id+'"'));

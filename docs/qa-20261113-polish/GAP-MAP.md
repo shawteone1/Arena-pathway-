@@ -1,0 +1,17 @@
+# Existing versus required — focused UX polish
+
+Baseline d3ed8609081124457e95e692ac8d6cac4721300b, clean codex/ap-qa-20261112. AGENTS.md and full approved North Star read; user explicitly requests this existing branch. No domain/data model, source, authentication or architecture change.
+
+| Area | Existing | Targeted correction |
+|---|---|---|
+| LockedIn | AP recreated a smaller in-memory demo. | Primary Open Interactive Demo links to the verified existing SC public experience. Preserve the AP pillar and earlier simulation behind a collapsed reference disclosure; no further simulation development. New tab keeps an obvious return path to AP; send no AP identifiers or data. |
+| Sport pages | Approved photos/content/complete directory, but small photo and plain text/outlined links. | Consistent photographic introduction, one discover primary action plus Create Your Pathway secondary action, readable editorial/resource cards and existing regional search. No new records or article imagery. |
+| SIEM entry | Small banner tour control; family setup elsewhere. | Prominent Start Guided Tour and clear fictional tour / own family setup / existing dashboard choices. Preserve returning users' direct scenario/section links. |
+| SIEM dashboard | Working Rivera/local engine, but small type and repeated source text. | iPad typography, spaced cards, recognizable controls and evidence disclosures. Keep athlete, activity, time, location and next action foremost; preserve all evidence/status. |
+| Shared polish | Square thin outlines, beige page surfaces, inconsistent padding. | Scoped lighter surfaces, AP navy/burgundy actions, collegiate display headings, rounded cards, subtle shadows and visible keyboard focus. Profile/records/data behavior is unchanged. |
+
+Read-only SC references: parent-home-polish.css blobf96ad451da9b23366b5aa552f671a196bbf57314 includes the documented October30 refinement and R2 professional social surface; member-experience-polish.css blobec1e3d3a24e85ec9acf2a0f011180623a4edf96c is explicitly the later October31 R3 and is supplementary, not mislabeled as an October27 decision archive. The exact October27–29 conversation decisions are not present here; no claim to have read them. Use the source's documented spacing, hierarchy, contrast, focus and touch patterns with AP's own branding.
+
+LockedIn source: src/pages/locked-in-demo.tsx blob6c5f69ce23572307c1acda8e17eaa48b0631201b mounts LockedInExperience blob674e7dd58d1b77174462e5d452adf0cadd177fda, whose iframe points to /locked-in/index.html (public HTML blob05b8265fd89e0610d01b850dafbc98996785ff8f). A fresh anonymous Chromium context verified that exact live URL, HTTP200, title “Locked In — Parent to club guided demo”, interactive provider cards, no password input and no sign-in redirect. The parent-portal wrapper also loaded, but the standalone entry avoids portal chrome/cookie overlay. Details in SC-ACCESS.json and anonymous screenshots. No SC source or service was modified.
+
+Latest user refinement: apply the same scoped visual treatment to existing parent/athlete/recruiting cards, navigation, form controls, dialogs and empty states. Retain their existing structures and data contracts. The established public SC homepage (src/pages/index.tsx blobd03dd4d619a81bcc84c562417c910f414ea931f0) provides the photographic editorial/clear-action quality reference. AP retains its own licensed sport photographs, Barlow collegiate headings, letterman logo, navy/burgundy actions and cream brand chrome.

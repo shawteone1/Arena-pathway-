@@ -1,0 +1,8 @@
+[
+  {
+    "suite": "polish-webkit",
+    "script": "qa-ux-polish.py",
+    "exitCode": 1,
+    "seconds": 95.18
+  }
+]

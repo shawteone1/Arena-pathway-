@@ -27,7 +27,7 @@ export function layout(title,content,page=''){
     <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#111827"><meta name="description" content="Your sport. Your path. One place. Discover Colorado teams and opportunities with a pathway built around your family.">
     <title>${esc(title)} | Arena Pathway</title>${icons}
-    <link rel="preload" href="/assets/fonts/barlow-condensed-bold.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="/assets/style.css"><script type="module" src="/assets/app.js"></script>
+    <link rel="preload" href="/assets/fonts/barlow-condensed-bold.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="/assets/style.css">${['sport','directory','resources','community','siem-platform','locked-in-demo','my-pathway','build'].includes(page)?'<link rel="stylesheet" href="/assets/ux-polish.css">':''}<script type="module" src="/assets/app.js"></script>
     </head><body data-page="${page}" data-brand-status="${brand.status}">
     <a class="skip" href="#main">Skip to content</a>
     <div class="topline"><span>COLORADO ROOTS.</span><span>COLLEGIATE AMBITION.</span></div>

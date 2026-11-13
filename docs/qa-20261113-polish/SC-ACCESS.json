@@ -1,0 +1,40 @@
+[
+  {
+    "requestedURL": "https://soccercenter.org/locked-in/index.html",
+    "finalURL": "https://soccercenter.org/locked-in/index.html",
+    "status": 200,
+    "title": "Locked In \u2014 Parent to club guided demo",
+    "headings": [
+      "Add once. Stay in control."
+    ],
+    "passwordInputs": 0,
+    "buttons": [
+      "National Sports IDIdentity & ageAdd a sample ID, then see an age-verification result.\uff0b Add sample information",
+      "Box \u00b7 Parent-controlled storageHealth careAdd sample health details. The club gets read-only access after you approve.\uff0b Add sample information",
+      "FiservPaymentAdd a sample payment method. Full card details stay with the payment provider.\uff0b Add sample information",
+      "Continue to club requirements \u2192",
+      "Reset demo"
+    ],
+    "excerpt": "SOCCER CENTER\n\u25a3 LOCKED IN\nINTERACTIVE DEMO \u00b7 Fictional records only \u00b7 No live verification, uploads, payments or integrations\n1 \u00b7 Your information\n2 \u00b7 Club requirements\n3 \u00b7 Review & share\n4 \u00b7 Club handoff\nMEETING DEMO \u00b7 SAMPLE CLUB\n\nJordan Taylor \u00b7 Colorado Storm \u00b7 Fall season\n\nAdd once. Stay in control.\n\nClick each card to add a sample record and see its confirmation. Your club receives only what you authorize.\n\nNational Sports ID\nIdentity & age\n\nAdd a sample ID, then see an age-verification result.\n\n\uff0b Add sample information\nBox \u00b7 Parent-controlled storage\nHealth care\n\nAdd sample health details. The club gets read-only access after you approve.\n\n\uff0b Add sample information\nFiserv\nPayment\n\nAdd a sample payment method. Full card details stay with the payment provider.\n\n\uff0b Add sample information\n0 of 3 ready \u00b7 Click a completed card to inspect it.\nContinue to club requirements \u2192\n\nReset demo\n\nProposed workflow. Provider agreements, club acceptance and integrations require validation. No partnership is implied."
+  },
+  {
+    "requestedURL": "https://soccercenter.org/parent-portal/locked-in-demo",
+    "finalURL": "https://soccercenter.org/parent-portal/locked-in-demo",
+    "status": 200,
+    "title": "Locked In Demo \u2014 Soccer Center Parent Portal",
+    "headings": [
+      "Locked In Demo \u2014 Soccer Center Parent Portal"
+    ],
+    "passwordInputs": 0,
+    "buttons": [
+      "Switch to Fan Arena",
+      "Reset demo",
+      "Back to Parent Portal",
+      "Reset demo",
+      "Back to Parent Portal",
+      "Decline",
+      "Accept"
+    ],
+    "excerpt": "PARENT PORTAL\nSwitch to Fan Arena\nLocked In Demo \u2014 Soccer Center Parent Portal\nInteractive demonstration \u2014 sample data\nReset demo\nBack to Parent Portal\nInteractive concept \u00b7 fictional data only\nReset demo\nBack to Parent Portal\nCookie Consent\n\nWe serve cookies. We use tools, such as cookies, to enable essential services and functionality on our site and to collect data on how visitors interact with our site, products and services. By clicking Accept, you agree to our use of these tools for advertising, analytics and support.\n\nDecline\nAccept"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "automated": {
+    "check": "passed",
+    "npmTest": {
+      "passed": 233,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "browsers": {
+    "chromium": {
+      "passed": 135,
+      "failed": 0,
+      "suites": 12
+    },
+    "webkit": {
+      "passed": 60,
+      "failed": 0,
+      "suites": 8
+    }
+  }
+}

@@ -1,0 +1,100 @@
+test_polish_01_primary_locked_demo_is_external_and_local_reference_is_preserved (__main__.Polish.test_polish_01_primary_locked_demo_is_external_and_local_reference_is_preserved) ... ok
+test_polish_02_four_sport_heroes_and_full_directories_respond (__main__.Polish.test_polish_02_four_sport_heroes_and_full_directories_respond) ... FAIL
+test_polish_03_entry_distinguishes_tour_setup_and_existing_dashboard (__main__.Polish.test_polish_03_entry_distinguishes_tour_setup_and_existing_dashboard) ... ERROR
+test_polish_04_direct_calendar_preserves_local_family_and_tour_is_fictional (__main__.Polish.test_polish_04_direct_calendar_preserves_local_family_and_tour_is_fictional) ... ERROR
+test_polish_05_ipad_readability_focus_and_evidence_disclosure (__main__.Polish.test_polish_05_ipad_readability_focus_and_evidence_disclosure) ... ERROR
+
+======================================================================
+ERROR: test_polish_03_entry_distinguishes_tour_setup_and_existing_dashboard (__main__.Polish.test_polish_03_entry_distinguishes_tour_setup_and_existing_dashboard)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-ux-polish.py", line 19, in test_polish_03_entry_distinguishes_tour_setup_and_existing_dashboard
+    self.basic();p=self.page;before=self.state();p.goto(base.base.BASE+'/my-ap');p.wait_for_selector('#platform-entry:not([hidden])');entry=p.locator('#platform-entry');self.assertTrue(entry.get_by_role('link',name='Set Up My Family',exact=True).is_visible());self.assertEqual(entry.get_by_role('link',name='Set Up My Family',exact=True).get_attribute('href'),'/siem/setup');entry.get_by_role('button',name='Start Guided Tour',exact=True).click();self.assertTrue(p.locator('#siem-tour').evaluate('(e)=>e.open'));self.assertEqual(p.locator('#platform-scenario').input_value(),'family');p.locator('#siem-tour').get_by_role('button',name='Next',exact=True).click();p.locator('#siem-tour').get_by_role('button',name='Back',exact=True).click();self.assertIn('Step 1 of 6',p.locator('#siem-tour').inner_text());p.locator('#siem-tour').get_by_role('button',name='Skip',exact=True).click();entry.get_by_role('button',name='Explore Dashboard',exact=True).click();self.assertFalse(entry.is_visible());self.assertTrue(p.locator('.ap-tour-discover').is_visible());self.assertEqual(self.state(),before)
+                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9033, in wait_for_selector
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py", line 427, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 394, in wait_for_selector
+    await self._channel.send(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#platform-entry:not([hidden])") to be visible
+
+
+======================================================================
+ERROR: test_polish_04_direct_calendar_preserves_local_family_and_tour_is_fictional (__main__.Polish.test_polish_04_direct_calendar_preserves_local_family_and_tour_is_fictional)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-ux-polish.py", line 21, in test_polish_04_direct_calendar_preserves_local_family_and_tour_is_fictional
+    athlete=self.basic();p=self.page;before=self.state();p.goto(base.base.BASE+'/my-ap?scenario=local&section=calendar');p.wait_for_selector('#platform-calendar');self.assertFalse(p.locator('#platform-entry').is_visible());p.get_by_role('button',name='Start Guided Tour',exact=True).click();self.assertEqual(p.locator('#platform-scenario').input_value(),'family');p.locator('#siem-tour').get_by_role('button',name='Skip',exact=True).click();self.assertEqual(self.state(),before);self.assertEqual(self.state()['active'],athlete)
+                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9033, in wait_for_selector
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py", line 427, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 394, in wait_for_selector
+    await self._channel.send(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#platform-calendar") to be visible
+
+
+======================================================================
+ERROR: test_polish_05_ipad_readability_focus_and_evidence_disclosure (__main__.Polish.test_polish_05_ipad_readability_focus_and_evidence_disclosure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-ux-polish.py", line 23, in test_polish_05_ipad_readability_focus_and_evidence_disclosure
+    p=self.page;p.goto(base.base.BASE+'/my-ap?scenario=family&mode=command');p.wait_for_selector('.ap-feed');heading=p.locator('#platform-calendar .ap-activity h3').first;self.assertGreaterEqual(heading.evaluate('(e)=>parseFloat(getComputedStyle(e).fontSize)'),16);self.assertGreaterEqual(p.locator('.ap-tour-discover').bounding_box()['height'],44);p.locator('.ap-tour-discover').focus();self.assertNotEqual(p.locator('.ap-tour-discover').evaluate('(e)=>getComputedStyle(e).outlineStyle'),'none');self.assertFalse(p.locator('.ap-action-evidence').first.evaluate('(e)=>e.open'));p.locator('.ap-action-evidence>summary').first.click();self.assertIn('DEMO',p.locator('.ap-action-evidence').first.inner_text())
+                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9033, in wait_for_selector
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py", line 427, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 394, in wait_for_selector
+    await self._channel.send(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".ap-feed") to be visible
+
+
+======================================================================
+FAIL: test_polish_02_four_sport_heroes_and_full_directories_respond (__main__.Polish.test_polish_02_four_sport_heroes_and_full_directories_respond)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-ux-polish.py", line 16, in test_polish_02_four_sport_heroes_and_full_directories_respond
+    p.set_viewport_size({'width':width,'height':height});p.goto(base.base.BASE+'/sports/'+sport);p.wait_for_selector('.directory-records>article');p.wait_for_function('()=>document.querySelector(".directory-photo img").complete');image=p.locator('.directory-photo img');self.assertGreater(image.evaluate('(e)=>e.naturalWidth'),0);self.assertIn('/photos/'+sport,image.get_attribute('src'));self.assertFalse(p.evaluate('document.documentElement.scrollWidth>innerWidth+1'),sport+str(width));counts.append(p.locator('.directory-records>article').count());self.assertEqual(p.locator('.participation-nav').get_by_role('link',name='Sport Home',exact=True).get_attribute('aria-current'),'page');create=p.get_by_role('link',name='Create Your Pathway',exact=True);self.assertIn('sport='+sport,create.get_attribute('href'));self.assertGreaterEqual(create.bounding_box()['height'],44);p.get_by_role('link',name='Explore clubs & programs',exact=False).click();self.assertTrue(p.locator('#sport-directory form').is_visible());self.assertGreaterEqual(p.locator('.sport-news-card').count(),1);self.assertEqual(p.locator('.sport-news-card img').count(),0)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 'page'
+
+----------------------------------------------------------------------
+Ran 5 tests in 95.017s
+
+FAILED (failures=1, errors=3)

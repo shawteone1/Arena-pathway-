@@ -1,0 +1,279 @@
+{
+  "baseline": "d3ed8609081124457e95e692ac8d6cac4721300b",
+  "engine": "webkit",
+  "version": "26.5",
+  "screenshots": [
+    {
+      "file": "screenshots/webkit-before-lacrosse-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-before-sport-navigation-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": ".sport-pathways"
+    },
+    {
+      "file": "screenshots/webkit-before-sport-editorial-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": ".sport-editorial"
+    },
+    {
+      "file": "screenshots/webkit-before-lacrosse-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-before-lacrosse-iphone.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-before-siem-entry-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-before-siem-tour-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-before-siem-actions-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#platform-actions"
+    },
+    {
+      "file": "screenshots/webkit-before-siem-calendar-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#platform-calendar"
+    },
+    {
+      "file": "screenshots/webkit-before-siem-messages-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#platform-content"
+    },
+    {
+      "file": "screenshots/webkit-before-lockedin-entry-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-before-parent-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-before-athlete-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-before-athlete-overview-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#overview"
+    },
+    {
+      "file": "screenshots/webkit-before-recruiting-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-before-siem-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-before-siem-iphone.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-after-lacrosse-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-after-sport-navigation-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": ".sport-pathways"
+    },
+    {
+      "file": "screenshots/webkit-after-sport-editorial-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": ".sport-editorial"
+    },
+    {
+      "file": "screenshots/webkit-after-lacrosse-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-after-lacrosse-iphone.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-after-siem-entry-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-after-siem-tour-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-after-siem-actions-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#platform-actions"
+    },
+    {
+      "file": "screenshots/webkit-after-siem-calendar-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#platform-calendar"
+    },
+    {
+      "file": "screenshots/webkit-after-siem-messages-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#platform-content"
+    },
+    {
+      "file": "screenshots/webkit-after-lockedin-entry-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-after-parent-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-after-athlete-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-after-athlete-overview-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#overview"
+    },
+    {
+      "file": "screenshots/webkit-after-recruiting-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-after-siem-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/webkit-after-siem-iphone.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "componentCrop": null
+    }
+  ]
+}

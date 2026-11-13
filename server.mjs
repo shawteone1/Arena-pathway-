@@ -14,6 +14,7 @@ import {engineCoverageHTML} from './src/engine-views.mjs';
 import {photography,brand} from './src/presentation.mjs';
 import { esc, layout, home, sportPage, builder, advancedBuilder, myPathway, dataPage, credits, organizationPage, classificationPage } from './src/views.mjs';
 const assets = { 'style.css':'text/css; charset=utf-8', 'app.js':'text/javascript; charset=utf-8', 'state.js':'text/javascript; charset=utf-8', 'regions.js':'text/javascript; charset=utf-8', 'stadium.jpg':'image/jpeg' };
+assets['ux-polish.css']='text/css; charset=utf-8';
 assets['siem-platform.css']='text/css; charset=utf-8';
 for(const name of ['schedule-presentation.js','meet-sessions.js','swimming-progress.js','lockedin-demo.js','lockedin-demo-model.js','siem-guidance.js','college-research.js','athlete-journey.js','content-library.js','local-family-calendar.js','profile-qa.js','athlete-records.js','media-library.js','calendar-import.js','recurring-plans.js','siem-calendar.js','siem-platform-boot.js','siem-family-fixtures.js','siem-platform.js','siem-platform-model.js','siem-platform-fixtures.js','siem.js','siem-model.js','release-demo.js','release-demo-model.js'])assets[name]='text/javascript; charset=utf-8';
 assets['fonts/barlow-condensed-bold.ttf']='font/ttf';
