@@ -1,0 +1,33 @@
+test_calendar_ranges_activity_labels_and_messages (__main__.ConformanceQA.test_calendar_ranges_activity_labels_and_messages) ... ok
+test_exact_route_fresh_modern_and_legacy_initialization (__main__.ConformanceQA.test_exact_route_fresh_modern_and_legacy_initialization) ... ok
+test_home_siem_opens_latest_family_and_four_sections (__main__.ConformanceQA.test_home_siem_opens_latest_family_and_four_sections) ... FAIL
+test_keyboard_privacy_settings_and_no_real_connection (__main__.ConformanceQA.test_keyboard_privacy_settings_and_no_real_connection) ... ok
+test_legacy_routes_and_local_family_setup_preserve_data (__main__.ConformanceQA.test_legacy_routes_and_local_family_setup_preserve_data) ... ok
+test_navigation_preserves_actions_filters_and_source_drilldown (__main__.ConformanceQA.test_navigation_preserves_actions_filters_and_source_drilldown) ... ok
+test_profile_edit_waits_for_stored_identity_before_accepting_input (__main__.ConformanceQA.test_profile_edit_waits_for_stored_identity_before_accepting_input) ... ok
+test_quick_athlete_profile_edit_shared_identity_and_club_save (__main__.ConformanceQA.test_quick_athlete_profile_edit_shared_identity_and_club_save) ... ok
+test_recruiting_is_independent_and_reuses_one_athlete (__main__.ConformanceQA.test_recruiting_is_independent_and_reuses_one_athlete) ... FAIL
+test_responsive_sections_modes_and_ipad_screenshots (__main__.ConformanceQA.test_responsive_sections_modes_and_ipad_screenshots) ... ok
+test_sc_calendar_controls_colors_and_event_task_navigation (__main__.ConformanceQA.test_sc_calendar_controls_colors_and_event_task_navigation) ... ok
+test_sport_entry_full_results_search_regions_mobile (__main__.ConformanceQA.test_sport_entry_full_results_search_regions_mobile) ... ok
+
+======================================================================
+FAIL: test_home_siem_opens_latest_family_and_four_sections (__main__.ConformanceQA.test_home_siem_opens_latest_family_and_four_sections)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-my-ap.py", line 48, in test_home_siem_opens_latest_family_and_four_sections
+    self.assertIn('Slack DEMO',self.page.locator('[data-section=communications]').inner_text())
+AssertionError: 'Slack DEMO' not found in 'THE USEFUL PART OF THE CONVERSATION\n\nCommunications overview\nAlex RiveraSIMULATED NOTICEUPDATE\n\nDEMO Slack announcement: Alex’s U13 practice is now 5:15 PM at Willow Creek Field 3. This confirms the fixture calendar change; review the shared pickup plan.\n\nSlack · Mon, May 6 · 7:43 AM MT\n\nAlex practice moved · logistics channel\n\nFoothills United Soccer · fictional · 7:43 AM\n\nRelated to 1 authorized activities.\n\nOpen related activities →\nSource evidence · Slack\n\nReply capability: local draft only. Slack OAuth and workspace authorization are not connected.\n\nSave demo reply draft\nTaylor RiveraSIMULATED NOTICEACTION REQUIRED\n\nDEMO Slack: Casey can take Alex. Can Drew cover Jordan’s 6:15 pickup and Taylor’s 6:10 arrival? Confirm a plan before replying. No message has been sent.\n\nSlack · Mon, May 6 · 7:48 AM MT\n\nConfirm Monday carpool coverage\n\nFront Range Rise Volleyball · fictional · 8:05 AM\n\nRelated to 3 authorized activities.\n\nOpen related activities →\n\nReview the overlap and approve a simulated carpool reply\n\nSource evidence · Slack\n\nReply capability: local draft only. Slack OAuth and workspace authorization are not connected.\n\nSave demo reply draft\nAlex RiveraSIMULATED NOTICEUPDATE\n\nDEMO PlayMetrics team announcement: Thursday 8:15 PM planning meeting is listed in the family TeamSnap calendar. No joining link or real message.\n\nPlayMetrics · Mon, May 6 · 7:40 AM MT\n\nSoccer team planning announcement\n\nFoothills United Soccer · fictional · 7:41 AM\n\nRelated to 1 authorized activities.\n\nOpen related activities →\nSource evidence · PlayMetrics\nJordan RiveraSIMULATED NOTICEUPDATE\n\nDEMO TeamSnap communication: confirm the volleyball tournament RSVP by Friday and review the 7:15 AM arrival plan.\n\nTeamSnap · Mon, May 6 · 7:40 AM MT\n\nWeekend availability and RSVP reminder\n\nFront Range Rise Volleyball · fictional · 7:46 AM\n\nRelated to 2 authorized activities.\n\nOpen related activities →\nSource evidence · TeamSnap'
+
+======================================================================
+FAIL: test_recruiting_is_independent_and_reuses_one_athlete (__main__.ConformanceQA.test_recruiting_is_independent_and_reuses_one_athlete)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-conformance.py", line 114, in test_recruiting_is_independent_and_reuses_one_athlete
+    self.assertTrue(self.page.get_by_role('heading',name='Start with college research').is_visible())
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 12 tests in 21.570s
+
+FAILED (failures=2)

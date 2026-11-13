@@ -1,0 +1,48 @@
+test_action_detail_duplicate_and_scenario_state_isolation (__main__.FamilyQA.test_action_detail_duplicate_and_scenario_state_isolation) ... FAIL
+test_alert_scan_lines_timeline_and_touch_targets (__main__.FamilyQA.test_alert_scan_lines_timeline_and_touch_targets) ... ok
+test_child_team_sport_and_source_filters (__main__.FamilyQA.test_child_team_sport_and_source_filters) ... ok
+test_compact_filters_keyboard_scope_and_disclosure (__main__.FamilyQA.test_compact_filters_keyboard_scope_and_disclosure) ... ok
+test_family_cross_feed_change_and_sources (__main__.FamilyQA.test_family_cross_feed_change_and_sources) ... ok
+test_family_privacy_and_no_provider_requests (__main__.FamilyQA.test_family_privacy_and_no_provider_requests) ... ok
+test_feed_health_refresh_and_pause (__main__.FamilyQA.test_feed_health_refresh_and_pause) ... ok
+test_first_screen_and_capture_comparison (__main__.FamilyQA.test_first_screen_and_capture_comparison) ... FAIL
+test_keyboard_labels_touch_targets_and_dialog_focus (__main__.FamilyQA.test_keyboard_labels_touch_targets_and_dialog_focus) ... ok
+test_modes_scenarios_and_responsive_layouts (__main__.FamilyQA.test_modes_scenarios_and_responsive_layouts) ... ok
+test_no_provider_requests_or_family_storage_changes (__main__.FamilyQA.test_no_provider_requests_or_family_storage_changes) ... ok
+test_phone_full_calendar_and_action_controls_remain_available (__main__.FamilyQA.test_phone_full_calendar_and_action_controls_remain_available) ... ok
+test_privacy_redacts_dom_details_and_display_defaults (__main__.FamilyQA.test_privacy_redacts_dom_details_and_display_defaults) ... ok
+test_role_and_organization_isolation (__main__.FamilyQA.test_role_and_organization_isolation) ... ok
+test_sidebar_keyboard_touch_and_ipad_default (__main__.FamilyQA.test_sidebar_keyboard_touch_and_ipad_default) ... ok
+test_signature_modes_devices_and_screenshots (__main__.FamilyQA.test_signature_modes_devices_and_screenshots) ... FAIL
+test_simulated_approval_no_sending_and_reset (__main__.FamilyQA.test_simulated_approval_no_sending_and_reset) ... ok
+test_tournament_arrival_rsvp_and_locked_in_status (__main__.FamilyQA.test_tournament_arrival_rsvp_and_locked_in_status) ... ok
+
+======================================================================
+FAIL: test_action_detail_duplicate_and_scenario_state_isolation (__main__.FamilyQA.test_action_detail_duplicate_and_scenario_state_isolation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-siem-platform.py", line 51, in test_action_detail_duplicate_and_scenario_state_isolation
+    self.assertIn('Source identity',self.page.locator('#platform-detail').inner_text())
+AssertionError: 'Source identity' not found in 'ACTIVITY DETAIL / DEMO ONLY\n\nClose details\nAlex · Swim training\nParticipant\nAlex Morgan\nOrganization\nMorgan family\nTime\nMon, May 6 · 8:45 AM–9:45 AM MT\nLocation\nEast Training Center · Court 2\nSource record & permissions\n\nNo original provider link exists for this fictional fixture.\n\nVersion history\n\nBefore · 8:30 AM · North Training Center\n\nCurrent · 8:45 AM · East Training Center · Court 2\n\nRelated activities\nOpen event: Training venue moved to East Center · 7:45 AMOpen event: Alex · Swim training · 8:45 AM\nRelated tasks\nReview task: Review the new training venueReview task: Review the new training venueReview task: Review the new training venue\n\nDemo permission controls are not authentication. Real integrations require server-enforced authorization.'
+
+======================================================================
+FAIL: test_first_screen_and_capture_comparison (__main__.FamilyQA.test_first_screen_and_capture_comparison)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-siem-refinement.py", line 33, in test_first_screen_and_capture_comparison
+    self.assertLess(measurements['nextActionBottom'],height,str((label,kind,mode,measurements)))
+AssertionError: 878.34375 not less than 844 : ('phone', 'parent', 'everyday', {'kpiHeight': 51, 'commitmentTop': 570.625, 'commitmentTitleBottom': 598.125, 'actionTop': 756.421875, 'actionTitleBottom': 805.96875, 'nextActionBottom': 878.34375})
+
+======================================================================
+FAIL: test_signature_modes_devices_and_screenshots (__main__.FamilyQA.test_signature_modes_devices_and_screenshots)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-siem-family.py", line 31, in test_signature_modes_devices_and_screenshots
+    else:self.assertIn('SportsEngine DEMO',self.page.locator('[data-section=calendar]').inner_text())
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'SportsEngine DEMO' not found in 'YOUR NEXT COMMITMENTS\n\nWhat’s next?\nTODAY\nTODAY · MON, MAY 6\n4:45 PM\nto 6:15 PM\nJordan · Volleyball practice\n\nJordan Rivera · Rise 14U Volleyball\n\nPRACTICE\nDEMO COMMITMENT\nFIXTURE\nSource evidence · SportsEngine\nDetails ↗\nPRACTICE\n5:15 PM\nto 6:30 PM\nAlex · Soccer practice\n\nAlex Rivera · Foothills U13 Soccer\n\nPRACTICE\nDEMO COMMITMENT\nFIXTURE\nSource evidence · PlayMetrics\nDetails ↗\nPRACTICE\n6:30 PM\nto 8:00 PM\nTaylor · Volleyball practice\n\nTaylor Rivera · Rise 12U Volleyball\n\nPRACTICE\nDEMO COMMITMENT\nFIXTURE\nSource evidence · SportsEngine\nDetails ↗\nPRACTICE\nTUE, MAY 7 · UPCOMING\n4:15 PM\nto 5:30 PM\nTaylor · Soccer practice\n\nTaylor Rivera · Foothills U11 Soccer\n\nPRACTICE\nDEMO COMMITMENT\nFIXTURE\nSource evidence · PlayMetrics\nDetails ↗\nPRACTICE\nSee the full calendar →'
+
+----------------------------------------------------------------------
+Ran 18 tests in 23.312s
+
+FAILED (failures=3)

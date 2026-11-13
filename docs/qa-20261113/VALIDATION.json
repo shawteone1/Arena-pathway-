@@ -1,0 +1,143 @@
+{
+  "baseline": "9733b608321529448be64981729e9e4bad5a76eb",
+  "branch": "codex/ap-qa-20261112",
+  "finalResults": [
+    {
+      "suite": "check",
+      "passed": 225,
+      "failed": 0,
+      "log": "logs/check.log"
+    },
+    {
+      "suite": "test",
+      "passed": 225,
+      "failed": 0,
+      "log": "logs/test.log"
+    },
+    {
+      "suite": "consolidated-chromium",
+      "passed": 8,
+      "failed": 0,
+      "log": "logs/consolidated-chromium.log"
+    },
+    {
+      "suite": "acceptance-chromium",
+      "passed": 12,
+      "failed": 0,
+      "log": "logs/acceptance-chromium.log"
+    },
+    {
+      "suite": "rc-chromium",
+      "passed": 2,
+      "failed": 0,
+      "log": "logs/rc-chromium.log"
+    },
+    {
+      "suite": "profile-chromium",
+      "passed": 8,
+      "failed": 0,
+      "log": "logs/profile-chromium.log"
+    },
+    {
+      "suite": "conformance-chromium",
+      "passed": 12,
+      "failed": 0,
+      "log": "logs/conformance-chromium.log"
+    },
+    {
+      "suite": "siem-family-chromium",
+      "passed": 18,
+      "failed": 0,
+      "log": "logs/siem-family-chromium.log"
+    },
+    {
+      "suite": "release-chromium",
+      "passed": 20,
+      "failed": 0,
+      "log": "logs/release-chromium.log"
+    },
+    {
+      "suite": "siem-platform-chromium",
+      "passed": 7,
+      "failed": 0,
+      "log": "logs/siem-platform-chromium.log"
+    },
+    {
+      "suite": "siem-refinement-chromium",
+      "passed": 12,
+      "failed": 0,
+      "log": "logs/siem-refinement-chromium.log"
+    },
+    {
+      "suite": "acquisition-chromium",
+      "passed": 23,
+      "failed": 0,
+      "log": "logs/acquisition-chromium.log"
+    },
+    {
+      "suite": "consolidated-webkit",
+      "passed": 8,
+      "failed": 0,
+      "log": "logs/consolidated-webkit.log"
+    },
+    {
+      "suite": "acceptance-webkit",
+      "passed": 12,
+      "failed": 0,
+      "log": "logs/acceptance-webkit.log"
+    },
+    {
+      "suite": "rc-webkit",
+      "passed": 2,
+      "failed": 0,
+      "log": "logs/rc-webkit.log"
+    },
+    {
+      "suite": "profile-webkit",
+      "passed": 8,
+      "failed": 0,
+      "log": "logs/profile-webkit.log"
+    },
+    {
+      "suite": "conformance-webkit",
+      "passed": 12,
+      "failed": 0,
+      "log": "logs/conformance-webkit.log"
+    },
+    {
+      "suite": "siem-webkit",
+      "passed": 5,
+      "failed": 0,
+      "log": "logs/siem-webkit.log"
+    }
+  ],
+  "chromiumExecutions": 122,
+  "webkitExecutions": 47,
+  "finalFailures": 0,
+  "countsAreExecutionsNotUniqueCases": true,
+  "physicalDeviceTested": false,
+  "soccerCenterChanged": false,
+  "pushed": false,
+  "deployed": false,
+  "content": {
+    "candidateSources": 40,
+    "approvedSources": 19,
+    "inactiveSources": 21,
+    "approvedWrittenItems": 21,
+    "approvedVideos": 0,
+    "approvedImages": 0,
+    "liveFeedConnections": 0,
+    "publicationTimestamps": 8,
+    "unknownNewsPublicationTimes": 6,
+    "sourceApprovalsUnchangedFrom": "9733b60",
+    "defaultSubscriptions": 0,
+    "videoApprovalSourceCandidatesOutstanding": 20,
+    "preservedSha256": {
+      "data/content-review.json": "3357a1a7bec71092ea3f25dbbff00bbf189cb69c02583f522d3838c2f1e89643",
+      "data/sport-content-sources.json": "4752aeae8208ecf8d7725cb3f05db293e466d86bc14cee908a0cf52ca9c1fadf",
+      "data/engine/registry.json": "deef5e9d0ef4527340fcdbb5e96bdcb7943fff448e264724f6f58dd84a90616c",
+      "data/catalog.json": "0268288b50e54f60db1521c30d4e3e13c3cf029213d4a38fd2faaa4bb27db8fa",
+      "data/unified/catalog.json": "2ecb18e222b0a85ae2b32c366737c25c1a0f012b0e3050940af6863abd589185"
+    }
+  }
+}

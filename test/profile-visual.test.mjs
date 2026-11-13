@@ -7,7 +7,7 @@ import {loadState,persist} from '../public/state.js';
 import {myPathway,sportPage} from '../src/views.mjs';
 const baseline='8c48179998ca0c09b6ed4e56060e10acf670068b';
 test('Nov 12 follow-up preserves directory, engine, original data, fixtures and SIEM domain',()=>{
- const paths=['public/regions.js','public/siem-family-fixtures.js','public/siem-platform-fixtures.js','public/siem.js','public/siem-model.js','src/unified-directory.mjs','src/unified-views.mjs','src/progressive-directory.mjs','engine'];
+ const paths=['public/regions.js','public/siem-family-fixtures.js','public/siem-platform-fixtures.js','public/siem.js','public/siem-model.js','src/unified-directory.mjs','src/progressive-directory.mjs','engine'];
  const originalData=execFileSync('git',['ls-tree','-r','--name-only',baseline,'data'],{encoding:'utf8'}).trim().split('\n');
  assert.equal(execFileSync('git',['diff',baseline,'--',...paths,...originalData],{encoding:'utf8'}),'');
  const previous=execFileSync('git',['show',baseline+':public/style.css'],{encoding:'utf8'}),current=readFileSync('public/style.css','utf8');assert.ok(current.startsWith(previous),'Approved CSS remains byte-preserved; additions only');

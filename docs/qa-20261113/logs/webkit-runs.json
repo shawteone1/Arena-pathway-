@@ -1,0 +1,40 @@
+[
+  {
+    "suite": "consolidated-webkit",
+    "script": "qa-consolidated.py",
+    "exitCode": 0,
+    "seconds": 20.52,
+    "finalRerun": true
+  },
+  {
+    "suite": "acceptance-webkit",
+    "script": "qa-acceptance-refinement.py",
+    "exitCode": 0,
+    "seconds": 30.09,
+    "finalRerun": true
+  },
+  {
+    "suite": "rc-webkit",
+    "script": "qa-release-candidate.py",
+    "exitCode": 0,
+    "seconds": 10.93
+  },
+  {
+    "suite": "profile-webkit",
+    "script": "qa-profile-visual.py",
+    "exitCode": 0,
+    "seconds": 10.13
+  },
+  {
+    "suite": "conformance-webkit",
+    "script": "qa-conformance.py",
+    "exitCode": 0,
+    "seconds": 21.48
+  },
+  {
+    "suite": "siem-webkit",
+    "script": "qa-siem-webkit.py",
+    "exitCode": 0,
+    "seconds": 7.09
+  }
+]

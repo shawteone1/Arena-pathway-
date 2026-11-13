@@ -48,6 +48,7 @@ class PlatformQA(unittest.TestCase):
         self.page.locator('[data-alert=changed]').get_by_role('button',name='Review details').click()
         self.assertTrue(self.page.locator('#platform-detail').is_visible())
         self.assertIn('Version history',self.page.locator('#platform-detail').inner_text())
+        self.page.locator('#platform-detail .ap-technical-details>summary').click()
         self.assertIn('Source identity',self.page.locator('#platform-detail').inner_text())
         self.page.keyboard.press('Escape')
         self.assertFalse(self.page.locator('#platform-detail').is_visible())

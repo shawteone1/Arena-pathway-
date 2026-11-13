@@ -1,0 +1,40 @@
+{
+  "repository": "shawteone1/Soccer-Center",
+  "commit": "11de067414e63c5d3e3e221dfc14cc026dfbd8d0",
+  "latestMainChecked": true,
+  "readOnly": true,
+  "files": [
+    {
+      "path": "src/pages/parent-portal-player-create.tsx"
+    },
+    {
+      "path": "src/components/portal/PlayerScheduleTab.tsx"
+    },
+    {
+      "path": "src/components/portal/UnifiedFeedWall.tsx"
+    },
+    {
+      "path": "src/components/portal/PpSourceFeed.tsx"
+    },
+    {
+      "path": "src/components/portal/PpCommunityTab.tsx"
+    },
+    {
+      "path": "src/components/portal/RecruitingTab.tsx"
+    },
+    {
+      "path": "src/components/portal/LockedInWalkthrough.tsx"
+    },
+    {
+      "path": "public/locked-in/model.mjs"
+    },
+    {
+      "path": "public/locked-in/locked-in.js"
+    },
+    {
+      "path": "src/pages/index.tsx"
+    }
+  ],
+  "visualReference": "Original user-supplied Nov12 iPad captures: SC editorial feed, club/season/age/player details and optional calendar, college gender/division menus; AP feed/profile/schedule/stats/media captures. These replace the older source-rendered fixture as acceptance reference.",
+  "limitations": "Comparison is source-level and visual hierarchy against supplied images, not a claim of pixel equality or SC production runtime testing."
+}

@@ -1,0 +1,12 @@
+test_action_detail_duplicate_and_scenario_state_isolation (__main__.PlatformQA.test_action_detail_duplicate_and_scenario_state_isolation) ... ok
+test_feed_health_refresh_and_pause (__main__.PlatformQA.test_feed_health_refresh_and_pause) ... ok
+test_keyboard_labels_touch_targets_and_dialog_focus (__main__.PlatformQA.test_keyboard_labels_touch_targets_and_dialog_focus) ... ok
+test_modes_scenarios_and_responsive_layouts (__main__.PlatformQA.test_modes_scenarios_and_responsive_layouts) ... ok
+test_no_provider_requests_or_family_storage_changes (__main__.PlatformQA.test_no_provider_requests_or_family_storage_changes) ... ok
+test_privacy_redacts_dom_details_and_display_defaults (__main__.PlatformQA.test_privacy_redacts_dom_details_and_display_defaults) ... ok
+test_role_and_organization_isolation (__main__.PlatformQA.test_role_and_organization_isolation) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 10.675s
+
+OK

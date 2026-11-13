@@ -111,8 +111,9 @@ class ConformanceQA(base['MyAPQA']):
         self.assertEqual(saved['saved'],['fst']);self.assertEqual(saved['recruiting']['notes'],'Retain notes')
     def test_recruiting_is_independent_and_reuses_one_athlete(self):
         self.page.goto(BASE+'/recruiting')
-        self.assertTrue(self.page.get_by_role('heading',name='Start with college research').is_visible())
-        self.assertEqual(self.page.locator('[aria-label="College directories"] a').count(),4)
+        self.page.wait_for_selector('#college-research')
+        self.assertTrue(self.page.get_by_role('heading',name='College research · optional',exact=True).is_visible())
+        self.assertEqual(self.page.get_by_label('Recruiting sport',exact=True).locator('option').count(),4)
         self.assertIsNone(self.page.evaluate('localStorage.getItem("arenaPathway.v2")'))
         self.page.goto(BASE+'/build?new=1');self.page.locator('#nickname').fill('Recruiting test athlete')
         self.page.locator('.athlete-participation summary').click()

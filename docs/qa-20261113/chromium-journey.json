@@ -1,0 +1,97 @@
+{
+  "version": 2,
+  "profiles": [
+    {
+      "id": "1e2e5783-6f3e-4cb3-bb23-39035429fb81",
+      "saved": [
+        "du-lacrosse-men"
+      ],
+      "plans": [
+        {
+          "id": "248e689a-ab42-4101-a74e-15df36212bf2",
+          "name": "Family recurring practice",
+          "start": "2026-11-16",
+          "end": "2026-11-16",
+          "kind": "other",
+          "repeat": "weekly",
+          "until": "2026-11-30",
+          "interval": 1,
+          "days": [
+            1
+          ],
+          "startTime": "",
+          "endTime": "",
+          "note": "",
+          "createdAt": "2026-11-13T01:23:51.607Z",
+          "excludedDates": [],
+          "overrides": {}
+        },
+        {
+          "id": "ebc07b1f-5875-429d-95f0-34452760fcaf",
+          "name": "Family tournament",
+          "start": "2026-11-19",
+          "end": "2026-11-19",
+          "kind": "tournament",
+          "repeat": "none",
+          "until": null,
+          "interval": 1,
+          "days": [],
+          "startTime": "",
+          "endTime": "",
+          "note": "",
+          "createdAt": "2026-11-13T01:23:54.692Z",
+          "excludedDates": [],
+          "overrides": {}
+        }
+      ],
+      "recruiting": {
+        "checks": [],
+        "notes": ""
+      },
+      "modules": [
+        "teams",
+        "saved",
+        "schedules",
+        "camps",
+        "community"
+      ],
+      "moduleVersion": 2,
+      "region": "all",
+      "goal": "teams",
+      "interests": [],
+      "participationLevel": "any",
+      "participationDesignation": "youth",
+      "mediaEnabled": false,
+      "mediaSources": [],
+      "mediaSourcePreferences": [],
+      "nickname": "Casey Demo",
+      "sport": "lacrosse",
+      "clubTeam": "Denver Elite",
+      "position": "Attack",
+      "guardian": true,
+      "role": "parent",
+      "clubId": "denver-elite",
+      "programTeam": "Family-entered team \u00b7 synthetic",
+      "seasonLabel": "Fall 2026",
+      "ageGroup": "U16",
+      "goals": "Improve passing",
+      "secondaryPosition": "",
+      "jersey": "",
+      "records": [
+        {
+          "id": "ed30b1cf-14ed-4923-af0c-ca7127ad83f7",
+          "eventRef": "ebc07b1f-5875-429d-95f0-34452760fcaf",
+          "metrics": {
+            "Goals": 2
+          },
+          "achievement": "",
+          "notes": ""
+        }
+      ],
+      "contentSubscriptions": [
+        "lacrosse:development:USA Lacrosse"
+      ]
+    }
+  ],
+  "active": "1e2e5783-6f3e-4cb3-bb23-39035429fb81"
+}

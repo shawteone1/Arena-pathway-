@@ -1,0 +1,20 @@
+test_action_detail_duplicate_and_scenario_state_isolation (__main__.PlatformQA.test_action_detail_duplicate_and_scenario_state_isolation) ... FAIL
+test_feed_health_refresh_and_pause (__main__.PlatformQA.test_feed_health_refresh_and_pause) ... ok
+test_keyboard_labels_touch_targets_and_dialog_focus (__main__.PlatformQA.test_keyboard_labels_touch_targets_and_dialog_focus) ... ok
+test_modes_scenarios_and_responsive_layouts (__main__.PlatformQA.test_modes_scenarios_and_responsive_layouts) ... ok
+test_no_provider_requests_or_family_storage_changes (__main__.PlatformQA.test_no_provider_requests_or_family_storage_changes) ... ok
+test_privacy_redacts_dom_details_and_display_defaults (__main__.PlatformQA.test_privacy_redacts_dom_details_and_display_defaults) ... ok
+test_role_and_organization_isolation (__main__.PlatformQA.test_role_and_organization_isolation) ... ok
+
+======================================================================
+FAIL: test_action_detail_duplicate_and_scenario_state_isolation (__main__.PlatformQA.test_action_detail_duplicate_and_scenario_state_isolation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-siem-platform.py", line 51, in test_action_detail_duplicate_and_scenario_state_isolation
+    self.assertIn('Source identity',self.page.locator('#platform-detail').inner_text())
+AssertionError: 'Source identity' not found in 'ACTIVITY DETAIL / DEMO ONLY\n\nClose details\nAlex · Swim training\nParticipant\nAlex Morgan\nOrganization\nMorgan family\nTime\nMon, May 6 · 8:45 AM–9:45 AM MT\nLocation\nEast Training Center · Court 2\nSource record & permissions\n\nNo original provider link exists for this fictional fixture.\n\nVersion history\n\nBefore · 8:30 AM · North Training Center\n\nCurrent · 8:45 AM · East Training Center · Court 2\n\nRelated activities\nOpen event: Training venue moved to East Center · 7:45 AMOpen event: Alex · Swim training · 8:45 AM\nRelated tasks\nReview task: Review the new training venueReview task: Review the new training venueReview task: Review the new training venue\n\nDemo permission controls are not authentication. Real integrations require server-enforced authorization.'
+
+----------------------------------------------------------------------
+Ran 7 tests in 9.206s
+
+FAILED (failures=1)

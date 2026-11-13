@@ -1,0 +1,21 @@
+{
+  "candidateSources": 40,
+  "approvedSources": 19,
+  "inactiveSources": 21,
+  "approvedWrittenItems": 21,
+  "approvedVideos": 0,
+  "approvedImages": 0,
+  "liveFeedConnections": 0,
+  "publicationTimestamps": 8,
+  "unknownNewsPublicationTimes": 6,
+  "sourceApprovalsUnchangedFrom": "9733b60",
+  "defaultSubscriptions": 0,
+  "videoApprovalSourceCandidatesOutstanding": 20,
+  "preservedSha256": {
+    "data/content-review.json": "3357a1a7bec71092ea3f25dbbff00bbf189cb69c02583f522d3838c2f1e89643",
+    "data/sport-content-sources.json": "4752aeae8208ecf8d7725cb3f05db293e466d86bc14cee908a0cf52ca9c1fadf",
+    "data/engine/registry.json": "deef5e9d0ef4527340fcdbb5e96bdcb7943fff448e264724f6f58dd84a90616c",
+    "data/catalog.json": "0268288b50e54f60db1521c30d4e3e13c3cf029213d4a38fd2faaa4bb27db8fa",
+    "data/unified/catalog.json": "2ecb18e222b0a85ae2b32c366737c25c1a0f012b0e3050940af6863abd589185"
+  }
+}

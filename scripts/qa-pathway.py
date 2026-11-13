@@ -174,7 +174,8 @@ class PathwayBrowserQA(unittest.TestCase):
         self.page.select_option('#profile-select', 'a')
         self.assertEqual(self.navigation(), ['teams', 'community'])
         self.page.locator('#add-profile').click()
-        self.page.wait_for_url('**/build?new=1')
+        self.page.wait_for_url('**/build?new=1&guided=1')
+        self.page.get_by_role('button',name='Enter basics instead',exact=True).click()
         self.assertTrue(self.page.locator('#guardian').is_checked())
         self.page.fill('#nickname', 'Third athlete')
         self.page.locator('#athlete-form button[type=submit]').click()
@@ -218,6 +219,7 @@ class PathwayBrowserQA(unittest.TestCase):
     def test_calendar_and_recruiting_handlers_work_only_when_enabled(self):
         self.seed(profile(modules=[], saved=['frvc-camp']))
         self.choose('schedules')
+        self.page.get_by_role('button',name='Build Schedule Manually',exact=True).click()
         self.page.fill('#plan-title', 'Practice')
         self.page.fill('#plan-start', '2026-12-02')
         self.page.fill('#plan-note', 'Court two')

@@ -1,0 +1,25 @@
+test_01_complete_guided_journey_with_shared_references (__main__.Consolidated.test_01_complete_guided_journey_with_shared_references) ... ok
+test_02_records_before_editors_and_preserved_after_edit (__main__.Consolidated.test_02_records_before_editors_and_preserved_after_edit) ... ok
+test_03_feed_loading_failure_retry_and_subscription_preservation (__main__.Consolidated.test_03_feed_loading_failure_retry_and_subscription_preservation) ... ok
+test_04_public_research_filters_draft_gates_and_source_links (__main__.Consolidated.test_04_public_research_filters_draft_gates_and_source_links) ... ok
+test_05_optional_siem_tour_colors_and_privacy (__main__.Consolidated.test_05_optional_siem_tour_colors_and_privacy) ... ok
+test_06_responsive_editorial_and_independent_locked_preview (__main__.Consolidated.test_06_responsive_editorial_and_independent_locked_preview) ... ok
+test_07_parent_draft_preview_revocation_and_optional_module_off (__main__.Consolidated.test_07_parent_draft_preview_revocation_and_optional_module_off) ... ok
+test_08_gallery_editing_and_deletion_remain_athlete_event_scoped (__main__.Consolidated.test_08_gallery_editing_and_deletion_remain_athlete_event_scoped) ... FAIL
+
+======================================================================
+FAIL: test_08_gallery_editing_and_deletion_remain_athlete_event_scoped (__main__.Consolidated.test_08_gallery_editing_and_deletion_remain_athlete_event_scoped)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-consolidated.py", line 74, in test_08_gallery_editing_and_deletion_remain_athlete_event_scoped
+    athlete=self.basic();p=self.page;self.nav('Schedule');p.get_by_role('button',name='Add Game/Meet/Tournament',exact=True).click();p.locator('#plan-title').fill('Gallery game');p.locator('#plan-start').fill('2026-11-19');p.get_by_role('button',name='Add to schedule',exact=True).click();p.wait_for_selector('#schedule-list article');event=self.state()['profiles'][0]['plans'][0]['id'];self.nav('Media');p.get_by_role('button',name='Add Media',exact=True).click();p.locator('#media-upload').set_input_files({'name':'edit-fixture.png','mimeType':'image/png','buffer':PNG});p.locator('#media-caption').fill('Original caption');p.locator('#media-event').select_option(event);p.get_by_role('button',name='Save media',exact=True).click();p.wait_for_selector('.family-media-gallery img');item=p.locator('.family-media-gallery .record');self.assertFalse(item.locator('details').evaluate('(e)=>e.open'));item.get_by_text('Edit media details',exact=True).click();item.locator('input').fill('Edited caption');item.get_by_role('button',name='Save media details',exact=True).click();self.assertEqual(item.locator('h4').inner_text(),'Edited caption');p.reload(wait_until='domcontentloaded');p.wait_for_selector('.family-media-gallery img');item=p.locator('.family-media-gallery .record');self.assertEqual(item.locator('h4').inner_text(),'Edited caption');item.get_by_text('Edit media details',exact=True).click();self.assertEqual(item.locator('select').input_value(),event);item.get_by_role('button',name='Delete media',exact=True).click();p.wait_for_selector('.family-media-gallery .record',state='detached');self.assertEqual(self.state()['active'],athlete);self.assertEqual(len(self.state()['profiles'][0]['plans']),1);self.assertNotIn('recruiting',self.state()['profiles'][0]['modules'])
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'Original caption' != 'Edited caption'
+- Original caption
++ Edited caption
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 28.429s
+
+FAILED (failures=1)

@@ -1,0 +1,62 @@
+[
+  {
+    "suite": "consolidated-chromium",
+    "script": "qa-consolidated.py",
+    "exitCode": 1,
+    "seconds": 28.55
+  },
+  {
+    "suite": "acceptance-chromium",
+    "script": "qa-acceptance-refinement.py",
+    "exitCode": 0,
+    "seconds": 47.03
+  },
+  {
+    "suite": "rc-chromium",
+    "script": "qa-release-candidate.py",
+    "exitCode": 0,
+    "seconds": 17.52
+  },
+  {
+    "suite": "profile-chromium",
+    "script": "qa-profile-visual.py",
+    "exitCode": 0,
+    "seconds": 9.11
+  },
+  {
+    "suite": "conformance-chromium",
+    "script": "qa-conformance.py",
+    "exitCode": 1,
+    "seconds": 21.71
+  },
+  {
+    "suite": "siem-family-chromium",
+    "script": "qa-siem-family.py",
+    "exitCode": 1,
+    "seconds": 23.44
+  },
+  {
+    "suite": "release-chromium",
+    "script": "qa-release.py",
+    "exitCode": 1,
+    "seconds": 78.61
+  },
+  {
+    "suite": "siem-platform-chromium",
+    "script": "qa-siem-platform.py",
+    "exitCode": 1,
+    "seconds": 9.34
+  },
+  {
+    "suite": "siem-refinement-chromium",
+    "script": "qa-siem-refinement.py",
+    "exitCode": 1,
+    "seconds": 19.6
+  },
+  {
+    "suite": "acquisition-chromium",
+    "script": "qa-acquisition.py",
+    "exitCode": 1,
+    "seconds": 82.49
+  }
+]

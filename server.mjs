@@ -1,3 +1,4 @@
+import {communityPage,resourcePage,lockedInPreview} from './src/consolidated-views.mjs';
 import {legacySiemDestination} from './src/siem-navigation.mjs';
 import {siemPlatformPage} from './src/siem-platform-view.mjs';
 import {aboutPage,offeringsPage,collectivePage,soccerPreview} from './src/release-views.mjs';
@@ -14,7 +15,7 @@ import {photography,brand} from './src/presentation.mjs';
 import { esc, layout, home, sportPage, builder, advancedBuilder, myPathway, dataPage, credits, organizationPage, classificationPage } from './src/views.mjs';
 const assets = { 'style.css':'text/css; charset=utf-8', 'app.js':'text/javascript; charset=utf-8', 'state.js':'text/javascript; charset=utf-8', 'regions.js':'text/javascript; charset=utf-8', 'stadium.jpg':'image/jpeg' };
 assets['siem-platform.css']='text/css; charset=utf-8';
-for(const name of ['content-library.js','local-family-calendar.js','profile-qa.js','athlete-records.js','media-library.js','calendar-import.js','recurring-plans.js','siem-calendar.js','siem-platform-boot.js','siem-family-fixtures.js','siem-platform.js','siem-platform-model.js','siem-platform-fixtures.js','siem.js','siem-model.js','release-demo.js','release-demo-model.js'])assets[name]='text/javascript; charset=utf-8';
+for(const name of ['siem-guidance.js','college-research.js','athlete-journey.js','content-library.js','local-family-calendar.js','profile-qa.js','athlete-records.js','media-library.js','calendar-import.js','recurring-plans.js','siem-calendar.js','siem-platform-boot.js','siem-family-fixtures.js','siem-platform.js','siem-platform-model.js','siem-platform-fixtures.js','siem.js','siem-model.js','release-demo.js','release-demo-model.js'])assets[name]='text/javascript; charset=utf-8';
 assets['fonts/barlow-condensed-bold.ttf']='font/ttf';
 for(const p of Object.values(photography)){assets[p.asset]='image/webp';assets[p.smallAsset]='image/webp';}
 if(brand.status==='ready')for(const key of ['desktopAsset','mobileAsset','homepageAsset','faviconAsset','appleTouchAsset']){const path=brand[key];assets[path]=path.endsWith('.webp')?'image/webp':'image/png';}
@@ -37,6 +38,7 @@ export function createServer() {
    const orgMatch=path.match(/^\/organizations\/([a-zA-Z0-9_-]+)\/?$/);if(orgMatch){const html=organizationPage(orgMatch[1],url.searchParams);if(html)return send(200,html);}
    if(path==='/data/engine')return send(200,layout('Colorado data coverage',engineCoverageHTML(esc),'data-engine'));
    if(path==='/api/reviewed-content')return send(200,await readFile(new URL('./data/content-review.json',import.meta.url)),'application/json');
+   if(path==='/api/content-presentation')return send(200,await readFile(new URL('./data/content-presentation.json',import.meta.url)),'application/json');
    if(path==='/api/content-sources')return send(200,await readFile(new URL('./data/sport-content-sources.json',import.meta.url)),'application/json');
    if(path==='/api/catalog')return send(200,JSON.stringify(clientCatalog),'application/json');
    if(path==='/api/coverage')return send(200,JSON.stringify(validateCatalog()),'application/json');
@@ -50,6 +52,9 @@ export function createServer() {
    if(path==='/siem/setup')return send(200,siemPage());
    if(path==='/pathway/settings')return send(200,advancedBuilder());
    if(path==='/build')return send(200,builder());
+   if(path==='/community')return send(200,communityPage(sports.includes(url.searchParams.get('sport'))?url.searchParams.get('sport'):''));
+   if(path==='/locked-in-demo')return send(200,lockedInPreview());
+   const resource=path.match(/^\/sports\/(lacrosse|volleyball|basketball|swimming)\/(news|development)$/);if(resource)return send(200,resourcePage(resource[1],resource[2]));
    if(path==='/recruiting')return send(200,myPathway({recruiting:true}));
    if(path==='/my-pathway')return send(200,myPathway());
    if(path==='/data')return send(200,dataPage());
