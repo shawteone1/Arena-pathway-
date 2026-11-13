@@ -13,15 +13,16 @@
       "enabled": false,
       "verification": {
         "status": "verified",
-        "checkedAt": "2026-11-13T18:43:47.080Z",
+        "checkedAt": "2026-11-13T19:21:38.714Z",
         "httpResult": "200 application/rss+xml; charset=UTF-8",
         "itemCount": 20,
         "reason": null
       },
       "rights": {
         "status": "pending",
-        "reviewedAt": null,
-        "evidence": null
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "lacrosse:rss:nll"
       },
       "providerType": "publisher"
     },
@@ -37,15 +38,16 @@
       "enabled": false,
       "verification": {
         "status": "verified",
-        "checkedAt": "2026-11-13T18:43:47.621Z",
+        "checkedAt": "2026-11-13T19:21:39.394Z",
         "httpResult": "200 application/rss+xml; charset=UTF-8",
         "itemCount": 12,
         "reason": null
       },
       "rights": {
         "status": "pending",
-        "reviewedAt": null,
-        "evidence": null
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "lacrosse:rss:world-lacrosse"
       },
       "providerType": "publisher"
     },
@@ -64,15 +66,16 @@
       "enabled": false,
       "verification": {
         "status": "verified",
-        "checkedAt": "2026-11-13T18:43:48.275Z",
+        "checkedAt": "2026-11-13T19:21:40.005Z",
         "httpResult": "200 application/rss+xml; charset=UTF-8",
         "itemCount": 10,
         "reason": null
       },
       "rights": {
         "status": "pending",
-        "reviewedAt": null,
-        "evidence": null
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "volleyball:rss:volleyballmag"
       },
       "providerType": "publisher"
     },
@@ -89,15 +92,16 @@
       "enabled": false,
       "verification": {
         "status": "verified",
-        "checkedAt": "2026-11-13T18:43:48.945Z",
+        "checkedAt": "2026-11-13T19:21:40.545Z",
         "httpResult": "200 application/rss+xml; charset=UTF-8",
         "itemCount": 10,
         "reason": null
       },
       "rights": {
         "status": "pending",
-        "reviewedAt": null,
-        "evidence": null
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "volleyball:rss:volleycountry"
       },
       "providerType": "publisher"
     },
@@ -114,15 +118,16 @@
       "enabled": false,
       "verification": {
         "status": "verified",
-        "checkedAt": "2026-11-13T18:43:56.675Z",
+        "checkedAt": "2026-11-13T19:21:47.484Z",
         "httpResult": "200 application/rss+xml; charset=UTF-8",
         "itemCount": 10,
         "reason": null
       },
       "rights": {
         "status": "pending",
-        "reviewedAt": null,
-        "evidence": null
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "volleyball:rss:world-paravolley"
       },
       "providerType": "publisher"
     },
@@ -138,15 +143,16 @@
       "enabled": false,
       "verification": {
         "status": "verified",
-        "checkedAt": "2026-11-13T18:43:58.364Z",
+        "checkedAt": "2026-11-13T19:21:48.638Z",
         "httpResult": "200 application/rss+xml; charset=UTF-8",
         "itemCount": 10,
         "reason": null
       },
       "rights": {
         "status": "pending",
-        "reviewedAt": null,
-        "evidence": null
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "volleyball:rss:avc"
       },
       "providerType": "publisher"
     },
@@ -164,15 +170,16 @@
       "enabled": false,
       "verification": {
         "status": "verified",
-        "checkedAt": "2026-11-13T18:44:00.093Z",
+        "checkedAt": "2026-11-13T19:21:50.458Z",
         "httpResult": "200 application/rss+xml; charset=UTF-8",
         "itemCount": 10,
         "reason": null
       },
       "rights": {
         "status": "pending",
-        "reviewedAt": null,
-        "evidence": null
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "swimming:rss:swimswam"
       },
       "providerType": "publisher"
     },
@@ -190,15 +197,16 @@
       "enabled": false,
       "verification": {
         "status": "verified",
-        "checkedAt": "2026-11-13T18:44:01.427Z",
+        "checkedAt": "2026-11-13T19:21:56.197Z",
         "httpResult": "200 application/rss+xml; charset=UTF-8",
         "itemCount": 10,
         "reason": null
       },
       "rights": {
         "status": "pending",
-        "reviewedAt": null,
-        "evidence": null
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "swimming:rss:swimming-world"
       },
       "providerType": "publisher"
     },
@@ -214,15 +222,16 @@
       "enabled": false,
       "verification": {
         "status": "verified",
-        "checkedAt": "2026-11-13T18:44:05.958Z",
+        "checkedAt": "2026-11-13T19:22:00.971Z",
         "httpResult": "200 text/xml;charset=UTF-8",
         "itemCount": 18,
         "reason": null
       },
       "rights": {
         "status": "pending",
-        "reviewedAt": null,
-        "evidence": null
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "basketball:rss:espn-nba"
       },
       "providerType": "publisher"
     },
@@ -238,15 +247,16 @@
       "enabled": false,
       "verification": {
         "status": "verified",
-        "checkedAt": "2026-11-13T18:44:07.167Z",
+        "checkedAt": "2026-11-13T19:22:01.418Z",
         "httpResult": "200 text/xml;charset=UTF-8",
         "itemCount": 14,
         "reason": null
       },
       "rights": {
         "status": "pending",
-        "reviewedAt": null,
-        "evidence": null
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "basketball:rss:espn-college"
       },
       "providerType": "publisher"
     },
@@ -262,15 +272,16 @@
       "enabled": false,
       "verification": {
         "status": "verified",
-        "checkedAt": "2026-11-13T18:44:07.514Z",
+        "checkedAt": "2026-11-13T19:22:01.595Z",
         "httpResult": "200 text/xml; charset=UTF-8",
         "itemCount": 36,
         "reason": null
       },
       "rights": {
         "status": "pending",
-        "reviewedAt": null,
-        "evidence": null
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "basketball:rss:cbs-basketball"
       },
       "providerType": "publisher"
     }

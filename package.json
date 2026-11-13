@@ -57,7 +57,8 @@
     "test:consolidated:browser": "python scripts/qa-consolidated.py",
     "test:consolidated:webkit": "PROFILE_BROWSER=webkit python scripts/qa-consolidated.py",
     "verify:rss": "node scripts/verify-rss-feeds.mjs",
-    "test:rss:browser": "python scripts/qa-rss.py"
+    "test:rss:browser": "python scripts/qa-rss.py",
+    "test:rss": "node --test test/rss-feed.test.mjs"
   },
   "dependencies": {
     "cheerio": "1.2.0",
