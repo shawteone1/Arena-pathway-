@@ -8,6 +8,12 @@ export function selectNews(data,profile,publisher='',topic=''){
 export function mountRSSNews(target,profile,{update,notify}){
  target.querySelector('[data-rss-news]')?.remove();const root=node('section');root.dataset.rssNews='';root.className='rss-news editorial-library';target.append(root);
  const heading=node('div');heading.className='editorial-heading';heading.append(node('h3','Publisher news'));
+ // ESPN is a standing publisher destination on every sport. Only basketball has confirmed RSS endpoints.
+ // Never present ESPN search results as an ingested RSS feed or bypass publisher rights gates.
+ const espn=node('a','ESPN · '+profile.sport[0].toUpperCase()+profile.sport.slice(1)+' coverage');
+ const espnSearch=new URL('https://www.espn.com/search/_/q/'+encodeURIComponent(profile.sport));
+ espn.href=espnSearch.href;espn.target='_blank';espn.rel='noopener noreferrer';espn.className='rss-read';
+ const espnBar=node('div');espnBar.className='rss-espn-constant';espnBar.append(espn);
  const refresh=node('button','Refresh news');refresh.type='button';refresh.className='secondary';heading.append(refresh);
  const status=node('p','Loading publishers…');status.setAttribute('role','status');
  const controls=node('div');controls.className='rss-controls';
@@ -16,7 +22,7 @@ export function mountRSSNews(target,profile,{update,notify}){
  for(const [label,input] of [['Publisher',publisher],['Category',topics]]){const l=node('label',label);l.append(input);controls.append(l);}
  const list=node('div');list.className='editorial-grid rss-items';list.setAttribute('aria-live','polite');
  const choices=node('details');choices.className='source-manager';choices.append(node('summary','Choose news publishers'));
- root.append(heading,status,controls,list,choices);
+ root.append(heading,espnBar,status,controls,list,choices);
  let selected=new Set(profile.contentSubscriptions||[]),data={publishers:[],items:[]},generation=0,timer;
  function draw(){
   const old=publisher.value;publisher.replaceChildren(new Option('All selected publishers',''));for(const p of data.publishers.filter(p=>p.enabled&&selected.has(p.id)))publisher.add(new Option(p.name,p.id));if([...publisher.options].some(o=>o.value===old))publisher.value=old;
