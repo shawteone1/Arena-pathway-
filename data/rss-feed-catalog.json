@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "lacrosse:rss:usa-lacrosse",
+      "name": "USA Lacrosse",
+      "sport": "lacrosse",
+      "homepage": "https://www.usalacrosse.com/",
+      "feedUrl": "https://www.usalacrosse.com/rss.xml",
+      "coverage": [
+        "youth",
+        "national",
+        "college"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "blocked",
+        "checkedAt": "2026-11-13T18:43:29.379Z",
+        "httpResult": "404 text/html;charset=utf-8",
+        "itemCount": 0,
+        "reason": "HTTP 404"
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "lacrosse:rss:inside-lacrosse",
+      "name": "Inside Lacrosse",
+      "sport": "lacrosse",
+      "homepage": "https://www.insidelacrosse.com/",
+      "feedUrl": "https://www.insidelacrosse.com/rss",
+      "coverage": [
+        "college",
+        "professional",
+        "recruiting"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "blocked",
+        "checkedAt": "2026-11-13T18:43:35.259Z",
+        "httpResult": "404 text/html",
+        "itemCount": 0,
+        "reason": "HTTP 404"
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "lacrosse:rss:pll-oursportscentral",
+      "name": "PLL \u00b7 OurSports Central",
+      "sport": "lacrosse",
+      "homepage": "https://www.oursportscentral.com/sports/premier-lacrosse-league/l-254",
+      "feedUrl": "https://www.oursportscentral.com/feeds/rss/l-254.xml",
+      "coverage": [
+        "professional"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "blocked",
+        "checkedAt": "2026-11-13T18:43:41.430Z",
+        "httpResult": "404 text/html; charset=UTF-8",
+        "itemCount": 0,
+        "reason": "HTTP 404"
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "third-party"
+    },
+    {
+      "id": "lacrosse:rss:nll",
+      "name": "National Lacrosse League",
+      "sport": "lacrosse",
+      "homepage": "https://www.nll.com/",
+      "feedUrl": "https://www.nll.com/feed/",
+      "coverage": [
+        "professional"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T18:43:47.080Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 20,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "lacrosse:rss:world-lacrosse",
+      "name": "World Lacrosse",
+      "sport": "lacrosse",
+      "homepage": "https://worldlacrosse.sport/",
+      "feedUrl": "https://worldlacrosse.sport/feed/",
+      "coverage": [
+        "national"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T18:43:47.621Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 12,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "volleyball:rss:volleyballmag",
+      "name": "VolleyballMag",
+      "sport": "volleyball",
+      "homepage": "https://volleyballmag.com/",
+      "feedUrl": "https://volleyballmag.com/feed/",
+      "coverage": [
+        "college",
+        "professional",
+        "youth",
+        "national"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T18:43:48.275Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 10,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "volleyball:rss:volleycountry",
+      "name": "VolleyCountry",
+      "sport": "volleyball",
+      "homepage": "https://volleycountry.com/",
+      "feedUrl": "https://volleycountry.com/feed",
+      "coverage": [
+        "professional",
+        "national"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T18:43:48.945Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 10,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "volleyball:rss:coaching-volleyball",
+      "name": "Coaching Volleyball",
+      "sport": "volleyball",
+      "homepage": "https://coachingvb.com/",
+      "feedUrl": "https://coachingvb.com/feed/",
+      "coverage": [
+        "development"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T18:39:02.154781+00:00",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 10,
+        "reason": null,
+        "recheckWarning": "getaddrinfo ENOTFOUND coachingvb.com"
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "volleyball:rss:world-paravolley",
+      "name": "World ParaVolley",
+      "sport": "volleyball",
+      "homepage": "https://worldparavolley.org/",
+      "feedUrl": "https://worldparavolley.org/feed/",
+      "coverage": [
+        "national",
+        "adaptive"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T18:43:56.675Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 10,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "volleyball:rss:avc",
+      "name": "Asian Volleyball Confederation",
+      "sport": "volleyball",
+      "homepage": "https://asianvolleyball.net/",
+      "feedUrl": "https://asianvolleyball.net/new/feed/",
+      "coverage": [
+        "national"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T18:43:58.364Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 10,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "swimming:rss:swimswam",
+      "name": "SwimSwam",
+      "sport": "swimming",
+      "homepage": "https://swimswam.com/",
+      "feedUrl": "https://swimswam.com/feed/",
+      "coverage": [
+        "college",
+        "national",
+        "professional"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T18:44:00.093Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 10,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "swimming:rss:swimswam-podcast",
+      "name": "SwimSwam Podcast",
+      "sport": "swimming",
+      "homepage": "https://swimswam.com/",
+      "feedUrl": "https://feed.podbean.com/swimswam/feed.xml",
+      "coverage": [
+        "podcast"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "blocked",
+        "checkedAt": "2026-11-13T18:44:00.951Z",
+        "httpResult": "200 text/xml; charset=UTF-8",
+        "itemCount": 0,
+        "reason": "Feed exceeds size limit"
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "swimming:rss:swimming-world",
+      "name": "Swimming World",
+      "sport": "swimming",
+      "homepage": "https://www.swimmingworldmagazine.com/",
+      "feedUrl": "https://www.swimmingworldmagazine.com/news/feed/",
+      "coverage": [
+        "national",
+        "college",
+        "youth"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T18:44:01.427Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 10,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "swimming:rss:usa-swimming",
+      "name": "USA Swimming",
+      "sport": "swimming",
+      "homepage": "https://www.usaswimming.org/",
+      "feedUrl": "https://www.usaswimming.org/rss",
+      "coverage": [
+        "national",
+        "youth"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "blocked",
+        "checkedAt": "2026-11-13T18:44:05.389Z",
+        "httpResult": "404 text/html; charset=utf-8",
+        "itemCount": 0,
+        "reason": "HTTP 404"
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "basketball:rss:espn-nba",
+      "name": "ESPN NBA",
+      "sport": "basketball",
+      "homepage": "https://www.espn.com/nba/",
+      "feedUrl": "https://www.espn.com/espn/rss/nba/news",
+      "coverage": [
+        "professional"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T18:44:05.958Z",
+        "httpResult": "200 text/xml;charset=UTF-8",
+        "itemCount": 18,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "basketball:rss:espn-college",
+      "name": "ESPN College Basketball",
+      "sport": "basketball",
+      "homepage": "https://www.espn.com/mens-college-basketball/",
+      "feedUrl": "https://www.espn.com/espn/rss/ncb/news",
+      "coverage": [
+        "college"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T18:44:07.167Z",
+        "httpResult": "200 text/xml;charset=UTF-8",
+        "itemCount": 14,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "basketball:rss:cbs-basketball",
+      "name": "CBS Sports Basketball",
+      "sport": "basketball",
+      "homepage": "https://www.cbssports.com/college-basketball/",
+      "feedUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
+      "coverage": [
+        "college"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T18:44:07.514Z",
+        "httpResult": "200 text/xml; charset=UTF-8",
+        "itemCount": 36,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "basketball:rss:slam",
+      "name": "SLAM",
+      "sport": "basketball",
+      "homepage": "https://www.slamonline.com/",
+      "feedUrl": "https://www.slamonline.com/feed/",
+      "coverage": [
+        "professional",
+        "youth"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "blocked",
+        "checkedAt": "2026-11-13T18:44:07.987Z",
+        "httpResult": "403 text/html; charset=UTF-8",
+        "itemCount": 0,
+        "reason": "HTTP 403"
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "basketball:rss:nba",
+      "name": "NBA",
+      "sport": "basketball",
+      "homepage": "https://www.nba.com/",
+      "feedUrl": "https://www.nba.com/rss/nba_rss.xml",
+      "coverage": [
+        "professional"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "blocked",
+        "checkedAt": "2026-11-13T18:44:08.376Z",
+        "httpResult": "404 text/html; charset=utf-8",
+        "itemCount": 0,
+        "reason": "HTTP 404"
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": null,
+        "evidence": null
+      },
+      "providerType": "publisher"
+    }
+  ]
+}
