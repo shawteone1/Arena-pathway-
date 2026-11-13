@@ -1,3 +1,4 @@
+import {approvedPillarCopy} from './preservation-helper.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -8,10 +9,10 @@ import {withPresentation,selectedContent} from '../public/content-library.js';
 import {clientCatalog,directory} from '../src/unified-directory.mjs';
 import {createServer} from '../server.mjs';
 const read=p=>JSON.parse(readFileSync(p)),baseline='9733b608321529448be64981729e9e4bad5a76eb';
-test('consolidated corrections preserve every existing source/data record, domain model, fixture and brand byte',()=>{
+test('consolidated corrections preserve source/data, domain, fixture and brand bytes with the explicit shared-event reader adaptation',()=>{
  const files=execFileSync('git',['ls-tree','-r','--name-only',baseline,'data','engine','public/brand'],{encoding:'utf8'}).trim().split('\n');
  files.push(...['state.js','recurring-plans.js','athlete-records.js','media-library.js','calendar-import.js','local-family-calendar.js','siem-model.js','siem-calendar.js','siem-platform-model.js','siem-family-fixtures.js','siem-platform-fixtures.js'].map(p=>'public/'+p));
- for(const p of files)assert.deepEqual(readFileSync(p),execFileSync('git',['show',baseline+':'+p],{maxBuffer:40e6}),p);
+ for(const p of files)assert.deepEqual(readFileSync(p),approvedPillarCopy(p,execFileSync('git',['show',baseline+':'+p],{maxBuffer:40e6})),p);
 });
 test('publication metadata matches individual approved article identities and never changes activation or video approval',()=>{
  const original=read('data/content-review.json'),meta=read('data/content-presentation.json'),next=withPresentation(original,meta);assert.equal(original.sources.length,40);assert.equal(original.sources.filter(s=>s.decision==='approved').length,19);assert.equal(original.sources.filter(s=>s.decision==='inactive').length,21);

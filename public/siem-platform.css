@@ -82,3 +82,5 @@ body[data-sidebar-collapsed=true] .ap-toolbar #platform-modes{margin:0;display:f
 @media(min-width:700px) and (max-width:1180px){body[data-sidebar-collapsed=true] .ap-workspace{max-width:none}.ap-view-calendar .ap-grid{display:block}.ap-view-calendar .ap-wide{width:100%;max-width:none}.ap-family-source{font-size:11px;line-height:1.4}.ap-message{padding:16px}.ap-detail-grid{grid-template-columns:140px minmax(0,1fr)}}
 .ap-inline-source{margin-top:10px;font-size:12px}.ap-inline-source>summary{cursor:pointer;color:#364b68}.ap-person-label{border-left:4px solid var(--athlete-color);padding:4px 8px;font-size:12px;font-weight:600}
 .ap-technical-details{border-top:1px solid #d5dce6;margin:16px 0;padding:12px 0}.ap-technical-details>summary{cursor:pointer;font-weight:600}.ap-technical-details .ap-detail-grid{font-size:12px}
+
+.ap-athlete-2{--athlete-color:#167044}.ap-tour-discover{min-height:44px;white-space:nowrap}.ap-demo-banner{gap:8px}.ap-demo-banner>span{flex:1}@media(max-width:699px){.ap-demo-banner{font-size:10px}.ap-demo-banner button{font-size:10px;padding:5px;min-width:0}}

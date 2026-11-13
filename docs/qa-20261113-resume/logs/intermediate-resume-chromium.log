@@ -1,0 +1,75 @@
+test_resume_01_locked_workflow_permissions_retry_and_reset (__main__.Resumed.test_resume_01_locked_workflow_permissions_retry_and_reset) ... ok
+test_resume_02_swim_sessions_stats_targets_and_family_refs (__main__.Resumed.test_resume_02_swim_sessions_stats_targets_and_family_refs) ... ERROR
+test_resume_03_volleyball_sessions_edit_delete_and_views (__main__.Resumed.test_resume_03_volleyball_sessions_edit_delete_and_views) ... ok
+test_resume_04_tour_without_setup_and_three_athlete_colors (__main__.Resumed.test_resume_04_tour_without_setup_and_three_athlete_colors) ... ok
+test_resume_05_builder_reuses_existing_athlete (__main__.Resumed.test_resume_05_builder_reuses_existing_athlete) ... ok
+test_resume_06_responsive_pages_keep_reviewed_sources (__main__.Resumed.test_resume_06_responsive_pages_keep_reviewed_sources) ... ok
+test_resume_07_recurring_weekdays_location_and_responsive_athlete (__main__.Resumed.test_resume_07_recurring_weekdays_location_and_responsive_athlete) ... ERROR
+
+======================================================================
+ERROR: test_resume_02_swim_sessions_stats_targets_and_family_refs (__main__.Resumed.test_resume_02_swim_sessions_stats_targets_and_family_refs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-nov13-resume.py", line 21, in test_resume_02_swim_sessions_stats_targets_and_family_refs
+    row=p.locator('#schedule-list article').filter(has=p.get_by_role('heading',name='Synthetic weekend meet · Preliminary race',exact=True));row.get_by_role('button',name='Log stats',exact=True).click();self.assertEqual(p.locator('#record-event').input_value(),child);p.locator('#metric-Timeseconds').fill('62.34');p.get_by_role('button',name='Save game / meet record',exact=True).click();p.wait_for_selector('#stats .record');self.nav('Profile');p.locator('#swimming-progress').wait_for();self.assertIn('1:02.34',p.locator('#swimming-progress').inner_text());p.get_by_text('Set Target Time',exact=True).click();p.locator('#target-discipline').fill('100 yd freestyle');p.locator('#target-time').fill('1:00.00');p.get_by_role('button',name='Save target',exact=True).click();p.wait_for_function('()=>JSON.parse(localStorage.getItem("arenaPathway.v2")).profiles[0].swimmingTargets.length===1');p.locator('#swimming-progress').get_by_text('Target Time: 1:00.00',exact=False).wait_for();self.assertIn('Target Time: 1:00.00',p.locator('#swimming-progress').inner_text());self.screenshot('swim-overview-ipad')
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 20539, in wait_for
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 748, in wait_for
+    await self._frame.wait_for_selector(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 394, in wait_for_selector
+    await self._channel.send(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#swimming-progress").get_by_text("Target Time: 1:00.00") to be visible
+
+
+======================================================================
+ERROR: test_resume_07_recurring_weekdays_location_and_responsive_athlete (__main__.Resumed.test_resume_07_recurring_weekdays_location_and_responsive_athlete)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-nov13-resume.py", line 41, in test_resume_07_recurring_weekdays_location_and_responsive_athlete
+    self.basic('volleyball');self.nav('Schedule');p=self.page;p.get_by_role('button',name='Add Recurring Practice',exact=True).click();p.locator('#plan-title').fill('Two weekday practices');p.locator('#plan-start').fill('2026-11-16');p.locator('#plan-until').fill('2026-11-30');p.locator('[name=plan-days][value=1]').check();p.locator('[name=plan-days][value=3]').check();p.locator('#plan-note').fill('Family-entered gym');p.get_by_role('button',name='Add to schedule',exact=True).click();p.wait_for_selector('#schedule-list article');self.assertEqual(p.locator('#schedule-list article').count(),5);self.assertEqual(len(self.state()['profiles'][0]['plans']),1);p.get_by_role('button',name='Build Schedule Manually',exact=True).click();self.assertEqual(p.locator('#schedule-locations option').first.get_attribute('value'),'Family-entered gym')
+                                                                                                                                                                                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17773, in check
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 148, in check
+    return await self._frame.check(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 908, in check
+    await self._channel.send("check", self._timeout, locals_to_params(locals()))
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Locator.check: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '[name=plan-days][value=1]' is not a valid selector.
+    at query (<anonymous>:5599:41)
+    at <anonymous>:5609:7
+    at SelectorEvaluatorImpl._cached (<anonymous>:5386:20)
+    at SelectorEvaluatorImpl._queryCSS (<anonymous>:5596:17)
+    at SelectorEvaluatorImpl._querySimple (<anonymous>:5476:19)
+    at <anonymous>:5424:29
+    at SelectorEvaluatorImpl._cached (<anonymous>:5386:20)
+    at SelectorEvaluatorImpl.query (<anonymous>:5417:19)
+    at Object.query (<anonymous>:5631:44)
+    at <anonymous>:5589:21
+Call log:
+  - waiting for locator("[name=plan-days][value=1]")
+
+
+----------------------------------------------------------------------
+Ran 7 tests in 73.783s
+
+FAILED (errors=2)

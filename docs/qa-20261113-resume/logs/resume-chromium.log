@@ -1,0 +1,12 @@
+test_resume_01_locked_workflow_permissions_retry_and_reset (__main__.Resumed.test_resume_01_locked_workflow_permissions_retry_and_reset) ... ok
+test_resume_02_swim_sessions_stats_targets_and_family_refs (__main__.Resumed.test_resume_02_swim_sessions_stats_targets_and_family_refs) ... ok
+test_resume_03_volleyball_sessions_edit_delete_and_views (__main__.Resumed.test_resume_03_volleyball_sessions_edit_delete_and_views) ... ok
+test_resume_04_tour_without_setup_and_three_athlete_colors (__main__.Resumed.test_resume_04_tour_without_setup_and_three_athlete_colors) ... ok
+test_resume_05_builder_reuses_existing_athlete (__main__.Resumed.test_resume_05_builder_reuses_existing_athlete) ... ok
+test_resume_06_responsive_pages_keep_reviewed_sources (__main__.Resumed.test_resume_06_responsive_pages_keep_reviewed_sources) ... ok
+test_resume_07_recurring_weekdays_location_and_responsive_athlete (__main__.Resumed.test_resume_07_recurring_weekdays_location_and_responsive_athlete) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 44.014s
+
+OK

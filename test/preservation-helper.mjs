@@ -62,6 +62,7 @@ const pillarChanges={
   ]
 };
 export function approvedPillarCopy(file,original){
+ if(file==='public/local-family-calendar.js'){const next="import {athleteEvents} from './meet-sessions.js';\n"+original.toString().replace("import {loadState,scheduleFor}","import {loadState}").replace('scheduleFor(p,catalog)){try{','athleteEvents(p,catalog).filter(e=>!e.container)){try{');return typeof original==='string'?next:Buffer.from(next);}
  if(!pillarChanges[file])return original; // Keep binary brand assets byte-for-byte.
  let next=original.toString();
  for(const [before,after] of pillarChanges[file])next=next.replaceAll(before,after);

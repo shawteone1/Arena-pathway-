@@ -1,0 +1,42 @@
+test_resume_01_locked_workflow_permissions_retry_and_reset (__main__.Resumed.test_resume_01_locked_workflow_permissions_retry_and_reset) ... ok
+test_resume_02_swim_sessions_stats_targets_and_family_refs (__main__.Resumed.test_resume_02_swim_sessions_stats_targets_and_family_refs) ... ok
+test_resume_03_volleyball_sessions_edit_delete_and_views (__main__.Resumed.test_resume_03_volleyball_sessions_edit_delete_and_views) ... ok
+test_resume_04_tour_without_setup_and_three_athlete_colors (__main__.Resumed.test_resume_04_tour_without_setup_and_three_athlete_colors) ... ok
+test_resume_05_builder_reuses_existing_athlete (__main__.Resumed.test_resume_05_builder_reuses_existing_athlete) ... ok
+test_resume_06_responsive_pages_keep_reviewed_sources (__main__.Resumed.test_resume_06_responsive_pages_keep_reviewed_sources) ... ERROR
+test_resume_07_recurring_weekdays_location_and_responsive_athlete (__main__.Resumed.test_resume_07_recurring_weekdays_location_and_responsive_athlete) ... ok
+
+======================================================================
+ERROR: test_resume_06_responsive_pages_keep_reviewed_sources (__main__.Resumed.test_resume_06_responsive_pages_keep_reviewed_sources)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-nov13-resume.py", line 39, in test_resume_06_responsive_pages_keep_reviewed_sources
+    p.goto(base.base.BASE+path);p.wait_for_load_state('networkidle');self.assertFalse(p.evaluate('document.documentElement.scrollWidth>innerWidth+1'),path);self.screenshot(name+'-'+path.split('?')[0].replace('/','-'))
+                                                                                                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/arena-pathway/scripts/qa-nov13-resume.py", line 8, in screenshot
+    def screenshot(self,name):self.page.evaluate('document.activeElement?.blur()');self.page.locator('#workspace-status').evaluate('(e)=>e.textContent=""') if self.page.locator('#workspace-status').count() else None;self.page.screenshot(path=str(OUT/f'{base.base.ENGINE}-{name}.png'),full_page=True)
+                                                                                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 10872, in screenshot
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py", line 828, in screenshot
+    encoded_binary = await self._channel.send(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.screenshot: Cannot take screenshot larger than 32767 pixels on any dimension
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+
+----------------------------------------------------------------------
+Ran 7 tests in 22.286s
+
+FAILED (errors=1)

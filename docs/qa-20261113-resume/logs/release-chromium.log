@@ -1,0 +1,25 @@
+test_calendar_and_recruiting_handlers_work_only_when_enabled (__main__.ReleaseQA.test_calendar_and_recruiting_handlers_work_only_when_enabled) ... ok
+test_demo_actions_filters_and_no_family_state_mutation (__main__.ReleaseQA.test_demo_actions_filters_and_no_family_state_mutation) ... ok
+test_demo_keyboard_and_primary_touch_targets (__main__.ReleaseQA.test_demo_keyboard_and_primary_touch_targets) ... ok
+test_directory_separation_club_first_and_team_search (__main__.ReleaseQA.test_directory_separation_club_first_and_team_search) ... ok
+test_disabled_modules_leave_no_sections_or_links_and_keep_data (__main__.ReleaseQA.test_disabled_modules_leave_no_sections_or_links_and_keep_data) ... ok
+test_family_profiles_keep_separate_choices_and_new_profile_is_parent_controlled (__main__.ReleaseQA.test_family_profiles_keep_separate_choices_and_new_profile_is_parent_controlled) ... ok
+test_league_to_feeder_profile_keeps_registration_and_ownership_truthful (__main__.ReleaseQA.test_league_to_feeder_profile_keeps_registration_and_ownership_truthful) ... ok
+test_legacy_saved_clubs_do_not_enable_recruiting (__main__.ReleaseQA.test_legacy_saved_clubs_do_not_enable_recruiting) ... ok
+test_media_sources_survive_disabled_module_and_builder_edits (__main__.ReleaseQA.test_media_sources_survive_disabled_module_and_builder_edits) ... ok
+test_mobile_and_tablet_controls_overflow_brand_and_screenshots (__main__.ReleaseQA.test_mobile_and_tablet_controls_overflow_brand_and_screenshots) ... ok
+test_mobile_tablet_directory_profile_and_review_accessibility (__main__.ReleaseQA.test_mobile_tablet_directory_profile_and_review_accessibility) ... ok
+test_onboarding_choices_have_no_fixed_progression (__main__.ReleaseQA.test_onboarding_choices_have_no_fixed_progression) ... ok
+test_release_pages_at_phone_tablet_desktop (__main__.ReleaseQA.test_release_pages_at_phone_tablet_desktop) ... ok
+test_reorder_add_remove_is_persistent_and_keyboard_accessible (__main__.ReleaseQA.test_reorder_add_remove_is_persistent_and_keyboard_accessible) ... ok
+test_saving_club_preserves_identity_and_does_not_trigger_recruiting (__main__.ReleaseQA.test_saving_club_preserves_identity_and_does_not_trigger_recruiting) ... ok
+test_seven_modules_saved_opportunities_and_youth_recommendations (__main__.ReleaseQA.test_seven_modules_saved_opportunities_and_youth_recommendations) ... ok
+test_siem_lightweight_family_does_not_require_recruiting_profile (__main__.ReleaseQA.test_siem_lightweight_family_does_not_require_recruiting_profile) ... ok
+test_storage_failure_keeps_existing_choices_and_records (__main__.ReleaseQA.test_storage_failure_keeps_existing_choices_and_records) ... ok
+test_swimming_distinguishes_year_round_seasonal_summer_and_masters (__main__.ReleaseQA.test_swimming_distinguishes_year_round_seasonal_summer_and_masters) ... ok
+test_verified_school_programs_and_real_named_tiers (__main__.ReleaseQA.test_verified_school_programs_and_real_named_tiers) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 50.867s
+
+OK

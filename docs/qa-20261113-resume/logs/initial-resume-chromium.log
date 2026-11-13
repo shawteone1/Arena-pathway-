@@ -1,0 +1,20 @@
+test_resume_01_locked_workflow_permissions_retry_and_reset (__main__.Resumed.test_resume_01_locked_workflow_permissions_retry_and_reset) ... ok
+test_resume_02_swim_sessions_stats_targets_and_family_refs (__main__.Resumed.test_resume_02_swim_sessions_stats_targets_and_family_refs) ... FAIL
+test_resume_03_volleyball_sessions_edit_delete_and_views (__main__.Resumed.test_resume_03_volleyball_sessions_edit_delete_and_views) ... ok
+test_resume_04_tour_without_setup_and_three_athlete_colors (__main__.Resumed.test_resume_04_tour_without_setup_and_three_athlete_colors) ... ok
+test_resume_05_builder_reuses_existing_athlete (__main__.Resumed.test_resume_05_builder_reuses_existing_athlete) ... ok
+test_resume_06_responsive_pages_keep_reviewed_sources (__main__.Resumed.test_resume_06_responsive_pages_keep_reviewed_sources) ... ok
+
+======================================================================
+FAIL: test_resume_02_swim_sessions_stats_targets_and_family_refs (__main__.Resumed.test_resume_02_swim_sessions_stats_targets_and_family_refs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-nov13-resume.py", line 21, in test_resume_02_swim_sessions_stats_targets_and_family_refs
+    row=p.locator('#schedule-list article').filter(has=p.get_by_role('heading',name='Synthetic weekend meet · Preliminary race',exact=True));row.get_by_role('button',name='Log stats',exact=True).click();self.assertEqual(p.locator('#record-event').input_value(),child);p.locator('#metric-Timeseconds').fill('62.34');p.get_by_role('button',name='Save game / meet record',exact=True).click();p.wait_for_selector('#stats .record');self.nav('Profile');p.locator('#swimming-progress').wait_for();self.assertIn('1:02.34',p.locator('#swimming-progress').inner_text());p.get_by_text('Set Target Time',exact=True).click();p.locator('#target-discipline').fill('100 yd freestyle');p.locator('#target-time').fill('1:00.00');p.get_by_role('button',name='Save target',exact=True).click();p.wait_for_function('()=>JSON.parse(localStorage.getItem("arenaPathway.v2")).profiles[0].swimmingTargets.length===1');self.assertIn('Target Time: 1:00.00',p.locator('#swimming-progress').inner_text());self.screenshot('swim-overview-ipad')
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'Target Time: 1:00.00' not found in 'Personal Best & Target Time\n\n100 yd freestyle · SCY — Personal Best: 1:02.34 · Target Time: Not set\n\nSet Target Time'
+
+----------------------------------------------------------------------
+Ran 6 tests in 35.127s
+
+FAILED (failures=1)

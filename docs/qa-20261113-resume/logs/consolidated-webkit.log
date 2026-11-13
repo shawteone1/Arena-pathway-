@@ -1,0 +1,13 @@
+test_01_complete_guided_journey_with_shared_references (__main__.Consolidated.test_01_complete_guided_journey_with_shared_references) ... ok
+test_02_records_before_editors_and_preserved_after_edit (__main__.Consolidated.test_02_records_before_editors_and_preserved_after_edit) ... ok
+test_03_feed_loading_failure_retry_and_subscription_preservation (__main__.Consolidated.test_03_feed_loading_failure_retry_and_subscription_preservation) ... ok
+test_04_public_research_filters_draft_gates_and_source_links (__main__.Consolidated.test_04_public_research_filters_draft_gates_and_source_links) ... ok
+test_05_optional_siem_tour_colors_and_privacy (__main__.Consolidated.test_05_optional_siem_tour_colors_and_privacy) ... ok
+test_06_responsive_editorial_and_independent_locked_preview (__main__.Consolidated.test_06_responsive_editorial_and_independent_locked_preview) ... ok
+test_07_parent_draft_preview_revocation_and_optional_module_off (__main__.Consolidated.test_07_parent_draft_preview_revocation_and_optional_module_off) ... ok
+test_08_gallery_editing_and_deletion_remain_athlete_event_scoped (__main__.Consolidated.test_08_gallery_editing_and_deletion_remain_athlete_event_scoped) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 20.739s
+
+OK

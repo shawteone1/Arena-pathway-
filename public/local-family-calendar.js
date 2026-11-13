@@ -1,4 +1,5 @@
-import {loadState,scheduleFor} from './state.js';
+import {athleteEvents} from './meet-sessions.js';
+import {loadState} from './state.js';
 import {denverInstant} from './recurring-plans.js';
 import {activityContract} from './siem-platform-model.js';
 export function localFamilyCalendar(storage,{now=Date.now(),catalog={opportunities:[]}}={}){
@@ -8,7 +9,7 @@ export function localFamilyCalendar(storage,{now=Date.now(),catalog={opportuniti
  const participants=people.map(p=>({id:p.id,name:p.name||'Athlete',label:p.sport})),teams=people.map(p=>({id:p.id,participantId:p.id,organizationId,name:p.clubTeam||p.nickname||p.sport}));
  const ctx={tenantId,personId,role,roles:[role],participantIds:participants.map(p=>p.id),memberships:[{organizationId,role,teamIds:teams.map(t=>t.id)}]};
  const stamp=new Date(now).toISOString(),activities=[];
- for(const p of profiles)for(const e of scheduleFor(p,catalog)){try{
+ for(const p of profiles)for(const e of athleteEvents(p,catalog).filter(e=>!e.container)){try{
   const next=new Date((e.end||e.start)+'T12:00:00Z');next.setUTCDate(next.getUTCDate()+1);
   const a=activityContract({schemaVersion:2,tenantId,organizationId,role,sourceId:e.imported?'local-arena':'local-plans',sourceIdentity:p.id,eventId:e.occurrenceId||e.id,participantId:p.id,teamId:p.id,title:e.name,start:e.startAt||denverInstant(e.start,'00:00'),end:e.endAt||denverInstant(next.toISOString().slice(0,10),'00:00'),timezone:'America/Denver',eventType:e.imported?(['camp','game','meet','tournament','travel','practice'].includes(e.kind)?e.kind:'opportunity'):e.kind==='other'?'personal':e.kind,status:'scheduled',location:e.note,originalSourceTimestamp:e.createdAt||stamp,lastSynchronizedAt:null,priority:3,visibility:'family',permissionScope:{tenantId,organizationId,role,personIds:[personId]},evidence:{url:e.imported?catalog.sources?.find(s=>s.id===e.sourceIds?.[0])?.url:'',summary:e.imported?'Saved published opportunity. Confirm dates with organizer; no live availability or provider connection.':'Parent/athlete-entered browser-local event. Read directly from My Pathway; no provider connection.'}});a.profileEvent=true;a.demo=false;a.allDay=e.imported||e.allDay;a.sourceTimestampKnown=!!e.createdAt;activities.push(a);
  }catch{/* Keep invalid legacy records in storage; do not fabricate timestamps. */}}
