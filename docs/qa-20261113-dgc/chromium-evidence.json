@@ -1,0 +1,280 @@
+{
+  "baseline": "39ecc7eb9c2f671658d4916f17c966facb6b3c39",
+  "engine": "chromium",
+  "version": "156.0.8078.79",
+  "fixture": "Existing synthetic QA profiles/results; no production records",
+  "screenshots": [
+    {
+      "file": "screenshots/chromium-before-home-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-before-discover-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-before-sport-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-before-athlete-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-before-overview-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#overview"
+    },
+    {
+      "file": "screenshots/chromium-before-feed-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-before-feed-cards-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#my-feed"
+    },
+    {
+      "file": "screenshots/chromium-before-development-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-before-development-cards-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#camps"
+    },
+    {
+      "file": "screenshots/chromium-before-community-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-before-community-cards-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#community"
+    },
+    {
+      "file": "screenshots/chromium-before-home-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-before-feed-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-before-home-iphone.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-before-feed-iphone.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-before-siem-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-before-lockedin-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-after-home-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-after-discover-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-after-sport-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-after-athlete-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-after-overview-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#overview"
+    },
+    {
+      "file": "screenshots/chromium-after-feed-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-after-feed-cards-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#my-feed"
+    },
+    {
+      "file": "screenshots/chromium-after-development-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-after-development-cards-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#camps"
+    },
+    {
+      "file": "screenshots/chromium-after-community-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-after-community-cards-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": "#community"
+    },
+    {
+      "file": "screenshots/chromium-after-home-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-after-feed-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-after-home-iphone.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-after-feed-iphone.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-after-siem-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    },
+    {
+      "file": "screenshots/chromium-after-lockedin-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "componentCrop": null
+    }
+  ]
+}

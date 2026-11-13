@@ -1,0 +1,11 @@
+test_polish_01_primary_locked_demo_is_external_and_local_reference_is_preserved (__main__.Polish.test_polish_01_primary_locked_demo_is_external_and_local_reference_is_preserved) ... ok
+test_polish_02_four_sport_heroes_and_full_directories_respond (__main__.Polish.test_polish_02_four_sport_heroes_and_full_directories_respond) ... ok
+test_polish_03_entry_distinguishes_tour_setup_and_existing_dashboard (__main__.Polish.test_polish_03_entry_distinguishes_tour_setup_and_existing_dashboard) ... ok
+test_polish_04_direct_calendar_preserves_local_family_and_tour_is_fictional (__main__.Polish.test_polish_04_direct_calendar_preserves_local_family_and_tour_is_fictional) ... ok
+test_polish_05_ipad_readability_focus_and_evidence_disclosure (__main__.Polish.test_polish_05_ipad_readability_focus_and_evidence_disclosure) ... ok
+test_polish_06_parent_navigation_marks_the_current_section (__main__.Polish.test_polish_06_parent_navigation_marks_the_current_section) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 11.951s
+
+OK

@@ -1,0 +1,58 @@
+[
+  {
+    "suite": "polish-webkit",
+    "script": "qa-ux-polish.py",
+    "exitCode": 0,
+    "seconds": 12.07
+  },
+  {
+    "suite": "resume-webkit",
+    "script": "qa-nov13-resume.py",
+    "exitCode": 0,
+    "seconds": 30.94
+  },
+  {
+    "suite": "consolidated-webkit",
+    "script": "qa-consolidated.py",
+    "exitCode": 0,
+    "seconds": 25.32
+  },
+  {
+    "suite": "acceptance-webkit",
+    "script": "qa-acceptance-refinement.py",
+    "exitCode": 0,
+    "seconds": 33.81
+  },
+  {
+    "suite": "rc-webkit",
+    "script": "qa-release-candidate.py",
+    "exitCode": 0,
+    "seconds": 12.97
+  },
+  {
+    "suite": "conformance-webkit",
+    "script": "qa-conformance.py",
+    "exitCode": 0,
+    "seconds": 25.9
+  },
+  {
+    "suite": "siem-webkit",
+    "script": "qa-siem-webkit.py",
+    "exitCode": 0,
+    "seconds": 8.74
+  },
+  {
+    "suite": "dgc-webkit",
+    "script": "qa-dgc.py",
+    "exitCode": 0,
+    "seconds": 9.49,
+    "finalRerun": true
+  },
+  {
+    "suite": "profile-webkit",
+    "script": "qa-profile-visual.py",
+    "exitCode": 0,
+    "seconds": 11.16,
+    "finalRerun": true
+  }
+]

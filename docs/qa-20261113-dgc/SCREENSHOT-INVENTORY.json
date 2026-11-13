@@ -1,0 +1,602 @@
+[
+  {
+    "file": "audit/community.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 98911
+  },
+  {
+    "file": "audit/development.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 134057
+  },
+  {
+    "file": "audit/feed.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 133888
+  },
+  {
+    "file": "audit/home.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 545574
+  },
+  {
+    "file": "audit/profile.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 140829
+  },
+  {
+    "file": "audit/siem.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 134811
+  },
+  {
+    "file": "audit/sport.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 344422
+  },
+  {
+    "file": "screenshots/chromium-after-athlete-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 142182
+  },
+  {
+    "file": "screenshots/chromium-after-community-cards-ipad.png",
+    "dimensions": [
+      762,
+      620
+    ],
+    "bytes": 45148
+  },
+  {
+    "file": "screenshots/chromium-after-community-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 112642
+  },
+  {
+    "file": "screenshots/chromium-after-development-cards-ipad.png",
+    "dimensions": [
+      762,
+      1490
+    ],
+    "bytes": 170766
+  },
+  {
+    "file": "screenshots/chromium-after-development-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 114086
+  },
+  {
+    "file": "screenshots/chromium-after-discover-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 655718
+  },
+  {
+    "file": "screenshots/chromium-after-feed-cards-ipad.png",
+    "dimensions": [
+      762,
+      1724
+    ],
+    "bytes": 254399
+  },
+  {
+    "file": "screenshots/chromium-after-feed-desktop.png",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "bytes": 119752
+  },
+  {
+    "file": "screenshots/chromium-after-feed-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 154344
+  },
+  {
+    "file": "screenshots/chromium-after-feed-iphone.png",
+    "dimensions": [
+      390,
+      844
+    ],
+    "bytes": 69805
+  },
+  {
+    "file": "screenshots/chromium-after-home-desktop.png",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "bytes": 1286811
+  },
+  {
+    "file": "screenshots/chromium-after-home-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 503591
+  },
+  {
+    "file": "screenshots/chromium-after-home-iphone.png",
+    "dimensions": [
+      390,
+      844
+    ],
+    "bytes": 234255
+  },
+  {
+    "file": "screenshots/chromium-after-lockedin-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 97834
+  },
+  {
+    "file": "screenshots/chromium-after-overview-ipad.png",
+    "dimensions": [
+      762,
+      969
+    ],
+    "bytes": 79829
+  },
+  {
+    "file": "screenshots/chromium-after-siem-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 134782
+  },
+  {
+    "file": "screenshots/chromium-after-sport-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 347904
+  },
+  {
+    "file": "screenshots/chromium-before-athlete-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 140275
+  },
+  {
+    "file": "screenshots/chromium-before-community-cards-ipad.png",
+    "dimensions": [
+      762,
+      620
+    ],
+    "bytes": 45158
+  },
+  {
+    "file": "screenshots/chromium-before-community-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 132853
+  },
+  {
+    "file": "screenshots/chromium-before-development-cards-ipad.png",
+    "dimensions": [
+      762,
+      1257
+    ],
+    "bytes": 99701
+  },
+  {
+    "file": "screenshots/chromium-before-development-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 134057
+  },
+  {
+    "file": "screenshots/chromium-before-discover-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 574718
+  },
+  {
+    "file": "screenshots/chromium-before-feed-cards-ipad.png",
+    "dimensions": [
+      762,
+      1110
+    ],
+    "bytes": 108674
+  },
+  {
+    "file": "screenshots/chromium-before-feed-desktop.png",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "bytes": 134425
+  },
+  {
+    "file": "screenshots/chromium-before-feed-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 133888
+  },
+  {
+    "file": "screenshots/chromium-before-feed-iphone.png",
+    "dimensions": [
+      390,
+      844
+    ],
+    "bytes": 72389
+  },
+  {
+    "file": "screenshots/chromium-before-home-desktop.png",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "bytes": 1241140
+  },
+  {
+    "file": "screenshots/chromium-before-home-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 545574
+  },
+  {
+    "file": "screenshots/chromium-before-home-iphone.png",
+    "dimensions": [
+      390,
+      844
+    ],
+    "bytes": 223671
+  },
+  {
+    "file": "screenshots/chromium-before-lockedin-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 97834
+  },
+  {
+    "file": "screenshots/chromium-before-overview-ipad.png",
+    "dimensions": [
+      762,
+      958
+    ],
+    "bytes": 77847
+  },
+  {
+    "file": "screenshots/chromium-before-siem-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 134786
+  },
+  {
+    "file": "screenshots/chromium-before-sport-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 344422
+  },
+  {
+    "file": "screenshots/webkit-after-athlete-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 124405
+  },
+  {
+    "file": "screenshots/webkit-after-community-cards-ipad.png",
+    "dimensions": [
+      762,
+      619
+    ],
+    "bytes": 54085
+  },
+  {
+    "file": "screenshots/webkit-after-community-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 78698
+  },
+  {
+    "file": "screenshots/webkit-after-development-cards-ipad.png",
+    "dimensions": [
+      762,
+      1522
+    ],
+    "bytes": 154016
+  },
+  {
+    "file": "screenshots/webkit-after-development-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 103758
+  },
+  {
+    "file": "screenshots/webkit-after-discover-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 732998
+  },
+  {
+    "file": "screenshots/webkit-after-feed-cards-ipad.png",
+    "dimensions": [
+      762,
+      1714
+    ],
+    "bytes": 217218
+  },
+  {
+    "file": "screenshots/webkit-after-feed-desktop.png",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "bytes": 109457
+  },
+  {
+    "file": "screenshots/webkit-after-feed-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 157498
+  },
+  {
+    "file": "screenshots/webkit-after-feed-iphone.png",
+    "dimensions": [
+      390,
+      844
+    ],
+    "bytes": 70900
+  },
+  {
+    "file": "screenshots/webkit-after-home-desktop.png",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "bytes": 1213023
+  },
+  {
+    "file": "screenshots/webkit-after-home-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 442014
+  },
+  {
+    "file": "screenshots/webkit-after-home-iphone.png",
+    "dimensions": [
+      390,
+      844
+    ],
+    "bytes": 217598
+  },
+  {
+    "file": "screenshots/webkit-after-lockedin-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 115937
+  },
+  {
+    "file": "screenshots/webkit-after-overview-ipad.png",
+    "dimensions": [
+      762,
+      969
+    ],
+    "bytes": 95249
+  },
+  {
+    "file": "screenshots/webkit-after-siem-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 157281
+  },
+  {
+    "file": "screenshots/webkit-after-sport-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 373625
+  },
+  {
+    "file": "screenshots/webkit-before-athlete-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 125689
+  },
+  {
+    "file": "screenshots/webkit-before-community-cards-ipad.png",
+    "dimensions": [
+      762,
+      620
+    ],
+    "bytes": 54135
+  },
+  {
+    "file": "screenshots/webkit-before-community-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 78877
+  },
+  {
+    "file": "screenshots/webkit-before-development-cards-ipad.png",
+    "dimensions": [
+      762,
+      1290
+    ],
+    "bytes": 116957
+  },
+  {
+    "file": "screenshots/webkit-before-development-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 106753
+  },
+  {
+    "file": "screenshots/webkit-before-discover-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 639488
+  },
+  {
+    "file": "screenshots/webkit-before-feed-cards-ipad.png",
+    "dimensions": [
+      762,
+      1133
+    ],
+    "bytes": 131232
+  },
+  {
+    "file": "screenshots/webkit-before-feed-desktop.png",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "bytes": 109565
+  },
+  {
+    "file": "screenshots/webkit-before-feed-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 137278
+  },
+  {
+    "file": "screenshots/webkit-before-feed-iphone.png",
+    "dimensions": [
+      390,
+      844
+    ],
+    "bytes": 69319
+  },
+  {
+    "file": "screenshots/webkit-before-home-desktop.png",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "bytes": 1195835
+  },
+  {
+    "file": "screenshots/webkit-before-home-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 472588
+  },
+  {
+    "file": "screenshots/webkit-before-home-iphone.png",
+    "dimensions": [
+      390,
+      844
+    ],
+    "bytes": 192017
+  },
+  {
+    "file": "screenshots/webkit-before-lockedin-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 115937
+  },
+  {
+    "file": "screenshots/webkit-before-overview-ipad.png",
+    "dimensions": [
+      762,
+      958
+    ],
+    "bytes": 93033
+  },
+  {
+    "file": "screenshots/webkit-before-siem-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 156973
+  },
+  {
+    "file": "screenshots/webkit-before-sport-ipad.png",
+    "dimensions": [
+      810,
+      1080
+    ],
+    "bytes": 374176
+  }
+]

@@ -1,0 +1,11 @@
+test_dgc_01_homepage_discovery_precedes_admin_and_anchors_work (__main__.DGC.test_dgc_01_homepage_discovery_precedes_admin_and_anchors_work) ... ok
+test_dgc_02_all_sport_anchors_retain_full_results (__main__.DGC.test_dgc_02_all_sport_anchors_retain_full_results) ... ok
+test_dgc_03_editorial_covers_do_not_activate_sources_or_fake_photos (__main__.DGC.test_dgc_03_editorial_covers_do_not_activate_sources_or_fake_photos) ... ok
+test_dgc_04_profile_header_compacts_without_changing_identity_or_sections (__main__.DGC.test_dgc_04_profile_header_compacts_without_changing_identity_or_sections) ... ok
+test_dgc_05_reduced_motion_and_responsive_feed_keep_controls_accessible (__main__.DGC.test_dgc_05_reduced_motion_and_responsive_feed_keep_controls_accessible) ... ok
+test_dgc_06_only_existing_season_and_achievement_are_presented (__main__.DGC.test_dgc_06_only_existing_season_and_achievement_are_presented) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 9.371s
+
+OK
