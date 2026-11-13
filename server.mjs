@@ -1,3 +1,4 @@
+import {FeedService,TOPICS} from './src/rss-feed.mjs';
 import {communityPage,resourcePage,lockedInPreview} from './src/consolidated-views.mjs';
 import {legacySiemDestination} from './src/siem-navigation.mjs';
 import {siemPlatformPage} from './src/siem-platform-view.mjs';
@@ -15,12 +16,13 @@ import {photography,brand} from './src/presentation.mjs';
 import { esc, layout, home, sportPage, builder, advancedBuilder, myPathway, dataPage, credits, organizationPage, classificationPage } from './src/views.mjs';
 const assets = { 'style.css':'text/css; charset=utf-8', 'app.js':'text/javascript; charset=utf-8', 'state.js':'text/javascript; charset=utf-8', 'regions.js':'text/javascript; charset=utf-8', 'stadium.jpg':'image/jpeg' };
 assets['siem-platform.css']='text/css; charset=utf-8';
-for(const name of ['schedule-presentation.js','meet-sessions.js','swimming-progress.js','lockedin-demo.js','lockedin-demo-model.js','siem-guidance.js','college-research.js','athlete-journey.js','content-library.js','local-family-calendar.js','profile-qa.js','athlete-records.js','media-library.js','calendar-import.js','recurring-plans.js','siem-calendar.js','siem-platform-boot.js','siem-family-fixtures.js','siem-platform.js','siem-platform-model.js','siem-platform-fixtures.js','siem.js','siem-model.js','release-demo.js','release-demo-model.js'])assets[name]='text/javascript; charset=utf-8';
+for(const name of ['schedule-presentation.js','meet-sessions.js','swimming-progress.js','lockedin-demo.js','lockedin-demo-model.js','siem-guidance.js','college-research.js','athlete-journey.js','content-library.js','rss-news.js','local-family-calendar.js','profile-qa.js','athlete-records.js','media-library.js','calendar-import.js','recurring-plans.js','siem-calendar.js','siem-platform-boot.js','siem-family-fixtures.js','siem-platform.js','siem-platform-model.js','siem-platform-fixtures.js','siem.js','siem-model.js','release-demo.js','release-demo-model.js'])assets[name]='text/javascript; charset=utf-8';
 assets['fonts/barlow-condensed-bold.ttf']='font/ttf';
 for(const p of Object.values(photography)){assets[p.asset]='image/webp';assets[p.smallAsset]='image/webp';}
 if(brand.status==='ready')for(const key of ['desktopAsset','mobileAsset','homepageAsset','faviconAsset','appleTouchAsset']){const path=brand[key];assets[path]=path.endsWith('.webp')?'image/webp':'image/png';}
-export function createServer() {
- return http.createServer(async (req,res) => {
+const rssCatalog=JSON.parse(await readFile(new URL('./data/rss-feed-catalog.json',import.meta.url)));
+export function createServer({feedService=new FeedService(rssCatalog.sources,{file:new URL('./var/rss-cache.json',import.meta.url).pathname})}={}) {
+ const server=http.createServer(async (req,res) => {
   const headers = { 'X-Content-Type-Options':'nosniff', 'Referrer-Policy':'strict-origin-when-cross-origin', 'Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' blob:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'" };
   const send = (status, body, type='text/html; charset=utf-8') => { res.writeHead(status,{...headers,'Content-Type':type});res.end(req.method==='HEAD'?undefined:body); };
   if (!['GET','HEAD'].includes(req.method)) {res.setHeader('Allow','GET, HEAD');return send(405,'Method not allowed','text/plain');}
@@ -37,6 +39,14 @@ export function createServer() {
    if(path==='/data/classification')return send(200,classificationPage());
    const orgMatch=path.match(/^\/organizations\/([a-zA-Z0-9_-]+)\/?$/);if(orgMatch){const html=organizationPage(orgMatch[1],url.searchParams);if(html)return send(200,html);}
    if(path==='/data/engine')return send(200,layout('Colorado data coverage',engineCoverageHTML(esc),'data-engine'));
+   if(path==='/api/rss-news'){
+    const sport=url.searchParams.get('sport'),topic=url.searchParams.get('topic')||'',selection=url.searchParams.get('sources')||'';
+    if(!sports.includes(sport)||topic&&!TOPICS.includes(topic)||selection.length>4096)return send(400,'Invalid news filters','text/plain');
+    const selected=selection.split(',').filter(Boolean);
+    if(selected.some(id=>!rssCatalog.sources.some(s=>s.id===id&&s.sport===sport)))return send(400,'Invalid publisher selection','text/plain');
+    res.setHeader('Cache-Control','no-store');
+    return send(200,JSON.stringify(await feedService.read(sport,selected,topic)),'application/json');
+   }
    if(path==='/api/reviewed-content')return send(200,await readFile(new URL('./data/content-review.json',import.meta.url)),'application/json');
    if(path==='/api/content-presentation')return send(200,await readFile(new URL('./data/content-presentation.json',import.meta.url)),'application/json');
    if(path==='/api/content-sources')return send(200,await readFile(new URL('./data/sport-content-sources.json',import.meta.url)),'application/json');
@@ -65,6 +75,7 @@ export function createServer() {
    return send(404,layout('Page not found','<main id="main" class="section"><h1>Off the beaten path.</h1><p>This page doesn’t exist.</p><a class="button" href="/">BACK TO HOME</a></main>'));
   } catch(error) {console.error(error);send(500,'Something went wrong. Please try again.','text/plain');}
  });
+ server.on('listening',()=>feedService.start());server.on('close',()=>feedService.stop());return server;
 }
 if(process.argv[1]===fileURLToPath(import.meta.url)) {
  const report=validateCatalog();if(!report.valid)throw Error(report.errors.join('\n'));

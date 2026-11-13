@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 1,
+  "attempts": [
+    {
+      "id": "lacrosse:rss:usa-lacrosse",
+      "initial": {
+        "url": "https://www.usalacrosse.com/rss.xml",
+        "checkedAt": "2026-11-13T18:38:59.782995+00:00",
+        "httpResult": "404 text/html;charset=utf-8",
+        "error": null,
+        "bytes": 48343,
+        "sha256": "eb389643d453fbdefe81dd42fdd20310f8c7ce89ad2d0078406a3895daca4e6f",
+        "firstBytes": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><sc"
+      },
+      "recheck": {
+        "id": "lacrosse:rss:usa-lacrosse",
+        "url": "https://www.usalacrosse.com/rss.xml",
+        "checkedAt": "2026-11-13T18:43:29.379Z",
+        "httpStatus": 404,
+        "contentType": "text/html;charset=utf-8",
+        "finalURL": "https://www.usalacrosse.com/rss.xml",
+        "status": "blocked",
+        "reason": "HTTP 404"
+      }
+    },
+    {
+      "id": "lacrosse:rss:inside-lacrosse",
+      "initial": {
+        "url": "https://www.insidelacrosse.com/rss",
+        "checkedAt": "2026-11-13T18:38:59.561481+00:00",
+        "httpResult": "404 text/html",
+        "error": null,
+        "bytes": 11127,
+        "sha256": "5637f20bb849f9458cae4901cc2cd8b9cd56ddaea01116c27d77e48a3662431d",
+        "firstBytes": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <link rel=\"icon\" href=\"/favicon.ico\" sizes=\"3"
+      },
+      "recheck": {
+        "id": "lacrosse:rss:inside-lacrosse",
+        "url": "https://www.insidelacrosse.com/rss",
+        "checkedAt": "2026-11-13T18:43:35.259Z",
+        "httpStatus": 404,
+        "contentType": "text/html",
+        "finalURL": "https://www.insidelacrosse.com/rss",
+        "status": "blocked",
+        "reason": "HTTP 404"
+      }
+    },
+    {
+      "id": "lacrosse:rss:pll-oursportscentral",
+      "initial": {
+        "url": "https://www.oursportscentral.com/feeds/rss/l-254.xml",
+        "checkedAt": "2026-11-13T18:38:59.469470+00:00",
+        "httpResult": "404 text/html; charset=UTF-8",
+        "error": null,
+        "bytes": 40155,
+        "sha256": "101cdfecd06b6e70ecab97748ecef6b17f4d43f86a09d9c3cb716bcbc76f3b7d",
+        "firstBytes": "<!DOCTYPE html>\n<html lang=\"en\">\n<head><meta http-equiv=\"Content-type\" content=\"text/html;charset=UTF-8\">\n<meta name=\"vi"
+      },
+      "recheck": {
+        "id": "lacrosse:rss:pll-oursportscentral",
+        "url": "https://www.oursportscentral.com/feeds/rss/l-254.xml",
+        "checkedAt": "2026-11-13T18:43:41.430Z",
+        "httpStatus": 404,
+        "contentType": "text/html; charset=UTF-8",
+        "finalURL": "https://www.oursportscentral.com/feeds/rss/l-254.xml",
+        "status": "blocked",
+        "reason": "HTTP 404"
+      }
+    },
+    {
+      "id": "lacrosse:rss:nll",
+      "initial": {
+        "url": "https://www.nll.com/feed/",
+        "checkedAt": "2026-11-13T18:38:59.739313+00:00",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "error": null,
+        "bytes": 1329180,
+        "sha256": "b8d0481e84bfabac8aff1da058b16b02f6c8466db733d83eacc738128efa4b51",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmln"
+      },
+      "recheck": {
+        "id": "lacrosse:rss:nll",
+        "url": "https://www.nll.com/feed/",
+        "checkedAt": "2026-11-13T18:43:47.080Z",
+        "httpStatus": 200,
+        "contentType": "application/rss+xml; charset=UTF-8",
+        "finalURL": "https://www.nll.com/feed/",
+        "bytes": 1329180,
+        "sha256": "b8d0481e84bfabac8aff1da058b16b02f6c8466db733d83eacc738128efa4b51",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmln",
+        "status": "verified",
+        "items": 20
+      }
+    },
+    {
+      "id": "lacrosse:rss:world-lacrosse",
+      "initial": {
+        "url": "https://worldlacrosse.sport/feed/",
+        "checkedAt": "2026-11-13T18:38:59.472611+00:00",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "error": null,
+        "bytes": 699660,
+        "sha256": "042ae704fc375a2258d29f23c7fc475c82259ed3e802565beabaeee30ff0a691",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmln"
+      },
+      "recheck": {
+        "id": "lacrosse:rss:world-lacrosse",
+        "url": "https://worldlacrosse.sport/feed/",
+        "checkedAt": "2026-11-13T18:43:47.621Z",
+        "httpStatus": 200,
+        "contentType": "application/rss+xml; charset=UTF-8",
+        "finalURL": "https://worldlacrosse.sport/feed/",
+        "bytes": 699660,
+        "sha256": "042ae704fc375a2258d29f23c7fc475c82259ed3e802565beabaeee30ff0a691",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmln",
+        "status": "verified",
+        "items": 12
+      }
+    },
+    {
+      "id": "volleyball:rss:volleyballmag",
+      "initial": {
+        "url": "https://volleyballmag.com/feed/",
+        "checkedAt": "2026-11-13T18:38:59.288811+00:00",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "error": null,
+        "bytes": 53197,
+        "sha256": "6f1645c27f1f5e7459b41e5481724aa49181ce80beddc4a2152ce7094169848c",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmln"
+      },
+      "recheck": {
+        "id": "volleyball:rss:volleyballmag",
+        "url": "https://volleyballmag.com/feed/",
+        "checkedAt": "2026-11-13T18:43:48.275Z",
+        "httpStatus": 200,
+        "contentType": "application/rss+xml; charset=UTF-8",
+        "finalURL": "https://volleyballmag.com/feed/",
+        "bytes": 53197,
+        "sha256": "6f1645c27f1f5e7459b41e5481724aa49181ce80beddc4a2152ce7094169848c",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmln",
+        "status": "verified",
+        "items": 10
+      }
+    },
+    {
+      "id": "volleyball:rss:volleycountry",
+      "initial": {
+        "url": "https://volleycountry.com/feed",
+        "checkedAt": "2026-11-13T18:39:02.542081+00:00",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "error": null,
+        "bytes": 138541,
+        "sha256": "7a0f81968fb86a92a866db999262c55d88de382bb4f954d7231365ca976920b4",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmln"
+      },
+      "recheck": {
+        "id": "volleyball:rss:volleycountry",
+        "url": "https://volleycountry.com/feed",
+        "checkedAt": "2026-11-13T18:43:48.945Z",
+        "httpStatus": 200,
+        "contentType": "application/rss+xml; charset=UTF-8",
+        "finalURL": "https://volleycountry.com/feed",
+        "bytes": 138541,
+        "sha256": "7a0f81968fb86a92a866db999262c55d88de382bb4f954d7231365ca976920b4",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmln",
+        "status": "verified",
+        "items": 10
+      }
+    },
+    {
+      "id": "volleyball:rss:coaching-volleyball",
+      "initial": {
+        "url": "https://coachingvb.com/feed/",
+        "checkedAt": "2026-11-13T18:39:02.154781+00:00",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "error": null,
+        "bytes": 142173,
+        "sha256": "fd0571f06f00d52d8296608aff28d72de79b030820c6887741a22fa7083f55d4",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmln"
+      },
+      "recheck": {
+        "id": "volleyball:rss:coaching-volleyball",
+        "url": "https://coachingvb.com/feed/",
+        "checkedAt": "2026-11-13T18:43:51.096Z",
+        "status": "blocked",
+        "reason": "getaddrinfo ENOTFOUND coachingvb.com"
+      }
+    },
+    {
+      "id": "volleyball:rss:world-paravolley",
+      "initial": {
+        "url": "https://worldparavolley.org/feed/",
+        "checkedAt": "2026-11-13T18:39:00.911567+00:00",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "error": null,
+        "bytes": 72137,
+        "sha256": "9cc0de253575c4443b556b06f1ed0452c4a834d12749076c08608b3b9aa3f0ba",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmln"
+      },
+      "recheck": {
+        "id": "volleyball:rss:world-paravolley",
+        "url": "https://worldparavolley.org/feed/",
+        "checkedAt": "2026-11-13T18:43:56.675Z",
+        "httpStatus": 200,
+        "contentType": "application/rss+xml; charset=UTF-8",
+        "finalURL": "https://worldparavolley.org/feed/",
+        "bytes": 72137,
+        "sha256": "9cc0de253575c4443b556b06f1ed0452c4a834d12749076c08608b3b9aa3f0ba",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmln",
+        "status": "verified",
+        "items": 10
+      }
+    },
+    {
+      "id": "volleyball:rss:avc",
+      "initial": {
+        "url": "https://asianvolleyball.net/new/feed/",
+        "checkedAt": "2026-11-13T18:39:00.602857+00:00",
+        "httpResult": "503 text/plain",
+        "error": null,
+        "bytes": 95,
+        "sha256": "9deff96f9b5925fa5081257849ace321304b382d64cfb67d90a21a3c7cbf2925",
+        "firstBytes": "upstream connect error or disconnect/reset before headers. reset reason: connection termination"
+      },
+      "recheck": {
+        "id": "volleyball:rss:avc",
+        "url": "https://asianvolleyball.net/new/feed/",
+        "checkedAt": "2026-11-13T18:43:58.364Z",
+        "httpStatus": 200,
+        "contentType": "application/rss+xml; charset=UTF-8",
+        "finalURL": "https://asianvolleyball.net/new/feed/",
+        "bytes": 58179,
+        "sha256": "3c964f864b92da76ba770587e6f5e97735ca058fdc9bbb1c42af144defaf2ad1",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmln",
+        "status": "verified",
+        "items": 10
+      }
+    },
+    {
+      "id": "swimming:rss:swimswam",
+      "initial": {
+        "url": "https://swimswam.com/feed/",
+        "checkedAt": "2026-11-13T18:39:00.368229+00:00",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "error": null,
+        "bytes": 121787,
+        "sha256": "68f1ab29d591f6fa6b419c6a6119159c07bc416f519c9825e76c8e26a9441972",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmln"
+      },
+      "recheck": {
+        "id": "swimming:rss:swimswam",
+        "url": "https://swimswam.com/feed/",
+        "checkedAt": "2026-11-13T18:44:00.093Z",
+        "httpStatus": 200,
+        "contentType": "application/rss+xml; charset=UTF-8",
+        "finalURL": "https://swimswam.com/feed/",
+        "bytes": 121788,
+        "sha256": "425c5329aad29318698d892683095c77677587a4dec3c6ae6b36e79863e129c0",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmln",
+        "status": "verified",
+        "items": 10
+      }
+    },
+    {
+      "id": "swimming:rss:swimswam-podcast",
+      "initial": {
+        "url": "https://feed.podbean.com/swimswam/feed.xml",
+        "checkedAt": "2026-11-13T18:39:00.214729+00:00",
+        "httpResult": "200 text/xml; charset=UTF-8",
+        "error": "curl: (63) Maximum file size exceeded\n"
+      },
+      "recheck": {
+        "id": "swimming:rss:swimswam-podcast",
+        "url": "https://feed.podbean.com/swimswam/feed.xml",
+        "checkedAt": "2026-11-13T18:44:00.951Z",
+        "httpStatus": 200,
+        "contentType": "text/xml; charset=UTF-8",
+        "finalURL": "https://feed.podbean.com/swimswam/feed.xml",
+        "status": "blocked",
+        "reason": "Feed exceeds size limit"
+      }
+    },
+    {
+      "id": "swimming:rss:swimming-world",
+      "initial": {
+        "url": "https://www.swimmingworldmagazine.com/news/feed/",
+        "checkedAt": "2026-11-13T18:39:04.461468+00:00",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "error": null,
+        "bytes": 20318,
+        "sha256": "2dc408c15439adf8e3ec922996c36c1f139289275460bfd9b26e68b886288b5a",
+        "firstBytes": "\ufeff<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txml"
+      },
+      "recheck": {
+        "id": "swimming:rss:swimming-world",
+        "url": "https://www.swimmingworldmagazine.com/news/feed/",
+        "checkedAt": "2026-11-13T18:44:01.427Z",
+        "httpStatus": 200,
+        "contentType": "application/rss+xml; charset=UTF-8",
+        "finalURL": "https://www.swimmingworldmagazine.com/news/feed/",
+        "bytes": 20318,
+        "sha256": "2dc408c15439adf8e3ec922996c36c1f139289275460bfd9b26e68b886288b5a",
+        "firstBytes": "\ufeff<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txml",
+        "status": "verified",
+        "items": 10
+      }
+    },
+    {
+      "id": "swimming:rss:usa-swimming",
+      "initial": {
+        "url": "https://www.usaswimming.org/rss",
+        "checkedAt": "2026-11-13T18:39:00.885316+00:00",
+        "httpResult": "404 text/html; charset=utf-8",
+        "error": null,
+        "bytes": 1668,
+        "sha256": "d1b9019d221a4e848cd57ffe04bcb48ecc17e15845430269652e424670216f5a",
+        "firstBytes": "\n\n<!DOCTYPE html>\n\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head><title>\n\t404\n</title>\n<style> \n.four-o-four img {\n "
+      },
+      "recheck": {
+        "id": "swimming:rss:usa-swimming",
+        "url": "https://www.usaswimming.org/rss",
+        "checkedAt": "2026-11-13T18:44:05.389Z",
+        "httpStatus": 404,
+        "contentType": "text/html; charset=utf-8",
+        "finalURL": "https://www.usaswimming.org/rss",
+        "status": "blocked",
+        "reason": "HTTP 404"
+      }
+    },
+    {
+      "id": "basketball:rss:espn-nba",
+      "initial": {
+        "url": "https://www.espn.com/espn/rss/nba/news",
+        "checkedAt": "2026-11-13T18:39:01.014015+00:00",
+        "httpResult": "200 text/xml;charset=UTF-8",
+        "error": null,
+        "bytes": 10757,
+        "sha256": "60b5d57681b5a794e87ee4327f99eeb578300d799376b0e333dc9527de758d84",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\txmlns:sy=\"http://pu"
+      },
+      "recheck": {
+        "id": "basketball:rss:espn-nba",
+        "url": "https://www.espn.com/espn/rss/nba/news",
+        "checkedAt": "2026-11-13T18:44:05.958Z",
+        "httpStatus": 200,
+        "contentType": "text/xml;charset=UTF-8",
+        "finalURL": "https://www.espn.com/espn/rss/nba/news",
+        "bytes": 10757,
+        "sha256": "8f4a74280cd530e7f9605f7a2c1084ce1bbd31e72b2b95999061474f0bac1f8a",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\txmlns:sy=\"http://pu",
+        "status": "verified",
+        "items": 18
+      }
+    },
+    {
+      "id": "basketball:rss:espn-college",
+      "initial": {
+        "url": "https://www.espn.com/espn/rss/ncb/news",
+        "checkedAt": "2026-11-13T18:39:01.288604+00:00",
+        "httpResult": "200 text/xml;charset=UTF-8",
+        "error": null,
+        "bytes": 8793,
+        "sha256": "7638fd7f7bb36e8f202ef9ba64e89e19c80c81699065d3cecb8e496a3d8cdc0d",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\txmlns:sy=\"http://pu"
+      },
+      "recheck": {
+        "id": "basketball:rss:espn-college",
+        "url": "https://www.espn.com/espn/rss/ncb/news",
+        "checkedAt": "2026-11-13T18:44:07.167Z",
+        "httpStatus": 200,
+        "contentType": "text/xml;charset=UTF-8",
+        "finalURL": "https://www.espn.com/espn/rss/ncb/news",
+        "bytes": 8793,
+        "sha256": "c6015306a1fca9a86311805dbc3fe86f47e0824e022dc712c5ad3ca9c6326c98",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\txmlns:sy=\"http://pu",
+        "status": "verified",
+        "items": 14
+      }
+    },
+    {
+      "id": "basketball:rss:cbs-basketball",
+      "initial": {
+        "url": "https://www.cbssports.com/rss/headlines/college-basketball/",
+        "checkedAt": "2026-11-13T18:39:01.346796+00:00",
+        "httpResult": "200 text/xml; charset=UTF-8",
+        "error": null,
+        "bytes": 37478,
+        "sha256": "5bf30553e02451ef13a95d684d451e2c1ab3fae7b1759663c9ff7d23cdd85b33",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<rss \n            xmlns:atom=\"http://www.w3.org/2005/Atom\"\n            xmlns:dc="
+      },
+      "recheck": {
+        "id": "basketball:rss:cbs-basketball",
+        "url": "https://www.cbssports.com/rss/headlines/college-basketball/",
+        "checkedAt": "2026-11-13T18:44:07.514Z",
+        "httpStatus": 200,
+        "contentType": "text/xml; charset=UTF-8",
+        "finalURL": "https://www.cbssports.com/rss/headlines/college-basketball/",
+        "bytes": 37478,
+        "sha256": "cd763521a3c39f8e086a13677a8e5749b379741097d7622b76662e145528d44e",
+        "firstBytes": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<rss \n            xmlns:atom=\"http://www.w3.org/2005/Atom\"\n            xmlns:dc=",
+        "status": "verified",
+        "items": 36
+      }
+    },
+    {
+      "id": "basketball:rss:slam",
+      "initial": {
+        "url": "https://www.slamonline.com/feed/",
+        "checkedAt": "2026-11-13T18:39:01.303374+00:00",
+        "httpResult": "403 text/html; charset=UTF-8",
+        "error": null,
+        "bytes": 4549,
+        "sha256": "e9b1db8a9475cbfd09d671c3a161fc740a436d810e636bc98f6f7fb4dc9dabe7",
+        "firstBytes": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class"
+      },
+      "recheck": {
+        "id": "basketball:rss:slam",
+        "url": "https://www.slamonline.com/feed/",
+        "checkedAt": "2026-11-13T18:44:07.987Z",
+        "httpStatus": 403,
+        "contentType": "text/html; charset=UTF-8",
+        "finalURL": "https://www.slamonline.com/feed/",
+        "status": "blocked",
+        "reason": "HTTP 403"
+      }
+    },
+    {
+      "id": "basketball:rss:nba",
+      "initial": {
+        "url": "https://www.nba.com/rss/nba_rss.xml",
+        "checkedAt": "2026-11-13T18:39:01.808236+00:00",
+        "httpResult": "404 text/html; charset=utf-8",
+        "error": null,
+        "bytes": 4767,
+        "sha256": "dfac0256bc02f905c5d0cc9f079895b9ec48e3ed2cf8ff6a7e3595f2b74fab6c",
+        "firstBytes": "<!DOCTYPE html>\n                <html lang=\"en\">\n                <head>\n                    <meta charset=\"UTF-8\">\n     "
+      },
+      "recheck": {
+        "id": "basketball:rss:nba",
+        "url": "https://www.nba.com/rss/nba_rss.xml",
+        "checkedAt": "2026-11-13T18:44:08.376Z",
+        "httpStatus": 404,
+        "contentType": "text/html; charset=utf-8",
+        "finalURL": "https://www.nba.com/rss/nba_rss.xml",
+        "status": "blocked",
+        "reason": "HTTP 404"
+      }
+    }
+  ]
+}

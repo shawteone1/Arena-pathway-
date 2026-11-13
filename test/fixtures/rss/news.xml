@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Synthetic publisher</title>
+<item><guid>old</guid><title>Older result</title><link>https://news.example/old?utm_source=feed</link><description><![CDATA[<p>A short <b>summary</b>.</p>]]></description><pubDate>Mon, 09 Nov 2026 10:00:00 GMT</pubDate><category>College</category><dc:creator>Reporter</dc:creator></item>
+<item><guid>new</guid><title>New result</title><link>https://news.example/new?fbclid=tracker</link><pubDate>Thu, 12 Nov 2026 10:00:00 GMT</pubDate><category>Olympic</category></item>
+<item><guid>new</guid><title>Duplicate GUID</title><link>https://news.example/duplicate</link><pubDate>Wed, 11 Nov 2026 10:00:00 GMT</pubDate></item>
+<item><guid>other</guid><title>Duplicate canonical URL</title><link>https://news.example/old</link><pubDate>Sun, 08 Nov 2026 10:00:00 GMT</pubDate></item>
+<item><guid>bad</guid><title>Unsafe</title><link>javascript:alert(1)</link><pubDate>Thu, 12 Nov 2026 10:00:00 GMT</pubDate></item>
+<item><guid>unknown</guid><title>Undated</title><link>https://news.example/unknown</link></item>
+</channel></rss>

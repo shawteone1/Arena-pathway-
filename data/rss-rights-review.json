@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "reviews": [
+    {
+      "sourceId": "lacrosse:rss:nll",
+      "publisher": "National Lacrosse League",
+      "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+      "scope": "Arena Pathway product headline, short-excerpt, attribution and outbound-link use",
+      "termsURLs": [
+        "https://www.nll.com/",
+        "https://www.nll.com/terms-of-use/"
+      ],
+      "headlineReuse": "not-established",
+      "shortExcerptReuse": "not-established",
+      "attribution": "Retain publisher identity if licensed; attribution alone is not a reuse grant.",
+      "outboundLinking": "not-established",
+      "decision": "additional-approval-required",
+      "finding": "No RSS reuse license found. Homepage reserves rights; attempted terms path returned 404."
+    },
+    {
+      "sourceId": "lacrosse:rss:world-lacrosse",
+      "publisher": "World Lacrosse",
+      "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+      "scope": "Arena Pathway product headline, short-excerpt, attribution and outbound-link use",
+      "termsURLs": [
+        "https://worldlacrosse.sport/media-information/"
+      ],
+      "headlineReuse": "not-established",
+      "shortExcerptReuse": "not-established",
+      "attribution": "Retain publisher identity if licensed; attribution alone is not a reuse grant.",
+      "outboundLinking": "not-established",
+      "decision": "additional-approval-required",
+      "finding": "Media accreditation permits certain event editorial uses, but does not grant website RSS headline/excerpt republication to AP. Commercial event use requires consent."
+    },
+    {
+      "sourceId": "volleyball:rss:volleyballmag",
+      "publisher": "VolleyballMag",
+      "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+      "scope": "Arena Pathway product headline, short-excerpt, attribution and outbound-link use",
+      "termsURLs": [
+        "https://volleyballmag.com/",
+        "https://volleyballmag.com/terms-of-use/"
+      ],
+      "headlineReuse": "not-established",
+      "shortExcerptReuse": "not-established",
+      "attribution": "Retain publisher identity if licensed; attribution alone is not a reuse grant.",
+      "outboundLinking": "not-established",
+      "decision": "additional-approval-required",
+      "finding": "Homepage identifies the copyright owner. Attempted terms path returned 404; no AP headline/excerpt syndication grant established."
+    },
+    {
+      "sourceId": "volleyball:rss:volleycountry",
+      "publisher": "VolleyCountry",
+      "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+      "scope": "Arena Pathway product headline, short-excerpt, attribution and outbound-link use",
+      "termsURLs": [
+        "https://volleycountry.com/terms-and-conditions"
+      ],
+      "headlineReuse": "approval-required",
+      "shortExcerptReuse": "approval-required",
+      "attribution": "Retain publisher identity if licensed; attribution alone is not a reuse grant.",
+      "outboundLinking": "conditional",
+      "decision": "additional-approval-required",
+      "finding": "Personal viewing/printing is allowed. Republishing/copying is restricted; redistribution exception needs a specific designation. Linking is conditional for specified organization types; AP eligibility or approval is unconfirmed."
+    },
+    {
+      "sourceId": "volleyball:rss:world-paravolley",
+      "publisher": "World ParaVolley",
+      "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+      "scope": "Arena Pathway product headline, short-excerpt, attribution and outbound-link use",
+      "termsURLs": [
+        "https://worldparavolley.org/terms-conditions/"
+      ],
+      "headlineReuse": "not-established",
+      "shortExcerptReuse": "not-established",
+      "attribution": "Retain publisher identity if licensed; attribution alone is not a reuse grant.",
+      "outboundLinking": "not-established",
+      "decision": "additional-approval-required",
+      "finding": "Content is protected and the site license is limited. No explicit AP RSS headline/excerpt syndication permission or general outbound-link grant found."
+    },
+    {
+      "sourceId": "volleyball:rss:avc",
+      "publisher": "Asian Volleyball Confederation",
+      "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+      "scope": "Arena Pathway product headline, short-excerpt, attribution and outbound-link use",
+      "termsURLs": [
+        "https://asianvolleyball.net/new/"
+      ],
+      "headlineReuse": "not-established",
+      "shortExcerptReuse": "not-established",
+      "attribution": "Retain publisher identity if licensed; attribution alone is not a reuse grant.",
+      "outboundLinking": "not-established",
+      "decision": "additional-approval-required",
+      "finding": "Public homepage recheck returned 503. No accessible publisher grant for AP headline/excerpt syndication found. Feed success is not permission."
+    },
+    {
+      "sourceId": "swimming:rss:swimswam",
+      "publisher": "SwimSwam",
+      "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+      "scope": "Arena Pathway product headline, short-excerpt, attribution and outbound-link use",
+      "termsURLs": [
+        "https://swimswam.com/terms-of-use-privacy/"
+      ],
+      "headlineReuse": "approval-required",
+      "shortExcerptReuse": "approval-required",
+      "attribution": "Retain publisher identity if licensed; attribution alone is not a reuse grant.",
+      "outboundLinking": "not-established",
+      "decision": "additional-approval-required",
+      "finding": "Use license covers temporary personal noncommercial viewing. Copying, public display, commercial use and mirroring are restricted. AP publication requires additional authorization."
+    },
+    {
+      "sourceId": "swimming:rss:swimming-world",
+      "publisher": "Swimming World",
+      "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+      "scope": "Arena Pathway product headline, short-excerpt, attribution and outbound-link use",
+      "termsURLs": [
+        "https://www.swimmingworldmagazine.com/news/terms/"
+      ],
+      "headlineReuse": "approval-required",
+      "shortExcerptReuse": "approval-required",
+      "attribution": "Retain publisher identity if licensed; attribution alone is not a reuse grant.",
+      "outboundLinking": "not-established",
+      "decision": "additional-approval-required",
+      "finding": "Terms expressly include RSS. Sections 2.2\u20132.3 and 15 reserve reproduction and nonpersonal copying/storage to written permission; user-submission rights do not license AP to republish all editorial news."
+    },
+    {
+      "sourceId": "basketball:rss:espn-nba",
+      "publisher": "ESPN NBA",
+      "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+      "scope": "Arena Pathway product headline, short-excerpt, attribution and outbound-link use",
+      "termsURLs": [
+        "https://disneytermsofuse.com/english/",
+        "https://www.espn.com/nba/"
+      ],
+      "headlineReuse": "approval-required",
+      "shortExcerptReuse": "approval-required",
+      "attribution": "Retain publisher identity if licensed; attribution alone is not a reuse grant.",
+      "outboundLinking": "not-established",
+      "decision": "additional-approval-required",
+      "finding": "ESPN footer links Disney terms. Sections 2 and 3.H restrict reuse/business-related uses absent license. No product-level RSS headline/excerpt exception established."
+    },
+    {
+      "sourceId": "basketball:rss:espn-college",
+      "publisher": "ESPN College Basketball",
+      "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+      "scope": "Arena Pathway product headline, short-excerpt, attribution and outbound-link use",
+      "termsURLs": [
+        "https://disneytermsofuse.com/english/",
+        "https://www.espn.com/mens-college-basketball/"
+      ],
+      "headlineReuse": "approval-required",
+      "shortExcerptReuse": "approval-required",
+      "attribution": "Retain publisher identity if licensed; attribution alone is not a reuse grant.",
+      "outboundLinking": "not-established",
+      "decision": "additional-approval-required",
+      "finding": "Same ESPN/Disney terms review as NBA. Technical RSS availability does not grant AP publication rights."
+    },
+    {
+      "sourceId": "basketball:rss:cbs-basketball",
+      "publisher": "CBS Sports Basketball",
+      "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+      "scope": "Arena Pathway product headline, short-excerpt, attribution and outbound-link use",
+      "termsURLs": [
+        "https://legalterms.cbsinteractive.com/terms-of-use",
+        "https://www.viacomcbs.legal/us/en/cbsi/terms-of-use"
+      ],
+      "headlineReuse": "approval-required",
+      "shortExcerptReuse": "approval-required",
+      "attribution": "Retain publisher identity if licensed; attribution alone is not a reuse grant.",
+      "outboundLinking": "not-established",
+      "decision": "additional-approval-required",
+      "finding": "Section 4 limits use to personal noncommercial viewing; section 4.2 requires written permission for commercial content/services use. Section 4.1 limited express viral permissions are not an AP feed license."
+    }
+  ]
+}
