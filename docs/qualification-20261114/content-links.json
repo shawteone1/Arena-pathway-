@@ -1,0 +1,159 @@
+{
+  "scope": "Read-only reachability, not new source/image/video approval",
+  "items": [
+    {
+      "source": "basketball:news:SLAM / WSLAM",
+      "id": "59ed83b43f5b98a0",
+      "url": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/",
+      "status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "basketball:news:FIBA",
+      "id": "1af96c8db0de6e1e",
+      "url": "https://www.fiba.basketball/en/news/suhail-to-light-up-the-court-as-official-mascot-of-the-fiba-basketball-world-cup-2027",
+      "status": 200,
+      "finalURL": "https://www.fiba.basketball/en/news/suhail-to-light-up-the-court-as-official-mascot-of-the-fiba-basketball-world-cup-2027"
+    },
+    {
+      "source": "basketball:news:CBS Sports Basketball",
+      "id": "11168ee498273b95",
+      "url": "https://www.cbssports.com/nba/news/nba-power-rankings-lakers-luka-doncic-nov-11/",
+      "status": 200,
+      "finalURL": "https://www.cbssports.com/nba/news/nba-power-rankings-lakers-luka-doncic-nov-11/"
+    },
+    {
+      "source": "basketball:development:Jr. NBA / WNBA",
+      "id": "08f76f843173c7da",
+      "url": "https://jr.nba.com/jr-nba-instructional-curriculum/",
+      "status": 200,
+      "finalURL": "https://jr.nba.com/jr-nba-instructional-curriculum/"
+    },
+    {
+      "source": "volleyball:news:VolleyballMag",
+      "id": "d12fbeb1e06de380",
+      "url": "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/",
+      "status": 200,
+      "finalURL": "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/"
+    },
+    {
+      "source": "volleyball:news:Volleyball World",
+      "id": "082ecdefb2526f2a",
+      "url": "https://en.volleyballworld.com/news/what-to-watch-on-vbtv-this-week-x9957",
+      "status": 200,
+      "finalURL": "https://en.volleyballworld.com/news/what-to-watch-on-vbtv-this-week-x9957"
+    },
+    {
+      "source": "volleyball:news:USA Volleyball",
+      "id": "ad5b84dc263b99b1",
+      "url": "https://usavolleyball.org/story/usa-volleyball-names-three-time-olympic-medalist-april-ross-first-female-head-coach-of-womens-beach-national-teams/",
+      "status": 200,
+      "finalURL": "https://usavolleyball.org/story/usa-volleyball-names-three-time-olympic-medalist-april-ross-first-female-head-coach-of-womens-beach-national-teams/"
+    },
+    {
+      "source": "volleyball:development:Sarah Pavan Volleyball",
+      "id": "5cd01cbd58f81c83",
+      "url": "https://www.sarahpavan.com/blog/goal-setting",
+      "status": 200,
+      "finalURL": "https://www.sarahpavan.com/blog/goal-setting"
+    },
+    {
+      "source": "volleyball:development:Art of Coaching Volleyball",
+      "id": "f1d308305e871242",
+      "url": "https://www.theartofcoachingvolleyball.com/wall-passing-setting/",
+      "status": 200,
+      "finalURL": "https://www.theartofcoachingvolleyball.com/wall-passing-setting/"
+    },
+    {
+      "source": "volleyball:development:Art of Coaching Volleyball",
+      "id": "ddf191be3503e17d",
+      "url": "https://www.theartofcoachingvolleyball.com/ball-handling-progression/",
+      "status": 200,
+      "finalURL": "https://www.theartofcoachingvolleyball.com/ball-handling-progression/"
+    },
+    {
+      "source": "swimming:news:SwimSwam",
+      "id": "7e95aaa1c93ff5eb",
+      "url": "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/",
+      "status": 200,
+      "finalURL": "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/"
+    },
+    {
+      "source": "swimming:news:Swimming World",
+      "id": "ac34d2a4c523eaa6",
+      "url": "https://www.swimmingworldmagazine.com/news/van-mathias-looking-to-continue-astonishing-run-at-short-course-worlds/",
+      "status": 200,
+      "finalURL": "https://www.swimmingworldmagazine.com/news/van-mathias-looking-to-continue-astonishing-run-at-short-course-worlds/"
+    },
+    {
+      "source": "swimming:news:World Aquatics",
+      "id": "d14e9ce4b90f856e",
+      "url": "https://www.worldaquatics.com/news/4607549/wild-card-athletes-confirmed-ahead-of-world-swimming-championships-in-beijing",
+      "status": 200,
+      "finalURL": "https://www.worldaquatics.com/news/4607549/wild-card-athletes-confirmed-ahead-of-world-swimming-championships-in-beijing"
+    },
+    {
+      "source": "swimming:news:USA Swimming",
+      "id": "db2114e7e01b801f",
+      "url": "https://www.usaswimming.org/news/2026/09/15/2028-us-olympic-team-trials-swimming-dates-announced",
+      "status": 200,
+      "finalURL": "https://www.usaswimming.org/news/2026/09/15/2028-us-olympic-team-trials-swimming-dates-announced"
+    },
+    {
+      "source": "swimming:news:CSCAA",
+      "id": "fbc44a17dcd1de4e",
+      "url": "https://cscaa.org/nova-southeastern-women-and-tampa-men-lead-october-cscaa-division-ii-top-25-rankings/",
+      "status": 200,
+      "finalURL": "https://cscaa.org/nova-southeastern-women-and-tampa-men-lead-october-cscaa-division-ii-top-25-rankings/"
+    },
+    {
+      "source": "swimming:development:Effortless Swimming",
+      "id": "c9da583a43e1a3f9",
+      "url": "https://effortlessswimming.com/if-you-want-your-swimming-to-click-do-this-3-steps-with-brenton-ford/",
+      "status": 200,
+      "finalURL": "https://effortlessswimming.com/if-you-want-your-swimming-to-click-do-this-3-steps-with-brenton-ford/"
+    },
+    {
+      "source": "lacrosse:news:USA Lacrosse Magazine",
+      "id": "de643f42a9f0ef10",
+      "url": "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game",
+      "status": 200,
+      "finalURL": "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game"
+    },
+    {
+      "source": "lacrosse:news:National Lacrosse League",
+      "id": "f46e6dacf92b1780",
+      "url": "https://www.nll.com/news/national-lacrosse-league-announces-2026-27-prime-video-broadcast-schedule-for-u-s-viewers-via-flosports-channel/",
+      "status": 200,
+      "finalURL": "https://www.nll.com/news/national-lacrosse-league-announces-2026-27-prime-video-broadcast-schedule-for-u-s-viewers-via-flosports-channel/"
+    },
+    {
+      "source": "lacrosse:news:World Lacrosse",
+      "id": "a42ef437becdee39",
+      "url": "https://worldlacrosse.sport/eslc26-day-nine/",
+      "status": 200,
+      "finalURL": "https://worldlacrosse.sport/eslc26-day-nine/"
+    },
+    {
+      "source": "lacrosse:development:USA Lacrosse",
+      "id": "52c522eaad5ec2f2",
+      "url": "https://www.usalacrosse.com/athletes/learn-the-basics",
+      "status": 200,
+      "finalURL": "https://www.usalacrosse.com/athletes/learn-the-basics"
+    },
+    {
+      "source": "lacrosse:development:USA Lacrosse",
+      "id": "7141a1df5c40ef62",
+      "url": "https://www.usalacrosse.com/athletes/athlete-development",
+      "status": 200,
+      "finalURL": "https://www.usalacrosse.com/athletes/athlete-development"
+    }
+  ],
+  "retries": [
+    {
+      "url": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/",
+      "status": 200,
+      "finalURL": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+test_recovery_01_fresh_and_repeat_asset_delivery_and_four_pillars (__main__.Recovery.test_recovery_01_fresh_and_repeat_asset_delivery_and_four_pillars) ... ok
+test_recovery_02_stylesheet_failure_recovery_preserves_records (__main__.Recovery.test_recovery_02_stylesheet_failure_recovery_preserves_records) ... ok
+test_recovery_03_intentional_guided_onboarding_all_sports_without_recruiting (__main__.Recovery.test_recovery_03_intentional_guided_onboarding_all_sports_without_recruiting) ... ok
+test_recovery_04_recurring_and_one_time_competition_stats_and_family_link (__main__.Recovery.test_recovery_04_recurring_and_one_time_competition_stats_and_family_link) ... ok
+test_recovery_05_nested_races_matches_keep_independent_competition_records (__main__.Recovery.test_recovery_05_nested_races_matches_keep_independent_competition_records) ... ok
+test_recovery_06_three_stage_recruiting_explicit_selection_card_approval_revocation (__main__.Recovery.test_recovery_06_three_stage_recruiting_explicit_selection_card_approval_revocation) ... ok
+test_recovery_07_feed_is_single_snapshot_renderer_with_sport_controls (__main__.Recovery.test_recovery_07_feed_is_single_snapshot_renderer_with_sport_controls) ... ok
+test_recovery_08_parent_tactical_navigation_siem_and_locked_independence (__main__.Recovery.test_recovery_08_parent_tactical_navigation_siem_and_locked_independence) ... ok
+test_recovery_09_failed_module_has_safe_reload_recovery (__main__.Recovery.test_recovery_09_failed_module_has_safe_reload_recovery) ... ok
+test_recovery_10_failed_photography_has_asset_retry_without_data_loss (__main__.Recovery.test_recovery_10_failed_photography_has_asset_retry_without_data_loss) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 58.687s
+
+OK

@@ -11,6 +11,7 @@ export function renderRecruitingBuilder(profile,{update,render,catalog,events,li
  let planner=document.getElementById('recruiting');if(!planner&&!document.querySelector('[data-workspace-view="recruiting"]'))return;if(!planner){planner=el('section');planner.id='recruiting';document.getElementById('optional-recruiting').append(planner);}
  document.getElementById('recruiting-profile-builder')?.remove();
  const p=profile,r=p.recruiting||{},gate=recruitingGate(p),eligible=competitionEvents(events),records=competitionRecords(p,events),key=p.id;
+ let approvalActive=!!r.parentApproved;
  const sharing=el('details',undefined,'recruiting-builder');sharing.id='recruiting-profile-builder';sharing.open=views.has(key);sharing.append(el('summary','Parent-controlled recruiting preview'));
  const title=el('h3','Build athlete information');sharing.append(title,el('p','Use your existing athlete profile. Select only the competition records, appearances and highlights you want in this local card. Nothing is shared externally.'));
  if(!gate.parent){const a=el('a','Review parent management →');a.href='/build';sharing.append(a);}if(!gate.ageKnown){const a=el('a','Review age in Profile overview → About My Sport');a.href='/my-pathway?athlete='+encodeURIComponent(p.id)+'#overview';sharing.append(a);}
@@ -51,10 +52,10 @@ export function renderRecruitingBuilder(profile,{update,render,catalog,events,li
   const schools=collegeRows(catalog,p.sport).filter(row=>(p.saved||[]).includes(row.id));const research=el('aside',undefined,'research-shortlist');research.append(el('h4','Your private school shortlist'),el('p',schools.length?schools.map(item=>item.institution).join(' · '):'No reviewed college programs saved yet. Choose schools in Stage 1.'));result.append(research);
   card.append(el('p','Private to this browser. Parent-entered information is not verified. External sharing is not connected.','small'));result.append(card);return true;
  }
- const approve=button('Parent approve local preview',()=>{if(!drawCard(false))return;if(update(x=>{x.recruiting.parentApproved=true;x.recruiting.approvedAt=new Date().toISOString();}))drawCard(true);},'button');approve.disabled=!gate.allowed;
- preview.append(approve,button('Revoke preview approval',()=>{if(update(x=>x.recruiting.parentApproved=false)){drawCard(false);result.prepend(el('p','Approval revoked. No coach link was created.'));}}));sharing.append(preview);
+ const approve=button('Parent approve local preview',()=>{if(!drawCard(false))return;if(update(x=>{x.recruiting.parentApproved=true;x.recruiting.approvedAt=new Date().toISOString();})){approvalActive=true;drawCard(true);}},'button');approve.disabled=!gate.allowed;
+ preview.append(approve,button('Revoke preview approval',()=>{if(update(x=>x.recruiting.parentApproved=false)){approvalActive=false;drawCard(false);result.prepend(el('p','Approval revoked. No coach link was created.'));}}));sharing.append(preview);
  const controls=el('nav',undefined,'record-toolbar');controls.setAttribute('aria-label','Recruiting profile steps');const edit=button('Build athlete information',()=>setStep(2)),next=button('Preview selected information',()=>setStep(3),'button');controls.append(edit,next);sharing.insertBefore(controls,info);
- function setStep(step,open=true){if(open){views.set(key,step);sharing.open=true;}info.hidden=step!==2;preview.hidden=step!==3;title.textContent=step===2?'Build athlete information':'Build and preview';edit.setAttribute('aria-current',step===2?'step':'false');next.setAttribute('aria-current',step===3?'step':'false');if(step===3)drawCard(!!r.parentApproved);}
+ function setStep(step,open=true){if(open){views.set(key,step);sharing.open=true;}info.hidden=step!==2;preview.hidden=step!==3;title.textContent=step===2?'Build athlete information':'Build and preview';edit.setAttribute('aria-current',step===2?'step':'false');next.setAttribute('aria-current',step===3?'step':'false');if(step===3)drawCard(approvalActive);}
  sharing.addEventListener('recruiting-step',event=>setStep(event.detail));sharing.addEventListener('toggle',()=>{if(sharing.isConnected&&sharing.open&&!views.has(key))views.set(key,2);});setStep(views.get(key)||2,false);
  planner.append(sharing);const host=document.querySelector('[data-builder-host]');if(host){sharing.open=true;host.append(sharing);setStep(Number(host.dataset.recruitingStep)||2);}
 }

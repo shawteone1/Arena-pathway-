@@ -1,0 +1,70 @@
+[
+  {
+    "phase": "before",
+    "baseline": "f75d0e6246504f1f0fa1a77d2110bdff4f7439d7",
+    "controls": [
+      {
+        "label": "Profile",
+        "width": 48,
+        "height": 44,
+        "textFits": true,
+        "maxWidth": "48px"
+      },
+      {
+        "label": "SIEM",
+        "width": 48,
+        "height": 44,
+        "textFits": true,
+        "maxWidth": "48px"
+      },
+      {
+        "label": "Recruiting",
+        "width": 48,
+        "height": 44,
+        "textFits": false,
+        "maxWidth": "48px"
+      },
+      {
+        "label": "LockedIn",
+        "width": 48,
+        "height": 44,
+        "textFits": false,
+        "maxWidth": "48px"
+      }
+    ]
+  },
+  {
+    "phase": "after",
+    "baseline": "qualification working candidate",
+    "controls": [
+      {
+        "label": "Profile",
+        "width": 59.578125,
+        "height": 44,
+        "textFits": true,
+        "maxWidth": "none"
+      },
+      {
+        "label": "SIEM",
+        "width": 50.234375,
+        "height": 44,
+        "textFits": true,
+        "maxWidth": "none"
+      },
+      {
+        "label": "Recruiting",
+        "width": 85.234375,
+        "height": 44,
+        "textFits": true,
+        "maxWidth": "none"
+      },
+      {
+        "label": "LockedIn",
+        "width": 77.46875,
+        "height": 44,
+        "textFits": true,
+        "maxWidth": "none"
+      }
+    ]
+  }
+]

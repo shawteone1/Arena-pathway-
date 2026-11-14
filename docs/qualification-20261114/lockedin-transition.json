@@ -1,0 +1,7 @@
+{
+  "destination": "https://soccercenter.org/locked-in/index.html",
+  "title": "Locked In \u2014 Parent to club guided demo",
+  "apURL": "http://127.0.0.1:3000/locked-in-demo",
+  "newTab": true,
+  "noAthleteDataInURL": true
+}

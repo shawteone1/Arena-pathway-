@@ -1,0 +1,54 @@
+{
+  "repositoryCommit": "11de067414e63c5d3e3e221dfc14cc026dfbd8d0",
+  "protectedPortal": "Authentication redirect; source-only comparison for protected editing",
+  "pages": [
+    {
+      "page": "home",
+      "requestedURL": "https://soccercenter.org/",
+      "finalURL": "https://soccercenter.org/",
+      "status": 200,
+      "title": "Soccer Center \u2014 Clubs, Leagues, Training & Community"
+    },
+    {
+      "page": "parent-auth",
+      "requestedURL": "https://soccercenter.org/parent-portal",
+      "finalURL": "https://soccercenter.org/login/auth",
+      "status": 200,
+      "title": "Sign In \u2014 Soccer Center"
+    },
+    {
+      "page": "lockedin",
+      "requestedURL": "https://soccercenter.org/locked-in/index.html",
+      "finalURL": "https://soccercenter.org/locked-in/index.html",
+      "status": 200,
+      "title": "Locked In \u2014 Parent to club guided demo"
+    },
+    {
+      "page": "demo",
+      "requestedURL": "https://soccercenter.org/demo/parent-portal",
+      "finalURL": "https://soccercenter.org/demo/parent-portal",
+      "status": 200,
+      "title": "Player Portal Demo \u2014 Soccer Center"
+    },
+    {
+      "page": "coach-card",
+      "realRenderedCard": true,
+      "syntheticDemoOnly": true
+    }
+  ],
+  "externalNonGETBlocked": [
+    "https://csp.secureserver.net/eventbus/web?clientid=b18ef4f046435b64a469b32c3c1c20a3",
+    "https://csp.secureserver.net/eventbus/web?clientid=8da2217409854bee82e12dc4ca0b39fb",
+    "https://csp.secureserver.net/eventbus/web?clientid=b18ef4f046435b64a469b32c3c1c20a3",
+    "https://csp.secureserver.net/eventbus/web?clientid=8da2217409854bee82e12dc4ca0b39fb",
+    "https://csp.secureserver.net/eventbus/web?clientid=b18ef4f046435b64a469b32c3c1c20a3",
+    "https://csp.secureserver.net/eventbus/web?clientid=8da2217409854bee82e12dc4ca0b39fb",
+    "https://csp.secureserver.net/eventbus/web?clientid=b18ef4f046435b64a469b32c3c1c20a3",
+    "https://csp.secureserver.net/eventbus/web?clientid=8da2217409854bee82e12dc4ca0b39fb",
+    "https://csp.secureserver.net/eventbus/web?clientid=b18ef4f046435b64a469b32c3c1c20a3",
+    "https://csp.secureserver.net/eventbus/web?clientid=8da2217409854bee82e12dc4ca0b39fb",
+    "https://csp.secureserver.net/eventbus/web?clientid=b18ef4f046435b64a469b32c3c1c20a3",
+    "https://csp.secureserver.net/eventbus/web?clientid=8da2217409854bee82e12dc4ca0b39fb"
+  ],
+  "noCreateLinkOrRequestSubmission": true
+}

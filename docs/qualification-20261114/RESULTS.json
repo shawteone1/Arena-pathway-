@@ -1,0 +1,218 @@
+{
+  "baseline": "f75d0e6246504f1f0fa1a77d2110bdff4f7439d7",
+  "branch": "codex/ap-conformance-recovery-20261114",
+  "check": "PASS",
+  "unit": {
+    "passed": 240,
+    "failed": 0,
+    "skipped": 0
+  },
+  "browsers": {
+    "chromium": {
+      "passed": 154,
+      "failed": 0,
+      "suites": [
+        {
+          "suite": "consolidated-chromium",
+          "script": "qa-consolidated.py",
+          "exitCode": 0,
+          "tests": 8,
+          "seconds": 32.56
+        },
+        {
+          "suite": "rc-chromium",
+          "script": "qa-release-candidate.py",
+          "exitCode": 0,
+          "tests": 2,
+          "seconds": 18.17
+        },
+        {
+          "suite": "profile-chromium",
+          "script": "qa-profile-visual.py",
+          "exitCode": 0,
+          "tests": 8,
+          "seconds": 11.34
+        },
+        {
+          "suite": "conformance-chromium",
+          "script": "qa-conformance.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 28.54
+        },
+        {
+          "suite": "siem-family-chromium",
+          "script": "qa-siem-family.py",
+          "exitCode": 0,
+          "tests": 18,
+          "seconds": 34.01
+        },
+        {
+          "suite": "release-chromium",
+          "script": "qa-release.py",
+          "exitCode": 0,
+          "tests": 20,
+          "seconds": 51.07
+        },
+        {
+          "suite": "siem-platform-chromium",
+          "script": "qa-siem-platform.py",
+          "exitCode": 0,
+          "tests": 7,
+          "seconds": 11.46
+        },
+        {
+          "suite": "siem-refinement-chromium",
+          "script": "qa-siem-refinement.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 22.96
+        },
+        {
+          "suite": "acquisition-chromium",
+          "script": "qa-acquisition.py",
+          "exitCode": 0,
+          "tests": 23,
+          "seconds": 53.24
+        },
+        {
+          "suite": "qualification-chromium",
+          "script": "qa-qualification.py",
+          "exitCode": 0,
+          "tests": 3,
+          "seconds": 41.67,
+          "finalRerun": true
+        },
+        {
+          "suite": "recovery-chromium",
+          "script": "qa-recovery.py",
+          "exitCode": 0,
+          "tests": 10,
+          "seconds": 58.84,
+          "finalRerun": true
+        },
+        {
+          "suite": "dgc-chromium",
+          "script": "qa-dgc.py",
+          "exitCode": 0,
+          "tests": 6,
+          "seconds": 11.27,
+          "finalRerun": true
+        },
+        {
+          "suite": "polish-chromium",
+          "script": "qa-ux-polish.py",
+          "exitCode": 0,
+          "tests": 6,
+          "seconds": 12.14,
+          "finalRerun": true
+        },
+        {
+          "suite": "resume-chromium",
+          "script": "qa-nov13-resume.py",
+          "exitCode": 0,
+          "tests": 7,
+          "seconds": 46.39,
+          "finalRerun": true
+        },
+        {
+          "suite": "acceptance-chromium",
+          "script": "qa-acceptance-refinement.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 50.04,
+          "finalRerun": true
+        }
+      ]
+    },
+    "webkit": {
+      "passed": 79,
+      "failed": 0,
+      "suites": [
+        {
+          "suite": "consolidated-webkit",
+          "script": "qa-consolidated.py",
+          "exitCode": 0,
+          "tests": 8,
+          "seconds": 27.31
+        },
+        {
+          "suite": "rc-webkit",
+          "script": "qa-release-candidate.py",
+          "exitCode": 0,
+          "tests": 2,
+          "seconds": 14.19
+        },
+        {
+          "suite": "profile-webkit",
+          "script": "qa-profile-visual.py",
+          "exitCode": 0,
+          "tests": 8,
+          "seconds": 14.53
+        },
+        {
+          "suite": "conformance-webkit",
+          "script": "qa-conformance.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 33.23
+        },
+        {
+          "suite": "siem-webkit",
+          "script": "qa-siem-webkit.py",
+          "exitCode": 0,
+          "tests": 5,
+          "seconds": 13.01
+        },
+        {
+          "suite": "qualification-webkit",
+          "script": "qa-qualification.py",
+          "exitCode": 0,
+          "tests": 3,
+          "seconds": 36.24,
+          "finalRerun": true
+        },
+        {
+          "suite": "recovery-webkit",
+          "script": "qa-recovery.py",
+          "exitCode": 0,
+          "tests": 10,
+          "seconds": 57.72,
+          "finalRerun": true
+        },
+        {
+          "suite": "dgc-webkit",
+          "script": "qa-dgc.py",
+          "exitCode": 0,
+          "tests": 6,
+          "seconds": 12.57,
+          "finalRerun": true
+        },
+        {
+          "suite": "polish-webkit",
+          "script": "qa-ux-polish.py",
+          "exitCode": 0,
+          "tests": 6,
+          "seconds": 16.69,
+          "finalRerun": true
+        },
+        {
+          "suite": "resume-webkit",
+          "script": "qa-nov13-resume.py",
+          "exitCode": 0,
+          "tests": 7,
+          "seconds": 33.55,
+          "finalRerun": true
+        },
+        {
+          "suite": "acceptance-webkit",
+          "script": "qa-acceptance-refinement.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 37.82,
+          "finalRerun": true
+        }
+      ]
+    }
+  }
+}

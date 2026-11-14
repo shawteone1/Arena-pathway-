@@ -1,0 +1,85 @@
+[
+  {
+    "suite": "consolidated-webkit",
+    "script": "qa-consolidated.py",
+    "exitCode": 0,
+    "tests": 8,
+    "seconds": 27.31
+  },
+  {
+    "suite": "rc-webkit",
+    "script": "qa-release-candidate.py",
+    "exitCode": 0,
+    "tests": 2,
+    "seconds": 14.19
+  },
+  {
+    "suite": "profile-webkit",
+    "script": "qa-profile-visual.py",
+    "exitCode": 0,
+    "tests": 8,
+    "seconds": 14.53
+  },
+  {
+    "suite": "conformance-webkit",
+    "script": "qa-conformance.py",
+    "exitCode": 0,
+    "tests": 12,
+    "seconds": 33.23
+  },
+  {
+    "suite": "siem-webkit",
+    "script": "qa-siem-webkit.py",
+    "exitCode": 0,
+    "tests": 5,
+    "seconds": 13.01
+  },
+  {
+    "suite": "qualification-webkit",
+    "script": "qa-qualification.py",
+    "exitCode": 0,
+    "tests": 3,
+    "seconds": 36.24,
+    "finalRerun": true
+  },
+  {
+    "suite": "recovery-webkit",
+    "script": "qa-recovery.py",
+    "exitCode": 0,
+    "tests": 10,
+    "seconds": 57.72,
+    "finalRerun": true
+  },
+  {
+    "suite": "dgc-webkit",
+    "script": "qa-dgc.py",
+    "exitCode": 0,
+    "tests": 6,
+    "seconds": 12.57,
+    "finalRerun": true
+  },
+  {
+    "suite": "polish-webkit",
+    "script": "qa-ux-polish.py",
+    "exitCode": 0,
+    "tests": 6,
+    "seconds": 16.69,
+    "finalRerun": true
+  },
+  {
+    "suite": "resume-webkit",
+    "script": "qa-nov13-resume.py",
+    "exitCode": 0,
+    "tests": 7,
+    "seconds": 33.55,
+    "finalRerun": true
+  },
+  {
+    "suite": "acceptance-webkit",
+    "script": "qa-acceptance-refinement.py",
+    "exitCode": 0,
+    "tests": 12,
+    "seconds": 37.82,
+    "finalRerun": true
+  }
+]

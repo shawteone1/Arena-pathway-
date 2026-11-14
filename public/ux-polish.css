@@ -235,7 +235,7 @@ body[data-page=my-pathway] .editorial-library{padding-top:0}
 body[data-page=my-pathway] .editorial-empty .secondary{background:#a52a3b;color:white;border-color:#a52a3b}
 /* Recovery: one product navigation and intentional workflow choices. */
 .pillar-nav{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
-.pillar-nav a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border-radius:8px;text-decoration:none;font-size:15px;font-weight:700;color:#172a42}
+.pillar-nav a{max-width:none;white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border-radius:8px;text-decoration:none;font-size:15px;font-weight:700;color:#172a42}
 .pillar-nav a[aria-current=page]{background:#172a42;color:#fff}
 .pillar-nav a:hover{background:#e2e9f1;color:#172a42}
 .site-header{gap:20px;flex-wrap:wrap}.header-actions{gap:10px;flex-wrap:wrap}

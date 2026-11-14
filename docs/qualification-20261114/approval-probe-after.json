@@ -1,0 +1,22 @@
+[
+  {
+    "step": "approved",
+    "approvalStored": true,
+    "badge": "Parent-approved local preview"
+  },
+  {
+    "step": "return-after-approval",
+    "approvalStored": true,
+    "badge": "Parent-approved local preview"
+  },
+  {
+    "step": "revoked",
+    "approvalStored": false,
+    "badge": "Draft \u00b7 not parent-approved"
+  },
+  {
+    "step": "return-after-revocation",
+    "approvalStored": false,
+    "badge": "Draft \u00b7 not parent-approved"
+  }
+]
