@@ -18,9 +18,8 @@ class ReleaseQA(unified.UnifiedSportsQA):
                 self.assertEqual(self.page.locator('h1').count(),1,path)
                 self.assertFalse(self.page.evaluate('document.documentElement.scrollWidth > innerWidth+1'),str((path,width)))
                 self.assertEqual(self.page.locator('#sports-menu nav a').count(),5)
-                self.page.locator('.explore-menu summary').click()
-                self.assertTrue(self.page.get_by_role('link',name='About us',exact=True).first.is_visible())
-                self.page.locator('.explore-menu summary').click()
+                self.assertEqual(self.page.get_by_role('navigation',name='Primary navigation',exact=True).locator('a').all_text_contents(),['Profile','SIEM','Recruiting','LockedIn'])
+                self.assertEqual(self.page.get_by_role('link',name='About us',exact=True,include_hidden=True).get_attribute('href'),'/about')
                 if path in ['/','/offerings','/demos/parent','/demos/coach','/demos/college']:
                     name=path.strip('/').replace('/','-') or 'homepage'
                     self.page.evaluate('async () => { document.querySelectorAll("img").forEach(i => i.loading="eager"); await Promise.all([...document.images].map(i => i.decode().catch(()=>{}))); await document.fonts.ready; }')

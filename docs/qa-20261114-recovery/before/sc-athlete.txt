@@ -1,0 +1,136 @@
+PARENT PORTAL
+Switch to Fan Arena
+Demo — fictional players and records. Club names are illustrative; no live club integration.
+Reset demo
+Back
+Colorado Storm · Connected Club Demo
+
+Best: connected club experience — simulated · Fall 2026 (Sep 6 – Nov 22). Explore how club-supplied teams, rosters and schedules could populate one parent view. Programs and venues are examples; recruiting sharing remains parent-controlled.
+
+Choose club, team & player
+Season: Fall 2026 (Sep 6 – Nov 22)
+1. Club
+— Select a club —
+Colorado Storm
+Colorado Rapids Youth
+FC Denver
+2. Program
+— Select a program —
+Select (sample)
+Competitive (sample)
+3. Age group
+— Select an age group —
+U13
+U14
+U15
+4. Team
+— Select a team —
+Colorado Storm Select U13
+5. Player
+— Select a player —
+#1 Avery Abbott — Forward
+#2 Blake Bell — Forward
+#3 Cameron Chen — Midfielder
+#4 Dakota Diaz — Midfielder
+#5 Emery Ellis — Midfielder
+#6 Finley Flynn — Defender
+#7 Harper Grant — Defender
+#8 Jordan Hall — Defender
+#9 Kennedy Irwin — Defender
+#10 Logan James — Goalkeeper
+#11 Morgan Knox — Forward
+#12 Parker Lane — Midfielder
+#13 Quinn Marsh — Defender
+#14 Riley Nash — Midfielder
+#15 Skyler Owen — Forward
+Player selected — profile loaded below.
+Team
+
+Colorado Storm Select U13
+
+Colorado Premier League · Fall 2026
+
+15 sample players · 8 games · 30 practices
+
+AA
+Storm
+
+JPEG or PNG · max ~150 KB · tap avatar to change
+
+Avery Abbott
+
+Forward · #1 · U13
+
+Colorado Premier League
+Fall 2026
+Club
+Colorado Storm
+Team
+Colorado Storm Select U13
+Birth year
+2013
+Preferred foot
+Left
+Profile
+Schedule
+Stats
+Media
+Tryouts
+About
+Age group
+U13
+Birth year
+2013
+Jersey
+#1
+Preferred foot
+Left
+Position
+Forward
+Primary
+
+Development focus areas
+
+Finishing
+Movement off the ball
+Dribbling
+1v1 attacking
+Club & team
+
+Colorado Storm Select U13
+
+Colorado Premier League · Fall 2026
+
+Sample data — club logo to be supplied
+
+Locked In — Registration & Eligibility
+
+Manage your player's registration requirements and approve what is shared with your club.
+
+Club
+Colorado Storm
+Season
+Fall 2026
+Age verification
+Pending — National Sports ID
+
+Required forms & acknowledgements
+
+Registration form
+Pending
+Code of conduct
+Pending
+Media release
+Pending
+Emergency contact
+Pending
+Medical eligibility
+Clearance required
+Season fee
+Unpaid — via payment provider
+
+Simulated statuses only. No real verification, payment or document integration is active in this demo.
+
+Open Locked In demo
+
+Returning will preserve your player selection.

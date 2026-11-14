@@ -1,0 +1,35 @@
+test_01_parent_first_journey_and_module_independence (__main__.ReleaseCandidate.test_01_parent_first_journey_and_module_independence) ... ERROR
+test_02_siem_without_profile_lockedin_off_and_independent_research (__main__.ReleaseCandidate.test_02_siem_without_profile_lockedin_off_and_independent_research) ... ok
+
+======================================================================
+ERROR: test_01_parent_first_journey_and_module_independence (__main__.ReleaseCandidate.test_01_parent_first_journey_and_module_independence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-release-candidate.py", line 34, in test_01_parent_first_journey_and_module_independence
+    p.goto(base.BASE+'/my-pathway?athlete='+athlete);p.wait_for_selector('#show-tryouts');p.get_by_text('About My Sport · Positions and Goals',exact=True).click();p.locator('#athlete-age').fill('16');p.get_by_role('button',name='Save details',exact=True).click();self.section('Recruiting');p.get_by_role('button',name='Open local recruiting planner',exact=True).click();p.get_by_text('Parent-controlled recruiting preview',exact=True).click();p.wait_for_selector('#recruiting-rules');self.assertTrue(p.get_by_role('button',name='Parent approve local preview').is_disabled());p.locator('#recruiting-rules').check();p.get_by_label('Include identity',exact=True).check();p.get_by_label('Include schedule',exact=True).check();p.get_by_label('Include stats',exact=True).check();p.locator('[data-selection="eventRefs:'+event+'"]').check();p.locator('[data-selection^="recordIds:"]').first.check();p.get_by_role('button',name='Preview selected information',exact=True).click();p.get_by_role('button',name='Parent approve local preview',exact=True).click();self.assertIn('Release QA Athlete',p.locator('.recruiting-preview').inner_text());self.assertIn('Goals: 2',p.locator('.recruiting-preview').inner_text());p.get_by_role('button',name='Revoke preview approval',exact=True).click();self.assertFalse(self.state()['profiles'][0]['recruiting']['parentApproved'])
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 19552, in is_disabled
+    self._sync(self._impl_obj.is_disabled(timeout=to_milliseconds(timeout)))
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 522, in is_disabled
+    return await self._frame.is_disabled(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 409, in is_disabled
+    return await self._channel.send(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.is_disabled: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Parent approve local preview")
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 44.468s
+
+FAILED (errors=1)

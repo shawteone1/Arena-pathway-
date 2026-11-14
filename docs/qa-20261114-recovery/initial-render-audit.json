@@ -1,0 +1,974 @@
+[
+  {
+    "name": "ap-home",
+    "url": "http://127.0.0.1:3000/",
+    "title": "The next chapter is yours | Arena Pathway",
+    "errors": [],
+    "responses": [
+      {
+        "url": "http://127.0.0.1:3000/",
+        "status": 200,
+        "type": "text/html; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/style.css",
+        "status": 200,
+        "type": "text/css; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/photos/stadium-small.webp",
+        "status": 200,
+        "type": "image/webp",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/ux-polish.css",
+        "status": 200,
+        "type": "text/css; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/brand/ap-desktop.webp",
+        "status": 200,
+        "type": "image/webp",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/fonts/barlow-condensed-bold.ttf",
+        "status": 200,
+        "type": "font/ttf",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/app.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/meet-sessions.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/college-research.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/regions.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/state.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/profile-qa.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/athlete-records.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/recurring-plans.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/swimming-progress.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/schedule-presentation.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/siem-guidance.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/athlete-journey.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/content-library.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/media-library.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/calendar-import.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/siem-calendar.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/siem-model.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/photos/lacrosse-small.webp",
+        "status": 200,
+        "type": "image/webp",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/photos/volleyball-small.webp",
+        "status": 200,
+        "type": "image/webp",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/photos/basketball-small.webp",
+        "status": 200,
+        "type": "image/webp",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/photos/swimming-small.webp",
+        "status": 200,
+        "type": "image/webp",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/brand/favicon.png",
+        "status": 200,
+        "type": "image/png",
+        "cache": ""
+      }
+    ]
+  },
+  {
+    "name": "ap-sport",
+    "url": "http://127.0.0.1:3000/sports/lacrosse",
+    "title": "Lacrosse participation | Arena Pathway",
+    "errors": [],
+    "responses": [
+      {
+        "url": "http://127.0.0.1:3000/sports/lacrosse",
+        "status": 200,
+        "type": "text/html; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/style.css",
+        "status": 200,
+        "type": "text/css; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/ux-polish.css",
+        "status": 200,
+        "type": "text/css; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/fonts/barlow-condensed-bold.ttf",
+        "status": 200,
+        "type": "font/ttf",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/app.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/brand/ap-desktop.webp",
+        "status": 200,
+        "type": "image/webp",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/meet-sessions.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/college-research.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/profile-qa.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/regions.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/state.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/photos/lacrosse-small.webp",
+        "status": 200,
+        "type": "image/webp",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/recurring-plans.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/athlete-records.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/schedule-presentation.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/athlete-journey.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/swimming-progress.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/siem-guidance.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/calendar-import.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/media-library.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/content-library.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/siem-calendar.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/siem-model.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/brand/favicon.png",
+        "status": 200,
+        "type": "image/png",
+        "cache": ""
+      }
+    ]
+  },
+  {
+    "name": "ap-onboarding",
+    "url": "http://127.0.0.1:3000/build?new=1&guided=1",
+    "title": "Athlete profile | Arena Pathway",
+    "errors": [],
+    "responses": [
+      {
+        "url": "http://127.0.0.1:3000/build?new=1&guided=1",
+        "status": 200,
+        "type": "text/html; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/style.css",
+        "status": 200,
+        "type": "text/css; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/ux-polish.css",
+        "status": 200,
+        "type": "text/css; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/brand/ap-desktop.webp",
+        "status": 200,
+        "type": "image/webp",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/fonts/barlow-condensed-bold.ttf",
+        "status": 200,
+        "type": "font/ttf",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/app.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/meet-sessions.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/profile-qa.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/regions.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/state.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/college-research.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/swimming-progress.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/recurring-plans.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/schedule-presentation.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/athlete-journey.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/siem-guidance.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/content-library.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/athlete-records.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/calendar-import.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/media-library.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/siem-model.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/siem-calendar.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/api/catalog",
+        "status": 200,
+        "type": "application/json",
+        "cache": ""
+      },
+      {
+        "url": "http://127.0.0.1:3000/assets/brand/favicon.png",
+        "status": 200,
+        "type": "image/png",
+        "cache": ""
+      }
+    ]
+  },
+  {
+    "name": "sc-home",
+    "url": "https://soccercenter.org/",
+    "title": "Soccer Center \u2014 Clubs, Leagues, Training & Community",
+    "errors": [
+      "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    ],
+    "responses": [
+      {
+        "url": "https://soccercenter.org/",
+        "status": 200,
+        "type": "text/html; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/assets/index-D-WsvBe0.css",
+        "status": 200,
+        "type": "text/css; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/airo-assets/images/logo/horizontal?v=2",
+        "status": 200,
+        "type": "image/jpeg",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/assets/index-CdnShpQC.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/react-vendor-DgQwghhF.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/radix-ui-CLYhzKFi.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/query-BQljaUSJ.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/airo-assets/images/pages/home/hero",
+        "status": 200,
+        "type": "image/jpeg",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/analytics.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=2678400"
+      },
+      {
+        "url": "https://soccercenter.org/airo-logo-orientation.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=2678400"
+      },
+      {
+        "url": "https://soccercenter.org/airo-video-slots.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=2678400"
+      },
+      {
+        "url": "https://soccercenter.org/airo-media.json",
+        "status": 200,
+        "type": "application/json; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=DM+Sans:wght@400;500;600&display=swap",
+        "status": 200,
+        "type": "text/css; charset=utf-8",
+        "cache": "private, max-age=86400, stale-while-revalidate=604800"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+        "status": 200,
+        "type": "font/woff2",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+        "status": 200,
+        "type": "font/woff2",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/CookieBanner-DmpN59Nm.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/airo-media.json",
+        "status": 200,
+        "type": "application/json; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/airo-assets/images/pages/home/arena-fan",
+        "status": 302,
+        "type": "text/html; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/api/auth/get-session",
+        "status": 200,
+        "type": "application/json; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "https://soccercenter.org/airo-assets/images/pages/home/arena-parent",
+        "status": 302,
+        "type": "text/html; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js",
+        "status": 200,
+        "type": "text/javascript",
+        "cache": "max-age=1800"
+      },
+      {
+        "url": "https://csp.secureserver.net/eventbus/web?clientid=8da2217409854bee82e12dc4ca0b39fb",
+        "status": 202,
+        "type": "application/json",
+        "cache": "max-age=0, no-cache, no-store"
+      },
+      {
+        "url": "https://csp.secureserver.net/eventbus/web?clientid=b18ef4f046435b64a469b32c3c1c20a3",
+        "status": 202,
+        "type": "application/json",
+        "cache": "max-age=0, no-cache, no-store"
+      }
+    ]
+  },
+  {
+    "name": "sc-parent",
+    "url": "https://soccercenter.org/login/auth",
+    "title": "Sign In \u2014 Soccer Center",
+    "errors": [
+      "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    ],
+    "responses": [
+      {
+        "url": "https://soccercenter.org/parent-portal",
+        "status": 200,
+        "type": "text/html; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/assets/radix-ui-CLYhzKFi.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/react-vendor-DgQwghhF.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/index-D-WsvBe0.css",
+        "status": 200,
+        "type": "text/css; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/query-BQljaUSJ.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/airo-assets/images/logo/horizontal?v=2",
+        "status": 200,
+        "type": "image/jpeg",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/airo-assets/images/logo/horizontal/dark",
+        "status": 200,
+        "type": "image/jpeg",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/assets/index-CdnShpQC.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/airo-logo-orientation.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=2678400"
+      },
+      {
+        "url": "https://soccercenter.org/airo-video-slots.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=2678400"
+      },
+      {
+        "url": "https://soccercenter.org/airo-media.json",
+        "status": 200,
+        "type": "application/json; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/analytics.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=2678400"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=DM+Sans:wght@400;500;600&display=swap",
+        "status": 200,
+        "type": "text/css; charset=utf-8",
+        "cache": "private, max-age=86400, stale-while-revalidate=604800"
+      },
+      {
+        "url": "https://soccercenter.org/airo-media.json",
+        "status": 200,
+        "type": "application/json; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+        "status": 200,
+        "type": "font/woff2",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+        "status": 200,
+        "type": "font/woff2",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/CookieBanner-DmpN59Nm.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/api/auth/get-session",
+        "status": 200,
+        "type": "application/json; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js",
+        "status": 200,
+        "type": "text/javascript",
+        "cache": "max-age=1800"
+      },
+      {
+        "url": "https://soccercenter.org/assets/AuthPage-DAf8TPTE.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/airo-media.json",
+        "status": 200,
+        "type": "application/json; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/airo-assets/images/logo/horizontal",
+        "status": 200,
+        "type": "image/jpeg",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/airo-media.json",
+        "status": 200,
+        "type": "application/json; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/airo-media.json",
+        "status": 200,
+        "type": "application/json; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/airo-media.json",
+        "status": 200,
+        "type": "application/json; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://csp.secureserver.net/eventbus/web?clientid=b18ef4f046435b64a469b32c3c1c20a3",
+        "status": 202,
+        "type": "application/json",
+        "cache": "max-age=0, no-cache, no-store"
+      },
+      {
+        "url": "https://csp.secureserver.net/eventbus/web?clientid=8da2217409854bee82e12dc4ca0b39fb",
+        "status": 202,
+        "type": "application/json",
+        "cache": "max-age=0, no-cache, no-store"
+      }
+    ]
+  },
+  {
+    "name": "sc-demo",
+    "url": "https://soccercenter.org/demo/parent-portal",
+    "title": "Player Portal Demo \u2014 Soccer Center",
+    "errors": [
+      "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    ],
+    "responses": [
+      {
+        "url": "https://soccercenter.org/demo/parent-portal",
+        "status": 200,
+        "type": "text/html; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/assets/index-D-WsvBe0.css",
+        "status": 200,
+        "type": "text/css; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/query-BQljaUSJ.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/react-vendor-DgQwghhF.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/radix-ui-CLYhzKFi.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/airo-assets/images/logo/horizontal?v=2",
+        "status": 200,
+        "type": "image/jpeg",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/airo-assets/images/logo/horizontal/dark",
+        "status": 200,
+        "type": "image/jpeg",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/assets/index-CdnShpQC.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/airo-logo-orientation.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=2678400"
+      },
+      {
+        "url": "https://soccercenter.org/airo-video-slots.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=2678400"
+      },
+      {
+        "url": "https://soccercenter.org/analytics.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=2678400"
+      },
+      {
+        "url": "https://soccercenter.org/airo-media.json",
+        "status": 200,
+        "type": "application/json; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=DM+Sans:wght@400;500;600&display=swap",
+        "status": 200,
+        "type": "text/css; charset=utf-8",
+        "cache": "private, max-age=86400, stale-while-revalidate=604800"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+        "status": 200,
+        "type": "font/woff2",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+        "status": 200,
+        "type": "font/woff2",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/airo-media.json",
+        "status": 200,
+        "type": "application/json; charset=utf-8",
+        "cache": "no-cache"
+      },
+      {
+        "url": "https://soccercenter.org/assets/CookieBanner-DmpN59Nm.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/api/auth/get-session",
+        "status": 200,
+        "type": "application/json; charset=utf-8",
+        "cache": ""
+      },
+      {
+        "url": "https://soccercenter.org/assets/CoachProfileCard-DEWGySI_.css",
+        "status": 200,
+        "type": "text/css; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/coach-sharing-l4rhzmeT.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/flask-conical-B1LASdiX.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/parent-portal-C1COwSQY.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://soccercenter.org/assets/CoachProfileCard-DJ1f2nXY.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js",
+        "status": 200,
+        "type": "text/javascript",
+        "cache": "max-age=1800"
+      },
+      {
+        "url": "https://soccercenter.org/assets/RecruitingTab-CHiRu3H7.js",
+        "status": 200,
+        "type": "text/javascript; charset=utf-8",
+        "cache": "public, max-age=31536000"
+      },
+      {
+        "url": "https://csp.secureserver.net/eventbus/web?clientid=8da2217409854bee82e12dc4ca0b39fb",
+        "status": 202,
+        "type": "application/json",
+        "cache": "max-age=0, no-cache, no-store"
+      },
+      {
+        "url": "https://csp.secureserver.net/eventbus/web?clientid=b18ef4f046435b64a469b32c3c1c20a3",
+        "status": 202,
+        "type": "application/json",
+        "cache": "max-age=0, no-cache, no-store"
+      }
+    ]
+  }
+]

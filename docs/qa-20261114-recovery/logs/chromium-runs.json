@@ -1,0 +1,116 @@
+[
+  {
+    "suite": "dgc-chromium",
+    "script": "qa-dgc.py",
+    "exitCode": 0,
+    "tests": 6,
+    "seconds": 13.56,
+    "finalRerun": true
+  },
+  {
+    "suite": "polish-chromium",
+    "script": "qa-ux-polish.py",
+    "exitCode": 0,
+    "tests": 6,
+    "seconds": 17.66,
+    "finalRerun": true
+  },
+  {
+    "suite": "resume-chromium",
+    "script": "qa-nov13-resume.py",
+    "exitCode": 0,
+    "tests": 7,
+    "seconds": 49.87,
+    "finalRerun": true
+  },
+  {
+    "suite": "consolidated-chromium",
+    "script": "qa-consolidated.py",
+    "exitCode": 0,
+    "tests": 8,
+    "seconds": 35.62,
+    "finalRerun": true
+  },
+  {
+    "suite": "acceptance-chromium",
+    "script": "qa-acceptance-refinement.py",
+    "exitCode": 0,
+    "tests": 12,
+    "seconds": 53.13,
+    "finalRerun": true
+  },
+  {
+    "suite": "profile-chromium",
+    "script": "qa-profile-visual.py",
+    "exitCode": 0,
+    "tests": 8,
+    "seconds": 11.58,
+    "finalRerun": true
+  },
+  {
+    "suite": "siem-family-chromium",
+    "script": "qa-siem-family.py",
+    "exitCode": 0,
+    "tests": 18,
+    "seconds": 33.02,
+    "finalRerun": true
+  },
+  {
+    "suite": "release-chromium",
+    "script": "qa-release.py",
+    "exitCode": 0,
+    "tests": 20,
+    "seconds": 51.94,
+    "finalRerun": true
+  },
+  {
+    "suite": "siem-platform-chromium",
+    "script": "qa-siem-platform.py",
+    "exitCode": 0,
+    "tests": 7,
+    "seconds": 11.31,
+    "finalRerun": true
+  },
+  {
+    "suite": "siem-refinement-chromium",
+    "script": "qa-siem-refinement.py",
+    "exitCode": 0,
+    "tests": 12,
+    "seconds": 21.98,
+    "finalRerun": true
+  },
+  {
+    "suite": "conformance-chromium",
+    "script": "qa-conformance.py",
+    "exitCode": 0,
+    "tests": 12,
+    "seconds": 29.33,
+    "finalRerun": true,
+    "immutableCandidate": true
+  },
+  {
+    "suite": "rc-chromium",
+    "script": "qa-release-candidate.py",
+    "exitCode": 0,
+    "tests": 2,
+    "seconds": 18.23,
+    "finalRerun": true,
+    "immutableCandidate": true
+  },
+  {
+    "suite": "acquisition-chromium",
+    "script": "qa-acquisition.py",
+    "exitCode": 0,
+    "tests": 23,
+    "finalRerun": true
+  },
+  {
+    "suite": "recovery-chromium",
+    "script": "qa-recovery.py",
+    "exitCode": 0,
+    "tests": 10,
+    "seconds": 58.43,
+    "finalRerun": true,
+    "immutableCandidate": true
+  }
+]

@@ -1,3 +1,4 @@
+import {recoveryStyleHash} from './src/asset-contract.mjs';
 import {communityPage,resourcePage,lockedInPreview} from './src/consolidated-views.mjs';
 import {legacySiemDestination} from './src/siem-navigation.mjs';
 import {siemPlatformPage} from './src/siem-platform-view.mjs';
@@ -16,13 +17,13 @@ import { esc, layout, home, sportPage, builder, advancedBuilder, myPathway, data
 const assets = { 'style.css':'text/css; charset=utf-8', 'app.js':'text/javascript; charset=utf-8', 'state.js':'text/javascript; charset=utf-8', 'regions.js':'text/javascript; charset=utf-8', 'stadium.jpg':'image/jpeg' };
 assets['ux-polish.css']='text/css; charset=utf-8';
 assets['siem-platform.css']='text/css; charset=utf-8';
-for(const name of ['schedule-presentation.js','meet-sessions.js','swimming-progress.js','lockedin-demo.js','lockedin-demo-model.js','siem-guidance.js','college-research.js','athlete-journey.js','content-library.js','local-family-calendar.js','profile-qa.js','athlete-records.js','media-library.js','calendar-import.js','recurring-plans.js','siem-calendar.js','siem-platform-boot.js','siem-family-fixtures.js','siem-platform.js','siem-platform-model.js','siem-platform-fixtures.js','siem.js','siem-model.js','release-demo.js','release-demo-model.js'])assets[name]='text/javascript; charset=utf-8';
+for(const name of ['asset-health.js','recruiting-builder.js','competition-records.js','schedule-entry.js','schedule-presentation.js','meet-sessions.js','swimming-progress.js','lockedin-demo.js','lockedin-demo-model.js','siem-guidance.js','college-research.js','athlete-journey.js','content-library.js','local-family-calendar.js','profile-qa.js','athlete-records.js','media-library.js','calendar-import.js','recurring-plans.js','siem-calendar.js','siem-platform-boot.js','siem-family-fixtures.js','siem-platform.js','siem-platform-model.js','siem-platform-fixtures.js','siem.js','siem-model.js','release-demo.js','release-demo-model.js'])assets[name]='text/javascript; charset=utf-8';
 assets['fonts/barlow-condensed-bold.ttf']='font/ttf';
 for(const p of Object.values(photography)){assets[p.asset]='image/webp';assets[p.smallAsset]='image/webp';}
 if(brand.status==='ready')for(const key of ['desktopAsset','mobileAsset','homepageAsset','faviconAsset','appleTouchAsset']){const path=brand[key];assets[path]=path.endsWith('.webp')?'image/webp':'image/png';}
 export function createServer() {
  return http.createServer(async (req,res) => {
-  const headers = { 'X-Content-Type-Options':'nosniff', 'Referrer-Policy':'strict-origin-when-cross-origin', 'Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' blob:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'" };
+  const headers = { 'Cache-Control':'no-cache, max-age=0, must-revalidate', 'X-Content-Type-Options':'nosniff', 'Referrer-Policy':'strict-origin-when-cross-origin', 'Content-Security-Policy':`default-src 'self'; script-src 'self'; style-src 'self' 'sha256-${recoveryStyleHash}'; img-src 'self' blob:; media-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'` };
   const send = (status, body, type='text/html; charset=utf-8') => { res.writeHead(status,{...headers,'Content-Type':type});res.end(req.method==='HEAD'?undefined:body); };
   if (!['GET','HEAD'].includes(req.method)) {res.setHeader('Allow','GET, HEAD');return send(405,'Method not allowed','text/plain');}
   try {

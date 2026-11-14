@@ -77,7 +77,9 @@ class PathwayBrowserQA(unittest.TestCase):
         self.page.locator('#module-customizer').evaluate('(el) => el.open = true')
         self.page.locator('#choose-' + id).set_checked(enabled)
         if id == 'schedules':self.page.locator('#profile-nav a[href="#schedules"]').click()
-        if id == 'recruiting' and enabled:self.page.locator('#recruiting').locator('..').evaluate('(el)=>el.open=true')
+        if id == 'recruiting' and enabled:
+            self.page.locator('#recruiting').locator('..').evaluate('(el)=>el.open=true')
+            self.page.locator('.legacy-research').evaluate('(el)=>el.open=true')
 
     def test_onboarding_choices_have_no_fixed_progression(self):
         self.page.goto(BASE + '/pathway/settings')

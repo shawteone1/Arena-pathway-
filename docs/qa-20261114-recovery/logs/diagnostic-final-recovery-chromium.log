@@ -1,0 +1,43 @@
+test_recovery_01_fresh_and_repeat_asset_delivery_and_four_pillars (__main__.Recovery.test_recovery_01_fresh_and_repeat_asset_delivery_and_four_pillars) ... ok
+test_recovery_02_stylesheet_failure_recovery_preserves_records (__main__.Recovery.test_recovery_02_stylesheet_failure_recovery_preserves_records) ... ok
+test_recovery_03_intentional_guided_onboarding_all_sports_without_recruiting (__main__.Recovery.test_recovery_03_intentional_guided_onboarding_all_sports_without_recruiting) ... ok
+test_recovery_04_recurring_and_one_time_competition_stats_and_family_link (__main__.Recovery.test_recovery_04_recurring_and_one_time_competition_stats_and_family_link) ... ok
+test_recovery_05_nested_races_matches_keep_independent_competition_records (__main__.Recovery.test_recovery_05_nested_races_matches_keep_independent_competition_records) ... ok
+test_recovery_06_three_stage_recruiting_explicit_selection_card_approval_revocation (__main__.Recovery.test_recovery_06_three_stage_recruiting_explicit_selection_card_approval_revocation) ... ok
+test_recovery_07_feed_is_single_snapshot_renderer_with_sport_controls (__main__.Recovery.test_recovery_07_feed_is_single_snapshot_renderer_with_sport_controls) ... ok
+test_recovery_08_parent_tactical_navigation_siem_and_locked_independence (__main__.Recovery.test_recovery_08_parent_tactical_navigation_siem_and_locked_independence) ... ok
+test_recovery_09_failed_module_has_safe_reload_recovery (__main__.Recovery.test_recovery_09_failed_module_has_safe_reload_recovery) ... ok
+test_recovery_10_failed_photography_has_asset_retry_without_data_loss (__main__.Recovery.test_recovery_10_failed_photography_has_asset_retry_without_data_loss) ... ERROR
+
+======================================================================
+ERROR: test_recovery_10_failed_photography_has_asset_retry_without_data_loss (__main__.Recovery.test_recovery_10_failed_photography_has_asset_retry_without_data_loss)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-recovery.py", line 44, in test_recovery_10_failed_photography_has_asset_retry_without_data_loss
+    self.basic();before=self.state();p=self.page;p.route('**/assets/photos/stadium*',lambda r:r.abort());p.goto(base.base.BASE+'/');p.wait_for_selector('#asset-health:not([hidden])');self.assertIn('images could not load',p.locator('#asset-health').inner_text());p.unroute('**/assets/photos/stadium*');p.get_by_role('button',name='Retry page assets',exact=True).click();p.wait_for_function('document.querySelector(".hero-photo").naturalWidth>0');p.wait_for_selector('#asset-health[hidden]',state='attached');self.assertEqual(self.state(),before)
+                                                                                                                                                                                                                                                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 12761, in wait_for_function
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py", line 1151, in wait_for_function
+    return await self._main_frame.wait_for_function(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 940, in wait_for_function
+    await self._channel.send("waitForFunction", self._timeout, params)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.wait_for_function: EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self'".
+
+    at eval (<anonymous>)
+    at predicate (eval at evaluate (:311:30), <anonymous>:4:60)
+    at next (eval at evaluate (:311:30), <anonymous>:29:33)
+
+----------------------------------------------------------------------
+Ran 10 tests in 58.597s
+
+FAILED (errors=1)

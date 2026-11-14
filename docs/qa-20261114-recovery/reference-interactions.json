@@ -1,0 +1,285 @@
+{
+  "selector0": [
+    {
+      "v": "",
+      "t": "\u2014 Select a club \u2014"
+    },
+    {
+      "v": "club-rush",
+      "t": "Colorado Storm"
+    },
+    {
+      "v": "club-rapids",
+      "t": "Colorado Rapids Youth"
+    },
+    {
+      "v": "club-fc",
+      "t": "FC Denver"
+    }
+  ],
+  "selector1": [
+    {
+      "v": "",
+      "t": "\u2014 Select a program \u2014"
+    },
+    {
+      "v": "prog-rush-select",
+      "t": "Select (sample)"
+    },
+    {
+      "v": "prog-rush-ecnl",
+      "t": "Competitive (sample)"
+    }
+  ],
+  "selector2": [
+    {
+      "v": "",
+      "t": "\u2014 Select an age group \u2014"
+    },
+    {
+      "v": "U13",
+      "t": "U13"
+    },
+    {
+      "v": "U14",
+      "t": "U14"
+    },
+    {
+      "v": "U15",
+      "t": "U15"
+    }
+  ],
+  "selector3": [
+    {
+      "v": "",
+      "t": "\u2014 Select a team \u2014"
+    },
+    {
+      "v": "team-rush-select-u13",
+      "t": "Colorado Storm Select U13"
+    }
+  ],
+  "selector4": [
+    {
+      "v": "",
+      "t": "\u2014 Select a player \u2014"
+    },
+    {
+      "v": "team-rush-select-u13-p1",
+      "t": "#1 Avery Abbott \u2014 Forward"
+    },
+    {
+      "v": "team-rush-select-u13-p2",
+      "t": "#2 Blake Bell \u2014 Forward"
+    },
+    {
+      "v": "team-rush-select-u13-p3",
+      "t": "#3 Cameron Chen \u2014 Midfielder"
+    },
+    {
+      "v": "team-rush-select-u13-p4",
+      "t": "#4 Dakota Diaz \u2014 Midfielder"
+    },
+    {
+      "v": "team-rush-select-u13-p5",
+      "t": "#5 Emery Ellis \u2014 Midfielder"
+    },
+    {
+      "v": "team-rush-select-u13-p6",
+      "t": "#6 Finley Flynn \u2014 Defender"
+    },
+    {
+      "v": "team-rush-select-u13-p7",
+      "t": "#7 Harper Grant \u2014 Defender"
+    },
+    {
+      "v": "team-rush-select-u13-p8",
+      "t": "#8 Jordan Hall \u2014 Defender"
+    },
+    {
+      "v": "team-rush-select-u13-p9",
+      "t": "#9 Kennedy Irwin \u2014 Defender"
+    },
+    {
+      "v": "team-rush-select-u13-p10",
+      "t": "#10 Logan James \u2014 Goalkeeper"
+    },
+    {
+      "v": "team-rush-select-u13-p11",
+      "t": "#11 Morgan Knox \u2014 Forward"
+    },
+    {
+      "v": "team-rush-select-u13-p12",
+      "t": "#12 Parker Lane \u2014 Midfielder"
+    },
+    {
+      "v": "team-rush-select-u13-p13",
+      "t": "#13 Quinn Marsh \u2014 Defender"
+    },
+    {
+      "v": "team-rush-select-u13-p14",
+      "t": "#14 Riley Nash \u2014 Midfielder"
+    },
+    {
+      "v": "team-rush-select-u13-p15",
+      "t": "#15 Skyler Owen \u2014 Forward"
+    }
+  ],
+  "scCurrent": "https://soccercenter.org/demo/parent-portal",
+  "cssFailure": {
+    "fallback": 0,
+    "bodyFont": "\"Times New Roman\""
+  },
+  "delivery": [
+    {
+      "mode": "fresh",
+      "path": "/",
+      "sheets": [
+        {
+          "href": "http://127.0.0.1:3000/assets/style.css",
+          "rules": 628
+        },
+        {
+          "href": "http://127.0.0.1:3000/assets/ux-polish.css",
+          "rules": 167
+        }
+      ],
+      "brokenImages": []
+    },
+    {
+      "mode": "fresh",
+      "path": "/sports/swimming",
+      "sheets": [
+        {
+          "href": "http://127.0.0.1:3000/assets/style.css",
+          "rules": 628
+        },
+        {
+          "href": "http://127.0.0.1:3000/assets/ux-polish.css",
+          "rules": 167
+        }
+      ],
+      "brokenImages": []
+    },
+    {
+      "mode": "fresh",
+      "path": "/",
+      "sheets": [
+        {
+          "href": "http://127.0.0.1:3000/assets/style.css",
+          "rules": 628
+        },
+        {
+          "href": "http://127.0.0.1:3000/assets/ux-polish.css",
+          "rules": 167
+        }
+      ],
+      "brokenImages": []
+    },
+    {
+      "mode": "fresh",
+      "path": "/my-pathway",
+      "sheets": [
+        {
+          "href": "http://127.0.0.1:3000/assets/style.css",
+          "rules": 628
+        },
+        {
+          "href": "http://127.0.0.1:3000/assets/ux-polish.css",
+          "rules": 167
+        }
+      ],
+      "brokenImages": []
+    },
+    {
+      "mode": "fresh",
+      "path": "/",
+      "sheets": [
+        {
+          "href": "http://127.0.0.1:3000/assets/style.css",
+          "rules": 628
+        },
+        {
+          "href": "http://127.0.0.1:3000/assets/ux-polish.css",
+          "rules": 167
+        }
+      ],
+      "brokenImages": []
+    },
+    {
+      "mode": "repeat",
+      "path": "/",
+      "sheets": [
+        {
+          "href": "http://127.0.0.1:3000/assets/style.css",
+          "rules": 628
+        },
+        {
+          "href": "http://127.0.0.1:3000/assets/ux-polish.css",
+          "rules": 167
+        }
+      ],
+      "brokenImages": []
+    },
+    {
+      "mode": "repeat",
+      "path": "/sports/swimming",
+      "sheets": [
+        {
+          "href": "http://127.0.0.1:3000/assets/style.css",
+          "rules": 628
+        },
+        {
+          "href": "http://127.0.0.1:3000/assets/ux-polish.css",
+          "rules": 167
+        }
+      ],
+      "brokenImages": []
+    },
+    {
+      "mode": "repeat",
+      "path": "/",
+      "sheets": [
+        {
+          "href": "http://127.0.0.1:3000/assets/style.css",
+          "rules": 628
+        },
+        {
+          "href": "http://127.0.0.1:3000/assets/ux-polish.css",
+          "rules": 167
+        }
+      ],
+      "brokenImages": []
+    },
+    {
+      "mode": "repeat",
+      "path": "/my-pathway",
+      "sheets": [
+        {
+          "href": "http://127.0.0.1:3000/assets/style.css",
+          "rules": 628
+        },
+        {
+          "href": "http://127.0.0.1:3000/assets/ux-polish.css",
+          "rules": 167
+        }
+      ],
+      "brokenImages": []
+    },
+    {
+      "mode": "repeat",
+      "path": "/",
+      "sheets": [
+        {
+          "href": "http://127.0.0.1:3000/assets/style.css",
+          "rules": 628
+        },
+        {
+          "href": "http://127.0.0.1:3000/assets/ux-polish.css",
+          "rules": 167
+        }
+      ],
+      "brokenImages": []
+    }
+  ]
+}

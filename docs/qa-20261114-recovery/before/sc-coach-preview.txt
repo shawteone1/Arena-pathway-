@@ -1,0 +1,176 @@
+PARENT PORTAL
+Switch to Fan Arena
+Demo — fictional players and records. Club names are illustrative; no live club integration.
+Reset demo
+Back
+Colorado Storm · Connected Club Demo
+
+Best: connected club experience — simulated · Fall 2026 (Sep 6 – Nov 22). Explore how club-supplied teams, rosters and schedules could populate one parent view. Programs and venues are examples; recruiting sharing remains parent-controlled.
+
+Choose club, team & player
+Season: Fall 2026 (Sep 6 – Nov 22)
+1. Club
+— Select a club —
+Colorado Storm
+Colorado Rapids Youth
+FC Denver
+2. Program
+— Select a program —
+Select (sample)
+Competitive (sample)
+3. Age group
+— Select an age group —
+U14
+U15
+U16
+4. Team
+— Select a team —
+Colorado Storm Competitive U16
+5. Player
+— Select a player —
+#1 Avery Barker — Forward
+#2 Blake Castillo — Forward
+#3 Cameron Delgado — Midfielder
+#4 Dakota Espinoza — Midfielder
+#5 Emery Flores — Midfielder
+#6 Finley Guerrero — Defender
+#7 Harper Herrera — Defender
+#8 Jordan Ibarra — Defender
+#9 Kennedy Jimenez — Defender
+#10 Logan Keller — Goalkeeper
+#11 Morgan Lara — Forward
+#12 Parker Medina — Midfielder
+#13 Quinn Navarro — Defender
+#14 Riley Ochoa — Midfielder
+#15 Skyler Pena — Forward
+Player selected — profile loaded below.
+Team
+
+Colorado Storm Competitive U16
+
+Sample competitive league · Fall 2026
+
+15 sample players · 8 games · 30 practices
+
+AB
+Storm
+
+JPEG or PNG · max ~150 KB · tap avatar to change
+
+Avery Barker
+
+Forward · #1 · U16
+
+Sample competitive league
+Fall 2026
+Club
+Colorado Storm
+Team
+Colorado Storm Competitive U16
+Birth year
+2010
+Preferred foot
+Left
+Profile
+Schedule
+Stats
+Media
+Tryouts
+Recruiting
+Synthetic recruiting workspace · browser-local saves and drafts · no external messages
+Coaches & Colleges
+College ID Camps
+Showcases & Tournaments
+Saved Opportunities
+Outreach Drafts
+Build Profile
+
+This section is private and only visible to you.
+
+Demo mode — This preview uses synthetic fixtures and browser localStorage. Links created here work only within the same browser — they cannot be shared with coaches on other devices. In production, links are stored durably on the server.
+
+Could not load requests.
+
+Edit profile
+Coach card preview
+
+This is what a coach will see. Only the fields you selected are shown.
+
+Card style
+Classic
+Player card
+Recruiting profile
+
+Same approved information in every style. Your choice is included in the link you create.
+
+AD
+Alex Demo
+U17
+Class of 2027
+Colorado United FC (Demo)
+ECNL
+
+Central Midfielder · Right foot
+
+About me
+
+I am a technically strong central midfielder with a high soccer IQ. I thrive in transition, am comfortable under pressure, and take pride in my ability to connect play between the lines. Off the field I am a strong student who enjoys leadership roles and community service.
+
+College goals
+
+I am looking for a Division I or Division II program where I can compete at a high level while pursuing a degree in Sports Science or Kinesiology. I value a coaching staff that develops players individually and a campus community where academics are taken seriously. Ideally I would stay in the Mountain West or Pacific regions, but I am open to the right fit anywhere.
+
+Academics
+
+3.9
+GPA / 4.0 · Unweighted
+Intended major
+Sports Science / Kinesiology
+
+Upcoming events
+
+NOV
+1
+
+vs. Real ColoradoHome
+
+Infinity Park, Glendale CO
+
+ECNL Girls · Sun, Nov 1
+
+NOV
+8
+
+vs. FC BoulderAway
+
+Boulder Soccer Complex, Boulder CO
+
+ECNL Girls · Sun, Nov 8
+
+NOV
+15
+
+vs. Sporting ColoradoHome
+
+Infinity Park, Glendale CO
+
+ECNL Girls · Sun, Nov 15
+
+Request information
+
+Demo request · appears in the parent inbox in this browser
+
+Coach name
+Reply email
+Request
+Full-match footage
+Academic information
+Club-coach reference
+Updated playing schedule
+Conversation / event invitation
+Message
+Submit demo request
+Demo link · Soccer Center
+Demo
+Back
+Create link

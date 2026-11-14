@@ -1,3 +1,4 @@
+import {assetRevision,recoveryCSS} from './asset-contract.mjs';
 import {searchRegions} from '../public/regions.js';
 import {releaseHomeSections} from './release-views.mjs';
 import { sports, sections, titleCase as cap, freshness, validateCatalog } from './catalog.mjs';
@@ -27,14 +28,14 @@ export function layout(title,content,page=''){
     <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#111827"><meta name="description" content="Your sport. Your path. One place. Discover Colorado teams and opportunities with a pathway built around your family.">
     <title>${esc(title)} | Arena Pathway</title>${icons}
-    <link rel="preload" href="/assets/fonts/barlow-condensed-bold.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="/assets/style.css">${['home','sport','directory','resources','community','siem-platform','locked-in-demo','my-pathway','build'].includes(page)?'<link rel="stylesheet" href="/assets/ux-polish.css">':''}<script type="module" src="/assets/app.js"></script>
+    <style>${recoveryCSS}</style><script defer src="/assets/asset-health.js?v=${assetRevision}"></script><link rel="preload" href="/assets/fonts/barlow-condensed-bold.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="/assets/style.css?v=${assetRevision}"><link rel="stylesheet" href="/assets/ux-polish.css?v=${assetRevision}"><script type="module" src="/assets/app.js?v=${assetRevision}"></script>
     </head><body data-page="${page}" data-brand-status="${brand.status}">
-    <a class="skip" href="#main">Skip to content</a>
+    <aside id="asset-health" data-asset-error hidden aria-label="Page asset recovery"><p role="status"></p><button type="button">Retry page assets</button></aside><a class="skip" href="#main">Skip to content</a>
     <div class="topline"><span>COLORADO ROOTS.</span><span>COLLEGIATE AMBITION.</span></div>
     <header class="site-header">
       <a class="brand" href="/" aria-label="Arena Pathway home">${brandMark()}<span class="wordmark">ARENA <b>PATHWAY</b><small>THE ATHLETE JOURNEY, CONNECTED.</small></span></a>
-      <div class="header-actions"><details class="explore-menu"><summary>Explore</summary><nav aria-label="Arena Pathway"><a href="/about">About us</a><a href="/offerings">Our offerings</a><a href="/my-ap">SIEM demonstrations</a><a href="/soccer-center">Soccer Center preview</a><a href="/collective-data">Collective Data — Coming Soon</a></nav></details><a class="my-link" href="/my-ap">SIEM</a><a class="my-link" href="${page==='my-pathway'?'/my-pathway?view=family':'/my-pathway'}">My Pathway</a>
-        <details id="sports-menu"><summary>Sports <span aria-hidden="true">⌄</span></summary><nav aria-label="Sports">${sports.map(s=>`<a href="/sports/${s}">${cap(s)}</a>`).join('')}<a href="/build">Build Your Own <span aria-hidden="true">↗</span></a></nav></details>
+      <div class="header-actions"><nav class="pillar-nav" aria-label="Primary navigation">${[['Profile','/my-pathway?view=family'],['SIEM','/my-ap'],['Recruiting','/recruiting'],['LockedIn','/locked-in-demo']].map(([label,url])=>`<a class="my-link" href="${url}"${(label==='Profile'&&page==='my-pathway'&&!content.includes('data-workspace-view="recruiting"')||label==='Recruiting'&&content.includes('data-workspace-view="recruiting"')||label==='SIEM'&&page==='siem-platform'||label==='LockedIn'&&page==='locked-in-demo')?' aria-current="page"':''}>${label}</a>`).join('')}</nav>
+        <details id="sports-menu"><summary>Sports <span aria-hidden="true">⌄</span></summary><nav aria-label="Sports">${sports.map(s=>`<a href="/sports/${s}">${cap(s)}</a>`).join('')}<a href="/build?new=1&guided=1">Build Your Own <span aria-hidden="true">↗</span></a></nav></details>
       </div>
     </header>${content}
     <footer><div class="footer-main"><a class="brand" href="/" aria-label="Arena Pathway home">${brandMark()}<span class="wordmark">ARENA <b>PATHWAY</b><small>YOUR SPORT. YOUR PATH. ONE PLACE.</small></span></a><p>For the athlete you are.<br>For everything you can become.</p><div class="footer-links"><a href="/about">About us</a><a href="/offerings">Our offerings</a><a href="/my-ap">SIEM demonstrations</a><a href="/soccer-center">Soccer Center preview</a><a href="/collective-data">Collective Data — Coming Soon</a><a href="/data">Sources & coverage</a><a href="/my-pathway">My saved pathway</a><a href="/credits">Photography credits</a></div></div><div class="footer-bottom"><span>BUILT FOR ATHLETES. GUIDED BY FAMILIES.</span><p>Independent of the schools and programs pictured or listed.</p></div></footer>
@@ -47,7 +48,7 @@ export function home(){
       <div class="hero-content"><p class="eyebrow">A BIGGER PICTURE. A PATH THAT’S YOURS.</p>
         <h1>YOUR SPORT.<br><span>YOUR PATH.</span><br>ONE PLACE.</h1>
         <p class="hero-intro">A place to belong.<br>A place to become.</p>
-        <div class="actions"><a class="button" href="#sports">Find your sport <span aria-hidden="true">↓</span></a><a class="text-link light-link" href="/build">Create My Pathway <span aria-hidden="true">→</span></a></div>
+        <div class="actions"><a class="button" href="#sports">Find your sport <span aria-hidden="true">↓</span></a><a class="text-link light-link" href="/build?new=1&guided=1">Create My Pathway <span aria-hidden="true">→</span></a></div>
         <div class="hero-foot"><span>FROM YOUR FIRST TEAM TO YOUR NEXT CHAPTER.</span><a href="/credits">Folsom Field / Boulder, Colorado</a></div>
       </div>
     </section>

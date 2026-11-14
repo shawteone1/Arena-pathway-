@@ -1,0 +1,536 @@
+{
+  "baseline": "638b53fb182e42bb90563e80f789781e5c0c8591",
+  "engine": "chromium",
+  "version": "156.0.8078.79",
+  "fixture": "Explicit synthetic family/athlete records, no genuine private information",
+  "screenshots": [
+    {
+      "file": "screenshots/chromium-before-home-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-lacrosse-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-lacrosse-editorial.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#sport-discover"
+    },
+    {
+      "file": "screenshots/chromium-before-volleyball-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-volleyball-editorial.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#sport-discover"
+    },
+    {
+      "file": "screenshots/chromium-before-basketball-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-basketball-editorial.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#sport-discover"
+    },
+    {
+      "file": "screenshots/chromium-before-swimming-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-swimming-editorial.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#sport-discover"
+    },
+    {
+      "file": "screenshots/chromium-before-onboarding-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-parent-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-athlete-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-schedule-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-schedule-content.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#schedules"
+    },
+    {
+      "file": "screenshots/chromium-before-stats-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-stats-content.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#stats"
+    },
+    {
+      "file": "screenshots/chromium-before-media-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-media-content.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#profile-media"
+    },
+    {
+      "file": "screenshots/chromium-before-feed-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-feed-content.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#my-feed"
+    },
+    {
+      "file": "screenshots/chromium-before-development-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-development-content.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#camps"
+    },
+    {
+      "file": "screenshots/chromium-before-recruiting-schools-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-recruiting-builder-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-recruiting-preview-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-recruiting-card.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": ".recruiting-preview"
+    },
+    {
+      "file": "screenshots/chromium-before-home-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-feed-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-home-iphone.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-feed-iphone.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-siem-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-before-lockedin-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-home-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-lacrosse-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-lacrosse-editorial.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#sport-discover"
+    },
+    {
+      "file": "screenshots/chromium-after-volleyball-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-volleyball-editorial.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#sport-discover"
+    },
+    {
+      "file": "screenshots/chromium-after-basketball-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-basketball-editorial.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#sport-discover"
+    },
+    {
+      "file": "screenshots/chromium-after-swimming-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-swimming-editorial.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#sport-discover"
+    },
+    {
+      "file": "screenshots/chromium-after-onboarding-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-parent-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-athlete-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-schedule-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-schedule-content.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#schedules"
+    },
+    {
+      "file": "screenshots/chromium-after-stats-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-stats-content.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#stats"
+    },
+    {
+      "file": "screenshots/chromium-after-media-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-media-content.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#profile-media"
+    },
+    {
+      "file": "screenshots/chromium-after-feed-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-feed-content.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#my-feed"
+    },
+    {
+      "file": "screenshots/chromium-after-development-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-development-content.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": "#camps"
+    },
+    {
+      "file": "screenshots/chromium-after-recruiting-schools-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-recruiting-builder-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-recruiting-preview-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-recruiting-card.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": ".recruiting-preview"
+    },
+    {
+      "file": "screenshots/chromium-after-home-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-feed-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-home-iphone.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-feed-iphone.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-siem-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-lockedin-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-asset-recovery-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    },
+    {
+      "file": "screenshots/chromium-after-asset-restored-ipad.png",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "component": null
+    }
+  ]
+}

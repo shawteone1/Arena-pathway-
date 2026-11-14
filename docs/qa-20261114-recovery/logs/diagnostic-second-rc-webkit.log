@@ -1,0 +1,16 @@
+test_01_parent_first_journey_and_module_independence (__main__.ReleaseCandidate.test_01_parent_first_journey_and_module_independence) ... ok
+test_02_siem_without_profile_lockedin_off_and_independent_research (__main__.ReleaseCandidate.test_02_siem_without_profile_lockedin_off_and_independent_research) ... FAIL
+
+======================================================================
+FAIL: test_02_siem_without_profile_lockedin_off_and_independent_research (__main__.ReleaseCandidate.test_02_siem_without_profile_lockedin_off_and_independent_research)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-release-candidate.py", line 50, in test_02_siem_without_profile_lockedin_off_and_independent_research
+    p.locator('.siem-local-tools').evaluate('(e)=>e.open=true');p.locator('#siem-event').evaluate('(e)=>e.closest("details").open=true');f=p.locator('#siem-event');f.locator('[name=athleteId]').select_option(athlete);f.locator('[name=title]').fill('Standalone SIEM practice');f.locator('[name=ref]').fill('rc-standalone');f.locator('[name=start]').fill('2026-11-16T17:00');f.locator('[name=end]').fill('2026-11-16T18:00');f.get_by_role('button',name='Save local event',exact=True).click();self.assertEqual(len(self.family()['events']),1);self.assertEqual(self.family()['events'][0]['athleteId'],athlete)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 2 tests in 15.174s
+
+FAILED (failures=1)

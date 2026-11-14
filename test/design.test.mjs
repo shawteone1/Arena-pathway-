@@ -16,7 +16,7 @@ test('reviewed catalog and catalog queries remain byte-preserved while participa
 });
 test('homepage is an umbrella editorial experience with a single five-destination Sports menu',()=>{
  const html=home();const nav=html.match(/<nav aria-label="Sports">(.*?)<\/nav>/s)[1];
- assert.deepEqual([...nav.matchAll(/href="([^"]+)"/g)].map(m=>m[1]),['/sports/lacrosse','/sports/volleyball','/sports/basketball','/sports/swimming','/build']);
+ assert.deepEqual([...nav.matchAll(/href="([^"]+)"/g)].map(m=>m[1]),['/sports/lacrosse','/sports/volleyball','/sports/basketball','/sports/swimming','/build?new=1&guided=1']);
  assert.match(html,/YOUR SPORT\.<br><span>YOUR PATH\.<\/span><br>ONE PLACE\./);
  assert.match(html,/01 \/ DISCOVERY/);assert.match(html,/02 \/ DEVELOPMENT/);assert.match(html,/03 \/ OPPORTUNITY/);
  assert.ok(!html.includes('sport-grid'));assert.ok(!html.includes('class="letterman"'));

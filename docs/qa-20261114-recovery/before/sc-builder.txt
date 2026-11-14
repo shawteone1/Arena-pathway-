@@ -1,0 +1,125 @@
+PARENT PORTAL
+Switch to Fan Arena
+Demo — fictional players and records. Club names are illustrative; no live club integration.
+Reset demo
+Back
+Colorado Storm · Connected Club Demo
+
+Best: connected club experience — simulated · Fall 2026 (Sep 6 – Nov 22). Explore how club-supplied teams, rosters and schedules could populate one parent view. Programs and venues are examples; recruiting sharing remains parent-controlled.
+
+Choose club, team & player
+Season: Fall 2026 (Sep 6 – Nov 22)
+1. Club
+— Select a club —
+Colorado Storm
+Colorado Rapids Youth
+FC Denver
+2. Program
+— Select a program —
+Select (sample)
+Competitive (sample)
+3. Age group
+— Select an age group —
+U14
+U15
+U16
+4. Team
+— Select a team —
+Colorado Storm Competitive U16
+5. Player
+— Select a player —
+#1 Avery Barker — Forward
+#2 Blake Castillo — Forward
+#3 Cameron Delgado — Midfielder
+#4 Dakota Espinoza — Midfielder
+#5 Emery Flores — Midfielder
+#6 Finley Guerrero — Defender
+#7 Harper Herrera — Defender
+#8 Jordan Ibarra — Defender
+#9 Kennedy Jimenez — Defender
+#10 Logan Keller — Goalkeeper
+#11 Morgan Lara — Forward
+#12 Parker Medina — Midfielder
+#13 Quinn Navarro — Defender
+#14 Riley Ochoa — Midfielder
+#15 Skyler Pena — Forward
+Player selected — profile loaded below.
+Team
+
+Colorado Storm Competitive U16
+
+Sample competitive league · Fall 2026
+
+15 sample players · 8 games · 30 practices
+
+AB
+Storm
+
+JPEG or PNG · max ~150 KB · tap avatar to change
+
+Avery Barker
+
+Forward · #1 · U16
+
+Sample competitive league
+Fall 2026
+Club
+Colorado Storm
+Team
+Colorado Storm Competitive U16
+Birth year
+2010
+Preferred foot
+Left
+Profile
+Schedule
+Stats
+Media
+Tryouts
+Recruiting
+Synthetic recruiting workspace · browser-local saves and drafts · no external messages
+Coaches & Colleges
+College ID Camps
+Showcases & Tournaments
+Saved Opportunities
+Outreach Drafts
+Build Profile
+
+This section is private and only visible to you.
+
+Demo mode — This preview uses synthetic fixtures and browser localStorage. Links created here work only within the same browser — they cannot be shared with coaches on other devices. In production, links are stored durably on the server.
+
+Could not load requests.
+
+Build your recruiting profile
+
+Synthetic review profile · saved only in this browser. Existing links retain their approved snapshot.
+
+Player name
+Graduation year
+Primary position
+Secondary position
+Club / team
+Highest playing level
+Dominant foot
+Academics
+GPA
+Scale
+GPA type
+Unweighted
+Weighted
+Academic interests / intended major
+About me
+College goals
+Achievements (one per line)
+Select highlights
+ Fall 2026 Season Highlights
+ 2025 ECNL Regional — Best Moments
+Select upcoming events
+ ECNL Girls — Colorado United vs. Real Colorado
+ ECNL Girls — Colorado United vs. FC Boulder
+ ECNL Girls — Colorado United vs. Sporting Colorado
+
+Coach requests appear in the synthetic inbox below. No messages are delivered externally.
+
+Save profile and choose sharing
