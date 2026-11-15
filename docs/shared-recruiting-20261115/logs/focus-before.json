@@ -1,0 +1,7 @@
+{
+  "viewport": "810x1080",
+  "beforeScroll": 2782,
+  "afterScroll": 2783,
+  "afterSelectionFocus": "BODY",
+  "finding": "Field selection lost keyboard focus after the old global rerender"
+}

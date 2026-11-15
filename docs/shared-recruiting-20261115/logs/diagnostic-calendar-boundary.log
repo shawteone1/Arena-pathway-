@@ -1,0 +1,52 @@
+✔ SC field filter port only exposes named canonical outputs, never arbitrary/internal profile properties (2.038344ms)
+✔ all four sports use the same empty-by-default projection with no school/photo/record leakage (2.15515ms)
+✔ athlete name, photo, high school and academics have independent parent choices (0.462297ms)
+✔ same athlete information fills the SC-shaped card contract without creating identity or copying private development data (0.39743ms)
+✔ selected stats exclude practices, orphan/other-athlete records and private notes; absent values are not zero (0.852054ms)
+✔ partial competition totals disclose recorded count, preserving real zero and no profile-total fallback (0.318791ms)
+✔ upcoming selected camps/showcases/competitions appear; practices and past events never appear as upcoming (0.415486ms)
+✔ highlights are explicitly selected, owned and metadata-only; renderer cannot receive other-athlete blobs (0.400675ms)
+✔ swimming measurements compare selected discipline/course only and never sum unrelated race times (0.659975ms)
+✔ legacy selections and old approval/draft/saved IDs are read compatibly without migration or newly opting in photos (0.643481ms)
+✔ existing AP parent/age/current-rules gates remain mandatory for preview approval (0.398652ms)
+✔ local revision detects selected content edits while ignoring private/unselected fields and approval flag (0.538031ms)
+✔ sport config changes data/metrics without a sport branch or separate builder, and does not activate another AP sport (0.298189ms)
+✔ coaching contract withholds wrong-sport, unverified, stale/future and personal-email contacts without hiding programs (3.381759ms)
+✔ new shared preferences and profile additions survive existing loadState with no lost records/drafts/extensions (0.698163ms)
+✖ upcoming appearances use the shared Denver calendar day and exclude ended timed competitions (1.399951ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 15
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 371.895008
+
+✖ failing tests:
+
+test at test/shared-recruiting.test.mjs:28:1
+✖ upcoming appearances use the shared Denver calendar day and exclude ended timed competitions (1.399951ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+
+  + []
+  - [
+  -   'all-day',
+  -   'ongoing'
+  - ]
+
+      at TestContext.<anonymous> (file:///workspace/arena-pathway/test/shared-recruiting.test.mjs:28:563)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [],
+    expected: [ 'all-day', 'ongoing' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

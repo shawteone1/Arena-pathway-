@@ -1,0 +1,25 @@
+✔ SC field filter port only exposes named canonical outputs, never arbitrary/internal profile properties (1.421684ms)
+✔ all four sports use the same empty-by-default projection with no school/photo/record leakage (13.661814ms)
+✔ athlete name, photo, high school and academics have independent parent choices (0.551982ms)
+✔ same athlete information fills the SC-shaped card contract without creating identity or copying private development data (0.373123ms)
+✔ selected stats exclude practices, orphan/other-athlete records and private notes; absent values are not zero (0.646805ms)
+✔ partial competition totals disclose recorded count, preserving real zero and no profile-total fallback (0.207262ms)
+✔ upcoming selected camps/showcases/competitions appear; practices and past events never appear as upcoming (0.507516ms)
+✔ highlights are explicitly selected, owned and metadata-only; renderer cannot receive other-athlete blobs (0.413514ms)
+✔ swimming measurements compare selected discipline/course only and never sum unrelated race times (0.793437ms)
+✔ legacy selections and old approval/draft/saved IDs are read compatibly without migration or newly opting in photos (0.694397ms)
+✔ existing AP parent/age/current-rules gates remain mandatory for preview approval (0.454455ms)
+✔ local revision detects selected content edits while ignoring private/unselected fields and approval flag (0.809991ms)
+✔ sport config changes data/metrics without a sport branch or separate builder, and does not activate another AP sport (0.46376ms)
+✔ coaching contract withholds wrong-sport, unverified, stale/future and personal-email contacts without hiding programs (3.372346ms)
+✔ new shared preferences and profile additions survive existing loadState with no lost records/drafts/extensions (0.674958ms)
+✔ upcoming appearances use the shared Denver calendar day and exclude ended timed competitions (0.439753ms)
+✔ missing GPA scale is never invented as 4.0 in the shared card (0.72963ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 426.825362

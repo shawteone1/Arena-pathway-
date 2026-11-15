@@ -1,0 +1,101 @@
+[
+  {
+    "suite": "dgc",
+    "script": "qa-dgc.py",
+    "exitCode": 0,
+    "tests": 6,
+    "seconds": 11.94
+  },
+  {
+    "suite": "polish",
+    "script": "qa-ux-polish.py",
+    "exitCode": 0,
+    "tests": 6,
+    "seconds": 16.43
+  },
+  {
+    "suite": "rc",
+    "script": "qa-release-candidate.py",
+    "exitCode": 0,
+    "tests": 2,
+    "seconds": 21.92
+  },
+  {
+    "suite": "profile",
+    "script": "qa-profile-visual.py",
+    "exitCode": 0,
+    "tests": 8,
+    "seconds": 15.18
+  },
+  {
+    "suite": "conformance",
+    "script": "qa-conformance.py",
+    "exitCode": 0,
+    "tests": 12,
+    "seconds": 36.2
+  },
+  {
+    "suite": "siem",
+    "script": "qa-siem-webkit.py",
+    "exitCode": 0,
+    "tests": 5,
+    "seconds": 16.27
+  },
+  {
+    "suite": "nov15",
+    "script": "qa-nov15.py",
+    "exitCode": 0,
+    "tests": 5,
+    "seconds": 16.22,
+    "finalCandidateRerun": true
+  },
+  {
+    "suite": "recovery",
+    "script": "qa-recovery.py",
+    "exitCode": 0,
+    "tests": 10,
+    "seconds": 48.58,
+    "finalCandidateRerun": true
+  },
+  {
+    "suite": "resume",
+    "script": "qa-nov13-resume.py",
+    "exitCode": 0,
+    "tests": 7,
+    "seconds": 29.5,
+    "finalCandidateRerun": true
+  },
+  {
+    "suite": "consolidated",
+    "script": "qa-consolidated.py",
+    "exitCode": 0,
+    "tests": 8,
+    "seconds": 24.47,
+    "finalCandidateRerun": true
+  },
+  {
+    "suite": "acceptance",
+    "script": "qa-acceptance-refinement.py",
+    "exitCode": 0,
+    "tests": 12,
+    "seconds": 33.05,
+    "finalCandidateRerun": true
+  },
+  {
+    "suite": "shared",
+    "script": "qa-shared-recruiting.py",
+    "exitCode": 0,
+    "tests": 7,
+    "seconds": 81.91,
+    "finalCandidateRerun": true,
+    "finalFixtureCleanupRerun": true
+  },
+  {
+    "suite": "qualification",
+    "script": "qa-qualification.py",
+    "exitCode": 0,
+    "tests": 3,
+    "seconds": 33.78,
+    "finalCandidateRerun": true
+  }
+]

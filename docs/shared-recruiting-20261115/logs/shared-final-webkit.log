@@ -1,0 +1,9 @@
+test_shared_01_lacrosse_reference_and_same_complete_engine_in_all_four_sports (__main__.SharedRecruiting.test_shared_01_lacrosse_reference_and_same_complete_engine_in_all_four_sports) ... ok
+test_shared_02_external_profile_revision_invalidates_local_approval (__main__.SharedRecruiting.test_shared_02_external_profile_revision_invalidates_local_approval) ... ok
+test_shared_03_public_school_research_stays_sport_scoped_without_profile (__main__.SharedRecruiting.test_shared_03_public_school_research_stays_sport_scoped_without_profile) ... ok
+test_shared_04_legacy_photo_and_visibility_fallback_preserve_saved_data (__main__.SharedRecruiting.test_shared_04_legacy_photo_and_visibility_fallback_preserve_saved_data) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 57.663s
+
+OK

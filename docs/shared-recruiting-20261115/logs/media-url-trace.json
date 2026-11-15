@@ -1,0 +1,1238 @@
+[
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/6befc321-bd41-4305-bbe2-5c7bbbcf4ea9",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/6befc321-bd41-4305-bbe2-5c7bbbcf4ea9",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/profile-qa.js:52:867",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/5c31f3d3-aa8a-4525-b5d8-12201fedfb9c",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/8cc3c65d-367c-4aa6-a6dc-65a8db00d69a",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/8cc3c65d-367c-4aa6-a6dc-65a8db00d69a",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/app.js:21:352",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/9641cda3-5af8-4787-8bb9-589294d8f258",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/9641cda3-5af8-4787-8bb9-589294d8f258",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:27:492",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/94bfd5ef-da5e-4eff-b33a-d62d8aec6fee",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/94bfd5ef-da5e-4eff-b33a-d62d8aec6fee",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:34:700",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/bee2493c-1a9d-4669-808b-197791083bac",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "error": "ttp://127.0.0.1:3000/997577b0-a47c-430b-85e4-efb046a054a8 due to access control checks."
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/5320cb9f-d44b-43f8-ae52-0b50884d07dd",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/5320cb9f-d44b-43f8-ae52-0b50884d07dd",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/d70420e9-3d87-4bcb-8051-0bbdceb82b9a",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/d70420e9-3d87-4bcb-8051-0bbdceb82b9a",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/deb69443-4f3d-42a8-8596-f7b05041bd2e",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/deb69443-4f3d-42a8-8596-f7b05041bd2e",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/3ce48594-d4c6-4244-8c53-7a0f7e492c83",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/3ce48594-d4c6-4244-8c53-7a0f7e492c83",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/4a7177a8-f07f-4b9b-b78d-2d8ceb9b628e",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/4a7177a8-f07f-4b9b-b78d-2d8ceb9b628e",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/193c43e0-9587-4526-8294-af065b1e8b51",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/193c43e0-9587-4526-8294-af065b1e8b51",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/2359b7bf-2986-448b-8735-872fc693359e",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/2359b7bf-2986-448b-8735-872fc693359e",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/bfceed2b-9af0-44fb-84e1-5724414e0efc",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/bfceed2b-9af0-44fb-84e1-5724414e0efc",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/0f96c9b3-6b77-42fe-8f90-1f88965e690d",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/0f96c9b3-6b77-42fe-8f90-1f88965e690d",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/9d85b416-c819-484e-a5a6-a8e6e8348327",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/9d85b416-c819-484e-a5a6-a8e6e8348327",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/f32bb18a-a5f8-462f-a453-fc689e03dddc",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/f32bb18a-a5f8-462f-a453-fc689e03dddc",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/d092b1fd-4669-4f70-bd32-cc31915cbf5b",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/d092b1fd-4669-4f70-bd32-cc31915cbf5b",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/39433d16-7d76-48e9-867f-d3b838712a21",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/39433d16-7d76-48e9-867f-d3b838712a21",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/0528237c-7a15-4270-9482-2d631d192607",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/0528237c-7a15-4270-9482-2d631d192607",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/a5791a5f-e3b7-43b5-b6d0-8508f19bdff5",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/a5791a5f-e3b7-43b5-b6d0-8508f19bdff5",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/818d134b-a9a8-4d60-80ae-4f9ae303954f",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/818d134b-a9a8-4d60-80ae-4f9ae303954f",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/865b5ffc-f15c-4ced-ae6b-6a6b35fd5799",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/31846d75-3aa1-47f9-9638-c5aea4d05aae",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\n@http://127.0.0.1:3000/assets/coach-card.js:31:479"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/31846d75-3aa1-47f9-9638-c5aea4d05aae",
+    "stack": "@web-inspector://bootstrap.js:18:343\nreleaseMedia@http://127.0.0.1:3000/assets/recruiting-builder.js:9:249\ndrawCard@http://127.0.0.1:3000/assets/recruiting-builder.js:46:48\n@http://127.0.0.1:3000/assets/recruiting-builder.js:50:71",
+    "players": [
+      {
+        "src": "blob:http://127.0.0.1:3000/865b5ffc-f15c-4ced-ae6b-6a6b35fd5799",
+        "ready": 3,
+        "connected": true
+      }
+    ]
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/70db8314-2c5d-4adf-9ee4-4d4468bce435",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/70db8314-2c5d-4adf-9ee4-4d4468bce435",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/c580a33e-aa2a-44fc-9beb-831a20dd6246",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/0cda4bbe-c93f-49bc-a8d1-519a3a43d5df",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/32bb5e91-c78d-4e37-8ba5-0ee4e9b30147",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/32bb5e91-c78d-4e37-8ba5-0ee4e9b30147",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/profile-qa.js:52:867",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/1d77dba4-9d5a-4b36-a2b7-f0ff4348ce9c",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/a2c05d13-1423-461f-9c59-cd4452a4fb4f",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/a2c05d13-1423-461f-9c59-cd4452a4fb4f",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/app.js:21:352",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/ba53c206-57d0-488d-871a-a8e810584935",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/ba53c206-57d0-488d-871a-a8e810584935",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:27:492",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/54ae06b3-dbde-4d48-b3b0-f24c2c541e2f",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/54ae06b3-dbde-4d48-b3b0-f24c2c541e2f",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:34:700",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/794e0773-8a76-44ce-99ac-82ac9a98515e",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "error": "ttp://127.0.0.1:3000/7bcd2be6-9f18-43d3-8a92-c6cf69c5388e due to access control checks."
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/0916b177-51a0-465b-914f-be5a72bdff2b",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/0916b177-51a0-465b-914f-be5a72bdff2b",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/a53230fd-9aba-44a2-b8de-f7f6f916e882",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/a53230fd-9aba-44a2-b8de-f7f6f916e882",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/b9bd6e92-454c-4c9d-854a-eab6ec354d10",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/b9bd6e92-454c-4c9d-854a-eab6ec354d10",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/061de22f-e2ec-479e-aa25-90d58e4e1fde",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/061de22f-e2ec-479e-aa25-90d58e4e1fde",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/9320b866-2520-4f32-92eb-ea5f08bade25",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/9320b866-2520-4f32-92eb-ea5f08bade25",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/f283dd5f-bcb5-4cc7-a2fa-c7907a52c070",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/f283dd5f-bcb5-4cc7-a2fa-c7907a52c070",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/ab9e0ab3-3eed-41f4-a43d-f0c55b10f041",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/ab9e0ab3-3eed-41f4-a43d-f0c55b10f041",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/405426fd-a19d-4ad7-9512-9aa6e9510c35",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/405426fd-a19d-4ad7-9512-9aa6e9510c35",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/772c16bc-e6c9-42fc-9756-50105fd710c0",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/772c16bc-e6c9-42fc-9756-50105fd710c0",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/f1bdeb48-db3d-4ea8-abc1-4e20aec1e4ed",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/f1bdeb48-db3d-4ea8-abc1-4e20aec1e4ed",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/95904697-a6fc-4083-804f-22f2eb2b8025",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/95904697-a6fc-4083-804f-22f2eb2b8025",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/c3e65fbc-2f88-4cec-b44a-cbd51fbc5fc5",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/c3e65fbc-2f88-4cec-b44a-cbd51fbc5fc5",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/06d70184-0008-44ad-8767-c09599255d03",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/06d70184-0008-44ad-8767-c09599255d03",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/9b580a75-cb8c-4cb0-9284-ae8580a37ff8",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/9b580a75-cb8c-4cb0-9284-ae8580a37ff8",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/be4023b4-17ea-42a7-94b6-024b00928ea2",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/be4023b4-17ea-42a7-94b6-024b00928ea2",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/866d37c8-6e16-4d32-b0b3-bb84daad107e",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/866d37c8-6e16-4d32-b0b3-bb84daad107e",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/95ebe4af-0cc9-40a5-baa8-29a48d33cc30",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/202532ca-372c-40fa-876d-b9c070a250a8",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\n@http://127.0.0.1:3000/assets/coach-card.js:31:479"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/202532ca-372c-40fa-876d-b9c070a250a8",
+    "stack": "@web-inspector://bootstrap.js:18:343\nreleaseMedia@http://127.0.0.1:3000/assets/recruiting-builder.js:9:249\ndrawCard@http://127.0.0.1:3000/assets/recruiting-builder.js:46:48\n@http://127.0.0.1:3000/assets/recruiting-builder.js:50:71",
+    "players": [
+      {
+        "src": "blob:http://127.0.0.1:3000/95ebe4af-0cc9-40a5-baa8-29a48d33cc30",
+        "ready": 3,
+        "connected": true
+      }
+    ]
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/6e5db283-b809-48cb-b605-36759d1ed104",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/6e5db283-b809-48cb-b605-36759d1ed104",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/55ead169-23ce-4e3f-9939-5302a5f94474",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/571d4374-f87c-4872-92d8-8bb4495f44ce",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/43f750f8-ce64-4516-9ea7-cbf646731fb5",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/43f750f8-ce64-4516-9ea7-cbf646731fb5",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/profile-qa.js:52:867",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/ca662383-db11-474e-9906-03213a91cc5f",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/58b9938d-a400-4748-9bb5-0796f6a09dd9",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/58b9938d-a400-4748-9bb5-0796f6a09dd9",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/app.js:21:352",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/b5550bd1-f754-40ff-b3eb-58d3bf8fbe34",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/b5550bd1-f754-40ff-b3eb-58d3bf8fbe34",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:27:492",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/afb591c2-d026-403d-a357-0dcc9a339ec4",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/afb591c2-d026-403d-a357-0dcc9a339ec4",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:34:700",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/13fe3f97-8d96-4231-ae08-0de7b08a93e4",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "error": "ttp://127.0.0.1:3000/414c7a09-3d2c-4cab-9b91-f5d5521e9321 due to access control checks."
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/2cee852e-8849-4828-8c50-219656cee613",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/2cee852e-8849-4828-8c50-219656cee613",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/216a0543-e7c6-4e44-8a8e-9d1c154da95a",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/216a0543-e7c6-4e44-8a8e-9d1c154da95a",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/f3649f02-41c6-4b46-b23d-3877b24ec2e0",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/f3649f02-41c6-4b46-b23d-3877b24ec2e0",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/34b07f53-805a-415d-92ef-5fec7a62762d",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/34b07f53-805a-415d-92ef-5fec7a62762d",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/6526c034-7b8b-4d95-816e-2733321ca24e",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/6526c034-7b8b-4d95-816e-2733321ca24e",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/318fe619-c19f-4b33-b46b-a8ecb9828489",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/318fe619-c19f-4b33-b46b-a8ecb9828489",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/c8653fb9-8cc1-425e-905b-ef7cd515ea9b",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/c8653fb9-8cc1-425e-905b-ef7cd515ea9b",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/1a2275cd-da41-4591-ac01-d0c013362bad",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/1a2275cd-da41-4591-ac01-d0c013362bad",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/937eb4a0-84cb-4324-9fa0-6c7c66e405ce",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/937eb4a0-84cb-4324-9fa0-6c7c66e405ce",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/1dfeeab9-5520-4bf6-bac0-c2264dfc234e",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/1dfeeab9-5520-4bf6-bac0-c2264dfc234e",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/06f63dfa-60b5-4c7f-94ad-0f3090effc5a",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/06f63dfa-60b5-4c7f-94ad-0f3090effc5a",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/92bd199e-894a-4e52-ad38-3d42f7d695be",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/92bd199e-894a-4e52-ad38-3d42f7d695be",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/d1d954b9-e873-4880-807e-7a24b708e8c3",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/d1d954b9-e873-4880-807e-7a24b708e8c3",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/2224efa3-98a0-4290-acb4-07656da6dbbd",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/2224efa3-98a0-4290-acb4-07656da6dbbd",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/9d21f469-fd61-4e8a-a437-0560e5d7b623",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/9d21f469-fd61-4e8a-a437-0560e5d7b623",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/9382b768-479b-4454-b40e-5b9d1fb458d2",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/9382b768-479b-4454-b40e-5b9d1fb458d2",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/eec8010d-d4fd-4fd1-9d2d-6be3ad3897be",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/f884cd4d-198d-4479-b466-03600277a74f",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\n@http://127.0.0.1:3000/assets/coach-card.js:31:479"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/f884cd4d-198d-4479-b466-03600277a74f",
+    "stack": "@web-inspector://bootstrap.js:18:343\nreleaseMedia@http://127.0.0.1:3000/assets/recruiting-builder.js:9:249\ndrawCard@http://127.0.0.1:3000/assets/recruiting-builder.js:46:48\n@http://127.0.0.1:3000/assets/recruiting-builder.js:50:71",
+    "players": [
+      {
+        "src": "blob:http://127.0.0.1:3000/eec8010d-d4fd-4fd1-9d2d-6be3ad3897be",
+        "ready": 3,
+        "connected": true
+      }
+    ]
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/8af5f31a-3298-4495-b5d0-4feacb6330b9",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/8af5f31a-3298-4495-b5d0-4feacb6330b9",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/cd16dd27-ff27-4ff2-9085-c36a64ffc698",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/a44255d4-993c-4e48-8caa-52ff02447068",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/04368e03-45d7-414c-8c24-1d81346e4c7c",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/04368e03-45d7-414c-8c24-1d81346e4c7c",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/profile-qa.js:52:867",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/b7562f84-5cbe-421d-80f8-78f5866d1208",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/b7562f84-5cbe-421d-80f8-78f5866d1208",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/profile-qa.js:53:1730",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/7ec4bb76-4292-459c-b346-d3035485dd95",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/e5173407-8916-446b-b4cc-bbb2fe4f361c",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/e5173407-8916-446b-b4cc-bbb2fe4f361c",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/app.js:21:352",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/9a9dd866-f818-4f4c-a0d4-bb753677f8cc",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/9a9dd866-f818-4f4c-a0d4-bb753677f8cc",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:27:492",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/50e5f30d-68ef-4cf8-977a-a52ac7f3fdeb",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/50e5f30d-68ef-4cf8-977a-a52ac7f3fdeb",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:34:700",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/07047d59-30db-45d9-982c-e44182fca2ba",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "error": "ttp://127.0.0.1:3000/c6253764-8adc-4dcb-b011-26b917a4d9be due to access control checks."
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/fe261234-66f5-4d41-8960-a76f62c174be",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/fe261234-66f5-4d41-8960-a76f62c174be",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/0e921b6a-2fd5-4806-bc53-80bb1d6b4276",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/0e921b6a-2fd5-4806-bc53-80bb1d6b4276",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/1a6a1d8a-87b4-425c-8d51-f9f5ffade6b7",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/1a6a1d8a-87b4-425c-8d51-f9f5ffade6b7",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/e5550a17-da76-468c-b8e0-307308cd20d6",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/e5550a17-da76-468c-b8e0-307308cd20d6",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/76d6f90a-37d8-49a7-9979-c08be04f54aa",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/76d6f90a-37d8-49a7-9979-c08be04f54aa",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/6023f193-d83b-4475-a39b-0566e56a276b",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/6023f193-d83b-4475-a39b-0566e56a276b",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/0be55e16-fa35-471c-8be4-2417e556688f",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/0be55e16-fa35-471c-8be4-2417e556688f",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/10590e69-d5ab-4879-8851-8cdfdd3d298d",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/10590e69-d5ab-4879-8851-8cdfdd3d298d",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/dddcafbd-45c2-4ac3-9e8a-0602b9c6752e",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/dddcafbd-45c2-4ac3-9e8a-0602b9c6752e",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/5e4a8544-8805-4cc1-a807-2ffad3536611",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/5e4a8544-8805-4cc1-a807-2ffad3536611",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/b39554e5-282b-4d54-b7b3-61c3c8a581eb",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/b39554e5-282b-4d54-b7b3-61c3c8a581eb",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/f4d9c1b6-2472-4201-9509-9ae5e7c639f2",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/f4d9c1b6-2472-4201-9509-9ae5e7c639f2",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/f0d59377-e15c-4ea1-86b8-0a81544928bc",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/f0d59377-e15c-4ea1-86b8-0a81544928bc",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/3baa252f-dc20-44b0-ab5b-af2a6acab219",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/3baa252f-dc20-44b0-ab5b-af2a6acab219",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/4fd721cc-1df7-4730-861c-8f9f3e18806e",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/4fd721cc-1df7-4730-861c-8f9f3e18806e",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/cddd4d1f-23d1-4a82-aea1-3c62f1cadf41",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/cddd4d1f-23d1-4a82-aea1-3c62f1cadf41",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/4bcb3c42-c5b5-4edf-a20b-8ec60419a3f8",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/4bcb3c42-c5b5-4edf-a20b-8ec60419a3f8",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/d2376d57-7a23-4c82-abce-be188d039f05",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/7a580d55-3481-4327-ace1-4ab5d3e466bb",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\n@http://127.0.0.1:3000/assets/coach-card.js:31:479"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/7a580d55-3481-4327-ace1-4ab5d3e466bb",
+    "stack": "@web-inspector://bootstrap.js:18:343\nreleaseMedia@http://127.0.0.1:3000/assets/recruiting-builder.js:9:249\ndrawCard@http://127.0.0.1:3000/assets/recruiting-builder.js:46:48\n@http://127.0.0.1:3000/assets/recruiting-builder.js:50:71",
+    "players": [
+      {
+        "src": "blob:http://127.0.0.1:3000/d2376d57-7a23-4c82-abce-be188d039f05",
+        "ready": 3,
+        "connected": true
+      }
+    ]
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/95de4be5-2c24-461a-a159-d5496196ddff",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "revoke",
+    "url": "blob:http://127.0.0.1:3000/95de4be5-2c24-461a-a159-d5496196ddff",
+    "stack": "@web-inspector://bootstrap.js:18:343\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:51:48\nrenderWorkspace@http://127.0.0.1:3000/assets/app.js:201:16\n@http://127.0.0.1:3000/assets/recruiting-builder.js:35:481",
+    "players": []
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/c0069f75-c844-457c-a2fb-a0fa077ebe28",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  },
+  {
+    "action": "create",
+    "url": "blob:http://127.0.0.1:3000/aa0be819-c0c7-440b-9737-0b47d0c892d7",
+    "type": "video/mp4",
+    "stack": "@web-inspector://bootstrap.js:18:221\nenhanceProfile@http://127.0.0.1:3000/assets/profile-qa.js:56:1563"
+  }
+]

@@ -1,0 +1,35 @@
+test_qualification_01_end_to_end_with_schools_and_selected_video (__main__.Qualification.test_qualification_01_end_to_end_with_schools_and_selected_video) ... ERROR
+test_qualification_02_approval_and_revocation_survive_navigation_and_reload (__main__.Qualification.test_qualification_02_approval_and_revocation_survive_navigation_and_reload) ... ok
+test_qualification_03_pillar_labels_fit_their_active_touch_targets (__main__.Qualification.test_qualification_03_pillar_labels_fit_their_active_touch_targets) ... ok
+
+======================================================================
+ERROR: test_qualification_01_end_to_end_with_schools_and_selected_video (__main__.Qualification.test_qualification_01_end_to_end_with_schools_and_selected_video)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-qualification.py", line 16, in test_qualification_01_end_to_end_with_schools_and_selected_video
+    p.get_by_role('button',name='Add Recurring Practice',exact=True).click();p.locator('#plan-title').fill('QA private practice');p.locator('#plan-start').fill('2026-11-16');p.locator('#plan-until').fill('2026-11-30');p.locator('[name=plan-days][value="1"]').check();p.locator('[name=plan-days][value="3"]').check();p.locator('#plan-time').fill('17:00');p.locator('#plan-end-time').fill('18:00');p.locator('#plan-note').fill('Fictional training field');p.get_by_role('button',name='Add to schedule',exact=True).click();p.wait_for_selector('#schedule-list article');self.assertEqual(p.locator('#schedule-list article').count(),5);p.get_by_role('button',name='Add Game/Meet/Tournament',exact=True).click();p.locator('#plan-title').fill('QA selected game');p.locator('#plan-start').fill('2026-11-20');p.locator('#plan-time').fill('19:00');p.locator('#plan-note').fill('Fictional competition field');self.assertFalse(p.locator('#plan-end').is_visible());p.get_by_role('button',name='Add to schedule',exact=True).click();p.wait_for_function('()=>JSON.parse(localStorage.getItem("arenaPathway.v2")).profiles[0].plans.length===2');game=self.state()['profiles'][0]['plans'][1]['id'];self.shot('schedule');self.shot('schedule-content','#schedules')
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9033, in wait_for_selector
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py", line 427, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 394, in wait_for_selector
+    await self._channel.send(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("#schedule-list article") to be visible
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 33.863s
+
+FAILED (errors=1)

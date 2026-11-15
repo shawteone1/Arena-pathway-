@@ -1,0 +1,55 @@
+test_resume_01_locked_workflow_permissions_retry_and_reset (__main__.Resumed.test_resume_01_locked_workflow_permissions_retry_and_reset) ... ok
+test_resume_02_swim_sessions_stats_targets_and_family_refs (__main__.Resumed.test_resume_02_swim_sessions_stats_targets_and_family_refs) ... ERROR
+test_resume_03_volleyball_sessions_edit_delete_and_views (__main__.Resumed.test_resume_03_volleyball_sessions_edit_delete_and_views) ... ok
+test_resume_04_tour_without_setup_and_three_athlete_colors (__main__.Resumed.test_resume_04_tour_without_setup_and_three_athlete_colors) ... ok
+test_resume_05_builder_reuses_existing_athlete (__main__.Resumed.test_resume_05_builder_reuses_existing_athlete) ... ok
+test_resume_06_responsive_pages_keep_reviewed_sources (__main__.Resumed.test_resume_06_responsive_pages_keep_reviewed_sources) ... ok
+test_resume_07_recurring_weekdays_location_and_responsive_athlete (__main__.Resumed.test_resume_07_recurring_weekdays_location_and_responsive_athlete) ... ok
+
+======================================================================
+ERROR: test_resume_02_swim_sessions_stats_targets_and_family_refs (__main__.Resumed.test_resume_02_swim_sessions_stats_targets_and_family_refs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-nov13-resume.py", line 20, in test_resume_02_swim_sessions_stats_targets_and_family_refs
+    self.create_meet();self.add_session('Preliminary race');self.add_session('Final race',1);p=self.page;raw=self.state()['profiles'][0];parent=raw['plans'][0];self.assertEqual(len(raw['plans']),1);self.assertEqual(p.locator('#schedule-list article').count(),3);child=parent['id']+'#'+parent['sessions'][0]['id'];self.screenshot('swim-schedule-ipad')
+    ^^^^^^^^^^^^^^^^^^
+  File "/workspace/arena-pathway/scripts/qa-nov13-resume.py", line 10, in create_meet
+    self.basic(sport);self.nav('Schedule');p=self.page;p.get_by_role('button',name='Add Game/Meet/Tournament',exact=True).click();p.locator('#plan-title').fill('Synthetic weekend '+('meet' if sport=='swimming' else 'tournament'));p.locator('#plan-kind').select_option('meet' if sport=='swimming' else 'tournament');p.locator('#plan-start').fill('2026-11-20');p.locator('#plan-multiple-days').check();p.locator('#plan-end').fill('2026-11-21');p.locator('#plan-note').fill('Parent-entered pool' if sport=='swimming' else 'Parent-entered gym');p.get_by_role('button',name='Add to schedule',exact=True).click();p.wait_for_selector('#schedule-list article')
+                                                                                                                                                                                                                                                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17773, in check
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 148, in check
+    return await self._frame.check(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 908, in check
+    await self._channel.send("check", self._timeout, locals_to_params(locals()))
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Locator.check: Clicking the checkbox did not change its state
+Call log:
+  - waiting for locator("#plan-multiple-days")
+    - locator resolved to <input type="checkbox" id="plan-multiple-days"/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is not stable
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+    - navigations have finished
+
+
+----------------------------------------------------------------------
+Ran 7 tests in 43.359s
+
+FAILED (errors=1)

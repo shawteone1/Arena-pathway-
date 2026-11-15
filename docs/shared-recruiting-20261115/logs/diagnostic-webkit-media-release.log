@@ -1,0 +1,32 @@
+test_shared_01_lacrosse_reference_and_same_complete_engine_in_all_four_sports (__main__.SharedRecruiting.test_shared_01_lacrosse_reference_and_same_complete_engine_in_all_four_sports) ... FAIL
+test_shared_02_external_profile_revision_invalidates_local_approval (__main__.SharedRecruiting.test_shared_02_external_profile_revision_invalidates_local_approval) ... ok
+test_shared_03_public_school_research_stays_sport_scoped_without_profile (__main__.SharedRecruiting.test_shared_03_public_school_research_stays_sport_scoped_without_profile) ... ok
+test_shared_04_legacy_photo_and_visibility_fallback_preserve_saved_data (__main__.SharedRecruiting.test_shared_04_legacy_photo_and_visibility_fallback_preserve_saved_data) ... ok
+
+======================================================================
+FAIL: test_shared_01_lacrosse_reference_and_same_complete_engine_in_all_four_sports (__main__.SharedRecruiting.test_shared_01_lacrosse_reference_and_same_complete_engine_in_all_four_sports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-consolidated.py", line 17, in tearDown
+    self.assertEqual(self.errors,[]);self.assertEqual(self.writes,[]);self.context.close()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: ['ttp://127.0.0.1:3000/55dad5b0-e19c-45cd-[317 chars]ks.'] != []
+
+First list contains 4 additional elements.
+First extra element 0:
+'ttp://127.0.0.1:3000/55dad5b0-e19c-45cd-b287-5d7b62148d0b due to access control checks.'
+
++ []
+- ['ttp://127.0.0.1:3000/55dad5b0-e19c-45cd-b287-5d7b62148d0b due to access '
+-  'control checks.',
+-  'ttp://127.0.0.1:3000/cf997b4e-b641-4ba2-be66-74c33881453e due to access '
+-  'control checks.',
+-  'ttp://127.0.0.1:3000/cb26456b-de02-4524-9541-bf3ea8222ba5 due to access '
+-  'control checks.',
+-  'ttp://127.0.0.1:3000/25fda0bc-1852-4603-a894-feaad86e4879 due to access '
+-  'control checks.']
+
+----------------------------------------------------------------------
+Ran 4 tests in 57.235s
+
+FAILED (failures=1)

@@ -1,0 +1,65 @@
+{
+  "repository": "shawteone1/Soccer-Center",
+  "commit": "11de067414e63c5d3e3e221dfc14cc026dfbd8d0",
+  "latestImportedCommitChecked": "2026-11-15",
+  "files": [
+    {
+      "path": "src/components/portal/CoachProfileCard.tsx",
+      "sha": "0e9d5c71874514bb7e5148d1e22dba50074f1216",
+      "localBlobMatches": true
+    },
+    {
+      "path": "src/components/portal/CoachProfilePreview.tsx",
+      "sha": "b338601eb082d0bbc3b7810a3c9d67d3af4b883b",
+      "localBlobMatches": true
+    },
+    {
+      "path": "src/components/portal/CoachShareTab.tsx",
+      "sha": "6246cd2df3e666ec69aa4f44add54afef1868b81",
+      "localBlobMatches": true
+    },
+    {
+      "path": "src/components/portal/ParentRecruitingHub.tsx",
+      "sha": "6030540fab50aaebe48c6603c35332462d5011f7",
+      "localBlobMatches": true
+    },
+    {
+      "path": "src/components/portal/ProfileBuilder.tsx",
+      "sha": "c2c820adf86856e753284f3e6c9c7870a6db25fc",
+      "localBlobMatches": true
+    },
+    {
+      "path": "src/components/portal/RecruitingData.tsx",
+      "sha": "9a66b1d056885f80a59281bbda1c80f4e6bb2d5c",
+      "localBlobMatches": true
+    },
+    {
+      "path": "src/components/portal/RecruitingTab.tsx",
+      "sha": "9ea46f1f02d8d52e4fb9f9098179239f5280bb47",
+      "localBlobMatches": true
+    },
+    {
+      "path": "src/lib/portal/coach-sharing.ts",
+      "sha": "b62d423d6a2dd278bc2624f4ca63abeda745de9e",
+      "localBlobMatches": true
+    },
+    {
+      "path": "src/server/api/parent/recruiting/_recruiting-data.ts",
+      "sha": "674ff5988976b5a37393f2acf89608c160031256",
+      "localBlobMatches": true
+    },
+    {
+      "path": "src/server/lib/coach-profile-fields.ts",
+      "sha": "52da1bc150f42bcda999d4425700ac7561c07765",
+      "localBlobMatches": true
+    },
+    {
+      "path": "src/server/lib/coach-projection.ts",
+      "sha": "33312177308ad0f0f2d3eee93758740f7673b30c",
+      "localBlobMatches": true
+    }
+  ],
+  "renderedEvidence": "sc/sc-current-reference.json",
+  "protectedPortal": "Authentication redirect; source-level comparison only",
+  "modificationsToSoccerCenter": false
+}

@@ -1,0 +1,44 @@
+test_recovery_01_fresh_and_repeat_asset_delivery_and_four_pillars (__main__.Recovery.test_recovery_01_fresh_and_repeat_asset_delivery_and_four_pillars) ... ok
+test_recovery_02_stylesheet_failure_recovery_preserves_records (__main__.Recovery.test_recovery_02_stylesheet_failure_recovery_preserves_records) ... ok
+test_recovery_03_intentional_guided_onboarding_all_sports_without_recruiting (__main__.Recovery.test_recovery_03_intentional_guided_onboarding_all_sports_without_recruiting) ... ok
+test_recovery_04_recurring_and_one_time_competition_stats_and_family_link (__main__.Recovery.test_recovery_04_recurring_and_one_time_competition_stats_and_family_link) ... ok
+test_recovery_05_nested_races_matches_keep_independent_competition_records (__main__.Recovery.test_recovery_05_nested_races_matches_keep_independent_competition_records) ... ERROR
+test_recovery_06_three_stage_recruiting_explicit_selection_card_approval_revocation (__main__.Recovery.test_recovery_06_three_stage_recruiting_explicit_selection_card_approval_revocation) ... ok
+test_recovery_07_feed_is_single_snapshot_renderer_with_sport_controls (__main__.Recovery.test_recovery_07_feed_is_single_snapshot_renderer_with_sport_controls) ... ok
+test_recovery_08_parent_tactical_navigation_siem_and_locked_independence (__main__.Recovery.test_recovery_08_parent_tactical_navigation_siem_and_locked_independence) ... ok
+test_recovery_09_failed_module_has_safe_reload_recovery (__main__.Recovery.test_recovery_09_failed_module_has_safe_reload_recovery) ... ok
+test_recovery_10_failed_photography_has_asset_retry_without_data_loss (__main__.Recovery.test_recovery_10_failed_photography_has_asset_retry_without_data_loss) ... ok
+
+======================================================================
+ERROR: test_recovery_05_nested_races_matches_keep_independent_competition_records (__main__.Recovery.test_recovery_05_nested_races_matches_keep_independent_competition_records)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-recovery.py", line 30, in test_recovery_05_nested_races_matches_keep_independent_competition_records
+    self.basic(sport);p=self.page;event=self.add_event('Recovery '+kind,kind);p.evaluate('''({event})=>{const s=JSON.parse(localStorage.getItem('arenaPathway.v2')),a=s.profiles.find(p=>p.id===s.active);a.plans.find(p=>p.id===event).sessions=[{id:'one',name:'First competition',dayOffset:0},{id:'two',name:'Second competition',dayOffset:0}];localStorage.setItem('arenaPathway.v2',JSON.stringify(s));}''',{'event':event});p.reload();p.wait_for_selector('#show-tryouts',state='attached');self.nav('Stats');options=p.locator('#record-event option').all_text_contents();self.assertEqual(len(options),3);self.assertIn('First competition',' '.join(options));self.assertIn('Second competition',' '.join(options));p.get_by_role('button',name='Log Stats',exact=True).click();p.locator('#record-event').select_option(event+'#one');p.locator('#stats input[type=number]').first.fill('40' if sport=='swimming' else '3');p.get_by_role('button',name='Save game / meet record',exact=True).click();p.wait_for_selector('#stats .record');self.assertEqual(self.state()['profiles'][-1]['records'][0]['eventRef'],event+'#one')
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/arena-pathway/scripts/qa-recovery.py", line 25, in add_event
+    self.assertFalse(p.locator('#plan-end').is_visible());self.assertFalse(p.locator('#plan-until').is_visible());self.assertEqual(p.locator('#plan-repeat').input_value(),'none');p.get_by_role('button',name='Add to schedule',exact=True).click();p.locator('#schedule-list h3').filter(has_text=title).first.wait_for();return self.state()['profiles'][-1]['plans'][-1]['id']
+                                                                                                                                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 20539, in wait_for
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 748, in wait_for
+    await self._frame.wait_for_selector(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 394, in wait_for_selector
+    await self._channel.send(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#schedule-list h3").filter(has_text="Recovery meet").first to be visible
+
+
+----------------------------------------------------------------------
+Ran 10 tests in 62.449s
+
+FAILED (errors=1)

@@ -1,0 +1,129 @@
+[
+  {
+    "suite": "dgc",
+    "script": "qa-dgc.py",
+    "exitCode": 0,
+    "tests": 6,
+    "seconds": 12.92
+  },
+  {
+    "suite": "polish",
+    "script": "qa-ux-polish.py",
+    "exitCode": 0,
+    "tests": 6,
+    "seconds": 17.44
+  },
+  {
+    "suite": "rc",
+    "script": "qa-release-candidate.py",
+    "exitCode": 0,
+    "tests": 2,
+    "seconds": 20.72
+  },
+  {
+    "suite": "profile",
+    "script": "qa-profile-visual.py",
+    "exitCode": 0,
+    "tests": 8,
+    "seconds": 14.05
+  },
+  {
+    "suite": "conformance",
+    "script": "qa-conformance.py",
+    "exitCode": 0,
+    "tests": 12,
+    "seconds": 28.46
+  },
+  {
+    "suite": "siem-family",
+    "script": "qa-siem-family.py",
+    "exitCode": 0,
+    "tests": 18,
+    "seconds": 31.02
+  },
+  {
+    "suite": "release",
+    "script": "qa-release.py",
+    "exitCode": 0,
+    "tests": 20,
+    "seconds": 51.68
+  },
+  {
+    "suite": "siem-platform",
+    "script": "qa-siem-platform.py",
+    "exitCode": 0,
+    "tests": 7,
+    "seconds": 11.31
+  },
+  {
+    "suite": "siem-refinement",
+    "script": "qa-siem-refinement.py",
+    "exitCode": 0,
+    "tests": 12,
+    "seconds": 22.26
+  },
+  {
+    "suite": "acquisition",
+    "script": "qa-acquisition.py",
+    "exitCode": 0,
+    "tests": 23,
+    "seconds": 58.18
+  },
+  {
+    "suite": "nov15",
+    "script": "qa-nov15.py",
+    "exitCode": 0,
+    "tests": 5,
+    "seconds": 20.29,
+    "finalCandidateRerun": true
+  },
+  {
+    "suite": "recovery",
+    "script": "qa-recovery.py",
+    "exitCode": 0,
+    "tests": 10,
+    "seconds": 52.42,
+    "finalCandidateRerun": true
+  },
+  {
+    "suite": "resume",
+    "script": "qa-nov13-resume.py",
+    "exitCode": 0,
+    "tests": 7,
+    "seconds": 43.33,
+    "finalCandidateRerun": true
+  },
+  {
+    "suite": "consolidated",
+    "script": "qa-consolidated.py",
+    "exitCode": 0,
+    "tests": 8,
+    "seconds": 29.71,
+    "finalCandidateRerun": true
+  },
+  {
+    "suite": "acceptance",
+    "script": "qa-acceptance-refinement.py",
+    "exitCode": 0,
+    "tests": 12,
+    "seconds": 47.54,
+    "finalCandidateRerun": true
+  },
+  {
+    "suite": "shared",
+    "script": "qa-shared-recruiting.py",
+    "exitCode": 0,
+    "tests": 7,
+    "seconds": 77.18,
+    "finalCandidateRerun": true,
+    "finalFixtureCleanupRerun": true
+  },
+  {
+    "suite": "qualification",
+    "script": "qa-qualification.py",
+    "exitCode": 0,
+    "tests": 3,
+    "seconds": 37.35,
+    "finalCandidateRerun": true
+  }
+]

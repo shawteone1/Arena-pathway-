@@ -2,7 +2,7 @@
 import importlib.util,unittest,json,os
 from pathlib import Path
 s=importlib.util.spec_from_file_location('existing',Path(__file__).with_name('qa-consolidated.py'));base=importlib.util.module_from_spec(s);s.loader.exec_module(base)
-OUT=Path('docs/qa-20261115/after');OUT.mkdir(parents=True,exist_ok=True)
+OUT=Path(os.environ.get('ARENA_NOV15_OUT','docs/qa-20261115/after'));OUT.mkdir(parents=True,exist_ok=True)
 class Nov15(base.Consolidated):
  def shot(self,name):
   self.page.wait_for_function('()=>!document.querySelector("#toast")?.textContent');self.page.evaluate('scrollTo(0,0)');self.page.screenshot(path=str(OUT/(base.base.ENGINE+'-'+name+'.png')),full_page=True)

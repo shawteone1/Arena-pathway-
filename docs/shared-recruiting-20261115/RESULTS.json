@@ -1,0 +1,357 @@
+{
+  "baseline": "1ea380462c1811a9ba3b2bbc7a6a5e1729b8bab8",
+  "branch": "codex/shared-recruiting-20261115",
+  "referenceCommit": "11de067414e63c5d3e3e221dfc14cc026dfbd8d0",
+  "node": "v24.22.1",
+  "chromiumVersion": "Chromium 156.0.8078.79 built on Debian GNU/Linux 13 (trixie)",
+  "webkit": "WPE WebKit26.5 via /workspace/scratch/webkit-local.sh; not physical Safari certification",
+  "automated": {
+    "check": {
+      "command": "npm run check",
+      "tests": 263,
+      "pass": 263,
+      "fail": 0,
+      "skipped": 0
+    },
+    "unit": {
+      "command": "npm test",
+      "tests": 263,
+      "pass": 263,
+      "fail": 0,
+      "skipped": 0
+    }
+  },
+  "browsers": {
+    "chromium": {
+      "passed": 166,
+      "failed": 0,
+      "suites": [
+        {
+          "suite": "dgc",
+          "script": "qa-dgc.py",
+          "exitCode": 0,
+          "tests": 6,
+          "seconds": 12.92
+        },
+        {
+          "suite": "polish",
+          "script": "qa-ux-polish.py",
+          "exitCode": 0,
+          "tests": 6,
+          "seconds": 17.44
+        },
+        {
+          "suite": "rc",
+          "script": "qa-release-candidate.py",
+          "exitCode": 0,
+          "tests": 2,
+          "seconds": 20.72
+        },
+        {
+          "suite": "profile",
+          "script": "qa-profile-visual.py",
+          "exitCode": 0,
+          "tests": 8,
+          "seconds": 14.05
+        },
+        {
+          "suite": "conformance",
+          "script": "qa-conformance.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 28.46
+        },
+        {
+          "suite": "siem-family",
+          "script": "qa-siem-family.py",
+          "exitCode": 0,
+          "tests": 18,
+          "seconds": 31.02
+        },
+        {
+          "suite": "release",
+          "script": "qa-release.py",
+          "exitCode": 0,
+          "tests": 20,
+          "seconds": 51.68
+        },
+        {
+          "suite": "siem-platform",
+          "script": "qa-siem-platform.py",
+          "exitCode": 0,
+          "tests": 7,
+          "seconds": 11.31
+        },
+        {
+          "suite": "siem-refinement",
+          "script": "qa-siem-refinement.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 22.26
+        },
+        {
+          "suite": "acquisition",
+          "script": "qa-acquisition.py",
+          "exitCode": 0,
+          "tests": 23,
+          "seconds": 58.18
+        },
+        {
+          "suite": "nov15",
+          "script": "qa-nov15.py",
+          "exitCode": 0,
+          "tests": 5,
+          "seconds": 20.29,
+          "finalCandidateRerun": true
+        },
+        {
+          "suite": "recovery",
+          "script": "qa-recovery.py",
+          "exitCode": 0,
+          "tests": 10,
+          "seconds": 52.42,
+          "finalCandidateRerun": true
+        },
+        {
+          "suite": "resume",
+          "script": "qa-nov13-resume.py",
+          "exitCode": 0,
+          "tests": 7,
+          "seconds": 43.33,
+          "finalCandidateRerun": true
+        },
+        {
+          "suite": "consolidated",
+          "script": "qa-consolidated.py",
+          "exitCode": 0,
+          "tests": 8,
+          "seconds": 29.71,
+          "finalCandidateRerun": true
+        },
+        {
+          "suite": "acceptance",
+          "script": "qa-acceptance-refinement.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 47.54,
+          "finalCandidateRerun": true
+        },
+        {
+          "suite": "shared",
+          "script": "qa-shared-recruiting.py",
+          "exitCode": 0,
+          "tests": 7,
+          "seconds": 77.18,
+          "finalCandidateRerun": true,
+          "finalFixtureCleanupRerun": true
+        },
+        {
+          "suite": "qualification",
+          "script": "qa-qualification.py",
+          "exitCode": 0,
+          "tests": 3,
+          "seconds": 37.35,
+          "finalCandidateRerun": true
+        }
+      ],
+      "suiteCount": 17,
+      "environment": {
+        "ARENA_QA_BASE": "http://127.0.0.1:3000",
+        "PROFILE_BROWSER": "chromium",
+        "MY_AP_BROWSER": "chromium"
+      },
+      "viewports": [
+        "1440x900 desktop",
+        "810x1080 iPad",
+        "390x844 iPhone"
+      ],
+      "fullSportSubJourneys": 4
+    },
+    "webkit": {
+      "passed": 91,
+      "failed": 0,
+      "suites": [
+        {
+          "suite": "dgc",
+          "script": "qa-dgc.py",
+          "exitCode": 0,
+          "tests": 6,
+          "seconds": 11.94
+        },
+        {
+          "suite": "polish",
+          "script": "qa-ux-polish.py",
+          "exitCode": 0,
+          "tests": 6,
+          "seconds": 16.43
+        },
+        {
+          "suite": "rc",
+          "script": "qa-release-candidate.py",
+          "exitCode": 0,
+          "tests": 2,
+          "seconds": 21.92
+        },
+        {
+          "suite": "profile",
+          "script": "qa-profile-visual.py",
+          "exitCode": 0,
+          "tests": 8,
+          "seconds": 15.18
+        },
+        {
+          "suite": "conformance",
+          "script": "qa-conformance.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 36.2
+        },
+        {
+          "suite": "siem",
+          "script": "qa-siem-webkit.py",
+          "exitCode": 0,
+          "tests": 5,
+          "seconds": 16.27
+        },
+        {
+          "suite": "nov15",
+          "script": "qa-nov15.py",
+          "exitCode": 0,
+          "tests": 5,
+          "seconds": 16.22,
+          "finalCandidateRerun": true
+        },
+        {
+          "suite": "recovery",
+          "script": "qa-recovery.py",
+          "exitCode": 0,
+          "tests": 10,
+          "seconds": 48.58,
+          "finalCandidateRerun": true
+        },
+        {
+          "suite": "resume",
+          "script": "qa-nov13-resume.py",
+          "exitCode": 0,
+          "tests": 7,
+          "seconds": 29.5,
+          "finalCandidateRerun": true
+        },
+        {
+          "suite": "consolidated",
+          "script": "qa-consolidated.py",
+          "exitCode": 0,
+          "tests": 8,
+          "seconds": 24.47,
+          "finalCandidateRerun": true
+        },
+        {
+          "suite": "acceptance",
+          "script": "qa-acceptance-refinement.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 33.05,
+          "finalCandidateRerun": true
+        },
+        {
+          "suite": "shared",
+          "script": "qa-shared-recruiting.py",
+          "exitCode": 0,
+          "tests": 7,
+          "seconds": 81.91,
+          "finalCandidateRerun": true,
+          "finalFixtureCleanupRerun": true
+        },
+        {
+          "suite": "qualification",
+          "script": "qa-qualification.py",
+          "exitCode": 0,
+          "tests": 3,
+          "seconds": 33.78,
+          "finalCandidateRerun": true
+        }
+      ],
+      "suiteCount": 13,
+      "environment": {
+        "ARENA_QA_BASE": "http://127.0.0.1:3000",
+        "PROFILE_BROWSER": "webkit",
+        "MY_AP_BROWSER": "webkit",
+        "WEBKIT_PATH": "/workspace/scratch/webkit-local.sh"
+      },
+      "viewports": [
+        "1440x900 desktop",
+        "810x1080 iPad",
+        "390x844 iPhone"
+      ],
+      "fullSportSubJourneys": 4
+    }
+  },
+  "dataStatus": {
+    "programRows": {
+      "lacrosse": 10,
+      "basketball": 16,
+      "volleyball": 8,
+      "swimming": 9
+    },
+    "verifiedCoachingContacts": 0,
+    "realContactsAcceptance": "NOT MET / explicit data gap; no speculative records",
+    "contentSourceApprovalsUnchanged": {
+      "approved": 19,
+      "inactive": 21
+    }
+  },
+  "earlierFindings": [
+    {
+      "finding": "GPA select / field descriptions changed accessible labels",
+      "disposition": "Explicit accessible labels added; regression passes",
+      "evidence": "logs/diagnostic-gpa-label.log"
+    },
+    {
+      "finding": "Portrait src blocked by existing policy",
+      "disposition": "Reuse AP Blob/ImageBitmap/canvas path; actual decoded portraits checked; policy unchanged"
+    },
+    {
+      "finding": "UTC midnight mismatch in new upcoming selection",
+      "disposition": "Use shared Denver calendar day / timed end; new regression passes",
+      "evidence": "logs/diagnostic-calendar-boundary.log"
+    },
+    {
+      "finding": "Retired inline builder expected by old acceptance test",
+      "disposition": "Follow canonical Recruiting route; retain underage and content-isolation assertions",
+      "evidence": "logs/diagnostic-initial-acceptance-chromium.log"
+    },
+    {
+      "finding": "Rapid WebKit image/navigation resource cancellation",
+      "disposition": "Media lifecycle tightened; final tests wait for actual decoded portraits before navigation; no exceptions ignored",
+      "evidence": "logs/media-url-trace.json"
+    },
+    {
+      "finding": "Intermittent native schedule save/click failures under parallel WebKit run",
+      "disposition": "Scheduling engine/entry preserved; isolated probe and complete final suites pass. Physical iPad acceptance remains open.",
+      "evidence": [
+        "logs/diagnostic-initial-qualification-webkit.log",
+        "logs/diagnostic-initial-recovery-webkit.log",
+        "logs/diagnostic-initial-resume-webkit.log",
+        "logs/diagnostic-initial-acceptance-webkit.log",
+        "logs/native-form-probe.log"
+      ]
+    },
+    {
+      "finding": "Publisher availability coupled to Recruiting",
+      "disposition": "Builder initializes before publisher fetch. Dedicated held-request/503 acceptance passes."
+    },
+    {
+      "finding": "New editor could rewrite unedited legacy fields / assume GPA scale",
+      "disposition": "Only edited fields written, no invented scale. Browser and unit regression pass."
+    },
+    {
+      "finding": "Shared field selection lost keyboard focus during rerender",
+      "disposition": "Preserve the selected control focus; Tab proceeds to the next field. Dedicated Chromium/WebKit acceptance passes.",
+      "evidence": [
+        "logs/focus-before.json",
+        "logs/shared-chromium.log",
+        "logs/shared-webkit.log"
+      ]
+    }
+  ]
+}
