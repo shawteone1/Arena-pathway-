@@ -2,7 +2,7 @@
 import importlib.util,unittest,json,os,base64
 from pathlib import Path
 spec=importlib.util.spec_from_file_location('prior',Path(__file__).with_name('qa-consolidated.py'));base=importlib.util.module_from_spec(spec);spec.loader.exec_module(base)
-OUT=Path('docs/qualification-20261114/screenshots');OUT.mkdir(parents=True,exist_ok=True)
+OUT=Path(os.environ.get('ARENA_QUALIFICATION_OUT','docs/qualification-20261114/screenshots'));OUT.mkdir(parents=True,exist_ok=True)
 class Qualification(base.Consolidated):
  def setUp(self):super().setUp();self.page.set_default_timeout(15000)
  def shot(self,name,selector=None):

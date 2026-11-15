@@ -1,0 +1,9 @@
+test_nov15_family_setup_and_four_pillars_responsive (__main__.Nov15.test_nov15_family_setup_and_four_pillars_responsive) ... ok
+test_nov15_historical_span_is_only_corrected_after_explicit_edit (__main__.Nov15.test_nov15_historical_span_is_only_corrected_after_explicit_edit) ... ok
+test_nov15_single_location_and_honest_unavailable_distance (__main__.Nov15.test_nov15_single_location_and_honest_unavailable_distance) ... ok
+test_nov15_weekdays_edit_reload_and_family_projection (__main__.Nov15.test_nov15_weekdays_edit_reload_and_family_projection) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 16.092s
+
+OK

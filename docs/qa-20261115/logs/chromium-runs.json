@@ -1,0 +1,116 @@
+[
+  {
+    "suite": "qualification",
+    "script": "qa-qualification.py",
+    "exitCode": 0,
+    "tests": 3,
+    "seconds": 43.43
+  },
+  {
+    "suite": "recovery",
+    "script": "qa-recovery.py",
+    "exitCode": 0,
+    "tests": 10,
+    "seconds": 59.84
+  },
+  {
+    "suite": "dgc",
+    "script": "qa-dgc.py",
+    "exitCode": 0,
+    "tests": 6,
+    "seconds": 11.25
+  },
+  {
+    "suite": "polish",
+    "script": "qa-ux-polish.py",
+    "exitCode": 0,
+    "tests": 6,
+    "seconds": 12.02
+  },
+  {
+    "suite": "resume",
+    "script": "qa-nov13-resume.py",
+    "exitCode": 0,
+    "tests": 7,
+    "seconds": 45.42
+  },
+  {
+    "suite": "consolidated",
+    "script": "qa-consolidated.py",
+    "exitCode": 0,
+    "tests": 8,
+    "seconds": 35.14
+  },
+  {
+    "suite": "acceptance",
+    "script": "qa-acceptance-refinement.py",
+    "exitCode": 0,
+    "tests": 12,
+    "seconds": 55.06
+  },
+  {
+    "suite": "rc",
+    "script": "qa-release-candidate.py",
+    "exitCode": 0,
+    "tests": 2,
+    "seconds": 21.79
+  },
+  {
+    "suite": "profile",
+    "script": "qa-profile-visual.py",
+    "exitCode": 0,
+    "tests": 8,
+    "seconds": 8.24
+  },
+  {
+    "suite": "siem-family",
+    "script": "qa-siem-family.py",
+    "exitCode": 0,
+    "tests": 18,
+    "seconds": 30.86
+  },
+  {
+    "suite": "release",
+    "script": "qa-release.py",
+    "exitCode": 0,
+    "tests": 20,
+    "seconds": 51.93
+  },
+  {
+    "suite": "siem-platform",
+    "script": "qa-siem-platform.py",
+    "exitCode": 0,
+    "tests": 7,
+    "seconds": 11.36
+  },
+  {
+    "suite": "siem-refinement",
+    "script": "qa-siem-refinement.py",
+    "exitCode": 0,
+    "tests": 12,
+    "seconds": 22.19
+  },
+  {
+    "suite": "acquisition",
+    "script": "qa-acquisition.py",
+    "exitCode": 0,
+    "tests": 23,
+    "seconds": 54.24
+  },
+  {
+    "suite": "nov15",
+    "script": "qa-nov15.py",
+    "exitCode": 0,
+    "tests": 5,
+    "seconds": 23.44,
+    "finalRerun": true
+  },
+  {
+    "suite": "conformance",
+    "script": "qa-conformance.py",
+    "exitCode": 0,
+    "tests": 12,
+    "seconds": 31.33,
+    "finalRerun": true
+  }
+]

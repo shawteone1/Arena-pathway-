@@ -1,3 +1,4 @@
+import {locationMatches,classificationMatches} from '../public/discovery-filters.js';
 import {inSearchRegion} from '../public/regions.js';
 import {progressive,progressiveEvidence,progressiveOrganizations,progressivePrograms,supplementRows} from './progressive-directory.mjs';
 import {readFileSync} from 'node:fs';
@@ -24,8 +25,7 @@ function matches(p,params){
  const term=normalizedText(params.get('q')),org=organizationFor(p.organizationId),children=teamsFor(p.organizationId,p.sport).filter(t=>t.programId===p.id);
  const searchable=[p.name,org?.name,...(org?.aliases||[]),p.serviceArea,p.city,...children.map(t=>t.name)].join(' ').toLowerCase();
  if(term&&!searchable.includes(term))return false;
- if(params.get('city')&&(params.get('city')==='unknown'?!!p.city:p.city!==params.get('city')))return false;
- if(!inSearchRegion({...org,...p},params.get('region')))return false;
+ if(!locationMatches({...org,...p},params)||!classificationMatches(p,params.get('classification')))return false;
  if(params.get('gender')&&(params.get('gender')==='unknown'?p.genders.length:p.genders.indexOf(params.get('gender'))<0))return false;
  if(params.get('level')&&(params.get('level')==='unknown'?p.levels.length:!p.levels.includes(params.get('level'))))return false;
  const format=params.get('format')||({ 'year-round':'year-round-competitive','summer-league':'summer-recreational','high-school':'high-school',collegiate:'collegiate',seasonal:'seasonal-competitive',masters:'masters',unclassified:'unknown'})[params.get('program')];
@@ -43,7 +43,7 @@ export function directory(sport,designation='youth',params=new URLSearchParams()
  let selected=programs.filter(p=>p.sport===sport&&context(p)&&matches(p,params));
  const kind=params.get('kind')||'club';
  if(kind==='league')selected=selected.filter(p=>p.programKind==='league');else if(!['team','division','location'].includes(kind))selected=selected.filter(p=>p.programKind!=='league'||designation==='adult');
- if(kind==='location')return (catalog.locations||[]).filter(l=>l.sport===sport&&designation==='community'&&(!params.get('region')||l.region===params.get('region'))&&(!params.get('q')||normalizedText(l.name).includes(normalizedText(params.get('q'))))).map(l=>({...l,kind:'location',facilityOnly:true,programs:[]}));
+ if(kind==='location')return (catalog.locations||[]).filter(l=>l.sport===sport&&designation==='community'&&locationMatches(l,params)&&classificationMatches(l,params.get('classification'))&&(!params.get('q')||normalizedText(l.name).includes(normalizedText(params.get('q'))))).map(l=>({...l,kind:'location',facilityOnly:true,programs:[]}));
  const grouped=new Map();for(const p of selected){if(!grouped.has(p.organizationId))grouped.set(p.organizationId,[]);grouped.get(p.organizationId).push(p);}
  const results=[...grouped].map(([id,ps])=>{const organization=organizationFor(id),allTeams=teamsFor(id,sport).filter(t=>ps.some(p=>p.id===t.programId)),q=normalizedText(params.get('q'));return {...organization,id,sport,kind:kind==='league'?'league':organization.displayKind||organization.kind||'club',organization,programs:ps,teams:allTeams,matchedTeams:q?allTeams.filter(t=>normalizedText(t.name).includes(q)):[],designation,sourceIds:organization.sourceIds||ps.flatMap(p=>p.sourceIds),profileURL:'/organizations/'+encodeURIComponent(id)+'?sport='+sport};});
  if(kind==='team')return supplementRows(results.flatMap(r=>r.teams.filter(t=>!params.get('q')||normalizedText(t.name).includes(normalizedText(params.get('q')))).map(t=>({...t,organization:r.organization,profileURL:r.profileURL+'#teams',programs:r.programs.filter(p=>p.id===t.programId)}))),sport,designation,params,ev);

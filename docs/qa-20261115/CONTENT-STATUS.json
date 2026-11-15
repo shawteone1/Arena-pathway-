@@ -1,0 +1,38 @@
+{
+  "mode": "reviewed snapshots; no live RSS ingestion or new source activation",
+  "sports": [
+    {
+      "sport": "basketball",
+      "approved": 4,
+      "inactive": 6,
+      "reviewedItems": 4,
+      "permittedImages": 0
+    },
+    {
+      "sport": "volleyball",
+      "approved": 5,
+      "inactive": 5,
+      "reviewedItems": 6,
+      "permittedImages": 0
+    },
+    {
+      "sport": "lacrosse",
+      "approved": 4,
+      "inactive": 6,
+      "reviewedItems": 5,
+      "permittedImages": 0
+    },
+    {
+      "sport": "swimming",
+      "approved": 6,
+      "inactive": 4,
+      "reviewedItems": 6,
+      "permittedImages": 0
+    }
+  ],
+  "approvedSources": 19,
+  "inactiveSources": 21,
+  "approvedArticleImages": 0,
+  "approvedInstructionalVideos": 0,
+  "coordinateData": "No approved ZIP centroids or verified program coordinates in current publication"
+}

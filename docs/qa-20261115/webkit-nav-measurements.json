@@ -1,0 +1,386 @@
+[
+  {
+    "path": "/my-pathway?view=family",
+    "width": 1440,
+    "label": "Profile",
+    "targetWidth": 72.15625,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/my-pathway?view=family",
+    "width": 1440,
+    "label": "SIEM",
+    "targetWidth": 64,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/my-pathway?view=family",
+    "width": 1440,
+    "label": "Recruiting",
+    "targetWidth": 99.4375,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/my-pathway?view=family",
+    "width": 1440,
+    "label": "LockedIn",
+    "targetWidth": 90.796875,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/my-ap",
+    "width": 1440,
+    "label": "Profile",
+    "targetWidth": 72.15625,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/my-ap",
+    "width": 1440,
+    "label": "SIEM",
+    "targetWidth": 64,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/my-ap",
+    "width": 1440,
+    "label": "Recruiting",
+    "targetWidth": 99.4375,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/my-ap",
+    "width": 1440,
+    "label": "LockedIn",
+    "targetWidth": 90.796875,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/recruiting",
+    "width": 1440,
+    "label": "Profile",
+    "targetWidth": 72.15625,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/recruiting",
+    "width": 1440,
+    "label": "SIEM",
+    "targetWidth": 64,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/recruiting",
+    "width": 1440,
+    "label": "Recruiting",
+    "targetWidth": 99.4375,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/recruiting",
+    "width": 1440,
+    "label": "LockedIn",
+    "targetWidth": 90.796875,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/locked-in-demo",
+    "width": 1440,
+    "label": "Profile",
+    "targetWidth": 72.15625,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/locked-in-demo",
+    "width": 1440,
+    "label": "SIEM",
+    "targetWidth": 64,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/locked-in-demo",
+    "width": 1440,
+    "label": "Recruiting",
+    "targetWidth": 99.4375,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/locked-in-demo",
+    "width": 1440,
+    "label": "LockedIn",
+    "targetWidth": 90.796875,
+    "height": 44.75,
+    "textFits": true
+  },
+  {
+    "path": "/my-pathway?view=family",
+    "width": 810,
+    "label": "Profile",
+    "targetWidth": 61.078125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-pathway?view=family",
+    "width": 810,
+    "label": "SIEM",
+    "targetWidth": 53.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-pathway?view=family",
+    "width": 810,
+    "label": "Recruiting",
+    "targetWidth": 86.53125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-pathway?view=family",
+    "width": 810,
+    "label": "LockedIn",
+    "targetWidth": 78.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-ap",
+    "width": 810,
+    "label": "Profile",
+    "targetWidth": 61.078125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-ap",
+    "width": 810,
+    "label": "SIEM",
+    "targetWidth": 53.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-ap",
+    "width": 810,
+    "label": "Recruiting",
+    "targetWidth": 86.53125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-ap",
+    "width": 810,
+    "label": "LockedIn",
+    "targetWidth": 78.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/recruiting",
+    "width": 810,
+    "label": "Profile",
+    "targetWidth": 61.078125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/recruiting",
+    "width": 810,
+    "label": "SIEM",
+    "targetWidth": 53.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/recruiting",
+    "width": 810,
+    "label": "Recruiting",
+    "targetWidth": 86.53125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/recruiting",
+    "width": 810,
+    "label": "LockedIn",
+    "targetWidth": 78.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/locked-in-demo",
+    "width": 810,
+    "label": "Profile",
+    "targetWidth": 61.078125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/locked-in-demo",
+    "width": 810,
+    "label": "SIEM",
+    "targetWidth": 53.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/locked-in-demo",
+    "width": 810,
+    "label": "Recruiting",
+    "targetWidth": 86.53125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/locked-in-demo",
+    "width": 810,
+    "label": "LockedIn",
+    "targetWidth": 78.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-pathway?view=family",
+    "width": 390,
+    "label": "Profile",
+    "targetWidth": 59.078125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-pathway?view=family",
+    "width": 390,
+    "label": "SIEM",
+    "targetWidth": 51.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-pathway?view=family",
+    "width": 390,
+    "label": "Recruiting",
+    "targetWidth": 84.53125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-pathway?view=family",
+    "width": 390,
+    "label": "LockedIn",
+    "targetWidth": 76.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-ap",
+    "width": 390,
+    "label": "Profile",
+    "targetWidth": 59.078125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-ap",
+    "width": 390,
+    "label": "SIEM",
+    "targetWidth": 51.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-ap",
+    "width": 390,
+    "label": "Recruiting",
+    "targetWidth": 84.53125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/my-ap",
+    "width": 390,
+    "label": "LockedIn",
+    "targetWidth": 76.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/recruiting",
+    "width": 390,
+    "label": "Profile",
+    "targetWidth": 59.078125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/recruiting",
+    "width": 390,
+    "label": "SIEM",
+    "targetWidth": 51.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/recruiting",
+    "width": 390,
+    "label": "Recruiting",
+    "targetWidth": 84.53125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/recruiting",
+    "width": 390,
+    "label": "LockedIn",
+    "targetWidth": 76.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/locked-in-demo",
+    "width": 390,
+    "label": "Profile",
+    "targetWidth": 59.078125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/locked-in-demo",
+    "width": 390,
+    "label": "SIEM",
+    "targetWidth": 51.46875,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/locked-in-demo",
+    "width": 390,
+    "label": "Recruiting",
+    "targetWidth": 84.53125,
+    "height": 44,
+    "textFits": true
+  },
+  {
+    "path": "/locked-in-demo",
+    "width": 390,
+    "label": "LockedIn",
+    "targetWidth": 76.46875,
+    "height": 44,
+    "textFits": true
+  }
+]

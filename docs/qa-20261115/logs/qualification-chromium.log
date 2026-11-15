@@ -1,0 +1,8 @@
+test_qualification_01_end_to_end_with_schools_and_selected_video (__main__.Qualification.test_qualification_01_end_to_end_with_schools_and_selected_video) ... ok
+test_qualification_02_approval_and_revocation_survive_navigation_and_reload (__main__.Qualification.test_qualification_02_approval_and_revocation_survive_navigation_and_reload) ... ok
+test_qualification_03_pillar_labels_fit_their_active_touch_targets (__main__.Qualification.test_qualification_03_pillar_labels_fit_their_active_touch_targets) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 43.273s
+
+OK

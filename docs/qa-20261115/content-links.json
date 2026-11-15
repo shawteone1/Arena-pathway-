@@ -1,0 +1,152 @@
+{
+  "scope": "Reachability only; no new approval, image permission or refresh claim",
+  "items": [
+    {
+      "sport": "basketball",
+      "publisher": "SLAM / WSLAM",
+      "url": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/",
+      "status": 200,
+      "finalURL": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/"
+    },
+    {
+      "sport": "basketball",
+      "publisher": "FIBA",
+      "url": "https://www.fiba.basketball/en/news/suhail-to-light-up-the-court-as-official-mascot-of-the-fiba-basketball-world-cup-2027",
+      "status": 200,
+      "finalURL": "https://www.fiba.basketball/en/news/suhail-to-light-up-the-court-as-official-mascot-of-the-fiba-basketball-world-cup-2027"
+    },
+    {
+      "sport": "basketball",
+      "publisher": "CBS Sports Basketball",
+      "url": "https://www.cbssports.com/nba/news/nba-power-rankings-lakers-luka-doncic-nov-11/",
+      "status": 200,
+      "finalURL": "https://www.cbssports.com/nba/news/nba-power-rankings-lakers-luka-doncic-nov-11/"
+    },
+    {
+      "sport": "basketball",
+      "publisher": "Jr. NBA / WNBA",
+      "url": "https://jr.nba.com/jr-nba-instructional-curriculum/",
+      "status": 200,
+      "finalURL": "https://jr.nba.com/jr-nba-instructional-curriculum/"
+    },
+    {
+      "sport": "volleyball",
+      "publisher": "VolleyballMag",
+      "url": "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/",
+      "status": 200,
+      "finalURL": "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/"
+    },
+    {
+      "sport": "volleyball",
+      "publisher": "Volleyball World",
+      "url": "https://en.volleyballworld.com/news/what-to-watch-on-vbtv-this-week-x9957",
+      "status": 200,
+      "finalURL": "https://en.volleyballworld.com/news/what-to-watch-on-vbtv-this-week-x9957"
+    },
+    {
+      "sport": "volleyball",
+      "publisher": "USA Volleyball",
+      "url": "https://usavolleyball.org/story/usa-volleyball-names-three-time-olympic-medalist-april-ross-first-female-head-coach-of-womens-beach-national-teams/",
+      "status": 200,
+      "finalURL": "https://usavolleyball.org/story/usa-volleyball-names-three-time-olympic-medalist-april-ross-first-female-head-coach-of-womens-beach-national-teams/"
+    },
+    {
+      "sport": "volleyball",
+      "publisher": "Sarah Pavan Volleyball",
+      "url": "https://www.sarahpavan.com/blog/goal-setting",
+      "status": 200,
+      "finalURL": "https://www.sarahpavan.com/blog/goal-setting"
+    },
+    {
+      "sport": "volleyball",
+      "publisher": "Art of Coaching Volleyball",
+      "url": "https://www.theartofcoachingvolleyball.com/wall-passing-setting/",
+      "status": 200,
+      "finalURL": "https://www.theartofcoachingvolleyball.com/wall-passing-setting/"
+    },
+    {
+      "sport": "volleyball",
+      "publisher": "Art of Coaching Volleyball",
+      "url": "https://www.theartofcoachingvolleyball.com/ball-handling-progression/",
+      "status": 200,
+      "finalURL": "https://www.theartofcoachingvolleyball.com/ball-handling-progression/"
+    },
+    {
+      "sport": "swimming",
+      "publisher": "SwimSwam",
+      "url": "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/",
+      "status": 200,
+      "finalURL": "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/"
+    },
+    {
+      "sport": "swimming",
+      "publisher": "Swimming World",
+      "url": "https://www.swimmingworldmagazine.com/news/van-mathias-looking-to-continue-astonishing-run-at-short-course-worlds/",
+      "status": 200,
+      "finalURL": "https://www.swimmingworldmagazine.com/news/van-mathias-looking-to-continue-astonishing-run-at-short-course-worlds/"
+    },
+    {
+      "sport": "swimming",
+      "publisher": "World Aquatics",
+      "url": "https://www.worldaquatics.com/news/4607549/wild-card-athletes-confirmed-ahead-of-world-swimming-championships-in-beijing",
+      "status": 200,
+      "finalURL": "https://www.worldaquatics.com/news/4607549/wild-card-athletes-confirmed-ahead-of-world-swimming-championships-in-beijing"
+    },
+    {
+      "sport": "swimming",
+      "publisher": "USA Swimming",
+      "url": "https://www.usaswimming.org/news/2026/09/15/2028-us-olympic-team-trials-swimming-dates-announced",
+      "status": 200,
+      "finalURL": "https://www.usaswimming.org/news/2026/09/15/2028-us-olympic-team-trials-swimming-dates-announced"
+    },
+    {
+      "sport": "swimming",
+      "publisher": "CSCAA",
+      "url": "https://cscaa.org/nova-southeastern-women-and-tampa-men-lead-october-cscaa-division-ii-top-25-rankings/",
+      "status": 200,
+      "finalURL": "https://cscaa.org/nova-southeastern-women-and-tampa-men-lead-october-cscaa-division-ii-top-25-rankings/"
+    },
+    {
+      "sport": "swimming",
+      "publisher": "Effortless Swimming",
+      "url": "https://effortlessswimming.com/if-you-want-your-swimming-to-click-do-this-3-steps-with-brenton-ford/",
+      "status": 200,
+      "finalURL": "https://effortlessswimming.com/if-you-want-your-swimming-to-click-do-this-3-steps-with-brenton-ford/"
+    },
+    {
+      "sport": "lacrosse",
+      "publisher": "USA Lacrosse Magazine",
+      "url": "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game",
+      "status": 200,
+      "finalURL": "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game"
+    },
+    {
+      "sport": "lacrosse",
+      "publisher": "National Lacrosse League",
+      "url": "https://www.nll.com/news/national-lacrosse-league-announces-2026-27-prime-video-broadcast-schedule-for-u-s-viewers-via-flosports-channel/",
+      "status": 200,
+      "finalURL": "https://www.nll.com/news/national-lacrosse-league-announces-2026-27-prime-video-broadcast-schedule-for-u-s-viewers-via-flosports-channel/"
+    },
+    {
+      "sport": "lacrosse",
+      "publisher": "World Lacrosse",
+      "url": "https://worldlacrosse.sport/eslc26-day-nine/",
+      "status": 200,
+      "finalURL": "https://worldlacrosse.sport/eslc26-day-nine/"
+    },
+    {
+      "sport": "lacrosse",
+      "publisher": "USA Lacrosse",
+      "url": "https://www.usalacrosse.com/athletes/learn-the-basics",
+      "status": 200,
+      "finalURL": "https://www.usalacrosse.com/athletes/learn-the-basics"
+    },
+    {
+      "sport": "lacrosse",
+      "publisher": "USA Lacrosse",
+      "url": "https://www.usalacrosse.com/athletes/athlete-development",
+      "status": 200,
+      "finalURL": "https://www.usalacrosse.com/athletes/athlete-development"
+    }
+  ]
+}

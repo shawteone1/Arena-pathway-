@@ -37,7 +37,7 @@ test('directories separate participation categories, group clubs first and retai
  for(const path of ['youth','high-school','college','adult','community'])assert.ok(html.includes(`/sports/lacrosse/${path}`));
  assert.ok(html.includes('Youth Clubs &amp; Programs'));assert.ok(!html.includes('data-record="du"'));assert.ok(!html.includes('data-record="cll"'));
  const teams=sportPage('lacrosse','teams',new URLSearchParams('kind=team'));assert.ok(teams.includes('group-team'));assert.ok(!teams.includes('id="group-club"'));
- assert.match(html,/role="search"/);assert.match(html,/name="kind"/);assert.match(html,/name="city"/);
+ assert.match(html,/role="search"/);assert.match(html,/name="kind"/);assert.match(html,/name="location"/);assert.ok(!html.includes('<select name="city"'));
 });
 test('swimming classification follows explicit catalog evidence without inventing summer status',()=>{
  assert.deepEqual(catalog.organizations.filter(o=>swimProgram(o)==='year-round').map(o=>o.id).sort(),['dsa','loveland']);

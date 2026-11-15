@@ -1,0 +1,79 @@
+{
+  "plan": {
+    "id": "c295be63-e5a0-407a-a424-03173cca2a50",
+    "name": "Monday Wednesday practice",
+    "start": "2026-11-16",
+    "end": "2026-11-30",
+    "kind": "practice",
+    "repeat": "weekly",
+    "until": "2026-11-30",
+    "interval": 1,
+    "days": [
+      1,
+      3
+    ],
+    "startTime": "",
+    "endTime": "",
+    "note": "",
+    "createdAt": "2026-11-15T20:12:10.314Z",
+    "excludedDates": [],
+    "overrides": {}
+  },
+  "events": [
+    {
+      "id": "c295be63-e5a0-407a-a424-03173cca2a50@2026-11-16",
+      "start": "2026-11-16",
+      "end": "2026-11-30"
+    },
+    {
+      "id": "c295be63-e5a0-407a-a424-03173cca2a50@2026-11-18",
+      "start": "2026-11-18",
+      "end": "2026-12-02"
+    },
+    {
+      "id": "c295be63-e5a0-407a-a424-03173cca2a50@2026-11-23",
+      "start": "2026-11-23",
+      "end": "2026-12-07"
+    },
+    {
+      "id": "c295be63-e5a0-407a-a424-03173cca2a50@2026-11-25",
+      "start": "2026-11-25",
+      "end": "2026-12-09"
+    },
+    {
+      "id": "c295be63-e5a0-407a-a424-03173cca2a50@2026-11-30",
+      "start": "2026-11-30",
+      "end": "2026-12-14"
+    }
+  ],
+  "days": [
+    {
+      "day": "Monday, November 16",
+      "count": 1
+    },
+    {
+      "day": "Tuesday, November 17",
+      "count": 1
+    },
+    {
+      "day": "Wednesday, November 18",
+      "count": 2
+    },
+    {
+      "day": "Thursday, November 19",
+      "count": 2
+    },
+    {
+      "day": "Friday, November 20",
+      "count": 2
+    },
+    {
+      "day": "Saturday, November 21",
+      "count": 2
+    },
+    {
+      "day": "Sunday, November 22",
+      "count": 2
+    }
+  ]
+}

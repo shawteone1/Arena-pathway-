@@ -1,0 +1,281 @@
+{
+  "baseline": "31761f32275c8a2ea03b871f599c5e28f038780c",
+  "branch": "codex/ap-refinement-20261115",
+  "node": "v24.22.1",
+  "chromiumVersion": "Chromium 156.0.8078.79 built on Debian GNU/Linux 13 (trixie)",
+  "webkit": "WPE WebKit 26.5, Playwright executable /workspace/scratch/webkit-local.sh",
+  "automated": {
+    "check": {
+      "command": "npm run check",
+      "tests": 246,
+      "pass": 246,
+      "fail": 0,
+      "skipped": 0
+    },
+    "unit": {
+      "command": "npm test",
+      "tests": 246,
+      "pass": 246,
+      "fail": 0,
+      "skipped": 0
+    }
+  },
+  "browsers": {
+    "chromium": {
+      "passed": 159,
+      "failed": 0,
+      "suiteCount": 16,
+      "suites": [
+        {
+          "suite": "qualification",
+          "script": "qa-qualification.py",
+          "exitCode": 0,
+          "tests": 3,
+          "seconds": 43.43
+        },
+        {
+          "suite": "recovery",
+          "script": "qa-recovery.py",
+          "exitCode": 0,
+          "tests": 10,
+          "seconds": 59.84
+        },
+        {
+          "suite": "dgc",
+          "script": "qa-dgc.py",
+          "exitCode": 0,
+          "tests": 6,
+          "seconds": 11.25
+        },
+        {
+          "suite": "polish",
+          "script": "qa-ux-polish.py",
+          "exitCode": 0,
+          "tests": 6,
+          "seconds": 12.02
+        },
+        {
+          "suite": "resume",
+          "script": "qa-nov13-resume.py",
+          "exitCode": 0,
+          "tests": 7,
+          "seconds": 45.42
+        },
+        {
+          "suite": "consolidated",
+          "script": "qa-consolidated.py",
+          "exitCode": 0,
+          "tests": 8,
+          "seconds": 35.14
+        },
+        {
+          "suite": "acceptance",
+          "script": "qa-acceptance-refinement.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 55.06
+        },
+        {
+          "suite": "rc",
+          "script": "qa-release-candidate.py",
+          "exitCode": 0,
+          "tests": 2,
+          "seconds": 21.79
+        },
+        {
+          "suite": "profile",
+          "script": "qa-profile-visual.py",
+          "exitCode": 0,
+          "tests": 8,
+          "seconds": 8.24
+        },
+        {
+          "suite": "siem-family",
+          "script": "qa-siem-family.py",
+          "exitCode": 0,
+          "tests": 18,
+          "seconds": 30.86
+        },
+        {
+          "suite": "release",
+          "script": "qa-release.py",
+          "exitCode": 0,
+          "tests": 20,
+          "seconds": 51.93
+        },
+        {
+          "suite": "siem-platform",
+          "script": "qa-siem-platform.py",
+          "exitCode": 0,
+          "tests": 7,
+          "seconds": 11.36
+        },
+        {
+          "suite": "siem-refinement",
+          "script": "qa-siem-refinement.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 22.19
+        },
+        {
+          "suite": "acquisition",
+          "script": "qa-acquisition.py",
+          "exitCode": 0,
+          "tests": 23,
+          "seconds": 54.24
+        },
+        {
+          "suite": "nov15",
+          "script": "qa-nov15.py",
+          "exitCode": 0,
+          "tests": 5,
+          "seconds": 23.44,
+          "finalRerun": true
+        },
+        {
+          "suite": "conformance",
+          "script": "qa-conformance.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 31.33,
+          "finalRerun": true
+        }
+      ],
+      "environment": {
+        "ARENA_QA_BASE": "http://127.0.0.1:3000",
+        "PROFILE_BROWSER": "chromium",
+        "MY_AP_BROWSER": "chromium"
+      }
+    },
+    "webkit": {
+      "passed": 84,
+      "failed": 0,
+      "suiteCount": 12,
+      "suites": [
+        {
+          "suite": "qualification",
+          "script": "qa-qualification.py",
+          "exitCode": 0,
+          "tests": 3,
+          "seconds": 39.93
+        },
+        {
+          "suite": "recovery",
+          "script": "qa-recovery.py",
+          "exitCode": 0,
+          "tests": 10,
+          "seconds": 56.48
+        },
+        {
+          "suite": "dgc",
+          "script": "qa-dgc.py",
+          "exitCode": 0,
+          "tests": 6,
+          "seconds": 12.21
+        },
+        {
+          "suite": "polish",
+          "script": "qa-ux-polish.py",
+          "exitCode": 0,
+          "tests": 6,
+          "seconds": 16.74
+        },
+        {
+          "suite": "resume",
+          "script": "qa-nov13-resume.py",
+          "exitCode": 0,
+          "tests": 7,
+          "seconds": 32.61
+        },
+        {
+          "suite": "consolidated",
+          "script": "qa-consolidated.py",
+          "exitCode": 0,
+          "tests": 8,
+          "seconds": 28.32
+        },
+        {
+          "suite": "acceptance",
+          "script": "qa-acceptance-refinement.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 43.24
+        },
+        {
+          "suite": "rc",
+          "script": "qa-release-candidate.py",
+          "exitCode": 0,
+          "tests": 2,
+          "seconds": 13.71
+        },
+        {
+          "suite": "profile",
+          "script": "qa-profile-visual.py",
+          "exitCode": 0,
+          "tests": 8,
+          "seconds": 13.45
+        },
+        {
+          "suite": "siem",
+          "script": "qa-siem-webkit.py",
+          "exitCode": 0,
+          "tests": 5,
+          "seconds": 8.43
+        },
+        {
+          "suite": "nov15",
+          "script": "qa-nov15.py",
+          "exitCode": 0,
+          "tests": 5,
+          "seconds": 20.12,
+          "finalRerun": true
+        },
+        {
+          "suite": "conformance",
+          "script": "qa-conformance.py",
+          "exitCode": 0,
+          "tests": 12,
+          "seconds": 36.73,
+          "finalRerun": true
+        }
+      ],
+      "environment": {
+        "ARENA_QA_BASE": "http://127.0.0.1:3000",
+        "PROFILE_BROWSER": "webkit",
+        "MY_AP_BROWSER": "webkit",
+        "WEBKIT_PATH": "/workspace/scratch/webkit-local.sh"
+      }
+    }
+  },
+  "earlierFailures": [
+    {
+      "suite": "conformance",
+      "engines": [
+        "chromium",
+        "webkit"
+      ],
+      "reason": "Obsolete test selector #region after approved one-Location correction; updated to #location without removing assertions or cases. Final complete 12-case suites pass.",
+      "logs": [
+        "logs/diagnostic-old-selector-chromium.log",
+        "logs/diagnostic-old-selector-webkit.log"
+      ]
+    }
+  ],
+  "coverage": [
+    "Monday/Wednesday five occurrences, one series, edit/reload and ICS count",
+    "Historical multi-day duration explicit correction preserves skips and overrides",
+    "Same athlete event references in own SIEM week, Rivera isolated",
+    "Three-stage recruiting, selected stats/video/appearance, parent approval/revocation",
+    "Combined age/location/program controls, legacy city/region URL compatibility",
+    "Unavailable ZIP remains explicit and does not remove preserved directory rows",
+    "Four pillars, independent lightweight setup, Rivera tour, Chromium/WebKit",
+    "Desktop1440x900, iPad810x1080, iPhone390x844; not physical-device certification"
+  ],
+  "responsiveAudit": {
+    "pagesAndViewports": 21,
+    "httpFailures": 0,
+    "horizontalOverflows": 0,
+    "brokenLoadedImages": 0,
+    "evidence": "render-audit.json"
+  }
+}

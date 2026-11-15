@@ -1,0 +1,149 @@
+[
+  {
+    "path": "/",
+    "size": "desktop",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/sports/lacrosse",
+    "size": "desktop",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/sports/volleyball",
+    "size": "desktop",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/sports/basketball",
+    "size": "desktop",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/sports/swimming",
+    "size": "desktop",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/my-ap",
+    "size": "desktop",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/locked-in-demo",
+    "size": "desktop",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/",
+    "size": "ipad",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/sports/lacrosse",
+    "size": "ipad",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/sports/volleyball",
+    "size": "ipad",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/sports/basketball",
+    "size": "ipad",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/sports/swimming",
+    "size": "ipad",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/my-ap",
+    "size": "ipad",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/locked-in-demo",
+    "size": "ipad",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/",
+    "size": "iphone",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/sports/lacrosse",
+    "size": "iphone",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/sports/volleyball",
+    "size": "iphone",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/sports/basketball",
+    "size": "iphone",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/sports/swimming",
+    "size": "iphone",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/my-ap",
+    "size": "iphone",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/locked-in-demo",
+    "size": "iphone",
+    "status": 200,
+    "overflow": false,
+    "brokenImages": []
+  }
+]

@@ -29,6 +29,10 @@ const pillarChanges={
     ]
   ],
   "src/siem-view.mjs": [
+    ['class="siem"','class="siem siem-setup"'],
+    ['<h1>Family setup.</h1>','<h1>Set up my family.</h1>'],
+    ['<p>Your life. One actionable dashboard. Check your AP.</p>',''],
+    ['<a class="button" href="/my-ap?section=family">Back to My Family →</a>','<a class="button" href="/my-ap?scenario=local&amp;section=calendar">Open my family calendar →</a> <a class="button secondary" href="/my-ap?section=family">Back to My Family →</a>'],
     [
       "Three pillars. Your permissions.",
       "Four pillars. Your permissions."
