@@ -362,3 +362,10 @@ body[data-page="siem"]{background:#f3f5f8}
 .siem-setup>.section:first-child .siem-notice{color:#31445f}.siem-setup>.section:first-child a.secondary{background:#fff;color:#17243a;border:0}
 #my-feed .news-featured.news-no-image{display:block;border-left:6px solid #d2ac59}.news-type-fallback{font:700 13px/1.5 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#88611f}
 #my-feed .news-featured .news-type-fallback{color:#edc56e}
+/* Final qualification: complete/reopen the existing local recruiting composition. */
+.recruiting-completion-actions{position:sticky;bottom:12px;z-index:5;background:#fff;padding:12px;border:1px solid #dce2e8;border-radius:12px;box-shadow:0 4px 18px #17243a12}
+.recruiting-selection-start{margin-top:28px;scroll-margin-top:24px}.saved-recruiting-profile{margin:12px 0}.recruiting-build-confirmation{background:#edf6f1;border-left:4px solid #23764c;padding:14px;border-radius:8px}
+body[data-page=sport] .sport-news-card .editorial-fallback>small{color:#f1d8de}
+
+/* One cover per story; the original editorial fallback returns if image loading fails. */
+.news-story.news-has-photo>.editorial-fallback{display:none}

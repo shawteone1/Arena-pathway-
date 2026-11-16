@@ -122,7 +122,7 @@ class ConformanceQA(base['MyAPQA']):
         self.assertTrue(self.page.locator('#overview').is_visible());self.assertFalse(self.page.locator('#schedules').is_visible())
         self.assertIn('competitive',self.page.locator('#overview').inner_text())
         before=self.page.evaluate('JSON.parse(localStorage.getItem("arenaPathway.v2"))')
-        self.page.goto(BASE+'/recruiting');self.page.get_by_role('button',name='Open local recruiting planner').click()
+        self.page.goto(BASE+'/recruiting');self.page.get_by_text('Research notes & checklist',exact=True).click();self.page.get_by_role('button',name='Open local recruiting planner').click()
         self.page.locator('.legacy-research>summary').click();self.assertTrue(self.page.locator('#recruiting-form').is_visible())
         self.page.locator('#recruiting-notes').fill('Research academics with my family')
         self.page.locator('#recruiting-form button[type=submit]').click()

@@ -2,7 +2,7 @@
 import importlib.util,unittest,json,os
 from pathlib import Path
 s=importlib.util.spec_from_file_location('base',Path(__file__).with_name('qa-consolidated.py'));base=importlib.util.module_from_spec(s);s.loader.exec_module(base)
-OUT=Path('docs/product-completion-20261116/after');OUT.mkdir(parents=True,exist_ok=True)
+OUT=Path(os.environ.get('ARENA_COMPLETION_OUT','docs/product-completion-20261116/after'));OUT.mkdir(parents=True,exist_ok=True)
 class Completion(unittest.TestCase):
  setUpClass=classmethod(base.Consolidated.setUpClass.__func__)
  tearDownClass=classmethod(base.Consolidated.tearDownClass.__func__)

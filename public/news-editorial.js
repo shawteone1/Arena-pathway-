@@ -10,7 +10,7 @@ export function addEditorialCover(card,item,sport,featured=false){
  card.classList.add('news-story');card.classList.toggle('news-featured',featured);card.dataset.newsSport=sport;
  const figure=node('figure');figure.className='news-cover';card.prepend(figure);
  if(featured){const label=node('span','IN THE SPOTLIGHT');label.className='news-feature-label';card.querySelector('.editorial-body')?.prepend(label);}
- const withoutPhoto=()=>{figure.remove();card.classList.add('news-no-image');const category=node('p',sport[0].toUpperCase()+sport.slice(1)+' · '+(item.topics?.[0]||'Sports news'));category.className='news-type-fallback';card.querySelector('.editorial-body')?.prepend(category);};
+ const withoutPhoto=()=>{card.classList.remove('news-has-photo');figure.remove();card.classList.add('news-no-image');const category=node('p',sport[0].toUpperCase()+sport.slice(1)+' · '+(item.topics?.[0]||'Sports news'));category.className='news-type-fallback';card.querySelector('.editorial-body')?.prepend(category);};
  return readPhotography().then(photos=>{
   if(!card.isConnected)return;
   const photo=photos[sport];if(!photo){withoutPhoto();return;}
@@ -20,6 +20,7 @@ export function addEditorialCover(card,item,sport,featured=false){
    img.alt=photo.alt;img.srcset='/assets/'+photo.smallAsset+' 640w, /assets/'+photo.asset+' 1280w';img.sizes=featured?'(max-width: 650px) 100vw, 58vw':'(max-width: 650px) 100vw, 40vw';img.src='/assets/'+photo.asset;
    caption.replaceChildren(node('span','Illustrative '+sport+' photography · not article imagery'),credit);figure.dataset.illustrative='true';
   }
+  img.addEventListener('load',()=>{if(img.naturalWidth>0)card.classList.add('news-has-photo');});
   let failed=false;img.addEventListener('error',()=>{if(approved&&!failed){failed=true;illustrate();}else withoutPhoto();});
   if(approved){img.src=approved.url;img.alt=approved.alt||item.title;caption.append(node('span',approved.credit+' · '+approved.license));}else illustrate();
   const imageLink=node('a');imageLink.href=item.url;imageLink.target='_blank';imageLink.rel='noopener noreferrer';imageLink.setAttribute('aria-label','Read '+item.title+' at '+(item.publisher||item.sourceName));imageLink.append(img);figure.append(imageLink,caption);

@@ -1,9 +1,9 @@
 """Editorial image, rights-boundary and responsive acceptance. Fixtures never activate production sources."""
-import importlib.util,unittest,json
+import importlib.util,unittest,json,os
 from pathlib import Path
 spec=importlib.util.spec_from_file_location('rss',Path(__file__).with_name('qa-rss.py'));rss=importlib.util.module_from_spec(spec);spec.loader.exec_module(rss)
 base=rss.base
-OUT=Path('docs/product-completion-20261116/after/rss');OUT.mkdir(parents=True,exist_ok=True)
+OUT=Path(os.environ.get('ARENA_EDITORIAL_OUT','docs/product-completion-20261116/after/rss'));OUT.mkdir(parents=True,exist_ok=True)
 class Editorial(unittest.TestCase):
  setUpClass=classmethod(base.Remediation.setUpClass.__func__)
  tearDownClass=classmethod(base.Remediation.tearDownClass.__func__)
@@ -21,19 +21,21 @@ class Editorial(unittest.TestCase):
   images=self.page.locator('#my-feed .content-items .news-cover img');self.assertGreater(images.count(),0)
   for img in images.all():self.assertTrue(img.evaluate('(e)=>e.complete&&e.naturalWidth>0'));self.assertIn('/assets/photos/',img.get_attribute('src'));self.assertTrue(img.get_attribute('alt'))
   self.assertEqual(self.page.locator('#my-feed .content-items .news-featured').count(),1)
+  for fallback in self.page.locator('#my-feed .content-items .editorial-fallback').all():self.assertFalse(fallback.is_visible())
   for figure in self.page.locator('#my-feed .content-items figure').all():self.assertIn('not article imagery',figure.inner_text());self.assertEqual(figure.get_by_role('link',name='Photo credits').get_attribute('href'),'/credits')
  def test_01_actual_four_sports_and_responsive_editorial(self):
   for sport in ['lacrosse','basketball','volleyball','swimming']:
    self.page.evaluate('(sport)=>{const s=JSON.parse(localStorage.getItem("arenaPathway.v2"));s.profiles.find(p=>p.id===s.active).sport=sport;localStorage.setItem("arenaPathway.v2",JSON.stringify(s));}',sport);self.page.reload();self.page.wait_for_selector('#profile-nav');self.follow_reviewed();self.assert_images()
    self.assertEqual(self.page.locator('.news-featured').first.evaluate('(e)=>getComputedStyle(e).backgroundColor'),'rgb(23, 36, 58)')
    self.assertEqual(self.page.locator('.news-featured h4 a').first.evaluate('(e)=>getComputedStyle(e).color'),'rgb(255, 255, 255)')
-   for name,w,h in [('desktop',1440,900),('ipad',810,1080),('iphone',390,844)]:
-    self.page.set_viewport_size(dict(width=w,height=h));self.page.locator('#my-feed .content-items').evaluate("async e=>{await Promise.all([...e.querySelectorAll('img')].map(i=>{i.loading='eager';return i.decode().catch(()=>{});}));await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));}");self.page.evaluate('()=>document.activeElement?.blur()');self.page.wait_for_function('()=>!document.querySelector("#toast").textContent');self.assertFalse(self.page.evaluate('()=>document.documentElement.scrollWidth>innerWidth+1'))
+   for name,w,h in [('desktop',1440,900),('ipad',810,1080),('ipad-landscape',1024,768),('iphone',390,844)]:
+    self.page.set_viewport_size(dict(width=w,height=h));self.page.locator('#my-feed .content-items').evaluate("async e=>{await Promise.all([...e.querySelectorAll('img')].map(i=>{i.loading='eager';return i.decode().catch(()=>{});}));await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));}");self.page.evaluate('()=>{document.activeElement?.blur();document.querySelector(".skip").style.visibility="hidden";}');self.page.wait_for_function('()=>!document.querySelector("#toast").textContent');self.assertFalse(self.page.evaluate('()=>document.documentElement.scrollWidth>innerWidth+1'))
     feature=self.page.locator('#my-feed .content-items .news-featured');self.assertGreaterEqual(feature.bounding_box()['width'],300)
     self.assertEqual(self.page.locator('#my-feed .content-items').evaluate('(e)=>getComputedStyle(e).gridTemplateColumns.split(" ").length'),1 if w==390 else 2)
     for button in self.page.locator('[data-content-library=news] .editorial-tools button,#my-feed .source-chips button').all():self.assertGreaterEqual(button.bounding_box()['height'],44)
-    if sport=='lacrosse' or name=='ipad':self.page.locator('#my-feed').screenshot(path=str(OUT/f'{base.ENGINE}-{sport}-{name}.png'),animations='disabled')
-    if sport=='lacrosse':self.page.screenshot(path=str(OUT/f'{base.ENGINE}-{sport}-{name}-context.png'),full_page=True,animations='disabled')
+    if sport=='lacrosse' or name=='ipad':self.page.locator('#my-feed').screenshot(path=str(OUT/f'{base.ENGINE}-{sport}-{name}.png'),animations='disabled',style='.skip{visibility:hidden!important}')
+    if sport=='lacrosse':self.page.screenshot(path=str(OUT/f'{base.ENGINE}-{sport}-{name}-context.png'),full_page=True,animations='disabled',style='.skip{visibility:hidden!important}')
+    self.page.evaluate('()=>document.querySelector(".skip").style.removeProperty("visibility")')
    self.assertEqual(self.state()['profiles'][0]['id'],self.athlete)
    self.assertEqual(self.page.locator('[data-rss-source]:enabled').count(),0)
  def test_02_rss_metadata_does_not_hotlink_and_feature_tracks_filter(self):
@@ -55,6 +57,6 @@ class Editorial(unittest.TestCase):
   self.section('My Feed');self.page.wait_for_selector('[data-content-library=news][aria-busy=false]');choices=self.page.locator('#content-choices-news');choices.locator('summary').click()
   for cb in choices.locator('input:enabled').all():cb.check()
   choices.locator('summary').click();self.page.locator('#my-feed .content-items article').last.scroll_into_view_if_needed();self.page.wait_for_function('()=>document.querySelectorAll("#my-feed .content-items .news-cover").length===0')
-  self.assertGreater(self.page.locator('#my-feed .content-items h4 a').count(),0);self.assertEqual(self.page.locator('#my-feed .content-items img').count(),0)
+  self.assertGreater(self.page.locator('#my-feed .content-items h4 a').count(),0);self.assertEqual(self.page.locator('#my-feed .content-items img').count(),0);self.assertGreater(self.page.locator('#my-feed .content-items .editorial-fallback:visible').count(),0)
   self.assertEqual(self.page.locator('.news-featured h4 a').first.evaluate('(e)=>getComputedStyle(e).color'),'rgb(255, 255, 255)')
 if __name__=='__main__':unittest.main()
