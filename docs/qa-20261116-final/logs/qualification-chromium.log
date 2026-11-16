@@ -1,0 +1,12 @@
+test_final_A_club_search_attach_family_and_return (__main__.Final.test_final_A_club_search_attach_family_and_return) ... ok
+test_final_BCD_full_recruiting_in_all_four_sports (__main__.Final.test_final_BCD_full_recruiting_in_all_four_sports) ... ok
+test_final_C_historical_media_retained (__main__.Final.test_final_C_historical_media_retained) ... ok
+test_final_E_family_and_lockedin (__main__.Final.test_final_E_family_and_lockedin) ... ok
+test_final_F_public_sport_editorial (__main__.Final.test_final_F_public_sport_editorial) ... ok
+test_final_G_no_empty_finished_profile (__main__.Final.test_final_G_no_empty_finished_profile) ... ok
+test_final_H_ipad_touch_controls (__main__.Final.test_final_H_ipad_touch_controls) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 166.541s
+
+OK

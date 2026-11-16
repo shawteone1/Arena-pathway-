@@ -1,0 +1,50 @@
+[
+  {
+    "sport": "lacrosse",
+    "originalURL": "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game",
+    "finalURL": "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game",
+    "responses": [
+      {
+        "url": "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game",
+        "status": 200
+      }
+    ],
+    "contentLoaded": true
+  },
+  {
+    "sport": "basketball",
+    "originalURL": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/",
+    "finalURL": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/",
+    "responses": [
+      {
+        "url": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/",
+        "status": 200
+      }
+    ],
+    "contentLoaded": true
+  },
+  {
+    "sport": "volleyball",
+    "originalURL": "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/",
+    "finalURL": "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/",
+    "responses": [
+      {
+        "url": "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/",
+        "status": 200
+      }
+    ],
+    "contentLoaded": true
+  },
+  {
+    "sport": "swimming",
+    "originalURL": "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/",
+    "finalURL": "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/",
+    "responses": [
+      {
+        "url": "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/",
+        "status": 200
+      }
+    ],
+    "contentLoaded": true
+  }
+]

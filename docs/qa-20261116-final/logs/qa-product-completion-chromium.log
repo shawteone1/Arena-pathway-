@@ -1,0 +1,12 @@
+test_01_club_discovery_onboarding_association_edit_and_return (__main__.Completion.test_01_club_discovery_onboarding_association_edit_and_return) ... ok
+test_02_schedule_competition_stats_media_recruiting_finish_and_return (__main__.Completion.test_02_schedule_competition_stats_media_recruiting_finish_and_return) ... ok
+test_03_historical_practice_media_and_cross_athlete_isolation (__main__.Completion.test_03_historical_practice_media_and_cross_athlete_isolation) ... ok
+test_04_family_setup_and_lockedin_keep_correct_context (__main__.Completion.test_04_family_setup_and_lockedin_keep_correct_context) ... ok
+test_05_four_sport_editorial_and_source_return (__main__.Completion.test_05_four_sport_editorial_and_source_return) ... ok
+test_06_recruiting_selection_keeps_native_control_and_focus (__main__.Completion.test_06_recruiting_selection_keeps_native_control_and_focus) ... ok
+test_07_discovery_before_profile_preserves_pending_club (__main__.Completion.test_07_discovery_before_profile_preserves_pending_club) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 87.999s
+
+OK

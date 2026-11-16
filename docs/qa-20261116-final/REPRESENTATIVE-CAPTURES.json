@@ -1,0 +1,120 @@
+{
+  "engine": "chromium",
+  "captures": [
+    {
+      "page": "homepage",
+      "url": "http://127.0.0.1:3002/",
+      "title": "The next chapter is yours | Arena Pathway",
+      "viewports": [
+        [
+          "desktop",
+          1440,
+          900
+        ],
+        [
+          "ipad-portrait",
+          810,
+          1080
+        ],
+        [
+          "ipad-landscape",
+          1024,
+          768
+        ],
+        [
+          "phone",
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "page": "sport-homepage",
+      "url": "http://127.0.0.1:3002/sports/lacrosse",
+      "title": "Lacrosse participation | Arena Pathway",
+      "viewports": [
+        [
+          "desktop",
+          1440,
+          900
+        ],
+        [
+          "ipad-portrait",
+          810,
+          1080
+        ],
+        [
+          "ipad-landscape",
+          1024,
+          768
+        ],
+        [
+          "phone",
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "page": "siem-entry",
+      "url": "http://127.0.0.1:3002/my-ap?scenario=family&mode=everyday&section=day",
+      "title": "My AP \u00b7 Your day, connected | Arena Pathway",
+      "viewports": [
+        [
+          "desktop",
+          1440,
+          900
+        ],
+        [
+          "ipad-portrait",
+          810,
+          1080
+        ],
+        [
+          "ipad-landscape",
+          1024,
+          768
+        ],
+        [
+          "phone",
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "page": "lockedin-entry",
+      "url": "http://127.0.0.1:3002/locked-in-demo",
+      "title": "LockedIn Demo | Arena Pathway",
+      "viewports": [
+        [
+          "desktop",
+          1440,
+          900
+        ],
+        [
+          "ipad-portrait",
+          810,
+          1080
+        ],
+        [
+          "ipad-landscape",
+          1024,
+          768
+        ],
+        [
+          "phone",
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "page": "tour/messages",
+      "fictionalRivera": true,
+      "localAthleteRecords": null
+    }
+  ],
+  "pageErrors": [],
+  "nonGETMainPage": []
+}

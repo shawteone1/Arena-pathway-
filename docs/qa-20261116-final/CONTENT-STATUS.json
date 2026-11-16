@@ -1,0 +1,32 @@
+{
+  "reviewedAt": "2026-11-12T18:34:38.822099+00:00",
+  "mode": "reviewed-outbound-content-snapshot-not-live-feed",
+  "totalReviewedCandidates": 40,
+  "decisions": {
+    "inactive": 21,
+    "approved": 19
+  },
+  "bySport": {
+    "lacrosse": {
+      "inactive": 6,
+      "approved": 4
+    },
+    "basketball": {
+      "inactive": 6,
+      "approved": 4
+    },
+    "volleyball": {
+      "approved": 5,
+      "inactive": 5
+    },
+    "swimming": {
+      "approved": 6,
+      "inactive": 4
+    }
+  },
+  "rssRetained": 11,
+  "rssEnabled": 0,
+  "rssPending": 11,
+  "approvedPublisherArticleImages": 0,
+  "noSourcesOrPermissionsChanged": true
+}

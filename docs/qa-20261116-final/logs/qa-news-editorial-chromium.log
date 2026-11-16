@@ -1,0 +1,8 @@
+test_01_actual_four_sports_and_responsive_editorial (__main__.Editorial.test_01_actual_four_sports_and_responsive_editorial) ... ok
+test_02_rss_metadata_does_not_hotlink_and_feature_tracks_filter (__main__.Editorial.test_02_rss_metadata_does_not_hotlink_and_feature_tracks_filter) ... ok
+test_03_failed_photos_leave_readable_articles_and_reduced_motion (__main__.Editorial.test_03_failed_photos_leave_readable_articles_and_reduced_motion) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 36.847s
+
+OK

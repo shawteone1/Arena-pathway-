@@ -1,0 +1,12 @@
+test_shared_01_lacrosse_reference_and_same_complete_engine_in_all_four_sports (__main__.SharedRecruiting.test_shared_01_lacrosse_reference_and_same_complete_engine_in_all_four_sports) ... ok
+test_shared_02_external_profile_revision_invalidates_local_approval (__main__.SharedRecruiting.test_shared_02_external_profile_revision_invalidates_local_approval) ... ok
+test_shared_03_public_school_research_stays_sport_scoped_without_profile (__main__.SharedRecruiting.test_shared_03_public_school_research_stays_sport_scoped_without_profile) ... ok
+test_shared_04_legacy_photo_and_visibility_fallback_preserve_saved_data (__main__.SharedRecruiting.test_shared_04_legacy_photo_and_visibility_fallback_preserve_saved_data) ... ok
+test_shared_05_publisher_outage_cannot_block_optional_recruiting (__main__.SharedRecruiting.test_shared_05_publisher_outage_cannot_block_optional_recruiting) ... ok
+test_shared_06_editing_missing_information_does_not_rewrite_unedited_legacy_fields (__main__.SharedRecruiting.test_shared_06_editing_missing_information_does_not_rewrite_unedited_legacy_fields) ... ok
+test_shared_07_keyboard_field_selection_keeps_focus_in_the_shared_builder (__main__.SharedRecruiting.test_shared_07_keyboard_field_selection_keeps_focus_in_the_shared_builder) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 89.636s
+
+OK

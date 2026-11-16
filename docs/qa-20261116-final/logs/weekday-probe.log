@@ -1,0 +1,10 @@
+{'mode': 'current', 'trial': 0, 'days': ['1', '3'], 'scrollBehavior': 'smooth'}
+{'mode': 'current', 'trial': 1, 'days': ['1', '3'], 'scrollBehavior': 'smooth'}
+{'mode': 'current', 'trial': 2, 'days': ['1', '3'], 'scrollBehavior': 'smooth'}
+{'mode': 'current', 'trial': 3, 'days': ['1', '3'], 'scrollBehavior': 'smooth'}
+{'mode': 'current', 'trial': 4, 'days': ['1', '3'], 'scrollBehavior': 'smooth'}
+{'mode': 'instant', 'trial': 0, 'failure': "Page.add_style_tag: Refused to apply a stylesheet because its hash, its nonce, or 'unsafe-inline' does not appear in the style-src directive of the Content Security Policy."}
+{'mode': 'instant', 'trial': 1, 'failure': "Page.add_style_tag: Refused to apply a stylesheet because its hash, its nonce, or 'unsafe-inline' does not appear in the style-src directive of the Content Security Policy."}
+{'mode': 'instant', 'trial': 2, 'failure': "Page.add_style_tag: Refused to apply a stylesheet because its hash, its nonce, or 'unsafe-inline' does not appear in the style-src directive of the Content Security Policy."}
+{'mode': 'instant', 'trial': 3, 'failure': "Page.add_style_tag: Refused to apply a stylesheet because its hash, its nonce, or 'unsafe-inline' does not appear in the style-src directive of the Content Security Policy."}
+{'mode': 'instant', 'trial': 4, 'failure': "Page.add_style_tag: Refused to apply a stylesheet because its hash, its nonce, or 'unsafe-inline' does not appear in the style-src directive of the Content Security Policy."}

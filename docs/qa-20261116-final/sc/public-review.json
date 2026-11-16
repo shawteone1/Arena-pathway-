@@ -1,0 +1,21 @@
+[
+  {
+    "homeLinks": []
+  },
+  {
+    "label": "clubs",
+    "requested": "https://soccercenter.org/soccer-directory",
+    "finalURL": "https://soccercenter.org/soccer-directory",
+    "status": 200,
+    "title": "Soccer Directory \u2014 Seven Regions. One Love of the Game.",
+    "bodyExcerpt": "COLORADO SOCCER DIRECTORY\n\nFind Soccer Near You\n\nSeven Regions. One Love of the Game.\n\nYour game. Your community. Find clubs, fields, local teams and people to watch with.\n\n\u26bd PLAY \u00b7 CONNECT \u00b7 SUPPORT\n\nCOLORADO \u00b7 EXPLORE & COMPARE\n\nMore than a directory. Know your options.\n\nExplore club leadership, college programs, published costs and dated research. Compare up to three profiles and share your shortlist.\n\nExplore Colorado clubs \u2192\nExplore Colorado colleges \u2192\nFind my next opportunity \u2192\n\nInitial Colorado coverage. Research gaps and source dates remain visible; listings are not rankings or endorsements.\n\nCHOOSE YOUR SOCCER CENTER\n\nCO\n96\nColorado\n\nDenver metro and surrounding communities\n\nDenver Metro\nColorado Springs\nBoulder\nFort Collins\nWestern Slope\n96 club / league listings\nExplore\nAZ\n29\nArizona\n\nArizona statewide\n\nPhoenix Metro\nTucson\nScottsdale\nTempe\nMesa\n29 club / league listings\nExplore\nCA-S\n417\nSouthern California\n\nLos Angeles, Orange County, San Diego, Inland Empire and the Central Coast\n\nLos Angeles\nOrange County\nSan Diego\nInland Empire\nCentral Coast\n417 club / league listings\nExplore\nCA-N\n182\nNorthern California\n\nBay Area, Sacramento, the North Coast and inland communities\n\nBay Area\nSacramento\nNorth Coast\nCentral Valley\nInland\n182 club / league listings\nExplore\nOR\n159\nOregon\n\nOregon statewide\n\nPortland Metro\nSalem\nEugene\nBend\nSouthern Oregon\n159 club / league listings\nExplore\nWA\n300\nWashington\n\nWashington statewide\n\nSeattle Metro\nTacoma\nSpokane\nBellevue\nOlympia\n300 club / league listings\nExplore\nNV\n31\nNevada\n\nNevada statewide; initial listings concentrate on Las Vegas and Reno\n\nLas Vegas\nReno\nHenderson\n31 club / league listings\nExplore\n\nEXPLORE THE DIRECTORY\n\n\u26bd\nFor the Player\n\nDirectory\n\nClubs, leagues & facilities by region\n\nYouth Tryouts\n\nUpcoming tryout events near you\n\nCommunity Resources\n\nCoaching, parks, financial assistance & more\n\n\ud83c\udfdf\ufe0f\nFor the Fan\n\nTeams\n\nPro & college teams across 7 regions\n\nFan Zone\n\nSoccer bars, supporter groups & how to watch\n\nHighl"
+  },
+  {
+    "label": "create-auth",
+    "requested": "https://soccercenter.org/parent-portal/players/new",
+    "finalURL": "https://soccercenter.org/parent-portal/players/new",
+    "status": 200,
+    "title": "Soccer Center Colorado \u2014 Clubs, Leagues, Training & Community",
+    "bodyExcerpt": "PARENT PORTAL\nSwitch to Fan Arena\nCookie Consent\n\nWe serve cookies. We use tools, such as cookies, to enable essential services and functionality on our site and to collect data on how visitors interact with our site, products and services. By clicking Accept, you agree to our use of these tools for advertising, analytics and support.\n\nDecline\nAccept"
+  }
+]

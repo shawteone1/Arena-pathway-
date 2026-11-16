@@ -1,0 +1,44 @@
+[
+  {
+    "file": "src/rss-feed.mjs",
+    "rssBlob": "e56f42429638ca39da1261b1e857cae649ec26b4",
+    "baselineBlob": "e56f42429638ca39da1261b1e857cae649ec26b4",
+    "identical": true
+  },
+  {
+    "file": "public/rss-news.js",
+    "rssBlob": "803d545d3ce3a7fc4b3f3b1b7bb6879ffda91c04",
+    "baselineBlob": "803d545d3ce3a7fc4b3f3b1b7bb6879ffda91c04",
+    "identical": true
+  },
+  {
+    "file": "data/rss-endpoint-verification.json",
+    "rssBlob": "f48f25892666a7f830c1ffafaac2310626776fb3",
+    "baselineBlob": "f48f25892666a7f830c1ffafaac2310626776fb3",
+    "identical": true
+  },
+  {
+    "file": "data/rss-feed-catalog.json",
+    "rssBlob": "58ff29dfd41ce370f4542de3aaaf8beb2141a252",
+    "baselineBlob": "58ff29dfd41ce370f4542de3aaaf8beb2141a252",
+    "identical": true
+  },
+  {
+    "file": "data/rss-final-verification.json",
+    "rssBlob": "2f638d6753d89d473c6937544453c7afad50aa4b",
+    "baselineBlob": "2f638d6753d89d473c6937544453c7afad50aa4b",
+    "identical": true
+  },
+  {
+    "file": "data/rss-rights-review.json",
+    "rssBlob": "8f7912b7243a53be16853dfee67a4bd94dcefb02",
+    "baselineBlob": "8f7912b7243a53be16853dfee67a4bd94dcefb02",
+    "identical": true
+  },
+  {
+    "file": "data/rss-source-candidates.json",
+    "rssBlob": "919029e2bcedaeca26377e851ecc995c2c638d07",
+    "baselineBlob": "919029e2bcedaeca26377e851ecc995c2c638d07",
+    "identical": true
+  }
+]

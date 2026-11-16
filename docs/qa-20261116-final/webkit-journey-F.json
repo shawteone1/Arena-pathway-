@@ -1,0 +1,26 @@
+[
+  {
+    "sport": "lacrosse",
+    "articleURL": "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game",
+    "cards": 3,
+    "snapshotLabel": false
+  },
+  {
+    "sport": "basketball",
+    "articleURL": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/",
+    "cards": 3,
+    "snapshotLabel": false
+  },
+  {
+    "sport": "volleyball",
+    "articleURL": "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/",
+    "cards": 3,
+    "snapshotLabel": false
+  },
+  {
+    "sport": "swimming",
+    "articleURL": "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/",
+    "cards": 3,
+    "snapshotLabel": false
+  }
+]

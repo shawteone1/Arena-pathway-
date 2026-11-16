@@ -1,0 +1,10 @@
+test_01_actual_catalog_is_off_and_profiles_untouched (__main__.RSS.test_01_actual_catalog_is_off_and_profiles_untouched) ... ok
+test_02_opt_in_filters_reload_and_mobile_cards (__main__.RSS.test_02_opt_in_filters_reload_and_mobile_cards) ... ok
+test_03_failure_retry_and_pending_response_cannot_cross_athletes (__main__.RSS.test_03_failure_retry_and_pending_response_cannot_cross_athletes) ... ok
+test_04_all_four_sports_have_independent_publishers (__main__.RSS.test_04_all_four_sports_have_independent_publishers) ... ok
+test_05_retired_source_preferences_do_not_break_the_feed (__main__.RSS.test_05_retired_source_preferences_do_not_break_the_feed) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 20.028s
+
+OK

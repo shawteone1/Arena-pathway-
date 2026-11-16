@@ -1,0 +1,3 @@
+test_final_A_club_search_attach_family_and_return (__main__.Final.test_final_A_club_search_attach_family_and_return) ... ok
+test_final_BCD_full_recruiting_in_all_four_sports (__main__.Final.test_final_BCD_full_recruiting_in_all_four_sports) ... 
+  test_final_BCD_full_recruiting_in_all_four_sports (__main__.Final.test_final_BCD_full_recruiting_in_all_four_sports) (sport='lacrosse') ... ERROR

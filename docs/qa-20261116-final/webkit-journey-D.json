@@ -1,0 +1,118 @@
+[
+  {
+    "sport": "lacrosse",
+    "athleteId": "21c6202a-543a-433f-a6cb-72f56a614036",
+    "practiceSeries": "4d4ce843-1d85-4958-8004-843d847fa173",
+    "practiceDays": [
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-25",
+      "2026-11-30"
+    ],
+    "competitionRefs": [
+      "1c1f9cbf-5a08-4e1c-8e9a-fa903b6192d8",
+      "5dd83c16-7d3d-4626-842f-602a535f38bc"
+    ],
+    "recordIds": [
+      "d769a2ae-3e90-490c-8a33-47882995876b",
+      "ae722d0c-fb3b-49eb-9ffc-0a09b1a80f5e"
+    ],
+    "sumOrSwims": 5,
+    "schoolID": "du-lacrosse-men",
+    "builtAt": "2026-11-16T22:58:58.093Z",
+    "reopened": true,
+    "editedAndRebuilt": true,
+    "revokedAfterReload": true,
+    "videoPlayed": true,
+    "maximumSelectionJumpPixels": 0,
+    "athleteCount": 1
+  },
+  {
+    "sport": "basketball",
+    "athleteId": "e723baf1-820b-4418-8d68-2b29042ed923",
+    "practiceSeries": "2be03425-f19c-4090-8bb9-c6240922f8ef",
+    "practiceDays": [
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-25",
+      "2026-11-30"
+    ],
+    "competitionRefs": [
+      "8e9edcd3-1102-47ee-8131-773444598863",
+      "2282cac7-0c5d-470f-bd8f-6e46809c1f6e"
+    ],
+    "recordIds": [
+      "845f4e5c-3abf-4012-9b04-dc21daf67b5c",
+      "3ee32166-945e-4d5b-b7e8-7befefec5d3c"
+    ],
+    "sumOrSwims": 20,
+    "schoolID": "du-basketball-men",
+    "builtAt": "2026-11-16T22:59:21.573Z",
+    "reopened": true,
+    "editedAndRebuilt": true,
+    "revokedAfterReload": true,
+    "videoPlayed": true,
+    "maximumSelectionJumpPixels": 0,
+    "athleteCount": 1
+  },
+  {
+    "sport": "volleyball",
+    "athleteId": "2fae1a3b-4300-4731-ac83-8a6beb705acf",
+    "practiceSeries": "7736f73c-4d11-4ee1-a89c-7fa71717b457",
+    "practiceDays": [
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-25",
+      "2026-11-30"
+    ],
+    "competitionRefs": [
+      "d6d03b49-8693-44ec-b31c-56914a947286#40f9a9ac-303c-4e24-a94f-c4605a8afa0e",
+      "d6d03b49-8693-44ec-b31c-56914a947286#3342e6c2-0bcb-430d-ab89-13bfb611bada"
+    ],
+    "recordIds": [
+      "2d7e2b20-6de8-46ed-9339-a6b020e7adca",
+      "4d048d02-1960-4269-8f4b-8e17aaebd3a4"
+    ],
+    "sumOrSwims": 12,
+    "schoolID": "du-volleyball-women",
+    "builtAt": "2026-11-16T22:59:40.675Z",
+    "reopened": true,
+    "editedAndRebuilt": true,
+    "revokedAfterReload": true,
+    "videoPlayed": true,
+    "maximumSelectionJumpPixels": 0,
+    "athleteCount": 1
+  },
+  {
+    "sport": "swimming",
+    "athleteId": "6841805b-14a5-46a7-928d-32875e15e23c",
+    "practiceSeries": "e446d3c7-9cf0-49c4-8556-d80ce96091c2",
+    "practiceDays": [
+      "2026-11-16",
+      "2026-11-18",
+      "2026-11-23",
+      "2026-11-25",
+      "2026-11-30"
+    ],
+    "competitionRefs": [
+      "bb6fa3b5-9878-4f42-8c9a-a1a72c46a80f#ec663250-f8bb-4e9b-b44c-ce8823e5994b",
+      "bb6fa3b5-9878-4f42-8c9a-a1a72c46a80f#b136d9de-8a20-4e62-b433-91d7a3689c2a"
+    ],
+    "recordIds": [
+      "faa3c86e-8d3c-4b16-aa92-051755ffc1e0",
+      "029e0d2b-b64f-4133-86b5-52c20d012c1b"
+    ],
+    "sumOrSwims": 2,
+    "schoolID": "du-swimming-men",
+    "builtAt": "2026-11-16T22:59:59.916Z",
+    "reopened": true,
+    "editedAndRebuilt": true,
+    "revokedAfterReload": true,
+    "videoPlayed": true,
+    "maximumSelectionJumpPixels": 0,
+    "athleteCount": 1
+  }
+]

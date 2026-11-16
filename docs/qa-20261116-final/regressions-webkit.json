@@ -1,0 +1,106 @@
+[
+  {
+    "suite": "qa-product-completion",
+    "engine": "webkit",
+    "returncode": 0,
+    "tests": 7,
+    "seconds": 100.843,
+    "log": "logs/qa-product-completion-webkit.log"
+  },
+  {
+    "suite": "qa-shared-recruiting",
+    "engine": "webkit",
+    "returncode": 0,
+    "tests": 7,
+    "seconds": 78.08,
+    "log": "logs/qa-shared-recruiting-webkit.log"
+  },
+  {
+    "suite": "qa-qualification",
+    "engine": "webkit",
+    "returncode": 0,
+    "tests": 3,
+    "seconds": 43.353,
+    "log": "logs/qa-qualification-webkit.log"
+  },
+  {
+    "suite": "qa-recovery",
+    "engine": "webkit",
+    "returncode": 0,
+    "tests": 10,
+    "seconds": 74.597,
+    "log": "logs/qa-recovery-webkit.log"
+  },
+  {
+    "suite": "qa-consolidated",
+    "engine": "webkit",
+    "returncode": 0,
+    "tests": 8,
+    "seconds": 29.726,
+    "log": "logs/qa-consolidated-webkit.log"
+  },
+  {
+    "suite": "qa-nov15",
+    "engine": "webkit",
+    "returncode": 0,
+    "tests": 5,
+    "seconds": 17.052,
+    "log": "logs/qa-nov15-webkit.log"
+  },
+  {
+    "suite": "qa-rss",
+    "engine": "webkit",
+    "returncode": 0,
+    "tests": 5,
+    "seconds": 20.274,
+    "log": "logs/qa-rss-webkit.log"
+  },
+  {
+    "suite": "qa-news-editorial",
+    "engine": "webkit",
+    "returncode": 0,
+    "tests": 3,
+    "seconds": 39.475,
+    "log": "logs/qa-news-editorial-webkit.log"
+  },
+  {
+    "suite": "qa-siem-webkit",
+    "engine": "webkit",
+    "returncode": 0,
+    "tests": 5,
+    "seconds": 9.583,
+    "log": "logs/qa-siem-webkit-webkit.log"
+  },
+  {
+    "suite": "qa-20261112",
+    "engine": "webkit",
+    "returncode": 0,
+    "tests": 7,
+    "seconds": 21.531,
+    "log": "logs/qa-20261112-webkit.log"
+  },
+  {
+    "suite": "qa-conformance",
+    "engine": "webkit",
+    "returncode": 0,
+    "tests": 12,
+    "seconds": 33.217,
+    "log": "logs/qa-conformance-webkit.log"
+  },
+  {
+    "suite": "qa-nov13-resume",
+    "engine": "webkit",
+    "returncode": 0,
+    "tests": 7,
+    "seconds": 35.653,
+    "log": "logs/qa-nov13-resume-webkit.log"
+  },
+  {
+    "suite": "qa-release-candidate",
+    "engine": "webkit",
+    "returncode": 0,
+    "tests": 2,
+    "seconds": 15.819,
+    "log": "logs/qa-release-candidate-webkit.log"
+  }
+]

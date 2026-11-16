@@ -1,0 +1,106 @@
+[
+  {
+    "suite": "qa-product-completion",
+    "engine": "chromium",
+    "returncode": 0,
+    "tests": 7,
+    "seconds": 88.253,
+    "log": "logs/qa-product-completion-chromium.log"
+  },
+  {
+    "suite": "qa-shared-recruiting",
+    "engine": "chromium",
+    "returncode": 0,
+    "tests": 7,
+    "seconds": 89.825,
+    "log": "logs/qa-shared-recruiting-chromium.log"
+  },
+  {
+    "suite": "qa-qualification",
+    "engine": "chromium",
+    "returncode": 0,
+    "tests": 3,
+    "seconds": 40.386,
+    "log": "logs/qa-qualification-chromium.log"
+  },
+  {
+    "suite": "qa-recovery",
+    "engine": "chromium",
+    "returncode": 0,
+    "tests": 10,
+    "seconds": 60.782,
+    "log": "logs/qa-recovery-chromium.log"
+  },
+  {
+    "suite": "qa-consolidated",
+    "engine": "chromium",
+    "returncode": 0,
+    "tests": 8,
+    "seconds": 35.843,
+    "log": "logs/qa-consolidated-chromium.log"
+  },
+  {
+    "suite": "qa-nov15",
+    "engine": "chromium",
+    "returncode": 0,
+    "tests": 5,
+    "seconds": 22.524,
+    "log": "logs/qa-nov15-chromium.log"
+  },
+  {
+    "suite": "qa-rss",
+    "engine": "chromium",
+    "returncode": 0,
+    "tests": 5,
+    "seconds": 22.011,
+    "log": "logs/qa-rss-chromium.log"
+  },
+  {
+    "suite": "qa-news-editorial",
+    "engine": "chromium",
+    "returncode": 0,
+    "tests": 3,
+    "seconds": 37.101,
+    "log": "logs/qa-news-editorial-chromium.log"
+  },
+  {
+    "suite": "qa-siem-family",
+    "engine": "chromium",
+    "returncode": 0,
+    "tests": 18,
+    "seconds": 47.394,
+    "log": "logs/qa-siem-family-chromium.log"
+  },
+  {
+    "suite": "qa-20261112",
+    "engine": "chromium",
+    "returncode": 1,
+    "tests": 7,
+    "seconds": 40.853,
+    "log": "logs/qa-20261112-chromium.log"
+  },
+  {
+    "suite": "qa-conformance",
+    "engine": "chromium",
+    "returncode": 0,
+    "tests": 12,
+    "seconds": 36.096,
+    "log": "logs/qa-conformance-chromium.log"
+  },
+  {
+    "suite": "qa-nov13-resume",
+    "engine": "chromium",
+    "returncode": 0,
+    "tests": 7,
+    "seconds": 53.965,
+    "log": "logs/qa-nov13-resume-chromium.log"
+  },
+  {
+    "suite": "qa-release-candidate",
+    "engine": "chromium",
+    "returncode": 0,
+    "tests": 2,
+    "seconds": 23.289,
+    "log": "logs/qa-release-candidate-chromium.log"
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "commit": "11de067414e63c5d3e3e221dfc14cc026dfbd8d0",
+  "files": [
+    {
+      "path": "src/components/portal/ClubSelector.tsx",
+      "githubBlob": "f829b5412dd99208dd56142a2b18c4c7a6adec1b",
+      "localBlob": "f829b5412dd99208dd56142a2b18c4c7a6adec1b",
+      "match": true
+    },
+    {
+      "path": "src/components/portal/ProfileBuilder.tsx",
+      "githubBlob": "c2c820adf86856e753284f3e6c9c7870a6db25fc",
+      "localBlob": "c2c820adf86856e753284f3e6c9c7870a6db25fc",
+      "match": true
+    },
+    {
+      "path": "src/components/portal/CoachShareTab.tsx",
+      "githubBlob": "6246cd2df3e666ec69aa4f44add54afef1868b81",
+      "localBlob": "6246cd2df3e666ec69aa4f44add54afef1868b81",
+      "match": true
+    },
+    {
+      "path": "src/components/portal/CoachProfileCard.tsx",
+      "githubBlob": "0e9d5c71874514bb7e5148d1e22dba50074f1216",
+      "localBlob": "0e9d5c71874514bb7e5148d1e22dba50074f1216",
+      "match": true
+    },
+    {
+      "path": "src/components/portal/CoachProfilePreview.tsx",
+      "githubBlob": "b338601eb082d0bbc3b7810a3c9d67d3af4b883b",
+      "localBlob": "b338601eb082d0bbc3b7810a3c9d67d3af4b883b",
+      "match": true
+    },
+    {
+      "path": "src/components/portal/RecruitingTab.tsx",
+      "githubBlob": "9ea46f1f02d8d52e4fb9f9098179239f5280bb47",
+      "localBlob": "9ea46f1f02d8d52e4fb9f9098179239f5280bb47",
+      "match": true
+    },
+    {
+      "path": "src/components/portal/PlayerScheduleTab.tsx",
+      "githubBlob": "fb8362af91ebc23d679b9b22ec2232bdf31ba4e4",
+      "localBlob": "fb8362af91ebc23d679b9b22ec2232bdf31ba4e4",
+      "match": true
+    },
+    {
+      "path": "src/components/portal/PlayerStatsTab.tsx",
+      "githubBlob": "5c4429494956fd3e6315cfddd28aa360a5abc263",
+      "localBlob": "5c4429494956fd3e6315cfddd28aa360a5abc263",
+      "match": true
+    },
+    {
+      "path": "src/components/portal/PlayerMediaTab.tsx",
+      "githubBlob": "802e52a82f54ceefc467ef852f378fa8defbe2b5",
+      "localBlob": "802e52a82f54ceefc467ef852f378fa8defbe2b5",
+      "match": true
+    },
+    {
+      "path": "src/components/portal/UnifiedFeedWall.tsx",
+      "githubBlob": "2e43d601cf213894b9c91a37f2d7df75249c30af",
+      "localBlob": "2e43d601cf213894b9c91a37f2d7df75249c30af",
+      "match": true
+    },
+    {
+      "path": "src/pages/parent-portal-player-create.tsx",
+      "githubBlob": "2a2a585bf20d4db0c8b84e81ba0f193d60eb5e34",
+      "localBlob": "2a2a585bf20d4db0c8b84e81ba0f193d60eb5e34",
+      "match": true
+    },
+    {
+      "path": "src/server/api/my-soccer/news-feed/GET.ts",
+      "githubBlob": "9ce0371ee4f206966bf1207774536be2c5688137",
+      "localBlob": "9ce0371ee4f206966bf1207774536be2c5688137",
+      "match": true
+    },
+    {
+      "path": "src/App.tsx",
+      "githubBlob": "c9cd620d59ad7929f946a5142e1b1732b87df71f",
+      "localBlob": "c9cd620d59ad7929f946a5142e1b1732b87df71f",
+      "match": true
+    },
+    {
+      "path": "src/routes.tsx",
+      "githubBlob": "bc662607cb6f4bbcd2f87a9598443eaea13c1316",
+      "localBlob": "bc662607cb6f4bbcd2f87a9598443eaea13c1316",
+      "match": true
+    }
+  ]
+}

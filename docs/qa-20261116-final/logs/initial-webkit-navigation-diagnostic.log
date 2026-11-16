@@ -1,0 +1,24 @@
+test_final_A_club_search_attach_family_and_return (__main__.Final.test_final_A_club_search_attach_family_and_return) ... ok
+test_final_BCD_full_recruiting_in_all_four_sports (__main__.Final.test_final_BCD_full_recruiting_in_all_four_sports) ... FAIL
+
+======================================================================
+FAIL: test_final_BCD_full_recruiting_in_all_four_sports (__main__.Final.test_final_BCD_full_recruiting_in_all_four_sports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-consolidated.py", line 17, in tearDown
+    self.assertEqual(self.errors,[]);self.assertEqual(self.writes,[]);self.context.close()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: ['/127.0.0.1:3000/api/rss-news?sport=volle[41 chars]ks.'] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+'/127.0.0.1:3000/api/rss-news?sport=volleyball&sources= due to access control checks.'
+
++ []
+- ['/127.0.0.1:3000/api/rss-news?sport=volleyball&sources= due to access control '
+-  'checks.']
+
+----------------------------------------------------------------------
+Ran 2 tests in 105.209s
+
+FAILED (failures=1)
