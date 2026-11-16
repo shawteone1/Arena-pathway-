@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "lacrosse:rss:nll",
+      "name": "National Lacrosse League",
+      "sport": "lacrosse",
+      "homepage": "https://www.nll.com/",
+      "feedUrl": "https://www.nll.com/feed/",
+      "coverage": [
+        "professional"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T19:21:38.714Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 20,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "lacrosse:rss:nll"
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "lacrosse:rss:world-lacrosse",
+      "name": "World Lacrosse",
+      "sport": "lacrosse",
+      "homepage": "https://worldlacrosse.sport/",
+      "feedUrl": "https://worldlacrosse.sport/feed/",
+      "coverage": [
+        "national"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T19:21:39.394Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 12,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "lacrosse:rss:world-lacrosse"
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "volleyball:rss:volleyballmag",
+      "name": "VolleyballMag",
+      "sport": "volleyball",
+      "homepage": "https://volleyballmag.com/",
+      "feedUrl": "https://volleyballmag.com/feed/",
+      "coverage": [
+        "college",
+        "professional",
+        "youth",
+        "national"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T19:21:40.005Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 10,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "volleyball:rss:volleyballmag"
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "volleyball:rss:volleycountry",
+      "name": "VolleyCountry",
+      "sport": "volleyball",
+      "homepage": "https://volleycountry.com/",
+      "feedUrl": "https://volleycountry.com/feed",
+      "coverage": [
+        "professional",
+        "national"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T19:21:40.545Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 10,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "volleyball:rss:volleycountry"
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "volleyball:rss:world-paravolley",
+      "name": "World ParaVolley",
+      "sport": "volleyball",
+      "homepage": "https://worldparavolley.org/",
+      "feedUrl": "https://worldparavolley.org/feed/",
+      "coverage": [
+        "national",
+        "adaptive"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T19:21:47.484Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 10,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "volleyball:rss:world-paravolley"
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "volleyball:rss:avc",
+      "name": "Asian Volleyball Confederation",
+      "sport": "volleyball",
+      "homepage": "https://asianvolleyball.net/",
+      "feedUrl": "https://asianvolleyball.net/new/feed/",
+      "coverage": [
+        "national"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T19:21:48.638Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 10,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "volleyball:rss:avc"
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "swimming:rss:swimswam",
+      "name": "SwimSwam",
+      "sport": "swimming",
+      "homepage": "https://swimswam.com/",
+      "feedUrl": "https://swimswam.com/feed/",
+      "coverage": [
+        "college",
+        "national",
+        "professional"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T19:21:50.458Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 10,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "swimming:rss:swimswam"
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "swimming:rss:swimming-world",
+      "name": "Swimming World",
+      "sport": "swimming",
+      "homepage": "https://www.swimmingworldmagazine.com/",
+      "feedUrl": "https://www.swimmingworldmagazine.com/news/feed/",
+      "coverage": [
+        "national",
+        "college",
+        "youth"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T19:21:56.197Z",
+        "httpResult": "200 application/rss+xml; charset=UTF-8",
+        "itemCount": 10,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "swimming:rss:swimming-world"
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "basketball:rss:espn-nba",
+      "name": "ESPN NBA",
+      "sport": "basketball",
+      "homepage": "https://www.espn.com/nba/",
+      "feedUrl": "https://www.espn.com/espn/rss/nba/news",
+      "coverage": [
+        "professional"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T19:22:00.971Z",
+        "httpResult": "200 text/xml;charset=UTF-8",
+        "itemCount": 18,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "basketball:rss:espn-nba"
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "basketball:rss:espn-college",
+      "name": "ESPN College Basketball",
+      "sport": "basketball",
+      "homepage": "https://www.espn.com/mens-college-basketball/",
+      "feedUrl": "https://www.espn.com/espn/rss/ncb/news",
+      "coverage": [
+        "college"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T19:22:01.418Z",
+        "httpResult": "200 text/xml;charset=UTF-8",
+        "itemCount": 14,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "basketball:rss:espn-college"
+      },
+      "providerType": "publisher"
+    },
+    {
+      "id": "basketball:rss:cbs-basketball",
+      "name": "CBS Sports Basketball",
+      "sport": "basketball",
+      "homepage": "https://www.cbssports.com/college-basketball/",
+      "feedUrl": "https://www.cbssports.com/rss/headlines/college-basketball/",
+      "coverage": [
+        "college"
+      ],
+      "enabled": false,
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-11-13T19:22:01.595Z",
+        "httpResult": "200 text/xml; charset=UTF-8",
+        "itemCount": 36,
+        "reason": null
+      },
+      "rights": {
+        "status": "pending",
+        "reviewedAt": "2026-11-13T19:24:24.758694+00:00",
+        "evidence": "docs/RSS-PUBLISHER-TERMS.md",
+        "reviewId": "basketball:rss:cbs-basketball"
+      },
+      "providerType": "publisher"
+    }
+  ]
+}
