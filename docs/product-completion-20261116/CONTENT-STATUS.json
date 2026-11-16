@@ -1,0 +1,20 @@
+{
+  "reviewedSources": {
+    "total": 40,
+    "approved": 19,
+    "inactive": 21
+  },
+  "rss": {
+    "retained": 11,
+    "enabled": 0,
+    "pending": 11
+  },
+  "collegePrograms": {
+    "lacrosse": 10,
+    "basketball": 16,
+    "volleyball": 8,
+    "swimming": 9
+  },
+  "verifiedCoachingContacts": 0,
+  "articleImageryApproved": 0
+}

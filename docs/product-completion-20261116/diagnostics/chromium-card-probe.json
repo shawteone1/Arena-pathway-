@@ -1,0 +1,113 @@
+{
+  "athlete": {
+    "id": "2d6c31f6-3a47-4706-8c26-5119645b3d07",
+    "saved": [],
+    "plans": [
+      {
+        "id": "1d45cce8-6fa1-4232-87ed-485504977465",
+        "name": "Synthetic Mon Wed practice",
+        "start": "2026-11-16",
+        "end": "2026-11-16",
+        "kind": "practice",
+        "repeat": "weekly",
+        "until": "2026-11-30",
+        "interval": 1,
+        "days": [
+          1,
+          3
+        ],
+        "startTime": "",
+        "endTime": "",
+        "note": "",
+        "createdAt": "2026-11-16T19:42:36.424Z",
+        "excludedDates": [],
+        "overrides": {}
+      },
+      {
+        "id": "68c9978c-9e3b-4f92-99ad-69352f2ccbdd",
+        "name": "Synthetic competition",
+        "start": "2026-11-20",
+        "end": "2026-11-20",
+        "kind": "game",
+        "repeat": "none",
+        "until": null,
+        "interval": 1,
+        "days": [],
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "note": "",
+        "createdAt": "2026-11-16T19:42:42.223Z",
+        "endTimeEstimated": true,
+        "excludedDates": [],
+        "overrides": {}
+      }
+    ],
+    "recruiting": {
+      "checks": [],
+      "notes": "",
+      "rulesReview": {
+        "sport": "lacrosse",
+        "acknowledged": true,
+        "at": "2026-11-16T19:42:55.191Z"
+      },
+      "parentApproved": false,
+      "approvedFields": [
+        "label",
+        "highSchool",
+        "profileIntroduction",
+        "academics",
+        "stats",
+        "highlights"
+      ],
+      "recordIds": [
+        "4302531f-28f2-4475-9f31-d08aea665663"
+      ],
+      "highlightIds": [
+        "381a74a7-a62a-413d-b0ca-22c479f288cc"
+      ]
+    },
+    "modules": [
+      "teams",
+      "saved",
+      "schedules",
+      "camps",
+      "community"
+    ],
+    "moduleVersion": 2,
+    "region": "all",
+    "goal": "teams",
+    "interests": [],
+    "participationLevel": "any",
+    "participationDesignation": "youth",
+    "mediaEnabled": false,
+    "mediaSources": [],
+    "mediaSourcePreferences": [],
+    "nickname": "Casey Demo",
+    "sport": "lacrosse",
+    "clubTeam": "Family team \u00b7 synthetic",
+    "position": "",
+    "guardian": true,
+    "role": "parent",
+    "clubTeamNeedsReview": false,
+    "clubId": null,
+    "records": [
+      {
+        "id": "4302531f-28f2-4475-9f31-d08aea665663",
+        "eventRef": "68c9978c-9e3b-4f92-99ad-69352f2ccbdd",
+        "metrics": {
+          "Goals": 3
+        },
+        "achievement": "",
+        "notes": ""
+      }
+    ],
+    "ageYears": 16,
+    "ageReviewedAt": "2026-11-16T19:42:55.191Z",
+    "graduationYear": "2028",
+    "highSchool": "Synthetic Completion School",
+    "academicDetails": "Family-reported academic interests",
+    "aboutSport": "Synthetic local athlete introduction"
+  },
+  "card": "CD\nARENA PATHWAY \u00b7 LACROSSE\nCasey Demo\n\nDraft \u00b7 not parent-approved\n\nAbout me\n\nSynthetic local athlete introduction\n\nSchool & academics\n\nSynthetic Completion School\n\nAcademics\n\nFamily-reported academic interests\n\nFamily-reported academic information\n\nSelected competition statistics\n1\nSelected records\n3\nGoals\n\u2014\nAssists\n0 of 1 recorded\n\u2014\nGround balls\n0 of 1 recorded\n\u2014\nSaves\n0 of 1 recorded\n\nPartial records. Missing statistics are shown as \u2014; partial totals include recorded values only.\n\nSynthetic competition\n\n2026-11-20\n\nGoals: 3\n\nStatistics from selected game records only.\n\nSelected highlights\nSynthetic selected game video\nOpen selected highlight\n\nSelected uploads are available only to the owner in this browser. External protected media sharing is not implemented.\n\nPrivate to this browser. Parent-entered information is not verified. External sharing is not connected.",
+  "videos": 0
+}

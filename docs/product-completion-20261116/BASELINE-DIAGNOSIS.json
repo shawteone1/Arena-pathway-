@@ -1,0 +1,18 @@
+{
+  "practiceInMediaDropdown": [
+    "No event selected",
+    "2026-11-20 \u00b7 Synthetic practice",
+    "2026-11-21 \u00b7 Synthetic game"
+  ],
+  "savedOrganization": {
+    "id": "ap-org-9897e9863dd82b75ac18",
+    "inSaved": true,
+    "clubId": null,
+    "clubTeam": "Family team \u00b7 synthetic"
+  },
+  "recruitingAfterSave": {
+    "persisted": "Synthetic diagnostic high school",
+    "formVisible": false,
+    "status": ""
+  }
+}

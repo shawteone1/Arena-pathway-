@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "status": "candidate-only-not-enabled",
+  "note": "Homepage URLs are not RSS endpoints. Never call candidates 'live' without server-side XML verification and publisher rights review. Existing athlete source opt-in must remain authoritative.",
+  "sports": {
+    "lacrosse": [
+      {
+        "id": "usa-lacrosse",
+        "name": "USA Lacrosse",
+        "homepage": "https://www.usalacrosse.com/",
+        "feedUrl": null,
+        "coverage": [
+          "youth",
+          "national",
+          "college"
+        ],
+        "verification": "discovery-needed"
+      },
+      {
+        "id": "inside-lacrosse",
+        "name": "Inside Lacrosse",
+        "homepage": "https://www.insidelacrosse.com/",
+        "feedUrl": null,
+        "coverage": [
+          "college",
+          "professional",
+          "recruiting"
+        ],
+        "verification": "discovery-and-permission-needed"
+      },
+      {
+        "id": "pll-oursportscentral",
+        "name": "PLL · OurSports Central",
+        "homepage": "https://www.oursportscentral.com/sports/premier-lacrosse-league/l-254",
+        "feedUrl": null,
+        "coverage": [
+          "professional"
+        ],
+        "verification": "rss-link-listed-exact-endpoint-unverified"
+      },
+      {
+        "id": "nll",
+        "name": "National Lacrosse League",
+        "homepage": "https://www.nll.com/",
+        "feedUrl": null,
+        "coverage": [
+          "professional"
+        ],
+        "verification": "discovery-needed"
+      },
+      {
+        "id": "world-lacrosse",
+        "name": "World Lacrosse",
+        "homepage": "https://worldlacrosse.sport/",
+        "feedUrl": null,
+        "coverage": [
+          "national"
+        ],
+        "verification": "discovery-needed"
+      }
+    ],
+    "volleyball": [
+      {
+        "id": "volleyballmag",
+        "name": "VolleyballMag",
+        "homepage": "https://volleyballmag.com/",
+        "feedUrl": "https://volleyballmag.com/feed/",
+        "coverage": [
+          "college",
+          "professional",
+          "youth",
+          "national"
+        ],
+        "verification": "rss-content-type-observed-parser-and-rights-validation-needed"
+      },
+      {
+        "id": "volleycountry",
+        "name": "VolleyCountry",
+        "homepage": "https://volleycountry.com/",
+        "feedUrl": null,
+        "coverage": [
+          "professional",
+          "national"
+        ],
+        "verification": "discovery-needed"
+      },
+      {
+        "id": "coaching-volleyball",
+        "name": "Coaching Volleyball",
+        "homepage": "https://coachingvb.com/",
+        "feedUrl": null,
+        "coverage": [
+          "development"
+        ],
+        "verification": "discovery-needed"
+      },
+      {
+        "id": "world-paravolley",
+        "name": "World ParaVolley",
+        "homepage": "https://worldparavolley.org/",
+        "feedUrl": null,
+        "coverage": [
+          "national",
+          "adaptive"
+        ],
+        "verification": "discovery-needed"
+      },
+      {
+        "id": "avc",
+        "name": "Asian Volleyball Confederation",
+        "homepage": "https://asianvolleyball.net/",
+        "feedUrl": null,
+        "coverage": [
+          "national"
+        ],
+        "verification": "discovery-needed"
+      }
+    ],
+    "swimming": [
+      {
+        "id": "swimswam",
+        "name": "SwimSwam",
+        "homepage": "https://swimswam.com/",
+        "feedUrl": "https://swimswam.com/feed/",
+        "coverage": [
+          "college",
+          "national",
+          "professional"
+        ],
+        "verification": "endpoint-unverified"
+      },
+      {
+        "id": "swimswam-podcast",
+        "name": "SwimSwam Podcast",
+        "homepage": "https://swimswam.com/",
+        "feedUrl": "https://feed.podbean.com/swimswam/feed.xml",
+        "coverage": [
+          "podcast"
+        ],
+        "verification": "endpoint-unverified"
+      },
+      {
+        "id": "swimming-world",
+        "name": "Swimming World",
+        "homepage": "https://www.swimmingworldmagazine.com/",
+        "feedUrl": null,
+        "coverage": [
+          "national",
+          "college",
+          "youth"
+        ],
+        "verification": "discovery-needed"
+      },
+      {
+        "id": "usa-swimming",
+        "name": "USA Swimming",
+        "homepage": "https://www.usaswimming.org/",
+        "feedUrl": null,
+        "coverage": [
+          "national",
+          "youth"
+        ],
+        "verification": "discovery-needed"
+      }
+    ],
+    "basketball": [
+      {
+        "id": "espn-nba",
+        "name": "ESPN NBA",
+        "homepage": "https://www.espn.com/nba/",
+        "feedUrl": "https://www.espn.com/espn/rss/nba/news",
+        "coverage": [
+          "professional"
+        ],
+        "verification": "anti-bot-html-seen-not-approved"
+      },
+      {
+        "id": "espn-college",
+        "name": "ESPN College Basketball",
+        "homepage": "https://www.espn.com/mens-college-basketball/",
+        "feedUrl": null,
+        "coverage": [
+          "college"
+        ],
+        "verification": "discovery-needed"
+      },
+      {
+        "id": "cbs-basketball",
+        "name": "CBS Sports Basketball",
+        "homepage": "https://www.cbssports.com/college-basketball/",
+        "feedUrl": null,
+        "coverage": [
+          "professional",
+          "college"
+        ],
+        "verification": "discovery-needed"
+      },
+      {
+        "id": "slam",
+        "name": "SLAM",
+        "homepage": "https://www.slamonline.com/",
+        "feedUrl": "https://www.slamonline.com/feed/",
+        "coverage": [
+          "professional",
+          "youth"
+        ],
+        "verification": "403-blocked-not-approved"
+      },
+      {
+        "id": "nba",
+        "name": "NBA",
+        "homepage": "https://www.nba.com/",
+        "feedUrl": null,
+        "coverage": [
+          "professional"
+        ],
+        "verification": "discovery-needed"
+      }
+    ]
+  }
+}

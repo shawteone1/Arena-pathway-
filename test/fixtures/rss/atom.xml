@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Synthetic Atom</title><entry><id>atom-1</id><title>National news &amp; results</title><link rel="self" href="https://news.example/api/1"/><link rel="alternate" href="https://news.example/atom?utm_medium=rss"/><summary type="html">&lt;p&gt;Clean summary&lt;/p&gt;</summary><author><name>Writer</name></author><published>2026-11-12T12:00:00Z</published><category term="Youth"/></entry></feed>

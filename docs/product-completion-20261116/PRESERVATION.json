@@ -1,0 +1,20 @@
+{
+  "baseline": "4005ec7aba31263c8db16957b7b48bd912c98b91",
+  "existingProtectedFilesChecked": 222,
+  "existingProtectedFilesChanged": [],
+  "aggregateSHA256": "39164f1d3a294dc43f198ef54e9f82d4fc43a035620dc50b0e3ebd91df213e75",
+  "rssSourceCommit": "1730221a163f7cfe32a40d2c31c371275018c0f5",
+  "reusedRSSFiles": {
+    "data/rss-endpoint-verification.json": true,
+    "data/rss-feed-catalog.json": true,
+    "data/rss-final-verification.json": true,
+    "data/rss-rights-review.json": true,
+    "data/rss-source-candidates.json": true,
+    "src/rss-feed.mjs": true,
+    "public/rss-news.js": true
+  },
+  "stableBranches": {
+    "codex/shared-recruiting-20261115": "4005ec7aba31263c8db16957b7b48bd912c98b91",
+    "codex/ap-rss-news-feed": "1730221a163f7cfe32a40d2c31c371275018c0f5"
+  }
+}

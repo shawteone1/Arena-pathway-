@@ -1,0 +1,53 @@
+{
+  "journeys": [
+    {
+      "sport": "lacrosse",
+      "athleteId": "48db89a4-d8b3-45bb-ac8f-f56216bbe9cc",
+      "schoolId": "du-lacrosse-men",
+      "schoolName": "Denver Men\u2019s Lacrosse",
+      "eventRef": "891436ef-ad0e-4513-845f-98a7ca06794c",
+      "recordId": "6eeb8907-3ac4-4621-a972-4d5c5014ea58",
+      "parentRevoked": true,
+      "videoPlayback": true,
+      "athleteCount": 1,
+      "planCount": 1
+    },
+    {
+      "sport": "basketball",
+      "athleteId": "0a3ae265-ca98-497a-ad04-95e51d7570a1",
+      "schoolId": "du-basketball-men",
+      "schoolName": "Denver Men\u2019s Basketball",
+      "eventRef": "4162b36f-e477-4887-99df-38451eb29be5",
+      "recordId": "cf26ec50-9564-4075-8b24-8e862abbe190",
+      "parentRevoked": true,
+      "videoPlayback": true,
+      "athleteCount": 1,
+      "planCount": 1
+    },
+    {
+      "sport": "volleyball",
+      "athleteId": "7e99271f-7f5b-434d-9f79-3d0cbf10fd96",
+      "schoolId": "du-volleyball-women",
+      "schoolName": "Denver Women\u2019s Volleyball",
+      "eventRef": "ef29e756-6e12-41e1-bdc0-793f1db03ea9#a363e87a-bd6d-43d1-bb2b-d23e8df2ccdb",
+      "recordId": "4a6eddad-f44d-484a-aa9c-ce2cd3e5408b",
+      "parentRevoked": true,
+      "videoPlayback": true,
+      "athleteCount": 1,
+      "planCount": 1
+    },
+    {
+      "sport": "swimming",
+      "athleteId": "5f5db8a7-a323-4b9d-b53f-957c1e3d8421",
+      "schoolId": "du-swimming-men",
+      "schoolName": "Denver Men\u2019s Swimming & Diving",
+      "eventRef": "54e6d677-0286-4e39-9d61-dfaec8f67749#a89fd3a5-d5fa-4abb-9db6-904ea4fff0c9",
+      "recordId": "c47ec2a0-dca4-43ff-b1f1-e2ef077746a1",
+      "parentRevoked": true,
+      "videoPlayback": true,
+      "athleteCount": 1,
+      "planCount": 1
+    }
+  ],
+  "externalWrites": []
+}

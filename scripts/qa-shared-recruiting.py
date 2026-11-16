@@ -1,8 +1,9 @@
+import os
 """SC-derived shared recruiting journeys: actual AP DOM, synthetic private inputs only."""
 import importlib.util,unittest,json,base64
 from pathlib import Path
 s=importlib.util.spec_from_file_location('prior',Path(__file__).with_name('qa-consolidated.py'));base=importlib.util.module_from_spec(s);s.loader.exec_module(base)
-OUT=Path('docs/shared-recruiting-20261115/after');OUT.mkdir(parents=True,exist_ok=True)
+OUT=Path(os.environ.get('ARENA_COMPLETION_OUT','docs/shared-recruiting-20261115/after'));OUT.mkdir(parents=True,exist_ok=True)
 class SharedRecruiting(base.Consolidated):
  def setUp(self):super().setUp();self.page.set_default_timeout(15000)
  def shot(self,name,selector=None):

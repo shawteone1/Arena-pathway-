@@ -1,0 +1,248 @@
+{
+  "baseline": "4005ec7aba31263c8db16957b7b48bd912c98b91",
+  "branch": "codex/ap-product-completion-20261116",
+  "rssCommit": "1730221a163f7cfe32a40d2c31c371275018c0f5",
+  "referenceCommit": "11de067414e63c5d3e3e221dfc14cc026dfbd8d0",
+  "automated": {
+    "check": {
+      "command": "npm run check",
+      "tests": 297,
+      "passed": 297,
+      "failed": 0,
+      "skipped": 0
+    },
+    "test": {
+      "command": "npm test",
+      "tests": 297,
+      "passed": 297,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "browsers": {
+    "chromium": {
+      "uniqueCases": 66,
+      "passed": 66,
+      "failed": 0,
+      "skipped": 0,
+      "suites": [
+        {
+          "suite": "new",
+          "command": "python scripts/qa-product-completion.py",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 92.842,
+          "log": "logs/new-chromium.log"
+        },
+        {
+          "suite": "shared",
+          "command": "python scripts/qa-shared-recruiting.py",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 107.939,
+          "log": "logs/shared-chromium.log"
+        },
+        {
+          "suite": "qualification",
+          "command": "python scripts/qa-qualification.py",
+          "tests": 3,
+          "passed": 3,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 42.213,
+          "log": "logs/qualification-chromium.log"
+        },
+        {
+          "suite": "recovery",
+          "command": "python scripts/qa-recovery.py",
+          "tests": 10,
+          "passed": 10,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 77.775,
+          "log": "logs/recovery-chromium.log"
+        },
+        {
+          "suite": "consolidated",
+          "command": "python scripts/qa-consolidated.py",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 64.317,
+          "log": "logs/consolidated-chromium.log"
+        },
+        {
+          "suite": "nov15",
+          "command": "python scripts/qa-nov15.py",
+          "tests": 5,
+          "passed": 5,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 26.99,
+          "log": "logs/nov15-chromium.log"
+        },
+        {
+          "suite": "rss",
+          "command": "python scripts/qa-rss.py",
+          "tests": 5,
+          "passed": 5,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 23.867,
+          "log": "logs/rss-chromium.log"
+        },
+        {
+          "suite": "editorial",
+          "command": "python scripts/qa-news-editorial.py",
+          "tests": 3,
+          "passed": 3,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 38.399,
+          "log": "logs/editorial-chromium.log"
+        },
+        {
+          "suite": "siem-family",
+          "command": "python scripts/qa-siem-family.py",
+          "tests": 18,
+          "passed": 18,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 70.76,
+          "log": "logs/siem-family-chromium.log"
+        }
+      ],
+      "viewports": [
+        "1440x900",
+        "810x1080",
+        "390x844"
+      ],
+      "runtime": "Chromium156"
+    },
+    "webkit": {
+      "uniqueCases": 53,
+      "passed": 53,
+      "failed": 0,
+      "skipped": 0,
+      "suites": [
+        {
+          "suite": "new",
+          "command": "python scripts/qa-product-completion.py",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 103.354,
+          "log": "logs/new-webkit.log"
+        },
+        {
+          "suite": "shared",
+          "command": "python scripts/qa-shared-recruiting.py",
+          "tests": 7,
+          "passed": 7,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 61.722,
+          "log": "logs/shared-webkit.log"
+        },
+        {
+          "suite": "qualification",
+          "command": "python scripts/qa-qualification.py",
+          "tests": 3,
+          "passed": 3,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 39.329,
+          "log": "logs/qualification-webkit.log"
+        },
+        {
+          "suite": "recovery",
+          "command": "python scripts/qa-recovery.py",
+          "tests": 10,
+          "passed": 10,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 62.25,
+          "log": "logs/recovery-webkit.log"
+        },
+        {
+          "suite": "consolidated",
+          "command": "python scripts/qa-consolidated.py",
+          "tests": 8,
+          "passed": 8,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 77.265,
+          "log": "logs/consolidated-webkit.log"
+        },
+        {
+          "suite": "nov15",
+          "command": "python scripts/qa-nov15.py",
+          "tests": 5,
+          "passed": 5,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 24.91,
+          "log": "logs/nov15-webkit.log"
+        },
+        {
+          "suite": "rss",
+          "command": "python scripts/qa-rss.py",
+          "tests": 5,
+          "passed": 5,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 33.051,
+          "log": "logs/rss-webkit.log"
+        },
+        {
+          "suite": "editorial",
+          "command": "python scripts/qa-news-editorial.py",
+          "tests": 3,
+          "passed": 3,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 45.173,
+          "log": "logs/editorial-webkit.log"
+        },
+        {
+          "suite": "siem",
+          "command": "python scripts/qa-siem-webkit.py",
+          "tests": 5,
+          "passed": 5,
+          "failed": 0,
+          "skipped": 0,
+          "seconds": 22.308,
+          "log": "logs/siem-webkit.log"
+        }
+      ],
+      "viewports": [
+        "1440x900",
+        "810x1080",
+        "390x844"
+      ],
+      "runtime": "Local WPE WebKit; WEBKIT_PATH=/workspace/scratch/webkit-local.sh"
+    }
+  },
+  "physicalDeviceCertification": false,
+  "verdict": "NOT READY FOR USER ACCEPTANCE",
+  "blockedGates": [
+    "Current authenticated Soccer Center visual comparisons",
+    "Physical iPad/iPhone acceptance",
+    "Publisher use permission for live RSS/article images",
+    "Verified coaching-contact coverage"
+  ],
+  "diagnosticHistory": [
+    "Environment reconnect stopped development server; files preserved and server restarted before rerunning tests.",
+    "Initial new-harness hidden labels and exact link-text match corrected without weakening data/privacy assertions.",
+    "WebKit native checkbox failures exposed full-workspace reconstruction; native controls now retained.",
+    "Reviewed-source preference overwrite exposed by RSS integration tests; preferences now merge with current athlete.",
+    "Two WebKit recovery runs exceeded the unchanged 10-second network-idle wait under concurrency; final standalone and full-suite reruns pass. Pending-request diagnostics were added, not forced clicks or extended timeouts."
+  ],
+  "additionalAffectedReruns": "Two navigation cases per engine and one standalone WebKit asset case; duplicates, not counted as additional unique cases."
+}

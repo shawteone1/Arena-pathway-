@@ -1,0 +1,62 @@
+[
+  {
+    "experience": "Club / program choices",
+    "difference": "SC anonymous demo selectors; protected ClubSelector is source-inspected. AP searches reviewed clubs in a scrollable list with a manual fallback. This is not an authenticated-portal parity claim.",
+    "sc": "sc-current-demo.png",
+    "ap": "chromium-club-search-onboarding.png"
+  },
+  {
+    "experience": "Athlete onboarding",
+    "difference": "SC authenticated creation is blocked by sign-in. AP creation completes to an athlete profile; full rendered SC onboarding comparison remains BLOCKED.",
+    "sc": "sc-current-parent-auth.png",
+    "ap": "chromium-onboarding-finished-profile.png"
+  },
+  {
+    "experience": "Athlete profile",
+    "difference": "Both organize identity and athlete sections. AP retains its collegiate identity, browser-only privacy and sport fields; SC public demo uses fictional soccer/club data.",
+    "sc": "sc-current-profile.png",
+    "ap": "chromium-athlete.png"
+  },
+  {
+    "experience": "Scheduling",
+    "difference": "AP shares stable athlete occurrences into SIEM; Mon/Wed and one-time competitions are tested. Different fictional dates/athletes are shown, not identical event data.",
+    "sc": "sc-current-schedule.png",
+    "ap": "chromium-athlete-month.png"
+  },
+  {
+    "experience": "Media gallery",
+    "difference": "AP uploads are local and competition-selectable, while historical practice refs remain editable. SC has richer protected assignment/collection services, which are not imported.",
+    "sc": "sc-current-media.png",
+    "ap": "chromium-competition-gallery.png"
+  },
+  {
+    "experience": "College discovery",
+    "difference": "Same research-first hierarchy. AP has 43 reviewed four-sport program rows and zero verified coaching contacts; SC soccer contacts are not imported as other sports.",
+    "sc": "sc-current-recruiting.png",
+    "ap": "chromium-lacrosse-schools.png"
+  },
+  {
+    "experience": "Athlete information entry",
+    "difference": "AP edits the existing athlete, shows saved values/confirmation and preserves context. SC public builder demonstrates its own soccer/education fields; no shared production backend is claimed.",
+    "sc": "sc-current-builder.png",
+    "ap": "chromium-recruiting-saved-information.png"
+  },
+  {
+    "experience": "Parent-controlled field selection",
+    "difference": "AP canonical field keys/projection were ported in the shared recruiting baseline. Selections remain all-off until chosen. The SC capture is its demo builder, not a new authenticated guardian selection session.",
+    "sc": "sc-current-builder.png",
+    "ap": "chromium-parent-field-selection.png"
+  },
+  {
+    "experience": "Finished coach card",
+    "difference": "Actual rendered SC demo and actual AP shared card; compare hierarchy rather than fictional performance values. AP selected local video plays on user request; no external secure coach sharing.",
+    "sc": "sc-current-coach-card.png",
+    "ap": "chromium-lacrosse-coach-card.png"
+  },
+  {
+    "experience": "News / feeds",
+    "difference": "SC protected My Feed cannot be captured without sign-in. Its actual UnifiedFeedWall/news-feed source was inspected; AP uses permitted illustrative photography and explicit snapshot/RSS distinctions. Rendered protected-feed parity remains BLOCKED.",
+    "sc": "sc-current-parent-auth.png",
+    "ap": "chromium-lacrosse-feed-ipad.png"
+  }
+]

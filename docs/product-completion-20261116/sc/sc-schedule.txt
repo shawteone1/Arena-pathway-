@@ -1,0 +1,320 @@
+PARENT PORTAL
+Switch to Fan Arena
+Demo — fictional players and records. Club names are illustrative; no live club integration.
+Reset demo
+Back
+Colorado Storm · Connected Club Demo
+
+Best: connected club experience — simulated · Fall 2026 (Sep 6 – Nov 22). Explore how club-supplied teams, rosters and schedules could populate one parent view. Programs and venues are examples; recruiting sharing remains parent-controlled.
+
+Choose club, team & player
+Season: Fall 2026 (Sep 6 – Nov 22)
+1. Club
+— Select a club —
+Colorado Storm
+Colorado Rapids Youth
+FC Denver
+2. Program
+— Select a program —
+Select (sample)
+Competitive (sample)
+3. Age group
+— Select an age group —
+U14
+U15
+U16
+4. Team
+— Select a team —
+Colorado Storm Competitive U16
+5. Player
+— Select a player —
+#1 Avery Barker — Forward
+#2 Blake Castillo — Forward
+#3 Cameron Delgado — Midfielder
+#4 Dakota Espinoza — Midfielder
+#5 Emery Flores — Midfielder
+#6 Finley Guerrero — Defender
+#7 Harper Herrera — Defender
+#8 Jordan Ibarra — Defender
+#9 Kennedy Jimenez — Defender
+#10 Logan Keller — Goalkeeper
+#11 Morgan Lara — Forward
+#12 Parker Medina — Midfielder
+#13 Quinn Navarro — Defender
+#14 Riley Ochoa — Midfielder
+#15 Skyler Pena — Forward
+Player selected — profile loaded below.
+Team
+
+Colorado Storm Competitive U16
+
+Sample competitive league · Fall 2026
+
+15 sample players · 8 games · 30 practices
+
+AB
+Storm
+
+JPEG or PNG · max ~150 KB · tap avatar to change
+
+Avery Barker
+
+Forward · #1 · U16
+
+Sample competitive league
+Fall 2026
+Club
+Colorado Storm
+Team
+Colorado Storm Competitive U16
+Birth year
+2010
+Preferred foot
+Left
+Profile
+Schedule
+Stats
+Media
+Tryouts
+Recruiting
+List
+Calendar
+All
+Games
+Practices
+
+vs FC Boulder
+
+Home
+Sun, Sep 6
+10:00 AM–11:30 AM
+Infinity Park, Glendale
+
+@ Denver United
+
+Away
+Sun, Sep 13
+10:00 AM–11:30 AM
+Various — see team app
+
+vs Pikes Peak FC
+
+Home
+Sun, Sep 20
+10:00 AM–11:30 AM
+Infinity Park, Glendale
+
+@ Northern Colorado SC
+
+Away
+Sun, Sep 27
+10:00 AM–11:30 AM
+Various — see team app
+
+vs Aurora FC
+
+Home
+Sun, Oct 4
+10:00 AM–11:30 AM
+Infinity Park, Glendale
+
+@ Lakewood SC
+
+Away
+Sun, Oct 18
+10:00 AM–11:30 AM
+Various — see team app
+
+vs Highlands Ranch FC
+
+Home
+Sun, Nov 1
+10:00 AM–11:30 AM
+Infinity Park, Glendale
+
+@ Centennial United
+
+Away
+Sun, Nov 15
+10:00 AM–11:30 AM
+Various — see team app
+
+Team Practice
+
+Tue, Sep 8
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Thu, Sep 10
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Sat, Sep 12
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Tue, Sep 15
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Thu, Sep 17
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Sat, Sep 19
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Tue, Sep 22
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Thu, Sep 24
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Sat, Sep 26
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Tue, Sep 29
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Thu, Oct 1
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Sat, Oct 3
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Tue, Oct 6
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Thu, Oct 8
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Sat, Oct 10
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Tue, Oct 20
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Thu, Oct 22
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Sat, Oct 24
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Tue, Oct 27
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Thu, Oct 29
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Sat, Oct 31
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Tue, Nov 3
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Thu, Nov 5
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Sat, Nov 7
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Tue, Nov 10
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Thu, Nov 12
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Sat, Nov 14
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Tue, Nov 17
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Thu, Nov 19
+4:30 PM–6:00 PM
+Sample training venue — demonstration only
+
+Team Practice
+
+Sat, Nov 21
+4:30 PM–6:00 PM
+Sample training venue — demonstration only

@@ -100,7 +100,7 @@ test('seven independent workspace modules keep saved records and optional recrui
 test('first-party profiles and hierarchy routes work, while unknown sports and bogus organizations stay 404',async t=>{
  const server=createServer();await new Promise(r=>server.listen(0,'127.0.0.1',r));t.after(()=>new Promise(r=>server.close(r)));const base='http://127.0.0.1:'+server.address().port;
  for(const sport of ['lacrosse','volleyball','basketball','swimming'])for(const section of ['youth','high-school','college','adult','professional','community','schedules'])assert.equal((await fetch(base+'/sports/'+sport+'/'+section)).status,200,sport+'/'+section);
- let html=await(await fetch(base+'/organizations/denver-juniors?sport=volleyball')).text();assert.match(html,/Actual teams &amp; divisions|Actual teams & divisions/);assert.match(html,/Denver Juniors 11 Kiki/);assert.match(html,/Save organization to My Teams/);
+ let html=await(await fetch(base+'/organizations/denver-juniors?sport=volleyball')).text();assert.match(html,/Actual teams &amp; divisions|Actual teams & divisions/);assert.match(html,/Denver Juniors 11 Kiki/);assert.match(html,/Save opportunity/);assert.match(html,/data-my-club="denver-juniors"/);assert.match(html,/Save as My Club/);
  html=await(await fetch(base+'/organizations/3d-colorado?sport=lacrosse')).text();assert.match(html,/classification needs review/);
  assert.equal((await fetch(base+'/organizations/missing')).status,404);assert.equal((await fetch(base+'/sports/football/youth')).status,404);assert.equal((await fetch(base+'/api/data/directory?sport=swimming&designation=all')).status,400);
  const report=await(await fetch(base+'/api/data/classification')).json();assert.ok(report.exceptionCount>0);assert.equal(report.statewideComplete,false);
