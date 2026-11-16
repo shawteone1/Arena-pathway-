@@ -1,0 +1,107 @@
+{
+  "checkedAt": "2026-11-16T18:31:07.033Z",
+  "results": [
+    {
+      "id": "lacrosse:rss:nll",
+      "status": 200,
+      "articles": 20,
+      "articlesWithImageCandidates": 11,
+      "origins": [
+        "embedded-image"
+      ],
+      "displayPermission": "Not approved; fallback photography only"
+    },
+    {
+      "id": "lacrosse:rss:world-lacrosse",
+      "status": 200,
+      "articles": 12,
+      "articlesWithImageCandidates": 1,
+      "origins": [
+        "embedded-image"
+      ],
+      "displayPermission": "Not approved; fallback photography only"
+    },
+    {
+      "id": "volleyball:rss:volleyballmag",
+      "status": 200,
+      "articles": 10,
+      "articlesWithImageCandidates": 0,
+      "origins": [],
+      "displayPermission": "Not approved; fallback photography only"
+    },
+    {
+      "id": "volleyball:rss:volleycountry",
+      "status": 200,
+      "articles": 10,
+      "articlesWithImageCandidates": 2,
+      "origins": [
+        "embedded-image"
+      ],
+      "displayPermission": "Not approved; fallback photography only"
+    },
+    {
+      "id": "volleyball:rss:world-paravolley",
+      "status": 200,
+      "articles": 10,
+      "articlesWithImageCandidates": 7,
+      "origins": [
+        "embedded-image"
+      ],
+      "displayPermission": "Not approved; fallback photography only"
+    },
+    {
+      "id": "volleyball:rss:avc",
+      "status": 200,
+      "articles": 10,
+      "articlesWithImageCandidates": 1,
+      "origins": [
+        "embedded-image"
+      ],
+      "displayPermission": "Not approved; fallback photography only"
+    },
+    {
+      "id": "swimming:rss:swimswam",
+      "status": 200,
+      "articles": 10,
+      "articlesWithImageCandidates": 10,
+      "origins": [
+        "embedded-image"
+      ],
+      "displayPermission": "Not approved; fallback photography only"
+    },
+    {
+      "id": "swimming:rss:swimming-world",
+      "status": 200,
+      "articles": 10,
+      "articlesWithImageCandidates": 0,
+      "origins": [],
+      "displayPermission": "Not approved; fallback photography only"
+    },
+    {
+      "id": "basketball:rss:espn-nba",
+      "status": 200,
+      "articles": 19,
+      "articlesWithImageCandidates": 0,
+      "origins": [],
+      "displayPermission": "Not approved; fallback photography only"
+    },
+    {
+      "id": "basketball:rss:espn-college",
+      "status": 200,
+      "articles": 13,
+      "articlesWithImageCandidates": 0,
+      "origins": [],
+      "displayPermission": "Not approved; fallback photography only"
+    },
+    {
+      "id": "basketball:rss:cbs-basketball",
+      "status": 200,
+      "articles": 36,
+      "articlesWithImageCandidates": 36,
+      "origins": [
+        "enclosure"
+      ],
+      "displayPermission": "Not approved; fallback photography only"
+    }
+  ]
+}

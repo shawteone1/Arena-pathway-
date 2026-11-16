@@ -21,6 +21,21 @@ export function safeFeedURL(value,host){
 export function articleURL(value){
  try{const u=new URL(value);if(!['http:','https:'].includes(u.protocol)||u.username||u.password||isIP(u.hostname)||!u.hostname.includes('.')||/\.(local|localhost|internal)$/i.test(u.hostname))return null;u.hash='';for(const k of [...u.searchParams.keys()])if(/^(utm_.+|fbclid|gclid|mc_cid|mc_eid)$/i.test(k))u.searchParams.delete(k);u.searchParams.sort();return u.href;}catch{return null;}
 }
+// Candidates are diagnostic metadata only, never a rights grant or a browser image URL.
+export function imageCandidates(raw){
+ const found=[];
+ const add=(value,origin)=>{const url=articleURL(value);if(url&&new URL(url).protocol==='https:'&&!found.some(i=>i.url===url)&&found.length<6)found.push({url,origin,displayApproved:false});};
+ for(const group of [raw, ...array(raw['media:group'])]){
+  for(const tag of ['media:thumbnail','media:content'])for(const image of array(group?.[tag])){
+   if(tag==='media:thumbnail'||image?.['@_medium']==='image'||/^image\//i.test(image?.['@_type']||''))add(image?.['@_url'],tag);
+  }
+ }
+ for(const enclosure of [...array(raw.enclosure),...array(raw.link).filter(l=>l?.['@_rel']==='enclosure')])if(/^image\//i.test(enclosure?.['@_type']||''))add(enclosure['@_url']??enclosure['@_href'],'enclosure');
+ for(const html of [raw['content:encoded'],raw.description,raw.content,raw.summary]){
+  if(!html)continue;const doc=load(String(scalar(html)));doc('img[src]').each((_i,img)=>add(doc(img).attr('src'),'embedded-image'));
+ }
+ return found;
+}
 export function normalizeFeed(xml,source,now=Date.now()){
  if(Buffer.byteLength(xml)>MAX_BYTES||/<!DOCTYPE|<!ENTITY/i.test(xml)||XMLValidator.validate(xml)!==true)throw Error('Invalid XML');
  const data=new XMLParser({ignoreAttributes:false,processEntities:true,trimValues:true}).parse(xml);
@@ -33,7 +48,7 @@ export function normalizeFeed(xml,source,now=Date.now()){
   // Only explicit category labels, or a single-purpose source's coverage, establish topics.
   const topics=TOPICS.filter(t=>labels.some(l=>({national:/national|olympic|international/,professional:/professional|\bpro\b|\bnba\b|\bnll\b/,college:/college|ncaa/,youth:/youth|high school|junior/,recruiting:/recruit/,development:/development|coaching|training/,podcast:/podcast/}[t]).test(l)));
   if(!topics.length&&source.coverage.length===1&&TOPICS.includes(source.coverage[0]))topics.push(source.coverage[0]);
-  items.push({id:text(raw.guid??raw.id,500)||url,title,url,summary:text(raw.description??raw.summary??raw['content:encoded']??raw.content),author:text(raw['dc:creator']??raw.author?.name??raw.author,120)||null,publishedAt:new Date(published).toISOString(),publisher:source.name,sourceId:source.id,sport:source.sport,topics});
+  items.push({id:text(raw.guid??raw.id,500)||url,title,url,summary:text(raw.description??raw.summary??raw['content:encoded']??raw.content),author:text(raw['dc:creator']??raw.author?.name??raw.author,120)||null,publishedAt:new Date(published).toISOString(),publisher:source.name,sourceId:source.id,sport:source.sport,topics,imageCandidates:imageCandidates(raw)});
  }
  return deduplicate(items);
 }

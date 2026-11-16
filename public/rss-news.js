@@ -1,3 +1,4 @@
+import {addEditorialCover} from './news-editorial.js';
 // Public news only. Subscriptions stay on the existing athlete record.
 export const TOPICS=[['','All news'],['professional','Professional'],['college','College'],['national','National / Olympic'],['youth','Youth'],['recruiting','Recruiting'],['development','Development'],['podcast','Podcast']];
 const node=(tag,text)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n;};
@@ -57,12 +58,12 @@ export function mountRSSNews(target,profile,{update,notify}){
   const old=publisher.value;publisher.replaceChildren(new Option('All selected publishers',''));for(const p of followed)publisher.add(new Option(p.name,p.id));if([...publisher.options].some(o=>o.value===old))publisher.value=old;
   following.replaceChildren();for(const p of followed){const remove=node('button',p.name+' ×');remove.type='button';remove.setAttribute('aria-label','Unfollow '+p.name);remove.addEventListener('click',()=>setSelection(p,false));following.append(remove);}
   const items=selectNews(data,{...profile,contentSubscriptions:[...selected]},publisher.value,topics.value);list.replaceChildren();
-  for(const item of items){
+  for(const [index,item] of items.entries()){
    const card=node('article');card.className='record editorial-card';const body=node('div');body.className='editorial-body';const badge=node('span',item.publisher);badge.className='publisher-label';
    const h=node('h4');h.append(articleLink(item.title,item.url,'news-headline'));const time=node('time',dateLabel(item.publishedAt));time.dateTime=item.publishedAt;
    body.append(badge,h,time);if(item.author)body.append(node('small','By '+item.author));if(item.summary)body.append(node('p',item.summary));body.append(articleLink('Read article',item.url));
    const p=data.publishers.find(p=>p.id===item.sourceId);if(p?.lastSuccessAt){const stamp=node('p',(p.status==='stale'?'Updates delayed · Last updated ':'Updated ')+dateLabel(p.lastSuccessAt));stamp.className='rss-freshness';body.append(stamp);}
-   card.append(body);list.append(card);
+   card.append(body);list.append(card);addEditorialCover(card,item,profile.sport,index===0);
   }
   if(!items.length&&approved.length){
    const empty=node('div');empty.className='editorial-empty';empty.append(node('h4',followed.length?'No stories in this view':'Make it your feed'),node('p',followed.length?'Try another category or publisher.':'Choose the publishers you want to follow.'));
