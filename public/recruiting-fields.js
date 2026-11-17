@@ -5,6 +5,7 @@ export const COACH_PROFILE_FIELDS=Object.freeze([
  {key:'label',label:'athlete name',group:'identity',description:'Existing athlete display name'},
  {key:'ageBand',label:'age group',group:'identity',description:'Parent-entered participation category'},
  {key:'graduationYear',label:'graduation year',group:'identity',description:'Existing expected graduation year'},
+ {key:'jersey',label:'jersey / lane label',group:'identity',description:'Existing athlete-entered number or lane label'},
  {key:'photo',label:'athlete photo',group:'identity',description:'Existing photo, owner preview only; not external sharing'},
  {key:'primaryPosition',label:'primary position / event',group:'positions',description:'Existing sport position or event'},
  {key:'secondaryPosition',label:'secondary position / event',group:'positions',description:'Existing secondary role'},
@@ -24,7 +25,7 @@ export const COACH_PROFILE_FIELDS=Object.freeze([
 // Direct JavaScript port of SC's allowlisted output mapping/filter. AP adds
 // measurements and schoolLocation; unsupported soccer/contact/internal keys stay absent.
 const FIELD_OUTPUTS={
- label:['label'],ageBand:['ageBand'],graduationYear:['graduationYear'],photo:['avatarUrl'],
+ label:['label'],jersey:['jersey'],ageBand:['ageBand'],graduationYear:['graduationYear'],photo:['avatarUrl'],
  primaryPosition:['primaryPosition'],secondaryPosition:['secondaryPosition'],
  clubName:['clubName','teamName'],athleticHistory:['athleticHistory'],playingLevel:['playingLevel'],
  profileIntroduction:['profileIntroduction'],collegeGoals:['collegeGoals'],

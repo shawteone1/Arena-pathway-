@@ -1,0 +1,527 @@
+
+> arena-pathway@0.7.0 check
+> node --check public/athlete-identity.js && node --check public/catalog-records.js && node --check public/family-home.js && node --check public/parent-home.js && node --check public/athlete-experience.js && node --check public/athlete-lifecycle.js && node --check public/recruiting-experience.js && node --check public/recruiting-composition.js && node --check public/athlete-portfolio.js && node --check public/siem-additions.js && node --check public/directory-search.js && node --check src/rss-feed.mjs && node --check public/rss-news.js && node --check public/family-setup.js && node --check src/asset-contract.mjs && node --check public/asset-health.js && node --check public/schedule-entry.js && node --check public/competition-records.js && node --check public/recruiting-fields.js && node --check public/recruiting-sports.js && node --check public/recruiting-profile.js && node --check public/recruiting-directory.js && node --check public/coach-card.js && node --check public/recruiting-builder.js && node --check public/club-association.js && node --check public/news-editorial.js && node --check public/lockedin-demo.js && node --check public/lockedin-demo-model.js && node --check public/meet-sessions.js && node --check public/schedule-presentation.js && node --check public/swimming-progress.js && node --check src/consolidated-views.mjs && node --check public/athlete-journey.js && node --check public/college-research.js && node --check public/siem-guidance.js && node --check server.mjs && node --check src/views.mjs && node --check public/app.js && node --check public/profile-qa.js && node --check public/content-library.js && node --check public/recurring-plans.js && node --check public/calendar-import.js && node --check public/athlete-records.js && node --check public/media-library.js && node --check public/local-family-calendar.js && node --check public/siem.js && node --check public/siem-model.js && node --check src/siem-view.mjs && node --check src/release-views.mjs && node --check public/release-demo.js && node --check public/release-demo-model.js && node --check public/siem-platform.js && node --check public/siem-platform-model.js && node --check public/siem-platform-fixtures.js && node --check src/siem-platform-view.mjs && node --check public/siem-family-fixtures.js && node --check public/siem-platform-boot.js && node --check src/siem-navigation.mjs && npm run validate:data && npm run validate:participation && npm run discovery:check && npm test
+
+
+> arena-pathway@0.7.0 validate:data
+> node scripts/validate-data.mjs
+
+Catalog: PASS
+Counts: {"organizations":32,"teams":68,"schools":3,"leagues":3,"divisions":9}
+Western Slope member table: 16/16 — snapshot-complete
+Willow Creek III division table: 5/5 — snapshot-complete
+Denver Juniors West team navigation: 18/18 — snapshot-complete
+Skyline team navigation: 11/11 — snapshot-complete
+CBC team navigation: 5/5 — needs-review
+Denver school programs: 7/7 — snapshot-complete
+Colorado State University launch-sport programs: 4/4 — snapshot-complete
+Regis University launch-sport programs: 4/4 — snapshot-complete
+CLL fall box division headings: 5/5 — snapshot-complete
+CLL schedule unique team labels: 17/17 — needs-review
+Quality: {"missingRequiredFields":[],"seasonUnconfirmed":75,"sourceReviewsOverdue":[],"needsReviewImports":["cbc-teams","cll-schedule-teams"]}
+
+> arena-pathway@0.7.0 validate:participation
+> node scripts/validate-participation.mjs
+
+{
+  "valid": true,
+  "normalizedRecords": 513,
+  "programs": 296,
+  "assignedTeams": 132,
+  "openExceptions": 95,
+  "errors": []
+}
+
+> arena-pathway@0.7.0 discovery:check
+> node scripts/sports-discovery.mjs check
+
+{
+  "valid": true,
+  "statewideComplete": false,
+  "retentionRegressions": [],
+  "publicationErrors": [],
+  "graphErrors": [],
+  "sports": [
+    {
+      "sport": "swimming",
+      "storedOrganizations": 137,
+      "storedTeams": 54,
+      "categories": [
+        [
+          "youth",
+          109
+        ],
+        [
+          "high-school",
+          2
+        ],
+        [
+          "college",
+          8
+        ],
+        [
+          "adult",
+          1
+        ],
+        [
+          "professional",
+          0
+        ],
+        [
+          "community",
+          6
+        ]
+      ],
+      "unpublishedOrganizations": [
+        "Aspen",
+        "Avon",
+        "Delta Barracudas",
+        "Meeker Marlins",
+        "Montrose Marlins",
+        "Ouray Swim Club",
+        "Pagosa Springs Porpoises",
+        "Rangely",
+        "Silverthorn Tsunami",
+        "Team Sopris",
+        "Telluride",
+        "City of Burlington Recreation"
+      ],
+      "unassignedTeams": 1
+    },
+    {
+      "sport": "volleyball",
+      "storedOrganizations": 16,
+      "storedTeams": 44,
+      "categories": [
+        [
+          "youth",
+          9
+        ],
+        [
+          "high-school",
+          1
+        ],
+        [
+          "college",
+          8
+        ],
+        [
+          "adult",
+          0
+        ],
+        [
+          "professional",
+          0
+        ],
+        [
+          "community",
+          4
+        ]
+      ],
+      "unpublishedOrganizations": [],
+      "unassignedTeams": 0
+    },
+    {
+      "sport": "lacrosse",
+      "storedOrganizations": 13,
+      "storedTeams": 87,
+      "categories": [
+        [
+          "youth",
+          13
+        ],
+        [
+          "high-school",
+          0
+        ],
+        [
+          "college",
+          7
+        ],
+        [
+          "adult",
+          1
+        ],
+        [
+          "professional",
+          0
+        ],
+        [
+          "community",
+          2
+        ]
+      ],
+      "unpublishedOrganizations": [
+        "3d Colorado"
+      ],
+      "unassignedTeams": 75
+    },
+    {
+      "sport": "basketball",
+      "storedOrganizations": 110,
+      "storedTeams": 24,
+      "categories": [
+        [
+          "youth",
+          96
+        ],
+        [
+          "high-school",
+          1
+        ],
+        [
+          "college",
+          8
+        ],
+        [
+          "adult",
+          0
+        ],
+        [
+          "professional",
+          0
+        ],
+        [
+          "community",
+          4
+        ]
+      ],
+      "unpublishedOrganizations": [
+        "B & B Basketball Academy"
+      ],
+      "unassignedTeams": 0
+    }
+  ]
+}
+
+> arena-pathway@0.7.0 test
+> node --test
+
+✔ all40 candidate identities receive individual decisions; only21 inspected written items are approved (6.558045ms)
+✔ old candidate interests never turn on subscriptions and source filters keep sport/category boundaries (0.422427ms)
+✔ inactive, expired, malformed and unsafe reviewed sources fail closed (0.223397ms)
+✔ new subscriptions preserve all browser-local profile fields, old interests and independent Recruiting (0.798384ms)
+✔ accepted directory/brand/fixture/domain bytes remain preserved with the explicit shared-event reader adaptation (1665.426558ms)
+✔ thresholds and held-out benchmarks were frozen before live evaluation; intake has no answer-list dependency (36.107816ms)
+✔ live captures are measured separately from blocked prescribed capture and controlled demonstrations (0.338ms)
+✔ all prescribed operational-change scenarios assert behavior, including retirement, alias and second sport (118.670321ms)
+✔ fixture transport cannot be labeled a live run (4.005278ms)
+✔ unchanged acquisition creates no new versions even when retrieval timestamps change; 304 uses compatible cache (24.196572ms)
+✔ explicit zero membership retains historical approved information until manual retirement and reactivation (15.326502ms)
+✔ pagination captures page evidence; partial page budgets and failures cannot mark absent members retired (10.771736ms)
+✔ changed layout and temporary source failure preserve prior records and prevent verification from missing current evidence (10.937727ms)
+✔ unprocessed frontier persists and can resume before revisiting seed pages (13.355942ms)
+✔ alias resolution is evidence-scoped and typed; graph never invents team ownership (3.744615ms)
+✔ portable acquisition snapshots preserve source history, versions, reviews and frontier; bad references roll back (174.272498ms)
+✔ operational view distinguishes staged, reviewed and consumer counts with source/name drilldown (595.820217ms)
+✔ quality metrics do not count excluded records as outstanding work or monitoring (0.70953ms)
+✔ acceptance command fails explicitly; refresh defaults to no-network planning (474.748912ms)
+✔ unrelated application, original research and governing documents remain unchanged; progressive views are authorized separately (242.435883ms)
+✔ discovery rejects private literal/local hosts and treats unsupported evidence as unverified (2.278655ms)
+✔ catalog reconciles expanded records without claiming statewide completeness (10.206685ms)
+✔ missing imported members, duplicate aliases, duplicate teams, orphan teams and broken provenance fail validation (19.238228ms)
+✔ freshness expires after 90 days and is independent of unknown season (0.347043ms)
+✔ profile state recovers corrupt storage, migrates legacy preferences with media OFF, and sanitizes fields (1.778431ms)
+✔ saves, notes and schedules remain isolated between family profiles (9.707232ms)
+✔ calendar export uses exclusive end dates, escapes injected lines and folds UTF-8 safely (2.118223ms)
+✔ all routes, source assets, search filters, strict 404s, and internal navigation work (4878.710281ms)
+✔ responsive and accessibility code includes narrow layouts, tap targets, label associations and opt-in defaults (0.785945ms)
+✔ named parent removal archives complete identity/references atomically and preserves unrelated athlete (3.087114ms)
+✔ wrong confirmation, non-parent and unknown athlete cannot be removed (0.652914ms)
+✔ reload and stale supported writer preserve removal and archived references (1.571929ms)
+✔ tombstone excludes stale legacy SIEM identity/event but preserves others (26.990283ms)
+✔ failed durable write does not mutate active state (0.537771ms)
+✔ SC-style display dates preserve all-day dates and use Denver across DST and UTC midnight (21.422391ms)
+✔ calendar navigation handles month ends, leap years, week boundaries and year rollover (1.468865ms)
+✔ activity labels distinguish actual tournament games from RSVP tasks without changing source fields (0.380344ms)
+✔ independent recruiting entry reuses athlete records with a dedicated shell and research without an athlete (78.154521ms)
+✔ background/history and school location remain selected-only data while independent identity exclusion survives (22.141699ms)
+✔ saved composition revision must match before current local approval can be offered (0.592713ms)
+✔ local source history and required follow-up project through the existing SIEM engine, actions survive reload (6.716465ms)
+✔ failed or unknown-version local action persistence never overwrites original family data (1.020168ms)
+✔ retained team from a previous club cannot be asserted as the current recruiting affiliation before parent confirmation (0.554576ms)
+✔ editing identity preserves local history and unknown extension data across reload (2.389383ms)
+✔ search areas intentionally overlap without rewriting source geography (0.773015ms)
+✔ initial sport entry provides bounded pages reaching every searchable reviewed directory row (536.184491ms)
+✔ all inherited dependency engine/data and fixtures remain exact at their appropriate tips (1651.314097ms)
+✔ consolidated corrections preserve source/data, domain, fixture and brand bytes with the explicit shared-event reader adaptation (1714.49799ms)
+✔ publication metadata matches individual approved article identities and never changes activation or video approval (1.603217ms)
+✔ college division labels do not conflate NCAA/NAIA/NJCAA or club and unknown (0.712925ms)
+✔ college filters project existing canonical teams with explicit gender evidence, never invent contacts or dates (4.008173ms)
+✔ athlete color is ID-stable across ordering, profiles, messages and redraw, with bounded palette (0.513714ms)
+✔ public community and LockedIn preview require no athlete, preserve restrictive methods/CSP and expose no real provider forms (176.511691ms)
+✔ community categories keep missing officials/safety data explicit and do not create organization rows (30.053948ms)
+✔ reviewed catalog and catalog queries remain byte-preserved while participation behavior evolves (1.78103ms)
+✔ homepage is an umbrella editorial experience with a single five-destination Sports menu (1.758431ms)
+✔ generic A is not rendered and only approved artwork is used when the brand is ready (1.156865ms)
+✔ sport landing pages retain sections, use their own images and emphasize View All Teams (142.510383ms)
+✔ directories separate participation categories, group clubs first and retain explicit team searches (8.60275ms)
+✔ swimming classification follows explicit catalog evidence without inventing summer status (100.149631ms)
+✔ onboarding retains every existing interaction hook and media defaults while exposing journey chapters (0.655678ms)
+✔ requested palette, iPhone input sizing, responsive assets and keyboard focus have structural coverage (0.920037ms)
+✔ new responsive photos, font assets and version are served without broad filesystem exposure (68.53814ms)
+✔ primary text and action palette pairs meet WCAG AA normal-text contrast (0.558773ms)
+✔ approved AP original is retained exactly and all derivative bytes match the reviewed manifest (4.977564ms)
+✔ homepage, shared navigation, mobile picture source and browser icons use approved asset paths (36.824129ms)
+✔ DGC retains all approved data, assets, identities and SIEM/recruiting/event models without migration (2117.237703ms)
+✔ DGC anchors expose existing content before platform explanation without replacing the brand/pillars (92.581104ms)
+✔ linked profile identity uses a configured heading, not the directory publisher or program title (13.660615ms)
+✔ embedded structured scripts and incidental team names cannot qualify geography or youth (2.688103ms)
+✔ qualification evidence points to the actual service-area statement rather than an incidental name (1.907536ms)
+✔ missing configured identity heading is a layout failure and never silently emits a publisher identity (0.890102ms)
+✔ HTML-labeled JSON fragment wrappers remain unsupported instead of supplying qualification facts (1.094811ms)
+✔ configured member traversal captures club profiles while excluding unrelated and roster links (62.084375ms)
+✔ diagnosis names category exclusions, blocked source gaps and retained Skyline teams without inventing clubs (1.682096ms)
+✔ actual published API and all paginated HTML agree for every category and team/league tool (1153.575563ms)
+✔ retention compares IDs and original payloads, so equal totals cannot hide a lost validated club (139.631252ms)
+✔ retention review exceptions require explicit scope, named reviewer, rationale and evidence (12.430461ms)
+✔ source registry revisions persist edits and reversions without overwriting history (47.584057ms)
+✔ another comparable source is added by configuration and an extraction plugin without page code (14.073869ms)
+✔ configured JSON pagination is followed and unresolved pagination cannot be complete (11.250703ms)
+✔ unexplained membership decreases cannot be approved and do not delete preserved identities (10.435434ms)
+✔ graph keeps league participants separate from verified team ownership and rejects invalid edges (21.599695ms)
+✔ a directory-only or missing-members source cannot claim completeness (0.781478ms)
+✔ both real configured archive replays retain verified clubs, programs and evidence idempotently (1259.823743ms)
+✔ versioned registry/expectations and task histories survive audit snapshot restoration (10.476796ms)
+✔ sport decision policy and region normalization are configurable without inventing classification (0.654777ms)
+✔ refresh plans expose due/blocked work without claiming an operational scheduler (0.500104ms)
+✔ unrelated approved presentation, SIEM and original research/data remain byte-identical to integrated RC (87.76306ms)
+✔ coverage findings are durable, acknowledgment cannot waive a source gap, and factual resolution retains history (18.340321ms)
+✔ audit restoration rejects tampered registry evidence and rolls back staged restore writes (10.011505ms)
+✔ staged database identities are distinguished from the public snapshot, not silently counted as visible clubs (5.964232ms)
+✔ independent expected IDs detect removed memberships and cannot be substituted by current stored totals (5.244067ms)
+✔ a directory-only page, unknown denominator, pagination or membership frontier cannot be complete (0.29834ms)
+✔ counts balance duplicate/excluded/unresolved candidates and unresolved rows block completion (6.7124ms)
+✔ unexplained decreases block a source even if its changed list is self-consistent (0.266713ms)
+✔ duplicate clubs/aliases and team identities fail while distinct seasons/divisions remain separate (3.567078ms)
+✔ orphans, cross-sport relationships and incorrect season/competition associations fail (0.545152ms)
+✔ summer and USA year-round swimming cannot be merged through parent classification (0.288726ms)
+✔ stale or unconfirmed schedules are never current and event dates must fit the declared season (0.780838ms)
+✔ organizational adapters never retain source contacts or minor roster fields (13.007922ms)
+✔ meet candidates distinguish unattached, out-of-state and unverifiable club affiliations (1.501805ms)
+✔ request policy blocks private hosts, unregistered redirects, credentials and roster routes (13.048053ms)
+✔ robots and rate-limit responses prevent content traversal instead of bypassing restrictions (6.391686ms)
+✔ SQLite staging does not publish until explicit review, approvals are idempotent and conflicts roll back (7.440718ms)
+✔ re-imports preserve entity IDs, cannot approve landing-only missing expectations, and do not delete reviewed data (4.096436ms)
+✔ concurrent source runs and migration tampering are rejected; durable databases survive reopen (16.696423ms)
+✔ failed imports retain a blocked history entry without touching verified entities (4.834689ms)
+✔ multi-sport college organization stays canonical without combining distinct gender teams (0.581286ms)
+✔ runner keeps out-of-scope related pages unresolved instead of fetching them (6.797429ms)
+✔ aggregate PDF team summaries retain tied rankings and reject individual result layouts (0.981981ms)
+✔ association extraction traverses every member and keeps adjacent team names separate (1.931052ms)
+✔ retirement retains revision history, protects the baseline and rejects active orphaning (4.565634ms)
+✔ persistent host reservations honor newly learned longer crawl delays and cooldowns (3.288097ms)
+✔ portable audit restores reviewed entities, candidate history and approvals transactionally (482.914989ms)
+✔ published overlay preserves every original reviewed record and excludes all unresolved games (26.406843ms)
+✔ directory filters distinguish seasons, collegiate genders, geography and adaptive programs (5.434213ms)
+✔ coverage and first-party routes serve partial source denominators with read-only HTTP access (148.53784ms)
+✔ saved directory divisions and facilities can be resolved by the existing athlete workspace (0.938385ms)
+✔ family home projects the same saved identities, competitions, real conflicts and saved records without storing another copy (28.383683ms)
+✔ empty parent home never substitutes fictional Rivera messages or fabricated commitments (0.362957ms)
+✔ parent saved preview resolves school-team and archived record IDs using the same catalog lookup as athlete saves (2.441731ms)
+✔ legacy My AP destinations are explicit local routes with safe bounded query preservation (1.04764ms)
+✔ main entry, aliases, setup, legacy redirects, headers and retired renderer boundaries are valid (56.694869ms)
+✔ consolidation retains all source fixtures, model/contract, independent modules, brand and discovery bytes (1634.668416ms)
+✔ media thumbnails, image enclosures, groups and embedded images are unapproved metadata only (12.119983ms)
+✔ image metadata is bounded, deduplicated and survives RSS and Atom normalization (8.992408ms)
+✔ publisher image requires explicit article-specific approval, local asset and licensing (0.647045ms)
+✔ photography endpoint reuses licensed AP manifest, serves all four sports and no stadium fallback (83.11335ms)
+✔ nested race IDs survive parent rename/move, reload and projection without generated writes (26.184227ms)
+✔ family calendar projects child references once, no parent conflict/duplicate entry or athlete crossover (6.488463ms)
+✔ sessions reject invalid days/times and only attach to meet or tournament (0.685674ms)
+✔ separate race records retain their IDs and compare swimming bests only within discipline/course (6.25455ms)
+✔ fictional LockedIn requires permission and acceptance; failed/retried handoff is idempotent and revocable (1.066929ms)
+✔ Rivera athlete palette has three distinct stable blue/purple/green indexes (0.390669ms)
+✔ Nov15 Mon/Wed recurrence has five unique same-day occurrences through serialization and parent projection (75.523516ms)
+✔ Nov15 recurrence edits preserve historical original IDs, exception and skip behavior (12.061866ms)
+✔ Nov15 unified location honors new selector and legacy city/region URLs (0.734037ms)
+✔ Nov15 program classification uses reviewed levels only, never infers travel from a name (0.19257ms)
+✔ Nov15 combined filters preserve original directory and unknown ZIP never hides records (188.397216ms)
+✔ Nov15 existing query results and reviewed program fields match the recovery checkpoint (528.820451ms)
+✔ test/nov17-approved-changes.mjs (65.221484ms)
+✔ new explicit module choices are independent of goal, interests and saved clubs (2.730257ms)
+✔ all seven modules can be selected independently, sanitized and ordered without mandatory progression (0.463129ms)
+✔ removing every module retains saved records, personal calendars, recruiting plans and media preferences after reload (1.693263ms)
+✔ family profiles retain independent module selections, ordering and media sources (0.63695ms)
+✔ legacy profiles migrate expressed choices without deriving recruiting from saved clubs, college records or notes (0.856472ms)
+✔ existing v2 storage migrates nondestructively and remains idempotent (0.627886ms)
+✔ media is off by default and retained sources do not display without module opt-in (0.336337ms)
+✔ workspace navigation starts empty and optional features are inert templates until selected (1.462665ms)
+✔ workspace supports keyboard reorder and retains organization lookup without recruiting side effects (0.591492ms)
+✔ test/preservation-helper.mjs (56.325196ms)
+✔ new media associations exclude practices and containers; edited historical uploads keep exact references (20.684676ms)
+✔ explicit season date summaries exclude practices and other athletes, count zeros and update from retained records (0.839666ms)
+✔ swimming season summaries never sum race times, distances or places (0.161603ms)
+✔ My Club stores one existing organization reference, keeps saved opportunities and never activates Recruiting (0.259591ms)
+✔ article metadata cannot grant image display; approved images require bound local asset and license (0.454425ms)
+✔ public photography reuses the four licensed manifests and serves real optimized assets (101.221797ms)
+✔ Nov 12 follow-up preserves directory, engine, original data, fixtures and SIEM domain (80.799391ms)
+✔ accepted directory HTML stays preserved within the main content while the approved shared navigation and delivery contract evolve (389.667952ms)
+✔ optional local avatar is additive and survives load without losing identity or unrelated records (1.083544ms)
+✔ reviewed identity, sport and geography publish independently of current opportunities (1.526581ms)
+✔ historical and stale participation stays visible with explicit currency limits (0.389277ms)
+✔ default youth discovery excludes unconfirmed participation, explicit all-verified view includes it (30.537381ms)
+✔ all previously public IDs survive and new organization cards are canonical, not age-group clones (123.55273ms)
+✔ no-program organizations render without a fabricated program or competition team (0.832685ms)
+✔ named programs and published age-group sections never become current teams (1.061471ms)
+✔ registration filters are explicit and unknowns do not leak into positive filters (3.285753ms)
+✔ new source aliases and community/youth overlap reuse one canonical identity (1.893294ms)
+✔ current opportunities require current explicit availability evidence, not a URL or historic season (0.508707ms)
+✔ the participation graph preserves many-to-many reviewed links and rejects orphan or cross-sport programs (2.701914ms)
+✔ source planning follows association/member paths and retains alternative school/recreation scopes (6.353649ms)
+✔ public API and profiles expose reviewed facts and unknown status; unrelated data/branding preserved (466.675129ms)
+✔ a separately reviewed current season does not imply registration availability (0.41111ms)
+✔ public provider fragment parses HTML and navigation without treating config as geography (40.187951ms)
+✔ arbitrary JSON config remains unsupported instead of silently becoming verified HTML (0.39147ms)
+✔ strict calendar dates, bounded recurrence and nonexistent DST times reject without writes (21.510992ms)
+✔ moved/skipped occurrences preserve references and do not mutate the series (48.166796ms)
+✔ legacy plan ID, recurrence overrides, recruiting choices and unknown extensions survive reload (11.808434ms)
+✔ ICS round trip preserves timed/all-day occurrence UIDs and detects repeat imports (14.466621ms)
+✔ shared family projection reads original IDs without writing, scopes events and handles all categories (18.823951ms)
+✔ stats upsert per stable event; swimming results do not sum unrelated times or places (10.604649ms)
+✔ recruiting stays independent, parent-controlled, age16 gated and references selected local highlights (1.154851ms)
+✔ original 40-source candidate inventory is retained without invented feed URLs (0.462328ms)
+✔ multi-day travel covers inclusive dates without spilling exclusive midnight into another day (0.758874ms)
+✔ local SIEM records and parent identities are projected once without changing either store (15.648583ms)
+✔ saved published dates join the same read-only family projection with official attribution (3.516712ms)
+✔ public evidence never becomes verification without an explicit source-bound review (1.474042ms)
+✔ verified organization and published youth program do not prove a current dated offering (0.165379ms)
+✔ current program needs an explicit same-program date review and expires outside its interval (0.4114ms)
+✔ stale retrieval, failed source, changed hash/version or invented identity cannot be approved (0.423689ms)
+✔ directory publisher facts cannot qualify every listed club (4.053882ms)
+✔ a bare season, historical date or future start never implies current enrollment (0.314875ms)
+✔ a linked publisher program can supply scoped evidence; an unrelated club or wrong sport cannot (0.374294ms)
+✔ one-time and weekly entry adapt optional end times while rejecting invalid explicit durations (16.86019ms)
+✔ competition selection excludes practices and containers without deleting retained athlete records (1.192087ms)
+✔ recruiting defaults to no selected records/events/media and projects only explicit eligible references (3.438674ms)
+✔ asset contract delivers valid MIME, explicit cache policy, CSP-hashed recovery and consistent pillar links (65.505673ms)
+✔ recovery preserves stable IDs, recurrence/SIEM/media domain and all approved source records byte for byte (2679.342323ms)
+✔ one active recruiting shell contains no profile tools, legacy checklist or redundant builder, with independent research fallback (2.470235ms)
+✔ jersey is selected-only, and old saved compositions do not gain the new identity field or lose original data (30.209327ms)
+✔ private owner drafts are not approval: parent/age required; strict rules gate unchanged (27.119618ms)
+✔ saved composition stores only selections, survives draft revisions and reuses current athlete fields (2.087647ms)
+✔ legacy saved composition adapts without rewriting the original record (0.419422ms)
+✔ empty presentation cannot be falsely saved; supplied selections are copied (0.285651ms)
+✔ all three demonstrations reuse SIEM normalization, show changes/conflicts/actions and remain isolated (60.52823ms)
+✔ integration preserves reviewed records, source URLs and approved charter/brand assets while allowing additions (424.224819ms)
+✔ SIEM opportunities have verified youth program ownership and schedule state (0.424721ms)
+✔ integrated presentation routes, scenario boundaries and CSP remain valid (83.885803ms)
+✔ RSS sanitizes, canonicalizes, sorts and removes duplicate URLs and GUIDs (26.063102ms)
+✔ Atom alternate link, author, category and encoded summary (2.953162ms)
+✔ malformed XML, HTML, DTD and entities fail closed (0.851173ms)
+✔ multi-topic publishers do not label every article with all coverage categories (1.627424ms)
+✔ 200 XML is ingested (10.111324ms)
+✔ 403, HTML fallback, misleading XML type and malformed feeds reject (1.913435ms)
+✔ timeout aborts ingestion (10.763407ms)
+✔ safe same-host redirects only, bounded to three hops (5.381062ms)
+✔ private, metadata, mapped IPv6 and reserved addresses are blocked (0.772224ms)
+✔ enforces declared and streamed byte limits (14.26167ms)
+✔ conditional GET preserves last good snapshot on 304 (17.557279ms)
+✔ rights and endpoint gates require independent approval (0.243357ms)
+✔ empty selection and wrong-sport selection never fetch or return content (0.673815ms)
+✔ cache coalesces concurrent requests, respects TTL, survives failure and restart (54.50497ms)
+✔ one failing publisher does not prevent others refreshing (5.011075ms)
+✔ source and topic filtering are athlete-specific and sport-isolated (15.513527ms)
+✔ read-only API rejects arbitrary URLs, sports and cross-sport publishers (42.905523ms)
+✔ automatic refresh starts, repeats and stops with the service lifecycle (37.326493ms)
+✔ API integrates an approved fixture feed, selection and topic without arbitrary fetches (16.797103ms)
+✔ catalog cannot activate technical verification alone; all four sport namespaces are unique (4.827237ms)
+✔ eight retired sources remain absent and all eleven retained sources require rights approval (8.552369ms)
+✔ ESPN destinations are sport-specific and search destinations never masquerade as RSS (0.717291ms)
+✔ retired and other-sport stored choices are retained locally but excluded from API requests (0.232711ms)
+✔ terms review covers every retained source without granting automatic activation (6.711318ms)
+✔ SC field filter port only exposes named canonical outputs, never arbitrary/internal profile properties (2.486168ms)
+✔ all four sports use the same empty-by-default projection with no school/photo/record leakage (18.54613ms)
+✔ athlete name, photo, high school and academics have independent parent choices (0.800917ms)
+✔ same athlete information fills the SC-shaped card contract without creating identity or copying private development data (0.688108ms)
+✔ selected stats exclude practices, orphan/other-athlete records and private notes; absent values are not zero (0.680456ms)
+✔ partial competition totals disclose recorded count, preserving real zero and no profile-total fallback (0.371009ms)
+✔ upcoming selected camps/showcases/competitions appear; practices and past events never appear as upcoming (0.568047ms)
+✔ highlights are explicitly selected, owned and metadata-only; renderer cannot receive other-athlete blobs (0.783421ms)
+✔ swimming measurements compare selected discipline/course only and never sum unrelated race times (0.731934ms)
+✔ legacy selections and old approval/draft/saved IDs are read compatibly without migration or newly opting in photos (0.512072ms)
+✔ existing AP parent/age/current-rules gates remain mandatory for preview approval (0.231689ms)
+✔ local revision detects selected content edits while ignoring private/unselected fields and approval flag (0.723751ms)
+✔ sport config changes data/metrics without a sport branch or separate builder, and does not activate another AP sport (0.303067ms)
+✔ coaching contract withholds wrong-sport, unverified, stale/future and personal-email contacts without hiding programs (4.739275ms)
+✔ new shared preferences and profile additions survive existing loadState with no lost records/drafts/extensions (0.841208ms)
+✔ upcoming appearances use the shared Denver calendar day and exclude ended timed competitions (0.398601ms)
+✔ missing GPA scale is never invented as 4.0 in the shared card (0.257979ms)
+✔ signature family has exactly three children and four soccer/volleyball schedules in one deterministic week (61.332894ms)
+✔ simulated source attribution and timestamps are coherent, with four external tools and status-only Locked In (8.84892ms)
+✔ Denver local times, early arrival and travel plans survive UTC day boundaries (25.383518ms)
+✔ calendar/message copies retain evidence but produce one practice change and one overlap decision (13.936891ms)
+✔ source, sport, child and team filtering all preserve canonical provenance without false matches (6.755374ms)
+✔ fixture consolidation fails closed on ambiguous team mapping or unauthorized records (13.103775ms)
+✔ review, resolution and reset are isolated from other families/roles and do not alter provider requirements (27.158213ms)
+✔ family scenario leaves discovery, generic fixtures, approved contracts and SIEM domain byte-identical to v2.1 (878.472936ms)
+✔ platform fixtures have deterministic timestamps and all requested activity/source fields (26.066153ms)
+✔ contract rejects ambiguous times, scope mismatch, unsafe links and sensitive payload fields (2.127648ms)
+✔ parent and coach organization/team filters apply before SIEM correlation (7.340807ms)
+✔ one identity may have multiple roles without exposing private cross-role activities (1.646793ms)
+✔ existing SIEM logic powers changes, duplicates, deadlines and per-scenario actions (7.054376ms)
+✔ correlation and detail relationships cannot cross permission boundaries (2.301369ms)
+✔ feed health keeps disconnected, failed, stale and current fixture states explicit (1.32042ms)
+✔ adapter validates snapshots atomically and retains last-known-good on failure/out-of-scope data (3.392525ms)
+✔ platform changes preserve discovery engine, data, registry, ingestion and approved assets exactly (1380.566217ms)
+✔ platform route and allowlisted assets work without changing old workspace/demo routes (130.00464ms)
+✔ consolidation preserves v2.1 domain/data bytes and limits shared-view edits to requested navigation links (1164.671561ms)
+✔ refined shell retains all three modes, named sidebar toggle, approved branding and demo boundary (0.768438ms)
+✔ Safari startup fix preserves all family fixtures, models, contracts and discovery bytes (1110.113351ms)
+✔ startup bootstrap and loading fallback are served with existing CSP and JavaScript MIME (72.975131ms)
+✔ calendar selection supports all, none, one and arbitrary athlete combinations within authorized identities (2.030411ms)
+✔ weekly start time without end receives labeled duration and stable Mon/Wed occurrence identities (31.92412ms)
+✔ competition duration is optional and an explicit existing end time is preserved (1.599001ms)
+✔ family and child scopes isolate reads and writes, reject role and sport mismatch (2.112534ms)
+✔ duplicate candidates preserve both sources and evidence; reimports are idempotent (0.608347ms)
+✔ overlapping child and parent commitments conflict, touching events do not (0.443979ms)
+✔ event revisions retain history, cancellation and unverified status (0.320693ms)
+✔ priority, deadlines, requirements and opportunity rules are deterministic (1.075702ms)
+✔ acknowledgment, resolution, reopening and reminders are scoped and audited (0.98211ms)
+✔ provider failures retain events and last success, unsupported systems remain unconnected (0.632204ms)
+✔ minimal product events require consent and omit document/health/payment payloads (0.559373ms)
+✔ normalization drops arbitrary sensitive fields and unsafe URLs (0.370799ms)
+✔ ICS parses UTC snapshots, rejects recurrence and local-time ambiguity atomically (1.351818ms)
+✔ wellness defaults off and respects availability, preferences, travel, pickups and confirmed commitments (0.582388ms)
+✔ interests do not cause conflicts until explicitly confirmed; recurring plans have stable IDs (0.766726ms)
+✔ SIEM route and scripts retain CSP and private data has no server endpoint (55.727556ms)
+✔ revoking product consent hides status events; unsupported providers cannot inject verified events (0.557361ms)
+✔ ICS rejects impossible calendar dates and excessive input (0.270988ms)
+✔ all sport primary directories enforce youth / school / college / adult separation (167.041547ms)
+✔ club-first results retain one parent while individual team search finds the child (5.305689ms)
+✔ CSI explicit Year Round, Seasonal and Collegiate codes reconcile independently and metadata is not a club (1.9835ms)
+✔ static published Apps Script clubs are parsed without running scripts or importing footer/roster fields (8.580756ms)
+✔ community programs use actual providers; a facility alone does not create a program (1.648836ms)
+✔ Gold Crown is a league organizer, not a club or owner of every feeder team (15.801253ms)
+✔ unknown ownership and classification are queued, not silently hidden or made into youth clubs (0.939045ms)
+✔ participation validator rejects missing designations, orphan programs and cross-sport formats (0.467214ms)
+✔ parent ownership correction cannot be bypassed with a boolean flag (0.241665ms)
+✔ seasonal USA membership cannot be relabeled summer recreational or Masters youth (0.349737ms)
+✔ current registration requires dated source evidence rather than a URL or team participation (0.186821ms)
+✔ age and grade fields keep mixed published units instead of turning 17U into grade 17 (0.369908ms)
+✔ historical or yearless schedules cannot enter current public fixtures (0.562718ms)
+✔ source references for configured registration facts must still exist on the published page (3.438804ms)
+✔ accessible membership pagination is processed and incomplete budgets remain partial (16.268887ms)
+✔ classification snapshots are durable, reviewed and refuse silent program deletion (29.050538ms)
+✔ every original reviewed normalized entity and evidence payload remains present and identical (97.454817ms)
+✔ seven independent workspace modules keep saved records and optional recruiting/media (1.138377ms)
+✔ first-party profiles and hierarchy routes work, while unknown sports and bogus organizations stay 404 (124.898501ms)
+✔ program names and facility venues never override verified participation designations (0.476248ms)
+✔ newly approved source identities enter a durable classification queue before publication (6.712871ms)
+✔ missing or conflicting aliases cannot merge teams into parent organization identities (0.264028ms)
+✔ registration references retain program ownership and survive a fresh SQLite audit restore (296.44477ms)
+✔ UX polish preserves all baseline public data, brand assets and shared domain/identity models byte for byte (1123.021768ms)
+✔ external LockedIn demo contract keeps AP data out of the link and retains safe public AP entry (31.608464ms)
+✔ single events retain date and category (3.438965ms)
+✔ weekly recurring practice has stable occurrence IDs (14.741355ms)
+✔ calendar boundary and week intervals filter correctly (0.51047ms)
+✔ invalid repeat end date rejected (0.339021ms)
+✔ malformed legacy plans ignored rather than crashing (0.228144ms)
+ℹ tests 320
+ℹ suites 0
+ℹ pass 320
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18319.807893

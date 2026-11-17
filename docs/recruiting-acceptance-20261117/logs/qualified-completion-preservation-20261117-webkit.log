@@ -1,0 +1,8 @@
+test_local_messages_changes_and_action_resolution_return (__main__.Preservation.test_local_messages_changes_and_action_resolution_return) ... ok
+test_nested_swimming (__main__.Preservation.test_nested_swimming) ... ok
+test_nested_volleyball (__main__.Preservation.test_nested_volleyball) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 22.002s
+
+OK

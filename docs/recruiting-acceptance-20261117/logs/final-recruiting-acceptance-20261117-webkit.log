@@ -1,0 +1,31 @@
+test_no_second_interface_and_profile_dependency_failure (__main__.Acceptance.test_no_second_interface_and_profile_dependency_failure) ... ok
+test_shared_four_sport_finished_journey (__main__.Acceptance.test_shared_four_sport_finished_journey) ... Final review initial open: False
+Final review initial open: False
+Final review initial open: False
+Final review initial open: False
+Final review initial open: False
+Final review initial open: False
+Final review initial open: False
+Final review initial open: False
+FAIL
+
+======================================================================
+FAIL: test_shared_four_sport_finished_journey (__main__.Acceptance.test_shared_four_sport_finished_journey)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-profile-foundation-20261117.py", line 12, in tearDown
+    def tearDown(self):self.assertEqual(self.errors,[]);self.context.close()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: ['Importing a module script failed.'] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+'Importing a module script failed.'
+
+- ['Importing a module script failed.']
++ []
+
+----------------------------------------------------------------------
+Ran 2 tests in 150.700s
+
+FAILED (failures=1)

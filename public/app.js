@@ -7,7 +7,8 @@ import {installFamilySetup} from './family-setup.js';
 import {installClubAssociation} from './club-association.js';
 import {athleteEvents} from './meet-sessions.js';
 import {renderCollegeResearch} from './college-research.js';
-import {enhanceBasics,scheduleEditor,enhanceProfile} from './profile-qa.js';
+// Recruiting must not depend on publisher, schedule-editor or profile enhancement assets.
+const {enhanceBasics,scheduleEditor,enhanceProfile}=document.querySelector('[data-workspace-view="recruiting"]')?{}:await import('./profile-qa.js');
 import {inSearchRegion} from './regions.js';
 import {loadState,persist,toggleSaved,calendarText,validSports,moduleDefinitions,modulesFor,setModules} from './state.js';
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
@@ -93,11 +94,6 @@ function changeModules(modules,focusId,fallbackId=focusId){
 }
 function fillRecords(selector,records,message){const target=$(selector);target.replaceChildren(...records.map(recordCard));if(!records.length)target.append(element('p',message,'empty'));}
 function renderSchedule(p){scheduleEditor(p,{update:updateProfile,render:renderWorkspace,notify,events:athleteEvents(p,data),calendarText});}
-function renderRecruiting(p){
- const collegePrograms=new Set((data.participation?.programs||[]).filter(r=>r.designation==='college').map(r=>r.id)),collegeTeams=new Set((data.participation?.teamAssignments||[]).filter(a=>collegePrograms.has(a.programId)).map(a=>a.teamId));const colleges=data.teams.filter(t=>t.sport===p.sport&&collegeTeams.has(t.id));fillRecords('#college-list',colleges,'No verified college programs for this sport yet.');
- for(const box of $$('[name=recruiting]'))box.checked=p.recruiting.checks.includes(box.value);$('#recruiting-notes').value=p.recruiting.notes;
- $('#recruiting-form').addEventListener('submit',e=>{e.preventDefault();if(updateProfile(p=>p.recruiting={...p.recruiting,checks:$$('[name=recruiting]:checked').map(b=>b.value),notes:$('#recruiting-notes').value}))$('#recruiting-status').textContent='Research plan saved on this device.';});
-}
 function renderMedia(p){
  const media=$('#media-list');media.replaceChildren();const selected=data.mediaSources.filter(s=>p.mediaEnabled&&p.mediaSources.includes(s.id));
  if(!selected.length)media.append(element('p','Choose your media sources in optional preferences. Only the sources you select will appear here.'));
@@ -179,12 +175,21 @@ function removeFamilyAthlete(p){removalDialog(p,{avatar:athleteAvatar,remove:(id
 let workspaceGeneration=0;
 
 function renderWorkspace(){
+ if($('#main').dataset.workspaceView==='recruiting'){
+  const generation=++workspaceGeneration,p=active(),requested=new URLSearchParams(location.search).get('athlete');
+  $('#workspace').hidden=!p;$('#workspace-empty').hidden=!!p;
+  if(requested&&!state.profiles.some(x=>x.id===requested)){$('#workspace').hidden=true;$('#workspace-empty').hidden=false;$('#workspace-empty').replaceChildren(element('h2','Athlete not found on this browser'),anchor('My Athletes','/my-pathway?view=family','button'));renderCollegeResearch(data,{profile:null});return;}
+  const selector=$('#profile-select');selector.replaceChildren();for(const pr of state.profiles){const option=element('option',pr.nickname||cap(pr.sport));option.value=pr.id;selector.append(option);}if(p)selector.value=p.id;
+  renderCollegeResearch(data,{profile:p});refreshSaveButtons();
+  if(p)return mountRecruitingExperience(p,{update:updateProfile,render:renderWorkspace,notify,catalog:data,avatar:athleteAvatar,getProfile:active,isCurrent:()=>generation===workspaceGeneration}).catch(error=>{$('#workspace').replaceChildren(element('h2','Your portfolio could not open'),element('p','Your saved information is unchanged. Reload to try again.'));notify(error.message);});
+  return;
+ }
+ if(['#recruiting','#recruiting-profile-builder','#coach-profile-preview'].includes(location.hash)){location.replace('/recruiting'+(active()?'?athlete='+encodeURIComponent(active().id):''));return;}
  const generation=++workspaceGeneration;const previousRecruiting=document.getElementById('recruiting-experience');if(previousRecruiting){previousRecruiting.inert=true;previousRecruiting.setAttribute('aria-busy','true');}
  const familyView=new URLSearchParams(location.search).get('view')==='family';$('#family-profile').hidden=!familyView;renderFamilyProfile();
  const p=active(),requested=new URLSearchParams(location.search).get('athlete'),missing=requested&&!state.profiles.some(p=>p.id===requested);$('#workspace-empty').hidden=familyView||!!p&&!missing;$('#workspace').hidden=familyView||!p||!!missing;if(missing){$('#workspace-empty').replaceChildren(element('h2','Athlete not found on this browser'),element('p','This local athlete may have been removed or created on a different device.'),anchor('Back to My Athletes →','/my-pathway?view=family','button'));return;}if(!p||familyView){renderCollegeResearch(data,{profile:null,update:updateProfile,render:renderWorkspace});return;}
  const selector=$('#profile-select');selector.replaceChildren();for(const pr of state.profiles){const option=element('option',pr.nickname||cap(pr.sport)+' pathway');option.value=pr.id;selector.append(option);}selector.value=p.id;
  $('#add-profile').hidden=false;
- const recruitingPage=$('#main').dataset.workspaceView==='recruiting';
  renderAthleteIdentity(p);
  const profileNav=$('#profile-nav'),sections=$('#profile-sections');profileNav.replaceChildren();const resources=$('#athlete-resource-nav');resources.replaceChildren();sections.replaceChildren();
  for(const [id,label,icon,copy] of [['overview','Profile','user',''],['schedules','Schedule','calendar',''],['stats','Stats','stats','No performance statistics added. No results are inferred.'],['my-feed','My Feed','media','Choose publishers independently from family uploads.'],['profile-media','Media','media','Family photos and videos, saved locally for this athlete.'],['camps','Development','development',''],['community','Community','community',''],['network','Network','network','Your saved clubs, teams and opportunities stay with this athlete. Live networking and invitations are not connected.']]){
@@ -199,7 +204,7 @@ function renderWorkspace(){
  const recruitingTab=anchor('Recruiting','/recruiting?athlete='+encodeURIComponent(p.id));recruitingTab.prepend(profileIcon('network'));profileNav.append(recruitingTab);
  sections.prepend(athleteOverview(p,data,profileNav));
  const open=$('#module-customizer').open;renderModuleChoices(p);$('#module-customizer').open=open;
- const modules=[...new Set(['schedules','camps','community',...modulesFor(p)])],nav=$('#workspace-nav'),container=$('#workspace-modules');nav.replaceChildren();container.replaceChildren();nav.hidden=true;$('#modules-empty').hidden=!!modules.length;
+ const modules=[...new Set(['schedules','camps','community',...modulesFor(p)])].filter(id=>id!=='recruiting'),nav=$('#workspace-nav'),container=$('#workspace-modules');nav.replaceChildren();container.replaceChildren();nav.hidden=true;$('#modules-empty').hidden=!!modules.length;
  for(const id of modules){const definition=moduleDefinitions.find(m=>m.id===id);nav.append(anchor(definition.label,'#'+id));container.append(document.getElementById('template-'+id).content.cloneNode(true));}
  for(const link of $$('[data-explore]'))link.href='/sports/'+p.sport+'/'+link.dataset.explore;
  const saved=p.saved.map(findRecord).filter(Boolean),scope=(data.participation?.programs||[]).filter(r=>r.sport===p.sport&&(r.designation===(p.participationDesignation||'youth')||r.designation==='community'&&(p.participationDesignation||'youth')==='community')&&(p.participationLevel==='any'||!p.participationLevel||r.levels.includes(p.participationLevel))&&regionMatch(r,p.region));
@@ -213,25 +218,22 @@ function renderWorkspace(){
  if(modules.includes('camps')){fillRecords('#camp-saved',saved.filter(r=>r.kind==='camp'),'Your saved camps will appear here.');fillRecords('#camp-recommendations',candidates.filter(r=>r.kind==='camp').slice(0,6),'No sourced camps for these choices yet.');}
  if(modules.includes('community')){$('#community').append(anchor('Open Community resources →','/community?sport='+p.sport,'secondary'));const communityRecords=new Set((data.participation?.programs||[]).filter(r=>r.sport===p.sport&&(r.designation==='community'||r.communityBased)&&regionMatch(r,p.region)).flatMap(r=>r.relatedRecordIds));const communityCandidates=data.communities.filter(r=>communityRecords.has(r.id));fillRecords('#community-saved',saved.filter(r=>['community','location'].includes(r.kind)),'Your saved community resources will appear here.');fillRecords('#community-recommendations',communityCandidates.slice(0,6),'No sourced community matches for these choices yet.');}
  if(modules.includes('schedules'))renderSchedule(p);
- if(modules.includes('recruiting')){renderRecruiting(p);const legacy=document.getElementById('recruiting-form');if(legacy){const details=element('details',undefined,'legacy-research');details.append(element('summary','Research notes & checklist'));document.getElementById('recruiting').append(details);details.append(legacy);}}
  if(modules.includes('media'))renderMedia(p);
- const recruiting=element('details',undefined,'workspace-section');recruiting.id='optional-recruiting';recruiting.append(element('summary','Recruiting · optional and separate'),anchor('Open recruiting →','/recruiting','text-link'),element('p','Sharing is off. Nothing leaves this browser. Live sharing requires verified parent authorization, which is not connected.'));
- if(!modules.includes('recruiting')){const enable=element('button','Open local recruiting planner','secondary');enable.addEventListener('click',()=>{if(updateProfile(p=>setModules(p,[...modulesFor(p),'recruiting'])))renderWorkspace();});if(recruitingPage){const notes=element('details',undefined,'legacy-research');notes.append(element('summary','Research notes & checklist'),enable);recruiting.append(notes);}else recruiting.append(enable);}const planner=$('#workspace-modules > #recruiting');if(planner)recruiting.append(planner);$('#workspace-modules').append(recruiting);
  for(const section of container.querySelectorAll(':scope > section'))section.classList.add('athlete-section');
  const selectSection=id=>{const groups={overview:['overview'],schedules:['schedules'],stats:['stats'],'profile-media':['profile-media'],'my-feed':['my-feed'],camps:['camps'],community:['community'],network:['network','teams','saved']};
   if(!groups[id])id='overview';document.getElementById('workspace').dataset.section=id;for(const section of [...sections.children,...container.children]){if(section.tagName==='SECTION')section.hidden=!groups[id].includes(section.id);}
   for(const a of [...profileNav.children,...resources.children]){if(a.hash==='#'+id)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');}
  };
- for(const a of [...profileNav.children,...resources.children]){if(!a.getAttribute('href').startsWith('#'))continue;a.addEventListener('click',e=>{if(recruitingPage){e.preventDefault();location.href='/my-pathway?athlete='+encodeURIComponent(p.id)+a.hash;return;}e.preventDefault();history.replaceState(null,'',a.hash);selectSection(a.hash.slice(1));});}selectSection(location.hash.slice(1));
- profileNav.hidden=false;resources.hidden=false;if(recruitingPage){recruitingTab.setAttribute('aria-current','page');for(const a of [...profileNav.children,...resources.children])if(a!==recruitingTab)a.removeAttribute('aria-current');$('#module-customizer').hidden=true;for(const section of [...sections.children,...container.children])if(section.tagName==='SECTION')section.hidden=true;recruiting.open=true;}
- const ready=enhanceProfile(p,{update:updateProfile,render:renderWorkspace,notify,catalog:data}).then(async()=>{if(generation!==workspaceGeneration||active()?.id!==p.id)return;await mountAthleteProfile(p,{update:updateProfile,render:renderWorkspace,notify,catalog:data,avatar:athleteAvatar,photo:saveAthletePhoto});if(recruitingPage)await mountRecruitingExperience(p,{update:updateProfile,render:renderWorkspace,notify,catalog:data,avatar:athleteAvatar,getProfile:active});}).catch(error=>notify('Profile tools: '+error.message));
- renderCollegeResearch(data,{profile:p,update:updateProfile,render:renderWorkspace});refreshSaveButtons();return ready;
+ for(const a of [...profileNav.children,...resources.children]){if(!a.getAttribute('href').startsWith('#'))continue;a.addEventListener('click',e=>{e.preventDefault();history.replaceState(null,'',a.hash);selectSection(a.hash.slice(1));});}selectSection(location.hash.slice(1));
+ profileNav.hidden=false;resources.hidden=false;
+ const ready=enhanceProfile(p,{update:updateProfile,render:renderWorkspace,notify,catalog:data}).then(async()=>{if(generation!==workspaceGeneration||active()?.id!==p.id)return;await mountAthleteProfile(p,{update:updateProfile,render:renderWorkspace,notify,catalog:data,avatar:athleteAvatar,photo:saveAthletePhoto});}).catch(error=>notify('Profile tools: '+error.message));
+ refreshSaveButtons();return ready;
 }
 if(document.body.dataset.page==='my-pathway'){
  const requestedAthlete=new URLSearchParams(location.search).get('athlete');if(requestedAthlete&&state.profiles.some(p=>p.id===requestedAthlete)&&state.active!==requestedAthlete){const next=clone();next.active=requestedAthlete;if(!store(next))state=next;}
  catalog().then(()=>renderWorkspace()).catch(()=>{$('#workspace-empty').hidden=false;$('#workspace-empty').textContent='The catalog could not load. Reload to try again; your saved profile has not been changed.';});
  $('#profile-select').addEventListener('change',e=>{const next=clone();next.active=e.target.value;if(store(next)){const url=new URL(location.href);if(url.searchParams.has('athlete')){url.searchParams.set('athlete',next.active);history.replaceState(null,'',url);}renderWorkspace();}});
- $('#delete-profile').addEventListener('click',()=>{if(active())removeFamilyAthlete(active());});
+ $('#delete-profile')?.addEventListener('click',()=>{if(active())removeFamilyAthlete(active());});
  window.addEventListener('storage',e=>{if(e.key==='arenaPathway.v2'){state=loadState(storage);renderWorkspace();}});
 }
 

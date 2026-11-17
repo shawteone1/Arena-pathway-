@@ -1,0 +1,66 @@
+[
+  {
+    "sport": "lacrosse",
+    "requestedURL": "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game",
+    "finalURL": "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game",
+    "navigationResponses": [
+      {
+        "url": "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game",
+        "status": 200
+      }
+    ],
+    "title": "Play Like a Big Man: Blythewood (S.C.) Attackman Carson Hall Owns His Game | USA Lacrosse",
+    "loadError": null,
+    "APReturnURL": "http://127.0.0.1:3137/sports/lacrosse",
+    "noExternalWritesPermitted": true
+  },
+  {
+    "sport": "basketball",
+    "requestedURL": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/",
+    "finalURL": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/",
+    "navigationResponses": [
+      {
+        "url": "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/",
+        "status": 200
+      },
+      {
+        "url": "https://c94c7bce51c2c33c81da371cccb059b0.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+        "status": 200
+      }
+    ],
+    "title": "Miami Heat Starting to Find Their Footing After Slow Start \u2013 SLAM",
+    "loadError": null,
+    "APReturnURL": "http://127.0.0.1:3137/sports/basketball",
+    "noExternalWritesPermitted": true
+  },
+  {
+    "sport": "volleyball",
+    "requestedURL": "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/",
+    "finalURL": "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/",
+    "navigationResponses": [
+      {
+        "url": "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/",
+        "status": 200
+      }
+    ],
+    "title": "Los Angeles Orbit Open at Houston Dec. 18, Then Host Nebraska at Intuit Dome - Volleyballmag.com",
+    "loadError": null,
+    "APReturnURL": "http://127.0.0.1:3137/sports/volleyball",
+    "noExternalWritesPermitted": true
+  },
+  {
+    "sport": "swimming",
+    "requestedURL": "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/",
+    "finalURL": "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/",
+    "navigationResponses": [
+      {
+        "url": "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/",
+        "status": 200
+      }
+    ],
+    "title": "2026-27 Ivy League Dual Meet Championship Week One: Princeton Men and Women, Harvard Men, and Penn Women Undefeated",
+    "loadError": null,
+    "APReturnURL": "http://127.0.0.1:3137/sports/swimming",
+    "noExternalWritesPermitted": true
+  }
+]

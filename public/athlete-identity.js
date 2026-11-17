@@ -1,0 +1,11 @@
+// Original AP collectible identity. Only caller-supplied permitted fields are rendered.
+import {portraitImage} from './coach-card.js';
+import {athleteColor} from './siem-guidance.js';
+const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
+export function profileIdentity(p){return {label:p.nickname,sport:p.sport,primaryPosition:p.position,clubName:p.clubTeam,teamName:p.clubTeamNeedsReview?null:p.programTeam,graduationYear:p.graduationYear,ageBand:p.ageGroup||p.participationDesignation,jersey:p.jersey,avatarUrl:p.avatarDataUrl};}
+export function athleteIdentity(model,{athleteId='',heading='h3'}={}){
+ const card=el('article',undefined,'athlete-identity-card ap-athlete-'+athleteColor(athleteId||model.sport));card.dataset.sport=model.sport;card.setAttribute('aria-label','Athlete identity · '+(model.label||'Name not included'));
+ const crown=el('div',undefined,'identity-card-crown'),brand=el('img');brand.src='/assets/brand/ap-mobile.webp';brand.alt='Arena Pathway';brand.width=48;brand.height=44;crown.append(brand,el('span','ATHLETE','identity-card-edition'));if(model.jersey)crown.append(el('strong',String(model.jersey),'identity-card-number'));card.append(crown);
+ const initials=model.label?.trim().split(/\s+/).map(s=>s[0]).slice(0,2).join('').toUpperCase()||'AP',portrait=portraitImage(model.avatarUrl,{fallbackText:initials,alt:model.label?'Portrait · '+model.label:'Identity portrait not included'});portrait.className='identity-card-portrait';card.append(portrait);
+ const name=el(heading,model.label||'Your athlete','identity-card-name'),sport=el('p',[model.sport?.[0]?.toUpperCase()+model.sport?.slice(1),model.primaryPosition].filter(Boolean).join(' · '),'identity-card-role');card.append(name,sport);if(model.clubName||model.teamName)card.append(el('p',[model.clubName,model.teamName].filter(Boolean).join(' · '),'identity-card-team'));const foot=el('div',undefined,'identity-card-foot');if(model.graduationYear)foot.append(el('span','CLASS OF '+model.graduationYear));else if(model.ageBand)foot.append(el('span',model.ageBand));foot.append(el('span','ARENA PATHWAY'));card.append(foot);return card;
+}

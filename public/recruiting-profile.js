@@ -16,7 +16,7 @@ function projectSelected(profile,{events=[],media=[],config=recruitingSport(prof
  const stats=selectedStatistics(records,config);stats.records=stats.records.map(r=>{const e=competition.find(e=>eventRef(e)===r.eventRef);return {...r,title:e?.name||config.recordLabel,date:e?.start||null,discipline:r.discipline||e?.discipline||null,course:r.course||e?.course||null};});
  const legacy=!Array.isArray(r.approvedFields),personal=(Array.isArray(profile.personalAchievements)?profile.personalAchievements:[]).filter(value=>(r.achievementSelections||[]).includes(value));
  const source={
-  label:profile.nickname||null,ageBand:profile.ageGroup||null,graduationYear:profile.graduationYear||null,
+  label:profile.nickname||null,jersey:profile.jersey||null,ageBand:profile.ageGroup||null,graduationYear:profile.graduationYear||null,
   avatarUrl:localAvatar(profile.avatarDataUrl),primaryPosition:profile.position||null,secondaryPosition:profile.secondaryPosition||null,clubName:profile.clubTeam||null,teamName:profile.clubTeamNeedsReview?null:profile.programTeam||null,playingLevel:profile.playingLevel||null,
   athleticHistory:profile.athleticHistory||null,profileIntroduction:profile.aboutSport||null,collegeGoals:profile.collegeGoals||(legacy&&r.visibility?.goals?profile.goals:null)||null,
   highSchool:profile.highSchool||null,schoolLocation:profile.schoolLocation||null,

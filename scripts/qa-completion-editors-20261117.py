@@ -1,7 +1,7 @@
 """Focused education editor: responsive real UI, independently saved, same athlete after reload."""
 import importlib.util,unittest
 from pathlib import Path
-s=importlib.util.spec_from_file_location('f',Path(__file__).with_name('qa-profile-foundation-20261117.py'));f=importlib.util.module_from_spec(s);s.loader.exec_module(f);f.OUT=Path('docs/product-completion-20261117/after')
+s=importlib.util.spec_from_file_location('f',Path(__file__).with_name('qa-profile-foundation-20261117.py'));f=importlib.util.module_from_spec(s);s.loader.exec_module(f);f.OUT=Path(__import__('os').environ.get('ARENA_PROFILE_OUT','docs/product-completion-20261117/after'))
 class Editors(unittest.TestCase):
  setUpClass=classmethod(f.Foundation.setUpClass.__func__);tearDownClass=classmethod(f.Foundation.tearDownClass.__func__);setUp=f.Foundation.setUp;tearDown=f.Foundation.tearDown;state=f.Foundation.state;create=f.Foundation.create;shot=f.Foundation.shot;views=f.Foundation.views
  def test_focused_education_editor_four_viewports_and_persistence(self):

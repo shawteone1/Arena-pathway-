@@ -1,6 +1,6 @@
 import {selectedFields} from './recruiting-fields.js';
 export const presentationSections=Object.freeze([
- {id:'introduction',title:'Athlete Introduction',fields:['label','photo','graduationYear','primaryPosition','profileIntroduction','collegeGoals']},
+ {id:'introduction',title:'Athlete Introduction',fields:['label','jersey','photo','graduationYear','primaryPosition','profileIntroduction','collegeGoals']},
  {id:'background',title:'Athletic Background',fields:['clubName','playingLevel','secondaryPosition','athleticHistory']},
  {id:'education',title:'Education & Academics',fields:['highSchool','academics']},
  {id:'achievements',title:'Achievements',fields:['achievements']},

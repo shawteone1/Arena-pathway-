@@ -1,0 +1,281 @@
+{
+  "baseline": "bbdd9fcef548560842238344719d514ad8ba1a65",
+  "branch": "codex/ap-recruiting-acceptance-20261117",
+  "automated": [
+    {
+      "command": "npm run check",
+      "passed": 320,
+      "failed": 0,
+      "skipped": 0,
+      "log": "logs/cleanup-check.log"
+    },
+    {
+      "command": "npm test",
+      "passed": 320,
+      "failed": 0,
+      "skipped": 0,
+      "log": "logs/final-npm-test.log"
+    }
+  ],
+  "browsers": [
+    {
+      "suite": "recruiting-acceptance-20261117",
+      "engine": "chromium",
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 163.169,
+      "log": "logs/qualified-recruiting-acceptance-chromium.log"
+    },
+    {
+      "suite": "recruiting-acceptance-20261117",
+      "engine": "webkit",
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 187.726,
+      "log": "logs/qualified-recruiting-acceptance-webkit.log"
+    },
+    {
+      "suite": "product-completion-20261117",
+      "engine": "chromium",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 42.566,
+      "log": "logs/cleanup-family-chromium.log"
+    },
+    {
+      "suite": "product-completion-20261117",
+      "engine": "webkit",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 46.009,
+      "log": "logs/cleanup-family-webkit.log"
+    },
+    {
+      "suite": "completion-parent-20261117",
+      "engine": "chromium",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 6.733,
+      "log": "logs/qualified-completion-parent-20261117-chromium.log"
+    },
+    {
+      "suite": "completion-parent-20261117",
+      "engine": "webkit",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 7.801,
+      "log": "logs/qualified-completion-parent-20261117-webkit.log"
+    },
+    {
+      "suite": "completion-corrections-20261117",
+      "engine": "chromium",
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 18.382,
+      "log": "logs/qualified-completion-corrections-20261117-chromium.log"
+    },
+    {
+      "suite": "completion-corrections-20261117",
+      "engine": "webkit",
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 19.078,
+      "log": "logs/qualified-completion-corrections-20261117-webkit.log"
+    },
+    {
+      "suite": "completion-preservation-20261117",
+      "engine": "chromium",
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 14.979,
+      "log": "logs/qualified-completion-preservation-20261117-chromium.log"
+    },
+    {
+      "suite": "completion-preservation-20261117",
+      "engine": "webkit",
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 22.002,
+      "log": "logs/qualified-completion-preservation-20261117-webkit.log"
+    },
+    {
+      "suite": "completion-entry-20261117",
+      "engine": "chromium",
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 33.201,
+      "log": "logs/qualified-completion-entry-20261117-chromium.log"
+    },
+    {
+      "suite": "completion-entry-20261117",
+      "engine": "webkit",
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 23.527,
+      "log": "logs/qualified-completion-entry-20261117-webkit.log"
+    },
+    {
+      "suite": "completion-editors-20261117",
+      "engine": "chromium",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 4.46,
+      "log": "logs/qualified-completion-editors-20261117-chromium.log"
+    },
+    {
+      "suite": "completion-editors-20261117",
+      "engine": "webkit",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 3.712,
+      "log": "logs/qualified-completion-editors-20261117-webkit.log"
+    },
+    {
+      "suite": "profile-foundation-20261117",
+      "engine": "chromium",
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 22.542,
+      "log": "logs/qualified-profile-foundation-20261117-chromium.log"
+    },
+    {
+      "suite": "profile-foundation-20261117",
+      "engine": "webkit",
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 25.167,
+      "log": "logs/qualified-profile-foundation-20261117-webkit.log"
+    },
+    {
+      "suite": "supporting-20261117",
+      "engine": "chromium",
+      "passed": 4,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 38.834,
+      "log": "logs/resumed-supporting-20261117-chromium.log"
+    },
+    {
+      "suite": "supporting-20261117",
+      "engine": "webkit",
+      "passed": 4,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 48.759,
+      "log": "logs/resumed-supporting-20261117-webkit.log"
+    },
+    {
+      "suite": "profile-assets-20261117",
+      "engine": "chromium",
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 14.74,
+      "log": "logs/cleanup-assets-chromium.log"
+    },
+    {
+      "suite": "profile-assets-20261117",
+      "engine": "webkit",
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 16.368,
+      "log": "logs/cleanup-assets-webkit.log"
+    },
+    {
+      "suite": "rss",
+      "engine": "chromium",
+      "passed": 5,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 30.922,
+      "log": "logs/resumed-rss-chromium.log"
+    },
+    {
+      "suite": "rss",
+      "engine": "webkit",
+      "passed": 5,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 51.341,
+      "log": "logs/resumed-rss-webkit.log"
+    },
+    {
+      "suite": "news-editorial",
+      "engine": "chromium",
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 49.634,
+      "log": "logs/resumed-news-editorial-chromium.log"
+    },
+    {
+      "suite": "news-editorial",
+      "engine": "webkit",
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 54.789,
+      "log": "logs/resumed-news-editorial-webkit.log"
+    },
+    {
+      "suite": "completion-publishers-20261117",
+      "engine": "chromium",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 10.559,
+      "log": "logs/resumed-completion-publishers-20261117-chromium.log"
+    },
+    {
+      "suite": "completion-publishers-20261117",
+      "engine": "webkit",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 14.407,
+      "log": "logs/resumed-completion-publishers-20261117-webkit.log"
+    },
+    {
+      "suite": "siem",
+      "engine": "chromium",
+      "passed": 18,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 54.722,
+      "log": "logs/resumed-siem-family-chromium.log"
+    },
+    {
+      "suite": "siem",
+      "engine": "webkit",
+      "passed": 5,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 17.519,
+      "log": "logs/resumed-siem-webkit-webkit.log"
+    }
+  ],
+  "totals": {
+    "chromium": 49,
+    "webkit": 36
+  },
+  "founderAcceptance": "PENDING",
+  "priorWebKitModuleImportFailureRetained": true,
+  "physicalIPadCertification": false
+}

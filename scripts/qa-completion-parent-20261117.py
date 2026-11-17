@@ -1,7 +1,7 @@
 """Phase C gate: real parent home over existing stores, before recruiting corrections."""
 import importlib.util,unittest,json
 from pathlib import Path
-s=importlib.util.spec_from_file_location('f',Path(__file__).with_name('qa-profile-foundation-20261117.py'));f=importlib.util.module_from_spec(s);s.loader.exec_module(f);f.OUT=Path('docs/product-completion-20261117/after');f.OUT.mkdir(parents=True,exist_ok=True)
+s=importlib.util.spec_from_file_location('f',Path(__file__).with_name('qa-profile-foundation-20261117.py'));f=importlib.util.module_from_spec(s);s.loader.exec_module(f);f.OUT=Path(__import__('os').environ.get('ARENA_PROFILE_OUT','docs/product-completion-20261117/after'));f.OUT.mkdir(parents=True,exist_ok=True)
 class Parent(unittest.TestCase):
  setUpClass=classmethod(f.Foundation.setUpClass.__func__);tearDownClass=classmethod(f.Foundation.tearDownClass.__func__);setUp=f.Foundation.setUp;tearDown=f.Foundation.tearDown;state=f.Foundation.state;create=f.Foundation.create;shot=f.Foundation.shot;views=f.Foundation.views
  def test_parent_home_same_family_profiles_calendar_actions_and_save(self):

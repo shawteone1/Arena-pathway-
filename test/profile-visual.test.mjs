@@ -20,8 +20,8 @@ test('accepted directory HTML stays preserved within the main content while the 
  try{const before=await import(filename.href);for(const sport of ['lacrosse','volleyball','basketball','swimming'])for(const section of [undefined,'youth','college']){const params=new URLSearchParams('region=all');assert.equal(sportPage(sport,section,params).match(/<main[\s\S]*?<\/main>/)[0],before.sportPage(sport,section,params).match(/<main[\s\S]*?<\/main>/)[0],sport+'/'+section);}}
  finally{unlinkSync(filename);}
  const html=myPathway();for(const id of ['family-profile','profile-summary','profile-nav','module-customizer','profile-select','delete-profile'])assert.ok(html.includes('id="'+id+'"'));
- for(const id of ['teams','saved','schedules','media','camps','community','recruiting'])assert.ok(html.includes('id="template-'+id+'"'));
- assert.ok(html.includes('athlete-profile-container'));assert.ok(!html.includes('class="page-heading"'));
+ for(const id of ['teams','saved','schedules','media','camps','community'])assert.ok(html.includes('id="template-'+id+'"'));
+ assert.ok(!html.includes('template-recruiting'));assert.ok(html.includes('athlete-profile-container'));assert.ok(!html.includes('class="page-heading"'));
 });
 test('optional local avatar is additive and survives load without losing identity or unrelated records',()=>{
  const raw={version:2,active:'existing',profiles:[{id:'existing',nickname:'Athlete',sport:'lacrosse',role:'parent',guardian:true,clubTeam:'Existing team',position:'Midfield',avatarDataUrl:'data:image/jpeg;base64,fixture',saved:['denver-elite'],plans:[{id:'practice',name:'Practice',start:'2030-05-06'}],modules:['teams'],recruiting:{checks:['research'],notes:'Retain family notes'},extension:{keep:true}}]};

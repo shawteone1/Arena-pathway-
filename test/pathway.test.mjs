@@ -46,11 +46,11 @@ test('media is off by default and retained sources do not display without module
 });
 test('workspace navigation starts empty and optional features are inert templates until selected',()=>{
  const html=myPathway();assert.match(html,/<nav id="workspace-nav"[^>]*><\/nav>/);assert.match(html,/<div id="workspace-modules"><\/div>/);
- for(const {id} of moduleDefinitions)assert.ok(html.includes('id="template-'+id+'"'));
+ for(const {id} of moduleDefinitions.filter(m=>m.id!=='recruiting'))assert.ok(html.includes('id="template-'+id+'"'));assert.ok(!html.includes('template-recruiting'));assert.ok(!html.includes('My recruiting checklist'));
  const outsideTemplates=html.replace(/<template[^>]*>[\s\S]*?<\/template>/g,'');assert.ok(!outsideTemplates.includes('href="#recruiting"'));assert.ok(!outsideTemplates.includes('id="recruiting-form"'));
  const form=advancedBuilder();assert.equal((form.match(/name="workspace-module"/g)||[]).length,7);assert.ok(!/<input[^>]*name="workspace-module"[^>]*checked/.test(form));assert.ok(form.includes('name="interests"'));
 });
 test('workspace supports keyboard reorder and retains organization lookup without recruiting side effects',()=>{
  const app=readFileSync(new URL('../public/app.js',import.meta.url),'utf8');assert.ok(app.includes('setModules(p,modules)'));assert.ok(app.includes("button.setAttribute('aria-label','Move '"));assert.ok(!app.includes('innerHTML'));
- assert.ok(app.includes('t.organizationId===r.id'));assert.ok(app.includes("modules.includes('recruiting')"));assert.ok(app.includes("if(modules.includes('schedules'))renderSchedule(p)"));
+ assert.ok(app.includes('t.organizationId===r.id'));assert.ok(app.includes(".filter(id=>id!=='recruiting')"));assert.ok(!app.includes('function renderRecruiting(p)'));assert.ok(!app.includes('recruiting-form'));assert.ok(app.includes("if(modules.includes('schedules'))renderSchedule(p)"));
 });

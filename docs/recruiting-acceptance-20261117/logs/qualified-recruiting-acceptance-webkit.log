@@ -1,0 +1,19 @@
+test_no_second_interface_and_profile_dependency_failure (__main__.Acceptance.test_no_second_interface_and_profile_dependency_failure) ... ok
+test_shared_four_sport_finished_journey (__main__.Acceptance.test_shared_four_sport_finished_journey) ... RequestFailure blob:http://127.0.0.1:3137/2146cee8-6325-48e3-a2f1-f9620bdca43d Load request cancelled
+Final review initial open: False
+Final review initial open: False
+Final review initial open: False
+Final review initial open: False
+Final review initial open: False
+Final review initial open: False
+RequestFailure blob:http://127.0.0.1:3137/451e51f3-5382-486a-ae8f-5bc7aa9d58ee Load request cancelled
+RequestFailure blob:http://127.0.0.1:3137/7a42605b-ade1-4459-b7a4-64e6959a2441 Load request cancelled
+Final review initial open: False
+Final review initial open: False
+RequestFailure blob:http://127.0.0.1:3137/0859160c-dedc-4d75-985c-58ecbd94887b Load request cancelled
+ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 187.726s
+
+OK

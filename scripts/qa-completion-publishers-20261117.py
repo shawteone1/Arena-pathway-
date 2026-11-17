@@ -14,5 +14,5 @@ class Publishers(unittest.TestCase):
     try:external.wait_for_load_state('domcontentloaded',timeout=20000)
     except Exception as e:error=str(e).split('\n')[0]
     result={'sport':sport,'requestedURL':url,'finalURL':external.url,'navigationResponses':list(responses),'title':external.title() if error is None else None,'loadError':error,'APReturnURL':p.url,'noExternalWritesPermitted':True};records.append(result);external.close();self.assertIn('/sports/'+sport,p.url);self.assertEqual(p.locator('#sport-discover .sport-news-card').count(),3);self.assertTrue(any(r['status']==200 and not r['url'].startswith(f.BASE) for r in result['navigationResponses']),str(result))
-  Path('docs/product-completion-20261117/'+f.ENGINE+'-publisher-checks.json').write_text(json.dumps(records,indent=2)+'\n')
+  (f.OUT.parent/(f.ENGINE+'-publisher-checks.json')).write_text(json.dumps(records,indent=2)+'\n')
 if __name__=='__main__':unittest.main(verbosity=2)

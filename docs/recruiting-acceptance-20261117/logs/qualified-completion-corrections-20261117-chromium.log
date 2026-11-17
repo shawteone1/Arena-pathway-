@@ -1,0 +1,8 @@
+test_changing_club_cannot_choose_a_stale_hidden_team (__main__.Corrections.test_changing_club_cannot_choose_a_stale_hidden_team) ... ok
+test_directory_pages_retain_all_reviewed_records (__main__.Corrections.test_directory_pages_retain_all_reviewed_records) ... ok
+test_reviewed_club_picker_retained_team_warning_and_confirmation (__main__.Corrections.test_reviewed_club_picker_retained_team_warning_and_confirmation) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 18.382s
+
+OK

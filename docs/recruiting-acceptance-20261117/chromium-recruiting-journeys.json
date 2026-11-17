@@ -1,0 +1,58 @@
+[
+  {
+    "sport": "lacrosse",
+    "athleteID": "84079655-460a-4721-bac2-ad070dc3983f",
+    "competitionID": "2114aee7-ba5e-4c01-a930-41cbdc9fc0dc",
+    "recordID": "56e62e8b-455c-485d-8931-d5e4c093f299",
+    "schoolID": "du-lacrosse-men",
+    "savedComposition": true,
+    "reopenedAfterPillarAndReload": true,
+    "editedRebuilt": true,
+    "approvedRevokedReloaded": true,
+    "videoPlayed": true,
+    "maxSelectionScrollDelta": 0,
+    "oneAthlete": true
+  },
+  {
+    "sport": "basketball",
+    "athleteID": "dbd52a30-3cb8-47c1-a9ca-6ef7524b9b86",
+    "competitionID": "7565d2a4-c6c6-4bed-8d95-38b3df75b916",
+    "recordID": "846088ac-2645-4a15-8f9c-f78ca9950962",
+    "schoolID": "du-basketball-men",
+    "savedComposition": true,
+    "reopenedAfterPillarAndReload": true,
+    "editedRebuilt": true,
+    "approvedRevokedReloaded": true,
+    "videoPlayed": true,
+    "maxSelectionScrollDelta": 0,
+    "oneAthlete": true
+  },
+  {
+    "sport": "volleyball",
+    "athleteID": "320c0ef8-e4b6-44e8-bb1c-87777ed5447d",
+    "competitionID": "4c810772-6239-4023-a626-bfb9b7483b86",
+    "recordID": "09a0b9be-4126-4580-bc65-bba5f59174bd",
+    "schoolID": "du-volleyball-women",
+    "savedComposition": true,
+    "reopenedAfterPillarAndReload": true,
+    "editedRebuilt": true,
+    "approvedRevokedReloaded": true,
+    "videoPlayed": true,
+    "maxSelectionScrollDelta": 0,
+    "oneAthlete": true
+  },
+  {
+    "sport": "swimming",
+    "athleteID": "028c86f4-735f-49d1-9012-5e7ad409f9a8",
+    "competitionID": "06795af2-7ff5-4a1d-a999-8c22e8ecdc3f",
+    "recordID": "fb093976-47ba-45b0-b5b9-c2c41e6c8eb1",
+    "schoolID": "du-swimming-men",
+    "savedComposition": true,
+    "reopenedAfterPillarAndReload": true,
+    "editedRebuilt": true,
+    "approvedRevokedReloaded": true,
+    "videoPlayed": true,
+    "maxSelectionScrollDelta": 0,
+    "oneAthlete": true
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "athleteIDs": [
+    "70bfb2c9-005f-4b1d-a792-8566d1d7f377",
+    "4a8ceb6f-8e64-408c-ae86-7b671a3eba80"
+  ],
+  "competitionIDs": [
+    "caecec16-f945-4bd3-a8c6-eb3e8a7275a5",
+    "1f6f9bf8-0e8b-47f7-b1e8-d1c01f2e805c"
+  ],
+  "recordIDs": [
+    "cbc1ebfb-d587-426a-8225-53f22c9a4ccf",
+    "e7287c03-a551-43b8-8dec-f44ad09a009f"
+  ],
+  "savedCollegeID": "du-lacrosse-men",
+  "all25Steps": true,
+  "directDatabaseManipulation": false,
+  "externalWrites": [],
+  "sameFamilyPreserved": true,
+  "videoPlayed": true,
+  "saveBeforeApprovalEnforced": true
+}

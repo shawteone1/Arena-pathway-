@@ -21,8 +21,8 @@ test('activity labels distinguish actual tournament games from RSVP tasks withou
  assert.equal(activityKind({eventType:'deadline',title:'Tournament RSVP due'}),'other');
  assert.equal(activityKind({eventType:'practice',title:'Practice'}),'practice');
 });
-test('independent recruiting entry reuses the same profile renderer and offers research without an athlete',async t=>{
+test('independent recruiting entry reuses athlete records with a dedicated shell and research without an athlete',async t=>{
  const server=createServer();await new Promise(r=>server.listen(0,'127.0.0.1',r));t.after(()=>new Promise(r=>server.close(r)));const base='http://127.0.0.1:'+server.address().port;
- const html=await(await fetch(base+'/recruiting')).text();assert.ok(html.includes('data-workspace-view="recruiting"'));assert.ok(html.includes('Explore public college programs without creating an athlete'));assert.ok(html.includes('Sharing is off'));
+ const html=await(await fetch(base+'/recruiting')).text();assert.ok(html.includes('data-workspace-view="recruiting"'));assert.ok(html.includes('Explore college programs independently'));assert.ok(html.includes('Sharing is off'));
  assert.equal((await fetch(base+'/assets/siem-calendar.js')).status,200);
 });
