@@ -1,0 +1,7 @@
+test_media_portrait_archive_and_stale_writer (__main__.Foundation.test_media_portrait_archive_and_stale_writer) ... ok
+test_profile_gallery_edit_remove_and_reload (__main__.Foundation.test_profile_gallery_edit_remove_and_reload) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 44.338s
+
+OK

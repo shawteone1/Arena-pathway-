@@ -1,0 +1,16 @@
+test_shared_four_sport_finished_journey (__main__.Recruiting.test_shared_four_sport_finished_journey) ...
+  test_shared_four_sport_finished_journey (__main__.Recruiting.test_shared_four_sport_finished_journey) (sport='lacrosse') ... FAIL
+
+======================================================================
+FAIL: test_shared_four_sport_finished_journey (__main__.Recruiting.test_shared_four_sport_finished_journey) (sport='lacrosse')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-recruiting-reconstruction-20261117.py", line 18, in test_shared_four_sport_finished_journey
+    p.get_by_role('button',name='Complete Athlete Information',exact=True).click();self.edit('About Me',{'About Me':'Fictional '+sport+' athlete: I learn with my team and keep improving my skills.'});self.edit('Education & Academics',{'High school':'Fictional Academy','Graduation year':'2028','Academic information (optional)':'Family-reported academic interests','Intended major (optional)':'Engineering','GPA (optional)':'3.8','GPA scale (optional)':'4'});self.edit('Athletic Background',{'Position / event':position,'Age (parent-entered, optional)':'16'});self.edit('Achievements',{'Achievements (one per line)':'Selected fictional team honour\nPrivate unselected honour'});self.assertIn('Fictional Academy',p.locator('#recruiting-experience').inner_text());self.assertEqual(p.locator('#recruiting-experience input[type=checkbox]').count(),0)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'Fictional Academy' not found in ''
+
+----------------------------------------------------------------------
+Ran 1 test in 5.718s
+
+FAILED (failures=1)

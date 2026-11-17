@@ -1,0 +1,7 @@
+test_fresh_repeat_navigation_css_and_recovery (__main__.Assets.test_fresh_repeat_navigation_css_and_recovery) ... ok
+test_guided_onboarding_and_keyboard_editor (__main__.Assets.test_guided_onboarding_and_keyboard_editor) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 18.748s
+
+OK

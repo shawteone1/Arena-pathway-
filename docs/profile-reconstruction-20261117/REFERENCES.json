@@ -1,0 +1,91 @@
+[
+  {
+    "reference": "LinkedIn",
+    "requested": "https://www.linkedin.com/help/linkedin/answer/a554351",
+    "finalURL": "https://www.linkedin.com/help/linkedin/answer/a554351",
+    "status": 200,
+    "title": "Create a good LinkedIn profile | LinkedIn Help",
+    "access": "Public page; no authenticated product session"
+  },
+  {
+    "reference": "NCSA",
+    "requested": "https://www.ncsasports.org/recruiting/how-to-get-recruited/athletic-resume",
+    "access": "Not retrieved",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "reference": "SportsRecruits",
+    "requested": "https://sportsrecruits.com/athletes",
+    "finalURL": "https://sportsrecruits.com/athletes",
+    "status": 200,
+    "title": "SportsRecruits for Student-Athletes",
+    "access": "Public page; no authenticated product session"
+  },
+  {
+    "reference": "Hudl",
+    "requested": "https://www.hudl.com/products/athlete-recruiting",
+    "access": "Not retrieved",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "reference": "NCSA",
+    "url": "https://www.ncsasports.org/recruiting/how-to-get-recruited",
+    "status": 200,
+    "finalURL": "https://www.ncsasports.org/recruiting/how-to-get-recruited",
+    "publicTextExcerpts": [
+      "Free recruiting profile review",
+      "Get expert feedback on your recruiting profile, on us. Create your profile and book your recruiting assessment to see where you stand today.",
+      "NCSA Reviews: Real Feedback from Parents, Athletes, Coaches",
+      "How to Contact College Coaches",
+      "Gain exposure to college coaches, get step-by-step guidance through the recruiting process, communicate directly with college coaches, access to development and tools to find the right college fit for you.",
+      "NCSA makes it easy to find the right recruits for your program on the largest recruiting network. We offer tools to simplify communication, track an athlete&#8217;s progress and an experienced staff dedicated to helping you succeed.",
+      "With NCSA&#8217;s recruiting and development education, group workshops and personal coaching, your team can get access to the tools that can help each player perform at their best and navigate their future.",
+      "Everything student-athletes and their families need to navigate the recruiting and development process.",
+      "Stand out to college coaches with access to our coach directory, free workshops, and expert guidance every step of the way.",
+      "Free recruiting profile review"
+    ]
+  },
+  {
+    "reference": "Hudl",
+    "url": "https://www.hudl.com/solutions/athletes",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "reference": "LinkedIn",
+    "url": "https://www.linkedin.com/help/linkedin/answer/a554351",
+    "status": 200,
+    "finalURL": "https://www.linkedin.com/help/linkedin/answer/a554351",
+    "publicTextExcerpts": [
+      "Create a good LinkedIn profile",
+      "Add a professional profile photo - A good profile photo increases the credibility of your profile and helps you stand out from the crowd. Members with a profile photo on LinkedIn receive up to 2X more profile views. You can also add a background image to personalize your profile. Check out some more tips for picking the right LinkedIn profile photo .",
+      "Make your headline stand out \u2013 Your headline is created when you add your positions to your profile. However, you can re-write it to either promote an area of expertise or to let your personality shine through."
+    ]
+  },
+  {
+    "reference": "SportsRecruits",
+    "url": "https://sportsrecruits.com/athletes",
+    "status": 200,
+    "finalURL": "https://sportsrecruits.com/athletes",
+    "publicTextExcerpts": [
+      "Build a recruiting presence, connect with college coaches, and commit to your best fit.",
+      "SportsRecruits is engineered to amplify every action you take in the recruiting process. Maximize your efforts and expand your exposure to college coaches.",
+      "Give coaches everything they need to recruit you",
+      "SportsRecruits Athlete Profiles are built to college coach specifications and contain all of the athletic, academic, and personal information college coaches need to start making an evaluation.",
+      "Video built for recruiting",
+      "Video is integral to college coaches\u2019 ability to evaluate you. Upload unlimited video, embed from Youtube, Vimeo or Hudl, sync film from our integration partners , and build highlight reels in-platform. Show coaches exactly what they need to see.",
+      "Completing your profile makes you searchable, building a target list signals your interest, and adding video boosts your discoverability - everything you do on SportsRecruits brings you closer generating connections with college coaches.",
+      "Your best fit is more than just the right team \u2014 it\u2019s also your academic, social, and financial match. SportsRecruits helps identify your best all-around opportunities.",
+      "From athletic division, to academic selectivity, to geographic location, our School Search feature allows you to filter down colleges and universities based on the criteria that are important to you.",
+      "College coaches publish Roster Needs on their School Profile to help discover and attract prospective student-athletes for their program. Build out your SportsRecruits Athlete Profile to see when you match."
+    ]
+  },
+  {
+    "url": "https://www.hudl.com/athletes-and-fans",
+    "status": 200,
+    "title": [
+      "Hudl for Parents and Fans"
+    ],
+    "excerpt": "Athlete Performance Scouting &amp; Recruiting Automated Capture Fan Engagement Operations View All Products Back Team Performance Products Hudl Online and mobile platform for video sharing and review Assist Stats and reports done for you Sportscode Customizable performance analysis Replay Instant replay for teams using Sportscode Insight Custom analytics transforming data into tactical insight Studio Telestration platform for visual tactical review Hudl IQ Advanced American football analytics for collegiate programs to optimize game strategy Instat Video and data solution for analysis and scouting Volleymetrics Advanced analytics for college and pro volleyball teams Balltime AI volleyball tool and stats for individuals Statsbomb The world\u02bcs most advanced insights for team analysis in global football Fastmodel Scouting, recruiting, and diagramming tools for high-level basketball FastDraw Play diagramming software to quickly draw, organize, and share key plays and playbooks FastScout Software for creating custom scouting reports, leveraging player stats and automated opponent breakdowns Hudl Tracking Data Player locations, physical and off-ball metrics for any player. Hudl Live Soccer Data Real-time soccer data for match analysis, fan engagement, content creation and production\u2014built by Hudl Statsbomb experts. Feature Update Revolutionize Your Court Analysis See the game from eve",
+    "scope": "Public reference content only; no authenticated Hudl UI or proprietary layout copied."
+  }
+]

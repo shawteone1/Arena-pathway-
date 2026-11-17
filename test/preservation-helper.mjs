@@ -1,3 +1,4 @@
+import {approvedNov17Copy} from './nov17-approved-changes.mjs';
 import {execFileSync} from 'node:child_process';
 export const uxFiles=new Set(['server.mjs','src/views.mjs','src/unified-directory.mjs','src/unified-views.mjs','src/progressive-directory.mjs','public/state.js','public/app.js','public/siem.js','public/siem-platform-model.js']); // Nov 12: additive event categories/local source; domain and fixtures remain frozen.
 export function preservedBytes(base,file,options={}){
@@ -66,6 +67,7 @@ const pillarChanges={
   ]
 };
 export function approvedPillarCopy(file,original){
+ const nov17=approvedNov17Copy(file,original);if(nov17!==original)return nov17;
  if(file==='public/local-family-calendar.js'){const next="import {athleteEvents} from './meet-sessions.js';\n"+original.toString().replace("import {loadState,scheduleFor}","import {loadState}").replace('scheduleFor(p,catalog)){try{','athleteEvents(p,catalog).filter(e=>!e.container)){try{');return typeof original==='string'?next:Buffer.from(next);}
  if(!pillarChanges[file])return original; // Keep binary brand assets byte-for-byte.
  let next=original.toString();

@@ -1,0 +1,39 @@
+test_fresh_repeat_navigation_css_and_recovery (__main__.Assets.test_fresh_repeat_navigation_css_and_recovery) ... ok
+test_guided_onboarding_and_keyboard_editor (__main__.Assets.test_guided_onboarding_and_keyboard_editor) ... ERROR
+
+======================================================================
+ERROR: test_guided_onboarding_and_keyboard_editor (__main__.Assets.test_guided_onboarding_and_keyboard_editor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-profile-assets-20261117.py", line 13, in test_guided_onboarding_and_keyboard_editor
+    p=self.page;p.goto(base.BASE+'/build?new=1&guided=1');p.wait_for_selector('#athlete-journey');p.get_by_role('group',name='Sport',exact=True).get_by_role('button',name='Swimming',exact=True).click();p.get_by_role('button',name='Add Your Own Club / Team',exact=True).click();p.get_by_label('Search club or Add Your Own',exact=True).fill('Fictional swim club');p.get_by_role('button',name='Next →',exact=True).click();p.get_by_label('Program or team',exact=True).fill('Fictional squad');p.get_by_role('button',name='Next →',exact=True).click();p.get_by_label('Season label',exact=True).fill('Family 2026');p.get_by_role('button',name='Next →',exact=True).click();p.get_by_label('Age group / division',exact=True).fill('16 and under');p.get_by_role('button',name='Next →',exact=True).click();p.get_by_label('Athlete name',exact=True).fill('Guided Demo');p.get_by_label('Position / event',exact=True).fill('100 freestyle');p.get_by_label('I am the parent / guardian managing this athlete',exact=True).check();p.get_by_role('button',name='Next →',exact=True).click();p.get_by_role('button',name='Save athlete profile',exact=True).click();p.wait_for_selector('.athlete-story');a=self.state()['profiles'][0];self.assertEqual(a['sport'],'swimming');self.assertEqual(a['programTeam'],'Fictional squad');self.assertIsNone(a.get('clubId'));self.assertEqual(a['position'],'100 freestyle');p.emulate_media(reduced_motion='reduce');self.assertTrue(p.evaluate('matchMedia("(prefers-reduced-motion: reduce)").matches'))
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 18242, in fill
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 219, in fill
+    return await self._frame.fill(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 636, in fill
+    await self._fill(**locals_to_params(locals()))
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 648, in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Locator.fill: Error: strict mode violation: get_by_label("Athlete name", exact=True) resolved to 2 elements:
+    1) <input type="text" required="" id="journey-athlete-name" aria-label="Athlete name"/> aka get_by_role("textbox", name="Athlete name")
+    2) <input required="" id="nickname" maxlength="40" autocomplete="off"/> aka locator("#nickname")
+
+Call log:
+  - waiting for get_by_label("Athlete name", exact=True)
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 8.819s
+
+FAILED (errors=1)

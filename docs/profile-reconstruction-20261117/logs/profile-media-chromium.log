@@ -1,0 +1,31 @@
+test_media_portrait_archive_and_stale_writer (__main__.Foundation.test_media_portrait_archive_and_stale_writer) ... ERROR
+test_profile_gallery_edit_remove_and_reload (__main__.Foundation.test_profile_gallery_edit_remove_and_reload) ... ok
+
+======================================================================
+ERROR: test_media_portrait_archive_and_stale_writer (__main__.Foundation.test_media_portrait_archive_and_stale_writer)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-profile-foundation-20261117.py", line 32, in test_media_portrait_archive_and_stale_writer
+    second=self.create('Other Media Demo','swimming');p.locator('#profile-nav').get_by_role('link',name='Media',exact=True).click();p.get_by_role('button',name='Add Media',exact=True).click();p.locator('#media-upload').set_input_files(payload);p.locator('#media-caption').fill('Unrelated athlete monogram');p.get_by_role('button',name='Save media',exact=True).click();p.wait_for_selector('.family-media-gallery img');p.goto(BASE+'/my-pathway?view=family');p.wait_for_selector('.athlete-player-card');card=p.locator('.athlete-player-card').first;card.get_by_label('Manage Media Demo',exact=True).click();card.get_by_role('button',name='Delete Athlete',exact=True).click();d=p.get_by_role('dialog');d.get_by_label('Athlete name confirmation',exact=True).fill('Media Demo');d.get_by_role('button',name='Remove athlete',exact=True).click();p.wait_for_function('JSON.parse(localStorage.getItem("arenaPathway.v2")).profiles.length===1');proof=p.evaluate("""async ids=>{const {listMedia}=await import('/media-library.js');return Promise.all(ids.map(async id=>({id,items:(await listMedia(id)).map(m=>({id:m.id,owner:m.athleteId,bytes:m.blob.size}))})));}""",[first,second]);self.assertEqual([len(x['items']) for x in proof],[1,1]);self.assertTrue(all(x['items'][0]['bytes']>0 for x in proof));self.assertEqual(self.state()['archivedProfiles'][0]['profile']['featuredMediaIds'],[proof[0]['items'][0]['id']])
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9385, in evaluate
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py", line 472, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 345, in evaluate
+    await self._channel.send(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:3006/media-library.js
+
+----------------------------------------------------------------------
+Ran 2 tests in 28.238s
+
+FAILED (errors=1)

@@ -17,7 +17,7 @@ test('reviewed catalog and catalog queries remain byte-preserved while participa
 test('homepage is an umbrella editorial experience with a single five-destination Sports menu',()=>{
  const html=home();const nav=html.match(/<nav aria-label="Sports">(.*?)<\/nav>/s)[1];
  assert.deepEqual([...nav.matchAll(/href="([^"]+)"/g)].map(m=>m[1]),['/sports/lacrosse','/sports/volleyball','/sports/basketball','/sports/swimming','/build?new=1&guided=1']);
- assert.match(html,/YOUR SPORT\.<br><span>YOUR PATH\.<\/span><br>ONE PLACE\./);
+ assert.match(html,/Simple to use\.<br><span>Powerful underneath\.<\/span>/);assert.match(html,/Your sport\. Your path\. One place\./);assert.equal((html.match(/class="platform-pillar"/g)||[]).length,4);
  assert.match(html,/01 \/ DISCOVERY/);assert.match(html,/02 \/ DEVELOPMENT/);assert.match(html,/03 \/ OPPORTUNITY/);
  assert.ok(!html.includes('sport-grid'));assert.ok(!html.includes('class="letterman"'));
  assert.match(html,/photos\/stadium.webp/);assert.match(html,/id="sports"/);
@@ -37,7 +37,7 @@ test('directories separate participation categories, group clubs first and retai
  for(const path of ['youth','high-school','college','adult','community'])assert.ok(html.includes(`/sports/lacrosse/${path}`));
  assert.ok(html.includes('Youth Clubs &amp; Programs'));assert.ok(!html.includes('data-record="du"'));assert.ok(!html.includes('data-record="cll"'));
  const teams=sportPage('lacrosse','teams',new URLSearchParams('kind=team'));assert.ok(teams.includes('group-team'));assert.ok(!teams.includes('id="group-club"'));
- assert.match(html,/role="search"/);assert.match(html,/name="kind"/);assert.match(html,/name="location"/);assert.ok(!html.includes('<select name="city"'));
+ assert.match(html,/role="search"/);assert.match(teams,/name="kind"/);assert.ok(!html.includes('More participation &amp; registration filters'));assert.match(html,/name="age"/);assert.match(html,/name="classification"/);assert.match(html,/name="location"/);assert.ok(!html.includes('<select name="city"'));
 });
 test('swimming classification follows explicit catalog evidence without inventing summer status',()=>{
  assert.deepEqual(catalog.organizations.filter(o=>swimProgram(o)==='year-round').map(o=>o.id).sort(),['dsa','loveland']);

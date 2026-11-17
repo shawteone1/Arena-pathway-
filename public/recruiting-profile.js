@@ -5,9 +5,11 @@ import {eventRef} from './competition-records.js';
 import {filterCoachProfile,selectedFields} from './recruiting-fields.js';
 import {recruitingSport,eligibleCompetitions,appearanceEvents,selectedStatistics} from './recruiting-sports.js';
 export function localAvatar(value){return typeof value==='string'&&value.length<=3e6&&/^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+/=]+$/.test(value)?value:null;}
-export function buildCoachProjection(profile,{events=[],media=[],config=recruitingSport(profile.sport),now=new Date()}={}){
+export function buildCoachProjection(profile,options={}){if(!recruitingGate(profile,{now:options.now||new Date()}).allowed)throw Error('Parent management, current age 16+ review and sport-specific rules review are required.');return projectSelected(profile,options);}
+// Private owner draft is separate from approval. Rules remain mandatory for strict approval.
+export function buildOwnerDraftProjection(profile,options={}){const gate=recruitingGate(profile,{now:options.now||new Date()});if(!gate.parent||!gate.ageKnown)throw Error('A parent-managed athlete with a current age 16+ review is required for recruiting.');return {...projectSelected(profile,options),approved:false,ownerDraft:true};}
+function projectSelected(profile,{events=[],media=[],config=recruitingSport(profile.sport),now=new Date()}={}){
  if(config.id!==profile.sport)throw Error('Recruiting sport must match the athlete.');
- if(!recruitingGate(profile,{now}).allowed)throw Error('Parent management, current age 16+ review and sport-specific rules review are required.');
  const r=profile.recruiting||{},fields=selectedFields(r),competition=eligibleCompetitions(events,config),refs=new Set(competition.map(eventRef)),ids=new Set(r.recordIds||[]),eventIds=new Set(r.eventRefs||[]),mediaIds=new Set(r.highlightIds||[]);
  const records=(profile.records||[]).filter(row=>refs.has(row.eventRef)&&ids.has(row.id)&&(!row.athleteId||row.athleteId===profile.id));
  const gpa=Number(profile.gpa),scale=Number(profile.gpaScale),hasGpa=String(profile.gpa??'').trim()!==''&&String(profile.gpaScale??'').trim()!==''&&Number.isFinite(gpa)&&Number.isFinite(scale)&&scale>0&&gpa>=0&&gpa<=scale;

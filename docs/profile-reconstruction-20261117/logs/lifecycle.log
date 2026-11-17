@@ -1,0 +1,13 @@
+✔ named parent removal archives complete identity/references atomically and preserves unrelated athlete (2.349372ms)
+✔ wrong confirmation, non-parent and unknown athlete cannot be removed (1.194902ms)
+✔ reload and stale supported writer preserve removal and archived references (1.917922ms)
+✔ tombstone excludes stale legacy SIEM identity/event but preserves others (29.850304ms)
+✔ failed durable write does not mutate active state (1.152368ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 138.372815

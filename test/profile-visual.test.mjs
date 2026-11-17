@@ -1,3 +1,4 @@
+import {approvedNov17Copy,approvedNov17Files} from './nov17-approved-changes.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {execFileSync} from 'node:child_process';
@@ -10,7 +11,8 @@ test('Nov 12 follow-up preserves directory, engine, original data, fixtures and 
  // Nov15 approved query adapters are covered by combined-filter/legacy URL tests; data and domain remain byte-frozen.
  const paths=['public/regions.js','public/siem-family-fixtures.js','public/siem-platform-fixtures.js','public/siem.js','public/siem-model.js','engine'];
  const originalData=execFileSync('git',['ls-tree','-r','--name-only',baseline,'data'],{encoding:'utf8'}).trim().split('\n');
- assert.equal(execFileSync('git',['diff',baseline,'--',...paths,...originalData],{encoding:'utf8'}),'');
+ assert.equal(execFileSync('git',['diff',baseline,'--',...paths.filter(p=>!approvedNov17Files.has(p)),...originalData],{encoding:'utf8'}),'');
+ for(const file of paths.filter(p=>approvedNov17Files.has(p)))assert.deepEqual(readFileSync(file),approvedNov17Copy(file,execFileSync('git',['show',baseline+':'+file])));
  const previous=execFileSync('git',['show',baseline+':public/style.css'],{encoding:'utf8'}),current=readFileSync('public/style.css','utf8');assert.ok(current.startsWith(previous),'Approved CSS remains byte-preserved; additions only');
 });
 test('accepted directory HTML stays preserved within the main content while the approved shared navigation and delivery contract evolve',async()=>{

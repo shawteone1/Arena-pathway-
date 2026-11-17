@@ -1,0 +1,43 @@
+{
+  "baseline": "a86edc7c2da735a8a50978ac72e917ac9b7f960d",
+  "branch": "codex/ap-profile-reconstruction-20261117",
+  "node": {
+    "passed": 310,
+    "failed": 0,
+    "skipped": 0
+  },
+  "browser": {
+    "chromium": {
+      "passed": 35,
+      "failed": 0,
+      "skipped": 0,
+      "logs": {
+        "profile-chromium-complete.log": 2,
+        "recruiting-chromium-focus.log": 1,
+        "supporting-chromium-eligibility.log": 4,
+        "assets-chromium-final.log": 2,
+        "siem-chromium-final.log": 18,
+        "rss-chromium.log": 5,
+        "editorial-chromium.log": 3
+      }
+    },
+    "webkit": {
+      "passed": 22,
+      "failed": 0,
+      "skipped": 0,
+      "logs": {
+        "profile-webkit-complete.log": 2,
+        "recruiting-webkit-dom-ready.log": 1,
+        "supporting-webkit-eligibility.log": 4,
+        "assets-webkit-final.log": 2,
+        "siem-webkit.log": 5,
+        "rss-webkit.log": 5,
+        "editorial-webkit.log": 3
+      }
+    }
+  },
+  "functional": "PASS",
+  "visualProduct": "PASS against blueprint; founder acceptance pending",
+  "decision": "READY FOR USER ACCEPTANCE",
+  "scope": "Fictional browser-local demonstration; not physical-device or production certification"
+}

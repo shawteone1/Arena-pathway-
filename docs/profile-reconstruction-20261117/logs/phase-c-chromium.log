@@ -1,0 +1,16 @@
+test_shared_four_sport_finished_journey (__main__.Recruiting.test_shared_four_sport_finished_journey) ...
+  test_shared_four_sport_finished_journey (__main__.Recruiting.test_shared_four_sport_finished_journey) (sport='lacrosse') ... FAIL
+
+======================================================================
+FAIL: test_shared_four_sport_finished_journey (__main__.Recruiting.test_shared_four_sport_finished_journey) (sport='lacrosse')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-recruiting-reconstruction-20261117.py", line 22, in test_shared_four_sport_finished_journey
+    b=p.get_by_role('button',name='Include '+title,exact=True);b.scroll_into_view_if_needed();y=p.evaluate('scrollY');h=b.element_handle();b.click();self.assertTrue(h.evaluate('e=>e.isConnected&&e.getAttribute("aria-pressed")==="true"'));deltas.append(abs(p.evaluate('scrollY')-y));self.assertLessEqual(deltas[-1],2)
+                                                                                                                                                                                                                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 505 not less than or equal to 2
+
+----------------------------------------------------------------------
+Ran 1 test in 11.676s
+
+FAILED (failures=1)

@@ -1,0 +1,997 @@
+{
+  "baseline": "a86edc7c2da735a8a50978ac72e917ac9b7f960d",
+  "count": 198,
+  "allUnchanged": true,
+  "files": [
+    {
+      "path": "data/acquisition-v2/access-probes-additional.json",
+      "sha256": "2fbdceadb0b6512766d2b92af942c3a410d5ce2f702033e48fbe1ce9e072c09f",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/access-probes.json",
+      "sha256": "b75e5e7b2883f9e0869298ce95e285807bf8214322d3cec9e6e3856279f794ed",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/acquisition-graph.json",
+      "sha256": "6e32f2dc4c5bf84641ae9f1c2800a582b50efac5f41b0b35d55573d4a056c010",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/adapter-capabilities.json",
+      "sha256": "957e6914f2d88453ba63f8adc4f79c5d6a5d1c65796b712f73960ded0618b302",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/benchmark-lock.json",
+      "sha256": "016a36244b9ae463b855df8355ef987cf769505bb04a654dc4c91cd08fdf0d1f",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/benchmarks/lacrosse.json",
+      "sha256": "95472e49ef3be07e218dbd5020b542dd536944ba8d342fcee79d3a45390c6157",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/benchmarks/source-censuses.json",
+      "sha256": "dff771de245c09d1d0de3026147ff536421a26f9fb5e4bb98c60c54d3e4c3a2a",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/benchmarks/volleyball.json",
+      "sha256": "4c69a6519dc2d8101630e669912daf90b6c2497d8963979d017eeb1fc43afb5e",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/controlled-repeatability.json",
+      "sha256": "0b3ad5056063dfe0f86beab51c9c51c7b2c08d670a6fc34f1e77bbadd2583660",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/evaluation-initial.json",
+      "sha256": "19c6f38cbde0152bee79181599f96662a49e47a2287e2b238b602d32b85455fb",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/evaluation-seal.json",
+      "sha256": "7743bfe93742c8d3d584fd48163ff12b4cab07d60f00ddd62923b4a87395d1dd",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/evaluation-trial-ledger.json",
+      "sha256": "f5d9b66813b9ea1527dae364e99301046964dc299ca26d268d26ed55010c85ce",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/evaluation.json",
+      "sha256": "9aba6b83338c4a5203cdacac3c8a4380d1220f9fb2d176221c0695dcf47a5833",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/evidence/retrieval-receipts.json",
+      "sha256": "22d1891cc8ee5e6fc7e13dad1ae68002d93ee3eb585186df25281610700bb6ca",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/jobs.json",
+      "sha256": "2889729b16fc2fa175d182c7c5aa21235e3abe21d74cca1762dee78befd32bf2",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/live-ledger.json",
+      "sha256": "e9b5a958ecdde11a6c0c08d7335c5319c3b791a911de412e54c84e59f5b0640a",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/preserved-source-inventory.json",
+      "sha256": "2742c50c54c4e9787bd8079d3f9e78a32e728277ce1cad7639b4fba9b6cdf2da",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/protocol.json",
+      "sha256": "bcc0a985a2c0ef5082410618ca5a60ee949c2080f899e11ac62ec6bbf8ce4020",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/review-actions.json",
+      "sha256": "295217d10a5d555dbcdfbec5b0344237c0f2c3aa43d2fbfe7fdb8b63d652bb53",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/reviewed-catalog.json",
+      "sha256": "9564a46f364da417e57c73d4e8c6789f3ec50a3bdc9e78ef4388df400fad1bc1",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/search-leads.json",
+      "sha256": "e06b6c72dcbdc627462616f9f6d7102a437050ca575e63c76d6c71b8eacf0185",
+      "unchanged": true
+    },
+    {
+      "path": "data/acquisition-v2/source-shapes.json",
+      "sha256": "aed514ac988da26e5d7c9a629817570e54c6d7b0bb6592449e2294198ead9cf9",
+      "unchanged": true
+    },
+    {
+      "path": "data/catalog.json",
+      "sha256": "0268288b50e54f60db1521c30d4e3e13c3cf029213d4a38fd2faaa4bb27db8fa",
+      "unchanged": true
+    },
+    {
+      "path": "data/content-presentation.json",
+      "sha256": "e32ff3e5f4d23976b9b71262c8473f8506ed6fd91819db3e2a8f14f110699eb4",
+      "unchanged": true
+    },
+    {
+      "path": "data/content-review.json",
+      "sha256": "3357a1a7bec71092ea3f25dbbff00bbf189cb69c02583f522d3838c2f1e89643",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery-analysis/named-failures.json",
+      "sha256": "1044af1041506ab7c0a314cc40bae8b333083daef5939b71c3abdf708b24f184",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery-analysis/official-diagnostics-before.json",
+      "sha256": "8086ba829c968a1e202971174595ad7c7bfdb89ee35667bcc276af1c6ee9af62",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery-analysis/official-diagnostics.json",
+      "sha256": "478dca5b2614c3c73792c1a678442bb51bf2c7711893a82a735b08977e537648",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery-analysis/rerun-evaluation.json",
+      "sha256": "b9bdb71a219b7b7ca05af6c7179da87e7e51e4f3ce5e9ecfbffa18ac42866db1",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery-analysis/rerun-ledger.json",
+      "sha256": "c16e91e357be7f3c721ef26b35435be4176fb8b5c102f26012b20845639ff054",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery-analysis/rerun-plan.json",
+      "sha256": "5487ef64ad027a6c82512cf27a570e99ae54a192a9d298f91e22da2dbdf68c5b",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery/archive-sources.json",
+      "sha256": "134d9118be8e8c61b0a7bcbb7e517de9ef7d21224110ff6dc47b82223ad0f2de",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery/audit.json",
+      "sha256": "b9f3e0cbd88416d2a721f566f634b9654f66d68c7871e0e42c8b4af41b1522c5",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery/decision-tree.json",
+      "sha256": "5b167a631b3408e27f9d2eee7327b4acbe684cf5386b0d7e031a7c303102d65c",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery/expectations/replay-front-range.json",
+      "sha256": "3be4d2f253996bf272b58665cde82a72bb1b90698329228f11dff66032d75aa9",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery/expectations/replay-team180.json",
+      "sha256": "060ab962ea595aae1d95b5a1fd260c05839321ea4232efac44f5c1100f87b0f2",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery/graph.json",
+      "sha256": "35dd3c8060159080897d367848787e2cdeb25ba5378fdda46a0b095469402274",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery/publication-baseline.json",
+      "sha256": "53b7c8b4b07d346434018a73c2335f4f1bce7848c1188317da1223841be74fda",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery/registry.json",
+      "sha256": "35129e2ee5dddc11f1005ef412cfc3adaec6006120529fda5f9045638b2330b6",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery/replay-proof.json",
+      "sha256": "6fa3fecf9296d19d4dacebb14138a49365499224c1004e57748d205fe7cc124e",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery/report.json",
+      "sha256": "e68d5d84f6f17b38fe7b732bbeae56b9968a105796483da3fff3fe3ee7fc4b21",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery/review-decisions.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery/source-bindings.json",
+      "sha256": "ce4f0e7bcba41598b43f17782aeae5a2afd3811b4d91703502984f5f79d8be29",
+      "unchanged": true
+    },
+    {
+      "path": "data/discovery/taxonomy.json",
+      "sha256": "df2c121a639c28970e1d0eea7606559f74fe746fee0895a279d9f4756f753240",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/aliases.json",
+      "sha256": "50f13e21e161f712500436532303ad7b018a700d4f72d27ea377bf97bb344219",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/approved.json",
+      "sha256": "9dc4f01f36443cc83404614973ad68207fdd1d7a74a7293f06948d31172b9c73",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/adaptive-denver.json",
+      "sha256": "73b86d470dc6356e9949c0604fe0dd45017ba007f67f27a601fe158eea7c0e20",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/adaptive-longmont.json",
+      "sha256": "1e5ec942877f1e2738e2e61225e490407f1a615d7bbefccb15772e29226968fa",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/adaptive-montrose.json",
+      "sha256": "ccec030ed46c68756870b01637b403cf4bd5140cf8b5e858d879d5d12173db0c",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/basket-cbc.json",
+      "sha256": "7cb12299888fdf3fa7dbbe06f294b75606d1d5a172e55e2e9bc386398f4f1651",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/basket-ccys.json",
+      "sha256": "d4b269620515991315f6d0d516c1f11c722d23dd16f7a7b0d473d0d4dde30c54",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/basket-cybi.json",
+      "sha256": "49da9a57cfb705f900b301be91638d824801633a8a8d08deabfedb619b56c529",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/basket-elevation.json",
+      "sha256": "e4e13a452f21d10f851e500ef8857544546b4bce8e55a30435b2ac35e6bccb7e",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/basket-goldcrown-feeders.json",
+      "sha256": "a54cd6f323748cd06c44dcad80e6113da73d8aa63885caadfa271b3bf68e024a",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/basket-goldcrown-program.json",
+      "sha256": "e66d9d1d1e0f5fc91fa7ad0d7c96044691a6ca687c14003a54bc8478372253df",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/basket-hdn-noco.json",
+      "sha256": "1ee74cd364e24ed70d319636745c6ca07c661fd274d4a25b0f7f6c7bc7463a73",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/basket-hdn-soco.json",
+      "sha256": "43e7e919d0eb4b86759ed27584491a1d99c792c71f563260ccd34e4a644b84c9",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/basket-parker.json",
+      "sha256": "47d29b4bcd5547d216358a228e1268d7a62a53ebd049ea2722efd25af702e2a7",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/basket-psb.json",
+      "sha256": "2b16f5717e116d4088cd33076620956de57d372e721523b643e9ad6aa380d5e8",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/basket-riot.json",
+      "sha256": "f038ed4b2690e2fd12b79fa0f96191ee002e447dd89213172d0199f04177b675",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/basket-swoosh.json",
+      "sha256": "ab52b66b10519d26ab2a77103649317239d50ee27d9bd76909ad8bd21dcf7955",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/basket-warriors.json",
+      "sha256": "4063b8b88deff75098ddcd4be69a785cfcacde14a3d1848ed8ef7c18c25cba7b",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/college-adams.json",
+      "sha256": "d67af67216c5da6ffefade2f21d274968d40529533c44f19e9a8b5f4a4ea689f",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/college-cmu.json",
+      "sha256": "f69b6a83e01e59c5ef61feaf4541f0dd024d35f9997bae876f965f29c0dbf409",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/college-coloradocollege.json",
+      "sha256": "7030021a90394709a0c8c5042a95e09c3a32bb99fa395baa477efc4336ca0f56",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/college-fortlewis.json",
+      "sha256": "2d73ad5cae660f6ba4edd202e8bc63f769e3a730b9aace5d68eceeeb9d532227",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/college-pueblo.json",
+      "sha256": "d982fb812f3d47e0d9011fa73c6ae8a85a723c99f525ff2c9120d19835585c58",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/community-mountain-lacrosse.json",
+      "sha256": "a79ad1f3bac897bd9d9fb72b07927ae9f2f2d5b2ff524ab873919038a6e97ad4",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/community-ymca-basketball.json",
+      "sha256": "2a5963d742e02a1a6d0820061e5e4a28e50c3b23166c99e13e5be05f99908a6c",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/community-ymca-swimming.json",
+      "sha256": "8e57d7c5febd78b2e309b25531e8f1cdc22c966d4cc258a0ad0cc33db3b48fb2",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/community-ymca-volleyball.json",
+      "sha256": "76ebac2951537f761eb6598cf31c20413ef80e4a24527fed49fe28ec2b2857a6",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/facility-trinidad.json",
+      "sha256": "d87c74d97d8c1b543c6978624e8f5687ceef9d4b25a9c3fe7580cbe754626e42",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/lax-3d-about.json",
+      "sha256": "5059be48e51b7cb12664efbd8ee5dbb4e7d7cdfcbf5a77e5f90abb2d1952c554",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/lax-dlc.json",
+      "sha256": "3a2153b50f15ac6c376ac93a9947893fb2043acd7121666b2534cdd272a88797",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/nonprofit-specialolympics.json",
+      "sha256": "c10a79dfa09d5712bf7c20a5eb063851a8352109b8a621cab1d9abb26d4b1bb4",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/parks-breckenridge.json",
+      "sha256": "e626e3db28d71fd06d4d036d54b90c84123cab1285ef97ad3ac55c5fa518b642",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/parks-burlington.json",
+      "sha256": "51a90c9e366a87efb584c68c3999d96f369eb1a3e4656704168de997c1d93baa",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/parks-foothills.json",
+      "sha256": "342d7c38757ba25c706984f7b979fd8584101104921fdde1fb94e872ec3ac511",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/school-niwot-boys-basketball.json",
+      "sha256": "0b10134e1f0f5cc29c9e92b5750bc20f62d6a9a7f1710895266b35d158579062",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/school-niwot-boys-volleyball.json",
+      "sha256": "4fae108f387e5b9ac74a835f77b5729e2f8fae7dab10efb52982155f09e7cf75",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/school-niwot-girls-basketball.json",
+      "sha256": "a21b210a4d4b1585cd26b79b56a5d463ffc1c9bf0bed6cf6547ff2d9b3596329",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/school-niwot-girls-swimming.json",
+      "sha256": "00d3528d36e2ae69f9b0b4d701f68d4f6cec0c7ed05274a59ca4fdd2a00bd587",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/school-niwot-girls-volleyball.json",
+      "sha256": "8b062cde4d7a2cca3405cad7be3a77d9cfb59ffe1a9afd4fcd15fe8f694ed6d6",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/school-silvercreek.json",
+      "sha256": "f698948defa8e987d1e0141aa1ca88eef5c3d445b9d26121d49f7919de58e372",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/swim-aces.json",
+      "sha256": "a914a0af4da0802f612ca906c52068f54fd69478c7460a77bb3096397bf3b6dd",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/swim-aquawolves.json",
+      "sha256": "ca97192e8b223f9a1b12cb9fe2bb6736f5431b076e42f812494800ef759c6d07",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/swim-csi-embedded.json",
+      "sha256": "1b55189de2885088f78ad805e0c6fe4abc5f9c42f74952c26bd07b65f2f9b521",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/swim-csscsa.json",
+      "sha256": "29f6f5b5aabcf2f090122822a7e1b852bf6dd2dfbf22cc6c2df76367450e1de3",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/swim-durango-masters.json",
+      "sha256": "fc8fb36b851f74e904cca57d25c9b94afddaf3e42924af5b4026cf103902f8be",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/swim-fsa.json",
+      "sha256": "a7cf5df539867dd46a7f40a5e85d30b5fa6b5b706865bacdb10bb93a3efe0547",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/swim-metro.json",
+      "sha256": "86e2f2a0e7d1afac65b608468b4b9320a95afd0baa2fd95fcd0ab55ac829b6a3",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/swim-mhsl.json",
+      "sha256": "90573929116a73df065540ac97972a3a1eb2125ca82deca3d1f7fbdbda2394cc",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/swim-sjsl.json",
+      "sha256": "cdb39d7c8f223f1cedd1680abca9222f1c99b0d4762f4f40b424b72239543f8e",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/swim-zone-team-scores.json",
+      "sha256": "53598403f90ff66b2cfcc6fd45f56f0448d90e2ea995696582d9b21287eea26b",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/volley-denver-juniors.json",
+      "sha256": "167c799f0b2bd9ae11e63543094497286d7d05ab90a3ba794b70534e7787222c",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/expectations/volley-skyline.json",
+      "sha256": "eb114a5a8d625e05180b25e2d1c635442abf87c8e09439ac6fc27b8c80e19db9",
+      "unchanged": true
+    },
+    {
+      "path": "data/engine/registry.json",
+      "sha256": "deef5e9d0ef4527340fcdbb5e96bdcb7943fff448e264724f6f58dd84a90616c",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/approved.json",
+      "sha256": "c54ef01e755eb6e84d771d28e5bba56ad845bc89777490191b3363b623305426",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/base-ledger.json.gz",
+      "sha256": "32f7873fe4edd9064e7ebb195a207c03716ff6e33aedfdb9603606869ec6c794",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/coverage.json",
+      "sha256": "3f17c4fbad5cad3e6bbc3b6ca23ff75919c270dc114ca7029b531424dda00fd0",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/development-seal.json",
+      "sha256": "35bf121abfe8a6719785eeaa1ed2fbc9bd67abe24f2fa18310d3a3e9b03ed743",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/ledger.json.gz",
+      "sha256": "2e1ff520e2ac59354c65eadfa38f66cb3a8a7a75784e2a079b8f2c586dc9b02f",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/live-seal.json",
+      "sha256": "22fc9cf33529c06066a20e8e44f242aa20b826e2153f7dda0b29e52e11453b67",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/live.json",
+      "sha256": "7c15cde6c6316658b3b9198ab12caee3505ed3fa2c7b3af9a2e4aa4322cecb7b",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/lock.json",
+      "sha256": "af6401198dbf0d4c605ea65200d46b521ce000c7c61aeb1ccdcc011f97cb5456",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/organization-evidence.json",
+      "sha256": "1cea651b647577edf2877044a65604ae2a9bc47c23899c3638ea10d4931ac9bd",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/pending-depth-1.json",
+      "sha256": "487afc3dc463828db6a88ec2487f481af3f7f4c0952476b01f4b01131526f26b",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/pending-depth-2.json",
+      "sha256": "8cc07bce2a7eee335598c598be351be8c9fbd02f49f9bcc6b3de30d4bfa233f5",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/plans.json",
+      "sha256": "733b97d35235d2ebd912724cdeb33afc0e015efc85bc31f580bf8105c18bae7f",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/preservation.json",
+      "sha256": "98aa8bd64f0e9daa37ce2ae70d24dd3b7d8a16bb69358e20d8a6dda24e5c4e7a",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/protocol.json",
+      "sha256": "f5703be5a65591eb88f86ede291bed26664170673c372e3337c6aacb5976e216",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/publication-reviews.json",
+      "sha256": "343e5dfb9d4980ba1bac84dd2b85e95dbf9f1b61db3e6f1a5c81475719d1e69f",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/reference-checks.json",
+      "sha256": "9d5129435cfcf9b451ab482d66a3c42ee9cfbb3df7299c1116ae988261faaa6a",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/search-0.json",
+      "sha256": "7dda397d796dbd21abcb60eb5bb45e1676c20663f12057157bf2ea499b90e4b5",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/search-1.json",
+      "sha256": "edaede93dc98ab48bd34787aa6d4f39f16a74cbc9e3af5bf45a38d603b151736",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/search-2.json",
+      "sha256": "5b5d25ff6c847db138714d15c56254823766cb1dccf8583f9ceb78230116abac",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/source-rules.json",
+      "sha256": "2ca592824176920a0af6c3a28293bf9310ab9f710f7e2b5f76550ecac6062a1c",
+      "unchanged": true
+    },
+    {
+      "path": "data/progressive-discovery/withheld.json",
+      "sha256": "a22e60991b8563e9de17c517a24988823bc3bae7cfa18b07a61d7f5bfaeb178a",
+      "unchanged": true
+    },
+    {
+      "path": "data/qualification-recovery/benchmark-lock.json",
+      "sha256": "cd5b180ac7091f9a0049cb3e0aa347fcd6158d06579cbc9b7fdc25f39b8407ee",
+      "unchanged": true
+    },
+    {
+      "path": "data/qualification-recovery/benchmark-publisher-checks.json",
+      "sha256": "b745ce276de8b9ed190da05068d547862824cefe3ea2f09e7f94ecb7f992bb9b",
+      "unchanged": true
+    },
+    {
+      "path": "data/qualification-recovery/benchmark.json",
+      "sha256": "eda9637ec77f3c0b4e22cecee4e7b2fe85030462c90b481f70e94daebc1fc673",
+      "unchanged": true
+    },
+    {
+      "path": "data/qualification-recovery/evaluation.json",
+      "sha256": "6e0ce2b08adc7b0533814567cf5b6bc79fb1bb6d53e2bbff09c5fc660da4aec4",
+      "unchanged": true
+    },
+    {
+      "path": "data/qualification-recovery/live-results.json",
+      "sha256": "78f31d4f8a473764f75d4c211d07c66ac8e04e8bd4f40c28a77ac6015e1736be",
+      "unchanged": true
+    },
+    {
+      "path": "data/qualification-recovery/member-candidates.json",
+      "sha256": "408a1da4586048f73e7adf0b3404345378453c7fd3f6dcd8b8a149f983145bcc",
+      "unchanged": true
+    },
+    {
+      "path": "data/qualification-recovery/protocol.json",
+      "sha256": "8223a224eef6f6753ca115cb1eceabe4942bd2a6e639d4b6f52ef4757a9c9cb5",
+      "unchanged": true
+    },
+    {
+      "path": "data/qualification-recovery/review-queue.json",
+      "sha256": "c7cde85871b846ddda3d3e62c6b3829dcd6433dfb2a6c46de1c2a9653432ee4e",
+      "unchanged": true
+    },
+    {
+      "path": "data/qualification-recovery/scoped-reviews.json",
+      "sha256": "f27d6d226b460d554030b927fd4dd4487d2b348c48dcc0340acff016820ce655",
+      "unchanged": true
+    },
+    {
+      "path": "data/qualification-recovery/search-0.json",
+      "sha256": "86b2ab79ac3e1076d3ae31406ed168e32b53a6cff18bead20abad902e3d1e4f1",
+      "unchanged": true
+    },
+    {
+      "path": "data/qualification-recovery/search-1.json",
+      "sha256": "a2e3d94cd3464f1b6eaf42c61cd77bc612b5b7121da28e7a7eca3ade79432ad9",
+      "unchanged": true
+    },
+    {
+      "path": "data/qualification-recovery/search-2.json",
+      "sha256": "540e7d36fd27e28e9bdcf2d10734fac9ea41b024969d8836f1041a7c19381d62",
+      "unchanged": true
+    },
+    {
+      "path": "data/qualification-recovery/search-3.json",
+      "sha256": "8acb75508665519a8e5ccfb65873ab76e4297eb0728f77febb5a8c7947c03f14",
+      "unchanged": true
+    },
+    {
+      "path": "data/qualification-recovery/search-4.json",
+      "sha256": "0a37b9848782f1eac725b5b06e2c906556d6862ade6d00d9c89f647f667ac388",
+      "unchanged": true
+    },
+    {
+      "path": "data/rss-endpoint-verification.json",
+      "sha256": "dbd3c9a3e8f23a7759d9867e7329efad68067490b5eb43cba158d782f78dec39",
+      "unchanged": true
+    },
+    {
+      "path": "data/rss-feed-catalog.json",
+      "sha256": "f21828a990623d6bab69ca53534dc78ef9362eb7c9e2449082bbf6052b403ea7",
+      "unchanged": true
+    },
+    {
+      "path": "data/rss-final-verification.json",
+      "sha256": "f53c30bf5c1621a18b250ce395c37782a3ba29a7197226ae145a2fb57119f902",
+      "unchanged": true
+    },
+    {
+      "path": "data/rss-rights-review.json",
+      "sha256": "29f861bc967ae08cf9484fda00c76fdc9692dcc7c259a27bea1aa199f5ec6b01",
+      "unchanged": true
+    },
+    {
+      "path": "data/rss-source-candidates.json",
+      "sha256": "53b44fa22050cf93eceeec3fa0eea8ced8bdb70eac7431555a144d6e8750bb3e",
+      "unchanged": true
+    },
+    {
+      "path": "data/sport-content-sources.json",
+      "sha256": "4752aeae8208ecf8d7725cb3f05db293e466d86bc14cee908a0cf52ca9c1fadf",
+      "unchanged": true
+    },
+    {
+      "path": "data/unified/catalog.json",
+      "sha256": "2ecb18e222b0a85ae2b32c366737c25c1a0f012b0e3050940af6863abd589185",
+      "unchanged": true
+    },
+    {
+      "path": "data/unified/coverage.json",
+      "sha256": "aaaf86095b9c4f3dbe65ddcfff9a5fca84a0f1a0d5b9e140a012ebc7514a676d",
+      "unchanged": true
+    },
+    {
+      "path": "data/unified/review-plan.json",
+      "sha256": "33d51918fa7cbd2dd2d5e59e78cefce52de01dbe102f99a7ff63895e4da2ba87",
+      "unchanged": true
+    },
+    {
+      "path": "engine/acquisition/controlled.mjs",
+      "sha256": "ec553eec6190e9120d01037668c5516b8cc766f20631a60f575a2a4f6955969c",
+      "unchanged": true
+    },
+    {
+      "path": "engine/acquisition/discovery-plan.mjs",
+      "sha256": "d6648edfadc05c279a039046aae6af49c39b6c84934d336624d84a12b97769c0",
+      "unchanged": true
+    },
+    {
+      "path": "engine/acquisition/extract.mjs",
+      "sha256": "c4d6e633d56d6ac9cf87e0c31fdd6639438cc47ef07a10dae4a63a1a6c780af6",
+      "unchanged": true
+    },
+    {
+      "path": "engine/acquisition/graph.mjs",
+      "sha256": "acd009f069359b365b5d6b49301129f65b4c9b7d781643410f4d6c720373db97",
+      "unchanged": true
+    },
+    {
+      "path": "engine/acquisition/ledger.mjs",
+      "sha256": "7fd1ee4772965963b2ed3f0c40a528c40c8680420fc57cd305a4232f97913fac",
+      "unchanged": true
+    },
+    {
+      "path": "engine/acquisition/pages.mjs",
+      "sha256": "d7d1fc32339e779584b764e75b75ddc6d3c7bc24f3f0599923b45c9003226864",
+      "unchanged": true
+    },
+    {
+      "path": "engine/acquisition/public-fragment.mjs",
+      "sha256": "1fe38d61356f7ea4b2fe4bf6088b72d879667f91fd55f9262162a3d21c908511",
+      "unchanged": true
+    },
+    {
+      "path": "engine/acquisition/qualification.mjs",
+      "sha256": "7040960add49a59a0602e60eaf757a6193568cf3ad02ccf0c90da46d3bd16da4",
+      "unchanged": true
+    },
+    {
+      "path": "engine/acquisition/quality.mjs",
+      "sha256": "0c7f11d696e446326a13d5a9dd233df9cff1afa50c89370de18dbd97cb6a8eff",
+      "unchanged": true
+    },
+    {
+      "path": "engine/acquisition/run.mjs",
+      "sha256": "59e2f65891250fb624cddc1485c81d01aa31627c6346c8e1843f4a152285e64e",
+      "unchanged": true
+    },
+    {
+      "path": "engine/acquisition/transfer.mjs",
+      "sha256": "9f5dbfbde0952d156bcb5b630a86fd984dca4dfd116f58fa05efed4ce898122c",
+      "unchanged": true
+    },
+    {
+      "path": "engine/adapters/csi.mjs",
+      "sha256": "555a3c8ffcee0369a5c725cd04628a493e1d03133e05bdd3877b7f5ea430052b",
+      "unchanged": true
+    },
+    {
+      "path": "engine/adapters/html.mjs",
+      "sha256": "f2d2c2d3fba95992dd76229577d4174618777280b60d06882f9492b91160547b",
+      "unchanged": true
+    },
+    {
+      "path": "engine/adapters/index.mjs",
+      "sha256": "a991de1c51babcd0cccd3c722446e7674d6f0199c3c72ca049e4954f19b9e4f2",
+      "unchanged": true
+    },
+    {
+      "path": "engine/adapters/json.mjs",
+      "sha256": "9c5a2ea0831d1d411d0a5ed9759812da3bd0af12836f21301331f86b3d4a09fa",
+      "unchanged": true
+    },
+    {
+      "path": "engine/adapters/pdf.mjs",
+      "sha256": "e02a615a1d2f3dcb47114bd0636bede7f7f2e50dd96cf5aa9b950d308a022eaa",
+      "unchanged": true
+    },
+    {
+      "path": "engine/baseline.mjs",
+      "sha256": "fb19b0d8b6d2a3ee86f63f8e77a43de7519c745d46da01c3e73cfef440f10ed3",
+      "unchanged": true
+    },
+    {
+      "path": "engine/classification-store.mjs",
+      "sha256": "886e9fc1e8ea9679d510baf50a5f76b0e28426deba2fd58d2172463c2d99fb77",
+      "unchanged": true
+    },
+    {
+      "path": "engine/coverage.mjs",
+      "sha256": "df8a32d8e7a52b59c024709d7f258d12c554f67a778913ee57a145f4f05966b8",
+      "unchanged": true
+    },
+    {
+      "path": "engine/discovery/archive.mjs",
+      "sha256": "71279be95f4e72bab2033a1041ee9673a868ec26b9d755542d69611003dac535",
+      "unchanged": true
+    },
+    {
+      "path": "engine/discovery/decision.mjs",
+      "sha256": "bb1d01928dc8ed360536fed58fb96a302abf3f8b7d824a118ef9ee56144321c0",
+      "unchanged": true
+    },
+    {
+      "path": "engine/discovery/findings.mjs",
+      "sha256": "bf6561812d778da25200d9483b4d3b233ed12dd9414612238ded3d95f6f1fa80",
+      "unchanged": true
+    },
+    {
+      "path": "engine/discovery/graph.mjs",
+      "sha256": "40a36dc3e234af72db194f654714210747f72c21dfec55addb5c372a03271cd2",
+      "unchanged": true
+    },
+    {
+      "path": "engine/discovery/publication.mjs",
+      "sha256": "5ed56967ed046285ff14977ad0d5cb438c1d1ad87f35d7ff8de7fe9982f5baaa",
+      "unchanged": true
+    },
+    {
+      "path": "engine/discovery/reconcile.mjs",
+      "sha256": "7d61a5b2e328be7ccff098e50ee9031bf5ec575b4e5ce4dbfd9052360dc13915",
+      "unchanged": true
+    },
+    {
+      "path": "engine/discovery/refresh.mjs",
+      "sha256": "7dc147bfd1c8efc61e6a9649ecfbe7dc55d31d53c2a414ad93daa41deeee14cb",
+      "unchanged": true
+    },
+    {
+      "path": "engine/discovery/registry.mjs",
+      "sha256": "bf0ef1c82342f2cf050e3aaf8507dfadbe0ed1d377da5241042187e524270370",
+      "unchanged": true
+    },
+    {
+      "path": "engine/fetcher.mjs",
+      "sha256": "6ef0e3544114279c4a5f916d902f31674c8d8b5ba476668c7d8d5406add47fee",
+      "unchanged": true
+    },
+    {
+      "path": "engine/migrations/001_initial.sql",
+      "sha256": "085485a5359ba16ae392615cb13c652951afc172229fefde4838ad8335a37099",
+      "unchanged": true
+    },
+    {
+      "path": "engine/migrations/002_rate_limits.sql",
+      "sha256": "8dadb4372d761399a043bbf31b65b1e87e99e7e62a5a97eda7ba3983de942b9f",
+      "unchanged": true
+    },
+    {
+      "path": "engine/migrations/003_request_spacing.sql",
+      "sha256": "32f845ed559573824ab3ac9e607e75b48851b2305368afc319b81d27987c1928",
+      "unchanged": true
+    },
+    {
+      "path": "engine/migrations/004_participation.sql",
+      "sha256": "c5e79e70591e008a6dbcd2283d61ca04a9a904b8040a5eae604a9ec4294a83e9",
+      "unchanged": true
+    },
+    {
+      "path": "engine/migrations/005_registration_references.sql",
+      "sha256": "2959d2d2a2389491b14dd3b172370b524aecf5cc3ddb1c8242a9c715307661cf",
+      "unchanged": true
+    },
+    {
+      "path": "engine/migrations/006_discovery.sql",
+      "sha256": "50d039642d5c07e38ae95724d1566229e40a3bf6f1c252453defcfb01b85724d",
+      "unchanged": true
+    },
+    {
+      "path": "engine/migrations/007_discovery_findings.sql",
+      "sha256": "37640b711ba52772a3ac32948879481f0a052600ff47dc5d75d1b31648fae0e7",
+      "unchanged": true
+    },
+    {
+      "path": "engine/migrations/008_acquisition.sql",
+      "sha256": "de5f6714b080ccff8bc8c77722757885aaa5dde765bc63dcc537a44ad9e9a21c",
+      "unchanged": true
+    },
+    {
+      "path": "engine/migrations/009_acquisition_resolution.sql",
+      "sha256": "5035f77342b0bee799cec4dd6678bc0e0d69024b9880c3ea474aebeefb3ae484",
+      "unchanged": true
+    },
+    {
+      "path": "engine/migrations/010_acquisition_frontier.sql",
+      "sha256": "362d1fae4d5b5a3149f5b793458737ec0c7a5103c33daffb5e2e3491d21e0577",
+      "unchanged": true
+    },
+    {
+      "path": "engine/models.mjs",
+      "sha256": "5a38370d293cb9d179365dad293efacd284999549ced1a1e59ffd4391b62e90e",
+      "unchanged": true
+    },
+    {
+      "path": "engine/normalize.mjs",
+      "sha256": "a2e3a461c8b2dd4cadbaa40fe23bec7fc37aaf96220e767c6faa26ca0b38d390",
+      "unchanged": true
+    },
+    {
+      "path": "engine/participation.mjs",
+      "sha256": "1d45588ab0b5d4db57dd4b554e412324e98b227c17351add0f912222c27bc932",
+      "unchanged": true
+    },
+    {
+      "path": "engine/progressive.mjs",
+      "sha256": "453b9b7b33a0872eaf99563e7d47de9f054d0dec0de9cb097e1fb96ca18affa0",
+      "unchanged": true
+    },
+    {
+      "path": "engine/runner.mjs",
+      "sha256": "1c30e21a66c918bfbe3ebc2ba263c607369053505d59dc9400f9c01f5b2d8ba3",
+      "unchanged": true
+    },
+    {
+      "path": "engine/store.mjs",
+      "sha256": "39e992cbb0568e652fbbb0ca35f35553250fa5a5e4c208c99f50f38f06404033",
+      "unchanged": true
+    },
+    {
+      "path": "engine/transfer.mjs",
+      "sha256": "b3573c3b05c112a39ea1f52f17aef5e25f9b9c2de97fdfbb089167e9b1730449",
+      "unchanged": true
+    },
+    {
+      "path": "public/recurring-plans.js",
+      "sha256": "b15264d8906b9b6d7594c182d46ccaa8b3632952f7459dc74d00c87917d67797",
+      "unchanged": true
+    },
+    {
+      "path": "public/media-library.js",
+      "sha256": "86dbcdba4b867dfc85b1cca0763e0acc9da10c6901806f55eea16184fc9dcfcf",
+      "unchanged": true
+    },
+    {
+      "path": "public/athlete-records.js",
+      "sha256": "cef5ed119a1a57667a4fbaa9bd2ebcf65d7a904b8234cec27e21cadada445241",
+      "unchanged": true
+    },
+    {
+      "path": "public/competition-records.js",
+      "sha256": "efb6b44aa443c628039519d62badb6aa431b277951e29d69fe0bd33be475be74",
+      "unchanged": true
+    },
+    {
+      "path": "public/siem-model.js",
+      "sha256": "1b0241f9df8d7568fc069a71411d8d5b3b8977f7e4da1c525d53cf9b0143694d",
+      "unchanged": true
+    },
+    {
+      "path": "public/siem-platform-model.js",
+      "sha256": "58692d1572ca56125b4055db6878019931cbae39464ab9e3c5a4a61893579346",
+      "unchanged": true
+    },
+    {
+      "path": "public/siem-family-fixtures.js",
+      "sha256": "6144f697a667929de7d4cd0b7727016695f6dcb0791dc52986bf08deb8aa2ae3",
+      "unchanged": true
+    },
+    {
+      "path": "public/siem-platform-fixtures.js",
+      "sha256": "d57763878f19baa228a9138fa4ddb42afce609c53bc4c02acfde2e0cc2da2bb1",
+      "unchanged": true
+    },
+    {
+      "path": "public/lockedin-demo.js",
+      "sha256": "a60bf513d3e2287f66332842d6c60cef543a2f6fd4582b6818bb66846a78a4df",
+      "unchanged": true
+    },
+    {
+      "path": "public/lockedin-demo-model.js",
+      "sha256": "bcacf7bc362af599aff250fc3124477533a72789cd2fcb1faeafad4b234bc99c",
+      "unchanged": true
+    },
+    {
+      "path": "docs/PRODUCT-NORTH-STAR.md",
+      "sha256": "ce5cecb5b3aaa72a0ca9789cb22317debcc5132ab5ee5a3e6885c11d93da2620",
+      "unchanged": true
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "ce76b80ef1fcfb83d0036acea67fa11e6f87fb2a17d07d9b7b9a2c8037266ff5",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+test_home_and_simple_directory (__main__.Supporting.test_home_and_simple_directory) ... FAIL
+
+======================================================================
+FAIL: test_home_and_simple_directory (__main__.Supporting.test_home_and_simple_directory)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-supporting-20261117.py", line 8, in test_home_and_simple_directory
+    p=self.page;p.goto(base.BASE+'/');self.assertIn('Simple to use.',p.locator('h1').inner_text());self.assertEqual(p.locator('.platform-pillar').count(),4);self.assertLess(p.locator('.platform-pillars').evaluate('e=>e.getBoundingClientRect().top'),p.locator('#sports').evaluate('e=>e.getBoundingClientRect().top'));self.assertEqual(p.get_by_role('navigation',name='Primary navigation',exact=True).locator('a').all_text_contents(),['Profile','SIEM','Recruiting','LockedIn']);self.assertEqual(p.get_by_role('link',name='MY ATHLETES',exact=True).get_attribute('href'),'/my-pathway?view=family');self.views('homepage')
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'Simple to use.' not found in 'SIMPLE TO USE.\nPOWERFUL UNDERNEATH.'
+
+----------------------------------------------------------------------
+Ran 1 test in 1.371s
+
+FAILED (failures=1)

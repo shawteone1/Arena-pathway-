@@ -2,7 +2,7 @@
 import {normalizePlan} from './recurring-plans.js';
 export function scheduleEntry(input){
  const raw={...input};
- if(raw.repeat!=='weekly'&&raw.startTime&&!raw.endTime){
+ if(raw.startTime&&!raw.endTime){
   const [hour,minute]=raw.startTime.split(':').map(Number);
   if(Number.isInteger(hour)&&Number.isInteger(minute)&&hour>=0&&hour<24&&minute>=0&&minute<60){
    const total=hour*60+minute+60;raw.endTime=String(Math.floor(total/60)%24).padStart(2,'0')+':'+String(total%60).padStart(2,'0');

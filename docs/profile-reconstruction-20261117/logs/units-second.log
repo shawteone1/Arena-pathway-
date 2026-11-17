@@ -1,0 +1,1133 @@
+
+> arena-pathway@0.7.0 test
+> node --test
+
+✔ all40 candidate identities receive individual decisions; only21 inspected written items are approved (16.737545ms)
+✔ old candidate interests never turn on subscriptions and source filters keep sport/category boundaries (0.622248ms)
+✔ inactive, expired, malformed and unsafe reviewed sources fail closed (0.263167ms)
+✔ new subscriptions preserve all browser-local profile fields, old interests and independent Recruiting (0.956733ms)
+✔ accepted directory/brand/fixture/domain bytes remain preserved with the explicit shared-event reader adaptation (1432.101684ms)
+✔ thresholds and held-out benchmarks were frozen before live evaluation; intake has no answer-list dependency (28.178999ms)
+✔ live captures are measured separately from blocked prescribed capture and controlled demonstrations (0.288325ms)
+✔ all prescribed operational-change scenarios assert behavior, including retirement, alias and second sport (101.641971ms)
+✔ fixture transport cannot be labeled a live run (4.524195ms)
+✔ unchanged acquisition creates no new versions even when retrieval timestamps change; 304 uses compatible cache (12.753478ms)
+✔ explicit zero membership retains historical approved information until manual retirement and reactivation (16.968958ms)
+✔ pagination captures page evidence; partial page budgets and failures cannot mark absent members retired (16.786243ms)
+✔ changed layout and temporary source failure preserve prior records and prevent verification from missing current evidence (8.404798ms)
+✔ unprocessed frontier persists and can resume before revisiting seed pages (10.438587ms)
+✔ alias resolution is evidence-scoped and typed; graph never invents team ownership (2.995309ms)
+✔ portable acquisition snapshots preserve source history, versions, reviews and frontier; bad references roll back (178.169519ms)
+✔ operational view distinguishes staged, reviewed and consumer counts with source/name drilldown (319.01981ms)
+✔ quality metrics do not count excluded records as outstanding work or monitoring (0.486714ms)
+✔ acceptance command fails explicitly; refresh defaults to no-network planning (362.701084ms)
+✔ unrelated application, original research and governing documents remain unchanged; progressive views are authorized separately (290.800982ms)
+✔ discovery rejects private literal/local hosts and treats unsupported evidence as unverified (1.808408ms)
+✔ catalog reconciles expanded records without claiming statewide completeness (5.870886ms)
+✔ missing imported members, duplicate aliases, duplicate teams, orphan teams and broken provenance fail validation (13.164919ms)
+✔ freshness expires after 90 days and is independent of unknown season (0.211118ms)
+✔ profile state recovers corrupt storage, migrates legacy preferences with media OFF, and sanitizes fields (1.574084ms)
+✔ saves, notes and schedules remain isolated between family profiles (6.989233ms)
+✔ calendar export uses exclusive end dates, escapes injected lines and folds UTF-8 safely (1.675232ms)
+✔ all routes, source assets, search filters, strict 404s, and internal navigation work (4944.461989ms)
+✔ responsive and accessibility code includes narrow layouts, tap targets, label associations and opt-in defaults (0.585363ms)
+✔ named parent removal archives complete identity/references atomically and preserves unrelated athlete (2.372189ms)
+✔ wrong confirmation, non-parent and unknown athlete cannot be removed (0.402387ms)
+✔ reload and stale supported writer preserve removal and archived references (0.882822ms)
+✔ tombstone excludes stale legacy SIEM identity/event but preserves others (21.588737ms)
+✔ failed durable write does not mutate active state (0.590101ms)
+✔ SC-style display dates preserve all-day dates and use Denver across DST and UTC midnight (13.837484ms)
+✔ calendar navigation handles month ends, leap years, week boundaries and year rollover (0.862181ms)
+✔ activity labels distinguish actual tournament games from RSVP tasks without changing source fields (0.210638ms)
+✔ independent recruiting entry reuses the same profile renderer and offers research without an athlete (32.343051ms)
+✔ editing identity preserves local history and unknown extension data across reload (1.994108ms)
+✔ search areas intentionally overlap without rewriting source geography (0.570972ms)
+✔ initial sport entry renders every searchable reviewed directory row (169.768982ms)
+✔ all inherited dependency engine/data and fixtures remain exact at their appropriate tips (1121.234999ms)
+✔ consolidated corrections preserve source/data, domain, fixture and brand bytes with the explicit shared-event reader adaptation (1072.060123ms)
+✔ publication metadata matches individual approved article identities and never changes activation or video approval (1.103384ms)
+✔ college division labels do not conflate NCAA/NAIA/NJCAA or club and unknown (0.434856ms)
+✔ college filters project existing canonical teams with explicit gender evidence, never invent contacts or dates (2.960285ms)
+✔ athlete color is ID-stable across ordering, profiles, messages and redraw, with bounded palette (0.37149ms)
+✔ public community and LockedIn preview require no athlete, preserve restrictive methods/CSP and expose no real provider forms (167.792069ms)
+✔ community categories keep missing officials/safety data explicit and do not create organization rows (7.161012ms)
+✔ reviewed catalog and catalog queries remain byte-preserved while participation behavior evolves (1.729949ms)
+✖ homepage is an umbrella editorial experience with a single five-destination Sports menu (2.604169ms)
+✔ generic A is not rendered and only approved artwork is used when the brand is ready (0.64277ms)
+✔ sport landing pages retain sections, use their own images and emphasize View All Teams (178.150931ms)
+✖ directories separate participation categories, group clubs first and retain explicit team searches (3.961637ms)
+✔ swimming classification follows explicit catalog evidence without inventing summer status (36.119638ms)
+✔ onboarding retains every existing interaction hook and media defaults while exposing journey chapters (1.141723ms)
+✔ requested palette, iPhone input sizing, responsive assets and keyboard focus have structural coverage (0.854579ms)
+✔ new responsive photos, font assets and version are served without broad filesystem exposure (75.924714ms)
+✔ primary text and action palette pairs meet WCAG AA normal-text contrast (0.478491ms)
+✔ approved AP original is retained exactly and all derivative bytes match the reviewed manifest (7.960108ms)
+✔ homepage, shared navigation, mobile picture source and browser icons use approved asset paths (39.55474ms)
+✖ DGC retains all approved data, assets, identities and SIEM/recruiting/event models without migration (1235.315642ms)
+✔ DGC anchors expose existing content before platform explanation without replacing the brand/pillars (95.104548ms)
+✔ linked profile identity uses a configured heading, not the directory publisher or program title (11.424063ms)
+✔ embedded structured scripts and incidental team names cannot qualify geography or youth (3.793052ms)
+✔ qualification evidence points to the actual service-area statement rather than an incidental name (2.101691ms)
+✔ missing configured identity heading is a layout failure and never silently emits a publisher identity (0.64982ms)
+✔ HTML-labeled JSON fragment wrappers remain unsupported instead of supplying qualification facts (1.067971ms)
+✔ configured member traversal captures club profiles while excluding unrelated and roster links (55.162554ms)
+✔ diagnosis names category exclusions, blocked source gaps and retained Skyline teams without inventing clubs (1.755198ms)
+✔ actual published API and all paginated HTML agree for every category and team/league tool (733.991565ms)
+✔ retention compares IDs and original payloads, so equal totals cannot hide a lost validated club (123.451258ms)
+✔ retention review exceptions require explicit scope, named reviewer, rationale and evidence (20.088464ms)
+✔ source registry revisions persist edits and reversions without overwriting history (31.504246ms)
+✔ another comparable source is added by configuration and an extraction plugin without page code (14.22525ms)
+✔ configured JSON pagination is followed and unresolved pagination cannot be complete (11.717036ms)
+✔ unexplained membership decreases cannot be approved and do not delete preserved identities (7.76252ms)
+✔ graph keeps league participants separate from verified team ownership and rejects invalid edges (20.030197ms)
+✔ a directory-only or missing-members source cannot claim completeness (2.488243ms)
+✔ both real configured archive replays retain verified clubs, programs and evidence idempotently (978.328821ms)
+✔ versioned registry/expectations and task histories survive audit snapshot restoration (8.076955ms)
+✔ sport decision policy and region normalization are configurable without inventing classification (0.498733ms)
+✔ refresh plans expose due/blocked work without claiming an operational scheduler (0.373514ms)
+✔ unrelated approved presentation, SIEM and original research/data remain byte-identical to integrated RC (53.085687ms)
+✔ coverage findings are durable, acknowledgment cannot waive a source gap, and factual resolution retains history (11.681663ms)
+✔ audit restoration rejects tampered registry evidence and rolls back staged restore writes (6.525614ms)
+✔ staged database identities are distinguished from the public snapshot, not silently counted as visible clubs (3.999093ms)
+✔ independent expected IDs detect removed memberships and cannot be substituted by current stored totals (2.713283ms)
+✔ a directory-only page, unknown denominator, pagination or membership frontier cannot be complete (2.326811ms)
+✔ counts balance duplicate/excluded/unresolved candidates and unresolved rows block completion (0.295847ms)
+✔ unexplained decreases block a source even if its changed list is self-consistent (0.281094ms)
+✔ duplicate clubs/aliases and team identities fail while distinct seasons/divisions remain separate (1.690801ms)
+✔ orphans, cross-sport relationships and incorrect season/competition associations fail (0.45729ms)
+✔ summer and USA year-round swimming cannot be merged through parent classification (0.287924ms)
+✔ stale or unconfirmed schedules are never current and event dates must fit the declared season (0.386383ms)
+✔ organizational adapters never retain source contacts or minor roster fields (13.464752ms)
+✔ meet candidates distinguish unattached, out-of-state and unverifiable club affiliations (1.611171ms)
+✔ request policy blocks private hosts, unregistered redirects, credentials and roster routes (5.657544ms)
+✔ robots and rate-limit responses prevent content traversal instead of bypassing restrictions (6.678775ms)
+✔ SQLite staging does not publish until explicit review, approvals are idempotent and conflicts roll back (8.490819ms)
+✔ re-imports preserve entity IDs, cannot approve landing-only missing expectations, and do not delete reviewed data (5.639026ms)
+✔ concurrent source runs and migration tampering are rejected; durable databases survive reopen (34.313093ms)
+✔ failed imports retain a blocked history entry without touching verified entities (4.665448ms)
+✔ multi-sport college organization stays canonical without combining distinct gender teams (0.703341ms)
+✔ runner keeps out-of-scope related pages unresolved instead of fetching them (5.038151ms)
+✔ aggregate PDF team summaries retain tied rankings and reject individual result layouts (0.751493ms)
+✔ association extraction traverses every member and keeps adjacent team names separate (1.303967ms)
+✔ retirement retains revision history, protects the baseline and rejects active orphaning (3.763777ms)
+✔ persistent host reservations honor newly learned longer crawl delays and cooldowns (2.453591ms)
+✔ portable audit restores reviewed entities, candidate history and approvals transactionally (473.93333ms)
+✔ published overlay preserves every original reviewed record and excludes all unresolved games (17.84788ms)
+✔ directory filters distinguish seasons, collegiate genders, geography and adaptive programs (17.130608ms)
+✔ coverage and first-party routes serve partial source denominators with read-only HTTP access (146.45118ms)
+✔ saved directory divisions and facilities can be resolved by the existing athlete workspace (1.115914ms)
+✔ legacy My AP destinations are explicit local routes with safe bounded query preservation (0.975812ms)
+✔ main entry, aliases, setup, legacy redirects, headers and retired renderer boundaries are valid (50.938714ms)
+✔ consolidation retains all source fixtures, model/contract, independent modules, brand and discovery bytes (810.067012ms)
+✔ media thumbnails, image enclosures, groups and embedded images are unapproved metadata only (12.554098ms)
+✔ image metadata is bounded, deduplicated and survives RSS and Atom normalization (10.034348ms)
+✔ publisher image requires explicit article-specific approval, local asset and licensing (0.484571ms)
+✔ photography endpoint reuses licensed AP manifest, serves all four sports and no stadium fallback (61.826219ms)
+✔ nested race IDs survive parent rename/move, reload and projection without generated writes (23.584288ms)
+✔ family calendar projects child references once, no parent conflict/duplicate entry or athlete crossover (9.014513ms)
+✔ sessions reject invalid days/times and only attach to meet or tournament (0.839517ms)
+✔ separate race records retain their IDs and compare swimming bests only within discipline/course (5.994353ms)
+✔ fictional LockedIn requires permission and acceptance; failed/retried handoff is idempotent and revocable (0.98753ms)
+✔ Rivera athlete palette has three distinct stable blue/purple/green indexes (0.218389ms)
+✔ Nov15 Mon/Wed recurrence has five unique same-day occurrences through serialization and parent projection (37.352598ms)
+✔ Nov15 recurrence edits preserve historical original IDs, exception and skip behavior (5.977527ms)
+✔ Nov15 unified location honors new selector and legacy city/region URLs (0.599264ms)
+✔ Nov15 program classification uses reviewed levels only, never infers travel from a name (0.194984ms)
+✔ Nov15 combined filters preserve original directory and unknown ZIP never hides records (94.752069ms)
+✔ Nov15 existing query results and reviewed program fields match the recovery checkpoint (249.316298ms)
+✔ test/nov17-approved-changes.mjs (47.147941ms)
+✔ new explicit module choices are independent of goal, interests and saved clubs (1.712444ms)
+✔ all seven modules can be selected independently, sanitized and ordered without mandatory progression (0.363449ms)
+✔ removing every module retains saved records, personal calendars, recruiting plans and media preferences after reload (1.028742ms)
+✔ family profiles retain independent module selections, ordering and media sources (0.413674ms)
+✔ legacy profiles migrate expressed choices without deriving recruiting from saved clubs, college records or notes (0.589389ms)
+✔ existing v2 storage migrates nondestructively and remains idempotent (0.336818ms)
+✔ media is off by default and retained sources do not display without module opt-in (0.227613ms)
+✔ workspace navigation starts empty and optional features are inert templates until selected (1.125257ms)
+✔ workspace supports keyboard reorder and retains organization lookup without recruiting side effects (0.418902ms)
+✔ test/preservation-helper.mjs (40.652467ms)
+✔ new media associations exclude practices and containers; edited historical uploads keep exact references (1.738723ms)
+✔ explicit season date summaries exclude practices and other athletes, count zeros and update from retained records (0.70954ms)
+✔ swimming season summaries never sum race times, distances or places (0.150236ms)
+✔ My Club stores one existing organization reference, keeps saved opportunities and never activates Recruiting (0.281004ms)
+✔ article metadata cannot grant image display; approved images require bound local asset and license (0.446253ms)
+✔ public photography reuses the four licensed manifests and serves real optimized assets (52.987514ms)
+✔ Nov 12 follow-up preserves directory, engine, original data, fixtures and SIEM domain (26.940491ms)
+✔ accepted directory HTML stays preserved within the main content while the approved shared navigation and delivery contract evolve (216.507494ms)
+✔ optional local avatar is additive and survives load without losing identity or unrelated records (0.897223ms)
+✔ reviewed identity, sport and geography publish independently of current opportunities (1.634656ms)
+✔ historical and stale participation stays visible with explicit currency limits (0.33845ms)
+✔ default youth discovery excludes unconfirmed participation, explicit all-verified view includes it (15.450188ms)
+✔ all previously public IDs survive and new organization cards are canonical, not age-group clones (78.802478ms)
+✔ no-program organizations render without a fabricated program or competition team (0.70233ms)
+✔ named programs and published age-group sections never become current teams (0.992417ms)
+✔ registration filters are explicit and unknowns do not leak into positive filters (2.876079ms)
+✔ new source aliases and community/youth overlap reuse one canonical identity (1.615597ms)
+✔ current opportunities require current explicit availability evidence, not a URL or historic season (0.493324ms)
+✔ the participation graph preserves many-to-many reviewed links and rejects orphan or cross-sport programs (2.577078ms)
+✔ source planning follows association/member paths and retains alternative school/recreation scopes (6.687809ms)
+✖ public API and profiles expose reviewed facts and unknown status; unrelated data/branding preserved (222.225941ms)
+✔ a separately reviewed current season does not imply registration availability (1.17328ms)
+✔ public provider fragment parses HTML and navigation without treating config as geography (12.493467ms)
+✔ arbitrary JSON config remains unsupported instead of silently becoming verified HTML (0.547436ms)
+✔ strict calendar dates, bounded recurrence and nonexistent DST times reject without writes (14.121553ms)
+✔ moved/skipped occurrences preserve references and do not mutate the series (18.914032ms)
+✔ legacy plan ID, recurrence overrides, recruiting choices and unknown extensions survive reload (6.110779ms)
+✔ ICS round trip preserves timed/all-day occurrence UIDs and detects repeat imports (7.521646ms)
+✔ shared family projection reads original IDs without writing, scopes events and handles all categories (15.304163ms)
+✔ stats upsert per stable event; swimming results do not sum unrelated times or places (4.536834ms)
+✔ recruiting stays independent, parent-controlled, age16 gated and references selected local highlights (0.666185ms)
+✔ original 40-source candidate inventory is retained without invented feed URLs (0.466944ms)
+✔ multi-day travel covers inclusive dates without spilling exclusive midnight into another day (0.776722ms)
+✔ local SIEM records and parent identities are projected once without changing either store (5.79402ms)
+✔ saved published dates join the same read-only family projection with official attribution (3.476304ms)
+✔ public evidence never becomes verification without an explicit source-bound review (4.002277ms)
+✔ verified organization and published youth program do not prove a current dated offering (2.401082ms)
+✔ current program needs an explicit same-program date review and expires outside its interval (1.428385ms)
+✔ stale retrieval, failed source, changed hash/version or invented identity cannot be approved (0.809311ms)
+✔ directory publisher facts cannot qualify every listed club (25.430975ms)
+✔ a bare season, historical date or future start never implies current enrollment (13.859187ms)
+✔ a linked publisher program can supply scoped evidence; an unrelated club or wrong sport cannot (27.243559ms)
+✖ one-time entry defaults an optional end time and preserves strict recurring duration validation (19.901713ms)
+✔ competition selection excludes practices and containers without deleting retained athlete records (1.198628ms)
+✔ recruiting defaults to no selected records/events/media and projects only explicit eligible references (0.626395ms)
+✔ asset contract delivers valid MIME, explicit cache policy, CSP-hashed recovery and consistent pillar links (52.591637ms)
+✔ recovery preserves stable IDs, recurrence/SIEM/media domain and all approved source records byte for byte (1234.44013ms)
+✔ private owner drafts are not approval: parent/age required; strict rules gate unchanged (20.768736ms)
+✔ saved composition stores only selections, survives draft revisions and reuses current athlete fields (1.51153ms)
+✔ legacy saved composition adapts without rewriting the original record (0.494516ms)
+✔ empty presentation cannot be falsely saved; supplied selections are copied (0.254314ms)
+✔ all three demonstrations reuse SIEM normalization, show changes/conflicts/actions and remain isolated (11.112374ms)
+✔ integration preserves reviewed records, source URLs and approved charter/brand assets while allowing additions (261.406898ms)
+✔ SIEM opportunities have verified youth program ownership and schedule state (0.637201ms)
+✔ integrated presentation routes, scenario boundaries and CSP remain valid (62.510701ms)
+✔ RSS sanitizes, canonicalizes, sorts and removes duplicate URLs and GUIDs (25.006484ms)
+✔ Atom alternate link, author, category and encoded summary (3.114719ms)
+✔ malformed XML, HTML, DTD and entities fail closed (0.822661ms)
+✔ multi-topic publishers do not label every article with all coverage categories (1.579552ms)
+✔ 200 XML is ingested (10.800293ms)
+✔ 403, HTML fallback, misleading XML type and malformed feeds reject (2.084955ms)
+✔ timeout aborts ingestion (11.252515ms)
+✔ safe same-host redirects only, bounded to three hops (7.532353ms)
+✔ private, metadata, mapped IPv6 and reserved addresses are blocked (0.591583ms)
+✔ enforces declared and streamed byte limits (7.918164ms)
+✔ conditional GET preserves last good snapshot on 304 (3.964872ms)
+✔ rights and endpoint gates require independent approval (0.14639ms)
+✔ empty selection and wrong-sport selection never fetch or return content (0.490309ms)
+✔ cache coalesces concurrent requests, respects TTL, survives failure and restart (18.728163ms)
+✔ one failing publisher does not prevent others refreshing (1.938564ms)
+✔ source and topic filtering are athlete-specific and sport-isolated (3.457095ms)
+✔ read-only API rejects arbitrary URLs, sports and cross-sport publishers (29.350537ms)
+✔ automatic refresh starts, repeats and stops with the service lifecycle (35.369406ms)
+✔ API integrates an approved fixture feed, selection and topic without arbitrary fetches (11.658347ms)
+✔ catalog cannot activate technical verification alone; all four sport namespaces are unique (2.931162ms)
+✔ eight retired sources remain absent and all eleven retained sources require rights approval (1.99482ms)
+✔ ESPN destinations are sport-specific and search destinations never masquerade as RSS (0.475106ms)
+✔ retired and other-sport stored choices are retained locally but excluded from API requests (0.266151ms)
+✔ terms review covers every retained source without granting automatic activation (8.642307ms)
+✔ SC field filter port only exposes named canonical outputs, never arbitrary/internal profile properties (1.765133ms)
+✔ all four sports use the same empty-by-default projection with no school/photo/record leakage (15.066729ms)
+✔ athlete name, photo, high school and academics have independent parent choices (0.598683ms)
+✔ same athlete information fills the SC-shaped card contract without creating identity or copying private development data (0.385111ms)
+✔ selected stats exclude practices, orphan/other-athlete records and private notes; absent values are not zero (0.686676ms)
+✔ partial competition totals disclose recorded count, preserving real zero and no profile-total fallback (0.176186ms)
+✔ upcoming selected camps/showcases/competitions appear; practices and past events never appear as upcoming (0.465432ms)
+✔ highlights are explicitly selected, owned and metadata-only; renderer cannot receive other-athlete blobs (0.567946ms)
+✔ swimming measurements compare selected discipline/course only and never sum unrelated race times (0.626004ms)
+✔ legacy selections and old approval/draft/saved IDs are read compatibly without migration or newly opting in photos (0.627757ms)
+✔ existing AP parent/age/current-rules gates remain mandatory for preview approval (0.287644ms)
+✔ local revision detects selected content edits while ignoring private/unselected fields and approval flag (0.689641ms)
+✔ sport config changes data/metrics without a sport branch or separate builder, and does not activate another AP sport (0.336187ms)
+✔ coaching contract withholds wrong-sport, unverified, stale/future and personal-email contacts without hiding programs (3.219356ms)
+✔ new shared preferences and profile additions survive existing loadState with no lost records/drafts/extensions (0.717503ms)
+✔ upcoming appearances use the shared Denver calendar day and exclude ended timed competitions (0.31164ms)
+✔ missing GPA scale is never invented as 4.0 in the shared card (0.327474ms)
+✔ signature family has exactly three children and four soccer/volleyball schedules in one deterministic week (33.445775ms)
+✔ simulated source attribution and timestamps are coherent, with four external tools and status-only Locked In (6.192953ms)
+✔ Denver local times, early arrival and travel plans survive UTC day boundaries (5.827381ms)
+✔ calendar/message copies retain evidence but produce one practice change and one overlap decision (10.324655ms)
+✔ source, sport, child and team filtering all preserve canonical provenance without false matches (5.798968ms)
+✔ fixture consolidation fails closed on ambiguous team mapping or unauthorized records (7.20615ms)
+✔ review, resolution and reset are isolated from other families/roles and do not alter provider requirements (15.961409ms)
+✔ family scenario leaves discovery, generic fixtures, approved contracts and SIEM domain byte-identical to v2.1 (514.814198ms)
+✔ platform fixtures have deterministic timestamps and all requested activity/source fields (25.42181ms)
+✔ contract rejects ambiguous times, scope mismatch, unsafe links and sensitive payload fields (2.463165ms)
+✔ parent and coach organization/team filters apply before SIEM correlation (8.81604ms)
+✔ one identity may have multiple roles without exposing private cross-role activities (2.37355ms)
+✔ existing SIEM logic powers changes, duplicates, deadlines and per-scenario actions (10.201449ms)
+✔ correlation and detail relationships cannot cross permission boundaries (2.542696ms)
+✔ feed health keeps disconnected, failed, stale and current fixture states explicit (2.342544ms)
+✔ adapter validates snapshots atomically and retains last-known-good on failure/out-of-scope data (6.070046ms)
+✔ platform changes preserve discovery engine, data, registry, ingestion and approved assets exactly (724.266844ms)
+✔ platform route and allowlisted assets work without changing old workspace/demo routes (61.46909ms)
+✔ consolidation preserves v2.1 domain/data bytes and limits shared-view edits to requested navigation links (654.454442ms)
+✔ refined shell retains all three modes, named sidebar toggle, approved branding and demo boundary (1.065778ms)
+✔ Safari startup fix preserves all family fixtures, models, contracts and discovery bytes (657.567779ms)
+✔ startup bootstrap and loading fallback are served with existing CSP and JavaScript MIME (37.445038ms)
+✔ calendar selection supports all, none, one and arbitrary athlete combinations within authorized identities (1.741847ms)
+✔ weekly start time without end receives labeled duration and stable Mon/Wed occurrence identities (24.707623ms)
+✔ competition duration is optional and an explicit existing end time is preserved (1.192149ms)
+✔ family and child scopes isolate reads and writes, reject role and sport mismatch (1.635147ms)
+✔ duplicate candidates preserve both sources and evidence; reimports are idempotent (0.614647ms)
+✔ overlapping child and parent commitments conflict, touching events do not (0.407995ms)
+✔ event revisions retain history, cancellation and unverified status (0.336287ms)
+✔ priority, deadlines, requirements and opportunity rules are deterministic (1.017775ms)
+✔ acknowledgment, resolution, reopening and reminders are scoped and audited (0.501036ms)
+✔ provider failures retain events and last success, unsupported systems remain unconnected (0.452623ms)
+✔ minimal product events require consent and omit document/health/payment payloads (0.396248ms)
+✔ normalization drops arbitrary sensitive fields and unsafe URLs (0.313804ms)
+✔ ICS parses UTC snapshots, rejects recurrence and local-time ambiguity atomically (0.901751ms)
+✔ wellness defaults off and respects availability, preferences, travel, pickups and confirmed commitments (0.363118ms)
+✔ interests do not cause conflicts until explicitly confirmed; recurring plans have stable IDs (0.648619ms)
+✔ SIEM route and scripts retain CSP and private data has no server endpoint (46.867933ms)
+✔ revoking product consent hides status events; unsupported providers cannot inject verified events (0.409037ms)
+✔ ICS rejects impossible calendar dates and excessive input (0.206702ms)
+✔ all sport primary directories enforce youth / school / college / adult separation (70.305775ms)
+✔ club-first results retain one parent while individual team search finds the child (2.342955ms)
+✔ CSI explicit Year Round, Seasonal and Collegiate codes reconcile independently and metadata is not a club (1.14664ms)
+✔ static published Apps Script clubs are parsed without running scripts or importing footer/roster fields (7.31818ms)
+✔ community programs use actual providers; a facility alone does not create a program (1.654445ms)
+✔ Gold Crown is a league organizer, not a club or owner of every feeder team (12.121266ms)
+✔ unknown ownership and classification are queued, not silently hidden or made into youth clubs (0.964705ms)
+✔ participation validator rejects missing designations, orphan programs and cross-sport formats (1.006969ms)
+✔ parent ownership correction cannot be bypassed with a boolean flag (0.30495ms)
+✔ seasonal USA membership cannot be relabeled summer recreational or Masters youth (0.768729ms)
+✔ current registration requires dated source evidence rather than a URL or team participation (0.209836ms)
+✔ age and grade fields keep mixed published units instead of turning 17U into grade 17 (0.184749ms)
+✔ historical or yearless schedules cannot enter current public fixtures (0.583841ms)
+✔ source references for configured registration facts must still exist on the published page (3.95102ms)
+✔ accessible membership pagination is processed and incomplete budgets remain partial (16.296434ms)
+✔ classification snapshots are durable, reviewed and refuse silent program deletion (23.632381ms)
+✔ every original reviewed normalized entity and evidence payload remains present and identical (65.306017ms)
+✔ seven independent workspace modules keep saved records and optional recruiting/media (0.680586ms)
+✔ first-party profiles and hierarchy routes work, while unknown sports and bogus organizations stay 404 (138.433896ms)
+✔ program names and facility venues never override verified participation designations (0.308515ms)
+✔ newly approved source identities enter a durable classification queue before publication (4.913833ms)
+✔ missing or conflicting aliases cannot merge teams into parent organization identities (0.290018ms)
+✔ registration references retain program ownership and survive a fresh SQLite audit restore (167.029193ms)
+✖ UX polish preserves all baseline public data, brand assets and shared domain/identity models byte for byte (800.965843ms)
+✔ external LockedIn demo contract keeps AP data out of the link and retains safe public AP entry (41.922598ms)
+✔ single events retain date and category (1.388665ms)
+✔ weekly recurring practice has stable occurrence IDs (8.560454ms)
+✔ calendar boundary and week intervals filter correctly (0.34483ms)
+✔ invalid repeat end date rejected (0.303338ms)
+✔ malformed legacy plans ignored rather than crashing (0.178349ms)
+ℹ tests 310
+ℹ suites 0
+ℹ pass 304
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12453.802006
+
+✖ failing tests:
+
+test at test/design.test.mjs:17:1
+✖ homepage is an umbrella editorial experience with a single five-destination Sports menu (2.604169ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /YOUR SPORT\.<br><span>YOUR PATH\.<\/span><br>ONE PLACE\./. Input:
+
+  '<!doctype html><html lang="en"><head>\n' +
+    '    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n' +
+    '    <meta name="theme-color" content="#111827"><meta name="description" content="Your sport. Your path. One place. Discover Colorado teams and opportunities with a pathway built around your family.">\n' +
+    '    <title>The next chapter is yours | Arena Pathway</title><link rel="icon" href="/assets/brand/favicon.png" type="image/png" sizes="64x64"><link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">\n' +
+    '    <style>[hidden]{display:none!important}body{margin:0}#asset-health{font:16px/1.5 system-ui,sans-serif;background:#fff4db;color:#172a42;padding:16px 24px;border-bottom:3px solid #a52a3b}#asset-health button{font:inherit;min-height:44px;padding:8px 16px;margin:8px;border:0;border-radius:8px;background:#172a42;color:white}#asset-health p{margin:0}</style><script defer src="/assets/asset-health.js?v=6163e14d52a54ef2"></script><link rel="preload" href="/assets/fonts/barlow-condensed-bold.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="/assets/style.css?v=6163e14d52a54ef2"><link rel="stylesheet" href="/assets/ux-polish.css?v=6163e14d52a54ef2"><link rel="stylesheet" href="/assets/athlete-experience.css?v=6163e14d52a54ef2"><script type="module" src="/assets/app.js?v=6163e14d52a54ef2"></script>\n' +
+    '    </head><body data-page="home" data-brand-status="ready">\n' +
+    '    <aside id="asset-health" data-asset-error hidden aria-label="Page asset recovery"><p role="status"></p><button type="button">Retry page assets</button></aside><a class="skip" href="#main">Skip to content</a>\n' +
+    '    <div class="topline"><span>COLORADO ROOTS.</span><span>COLLEGIATE AMBITION.</span></div>\n' +
+    '    <header class="site-header">\n' +
+    '      <a class="brand" href="/" aria-label="Arena Pathway home"><picture class="brand-mark"><source media="(max-width:650px)" srcset="/assets/brand/ap-mobile.webp"><img src="/assets/brand/ap-desktop.webp" width="900" height="805" alt="" decoding="async"></picture><span class="wordmark">ARENA <b>PATHWAY</b><small>THE ATHLETE JOURNEY, CONNECTED.</small></span></a>\n' +
+    '      <a class="my-athletes-entry" href="/my-pathway?view=family">MY ATHLETES</a><div class="header-actions"><nav class="pillar-nav" aria-label="Primary navigation"><a class="my-link" href="/my-pathway?view=family">Profile</a><a class="my-link" href="/my-ap">SIEM</a><a class="my-link" href="/recruiting">Recruiting</a><a class="my-link" href="/locked-in-demo">LockedIn</a></nav>\n' +
+    '        <details id="sports-menu"><summary>Sports <span aria-hidden="true">⌄</span></summary><nav aria-label="Sports"><a href="/sports/lacrosse">Lacrosse</a><a href="/sports/volleyball">Volleyball</a><a href="/sports/basketball">Basketball</a><a href="/sports/swimming">Swimming</a><a href="/build?new=1&guided=1">Build Your Own <span aria-hidden="true"><span class="direction-arrow" aria-hidden="true"></span></span></a></nav></details>\n' +
+    '      </div>\n' +
+    '    </header><main id="main">\n' +
+    '    <section class="stadium hero">\n' +
+    '      <img class="hero-photo photo-stadium" src="/assets/photos/stadium.webp" srcset="/assets/photos/stadium-small.webp 1280w, /assets/photos/stadium.webp 3840w" sizes="100vw" alt="Panoramic view across Folsom Field toward Boulder’s Flatirons" width="3840" height="817" fetchpriority="high" decoding="async"><div class="hero-shade"></div>\n' +
+    '      <div class="hero-content"><p class="eyebrow">A BIGGER PICTURE. A PATH THAT’S YOURS.</p>\n' +
+    '        <h1>Simple to use.<br><span>Powerful underneath.</span></h1>\n' +
+    '        <p class="hero-intro">Your sport. Your path. One place.</p><p class="hero-belong">A place to belong. A place to become.</p>\n' +
+    '        <div class="actions"><a class="button" href="#sports">Find your sport <span aria-hidden="true">↓</span></a><a class="text-link light-link" href="/build?new=1&guided=1">Create My Pathway <span aria-hidden="true">→</span></a></div>\n' +
+    '        <div class="hero-foot"><span>FROM YOUR FIRST TEAM TO YOUR NEXT CHAPTER.</span><a href="/credits">Folsom Field / Boulder, Colorado</a></div>\n' +
+    '      </div>\n' +
+    '    </section>\n' +
+    '    <section class="platform-pillars section" aria-label="Arena Pathway platform"><div class="section-heading"><div><p class="eyebrow red">ONE HOME. FOUR POSSIBILITIES.</p><h2>Build around your athlete.</h2></div></div><div class="platform-pillar-grid"><a class="platform-pillar" href="/my-pathway?view=family"><span class="pillar-number">01</span><h3>PROFILES</h3><p>Your athletes. Their stories. Their progress.</p><span class="pillar-open">Open profiles →</span></a><a class="platform-pillar" href="/my-ap"><span class="pillar-number">02</span><h3>SIEM</h3><p>Your family’s schedules, messages and actions in one place.</p><span class="pillar-open">Open siem →</span></a><a class="platform-pillar" href="/recruiting"><span class="pillar-number">03</span><h3>RECRUITING</h3><p>Build an athlete’s future with a professional profile and college opportunities.</p><span class="pillar-open">Open recruiting →</span></a><a class="platform-pillar" href="/locked-in-demo"><span class="pillar-number">04</span><h3>LOCKEDIN</h3><p>Parent-controlled information, documents and verification handoffs.</p><span class="pillar-open">Explore the established demo →</span><small>Demonstration only · no live verification in AP</small></a></div></section>\n' +
+    '    <nav class="experience-nav" aria-label="Athlete experiences"><a href="#sports"><span>01</span> Discover <small>Find your sport & opportunities</small></a><a href="#grow"><span>02</span> Grow <small>Build your athlete story</small></a><a href="#connect"><span>03</span> Connect <small>Your family, in sync</small></a></nav>\n' +
+    '    <section id="sports" class="section arena-section"><div class="section-heading"><div><p class="eyebrow red">01 / DISCOVERY</p><h2>Find your arena.</h2></div><p>Four sports. A world of possibilities.<br>Choose where your story begins.</p></div>\n' +
+    '      <div class="arena-list"><article class="arena-story lacrosse"><a class="arena-image" href="/sports/lacrosse" aria-label="Explore Lacrosse"><img class=" photo-lacrosse" src="/assets/photos/lacrosse.webp" srcset="/assets/photos/lacrosse-small.webp 640w, /assets/photos/lacrosse.webp 1280w" sizes="(max-width:650px) 100vw, 50vw" alt="Roanoke and Berry College players competing in a women’s lacrosse game" width="1280" height="1927" loading="lazy" decoding="async"><span class="image-index" aria-hidden="true">01</span></a><div class="arena-copy"><p class="eyebrow">YOUR COLORADO LACROSSE PATHWAY</p><h3><a href="/sports/lacrosse">Lacrosse<span aria-hidden="true"><span class="direction-arrow" aria-hidden="true"></span></span></a></h3><p>Find your field. Build your game. Go further together.</p><div class="arena-links"><a href="/sports/lacrosse/teams">Teams</a><a href="/sports/lacrosse/tryouts">Tryouts</a><a href="/sports/lacrosse/camps">Camps</a><a href="/sports/lacrosse/community">Community</a></div></div></article><article class="arena-story volleyball"><a class="arena-image" href="/sports/volleyball" aria-label="Explore Volleyball"><img class=" photo-volleyball" src="/assets/photos/volleyball.webp" srcset="/assets/photos/volleyball-small.webp 640w, /assets/photos/volleyball.webp 1280w" sizes="(max-width:650px) 100vw, 50vw" alt="Navy and Lafayette volleyball players contesting a ball at the net" width="1280" height="1920" loading="lazy" decoding="async"><span class="image-index" aria-hidden="true">02</span></a><div class="arena-copy"><p class="eyebrow">YOUR COLORADO VOLLEYBALL PATHWAY</p><h3><a href="/sports/volleyball">Volleyball<span aria-hidden="true"><span class="direction-arrow" aria-hidden="true"></span></span></a></h3><p>Every touch, every team, every next possibility.</p><div class="arena-links"><a href="/sports/volleyball/teams">Teams</a><a href="/sports/volleyball/tryouts">Tryouts</a><a href="/sports/volleyball/camps">Camps</a><a href="/sports/volleyball/community">Community</a></div></div></article><article class="arena-story basketball"><a class="arena-image" href="/sports/basketball" aria-label="Explore Basketball"><img class=" photo-basketball" src="/assets/photos/basketball.webp" srcset="/assets/photos/basketball-small.webp 640w, /assets/photos/basketball.webp 1280w" sizes="(max-width:650px) 100vw, 50vw" alt="Miami and Duke players at the basket in a collegiate basketball game" width="1280" height="1920" loading="lazy" decoding="async"><span class="image-index" aria-hidden="true">03</span></a><div class="arena-copy"><p class="eyebrow">YOUR COLORADO BASKETBALL PATHWAY</p><h3><a href="/sports/basketball">Basketball<span aria-hidden="true"><span class="direction-arrow" aria-hidden="true"></span></span></a></h3><p>From the local court to the bigger stage.</p><div class="arena-links"><a href="/sports/basketball/teams">Teams</a><a href="/sports/basketball/tryouts">Tryouts</a><a href="/sports/basketball/camps">Camps</a><a href="/sports/basketball/community">Community</a></div></div></article><article class="arena-story swimming"><a class="arena-image" href="/sports/swimming" aria-label="Explore Swimming"><img class=" photo-swimming" src="/assets/photos/swimming.webp" srcset="/assets/photos/swimming-small.webp 640w, /assets/photos/swimming.webp 1280w" sizes="(max-width:650px) 100vw, 50vw" alt="A swimmer diving into a competition pool at the Warrior Games in Colorado Springs" width="1280" height="736" loading="lazy" decoding="async"><span class="image-index" aria-hidden="true">04</span></a><div class="arena-copy"><p class="eyebrow">YOUR COLORADO SWIMMING PATHWAY</p><h3><a href="/sports/swimming">Swimming<span aria-hidden="true"><span class="direction-arrow" aria-hidden="true"></span></span></a></h3><p>Find your lane. Discover what comes next.</p><div class="arena-links"><a href="/sports/swimming/teams">Teams</a><a href="/sports/swimming/tryouts">Tryouts</a><a href="/sports/swimming/camps">Camps</a><a href="/sports/swimming/community">Community</a></div></div></article></div>\n' +
+    '      <p class="coverage-line">A growing Colorado cat'... 5757 more characters
+
+      at TestContext.<anonymous> (file:///workspace/arena-pathway/test/design.test.mjs:20:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '<!doctype html><html lang="en"><head>\n    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n    <meta name="theme-color" content="#111827"><meta name="description" content="Your sport. Your path. One place. Discover Colorado teams and opportunities with a pathway built around your family.">\n    <title>The next chapter is yours | Arena Pathway</title><link rel="icon" href="/assets/brand/favicon.png" type="image/png" sizes="64x64"><link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">\n    <style>[hidden]{display:none!important}body{margin:0}#asset-health{font:16px/1.5 system-ui,sans-serif;background:#fff4db;color:#172a42;padding:16px 24px;border-bottom:3px solid #a52a3b}#asset-health button{font:inherit;min-height:44px;padding:8px 16px;margin:8px;border:0;border-radius:8px;background:#172a42;color:white}#asset-health p{margin:0}</style><script defer src="/assets/asset-health.js?v=6163e14d52a54ef2"></script><link rel="preload" href="/assets/fonts/barlow-condensed-bold.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="/assets/style.css?v=6163e14d52a54ef2"><link rel="stylesheet" href="/assets/ux-polish.css?v=6163e14d52a54ef2"><link rel="stylesheet" href="/assets/athlete-experience.css?v=6163e14d52a54ef2"><script type="module" src="/assets/app.js?v=6163e14d52a54ef2"></script>\n    </head><body data-page="home" data-brand-status="ready">\n    <aside id="asset-health" data-asset-error hidden aria-label="Page asset recovery"><p role="status"></p><button type="button">Retry page assets</button></aside><a class="skip" href="#main">Skip to content</a>\n    <div class="topline"><span>COLORADO ROOTS.</span><span>COLLEGIATE AMBITION.</span></div>\n    <header class="site-header">\n      <a class="brand" href="/" aria-label="Arena Pathway home"><picture class="brand-mark"><source media="(max-width:650px)" srcset="/assets/brand/ap-mobile.webp"><img src="/assets/brand/ap-desktop.webp" width="900" height="805" alt="" decoding="async"></picture><span class="wordmark">ARENA <b>PATHWAY</b><small>THE ATHLETE JOURNEY, CONNECTED.</small></span></a>\n      <a class="my-athletes-entry" href="/my-pathway?view=family">MY ATHLETES</a><div class="header-actions"><nav class="pillar-nav" aria-label="Primary navigation"><a class="my-link" href="/my-pathway?view=family">Profile</a><a class="my-link" href="/my-ap">SIEM</a><a class="my-link" href="/recruiting">Recruiting</a><a class="my-link" href="/locked-in-demo">LockedIn</a></nav>\n        <details id="sports-menu"><summary>Sports <span aria-hidden="true">⌄</span></summary><nav aria-label="Sports"><a href="/sports/lacrosse">Lacrosse</a><a href="/sports/volleyball">Volleyball</a><a href="/sports/basketball">Basketball</a><a href="/sports/swimming">Swimming</a><a href="/build?new=1&guided=1">Build Your Own <span aria-hidden="true"><span class="direction-arrow" aria-hidden="true"></span></span></a></nav></details>\n      </div>\n    </header><main id="main">\n    <section class="stadium hero">\n      <img class="hero-photo photo-stadium" src="/assets/photos/stadium.webp" srcset="/assets/photos/stadium-small.webp 1280w, /assets/photos/stadium.webp 3840w" sizes="100vw" alt="Panoramic view across Folsom Field toward Boulder’s Flatirons" width="3840" height="817" fetchpriority="high" decoding="async"><div class="hero-shade"></div>\n      <div class="hero-content"><p class="eyebrow">A BIGGER PICTURE. A PATH THAT’S YOURS.</p>\n        <h1>Simple to use.<br><span>Powerful underneath.</span></h1>\n        <p class="hero-intro">Your sport. Your path. One place.</p><p class="hero-belong">A place to belong. A place to become.</p>\n        <div class="actions"><a class="button" href="#sports">Find your sport <span aria-hidden="true">↓</span></a><a class="text-link light-link" href="/build?new=1&guided=1">Create My Pathway <span aria-hidden="true">→</span></a></div>\n        <div class="hero-foot"><span>FROM YOUR FIRST TEAM TO YOUR NEXT CHAPTER.</span><a href="/credits">Folsom Field / Boulder, Colorado</a></div>\n      </div>\n    </section>\n    <section class="platform-pillars section" aria-label="Arena Pathway platform"><div class="section-heading"><div><p class="eyebrow red">ONE HOME. FOUR POSSIBILITIES.</p><h2>Build around your athlete.</h2></div></div><div class="platform-pillar-grid"><a class="platform-pillar" href="/my-pathway?view=family"><span class="pillar-number">01</span><h3>PROFILES</h3><p>Your athletes. Their stories. Their progress.</p><span class="pillar-open">Open profiles →</span></a><a class="platform-pillar" href="/my-ap"><span class="pillar-number">02</span><h3>SIEM</h3><p>Your family’s schedules, messages and actions in one place.</p><span class="pillar-open">Open siem →</span></a><a class="platform-pillar" href="/recruiting"><span class="pillar-number">03</span><h3>RECRUITING</h3><p>Build an athlete’s future with a professional profile and college opportunities.</p><span class="pillar-open">Open recruiting →</span></a><a class="platform-pillar" href="/locked-in-demo"><span class="pillar-number">04</span><h3>LOCKEDIN</h3><p>Parent-controlled information, documents and verification handoffs.</p><span class="pillar-open">Explore the established demo →</span><small>Demonstration only · no live verification in AP</small></a></div></section>\n    <nav class="experience-nav" aria-label="Athlete experiences"><a href="#sports"><span>01</span> Discover <small>Find your sport & opportunities</small></a><a href="#grow"><span>02</span> Grow <small>Build your athlete story</small></a><a href="#connect"><span>03</span> Connect <small>Your family, in sync</small></a></nav>\n    <section id="sports" class="section arena-section"><div class="section-heading"><div><p class="eyebrow red">01 / DISCOVERY</p><h2>Find your arena.</h2></div><p>Four sports. A world of possibilities.<br>Choose where your story begins.</p></div>\n      <div class="arena-list"><article class="arena-story lacrosse"><a class="arena-image" href="/sports/lacrosse" aria-label="Explore Lacrosse"><img class=" photo-lacrosse" src="/assets/photos/lacrosse.webp" srcset="/assets/photos/lacrosse-small.webp 640w, /assets/photos/lacrosse.webp 1280w" sizes="(max-width:650px) 100vw, 50vw" alt="Roanoke and Berry College players competing in a women’s lacrosse game" width="1280" height="1927" loading="lazy" decoding="async"><span class="image-index" aria-hidden="true">01</span></a><div class="arena-copy"><p class="eyebrow">YOUR COLORADO LACROSSE PATHWAY</p><h3><a href="/sports/lacrosse">Lacrosse<span aria-hidden="true"><span class="direction-arrow" aria-hidden="true"></span></span></a></h3><p>Find your field. Build your game. Go further together.</p><div class="arena-links"><a href="/sports/lacrosse/teams">Teams</a><a href="/sports/lacrosse/tryouts">Tryouts</a><a href="/sports/lacrosse/camps">Camps</a><a href="/sports/lacrosse/community">Community</a></div></div></article><article class="arena-story volleyball"><a class="arena-image" href="/sports/volleyball" aria-label="Explore Volleyball"><img class=" photo-volleyball" src="/assets/photos/volleyball.webp" srcset="/assets/photos/volleyball-small.webp 640w, /assets/photos/volleyball.webp 1280w" sizes="(max-width:650px) 100vw, 50vw" alt="Navy and Lafayette volleyball players contesting a ball at the net" width="1280" height="1920" loading="lazy" decoding="async"><span class="image-index" aria-hidden="true">02</span></a><div class="arena-copy"><p class="eyebrow">YOUR COLORADO VOLLEYBALL PATHWAY</p><h3><a href="/sports/volleyball">Volleyball<span aria-hidden="true"><span class="direction-arrow" aria-hidden="true"></span></span></a></h3><p>Every touch, every team, every next possibility.</p><div class="arena-links"><a href="/sports/volleyball/teams">Teams</a><a href="/sports/volleyball/tryouts">Tryouts</a><a href="/sports/volleyball/camps">Camps</a><a href="/sports/volleyball/community">Community</a></div></div></article><article class="arena-story basketball"><a class="arena-image" href="/sports/basketball" aria-label="Explore Basketball"><img class=" photo-basketball" src="/assets/photos/basketball.webp" srcset="/assets/photos/basketball-small.webp 640w, /assets/photos/basketball.webp 1280w" sizes="(max-width:650px) 100vw, 50vw" alt="Miami and Duke players at the basket in a collegiate basketball game" width="1280" height="1920" loading="lazy" decoding="async"><span class="image-index" aria-hidden="true">03</span></a><div class="arena-copy"><p class="eyebrow">YOUR COLORADO BASKETBALL PATHWAY</p><h3><a href="/sports/basketball">Basketball<span aria-hidden="true"><span class="direction-arrow" aria-hidden="true"></span></span></a></h3><p>From the local court to the bigger stage.</p><div class="arena-links"><a href="/sports/basketball/teams">Teams</a><a href="/sports/basketball/tryouts">Tryouts</a><a href="/sports/basketball/camps">Camps</a><a href="/sports/basketball/community">Community</a></div></div></article><article class="arena-story swimming"><a class="arena-image" href="/sports/swimming" aria-label="Explore Swimming"><img class=" photo-swimming" src="/assets/photos/swimming.webp" srcset="/assets/photos/swimming-small.webp 640w, /assets/photos/swimming.webp 1280w" sizes="(max-width:650px) 100vw, 50vw" alt="A swimmer diving into a competition pool at the Warrior Games in Colorado Springs" width="1280" height="736" loading="lazy" decoding="async"><span class="image-index" aria-hidden="true">04</span></a><div class="arena-copy"><p class="eyebrow">YOUR COLORADO SWIMMING PATHWAY</p><h3><a href="/sports/swimming">Swimming<span aria-hidden="true"><span class="direction-arrow" aria-hidden="true"></span></span></a></h3><p>Find your lane. Discover what comes next.</p><div class="arena-links"><a href="/sports/swimming/teams">Teams</a><a href="/sports/swimming/tryouts">Tryouts</a><a href="/sports/swimming/camps">Camps</a><a href="/sports/swimming/community">Community</a></div></div></article></div>\n      <p class="coverage-line">A growing Colorado cat'... 5757 more characters,
+    expected: /YOUR SPORT\.<br><span>YOUR PATH\.<\/span><br>ONE PLACE\./,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at test/design.test.mjs:35:1
+✖ directories separate participation categories, group clubs first and retain explicit team searches (3.961637ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /name="kind"/. Input:
+
+  '<!doctype html><html lang="en"><head>\n' +
+    '    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n' +
+    '    <meta name="theme-color" content="#111827"><meta name="description" content="Your sport. Your path. One place. Discover Colorado teams and opportunities with a pathway built around your family.">\n' +
+    '    <title>Lacrosse participation | Arena Pathway</title><link rel="icon" href="/assets/brand/favicon.png" type="image/png" sizes="64x64"><link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">\n' +
+    '    <style>[hidden]{display:none!important}body{margin:0}#asset-health{font:16px/1.5 system-ui,sans-serif;background:#fff4db;color:#172a42;padding:16px 24px;border-bottom:3px solid #a52a3b}#asset-health button{font:inherit;min-height:44px;padding:8px 16px;margin:8px;border:0;border-radius:8px;background:#172a42;color:white}#asset-health p{margin:0}</style><script defer src="/assets/asset-health.js?v=6163e14d52a54ef2"></script><link rel="preload" href="/assets/fonts/barlow-condensed-bold.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="/assets/style.css?v=6163e14d52a54ef2"><link rel="stylesheet" href="/assets/ux-polish.css?v=6163e14d52a54ef2"><link rel="stylesheet" href="/assets/athlete-experience.css?v=6163e14d52a54ef2"><script type="module" src="/assets/app.js?v=6163e14d52a54ef2"></script>\n' +
+    '    </head><body data-page="directory" data-brand-status="ready">\n' +
+    '    <aside id="asset-health" data-asset-error hidden aria-label="Page asset recovery"><p role="status"></p><button type="button">Retry page assets</button></aside><a class="skip" href="#main">Skip to content</a>\n' +
+    '    <div class="topline"><span>COLORADO ROOTS.</span><span>COLLEGIATE AMBITION.</span></div>\n' +
+    '    <header class="site-header">\n' +
+    '      <a class="brand" href="/" aria-label="Arena Pathway home"><picture class="brand-mark"><source media="(max-width:650px)" srcset="/assets/brand/ap-mobile.webp"><img src="/assets/brand/ap-desktop.webp" width="900" height="805" alt="" decoding="async"></picture><span class="wordmark">ARENA <b>PATHWAY</b><small>THE ATHLETE JOURNEY, CONNECTED.</small></span></a>\n' +
+    '      <a class="my-athletes-entry" href="/my-pathway?view=family">MY ATHLETES</a><div class="header-actions"><nav class="pillar-nav" aria-label="Primary navigation"><a class="my-link" href="/my-pathway?view=family">Profile</a><a class="my-link" href="/my-ap">SIEM</a><a class="my-link" href="/recruiting">Recruiting</a><a class="my-link" href="/locked-in-demo">LockedIn</a></nav>\n' +
+    '        <details id="sports-menu"><summary>Sports <span aria-hidden="true">⌄</span></summary><nav aria-label="Sports"><a href="/sports/lacrosse">Lacrosse</a><a href="/sports/volleyball">Volleyball</a><a href="/sports/basketball">Basketball</a><a href="/sports/swimming">Swimming</a><a href="/build?new=1&guided=1">Build Your Own <span aria-hidden="true"><span class="direction-arrow" aria-hidden="true"></span></span></a></nav></details>\n' +
+    '      </div>\n' +
+    '    </header><main id="main"><section class="directory-heading"><div class="directory-title"><a class="eyebrow red" href="/sports/lacrosse">COLORADO / LACROSSE</a><h1>Youth Clubs &amp; Programs</h1><p>Find a real place to participate, with clubs and programs grouped under their actual organization.</p></div><div class="directory-photo"><img class=" photo-lacrosse" src="/assets/photos/lacrosse.webp" srcset="/assets/photos/lacrosse-small.webp 640w, /assets/photos/lacrosse.webp 1280w" sizes="(max-width:650px) 100vw, 35vw" alt="Roanoke and Berry College players competing in a women’s lacrosse game" width="1280" height="1927" loading="lazy" decoding="async"></div></section><nav class="participation-nav" aria-label="lacrosse participation"><a href="/sports/lacrosse" >Sport Home</a><a href="/sports/lacrosse/youth" aria-current="page">Youth Clubs</a><a href="/sports/lacrosse/high-school" >High School</a><a href="/sports/lacrosse/college" >College</a><a href="/sports/lacrosse/adult" >Adult / Other</a><a href="/sports/lacrosse/community" >Community</a></nav><section class="section compact directory" id="sport-directory"><nav class="directory-tools" aria-label="Participation tools"><a href="/sports/lacrosse/youth">Clubs & programs</a><a href="/sports/lacrosse/tryouts?designation=youth">Tryouts</a><a href="/sports/lacrosse/camps?designation=youth">Camps & development</a><a href="/sports/lacrosse/schedules?designation=youth">Schedules</a></nav><form method="get" class="filters unified-filters parent-directory-filters" role="search" aria-label="Search lacrosse programs"><input type="hidden" name="designation" value="youth"><div class="search-field directory-combobox"><label for="q">Club / team search</label><input type="search" id="q" name="q" role="combobox" aria-expanded="false" aria-controls="club-search-options" aria-autocomplete="list" autocomplete="off" value="" maxlength="120" placeholder="Search clubs or teams"><div id="club-search-options" class="club-search-options" role="listbox" hidden><button type="button" role="option" aria-selected="false" data-club-choice="Boulder Valley Lacrosse">Boulder Valley Lacrosse</button><button type="button" role="option" aria-selected="false" data-club-choice="City of Colorado Springs">City of Colorado Springs</button><button type="button" role="option" aria-selected="false" data-club-choice="Denver Elite">Denver Elite</button><button type="button" role="option" aria-selected="false" data-club-choice="Denver Lacrosse Club">Denver Lacrosse Club</button><button type="button" role="option" aria-selected="false" data-club-choice="Foothills Pack">Foothills Pack</button><button type="button" role="option" aria-selected="false" data-club-choice="Grand Valley Lacrosse">Grand Valley Lacrosse</button><button type="button" role="option" aria-selected="false" data-club-choice="Jets Lacrosse Club">Jets Lacrosse Club</button><button type="button" role="option" aria-selected="false" data-club-choice="Mountain Recreation">Mountain Recreation</button><button type="button" role="option" aria-selected="false" data-club-choice="Northern Power Lacrosse">Northern Power Lacrosse</button><button type="button" role="option" aria-selected="false" data-club-choice="Ranger Youth Lacrosse">Ranger Youth Lacrosse</button><button type="button" role="option" aria-selected="false" data-club-choice="Rocky Mountain Rattlers Lacrosse">Rocky Mountain Rattlers Lacrosse</button><button type="button" role="option" aria-selected="false" data-club-choice="RoughRiders Lacrosse">RoughRiders Lacrosse</button><button type="button" role="option" aria-selected="false" data-club-choice="Team 180 Elite">Team 180 Elite</button></div></div><div><label for="location">Location</label><select name="location" id="location"><option value="">All Colorado</option><option value="denver-metro" >Denver Metro</option><option value="south-denver-dtc" >South Denver/DTC (Arapahoe/Aurora/Douglas)</option><option value="colorado-springs-metro" >Colorado Springs Metro</option><option value="southern-colorado" >Southern Colorado</option><option value="boulder-metro" >Boulder Metro</option><option value="northern-colorado" >Northern Colorado</option><option value="northern-front-range" >northern front range</option><option value="pikes-peak" >pikes peak</option><option value="eastern-plains" >eastern plains</option><option value="southeast" >southeast</option><option value="southwest" >southwest</option><option value="western-slope" >western slope</option><option value="central-mountains" >central mountains</option><option value="san-luis-valley" >san luis valley</option><option value="unknown" >Location unknown</option></select></div><div><label for="age">Age</label><input name="age" id="age" inputmode="numeric" value="" placeholder="All ages"></div><div><label for="classification">Program type</label><select name="classification" id="classification"><option value="">All programs</option><option value="recreational" >Recreational</option><option value="competitive" >Competitive / Travel</option><option value="unknown" >Not classified</option></select></div><button class="button" type="submit">Search →</button><a href="/sports/lacrosse/teams" class="reset">Reset</a><details class="directory-scope"><summary>Coverage & source details</summary><p>ZIP / 25-mile search is unavailable without approved coordinates. No distances are invented. Existing source, classification and URL filters remain supported.</p><a href="/data/classification">Review directory coverage</a></details></form><p role="status" class="result-count">13 records · one primary result per organization</p><p class="small">Unknown values stay unknown. Schools belong to High School or College; community providers can offer youth programs without creating duplicate organizations. <a href="/data/classification">Classification exceptions & coverage →</a></p><div class="records directory-records" id="group-club"><article class="record club-result" data-record="ap-org-9897e9863dd82b75ac18" data-organization="ap-org-9897e9863dd82b75ac18" data-designation="youth"><div class="record-main"><span class="badge">Club / program</span><h2><a href="/organizations/ap-org-9897e9863dd82b75ac18?sport=lacrosse">Boulder Valley Lacrosse</a></h2><section class="verification-summary" aria-label="Verification status"><p class="verification-fact-line">Organization verified · Youth program details available · Named program/team details available · Registration dates not confirmed · Current season not confirmed</p></section><dl class="participation-facts"><div><dt>Participation</dt><dd>Youth Clubs &amp; Programs</dd></div><div><dt>Who</dt><dd>Gender / coed unknown · Age unknown · Grade unknown</dd></div><div><dt>Level</dt><dd>Unknown</dd></div><div><dt>Where</dt><dd>Lafayette, CO</dd></div><div><dt>Registration</dt><dd>unknown · unknown availability</dd></div><div><dt>Tryouts</dt><dd>unknown</dd></div></dl><details class="provenance"><summary>Source verification · 2026-11-10</summary><p><a href="https://www.bou'... 23957 more characters
+
+      at TestContext.<anonymous> (file:///workspace/arena-pathway/test/design.test.mjs:40:44)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '<!doctype html><html lang="en"><head>\n    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n    <meta name="theme-color" content="#111827"><meta name="description" content="Your sport. Your path. One place. Discover Colorado teams and opportunities with a pathway built around your family.">\n    <title>Lacrosse participation | Arena Pathway</title><link rel="icon" href="/assets/brand/favicon.png" type="image/png" sizes="64x64"><link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">\n    <style>[hidden]{display:none!important}body{margin:0}#asset-health{font:16px/1.5 system-ui,sans-serif;background:#fff4db;color:#172a42;padding:16px 24px;border-bottom:3px solid #a52a3b}#asset-health button{font:inherit;min-height:44px;padding:8px 16px;margin:8px;border:0;border-radius:8px;background:#172a42;color:white}#asset-health p{margin:0}</style><script defer src="/assets/asset-health.js?v=6163e14d52a54ef2"></script><link rel="preload" href="/assets/fonts/barlow-condensed-bold.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="/assets/style.css?v=6163e14d52a54ef2"><link rel="stylesheet" href="/assets/ux-polish.css?v=6163e14d52a54ef2"><link rel="stylesheet" href="/assets/athlete-experience.css?v=6163e14d52a54ef2"><script type="module" src="/assets/app.js?v=6163e14d52a54ef2"></script>\n    </head><body data-page="directory" data-brand-status="ready">\n    <aside id="asset-health" data-asset-error hidden aria-label="Page asset recovery"><p role="status"></p><button type="button">Retry page assets</button></aside><a class="skip" href="#main">Skip to content</a>\n    <div class="topline"><span>COLORADO ROOTS.</span><span>COLLEGIATE AMBITION.</span></div>\n    <header class="site-header">\n      <a class="brand" href="/" aria-label="Arena Pathway home"><picture class="brand-mark"><source media="(max-width:650px)" srcset="/assets/brand/ap-mobile.webp"><img src="/assets/brand/ap-desktop.webp" width="900" height="805" alt="" decoding="async"></picture><span class="wordmark">ARENA <b>PATHWAY</b><small>THE ATHLETE JOURNEY, CONNECTED.</small></span></a>\n      <a class="my-athletes-entry" href="/my-pathway?view=family">MY ATHLETES</a><div class="header-actions"><nav class="pillar-nav" aria-label="Primary navigation"><a class="my-link" href="/my-pathway?view=family">Profile</a><a class="my-link" href="/my-ap">SIEM</a><a class="my-link" href="/recruiting">Recruiting</a><a class="my-link" href="/locked-in-demo">LockedIn</a></nav>\n        <details id="sports-menu"><summary>Sports <span aria-hidden="true">⌄</span></summary><nav aria-label="Sports"><a href="/sports/lacrosse">Lacrosse</a><a href="/sports/volleyball">Volleyball</a><a href="/sports/basketball">Basketball</a><a href="/sports/swimming">Swimming</a><a href="/build?new=1&guided=1">Build Your Own <span aria-hidden="true"><span class="direction-arrow" aria-hidden="true"></span></span></a></nav></details>\n      </div>\n    </header><main id="main"><section class="directory-heading"><div class="directory-title"><a class="eyebrow red" href="/sports/lacrosse">COLORADO / LACROSSE</a><h1>Youth Clubs &amp; Programs</h1><p>Find a real place to participate, with clubs and programs grouped under their actual organization.</p></div><div class="directory-photo"><img class=" photo-lacrosse" src="/assets/photos/lacrosse.webp" srcset="/assets/photos/lacrosse-small.webp 640w, /assets/photos/lacrosse.webp 1280w" sizes="(max-width:650px) 100vw, 35vw" alt="Roanoke and Berry College players competing in a women’s lacrosse game" width="1280" height="1927" loading="lazy" decoding="async"></div></section><nav class="participation-nav" aria-label="lacrosse participation"><a href="/sports/lacrosse" >Sport Home</a><a href="/sports/lacrosse/youth" aria-current="page">Youth Clubs</a><a href="/sports/lacrosse/high-school" >High School</a><a href="/sports/lacrosse/college" >College</a><a href="/sports/lacrosse/adult" >Adult / Other</a><a href="/sports/lacrosse/community" >Community</a></nav><section class="section compact directory" id="sport-directory"><nav class="directory-tools" aria-label="Participation tools"><a href="/sports/lacrosse/youth">Clubs & programs</a><a href="/sports/lacrosse/tryouts?designation=youth">Tryouts</a><a href="/sports/lacrosse/camps?designation=youth">Camps & development</a><a href="/sports/lacrosse/schedules?designation=youth">Schedules</a></nav><form method="get" class="filters unified-filters parent-directory-filters" role="search" aria-label="Search lacrosse programs"><input type="hidden" name="designation" value="youth"><div class="search-field directory-combobox"><label for="q">Club / team search</label><input type="search" id="q" name="q" role="combobox" aria-expanded="false" aria-controls="club-search-options" aria-autocomplete="list" autocomplete="off" value="" maxlength="120" placeholder="Search clubs or teams"><div id="club-search-options" class="club-search-options" role="listbox" hidden><button type="button" role="option" aria-selected="false" data-club-choice="Boulder Valley Lacrosse">Boulder Valley Lacrosse</button><button type="button" role="option" aria-selected="false" data-club-choice="City of Colorado Springs">City of Colorado Springs</button><button type="button" role="option" aria-selected="false" data-club-choice="Denver Elite">Denver Elite</button><button type="button" role="option" aria-selected="false" data-club-choice="Denver Lacrosse Club">Denver Lacrosse Club</button><button type="button" role="option" aria-selected="false" data-club-choice="Foothills Pack">Foothills Pack</button><button type="button" role="option" aria-selected="false" data-club-choice="Grand Valley Lacrosse">Grand Valley Lacrosse</button><button type="button" role="option" aria-selected="false" data-club-choice="Jets Lacrosse Club">Jets Lacrosse Club</button><button type="button" role="option" aria-selected="false" data-club-choice="Mountain Recreation">Mountain Recreation</button><button type="button" role="option" aria-selected="false" data-club-choice="Northern Power Lacrosse">Northern Power Lacrosse</button><button type="button" role="option" aria-selected="false" data-club-choice="Ranger Youth Lacrosse">Ranger Youth Lacrosse</button><button type="button" role="option" aria-selected="false" data-club-choice="Rocky Mountain Rattlers Lacrosse">Rocky Mountain Rattlers Lacrosse</button><button type="button" role="option" aria-selected="false" data-club-choice="RoughRiders Lacrosse">RoughRiders Lacrosse</button><button type="button" role="option" aria-selected="false" data-club-choice="Team 180 Elite">Team 180 Elite</button></div></div><div><label for="location">Location</label><select name="location" id="location"><option value="">All Colorado</option><option value="denver-metro" >Denver Metro</option><option value="south-denver-dtc" >South Denver/DTC (Arapahoe/Aurora/Douglas)</option><option value="colorado-springs-metro" >Colorado Springs Metro</option><option value="southern-colorado" >Southern Colorado</option><option value="boulder-metro" >Boulder Metro</option><option value="northern-colorado" >Northern Colorado</option><option value="northern-front-range" >northern front range</option><option value="pikes-peak" >pikes peak</option><option value="eastern-plains" >eastern plains</option><option value="southeast" >southeast</option><option value="southwest" >southwest</option><option value="western-slope" >western slope</option><option value="central-mountains" >central mountains</option><option value="san-luis-valley" >san luis valley</option><option value="unknown" >Location unknown</option></select></div><div><label for="age">Age</label><input name="age" id="age" inputmode="numeric" value="" placeholder="All ages"></div><div><label for="classification">Program type</label><select name="classification" id="classification"><option value="">All programs</option><option value="recreational" >Recreational</option><option value="competitive" >Competitive / Travel</option><option value="unknown" >Not classified</option></select></div><button class="button" type="submit">Search →</button><a href="/sports/lacrosse/teams" class="reset">Reset</a><details class="directory-scope"><summary>Coverage & source details</summary><p>ZIP / 25-mile search is unavailable without approved coordinates. No distances are invented. Existing source, classification and URL filters remain supported.</p><a href="/data/classification">Review directory coverage</a></details></form><p role="status" class="result-count">13 records · one primary result per organization</p><p class="small">Unknown values stay unknown. Schools belong to High School or College; community providers can offer youth programs without creating duplicate organizations. <a href="/data/classification">Classification exceptions & coverage →</a></p><div class="records directory-records" id="group-club"><article class="record club-result" data-record="ap-org-9897e9863dd82b75ac18" data-organization="ap-org-9897e9863dd82b75ac18" data-designation="youth"><div class="record-main"><span class="badge">Club / program</span><h2><a href="/organizations/ap-org-9897e9863dd82b75ac18?sport=lacrosse">Boulder Valley Lacrosse</a></h2><section class="verification-summary" aria-label="Verification status"><p class="verification-fact-line">Organization verified · Youth program details available · Named program/team details available · Registration dates not confirmed · Current season not confirmed</p></section><dl class="participation-facts"><div><dt>Participation</dt><dd>Youth Clubs &amp; Programs</dd></div><div><dt>Who</dt><dd>Gender / coed unknown · Age unknown · Grade unknown</dd></div><div><dt>Level</dt><dd>Unknown</dd></div><div><dt>Where</dt><dd>Lafayette, CO</dd></div><div><dt>Registration</dt><dd>unknown · unknown availability</dd></div><div><dt>Tryouts</dt><dd>unknown</dd></div></dl><details class="provenance"><summary>Source verification · 2026-11-10</summary><p><a href="https://www.bou'... 23957 more characters,
+    expected: /name="kind"/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at test/dgc-presentation.test.mjs:4:1
+✖ DGC retains all approved data, assets, identities and SIEM/recruiting/event models without migration (1235.315642ms)
+  AssertionError [ERR_ASSERTION]: public/state.js
+  + actual - expected
+  ... Skipped lines
+
+  + Buffer(7250) [Uint8Array] [
+  - Buffer(6994) [Uint8Array] [
+      105,
+      109,
+      112,
+      111,
+      114,
+  ...
+      123,
+  +   114,
+      101,
+  +   109,
+  +   111,
+  +   118,
+  +   101,
+  +   100,
+  +   65,
+  +   116,
+  +   104,
+  +   108,
+  +   101,
+  +   116,
+  +   101,
+  +   73,
+  +   100,
+  +   115,
+  +   44,
+  +   112,
+  +   114,
+  +   111,
+  +   116,
+  +   101,
+  +   99,
+  +   116,
+  +   82,
+  +   101,
+  +   109,
+  +   111,
+  +   118,
+  +   97,
+  +   108,
+  +   125,
+  +   32,
+  +   102,
+  +   114,
+  +   111,
+  +   109,
+  +   32,
+  +   39,
+  +   46,
+  +   47,
+  +   97,
+  +   116,
+  +   104,
+  +   108,
+  +   101,
+  +   116,
+  +   101,
+  +   45,
+  +   108,
+  +   105,
+  +   102,
+  +   101,
+  +   99,
+  +   121,
+  +   99,
+  +   108,
+  +   101,
+  +   46,
+  +   106,
+  +   115,
+  +   39,
+  +   59,
+  +   10,
+  +   105,
+  +   109,
+  +   112,
+  +   111,
+  +   114,
+  +   116,
+  +   32,
+  +   123,
+  +   101,
+      120,
+      112,
+      97,
+      110,
+      100,
+  ...
+      40,
+  +   112,
+  +   61,
+  +   62,
+  +   112,
+  +   38,
+  +   38,
+  +   33,
+  +   114,
+  +   101,
+  +   109,
+  -   66,
+      111,
+  +   118,
+  +   101,
+  +   100,
+  +   65,
+  +   116,
+  +   104,
+  -   111,
+      108,
+      101,
+  +   116,
+  +   101,
+  +   73,
+  +   100,
+  +   115,
+  +   40,
+  +   114,
+      97,
+  +   119,
+  -   110,
+      41,
+  +   46,
+  +   104,
+  +   97,
+  +   115,
+  +   40,
+  +   112,
+  +   46,
+  +   105,
+  +   100,
+  +   41,
+  +   41,
+      59,
+      114,
+      101,
+      116,
+      117,
+  ...
+      123,
+  +   46,
+  +   46,
+  +   46,
+  +   114,
+  +   97,
+  +   119,
+  +   44,
+      118,
+      101,
+      114,
+      115,
+      105,
+  ...
+      123,
+  +   108,
+  +   101,
+  +   116,
+  +   32,
+      115,
+      116,
+      111,
+      114,
+  +   101,
+  +   100,
+  +   59,
+  +   116,
+  +   114,
+  +   121,
+  +   123,
+  +   115,
+  +   116,
+  +   111,
+  +   114,
+  +   101,
+  +   100,
+  +   61,
+  +   74,
+  +   83,
+  +   79,
+  +   78,
+  +   46,
+  +   112,
+      97,
+  +   114,
+  +   115,
+  +   101,
+  +   40,
+  +   115,
+  +   116,
+  +   111,
+  +   114,
+  +   97,
+      103,
+      101,
+      46,
+  +   103,
+  +   101,
+  +   116,
+  +   73,
+  +   116,
+  +   101,
+  +   109,
+  +   40,
+  +   83,
+  +   84,
+  +   79,
+  +   82,
+  +   65,
+  +   71,
+  +   69,
+  +   95,
+  +   75,
+  +   69,
+  +   89,
+  +   41,
+  +   124,
+  +   124,
+  +   39,
+  +   110,
+  +   117,
+  +   108,
+  +   108,
+  +   39,
+  +   41,
+  +   59,
+  +   125,
+  +   99,
+  +   97,
+  +   116,
+  +   99,
+  +   104,
+  +   123,
+  +   125,
+  +   99,
+  +   111,
+  +   110,
+      115,
+  +   116,
+  +   32,
+  +   115,
+  +   97,
+  +   102,
+      101,
+  +   61,
+  +   112,
+  +   114,
+  +   111,
+      116,
+  +   101,
+  +   99,
+  +   116,
+  +   82,
+  +   101,
+  +   109,
+  +   111,
+  +   118,
+  +   97,
+  +   108,
+  +   40,
+  +   115,
+  +   116,
+  +   97,
+  +   116,
+  +   101,
+  +   44,
+  +   115,
+  +   116,
+  +   111,
+  +   114,
+  +   101,
+  +   100,
+  +   41,
+  +   59,
+  +   115,
+  +   116,
+  +   111,
+  +   114,
+  +   97,
+  +   103,
+  +   101,
+  +   46,
+  +   115,
+  +   101,
+  +   116,
+      73,
+      116,
+      101,
+      109,
+      40,
+  ...
+      115,
+  +   97,
+  +   102,
+  +   101,
+  +   41,
+  +   41,
+  +   59,
+  +   79,
+  +   98,
+  +   106,
+  +   101,
+  +   99,
+      116,
+  +   46,
+      97,
+  +   115,
+  +   115,
+  +   105,
+  +   103,
+  +   110,
+  +   40,
+  +   115,
+      116,
+  +   97,
+  +   116,
+      101,
+  +   44,
+  +   115,
+  +   97,
+  +   102,
+  +   101,
+      41,
+  -   41,
+      59,
+      125,
+      10,
+      101,
+      120,
+
+      at TestContext.<anonymous> (file:///workspace/arena-pathway/test/dgc-presentation.test.mjs:4:669)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: <Buffer 69 6d 70 6f 72 74 20 7b 72 65 6d 6f 76 65 64 41 74 68 6c 65 74 65 49 64 73 2c 70 72 6f 74 65 63 74 52 65 6d 6f 76 61 6c 7d 20 66 72 6f 6d 20 27 2e 2f ... 7200 more bytes>,
+    expected: <Buffer 69 6d 70 6f 72 74 20 7b 65 78 70 61 6e 64 50 6c 61 6e 73 7d 20 66 72 6f 6d 20 27 2e 2f 72 65 63 75 72 72 69 6e 67 2d 70 6c 61 6e 73 2e 6a 73 27 3b 0a ... 6944 more bytes>,
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/progressive.test.mjs:15:1
+✖ public API and profiles expose reviewed facts and unknown status; unrelated data/branding preserved (222.225941ms)
+  AssertionError [ERR_ASSERTION]: Verified organization
+      at TestContext.<anonymous> (file:///workspace/arena-pathway/test/progressive.test.mjs:15:667)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/recovery.test.mjs:8:1
+✖ one-time entry defaults an optional end time and preserves strict recurring duration validation (19.901713ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///workspace/arena-pathway/test/recovery.test.mjs:8:596)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at test/ux-polish.test.mjs:3:1
+✖ UX polish preserves all baseline public data, brand assets and shared domain/identity models byte for byte (800.965843ms)
+  AssertionError [ERR_ASSERTION]: public/state.js
+  + actual - expected
+  ... Skipped lines
+
+  + Buffer(7250) [Uint8Array] [
+  - Buffer(6994) [Uint8Array] [
+      105,
+      109,
+      112,
+      111,
+      114,
+  ...
+      123,
+  +   114,
+      101,
+  +   109,
+  +   111,
+  +   118,
+  +   101,
+  +   100,
+  +   65,
+  +   116,
+  +   104,
+  +   108,
+  +   101,
+  +   116,
+  +   101,
+  +   73,
+  +   100,
+  +   115,
+  +   44,
+  +   112,
+  +   114,
+  +   111,
+  +   116,
+  +   101,
+  +   99,
+  +   116,
+  +   82,
+  +   101,
+  +   109,
+  +   111,
+  +   118,
+  +   97,
+  +   108,
+  +   125,
+  +   32,
+  +   102,
+  +   114,
+  +   111,
+  +   109,
+  +   32,
+  +   39,
+  +   46,
+  +   47,
+  +   97,
+  +   116,
+  +   104,
+  +   108,
+  +   101,
+  +   116,
+  +   101,
+  +   45,
+  +   108,
+  +   105,
+  +   102,
+  +   101,
+  +   99,
+  +   121,
+  +   99,
+  +   108,
+  +   101,
+  +   46,
+  +   106,
+  +   115,
+  +   39,
+  +   59,
+  +   10,
+  +   105,
+  +   109,
+  +   112,
+  +   111,
+  +   114,
+  +   116,
+  +   32,
+  +   123,
+  +   101,
+      120,
+      112,
+      97,
+      110,
+      100,
+  ...
+      40,
+  +   112,
+  +   61,
+  +   62,
+  +   112,
+  +   38,
+  +   38,
+  +   33,
+  +   114,
+  +   101,
+  +   109,
+  -   66,
+      111,
+  +   118,
+  +   101,
+  +   100,
+  +   65,
+  +   116,
+  +   104,
+  -   111,
+      108,
+      101,
+  +   116,
+  +   101,
+  +   73,
+  +   100,
+  +   115,
+  +   40,
+  +   114,
+      97,
+  +   119,
+  -   110,
+      41,
+  +   46,
+  +   104,
+  +   97,
+  +   115,
+  +   40,
+  +   112,
+  +   46,
+  +   105,
+  +   100,
+  +   41,
+  +   41,
+      59,
+      114,
+      101,
+      116,
+      117,
+  ...
+      123,
+  +   46,
+  +   46,
+  +   46,
+  +   114,
+  +   97,
+  +   119,
+  +   44,
+      118,
+      101,
+      114,
+      115,
+      105,
+  ...
+      123,
+  +   108,
+  +   101,
+  +   116,
+  +   32,
+      115,
+      116,
+      111,
+      114,
+  +   101,
+  +   100,
+  +   59,
+  +   116,
+  +   114,
+  +   121,
+  +   123,
+  +   115,
+  +   116,
+  +   111,
+  +   114,
+  +   101,
+  +   100,
+  +   61,
+  +   74,
+  +   83,
+  +   79,
+  +   78,
+  +   46,
+  +   112,
+      97,
+  +   114,
+  +   115,
+  +   101,
+  +   40,
+  +   115,
+  +   116,
+  +   111,
+  +   114,
+  +   97,
+      103,
+      101,
+      46,
+  +   103,
+  +   101,
+  +   116,
+  +   73,
+  +   116,
+  +   101,
+  +   109,
+  +   40,
+  +   83,
+  +   84,
+  +   79,
+  +   82,
+  +   65,
+  +   71,
+  +   69,
+  +   95,
+  +   75,
+  +   69,
+  +   89,
+  +   41,
+  +   124,
+  +   124,
+  +   39,
+  +   110,
+  +   117,
+  +   108,
+  +   108,
+  +   39,
+  +   41,
+  +   59,
+  +   125,
+  +   99,
+  +   97,
+  +   116,
+  +   99,
+  +   104,
+  +   123,
+  +   125,
+  +   99,
+  +   111,
+  +   110,
+      115,
+  +   116,
+  +   32,
+  +   115,
+  +   97,
+  +   102,
+      101,
+  +   61,
+  +   112,
+  +   114,
+  +   111,
+      116,
+  +   101,
+  +   99,
+  +   116,
+  +   82,
+  +   101,
+  +   109,
+  +   111,
+  +   118,
+  +   97,
+  +   108,
+  +   40,
+  +   115,
+  +   116,
+  +   97,
+  +   116,
+  +   101,
+  +   44,
+  +   115,
+  +   116,
+  +   111,
+  +   114,
+  +   101,
+  +   100,
+  +   41,
+  +   59,
+  +   115,
+  +   116,
+  +   111,
+  +   114,
+  +   97,
+  +   103,
+  +   101,
+  +   46,
+  +   115,
+  +   101,
+  +   116,
+      73,
+      116,
+      101,
+      109,
+      40,
+  ...
+      115,
+  +   97,
+  +   102,
+  +   101,
+  +   41,
+  +   41,
+  +   59,
+  +   79,
+  +   98,
+  +   106,
+  +   101,
+  +   99,
+      116,
+  +   46,
+      97,
+  +   115,
+  +   115,
+  +   105,
+  +   103,
+  +   110,
+  +   40,
+  +   115,
+      116,
+  +   97,
+  +   116,
+      101,
+  +   44,
+  +   115,
+  +   97,
+  +   102,
+  +   101,
+      41,
+  -   41,
+      59,
+      125,
+      10,
+      101,
+      120,
+
+      at TestContext.<anonymous> (file:///workspace/arena-pathway/test/ux-polish.test.mjs:3:606)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: <Buffer 69 6d 70 6f 72 74 20 7b 72 65 6d 6f 76 65 64 41 74 68 6c 65 74 65 49 64 73 2c 70 72 6f 74 65 63 74 52 65 6d 6f 76 61 6c 7d 20 66 72 6f 6d 20 27 2e 2f ... 7200 more bytes>,
+    expected: <Buffer 69 6d 70 6f 72 74 20 7b 65 78 70 61 6e 64 50 6c 61 6e 73 7d 20 66 72 6f 6d 20 27 2e 2f 72 65 63 75 72 72 69 6e 67 2d 70 6c 61 6e 73 2e 6a 73 27 3b 0a ... 6944 more bytes>,
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

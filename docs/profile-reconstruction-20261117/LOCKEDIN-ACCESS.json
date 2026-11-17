@@ -1,0 +1,7 @@
+{
+  "requestedURL": "https://soccercenter.org/locked-in/index.html",
+  "finalURL": "https://soccercenter.org/locked-in/index.html",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "note": "Read-only public GET. No athlete query parameters, identity documents, payments or provider calls sent; not authenticated workflow certification."
+}

@@ -1,0 +1,332 @@
+[
+  {
+    "file": "logs/assets-chromium-corrected-harness.log",
+    "browserCases": 2,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/assets-chromium-final.log",
+    "browserCases": 2,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/assets-chromium.log",
+    "browserCases": 2,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/assets-webkit-final.log",
+    "browserCases": 2,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/assets-webkit.log",
+    "browserCases": 2,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/check-final-complete.log",
+    "browserCases": null,
+    "automatedCases": 310,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/check-final.log",
+    "browserCases": null,
+    "automatedCases": 310,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/check-first.log",
+    "browserCases": null,
+    "automatedCases": 310,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/composition.log",
+    "browserCases": null,
+    "automatedCases": 4,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/editorial-chromium.log",
+    "browserCases": 3,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/editorial-webkit.log",
+    "browserCases": 3,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/lifecycle.log",
+    "browserCases": null,
+    "automatedCases": 5,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/media-webkit-corrected-harness.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/new-domain.log",
+    "browserCases": null,
+    "automatedCases": 12,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/npm-test-final.log",
+    "browserCases": null,
+    "automatedCases": 310,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/phase-b-chromium-retry.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/phase-b-chromium.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/phase-b-webkit.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/phase-c-chromium-retry.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/phase-c-chromium.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/phase-c-scroll-probe.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/phase-c-webkit-ready.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/phase-c-webkit-retry.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/phase-c-webkit.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/profile-chromium-complete.log",
+    "browserCases": 2,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/profile-chromium-final.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/profile-media-chromium.log",
+    "browserCases": 2,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/profile-media-webkit.log",
+    "browserCases": 2,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/profile-webkit-complete.log",
+    "browserCases": 2,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/profile-webkit-final.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/recruiting-chromium-final.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/recruiting-chromium-focus.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/recruiting-chromium-isolated.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/recruiting-webkit-complete.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/recruiting-webkit-dom-ready.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/recruiting-webkit-final.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/recruiting-webkit-focus.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/recruiting-webkit-isolated.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/recruiting-webkit-review-state.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/rss-chromium.log",
+    "browserCases": 5,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/rss-webkit.log",
+    "browserCases": 5,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/siem-chromium-final.log",
+    "browserCases": 18,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/siem-chromium.log",
+    "browserCases": 18,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/siem-header-correction.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/siem-webkit.log",
+    "browserCases": 5,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/supporting-chromium-current.log",
+    "browserCases": 4,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/supporting-chromium-eligibility.log",
+    "browserCases": 4,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/supporting-chromium-final.log",
+    "browserCases": 4,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/supporting-chromium-retry.log",
+    "browserCases": 3,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/supporting-chromium.log",
+    "browserCases": 1,
+    "automatedCases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/supporting-webkit-eligibility.log",
+    "browserCases": 4,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/supporting-webkit-final.log",
+    "browserCases": 4,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/supporting-webkit.log",
+    "browserCases": 4,
+    "automatedCases": null,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/units-first.log",
+    "browserCases": null,
+    "automatedCases": 302,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/units-second.log",
+    "browserCases": null,
+    "automatedCases": 310,
+    "result": "FAILED"
+  }
+]

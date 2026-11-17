@@ -1,0 +1,12 @@
+✔ private owner drafts are not approval: parent/age required; strict rules gate unchanged (21.94808ms)
+✔ saved composition stores only selections, survives draft revisions and reuses current athlete fields (1.261473ms)
+✔ legacy saved composition adapts without rewriting the original record (0.333834ms)
+✔ empty presentation cannot be falsely saved; supplied selections are copied (0.323598ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 126.98893

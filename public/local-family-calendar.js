@@ -1,3 +1,4 @@
+import {deletedAthleteIds} from './athlete-lifecycle.js';
 import {athleteEvents} from './meet-sessions.js';
 import {loadState} from './state.js';
 import {denverInstant} from './recurring-plans.js';
@@ -5,7 +6,7 @@ import {activityContract} from './siem-platform-model.js';
 export function localFamilyCalendar(storage,{now=Date.now(),catalog={opportunities:[]}}={}){
  const profiles=loadState(storage).profiles,tenantId='browser-local',organizationId='local-family',personId='local-parent',role='parent';
  let legacy=null;try{legacy=JSON.parse(storage.getItem('arenaPathway.siem.v1')||'null');}catch{}
- const people=[...profiles.map(p=>({...p,name:p.nickname})),...(legacy?.athletes||[]).filter(p=>!profiles.some(a=>a.id===p.id))];
+ const removed=deletedAthleteIds(storage);const people=[...profiles.map(p=>({...p,name:p.nickname})),...(legacy?.athletes||[]).filter(p=>!profiles.some(a=>a.id===p.id)&&!removed.has(p.id))];
  const participants=people.map(p=>({id:p.id,name:p.name||'Athlete',label:p.sport})),teams=people.map(p=>({id:p.id,participantId:p.id,organizationId,name:p.clubTeam||p.nickname||p.sport}));
  const ctx={tenantId,personId,role,roles:[role],participantIds:participants.map(p=>p.id),memberships:[{organizationId,role,teamIds:teams.map(t=>t.id)}]};
  const stamp=new Date(now).toISOString(),activities=[];

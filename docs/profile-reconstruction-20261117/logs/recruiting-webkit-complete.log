@@ -1,0 +1,87 @@
+test_shared_four_sport_finished_journey (__main__.Recruiting.test_shared_four_sport_finished_journey) ...
+  test_shared_four_sport_finished_journey (__main__.Recruiting.test_shared_four_sport_finished_journey) (sport='basketball') ... ERROR
+  test_shared_four_sport_finished_journey (__main__.Recruiting.test_shared_four_sport_finished_journey) (sport='volleyball') ... ERROR
+  test_shared_four_sport_finished_journey (__main__.Recruiting.test_shared_four_sport_finished_journey) (sport='swimming') ... ERROR
+
+======================================================================
+ERROR: test_shared_four_sport_finished_journey (__main__.Recruiting.test_shared_four_sport_finished_journey) (sport='basketball')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-recruiting-reconstruction-20261117.py", line 29, in test_shared_four_sport_finished_journey
+    p.get_by_role('button',name='Find Colleges',exact=True).click();p.wait_for_selector('.college-program-card');self.assertEqual(p.get_by_label('Recruiting sport',exact=True).input_value(),sport);school=p.locator('.college-program-card [data-save]').first.get_attribute('data-save');p.locator('.college-program-card [data-save]').first.click();p.wait_for_selector('#recruiting-experience[data-screen=colleges]');self.assertIn(school,self.state()['profiles'][0]['saved']);p.get_by_role('button',name='Return to My Presentation',exact=True).click();p.wait_for_selector('#recruiting-portfolio');p.get_by_role('button',name='Edit Profile',exact=True).click();self.edit('About Me',{'About Me':'Rebuilt fictional '+sport+' introduction'});p.get_by_role('button',name='Continue to Profile Builder',exact=True).click();p.get_by_role('button',name='Preview My Recruiting Profile',exact=True).click();p.wait_for_selector('#recruiting-portfolio');self.assertIn('Rebuilt fictional',p.locator('#recruiting-portfolio').inner_text());p.get_by_role('button',name='Save Recruiting Profile',exact=True).click();p.locator('.recruiting-final-help>summary').click();p.get_by_role('button',name='Mark guidance reviewed for '+sport.capitalize(),exact=True).click();p.wait_for_selector('.recruiting-final-help[open]');p.get_by_role('button',name='Approve local composition',exact=True).click();self.assertTrue(self.state()['profiles'][0]['recruiting']['parentApproved']);p.reload();p.wait_for_selector('#recruiting-portfolio');self.assertIn('Parent-approved on this browser',p.locator('#recruiting-portfolio').inner_text());p.locator('.recruiting-final-help>summary').click();p.get_by_role('button',name='Revoke local approval',exact=True).click();p.reload();p.wait_for_selector('#recruiting-portfolio');self.assertFalse(self.state()['profiles'][0]['recruiting']['parentApproved']);self.assertIn(school,self.state()['profiles'][0]['saved']);proof.append({'sport':sport,'athleteID':athlete,'competitionID':competition,'recordID':record,'schoolID':school,'savedComposition':True,'reopenedAfterPillarAndReload':True,'editedRebuilt':True,'approvedRevokedReloaded':True,'videoPlayed':True,'maxSelectionScrollDelta':max(deltas),'oneAthlete':len(self.state()['profiles'])==1})
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9921, in reload
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py", line 568, in reload
+    await self._channel.send(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.reload: Timeout 30000ms exceeded.
+Call log:
+  - waiting for navigation until "load"
+
+
+======================================================================
+ERROR: test_shared_four_sport_finished_journey (__main__.Recruiting.test_shared_four_sport_finished_journey) (sport='volleyball')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-recruiting-reconstruction-20261117.py", line 16, in test_shared_four_sport_finished_journey
+    p.goto(base.BASE+'/health');p.evaluate('localStorage.clear()');athlete=self.create('Morgan Demo',sport);self.nav('Schedule');p.get_by_role('button',name='Add Game/Meet/Tournament',exact=True).click();p.locator('#plan-title').fill('Fictional '+sport+' competition');p.locator('#plan-kind').select_option('meet' if sport=='swimming' else 'tournament' if sport=='volleyball' else 'game');p.locator('#plan-start').fill('2026-11-27');p.locator('#plan-time').fill('18:00');p.locator('#plan-note').fill('Fictional competition venue');p.get_by_role('button',name='Add to schedule',exact=True).click();p.wait_for_selector('#schedule-list article');competition=self.state()['profiles'][0]['plans'][0]['id'];self.nav('Stats');p.get_by_role('button',name='Log Stats',exact=True).click();p.locator('#record-event').select_option(competition);p.locator('#metric-'+''.join(c for c in metric if c.isalpha())).fill(value);p.get_by_role('button',name='Save game / meet record',exact=True).click();p.wait_for_selector('#stats .record');record=self.state()['profiles'][0]['records'][0]['id'];self.nav('Media');p.get_by_role('button',name='Add Media',exact=True).click();p.locator('#media-upload').set_input_files('test/fixtures/qa-family-video.mp4');p.locator('#media-caption').fill('Fictional selected highlight');p.locator('#media-event').select_option(competition);p.get_by_role('button',name='Save media',exact=True).click();p.wait_for_selector('.family-media-gallery video');p.get_by_role('button',name='Add Media',exact=True).click();p.locator('#media-upload').set_input_files({'name':'private.png','mimeType':'image/png','buffer':base64.b64decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a8RQAAAAASUVORK5CYII=')});p.locator('#media-caption').fill('Private unselected photo');p.get_by_role('button',name='Save media',exact=True).click();p.wait_for_selector('.family-media-gallery img');p.wait_for_load_state('networkidle');p.goto(base.BASE+'/recruiting?athlete='+athlete);p.wait_for_selector('#recruiting-experience[data-screen=landing]');self.assertEqual(p.locator('#recruiting-experience input[type=checkbox]').count(),0)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9875, in goto
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py", line 560, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 156, in goto
+    await self._channel.send(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "http://127.0.0.1:3007/health", waiting until "load"
+
+
+======================================================================
+ERROR: test_shared_four_sport_finished_journey (__main__.Recruiting.test_shared_four_sport_finished_journey) (sport='swimming')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-recruiting-reconstruction-20261117.py", line 16, in test_shared_four_sport_finished_journey
+    p.goto(base.BASE+'/health');p.evaluate('localStorage.clear()');athlete=self.create('Morgan Demo',sport);self.nav('Schedule');p.get_by_role('button',name='Add Game/Meet/Tournament',exact=True).click();p.locator('#plan-title').fill('Fictional '+sport+' competition');p.locator('#plan-kind').select_option('meet' if sport=='swimming' else 'tournament' if sport=='volleyball' else 'game');p.locator('#plan-start').fill('2026-11-27');p.locator('#plan-time').fill('18:00');p.locator('#plan-note').fill('Fictional competition venue');p.get_by_role('button',name='Add to schedule',exact=True).click();p.wait_for_selector('#schedule-list article');competition=self.state()['profiles'][0]['plans'][0]['id'];self.nav('Stats');p.get_by_role('button',name='Log Stats',exact=True).click();p.locator('#record-event').select_option(competition);p.locator('#metric-'+''.join(c for c in metric if c.isalpha())).fill(value);p.get_by_role('button',name='Save game / meet record',exact=True).click();p.wait_for_selector('#stats .record');record=self.state()['profiles'][0]['records'][0]['id'];self.nav('Media');p.get_by_role('button',name='Add Media',exact=True).click();p.locator('#media-upload').set_input_files('test/fixtures/qa-family-video.mp4');p.locator('#media-caption').fill('Fictional selected highlight');p.locator('#media-event').select_option(competition);p.get_by_role('button',name='Save media',exact=True).click();p.wait_for_selector('.family-media-gallery video');p.get_by_role('button',name='Add Media',exact=True).click();p.locator('#media-upload').set_input_files({'name':'private.png','mimeType':'image/png','buffer':base64.b64decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+a8RQAAAAASUVORK5CYII=')});p.locator('#media-caption').fill('Private unselected photo');p.get_by_role('button',name='Save media',exact=True).click();p.wait_for_selector('.family-media-gallery img');p.wait_for_load_state('networkidle');p.goto(base.BASE+'/recruiting?athlete='+athlete);p.wait_for_selector('#recruiting-experience[data-screen=landing]');self.assertEqual(p.locator('#recruiting-experience input[type=checkbox]').count(),0)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9875, in goto
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py", line 560, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 156, in goto
+    await self._channel.send(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "http://127.0.0.1:3007/health", waiting until "load"
+
+
+----------------------------------------------------------------------
+Ran 1 test in 145.954s
+
+FAILED (errors=3)

@@ -1,0 +1,21 @@
+{
+  "authorization": "November17 user request, Parts3 and8; no general waiver for data/domain changes.",
+  "files": {
+    "public/state.js": {
+      "sha256": "5bbc6a39196871a84cc37afd2f56d2d1cd6f06c728659f040625c20fbd913e28",
+      "reason": "Atomic archive/tombstone persistence and stale supported writer protection; existing athlete IDs/data preserved."
+    },
+    "public/local-family-calendar.js": {
+      "sha256": "fadb3301750ed977e3b37edfc53721cfc1ed8249b5534846f019070a1e2ccf5a",
+      "reason": "Exclude removed identities from stale legacy projections; no event copies or recurrence changes."
+    },
+    "public/siem.js": {
+      "sha256": "b26b1b96caf757db6ccf49db8903a609936918e4bb31fbf50b7c91ffeef650ec",
+      "reason": "Removal visibility and cross-tab refresh only; existing SIEM domain unchanged."
+    },
+    "public/siem-platform.js": {
+      "sha256": "2c4d50fbdf2acdd94297759e47828904a48ab22860b84b34d82616e898914a49",
+      "reason": "Requested multi-athlete calendar selector, isolated fictional chat presentation, and removal visibility. Existing engine and fixtures unchanged."
+    }
+  }
+}

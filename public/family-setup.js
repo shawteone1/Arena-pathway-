@@ -1,3 +1,4 @@
+import {deletedAthleteIds} from './athlete-lifecycle.js';
 // Presentation adapter over the preserved local SIEM setup/domain; no new store.
 import {loadState} from './state.js';
 import {markAthlete} from './siem-guidance.js';
@@ -12,7 +13,7 @@ export function installFamilySetup(){
  const finish=node('section',undefined,'section compact family-setup-finish');finish.id='family-finish';finish.append(node('p','YOUR FAMILY, CONNECTED','eyebrow red'),node('h2','Your next stop: the family calendar.'),node('p','Existing athlete schedules appear through the same athlete and event references. Your family stays separate from the fictional Rivera tour.'));
  for(const [text,href,cls] of [['Continue to my family calendar','/my-ap?scenario=local&section=calendar','button'],['Review my family','/my-ap?scenario=local&section=family','text-link']]){const a=node('a',text,cls);a.href=href;finish.append(a);}root.querySelector('.siem-local-tools').before(finish);
  const people=root.querySelector('#siem-people');const overview=root.querySelector('#overview');overview.querySelector(':scope>p').textContent='Your existing athlete profiles are already linked. Add only the family members you need.';const advanced=root.querySelector('.siem-local-tools');for(const id of ['siem-stats','siem-filters'])advanced.append(root.querySelector('#'+id));
- function enhance(){let profiles=[],legacy=[];try{profiles=loadState(localStorage).profiles;legacy=(JSON.parse(localStorage.getItem('arenaPathway.siem.v1')||'null')?.athletes||[]).filter(a=>a.type==='parent'||a.origin==='siem');}catch{return;}
+ function enhance(){let profiles=[],legacy=[];try{profiles=loadState(localStorage).profiles;legacy=(JSON.parse(localStorage.getItem('arenaPathway.siem.v1')||'null')?.athletes||[]).filter(a=>!deletedAthleteIds(localStorage).has(a.id)&&(a.type==='parent'||a.origin==='siem'));}catch{return;}
   // Same identity/order as the preserved SIEM render; also verify displayed name.
   [...profiles.map(p=>({...p,name:p.nickname||p.sport+' athlete'})),...legacy].forEach((p,index)=>{const card=people.children[index];if(!card||card.dataset.profileId||card.querySelector('h3')?.textContent!==p.name)return;card.dataset.profileId=p.id;if(p.type!=='parent')markAthlete(card,p.id);const athlete=profiles.find(a=>a.id===p.id);if(!athlete)return;const count=card.querySelector('h3')?.nextElementSibling;if(count?.tagName==='P')count.textContent='Schedule linked · view athlete calendar';if(athlete.clubTeam)card.append(node('p',athlete.clubTeam));for(const [text,hash] of [['View athlete',''],['Athlete schedule','#schedules']]){const a=node('a',text,'text-link');a.href='/my-pathway?athlete='+encodeURIComponent(p.id)+hash;card.append(a);}});
  }

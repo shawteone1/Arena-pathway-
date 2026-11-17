@@ -1,0 +1,137 @@
+{
+  "version": 2,
+  "profiles": [
+    {
+      "id": "89d99035-eafe-478c-88f0-885f718929fd",
+      "saved": [],
+      "plans": [],
+      "recruiting": {
+        "checks": [],
+        "notes": "",
+        "rulesReview": {
+          "acknowledged": true,
+          "sport": "lacrosse",
+          "at": "2026-11-17T00:00:00.000Z"
+        }
+      },
+      "modules": [
+        "teams",
+        "saved",
+        "schedules",
+        "camps",
+        "community"
+      ],
+      "moduleVersion": 2,
+      "region": "all",
+      "goal": "teams",
+      "interests": [],
+      "participationLevel": "any",
+      "participationDesignation": "youth",
+      "mediaEnabled": false,
+      "mediaSources": [],
+      "mediaSourcePreferences": [],
+      "nickname": "Morgan Demo",
+      "sport": "lacrosse",
+      "clubTeam": "Fictional family team",
+      "position": "Attack",
+      "guardian": true,
+      "role": "parent",
+      "clubTeamNeedsReview": false,
+      "clubId": null,
+      "aboutSport": "Fictional QA athlete: I enjoy learning with my team and developing my game.",
+      "highSchool": "Fictional Academy",
+      "graduationYear": "2028",
+      "schoolLocation": "Colorado",
+      "personalAchievements": [
+        "Fictional team leadership award"
+      ],
+      "ageYears": 16,
+      "ageReviewedAt": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "4c136463-5124-4a94-8bc9-9751444ef816",
+      "saved": [],
+      "plans": [],
+      "recruiting": {
+        "checks": [],
+        "notes": ""
+      },
+      "modules": [
+        "teams",
+        "saved",
+        "schedules",
+        "camps",
+        "community"
+      ],
+      "moduleVersion": 2,
+      "region": "all",
+      "goal": "teams",
+      "interests": [],
+      "participationLevel": "any",
+      "participationDesignation": "youth",
+      "mediaEnabled": false,
+      "mediaSources": [],
+      "mediaSourcePreferences": [],
+      "nickname": "Jamie Demo",
+      "sport": "swimming",
+      "clubTeam": "Fictional family team",
+      "position": "100 freestyle",
+      "guardian": true,
+      "role": "parent",
+      "clubTeamNeedsReview": false,
+      "clubId": null,
+      "aboutSport": "Fictional QA athlete: I enjoy learning with my team and developing my game.",
+      "highSchool": "Fictional Academy",
+      "graduationYear": "2028",
+      "schoolLocation": "Colorado",
+      "personalAchievements": [
+        "Fictional team leadership award"
+      ],
+      "ageYears": 16,
+      "ageReviewedAt": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "efb4fd39-02c8-4641-a8c2-4b6da6d329d3",
+      "saved": [],
+      "plans": [],
+      "recruiting": {
+        "checks": [],
+        "notes": ""
+      },
+      "modules": [
+        "teams",
+        "saved",
+        "schedules",
+        "camps",
+        "community"
+      ],
+      "moduleVersion": 2,
+      "region": "all",
+      "goal": "teams",
+      "interests": [],
+      "participationLevel": "any",
+      "participationDesignation": "youth",
+      "mediaEnabled": false,
+      "mediaSources": [],
+      "mediaSourcePreferences": [],
+      "nickname": "Alex Demo",
+      "sport": "volleyball",
+      "clubTeam": "Fictional family team",
+      "position": "Setter",
+      "guardian": true,
+      "role": "parent",
+      "clubTeamNeedsReview": false,
+      "clubId": null,
+      "aboutSport": "Fictional QA athlete: I enjoy learning with my team and developing my game.",
+      "highSchool": "Fictional Academy",
+      "graduationYear": "2028",
+      "schoolLocation": "Colorado",
+      "personalAchievements": [
+        "Fictional team leadership award"
+      ],
+      "ageYears": 16,
+      "ageReviewedAt": "2026-11-17T00:00:00.000Z"
+    }
+  ],
+  "active": "89d99035-eafe-478c-88f0-885f718929fd"
+}

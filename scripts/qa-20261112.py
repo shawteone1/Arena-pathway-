@@ -13,7 +13,7 @@ class Remediation(unittest.TestCase):
  @classmethod
  def tearDownClass(cls):cls.browser.close();cls.pw.stop()
  def setUp(self):
-  self.context=self.browser.new_context(viewport={'width':810,'height':1080});self.page=self.context.new_page();self.errors=[];self.page.on('pageerror',lambda e:self.errors.append(str(e)));self.page.goto(BASE+'/build?new=1');self.page.wait_for_selector('#athlete-basics:not([disabled])');self.page.locator('#nickname').fill('QA Athlete');self.page.locator('#guardian').check();self.page.locator('#club-team').fill('Family-entered team');self.page.get_by_role('button',name='Save athlete profile').click();self.page.wait_for_selector('#profile-nav');self.page.wait_for_selector('#show-tryouts');self.athlete=self.state()['active']
+  self.context=self.browser.new_context(viewport={'width':810,'height':1080});self.page=self.context.new_page();self.errors=[];self.page.on('pageerror',lambda e:self.errors.append(str(e)));self.page.goto(BASE+'/build?new=1');self.page.wait_for_selector('#athlete-basics:not([disabled])');self.page.locator('#nickname').fill('QA Athlete');self.page.locator('#guardian').check();self.page.locator('#club-team').fill('Family-entered team');self.page.get_by_role('button',name='Save athlete profile').click();self.page.wait_for_selector('#profile-nav');self.page.wait_for_selector('#profile-featured-media');self.athlete=self.state()['active']
  def tearDown(self):
   self.assertEqual(self.errors,[]);self.context.close()
  def state(self):return self.page.evaluate('JSON.parse(localStorage.getItem("arenaPathway.v2"))')

@@ -1,0 +1,32 @@
+test_media_portrait_archive_and_stale_writer (__main__.Foundation.test_media_portrait_archive_and_stale_writer) ... ERROR
+test_profile_gallery_edit_remove_and_reload (__main__.Foundation.test_profile_gallery_edit_remove_and_reload) ... ok
+
+======================================================================
+ERROR: test_media_portrait_archive_and_stale_writer (__main__.Foundation.test_media_portrait_archive_and_stale_writer)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-profile-foundation-20261117.py", line 31, in test_media_portrait_archive_and_stale_writer
+    p.locator('#athlete-photo').set_input_files(payload);p.wait_for_function('!!JSON.parse(localStorage.getItem("arenaPathway.v2")).profiles[0].avatarDataUrl');p.locator('#profile-nav').get_by_role('link',name='Media',exact=True).click();p.get_by_role('button',name='Add Media',exact=True).click();p.locator('#media-upload').set_input_files(payload);p.locator('#media-caption').fill('Fictional athlete monogram');p.get_by_role('button',name='Save media',exact=True).click();p.wait_for_selector('.family-media-gallery img');p.locator('#profile-nav').get_by_role('link',name='Profile',exact=True).click();p.wait_for_selector('#profile-featured-media img');p.get_by_role('button',name='Choose Featured Media',exact=True).click();d=p.get_by_role('dialog');d.get_by_role('button',name='Fictional athlete monogram',exact=True).click();d.get_by_role('button',name='Save featured media',exact=True).click();p.wait_for_function('JSON.parse(localStorage.getItem("arenaPathway.v2")).profiles[0].featuredMediaIds.length===0');p.reload();p.wait_for_selector('.athlete-story');self.assertEqual(p.locator('#profile-featured-media img').count(),0);self.assertFalse(self.state()['profiles'][0]['recruiting'].get('highlightIds'));p.get_by_role('button',name='Choose Featured Media',exact=True).click();d=p.get_by_role('dialog');d.get_by_role('button',name='Fictional athlete monogram',exact=True).click();d.get_by_role('button',name='Save featured media',exact=True).click();p.wait_for_selector('#profile-featured-media img');self.shot('profile-with-owned-monogram')
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 12761, in wait_for_function
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py", line 1151, in wait_for_function
+    return await self._main_frame.wait_for_function(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 940, in wait_for_function
+    await self._channel.send("waitForFunction", self._timeout, params)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.wait_for_function: EvalError: Refused to evaluate a string as JavaScript because 'unsafe-eval' or 'trusted-types-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'self'".
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 23.104s
+
+FAILED (errors=1)

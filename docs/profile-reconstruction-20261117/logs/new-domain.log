@@ -1,0 +1,20 @@
+✔ named parent removal archives complete identity/references atomically and preserves unrelated athlete (3.12585ms)
+✔ wrong confirmation, non-parent and unknown athlete cannot be removed (0.623141ms)
+✔ reload and stale supported writer preserve removal and archived references (1.737854ms)
+✔ tombstone excludes stale legacy SIEM identity/event but preserves others (22.160972ms)
+✔ failed durable write does not mutate active state (0.427937ms)
+✔ private owner drafts are not approval: parent/age required; strict rules gate unchanged (30.323058ms)
+✔ saved composition stores only selections, survives draft revisions and reuses current athlete fields (1.502138ms)
+✔ legacy saved composition adapts without rewriting the original record (0.303799ms)
+✔ empty presentation cannot be falsely saved; supplied selections are copied (0.214664ms)
+✔ calendar selection supports all, none, one and arbitrary athlete combinations within authorized identities (2.499665ms)
+✔ weekly start time without end receives labeled duration and stable Mon/Wed occurrence identities (37.519965ms)
+✔ competition duration is optional and an explicit existing end time is preserved (2.054622ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 154.759813
