@@ -1,0 +1,78 @@
+{
+  "profileClubChooser": {
+    "labels": [
+      "Athlete name",
+      "Club / team",
+      "Program / team",
+      "Position / event",
+      "Season"
+    ],
+    "comboboxes": 0,
+    "clubInputListAttribute": null
+  },
+  "landingOpportunities": {
+    "texts": "RD\nReconciliation Demo \u00b7 Lacrosse\nFind Colleges\n1 \u00b7 Athlete information\n2 \u00b7 Presentation\n3 \u00b7 Preview\n4 \u00b7 Saved profile\n\nYOUR NEXT CHAPTER\n\nYour story opens doors.\n\nTurn the athlete you already are into a presentation you can be proud of.\n\n3 of 5 story essentials added \u00b7 Add your photo\n\nComplete Athlete InformationView Athlete Profile\nRD\nReconciliation Demo\n\nAttack \u00b7 Fictional Club \u00b7 Fictional High School\n\nFictional athlete introduction\n\nYour private presentation starts here. You choose what appears.\nYour college shortlist\n\nExplore programs and save the ones that fit your goals. No recruiting profile is required to research.\n\nExplore Colleges & Opportunities\nRecruiting is optional. Nothing is published or sent to coaches.",
+    "visibleOpportunityCards": 0
+  },
+  "recruitingGoalEditor": {
+    "labels": [
+      "About Me",
+      "Development goals"
+    ],
+    "collegeGoalsField": 0
+  },
+  "fineGrainedIdentitySelection": {
+    "selectionButtonLabels": [
+      "Find Colleges",
+      "1 \u00b7 Athlete information",
+      "2 \u00b7 Presentation",
+      "3 \u00b7 Preview",
+      "4 \u00b7 Saved profile",
+      "Included \u00b7 Athlete Introduction",
+      "Included \u00b7 Athletic Background",
+      "Included \u00b7 Education & Academics",
+      "Include Achievements",
+      "Include Performance",
+      "Include Highlights",
+      "Include Upcoming Appearances",
+      "Back to Athlete Information",
+      "Preview My Recruiting Profile"
+    ],
+    "approvedFields": [
+      "label",
+      "photo",
+      "graduationYear",
+      "primaryPosition",
+      "profileIntroduction",
+      "collegeGoals",
+      "clubName",
+      "playingLevel",
+      "secondaryPosition",
+      "highSchool",
+      "academics"
+    ]
+  },
+  "sourceToPortfolio": {
+    "athleticHistoryInSource": "Fictional two-season athletic history",
+    "historyVisible": false,
+    "developmentGoalsInSource": "Fictional development and college ambition",
+    "goalsVisible": false,
+    "teamVisible": true,
+    "schoolLocationVisible": false,
+    "portfolio": "RD\n\nLACROSSE \u00b7 ATTACK\n\nReconciliation Demo\n\nFictional High School \u00b7 Class of 2028\n\nFictional Club \u00b7 Fictional U17 team\n\nAbout Me\n\nFictional athlete introduction\n\nAthletic Background\n\nFamily-reported varsity\n\nEducation & Academics\nFictional High School\n\nPrivate local presentation \u00b7 Not externally shared"
+  },
+  "approvalAfterUnsavedSourceEdit": {
+    "warning": "Athlete information has changed since the last save. Review and save an update before approving.",
+    "approvedBefore": false,
+    "savedRevisionUnchanged": true,
+    "approveEnabled": true,
+    "approvedWithoutSavingUpdatedPresentation": true
+  },
+  "changedClubTeamWarning": {
+    "sourceFlag": true,
+    "priorTeam": "Fictional U17 team",
+    "profileText": "YOUR SPORT. YOUR PATH.LacrosseRDAdd photoLacrosse \u00b7 AttackReconciliation DemoNew fictional club \u00b7 Fictional U17 teamFictional High School \u00b7 Class of 2028 \u00b7 Fictional City, COParent-managed \u00b7 Private on this browserEdit ProfileEdit Athlete & Academic InfoView ScheduleBuild Recruiting Profile\nAbout MeEdit About MeChanged without saving recruiting presentationAthletic BackgroundEdit Athletic BackgroundLacrosse \u00b7 Attack \u00b7 New fictional club \u00b7 Fictional U17 team \u00b7 Family-reported varsityFictional two-season athletic historyEducationEdit EducationFictional High SchoolClass of 2028 \u00b7 Fictional City, COAchievementsEdit AchievementsAdd achievementsFeatured MediaManage your mediaThe moments that tell your story belong here.Upload highlightsPerformanceYour next performance starts here.Record a competitionUpcoming EventsMake room for your next appearance.Open ScheduleDevelopmentFictional development and college ambitionExplore DevelopmentShow tryout listings"
+  },
+  "pageErrors": [],
+  "athleteID": "74af90e9-6229-4a9c-b109-1f00535e1b70"
+}

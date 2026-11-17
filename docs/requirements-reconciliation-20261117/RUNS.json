@@ -1,0 +1,97 @@
+[
+  {
+    "file": "logs/assets-chromium.log",
+    "cases": 2,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/assets-webkit.log",
+    "cases": 2,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/audit-probes-chromium-initial-harness.log",
+    "cases": null,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/audit-probes-chromium.log",
+    "cases": null,
+    "result": "OBSERVATIONS"
+  },
+  {
+    "file": "logs/audit-probes-webkit.log",
+    "cases": null,
+    "result": "OBSERVATIONS"
+  },
+  {
+    "file": "logs/coverage-chromium-initial-harness.log",
+    "cases": 2,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/coverage-chromium.log",
+    "cases": 2,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/coverage-webkit-initial-harness.log",
+    "cases": 2,
+    "result": "FAILED"
+  },
+  {
+    "file": "logs/coverage-webkit.log",
+    "cases": 2,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/editorial-chromium.log",
+    "cases": 3,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/editorial-webkit.log",
+    "cases": 3,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/profile-chromium.log",
+    "cases": 2,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/profile-webkit.log",
+    "cases": 2,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/recruiting-chromium.log",
+    "cases": 1,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/recruiting-webkit.log",
+    "cases": 1,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/rss-chromium.log",
+    "cases": 5,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/rss-webkit.log",
+    "cases": 5,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/supporting-chromium.log",
+    "cases": 4,
+    "result": "PASSED"
+  },
+  {
+    "file": "logs/supporting-webkit.log",
+    "cases": 4,
+    "result": "PASSED"
+  }
+]

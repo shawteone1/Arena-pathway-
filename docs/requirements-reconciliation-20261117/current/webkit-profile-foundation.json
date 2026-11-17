@@ -1,0 +1,14 @@
+{
+  "createdIDs": [
+    "6bc76510-e98b-423c-b88c-d95405535206",
+    "82c92b47-e120-428d-8ef8-3e7b20c1f400",
+    "46182ac4-bccb-45e4-88f4-14034e7fd02d"
+  ],
+  "removedID": "6bc76510-e98b-423c-b88c-d95405535206",
+  "remainingIDs": [
+    "82c92b47-e120-428d-8ef8-3e7b20c1f400",
+    "46182ac4-bccb-45e4-88f4-14034e7fd02d"
+  ],
+  "reload": true,
+  "pageErrors": []
+}

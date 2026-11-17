@@ -1,0 +1,27 @@
+{
+  "archivedID": "95a6ca23-ee86-427f-96c5-e14c488a69ce",
+  "unrelatedID": "26e3fefd-12b3-4c51-8941-923f7cbb2326",
+  "retainedBlobs": [
+    {
+      "id": "95a6ca23-ee86-427f-96c5-e14c488a69ce",
+      "items": [
+        {
+          "id": "22de0833-05b2-4fba-b23e-f19928568f96",
+          "owner": "95a6ca23-ee86-427f-96c5-e14c488a69ce",
+          "bytes": 8646
+        }
+      ]
+    },
+    {
+      "id": "26e3fefd-12b3-4c51-8941-923f7cbb2326",
+      "items": [
+        {
+          "id": "16e64b6a-4aa2-4118-97e4-cb2f2bcef34c",
+          "owner": "26e3fefd-12b3-4c51-8941-923f7cbb2326",
+          "bytes": 8646
+        }
+      ]
+    }
+  ],
+  "staleWriterResurrection": false
+}
