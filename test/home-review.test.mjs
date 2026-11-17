@@ -20,3 +20,11 @@ test('health exposes the runtime build without changing health version contract'
  const response=await fetch('http://127.0.0.1:'+server.address().port+'/health');
  assert.equal(response.status,200);const health=await response.json();assert.equal(health.version,'0.7.0-development');assert.deepEqual(health.build,buildInfo);
 });
+
+test('approved supporting tagline is visible in hero, not footer only; mission uses guided onboarding',()=>{
+ const html=home(),hero=html.slice(html.indexOf('<section class="stadium hero">'),html.indexOf('id="platform"'));
+ assert.match(hero,/<p class="hero-intro">Your sport\. Your path\. One place\.<\/p>/);
+ const mission=html.slice(html.indexOf('class="section mission"'),html.indexOf('class="closing-statement"'));
+ assert.match(mission,/href="\/build\?new=1&guided=1">Start with what matters to you/);
+ assert.doesNotMatch(mission,/href="\/build">/);
+});
