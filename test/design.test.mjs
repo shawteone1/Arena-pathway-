@@ -18,7 +18,7 @@ test('homepage is an umbrella editorial experience with a single five-destinatio
  const html=home();const nav=html.match(/<nav aria-label="Sports">(.*?)<\/nav>/s)[1];
  assert.deepEqual([...nav.matchAll(/href="([^"]+)"/g)].map(m=>m[1]),['/sports/lacrosse','/sports/volleyball','/sports/basketball','/sports/swimming','/build?new=1&guided=1']);
  assert.match(html,/Simple to use\.<br><span>Powerful underneath\.<\/span>/);assert.match(html,/Your sport\. Your path\. One place\./);assert.equal((html.match(/class="platform-pillar"/g)||[]).length,4);
- assert.match(html,/01 \/ DISCOVERY/);assert.match(html,/02 \/ DEVELOPMENT/);assert.match(html,/03 \/ OPPORTUNITY/);
+ assert.match(html,/01 \/ DISCOVERY/);assert.match(html,/ONE HOME\. FOUR POSSIBILITIES\./);
  assert.ok(!html.includes('sport-grid'));assert.ok(!html.includes('class="letterman"'));
  assert.match(html,/photos\/stadium.webp/);assert.match(html,/id="sports"/);
 });

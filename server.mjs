@@ -1,3 +1,4 @@
+import {buildInfo} from './src/build-info.mjs';
 import {FeedService,TOPICS} from './src/rss-feed.mjs';
 import {recoveryStyleHash} from './src/asset-contract.mjs';
 import {communityPage,resourcePage,lockedInPreview} from './src/consolidated-views.mjs';
@@ -35,7 +36,7 @@ export function createServer({feedService=new FeedService(rssCatalog.sources,{fi
     const name=path.slice(8);if(!Object.hasOwn(assets,name))return send(404,'Not found','text/plain');
     return send(200,await readFile(new URL('./public/'+name,import.meta.url)),assets[name]);
    }
-   if(path==='/health')return send(200,JSON.stringify({ok:true,version:'0.7.0-development'}),'application/json');
+   if(path==='/health')return send(200,JSON.stringify({ok:true,version:'0.7.0-development',build:buildInfo}),'application/json');
    if(path==='/api/data/coverage')return send(200,JSON.stringify(engineCoverage),'application/json');
    if(path==='/api/data/classification')return send(200,JSON.stringify(reviewReport),'application/json');
    if(path==='/api/data/directory'){const sport=url.searchParams.get('sport')||'lacrosse',designation=url.searchParams.get('designation')||'youth';if(!sports.includes(sport)||!DESIGNATIONS.includes(designation))return send(400,'Invalid sport or designation','text/plain');return send(200,JSON.stringify(directory(sport,designation,url.searchParams)),'application/json');}
