@@ -9,6 +9,7 @@ export const COACH_PROFILE_FIELDS=Object.freeze([
  {key:'primaryPosition',label:'primary position / event',group:'positions',description:'Existing sport position or event'},
  {key:'secondaryPosition',label:'secondary position / event',group:'positions',description:'Existing secondary role'},
  {key:'clubName',label:'club / team',group:'club',description:'Family-entered affiliation, not verified membership'},
+ {key:'athleticHistory',label:'athletic history',group:'club',description:'Family-entered participation history'},
  {key:'playingLevel',label:'playing level',group:'club',description:'Family-reported participation level'},
  {key:'profileIntroduction',label:'About Me',group:'profile',description:'Existing athlete introduction'},
  {key:'collegeGoals',label:'college goals',group:'profile',description:'Recruiting interests and academic / athletic aspirations'},
@@ -25,7 +26,7 @@ export const COACH_PROFILE_FIELDS=Object.freeze([
 const FIELD_OUTPUTS={
  label:['label'],ageBand:['ageBand'],graduationYear:['graduationYear'],photo:['avatarUrl'],
  primaryPosition:['primaryPosition'],secondaryPosition:['secondaryPosition'],
- clubName:['clubName','teamName'],playingLevel:['playingLevel'],
+ clubName:['clubName','teamName'],athleticHistory:['athleticHistory'],playingLevel:['playingLevel'],
  profileIntroduction:['profileIntroduction'],collegeGoals:['collegeGoals'],
  highSchool:['highSchool','schoolCity','schoolState','schoolLocation'],academics:['academics'],
  achievements:['achievements'],stats:['stats','statsTableAvailable','approvedMatchRecordCount'],

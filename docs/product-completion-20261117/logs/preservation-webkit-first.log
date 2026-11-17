@@ -1,0 +1,50 @@
+test_local_messages_changes_and_action_resolution_return (__main__.Preservation.test_local_messages_changes_and_action_resolution_return) ... ERROR
+test_nested_swimming (__main__.Preservation.test_nested_swimming) ... ok
+test_nested_volleyball (__main__.Preservation.test_nested_volleyball) ... ok
+
+======================================================================
+ERROR: test_local_messages_changes_and_action_resolution_return (__main__.Preservation.test_local_messages_changes_and_action_resolution_return)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-completion-preservation-20261117.py", line 14, in test_local_messages_changes_and_action_resolution_return
+    p=self.page;athlete=self.basic();p.goto(f.BASE+'/siem/setup');p.wait_for_selector('#family-finish');p.locator('.siem-local-tools>summary').click();form=p.locator('#siem-event');form.locator('[name=athleteId]').select_option(athlete);form.locator('[name=title]').fill('Fictional local team message');form.locator('[name=type]').select_option('communication');form.locator('[name=ref]').fill('fictional-team-notice');form.locator('[name=start]').fill('2026-11-27T18:00');form.locator('[name=end]').fill('2026-11-27T19:00');form.locator('[name=location]').fill('Original fictional venue');form.locator('[name=requirement]').fill('Review the changed venue');form.get_by_role('button',name='Save local event',exact=True).click();form.locator('[name=title]').fill('Fictional local team message');form.locator('[name=ref]').fill('fictional-team-notice');form.locator('[name=start]').fill('2026-11-27T18:00');form.locator('[name=end]').fill('2026-11-27T19:00');form.locator('[name=location]').fill('Updated fictional venue');form.get_by_role('button',name='Save local event',exact=True).click();p.goto(f.BASE+'/my-pathway?view=family');p.wait_for_selector('#parent-command-overview');self.assertIn('Fictional local team message',p.locator('#family-updates').inner_text());self.assertIn('Updated fictional venue',p.locator('#family-updates').inner_text());self.assertGreater(p.locator('#family-priorities .family-home-action').count(),0);self.shot('actual-local-message-change');p.goto(f.BASE+'/my-ap?scenario=local&mode=command');p.wait_for_selector('#platform-actions .ap-action');action=p.locator('#platform-actions .ap-action').first;key=action.get_attribute('data-action-id');action.get_by_role('button',name='Resolve locally',exact=True).click();p.reload(wait_until='domcontentloaded');p.wait_for_selector('#platform-actions');row=p.locator('[data-action-id="'+key+'"]');self.assertEqual(row.get_by_role('button',name='Resolve locally',exact=True).count(),0);p.goto(f.BASE+'/my-pathway?view=family');p.wait_for_selector('#parent-command-overview');self.assertEqual(p.locator('[data-action-id="'+key+'"]').count(),0);self.assertEqual(self.state()['profiles'][0]['id'],athlete)
+                                                                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 20069, in select_option
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 633, in select_option
+    return await self._frame.select_option(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 814, in select_option
+    return await self._channel.send("selectOption", self._timeout, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.select_option: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#siem-event").locator("[name=athleteId]")
+    - locator resolved to <select required="" name="athleteId">…</select>
+  - attempting select option action
+    2 × waiting for element to be visible and enabled
+      - element is not visible
+    - retrying select option action
+    - waiting 20ms
+    2 × waiting for element to be visible and enabled
+      - element is not visible
+    - retrying select option action
+      - waiting 100ms
+    59 × waiting for element to be visible and enabled
+       - element is not visible
+     - retrying select option action
+       - waiting 500ms
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 48.492s
+
+FAILED (errors=1)

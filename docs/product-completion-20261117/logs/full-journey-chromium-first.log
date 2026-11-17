@@ -1,0 +1,39 @@
+test_all_25_steps_same_family_and_saved_portfolio (__main__.Completion.test_all_25_steps_same_family_and_saved_portfolio) ... ERROR
+
+======================================================================
+ERROR: test_all_25_steps_same_family_and_saved_portfolio (__main__.Completion.test_all_25_steps_same_family_and_saved_portfolio)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-product-completion-20261117.py", line 20, in test_all_25_steps_same_family_and_saved_portfolio
+    p=self.page;writes=[];p.on('request',lambda r:writes.append(r.url) if r.method not in ['GET','HEAD'] else None);p.goto(f.BASE+'/');self.assertEqual(p.locator('.platform-pillar').count(),4);p.get_by_role('link',name='MY ATHLETES',exact=True).click();p.wait_for_selector('#parent-command-overview');alex=self.guided('Alex Harper Demo','lacrosse');self.edit('About Me',{'About Me':'Fictional athlete learning with my team.','College goals / recruiting interests':'Fictional academic and athletic ambitions'});self.edit('Education',{'High school':'Fictional Academy','Graduation year':'2028','School city / state':'Fictional City, CO','Academic information (optional)':'Family-reported academics','GPA (optional)':'3.8','GPA scale (optional)':'4'});self.edit('Achievements',{'Achievements (one per line)':'Fictional selected team honour\nFictional private honour'});self.edit('Athletic Background',{'Highest level played':'Family-reported varsity','Athletic history':'Fictional two-season club history','Age (parent-entered, optional)':'16'});self.views('completed-athlete-profile');self.nav('Schedule');p.get_by_role('button',name='Add Recurring Practice',exact=True).click();p.locator('#plan-title').fill('Fictional Mon Wed practice');p.locator('#plan-start').fill('2026-11-23');p.locator('#plan-until').fill('2026-12-07');p.locator('[name=plan-days][value="1"]').check();p.locator('[name=plan-days][value="3"]').check();p.locator('#plan-time').fill('17:00');p.locator('#plan-note').fill('Fictional practice field');self.assertFalse(p.locator('#plan-end-time').evaluate('e=>e.required'));p.get_by_role('button',name='Add to schedule',exact=True).click();p.wait_for_selector('#schedule-list article');self.assertEqual(p.locator('#schedule-list article').count(),5);game=self.competition('Fictional Friday game','2026-11-27');second=self.competition('Fictional Saturday game','2026-11-28');p.get_by_role('navigation',name='Athlete schedule views',exact=True).get_by_role('button',name='Month',exact=True).click();self.shot('athlete-month');self.nav('Stats');p.get_by_role('button',name='Log Stats',exact=True).click();self.assertNotIn('Mon Wed practice',p.locator('#record-event').inner_text());records=[]
+                                                                                                                                                                                                                                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/arena-pathway/scripts/qa-product-completion-20261117.py", line 13, in guided
+    p=self.page;p.get_by_role('link',name='Add Athlete',exact=True).click();p.wait_for_selector('#athlete-journey');w=p.locator('#athlete-journey');w.get_by_role('group',name='Sport',exact=True).get_by_role('button',name=sport.capitalize(),exact=True).click();w.get_by_role('button',name='Add Your Own Club / Team',exact=True).click();w.get_by_label('Search club or Add Your Own',exact=True).fill('Fictional '+sport+' club');w.get_by_role('button',name='Next →',exact=True).click();w.get_by_label('Program or team',exact=True).fill('Fictional '+sport+' squad');w.get_by_role('button',name='Next →',exact=True).click();w.get_by_label('Season label',exact=True).fill('Family Fall2026');w.get_by_role('button',name='Next →',exact=True).click();w.get_by_label('Age group / division',exact=True).fill('U17');w.get_by_role('button',name='Next →',exact=True).click();w.get_by_label('Athlete name',exact=True).fill(name);w.get_by_label('Position / event',exact=True).fill('Attack' if sport=='lacrosse' else '100 freestyle');w.get_by_label('I am the parent / guardian managing this athlete',exact=True).check();w.get_by_role('button',name='Next →',exact=True).click();w.get_by_role('button',name='Save athlete profile',exact=True).click();p.wait_for_selector('.athlete-story');return self.state()['active']
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 17876, in click
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 165, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 593, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Locator.click: Error: strict mode violation: get_by_role("link", name="Add Athlete", exact=True) resolved to 2 elements:
+    1) <a class="button" href="/build?new=1&guided=1">Add Athlete</a> aka get_by_role("link", name="Add Athlete").first
+    2) <a class="button" href="/build?new=1&guided=1">Add Athlete</a> aka locator("#family-players").get_by_role("link", name="Add Athlete")
+
+Call log:
+  - waiting for get_by_role("link", name="Add Athlete", exact=True)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 1.746s
+
+FAILED (errors=1)

@@ -1,0 +1,25 @@
+test_directory_pages_retain_all_reviewed_records (__main__.Corrections.test_directory_pages_retain_all_reviewed_records) ... FAIL
+
+======================================================================
+FAIL: test_directory_pages_retain_all_reviewed_records (__main__.Corrections.test_directory_pages_retain_all_reviewed_records)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-completion-corrections-20261117.py", line 17, in test_directory_pages_retain_all_reviewed_records
+    self.assertEqual(sorted(seen),expected);self.assertEqual(len(seen),len(set(seen)));self.assertGreater(pages,1);(f.OUT.parent/(f.ENGINE+'-directory-pages.json')).write_text(json.dumps({'expected':len(expected),'rendered':len(seen),'pages':pages,'duplicates':len(seen)-len(set(seen))},indent=2)+'\n')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: ['cbc[16 chars]ion-061e0eeb1f697524357c', 'co-organization-14[855 chars]191'] != ['cbc[16 chars]ion-036792ae266d005bb276', 'co-organization-04[3715 chars]ier']
+
+First differing element 1:
+'co-organization-061e0eeb1f697524357c'
+'co-organization-036792ae266d005bb276'
+
+Second list contains 72 additional elements.
+First extra element 24:
+'co-organization-2c5f0f5741f3129c13b0'
+
+Diff is 4206 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 1 test in 2.771s
+
+FAILED (failures=1)

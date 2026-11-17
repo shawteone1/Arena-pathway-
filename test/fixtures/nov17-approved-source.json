@@ -1,21 +1,21 @@
 {
-  "authorization": "November17 user request, Parts3 and8; no general waiver for data/domain changes.",
+  "authorization": "November17 user request, Parts3 and8; no general waiver for data/domain changes.; November17 final completion mandate: shared parent overview, source-history/action continuity.",
   "files": {
     "public/state.js": {
       "sha256": "5bbc6a39196871a84cc37afd2f56d2d1cd6f06c728659f040625c20fbd913e28",
       "reason": "Atomic archive/tombstone persistence and stale supported writer protection; existing athlete IDs/data preserved."
     },
     "public/local-family-calendar.js": {
-      "sha256": "fadb3301750ed977e3b37edfc53721cfc1ed8249b5534846f019070a1e2ccf5a",
-      "reason": "Exclude removed identities from stale legacy projections; no event copies or recurrence changes."
+      "sha256": "f25392f076f65dcb63025f83b719d4e5595861c92e7f0c3112e590c446e87f23",
+      "reason": "Exclude removed identities from stale legacy projections; no event copies or recurrence changes. Final completion: preserve existing local history/required actions and persist local action review via the same family store; no fixture/model rewrite."
     },
     "public/siem.js": {
       "sha256": "b26b1b96caf757db6ccf49db8903a609936918e4bb31fbf50b7c91ffeef650ec",
       "reason": "Removal visibility and cross-tab refresh only; existing SIEM domain unchanged."
     },
     "public/siem-platform.js": {
-      "sha256": "2c4d50fbdf2acdd94297759e47828904a48ab22860b84b34d82616e898914a49",
-      "reason": "Requested multi-athlete calendar selector, isolated fictional chat presentation, and removal visibility. Existing engine and fixtures unchanged."
+      "sha256": "e038991ceead8e93a3c4ea8e500b0086561bca75b87c6cfa49dba2e01eb5d6c0",
+      "reason": "Requested multi-athlete calendar selector, isolated fictional chat presentation, and removal visibility. Existing engine and fixtures unchanged. Final completion: preserve existing local history/required actions and persist local action review via the same family store; no fixture/model rewrite."
     }
   }
 }

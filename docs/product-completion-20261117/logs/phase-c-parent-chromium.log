@@ -1,0 +1,30 @@
+test_parent_home_same_family_profiles_calendar_actions_and_save (__main__.Parent.test_parent_home_same_family_profiles_calendar_actions_and_save) ... ERROR
+
+======================================================================
+ERROR: test_parent_home_same_family_profiles_calendar_actions_and_save (__main__.Parent.test_parent_home_same_family_profiles_calendar_actions_and_save)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-completion-parent-20261117.py", line 11, in test_parent_home_same_family_profiles_calendar_actions_and_save
+    p.goto(f.BASE+'/siem/setup');p.wait_for_selector('#family-finish');p.locator('#parent-add [name=nickname]').fill('Jordan Harper Demo');p.get_by_role('button',name='Add parent participant',exact=True).click();p.goto(f.BASE+'/my-pathway?view=family');p.wait_for_selector('#parent-command-overview');self.assertIn('Jordan Harper Demo',p.locator('.parent-home-heading').inner_text());self.assertEqual(p.locator('.athlete-player-card').count(),2);self.assertEqual(p.locator('#family-upcoming .family-home-event').count(),2);self.assertGreater(p.locator('#family-priorities .family-home-action').count(),0);self.assertIn('No messages',p.locator('#family-updates').inner_text());self.assertNotIn('Rivera',p.locator('#family-updates').inner_text());self.views('parent-home');p.reload(wait_until='domcontentloaded');p.wait_for_selector('#parent-command-overview');self.assertEqual([a['id'] for a in self.state()['profiles']],ids);p.locator('.athlete-player-card').first.get_by_role('link',name='View Profile',exact=True).click();p.wait_for_selector('.athlete-story');self.assertEqual(self.state()['active'],ids[0]);p.get_by_role('button',name='Edit About Me',exact=True).click();d=p.get_by_role('dialog');d.get_by_label('About Me',exact=True).fill('Fictional parent-edited athlete introduction');d.get_by_role('button',name='Save About Me',exact=True).click();p.wait_for_function('()=>!document.querySelector("dialog")');p.goto(f.BASE+'/my-pathway?view=family');p.wait_for_selector('#parent-command-overview');p.get_by_role('button',name='Edit parent profile',exact=True).click();d=p.get_by_role('dialog');d.get_by_label('Display name',exact=True).fill('Jordan H Demo');d.get_by_role('button',name='Save parent profile',exact=True).click();p.wait_for_selector('#parent-command-overview');self.assertIn('Jordan H Demo',p.locator('.parent-home-heading').inner_text());self.assertEqual(self.state()['profiles'][0]['aboutSport'],'Fictional parent-edited athlete introduction');self.assertEqual(len(self.state()['profiles']),2)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 12761, in wait_for_function
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py", line 1151, in wait_for_function
+    return await self._main_frame.wait_for_function(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 940, in wait_for_function
+    await self._channel.send("waitForFunction", self._timeout, params)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_function: Timeout 30000ms exceeded.
+
+----------------------------------------------------------------------
+Ran 1 test in 36.865s
+
+FAILED (errors=1)

@@ -1,0 +1,33 @@
+test_all_25_steps_same_family_and_saved_portfolio (__main__.Completion.test_all_25_steps_same_family_and_saved_portfolio) ... ERROR
+
+======================================================================
+ERROR: test_all_25_steps_same_family_and_saved_portfolio (__main__.Completion.test_all_25_steps_same_family_and_saved_portfolio)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/arena-pathway/scripts/qa-product-completion-20261117.py", line 24, in test_all_25_steps_same_family_and_saved_portfolio
+    self.assertIn('5',p.locator('.performance-tiles').inner_text());self.shot('season-totals');p.get_by_text('Filter season dates',exact=True).click();p.locator('#stats-from').fill('2026-11-28');p.locator('#stats-from').press('Tab');self.assertIn('1 competition records',p.locator('.performance-summary').inner_text());self.assertIn('2',p.locator('.performance-tiles').inner_text());p.locator('#stats-from').fill('');p.locator('#stats-from').press('Tab');self.assertIn('2 competition records',p.locator('.performance-summary').inner_text());self.assertIn('5',p.locator('.performance-tiles').inner_text());self.nav('Media');p.get_by_role('button',name='Add Media',exact=True).click();self.assertNotIn('Mon Wed practice',p.locator('#media-event').inner_text());p.locator('#media-upload').set_input_files('test/fixtures/qa-family-video.mp4');p.locator('#media-caption').fill('Fictional game highlight');p.locator('#media-event').select_option(game);p.get_by_role('button',name='Save media',exact=True).click();p.wait_for_selector('.family-media-gallery video');p.goto(f.BASE+'/my-pathway?view=family');p.wait_for_selector('#parent-command-overview');taylor=self.guided('Taylor Harper Demo','swimming');self.nav('Schedule');self.competition('Fictional swimming meet','2026-11-27','meet');p.goto(f.BASE+'/siem/setup');p.wait_for_selector('#family-finish');p.locator('#parent-add [name=nickname]').fill('Jordan Harper Demo');p.get_by_role('button',name='Add parent participant',exact=True).click();p.goto(f.BASE+'/my-pathway?view=family');p.wait_for_selector('#parent-command-overview');self.assertEqual(p.locator('.athlete-player-card').count(),2);self.assertIn('Jordan Harper Demo',p.locator('.parent-home-heading').inner_text());self.assertGreater(p.locator('#family-priorities .family-home-action').count(),0);self.views('complete-parent-home');p.goto(f.BASE+'/my-ap?scenario=local&section=calendar');p.wait_for_selector('#platform-calendar');p.get_by_label('Calendar date',exact=True).fill('2026-11-23');p.get_by_label('Calendar date',exact=True).press('Tab');p.get_by_role('button',name='Week',exact=True).click();self.assertEqual(p.locator('#platform-calendar .ap-activity').count(),5);self.shot('same-family-calendar');p.goto(f.BASE+'/my-pathway?athlete='+alex,wait_until='domcontentloaded');p.wait_for_selector('.athlete-story');p.get_by_role('link',name='Build Recruiting Profile',exact=True).click();p.wait_for_selector('#recruiting-experience[data-screen=landing]');self.assertEqual(p.locator('#recruiting-experience input[type=checkbox]').count(),0);p.get_by_role('button',name='Complete Athlete Information',exact=True).click();p.wait_for_selector('#recruiting-experience[data-screen=information]');self.assertIn('Fictional Academy',p.locator('#recruiting-experience').inner_text());p.get_by_role('button',name='Continue to Profile Builder',exact=True).click();p.wait_for_selector('#recruiting-experience[data-screen=builder]')
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9875, in goto
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py", line 560, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 156, in goto
+    await self._channel.send(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "http://127.0.0.1:3109/my-pathway?view=family", waiting until "load"
+
+
+----------------------------------------------------------------------
+Ran 1 test in 67.572s
+
+FAILED (errors=1)

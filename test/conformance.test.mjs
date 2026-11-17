@@ -1,3 +1,4 @@
+import {load} from 'cheerio';
 import {approvedPillarCopy} from './preservation-helper.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -17,8 +18,8 @@ test('search areas intentionally overlap without rewriting source geography',()=
  assert.ok(inSearchRegion({city:'Colorado Springs'},'southern-colorado'));assert.ok(inSearchRegion({city:'Colorado Springs'},'colorado-springs-metro'));
  assert.ok(inSearchRegion({city:'Longmont'},'boulder-metro'));assert.ok(inSearchRegion({city:'Longmont'},'northern-colorado'));assert.equal(searchRegions.length,7);assert.ok(!inSearchRegion({city:null},'south-denver-dtc'));
 });
-test('initial sport entry renders every searchable reviewed directory row',()=>{
- for(const sport of ['lacrosse','volleyball','basketball','swimming']){const html=sportPage(sport,undefined,new URLSearchParams());assert.match(html,/role="search"/);for(const row of directory(sport))assert.ok(html.includes('data-record="'+row.id+'"')||html.includes('data-organization="'+row.id+'"'),row.id);for(const [,label] of searchRegions)assert.ok(html.includes(label));}
+test('initial sport entry provides bounded pages reaching every searchable reviewed directory row',()=>{
+ for(const sport of ['lacrosse','volleyball','basketball','swimming']){const html=sportPage(sport,undefined,new URLSearchParams());assert.match(html,/role="search"/);const expected=directory(sport).map(r=>r.id).sort(),seen=[];for(let page=1;page<=Math.max(1,Math.ceil(expected.length/24));page++){const body=sportPage(sport,undefined,new URLSearchParams({page:String(page)})),$=load(body),ids=$('.club-result').toArray().map(e=>$(e).attr('data-organization')||$(e).attr('data-record'));assert.ok(ids.length<=24);seen.push(...ids);}assert.deepEqual([...new Set(seen)].sort(),expected);assert.equal(seen.length,new Set(seen).size);for(const [,label] of searchRegions)assert.ok(html.includes(label));}
  assert.match(builder(),/id="athlete-form"/);assert.ok(!builder().includes('workspace-module'));
 });
 test('all inherited dependency engine/data and fixtures remain exact at their appropriate tips',()=>{

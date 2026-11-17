@@ -1,0 +1,14 @@
+✔ background/history and school location remain selected-only data while independent identity exclusion survives (22.627602ms)
+✔ saved composition revision must match before current local approval can be offered (0.790001ms)
+✔ local source history and required follow-up project through the existing SIEM engine, actions survive reload (7.364185ms)
+✔ failed or unknown-version local action persistence never overwrites original family data (1.199999ms)
+✔ family home projects the same saved identities, competitions, real conflicts and saved records without storing another copy (25.797863ms)
+✔ empty parent home never substitutes fictional Rivera messages or fabricated commitments (0.333854ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 138.717532

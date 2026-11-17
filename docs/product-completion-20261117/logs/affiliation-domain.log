@@ -1,0 +1,13 @@
+✔ background/history and school location remain selected-only data while independent identity exclusion survives (26.352004ms)
+✔ saved composition revision must match before current local approval can be offered (0.461106ms)
+✔ local source history and required follow-up project through the existing SIEM engine, actions survive reload (6.951203ms)
+✔ failed or unknown-version local action persistence never overwrites original family data (1.205038ms)
+✔ retained team from a previous club cannot be asserted as the current recruiting affiliation before parent confirmation (0.600857ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 161.921306

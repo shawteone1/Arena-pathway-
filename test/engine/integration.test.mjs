@@ -1,3 +1,4 @@
+import {findCatalogRecord} from '../../public/catalog-records.js';
 import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync,mkdtempSync,rmSync} from 'node:fs';import {tmpdir} from 'node:os';import {join} from 'node:path';
 import {EngineStore} from '../../engine/store.mjs';import {seedBaseline} from '../../engine/baseline.mjs';import {restoreSnapshot} from '../../engine/transfer.mjs';import {validateEntities} from '../../engine/models.mjs';import {createServer} from '../../server.mjs';import {engineSnapshot,catalog,directoryRows,filterEngineRows} from '../../src/engine-directory.mjs';
 const original=JSON.parse(readFileSync(new URL('../../data/catalog.json',import.meta.url)));
@@ -26,6 +27,6 @@ test('coverage and first-party routes serve partial source denominators with rea
  const redirect=await fetch(base+'/sports/swimming/teams?sport=basketball&level=adaptive',{redirect:'manual'});assert.equal(redirect.status,302);assert.ok(redirect.headers.get('location').includes('level=adaptive'));
 });
 test('saved directory divisions and facilities can be resolved by the existing athlete workspace',()=>{
- const app=readFileSync(new URL('../../public/app.js',import.meta.url),'utf8');const declaration=app.match(/function findRecord\(id\)\{[^\n]+\}/)[0];const findRecord=new Function('data',declaration+';return findRecord;')(catalog);
+ const app=readFileSync(new URL('../../public/app.js',import.meta.url),'utf8');const declaration=app.match(/function findRecord\(id\)\{[^\n]+\}/)[0];const findRecord=new Function('data','findCatalogRecord',declaration+';return findRecord;')(catalog,findCatalogRecord);
  for(const r of [...catalog.divisions,...(catalog.locations||[])])assert.equal(findRecord(r.id)?.id,r.id);
 });

@@ -17,8 +17,8 @@ function projectSelected(profile,{events=[],media=[],config=recruitingSport(prof
  const legacy=!Array.isArray(r.approvedFields),personal=(Array.isArray(profile.personalAchievements)?profile.personalAchievements:[]).filter(value=>(r.achievementSelections||[]).includes(value));
  const source={
   label:profile.nickname||null,ageBand:profile.ageGroup||null,graduationYear:profile.graduationYear||null,
-  avatarUrl:localAvatar(profile.avatarDataUrl),primaryPosition:profile.position||null,secondaryPosition:profile.secondaryPosition||null,clubName:profile.clubTeam||null,teamName:profile.programTeam||null,playingLevel:profile.playingLevel||null,
-  profileIntroduction:profile.aboutSport||null,collegeGoals:profile.collegeGoals||(legacy&&r.visibility?.goals?profile.goals:null)||null,
+  avatarUrl:localAvatar(profile.avatarDataUrl),primaryPosition:profile.position||null,secondaryPosition:profile.secondaryPosition||null,clubName:profile.clubTeam||null,teamName:profile.clubTeamNeedsReview?null:profile.programTeam||null,playingLevel:profile.playingLevel||null,
+  athleticHistory:profile.athleticHistory||null,profileIntroduction:profile.aboutSport||null,collegeGoals:profile.collegeGoals||(legacy&&r.visibility?.goals?profile.goals:null)||null,
   highSchool:profile.highSchool||null,schoolLocation:profile.schoolLocation||null,
   academics:{gpa:hasGpa?gpa:null,scale:hasGpa?scale:null,weighted:profile.gpaWeighted==='weighted'?true:profile.gpaWeighted==='unweighted'?false:null,details:profile.academicDetails||null,intendedMajor:profile.intendedMajor||null},
   achievements:[...new Set([...personal,...records.filter(row=>row.achievement).map(row=>row.achievement)])],
