@@ -1,0 +1,11 @@
+{
+  "product": "PlayRcmd",
+  "host": "127.0.0.1",
+  "port": 4310,
+  "healthPath": "/health",
+  "entryPath": "/",
+  "demoPath": "/demo?scenario=family",
+  "dataMode": "fictional-demo",
+  "publication": "not-authorized",
+  "domain": null
+}

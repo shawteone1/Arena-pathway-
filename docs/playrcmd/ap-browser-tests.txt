@@ -1,0 +1,31 @@
+test_action_detail_duplicate_and_scenario_state_isolation (__main__.FamilyQA.test_action_detail_duplicate_and_scenario_state_isolation) ... ok
+test_alert_scan_lines_timeline_and_touch_targets (__main__.FamilyQA.test_alert_scan_lines_timeline_and_touch_targets) ... ok
+test_child_team_sport_and_source_filters (__main__.FamilyQA.test_child_team_sport_and_source_filters) ... ok
+test_compact_filters_keyboard_scope_and_disclosure (__main__.FamilyQA.test_compact_filters_keyboard_scope_and_disclosure) ... ok
+test_family_cross_feed_change_and_sources (__main__.FamilyQA.test_family_cross_feed_change_and_sources) ... ok
+test_family_privacy_and_no_provider_requests (__main__.FamilyQA.test_family_privacy_and_no_provider_requests) ... ok
+test_feed_health_refresh_and_pause (__main__.FamilyQA.test_feed_health_refresh_and_pause) ... ok
+test_first_screen_and_capture_comparison (__main__.FamilyQA.test_first_screen_and_capture_comparison) ... FAIL
+test_keyboard_labels_touch_targets_and_dialog_focus (__main__.FamilyQA.test_keyboard_labels_touch_targets_and_dialog_focus) ... ok
+test_modes_scenarios_and_responsive_layouts (__main__.FamilyQA.test_modes_scenarios_and_responsive_layouts) ... ok
+test_no_provider_requests_or_family_storage_changes (__main__.FamilyQA.test_no_provider_requests_or_family_storage_changes) ... ok
+test_phone_full_calendar_and_action_controls_remain_available (__main__.FamilyQA.test_phone_full_calendar_and_action_controls_remain_available) ... ok
+test_privacy_redacts_dom_details_and_display_defaults (__main__.FamilyQA.test_privacy_redacts_dom_details_and_display_defaults) ... ok
+test_role_and_organization_isolation (__main__.FamilyQA.test_role_and_organization_isolation) ... ok
+test_sidebar_keyboard_touch_and_ipad_default (__main__.FamilyQA.test_sidebar_keyboard_touch_and_ipad_default) ... ok
+test_signature_modes_devices_and_screenshots (__main__.FamilyQA.test_signature_modes_devices_and_screenshots) ... ok
+test_simulated_approval_no_sending_and_reset (__main__.FamilyQA.test_simulated_approval_no_sending_and_reset) ... ok
+test_tournament_arrival_rsvp_and_locked_in_status (__main__.FamilyQA.test_tournament_arrival_rsvp_and_locked_in_status) ... ok
+
+======================================================================
+FAIL: test_first_screen_and_capture_comparison (__main__.FamilyQA.test_first_screen_and_capture_comparison)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/Arena-pathway-/scripts/qa-siem-refinement.py", line 33, in test_first_screen_and_capture_comparison
+    self.assertLess(measurements['nextActionBottom'],height,str((label,kind,mode,measurements)))
+AssertionError: 857.84375 not less than 844 : ('phone', 'college', 'everyday', {'kpiHeight': 51, 'commitmentTop': 530.625, 'commitmentTitleBottom': 577.625, 'actionTop': 735.921875, 'actionTitleBottom': 785.46875, 'nextActionBottom': 857.84375})
+
+----------------------------------------------------------------------
+Ran 18 tests in 33.054s
+
+FAILED (failures=1)

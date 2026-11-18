@@ -1,0 +1,48 @@
+✔ signature family has exactly three children and four soccer/volleyball schedules in one deterministic week (44.862694ms)
+✔ simulated source attribution and timestamps are coherent, with four external tools and status-only Locked In (6.050843ms)
+✔ Denver local times, early arrival and travel plans survive UTC day boundaries (5.963462ms)
+✔ calendar/message copies retain evidence but produce one practice change and one overlap decision (12.679156ms)
+✔ source, sport, child and team filtering all preserve canonical provenance without false matches (4.92602ms)
+✔ fixture consolidation fails closed on ambiguous team mapping or unauthorized records (6.178996ms)
+✔ review, resolution and reset are isolated from other families/roles and do not alter provider requirements (20.52286ms)
+✔ family scenario leaves discovery, generic fixtures, approved contracts and SIEM domain byte-identical to v2.1 (604.520736ms)
+✔ platform fixtures have deterministic timestamps and all requested activity/source fields (27.463254ms)
+✔ contract rejects ambiguous times, scope mismatch, unsafe links and sensitive payload fields (1.732309ms)
+✔ parent and coach organization/team filters apply before SIEM correlation (6.607506ms)
+✔ one identity may have multiple roles without exposing private cross-role activities (1.956527ms)
+✔ existing SIEM logic powers changes, duplicates, deadlines and per-scenario actions (5.747807ms)
+✔ correlation and detail relationships cannot cross permission boundaries (1.20851ms)
+✔ feed health keeps disconnected, failed, stale and current fixture states explicit (1.055339ms)
+✔ adapter validates snapshots atomically and retains last-known-good on failure/out-of-scope data (3.859874ms)
+✔ platform changes preserve discovery engine, data, registry, ingestion and approved assets exactly (606.648265ms)
+✔ platform route and allowlisted assets work without changing old workspace/demo routes (81.356233ms)
+✔ consolidation preserves v2.1 domain/data bytes and limits shared-view edits to requested navigation links (652.139261ms)
+✔ refined shell retains all three modes, named sidebar toggle, approved branding and demo boundary (0.639744ms)
+✔ Safari startup fix preserves all family fixtures, models, contracts and discovery bytes (521.336824ms)
+✔ startup bootstrap and loading fallback are served with existing CSP and JavaScript MIME (30.043901ms)
+✔ calendar selection supports all, none, one and arbitrary athlete combinations within authorized identities (1.707132ms)
+✔ weekly start time without end receives labeled duration and stable Mon/Wed occurrence identities (18.641066ms)
+✔ competition duration is optional and an explicit existing end time is preserved (0.847196ms)
+✔ family and child scopes isolate reads and writes, reject role and sport mismatch (1.692338ms)
+✔ duplicate candidates preserve both sources and evidence; reimports are idempotent (0.662417ms)
+✔ overlapping child and parent commitments conflict, touching events do not (0.542978ms)
+✔ event revisions retain history, cancellation and unverified status (0.483027ms)
+✔ priority, deadlines, requirements and opportunity rules are deterministic (1.265767ms)
+✔ acknowledgment, resolution, reopening and reminders are scoped and audited (0.695898ms)
+✔ provider failures retain events and last success, unsupported systems remain unconnected (0.769208ms)
+✔ minimal product events require consent and omit document/health/payment payloads (0.416608ms)
+✔ normalization drops arbitrary sensitive fields and unsafe URLs (0.460002ms)
+✔ ICS parses UTC snapshots, rejects recurrence and local-time ambiguity atomically (0.957903ms)
+✔ wellness defaults off and respects availability, preferences, travel, pickups and confirmed commitments (0.353262ms)
+✔ interests do not cause conflicts until explicitly confirmed; recurring plans have stable IDs (0.581526ms)
+✔ SIEM route and scripts retain CSP and private data has no server endpoint (38.391914ms)
+✔ revoking product consent hides status events; unsupported providers cannot inject verified events (0.576278ms)
+✔ ICS rejects impossible calendar dates and excessive input (0.262785ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 40
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1716.387383
