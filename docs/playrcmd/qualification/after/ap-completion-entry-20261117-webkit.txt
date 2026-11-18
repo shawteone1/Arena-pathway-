@@ -1,0 +1,8 @@
+test_public_content_college_and_club_details (__main__.Coverage.test_public_content_college_and_club_details) ... ok
+test_siem_only_family_header_context_without_full_athlete (__main__.Coverage.test_siem_only_family_header_context_without_full_athlete) ... ok
+test_siem_setup_tour_and_family_return (__main__.Coverage.test_siem_setup_tour_and_family_return) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 26.142s
+
+OK

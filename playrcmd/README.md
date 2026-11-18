@@ -21,7 +21,7 @@ npm --prefix playrcmd run test:browser
 npm test
 ```
 
-Browser checks require Python Playwright and its Chromium browser. Set `PLAYRCMD_ENGINES=chromium,webkit` only where both browser runtimes and native libraries are installed. `PLAYRCMD_QA_BASE` overrides the review URL. Browser tests create fictional records in an isolated context, import a tiny UTC ICS fixture, verify AP storage isolation, reset the demo and capture desktop/iPad/mobile screenshots.
+Browser checks require Python Playwright and its Chromium browser. Set `PLAYRCMD_ENGINES=chromium,webkit` only where both browser runtimes and native libraries are installed. `WEBKIT_PATH` optionally selects a compatible WebKit launcher. `PLAYRCMD_QA_BASE` overrides the review URL; `PLAYRCMD_QA_ARTIFACTS` selects the screenshot directory. Browser tests create fictional records in an isolated context, import a tiny UTC ICS fixture, verify AP storage isolation, reset the demo and capture desktop/iPad/mobile screenshots.
 
 ## Review / future deployment boundary
 
@@ -32,3 +32,5 @@ This package currently imports shared renderer modules from the same source chec
 Publication, push, merge, DNS and domain binding require separate explicit approval. No deployment has been performed. LXDiN is handled separately and is outside this package.
 
 See [component reuse map](../docs/playrcmd/COMPONENT-REUSE.md), [implementation report](../docs/playrcmd/IMPLEMENTATION.md), and [open issues](../docs/playrcmd/OPEN-ISSUES.md).
+
+Final readiness, exact engine coverage, commands, before/after evidence and historical-suite limitations are in [the executive qualification report](../docs/playrcmd/QUALIFICATION.md).

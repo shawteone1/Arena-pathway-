@@ -3,13 +3,15 @@ import json, os
 from pathlib import Path
 from playwright.sync_api import sync_playwright, expect
 ROOT=Path(__file__).resolve().parents[2]
-OUT=ROOT/'docs/playrcmd/screenshots'
+OUT=Path(os.environ.get('PLAYRCMD_QA_ARTIFACTS',ROOT/'docs/playrcmd/screenshots'))
 BASE=os.environ.get('PLAYRCMD_QA_BASE','http://127.0.0.1:4310')
 OUT.mkdir(parents=True,exist_ok=True)
 results=[]
 with sync_playwright() as p:
  for engine in os.environ.get('PLAYRCMD_ENGINES','chromium').split(','):
-  browser=getattr(p,engine).launch()
+  options={}
+  if engine=='webkit' and os.environ.get('WEBKIT_PATH'):options['executable_path']=os.environ['WEBKIT_PATH']
+  browser=getattr(p,engine).launch(**options)
   for label,width,height in [('desktop',1440,1000),('ipad-landscape',1024,768),('ipad-portrait',768,1024),('mobile',390,844)]:
    ctx=browser.new_context(viewport={'width':width,'height':height},has_touch=label!='desktop')
    page=ctx.new_page(); errors=[]; bad=[]; external=[]
@@ -17,6 +19,12 @@ with sync_playwright() as p:
    page.on('response',lambda r:bad.append([r.url,r.status]) if r.status>=400 else None)
    page.on('request',lambda r:external.append(r.url) if not r.url.startswith(BASE) else None)
    page.goto(BASE)
+   page.get_by_role('link',name='Explore Interactive Demo',exact=True).click()
+   page.wait_for_selector('#platform-content[data-startup-state=ready]')
+   assert page.url.startswith(BASE+'/demo?scenario=family')
+   expect(page.locator('.pr-demo-context')).to_contain_text('Fictional data only')
+   expect(page.locator('.ap-demo-banner')).to_contain_text('No live providers')
+   page.get_by_role('link',name='PlayRcmd home',exact=True).click()
    for href in ['https://soccercenter.org','https://arenapathway.com','https://la02uk.com']:
     expect(page.locator('a[href="'+href+'"]').first).to_be_attached()
    for path,name in [('/','landing'),('/integrations','integrations'),('/demo?scenario=family','overview'),('/demo?scenario=family&section=family','family'),('/demo?scenario=family&section=calendar','calendar'),('/demo?scenario=family&section=messages','messages'),('/setup','setup')]:
@@ -51,6 +59,7 @@ with sync_playwright() as p:
    page.goto(BASE+'/demo?scenario=family&section=family');page.wait_for_selector('#platform-content[data-startup-state=ready]')
    assert 'PRODUCTION_SENTINEL' not in page.locator('body').inner_text()
    page.goto(BASE+'/setup');page.wait_for_selector('#siem-connections .siem-panel',state='attached')
+   expect(page.locator('.siem-notice')).to_contain_text('Fictional nicknames and sample files only')
    page.locator('#siem-participant-add [name=nickname]').fill('Demo athlete')
    page.locator('#siem-participant-add button').click();expect(page.locator('#siem-people')).to_contain_text('Demo athlete')
    # Existing UTC ICS parser + setup form + local calendar projection, unmodified.
@@ -72,7 +81,7 @@ with sync_playwright() as p:
    assert not errors,(engine,label,errors)
    assert not bad,(engine,label,bad)
    assert not external,(engine,label,external)
-   results.append({'engine':engine,'viewport':label,'checks':'passed','page_errors':errors,'failed_assets':bad,'external_requests':external})
+   results.append({'engine':engine,'version':browser.version,'viewport':label,'checks':'passed','page_errors':errors,'failed_assets':bad,'external_requests':external})
    print(engine,label,'passed',flush=True)
    ctx.close()
   browser.close()

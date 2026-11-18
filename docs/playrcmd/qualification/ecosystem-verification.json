@@ -1,0 +1,58 @@
+[
+  {
+    "requested": "https://soccercenter.org",
+    "status": 200,
+    "final": "https://soccercenter.org",
+    "reference_snippets": [
+      "Soccer Center \u2014 Clubs, Leagues, Training & Community",
+      "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://soccercenter.org/#organization\",\"name\":\"Soccer Center Colorado\",\"url\":\"https://soccercenter.org/\"}",
+      "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"SportsOrganization\"],\"@id\":\"https://soccercenter.org/#organization\",\"name\":\"Soccer Center\",\"url\":\"https://soccercenter.org\",\"logo\":\"https://soccercenter.org/airo-assets/images/logo/horizontal\",\"description\":\"The region's hub for soccer clubs, youth leagues, training programs, fan culture, and community.\",\"areaServed\":{\"@type\":\"Country\",\"name\":\"United States\"},\"sport\":\"Soccer\"},{\"@type\":\"WebSite\",\"@id\":\"https://soccercenter.org/#website\",\"url\":\"https://soccercenter.org\",\"name\":\"Soccer Center\",\"publisher\":{\"@id\":\"https://soccercenter.org/#organization\"},\"potentialAction\":{\"@ty",
+      "My Soccer",
+      "Your home for soccer.",
+      "The Soccer Center",
+      "Your personal soccer experience",
+      "Choose Your Arena",
+      "Sign in to unlock your personalized soccer world.",
+      "Fan Arena",
+      "Fan Arena",
+      "Your teams. Your sources. Your soccer world.",
+      "Parent Arena",
+      "Parent Arena",
+      "Your players. Your plans. Your soccer community.",
+      "Local information. A wider world of soccer.",
+      "Built for Soccer Fans",
+      "Soccer Center is your go-to resource for everything soccer \u2014 from youth clubs and college programs to pro teams, fan groups, and community events across the region.",
+      "Your Soccer Community",
+      "From local clubs to regional leagues, Soccer Center brings together clubs, facilities, supporters, and fans under one roof.",
+      "Welcome to the Soccer Center",
+      "We built the Soccer Center with you\u2014the soccer enthusiast\u2014in mind.",
+      "From a fan's perspective, our goal is to be your guide to local soccer experiences. Whether you're looking for highlights, information about where to watch games, supporters' groups, teams, or even a great pub to catch a match, we've got you covered.",
+      "Founder, Soccer Center",
+      "players@soccercenter.org",
+      "Get the latest on clubs, events, and soccer news across Colorado.",
+      "Your home for soccer \u2014 connecting players, families, and communities across the West.",
+      "Soccer Directory",
+      "Get tryout alerts, club news, and soccer resources delivered to your inbox.",
+      "\u00a9 2026 Soccer Center. All rights reserved."
+    ]
+  },
+  {
+    "requested": "https://arenapathway.com",
+    "status": 200,
+    "final": "https://arenapathway.com",
+    "reference_snippets": []
+  },
+  {
+    "requested": "https://la02uk.com",
+    "status": 200,
+    "final": "https://la02uk.com",
+    "reference_snippets": [
+      "La02uk",
+      "About La02uk",
+      "Connect with La02uk",
+      "La02uk",
+      "Copyright \u00a9 2026 La02uk - All Rights Reserved.",
+      "{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"image\":[\"http://img1.wsimg.com/isteam/ip/db9a0e50-9b64-44de-adee-dc385a7e86dc/9D122074-67C8-48C4-9F16-500FBC3A6F43.png\"],\"@id\":\"http://db9a0e50.9b64.44de.adee.dc385a7e86dc.com\",\"url\":\"la02uk.com\",\"name\":\"La02uk\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"Denver\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"39.7392358\",\"longitude\":\"-104.990251\"}}"
+    ]
+  }
+]

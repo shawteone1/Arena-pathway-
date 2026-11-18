@@ -1,5 +1,7 @@
 # Open issues and deferred claims
 
+Final qualification: see [QUALIFICATION.md](QUALIFICATION.md). Item 8 is now resolved; actual WebKit 26.5 has also been tested. Physical Safari remains unavailable.
+
 1. **November 18 AP acceptance review unavailable.** No November 18 review document, commit or branch was found in the repository inspected for this build. Its not-yet-implemented improvements remain open/unverified; none is represented as delivered here. Reconcile that review before final product acceptance.
 2. **Live providers remain unconnected.** All PlayMetrics, TeamSnap, SportsEngine, Slack and Locked In records are fictional fixtures. Google/Microsoft/email, APIs, OAuth, webhooks, posting, verification, payments, registrations, subscriptions and external bookings are not implemented by this pass.
 3. **Existing ICS limits retained.** Snapshot file import only. UTC VEVENT start/end times; maximum 500 events and 500 KB; recurring, all-day, floating and TZID dates rejected. No remote fetching or calendar subscription.
@@ -7,4 +9,6 @@
 5. **View composition seam.** Renderer composition still imports the AP view/layout dependency graph on the server. No AP layout or unrelated scripts are sent to the client. A separately published shared package is future work; this folder is not a self-contained copy of the engine.
 6. **Physical devices.** Automated desktop/iPad/mobile viewport and touch checks are not a claim of testing physical iPad Safari hardware. See implementation report for actual browser engines exercised.
 7. **Publication deferred by user.** No merge, push, deploy, DNS binding, new domain, hosting publication or external system change. LXDiN is outside this task and remains with the other Codex build.
-8. **Unchanged AP browser baseline failure.** Existing AP suite: 17/18 pass. The college everyday scenario's next action ends at 857.84375px on a 390×844 viewport, failing a first-screen bound assertion. No AP file or test was modified. See `ap-browser-tests.txt`; this is not claimed fixed by the PlayRcmd wrapper.
+8. **RESOLVED in final qualification — inherited AP phone density defect.** Existing AP suite: 17/18 pass. The college everyday scenario's next action ends at 857.84375px on a 390×844 viewport, failing a first-screen bound assertion. No AP file or test was modified. See `ap-browser-tests.txt`; this is not claimed fixed by the PlayRcmd wrapper.
+
+The original failure and initial logs are preserved. Final AP family suite passes 18/18; original assertions were retained. See the final qualification report for the scoped header-spacing correction, cross-engine evidence and unchanged-engine proof.

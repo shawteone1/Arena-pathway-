@@ -1,0 +1,20 @@
+[
+  {
+    "suite": "completion-entry-20261117",
+    "engine": "chromium",
+    "returncode": 0,
+    "log": "docs/playrcmd/qualification/after/ap-completion-entry-20261117-chromium.txt"
+  },
+  {
+    "suite": "completion-preservation-20261117",
+    "engine": "chromium",
+    "returncode": 0,
+    "log": "docs/playrcmd/qualification/after/ap-completion-preservation-20261117-chromium.txt"
+  },
+  {
+    "suite": "completion-parent-20261117",
+    "engine": "chromium",
+    "returncode": 0,
+    "log": "docs/playrcmd/qualification/after/ap-completion-parent-20261117-chromium.txt"
+  }
+]

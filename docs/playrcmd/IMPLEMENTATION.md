@@ -1,5 +1,7 @@
 # PlayRcmd standalone demo v1 — implementation report
 
+**Initial-build record. Superseded for readiness, browser coverage and the AP layout issue by [final qualification](QUALIFICATION.md).**
+
 Date: November 18, 2026. Status: local review build; no push, merge, publication, deployment or DNS changes.
 
 ## Delivered behavior

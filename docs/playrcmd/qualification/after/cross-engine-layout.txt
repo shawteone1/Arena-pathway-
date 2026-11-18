@@ -1,0 +1,1 @@
+PASS: 72 role/mode/viewport cases; original first-screen bounds retained

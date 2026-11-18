@@ -1,0 +1,166 @@
+test_calendar_and_recruiting_handlers_work_only_when_enabled (__main__.ReleaseQA.test_calendar_and_recruiting_handlers_work_only_when_enabled) ... ERROR
+test_demo_actions_filters_and_no_family_state_mutation (__main__.ReleaseQA.test_demo_actions_filters_and_no_family_state_mutation) ... ok
+test_demo_keyboard_and_primary_touch_targets (__main__.ReleaseQA.test_demo_keyboard_and_primary_touch_targets) ... ok
+test_directory_separation_club_first_and_team_search (__main__.ReleaseQA.test_directory_separation_club_first_and_team_search) ... ok
+test_disabled_modules_leave_no_sections_or_links_and_keep_data (__main__.ReleaseQA.test_disabled_modules_leave_no_sections_or_links_and_keep_data) ... ERROR
+test_family_profiles_keep_separate_choices_and_new_profile_is_parent_controlled (__main__.ReleaseQA.test_family_profiles_keep_separate_choices_and_new_profile_is_parent_controlled) ... ERROR
+test_league_to_feeder_profile_keeps_registration_and_ownership_truthful (__main__.ReleaseQA.test_league_to_feeder_profile_keeps_registration_and_ownership_truthful) ... ok
+test_legacy_saved_clubs_do_not_enable_recruiting (__main__.ReleaseQA.test_legacy_saved_clubs_do_not_enable_recruiting) ... ok
+test_media_sources_survive_disabled_module_and_builder_edits (__main__.ReleaseQA.test_media_sources_survive_disabled_module_and_builder_edits) ... FAIL
+test_mobile_and_tablet_controls_overflow_brand_and_screenshots (__main__.ReleaseQA.test_mobile_and_tablet_controls_overflow_brand_and_screenshots) ... ok
+test_mobile_tablet_directory_profile_and_review_accessibility (__main__.ReleaseQA.test_mobile_tablet_directory_profile_and_review_accessibility) ... ERROR
+test_onboarding_choices_have_no_fixed_progression (__main__.ReleaseQA.test_onboarding_choices_have_no_fixed_progression) ... ok
+test_release_pages_at_phone_tablet_desktop (__main__.ReleaseQA.test_release_pages_at_phone_tablet_desktop) ... ok
+test_reorder_add_remove_is_persistent_and_keyboard_accessible (__main__.ReleaseQA.test_reorder_add_remove_is_persistent_and_keyboard_accessible) ... ok
+test_saving_club_preserves_identity_and_does_not_trigger_recruiting (__main__.ReleaseQA.test_saving_club_preserves_identity_and_does_not_trigger_recruiting) ... ok
+test_seven_modules_saved_opportunities_and_youth_recommendations (__main__.ReleaseQA.test_seven_modules_saved_opportunities_and_youth_recommendations) ... FAIL
+test_siem_lightweight_family_does_not_require_recruiting_profile (__main__.ReleaseQA.test_siem_lightweight_family_does_not_require_recruiting_profile) ... ok
+test_storage_failure_keeps_existing_choices_and_records (__main__.ReleaseQA.test_storage_failure_keeps_existing_choices_and_records) ... ok
+test_swimming_distinguishes_year_round_seasonal_summer_and_masters (__main__.ReleaseQA.test_swimming_distinguishes_year_round_seasonal_summer_and_masters) ... ok
+test_verified_school_programs_and_real_named_tiers (__main__.ReleaseQA.test_verified_school_programs_and_real_named_tiers) ... ok
+
+======================================================================
+ERROR: test_calendar_and_recruiting_handlers_work_only_when_enabled (__main__.ReleaseQA.test_calendar_and_recruiting_handlers_work_only_when_enabled)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/ap-qualification-baseline/scripts/qa-pathway.py", line 237, in test_calendar_and_recruiting_handlers_work_only_when_enabled
+    self.choose('recruiting')
+  File "/workspace/ap-qualification-baseline/scripts/qa-pathway.py", line 81, in choose
+    self.page.locator('#recruiting').locator('..').evaluate('(el)=>el.open=true')
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 18092, in evaluate
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 195, in evaluate
+    return await self._with_element(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 114, in _with_element
+    handle = await self.element_handle(timeout=timeout)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 325, in element_handle
+    handle = await self._frame.wait_for_selector(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 394, in wait_for_selector
+    await self._channel.send(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.evaluate: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#recruiting").locator("..")
+
+
+======================================================================
+ERROR: test_disabled_modules_leave_no_sections_or_links_and_keep_data (__main__.ReleaseQA.test_disabled_modules_leave_no_sections_or_links_and_keep_data)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/ap-qualification-baseline/scripts/qa-pathway.py", line 144, in test_disabled_modules_leave_no_sections_or_links_and_keep_data
+    self.choose(id)
+  File "/workspace/ap-qualification-baseline/scripts/qa-pathway.py", line 81, in choose
+    self.page.locator('#recruiting').locator('..').evaluate('(el)=>el.open=true')
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 18092, in evaluate
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 195, in evaluate
+    return await self._with_element(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 114, in _with_element
+    handle = await self.element_handle(timeout=timeout)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 325, in element_handle
+    handle = await self._frame.wait_for_selector(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 394, in wait_for_selector
+    await self._channel.send(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.evaluate: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#recruiting").locator("..")
+
+
+======================================================================
+ERROR: test_family_profiles_keep_separate_choices_and_new_profile_is_parent_controlled (__main__.ReleaseQA.test_family_profiles_keep_separate_choices_and_new_profile_is_parent_controlled)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/ap-qualification-baseline/scripts/qa-pathway.py", line 174, in test_family_profiles_keep_separate_choices_and_new_profile_is_parent_controlled
+    self.assertEqual(self.page.input_value('#recruiting-notes'), 'Swimming only')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 12333, in input_value
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py", line 1079, in input_value
+    return await self._main_frame.input_value(**params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 822, in input_value
+    return await self._channel.send(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.input_value: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#recruiting-notes")
+
+
+======================================================================
+ERROR: test_mobile_tablet_directory_profile_and_review_accessibility (__main__.ReleaseQA.test_mobile_tablet_directory_profile_and_review_accessibility)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/ap-qualification-baseline/scripts/qa-unified.py", line 94, in test_mobile_tablet_directory_profile_and_review_accessibility
+    self.page.locator('.engine-filter-options summary').tap()
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 20248, in tap
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py", line 676, in tap
+    return await self._frame.tap(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 625, in tap
+    await self._channel.send("tap", self._timeout, locals_to_params(locals()))
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.tap: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".engine-filter-options summary")
+
+
+======================================================================
+FAIL: test_media_sources_survive_disabled_module_and_builder_edits (__main__.ReleaseQA.test_media_sources_survive_disabled_module_and_builder_edits)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/ap-qualification-baseline/scripts/qa-pathway.py", line 202, in test_media_sources_survive_disabled_module_and_builder_edits
+    self.assertTrue(self.page.locator('[name=media-source][value=du-news]').is_checked())
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_seven_modules_saved_opportunities_and_youth_recommendations (__main__.ReleaseQA.test_seven_modules_saved_opportunities_and_youth_recommendations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/ap-qualification-baseline/scripts/qa-unified.py", line 71, in test_seven_modules_saved_opportunities_and_youth_recommendations
+    self.assertEqual(self.page.input_value('#participation-level'), 'competitive')
+AssertionError: 'any' != 'competitive'
+- any
++ competitive
+
+
+----------------------------------------------------------------------
+Ran 20 tests in 170.960s
+
+FAILED (failures=2, errors=4)

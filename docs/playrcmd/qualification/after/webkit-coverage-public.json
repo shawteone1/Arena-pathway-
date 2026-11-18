@@ -1,0 +1,69 @@
+{
+  "homeImages": [
+    {
+      "src": "/assets/photos/lacrosse.webp",
+      "width": 405
+    },
+    {
+      "src": "/assets/photos/volleyball.webp",
+      "width": 405
+    },
+    {
+      "src": "/assets/photos/basketball.webp",
+      "width": 405
+    },
+    {
+      "src": "/assets/photos/swimming.webp",
+      "width": 405
+    }
+  ],
+  "lacrosse": {
+    "fullPageHeight": 9591,
+    "directoryRows": 13,
+    "newsCards": 3,
+    "snapshotLabel": false,
+    "publisherLinks": [
+      "https://www.usalacrosse.com/magazine/play-big-man-blythewood-sc-attackman-carson-hall-owns-his-game",
+      "https://www.nll.com/news/national-lacrosse-league-announces-2026-27-prime-video-broadcast-schedule-for-u-s-viewers-via-flosports-channel/",
+      "https://worldlacrosse.sport/eslc26-day-nine/"
+    ]
+  },
+  "basketball": {
+    "fullPageHeight": 15769,
+    "directoryRows": 24,
+    "newsCards": 3,
+    "snapshotLabel": false,
+    "publisherLinks": [
+      "https://slamonline.com/nba/miami-heat-starting-to-find-their-footing-after-slow-start/",
+      "https://www.fiba.basketball/en/news/suhail-to-light-up-the-court-as-official-mascot-of-the-fiba-basketball-world-cup-2027",
+      "https://www.cbssports.com/nba/news/nba-power-rankings-lakers-luka-doncic-nov-11/"
+    ]
+  },
+  "volleyball": {
+    "fullPageHeight": 8580,
+    "directoryRows": 9,
+    "newsCards": 3,
+    "snapshotLabel": false,
+    "publisherLinks": [
+      "https://volleyballmag.com/los-angeles-orbit-open-at-houston-dec-18-then-host-nebraska-at-intuit-dome/",
+      "https://en.volleyballworld.com/news/what-to-watch-on-vbtv-this-week-x9957",
+      "https://usavolleyball.org/story/usa-volleyball-names-three-time-olympic-medalist-april-ross-first-female-head-coach-of-womens-beach-national-teams/"
+    ]
+  },
+  "swimming": {
+    "fullPageHeight": 16531,
+    "directoryRows": 24,
+    "newsCards": 3,
+    "snapshotLabel": false,
+    "publisherLinks": [
+      "https://swimswam.com/2026-27-ivy-league-dual-meet-championship-week-one-princeton-men-and-women-harvard-men-and-penn-women-undefeated/",
+      "https://www.swimmingworldmagazine.com/news/van-mathias-looking-to-continue-astonishing-run-at-short-course-worlds/",
+      "https://www.worldaquatics.com/news/4607549/wild-card-athletes-confirmed-ahead-of-world-swimming-championships-in-beijing"
+    ]
+  },
+  "publicResearch": {
+    "cards": 10,
+    "profilesRequired": false
+  },
+  "clubDetails": "ARENA PATHWAY / LACROSSE\nBoulder Valley Lacrosse\n\nLafayette\n\nSave\n\nCreate an athlete for this sport to associate My Club.\n\nCreate athlete with this club\n\nPublished organization and participation facts are verified separately. Current teams, season and registration remain unconfirmed unless shown.\n\nVerified organization \u00b7 Youth program details available \u00b7 Named program/team details available \u00b7 Registration dates not confirmed \u00b7 Current season not confirmed\n\nOrganization location / service area: Lafayette, CO. Program venues, season dates and current registration need their own evidence.\n\nPrograms & joining\nTeams & divisions\nCamps, tryouts & schedules\nFacilities\nSources\nPrograms & how to join\n\nPublished program and eligibility scopes are kept with their sources. Overlapping age or gender tracks do not imply separate registrations or open roster places.\n\nYouth Clubs & Programs\nSPRING LEAGUE\nPARTICIPATION\nYouth Clubs & Programs\nWHO\nGender / coed unknown \u00b7 Age unknown \u00b7 Grade unknown\nLEVEL\nUnknown\nWHERE\nLafayette, CO\nREGISTRATION\nunknown \u00b7 unknown availability\nTRYOUTS\nunknown\n\nContact the provider to confirm individual versus team enrollment, eligibility, fees and available places.\n\nConfirm season dates, eligibility and registration with the organization. No current opening is implied by this published program.\n\nNo verified registration link is stored for this program. Availability remains unknown.\n\nSave\nSource verification \u00b7 2026-11-10\nActual teams & divisions\n\nOne organization owns these separately identified teams. Training groups and age ranges do not create teams by themselves.\n\nNo verified named competition teams are linked yet. Program participation is not proof of specific team ownership or open registration.\n\nCamps, tryouts & schedules\n\nNo dated camps, tryouts or current fixtures have been independently verified for this profile. No dates or openings have been invented.\n\nFacilities & locations\n\nNo separately verified program-to-facility relationship is stored. A city or school name is not proof of practice access.\n\nSource provenance\nSource verification \u00b7 2026-11-10\nSource verification \u00b7 2026-11-10\n\nClassification review and remaining gaps \u2192"
+}

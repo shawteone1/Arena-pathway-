@@ -1,0 +1,14 @@
+[
+  {
+    "event": "requestfailed",
+    "url": "http://127.0.0.1:4320/assets/local-family-calendar.js",
+    "failure": "Load request cancelled",
+    "page": "http://127.0.0.1:4320/my-ap?scenario=local&section=day"
+  },
+  {
+    "event": "requestfailed",
+    "url": "http://127.0.0.1:4320/assets/siem-platform-model.js",
+    "failure": "Load request cancelled",
+    "page": "http://127.0.0.1:4320/my-ap?scenario=local&section=day"
+  }
+]

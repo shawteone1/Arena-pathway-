@@ -1,0 +1,22 @@
+test_parent_home_same_family_profiles_calendar_actions_and_save (__main__.Parent.test_parent_home_same_family_profiles_calendar_actions_and_save) ... FAIL
+
+======================================================================
+FAIL: test_parent_home_same_family_profiles_calendar_actions_and_save (__main__.Parent.test_parent_home_same_family_profiles_calendar_actions_and_save)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/Arena-pathway-/scripts/qa-profile-foundation-20261117.py", line 12, in tearDown
+    def tearDown(self):self.assertEqual(self.errors,[]);self.context.close()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: ['Importing a module script failed.'] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+'Importing a module script failed.'
+
+- ['Importing a module script failed.']
++ []
+
+----------------------------------------------------------------------
+Ran 1 test in 8.397s
+
+FAILED (failures=1)

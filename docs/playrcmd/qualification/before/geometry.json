@@ -1,0 +1,200 @@
+[
+  {
+    "selector": "HEADER.site-header",
+    "text": "ARENA PATHWAY\nMY ATHLETES\nProfile\nSIEM\nRecruiting\nLockedIn\nSports\n\u2304",
+    "top": 0,
+    "height": 113,
+    "css": {
+      "margin": "0px",
+      "padding": "7px 15px",
+      "lineHeight": "26.4px"
+    }
+  },
+  {
+    "selector": "ASIDE.ap-rail",
+    "text": "\u2039\nMy Day\nCalendar\nMessages\nMy Family",
+    "top": 113,
+    "height": 56,
+    "css": {
+      "margin": "0px",
+      "padding": "6px 12px",
+      "lineHeight": "21px"
+    }
+  },
+  {
+    "selector": "HEADER.ap-toolbar",
+    "text": "Everyday\nCommand\nDisplay\nShared-screen privacy\nSettings",
+    "top": 169,
+    "height": 55,
+    "css": {
+      "margin": "0px",
+      "padding": "5px 0px",
+      "lineHeight": "21px"
+    }
+  },
+  {
+    "selector": "DIV.ap-demo-banner",
+    "text": "ILLUSTRATIVE DEMO \u00b7 Fictional data. No live providers. Local family stays separate.\nStart Guided Tour\nReset demo",
+    "top": 230,
+    "height": 50,
+    "css": {
+      "margin": "6px 0px 0px",
+      "padding": "0px 7px",
+      "lineHeight": "13.5px"
+    }
+  },
+  {
+    "selector": "SECTION.ap-intro",
+    "text": "MY AP / MY DAY \u00b7 COLLEGE ATHLETE / YOUR EVERYDAY VIEW\n\nYour day. On your terms.\nMon, May 6 \u00b7 8:00 AM\nFixed demo date: Ma",
+    "top": 288,
+    "height": 65.328125,
+    "css": {
+      "margin": "8px 0px 6px",
+      "padding": "0px",
+      "lineHeight": "21px"
+    }
+  },
+  {
+    "selector": "DIV.ap-live-row",
+    "text": "Ready. Explore your day.",
+    "top": 359.328125,
+    "height": 0,
+    "css": {
+      "margin": "0px",
+      "padding": "0px",
+      "lineHeight": "15px"
+    }
+  },
+  {
+    "selector": "SECTION.",
+    "text": "Organizations \u00b7 All\nParticipant\nEveryone\nSam Taylor\nMore filters\nClear filters",
+    "top": 365.328125,
+    "height": 56,
+    "css": {
+      "margin": "0px",
+      "padding": "0px",
+      "lineHeight": "21px"
+    }
+  },
+  {
+    "selector": "DIV.ap-stats",
+    "text": "4\nToday\u2019s commitments\n2\nImportant changes\n5\nActions need you",
+    "top": 428.328125,
+    "height": 51,
+    "css": {
+      "margin": "0px 0px 4px",
+      "padding": "0px",
+      "lineHeight": "21px"
+    }
+  },
+  {
+    "selector": "SECTION.ap-panel",
+    "text": "What\u2019s next?\nTODAY\nTODAY \u00b7 MON, MAY 6\n8:45 AM\nto 9:45 AM\nStrength & conditioning\n\nSam Taylor \u00b7 East Training Center \u00b7 Co",
+    "top": 483.328125,
+    "height": 195.296875,
+    "css": {
+      "margin": "0px",
+      "padding": "10px 12px",
+      "lineHeight": "21px"
+    }
+  },
+  {
+    "selector": "ARTICLE.ap-activity ap-athlete-2",
+    "text": "8:45 AM\nto 9:45 AM\nStrength & conditioning\n\nSam Taylor \u00b7 East Training Center \u00b7 Court 2\n\nDetails \u2197\nPRACTICE",
+    "top": 530.625,
+    "height": 93,
+    "css": {
+      "margin": "0px",
+      "padding": "8px 0px 5px",
+      "lineHeight": "21px"
+    }
+  },
+  {
+    "selector": "DETAILS.ap-more-schedule",
+    "text": "Show 3 more commitments",
+    "top": 623.625,
+    "height": 44,
+    "css": {
+      "margin": "0px",
+      "padding": "0px",
+      "lineHeight": "21px"
+    }
+  },
+  {
+    "selector": "ARTICLE.ap-activity ap-athlete-2",
+    "text": "",
+    "top": 667.625,
+    "height": 73.5,
+    "css": {
+      "margin": "0px",
+      "padding": "8px 0px 5px",
+      "lineHeight": "21px"
+    }
+  },
+  {
+    "selector": "ARTICLE.ap-activity ap-athlete-2",
+    "text": "",
+    "top": 741.125,
+    "height": 93,
+    "css": {
+      "margin": "0px",
+      "padding": "8px 0px 5px",
+      "lineHeight": "21px"
+    }
+  },
+  {
+    "selector": "ARTICLE.ap-activity ap-athlete-2",
+    "text": "",
+    "top": 834.125,
+    "height": 75,
+    "css": {
+      "margin": "0px",
+      "padding": "8px 0px 5px",
+      "lineHeight": "21px"
+    }
+  },
+  {
+    "selector": "SECTION.ap-panel",
+    "text": "What needs me?\nHIGH PRIORITY\nOPEN\nClass and training overlap\nSam Taylor\n\nImpact \u00b7 2 commitments overlap \u00b7 coordinate cov",
+    "top": 688.625,
+    "height": 333.21875,
+    "css": {
+      "margin": "0px",
+      "padding": "10px 12px",
+      "lineHeight": "21px"
+    }
+  },
+  {
+    "selector": "ARTICLE.ap-action ap-priority-1 ap-athlete-2",
+    "text": "HIGH PRIORITY\nOPEN\nClass and training overlap\nSam Taylor\n\nImpact \u00b7 2 commitments overlap \u00b7 coordinate coverage\n\nNext \u00b7 R",
+    "top": 735.921875,
+    "height": 181.921875,
+    "css": {
+      "margin": "0px 0px 5px",
+      "padding": "10px",
+      "lineHeight": "21px"
+    }
+  },
+  {
+    "selector": "ARTICLE.ap-action ap-priority-1 ap-athlete-2",
+    "text": "",
+    "top": 966.84375,
+    "height": 181.921875,
+    "css": {
+      "margin": "0px 0px 5px",
+      "padding": "10px",
+      "lineHeight": "21px"
+    }
+  },
+  {
+    "selector": "ARTICLE.ap-action ap-priority-1 ap-athlete-2",
+    "text": "",
+    "top": 1153.765625,
+    "height": 181.921875,
+    "css": {
+      "margin": "0px 0px 5px",
+      "padding": "10px",
+      "lineHeight": "21px"
+    }
+  }
+]

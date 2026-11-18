@@ -1,0 +1,1082 @@
+[
+  {
+    "path": "/siem/platform?scenario=family&mode=everyday",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/assets/asset-health.js?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/style.css?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/ux-polish.css?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-experience.css?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/app.js?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform.css",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform-boot.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/fonts/barlow-condensed-bold.ttf",
+    "status": 200,
+    "type": "font/ttf"
+  },
+  {
+    "path": "/assets/brand/ap-desktop.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/catalog-records.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/directory-search.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-experience.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-experience.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-lifecycle.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/family-setup.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/club-association.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/meet-sessions.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/college-research.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/regions.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/state.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-guidance.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-identity.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/media-library.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-sports.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/competition-records.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-records.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-profile.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-composition.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-portfolio.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-directory.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-fields.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/parent-home.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/swimming-progress.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recurring-plans.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/coach-card.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-calendar.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/family-home.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/local-family-calendar.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform-model.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-model.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/profile-qa.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/schedule-entry.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/schedule-presentation.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-journey.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/content-library.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/calendar-import.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-additions.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-family-fixtures.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform-fixtures.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/news-editorial.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/rss-news.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/api/catalog",
+    "status": 200,
+    "type": "application/json"
+  },
+  {
+    "path": "/siem/platform?scenario=family&mode=everyday&section=day",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/assets/fonts/barlow-condensed-bold.ttf",
+    "status": 200,
+    "type": "font/ttf"
+  },
+  {
+    "path": "/assets/asset-health.js?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/style.css?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/ux-polish.css?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-experience.css?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/app.js?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform.css",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform-boot.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/brand/ap-desktop.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/catalog-records.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/directory-search.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-experience.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-experience.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-lifecycle.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/family-setup.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/club-association.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/meet-sessions.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/college-research.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/regions.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/state.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-identity.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/media-library.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-sports.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/competition-records.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-records.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-profile.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-composition.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-portfolio.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-directory.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-fields.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/parent-home.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/swimming-progress.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-guidance.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recurring-plans.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/coach-card.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/family-home.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-calendar.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/local-family-calendar.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform-model.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-model.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/profile-qa.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/schedule-entry.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/schedule-presentation.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-journey.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/content-library.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/calendar-import.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-additions.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-family-fixtures.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform-fixtures.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/news-editorial.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/rss-news.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/api/catalog",
+    "status": 200,
+    "type": "application/json"
+  },
+  {
+    "path": "/siem/platform?scenario=family&mode=everyday",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/assets/fonts/barlow-condensed-bold.ttf",
+    "status": 200,
+    "type": "font/ttf"
+  },
+  {
+    "path": "/assets/asset-health.js?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/style.css?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/ux-polish.css?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-experience.css?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/app.js?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform.css",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform-boot.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/brand/ap-desktop.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/catalog-records.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/directory-search.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-experience.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-experience.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-lifecycle.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/family-setup.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/club-association.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/meet-sessions.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/college-research.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/regions.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/state.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-guidance.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-identity.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/media-library.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-sports.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/competition-records.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-records.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-profile.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-composition.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-portfolio.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-directory.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-fields.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/parent-home.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/swimming-progress.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recurring-plans.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/coach-card.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-calendar.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/family-home.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/local-family-calendar.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform-model.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-model.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/profile-qa.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/schedule-entry.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/schedule-presentation.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-journey.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/content-library.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/calendar-import.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-additions.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-family-fixtures.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform-fixtures.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/news-editorial.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/rss-news.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/api/catalog",
+    "status": 200,
+    "type": "application/json"
+  },
+  {
+    "path": "/siem/platform?scenario=family&mode=everyday&section=day",
+    "status": 200,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/assets/fonts/barlow-condensed-bold.ttf",
+    "status": 200,
+    "type": "font/ttf"
+  },
+  {
+    "path": "/assets/asset-health.js?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/style.css?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-experience.css?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/ux-polish.css?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/app.js?v=f1ba9f3cc80f7222",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform.css",
+    "status": 200,
+    "type": "text/css; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform-boot.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/brand/ap-desktop.webp",
+    "status": 200,
+    "type": "image/webp"
+  },
+  {
+    "path": "/assets/catalog-records.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/directory-search.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-experience.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-experience.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-lifecycle.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/family-setup.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/club-association.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/meet-sessions.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/college-research.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/regions.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/state.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-guidance.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-identity.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/media-library.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-sports.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/competition-records.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-records.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-profile.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-composition.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-portfolio.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-directory.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recruiting-fields.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/swimming-progress.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/parent-home.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/recurring-plans.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/coach-card.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-calendar.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/family-home.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/local-family-calendar.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform-model.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-model.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/profile-qa.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/schedule-entry.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/athlete-journey.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/schedule-presentation.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/content-library.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/calendar-import.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-additions.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-family-fixtures.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/siem-platform-fixtures.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/news-editorial.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/assets/rss-news.js",
+    "status": 200,
+    "type": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/api/catalog",
+    "status": 200,
+    "type": "application/json"
+  }
+]

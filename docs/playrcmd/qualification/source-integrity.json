@@ -1,0 +1,48 @@
+{
+  "baseline": "e3d694d9c89e37ca4882bcd59be5ce2e93a271ba",
+  "existingRuntimeChanges": [
+    "public/siem-platform.css"
+  ],
+  "protectedFiles": [
+    {
+      "path": "public/siem-model.js",
+      "sha256": "1b0241f9df8d7568fc069a71411d8d5b3b8977f7e4da1c525d53cf9b0143694d",
+      "unchanged": true
+    },
+    {
+      "path": "public/siem-platform-model.js",
+      "sha256": "58692d1572ca56125b4055db6878019931cbae39464ab9e3c5a4a61893579346",
+      "unchanged": true
+    },
+    {
+      "path": "public/siem-calendar.js",
+      "sha256": "97396ce38ad9171c1208e89faf80ee3eb3be7a5a586708c404d2b815f003d23d",
+      "unchanged": true
+    },
+    {
+      "path": "public/siem-platform.js",
+      "sha256": "e038991ceead8e93a3c4ea8e500b0086561bca75b87c6cfa49dba2e01eb5d6c0",
+      "unchanged": true
+    },
+    {
+      "path": "public/siem-family-fixtures.js",
+      "sha256": "6144f697a667929de7d4cd0b7727016695f6dcb0791dc52986bf08deb8aa2ae3",
+      "unchanged": true
+    },
+    {
+      "path": "public/state.js",
+      "sha256": "5bbc6a39196871a84cc37afd2f56d2d1cd6f06c728659f040625c20fbd913e28",
+      "unchanged": true
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "fa74af6516c49daaa2a2b8a46cfc351e9a0e9f60268b6e6966d53ea7635a8e27",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/qa-siem-refinement.py",
+      "sha256": "9a47680aeb1625e77efa5fa0d48c5938d66a36873f5fdc958ab8123d42786693",
+      "unchanged": true
+    }
+  ]
+}

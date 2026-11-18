@@ -1,0 +1,14 @@
+test_first_screen_and_capture_comparison (__main__.FamilyQA.test_first_screen_and_capture_comparison) ... FAIL
+
+======================================================================
+FAIL: test_first_screen_and_capture_comparison (__main__.FamilyQA.test_first_screen_and_capture_comparison)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/Arena-pathway-/scripts/qa-siem-refinement.py", line 33, in test_first_screen_and_capture_comparison
+    self.assertLess(measurements['nextActionBottom'],height,str((label,kind,mode,measurements)))
+AssertionError: 857.84375 not less than 844 : ('phone', 'college', 'everyday', {'kpiHeight': 51, 'commitmentTop': 530.625, 'commitmentTitleBottom': 577.625, 'actionTop': 735.921875, 'actionTitleBottom': 785.46875, 'nextActionBottom': 857.84375})
+
+----------------------------------------------------------------------
+Ran 1 test in 9.520s
+
+FAILED (failures=1)
