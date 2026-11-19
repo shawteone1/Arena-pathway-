@@ -25,9 +25,9 @@ export function createPlayRcmdServer(){return http.createServer(async(req,res)=>
  if(path==='/api/catalog')return send(200,JSON.stringify({opportunities:[],sources:[],organizations:[]}), 'application/json');
  let file;
  if(path.startsWith('/assets/')&&sharedAssets.has(path.slice(8)))file=new URL('../public/'+path.slice(8),import.meta.url);
- if(['/playrcmd/style.css','/playrcmd/adapter.js','/playrcmd/role-tools.js','/playrcmd/favicon.svg'].includes(path))file=new URL('./public/'+path.split('/').pop(),import.meta.url);
+ if(['/playrcmd/polish.css','/playrcmd/dm-sans-regular.ttf','/playrcmd/dm-sans-bold.ttf','/playrcmd/landing-polish.js','/playrcmd/enterprise-stadium.jpg','/playrcmd/style.css','/playrcmd/adapter.js','/playrcmd/role-tools.js','/playrcmd/favicon.svg'].includes(path))file=new URL('./public/'+path.split('/').pop(),import.meta.url);
  if(file&&path==='/assets/siem-platform.js')return send(200,hostedController(await readFile(file,'utf8')),'text/javascript');
- if(file){const type=file.pathname.endsWith('.css')?'text/css':file.pathname.endsWith('.js')?'text/javascript':file.pathname.endsWith('.svg')?'image/svg+xml':'font/ttf';return send(200,await readFile(file),type);}
+ if(file){const type=file.pathname.endsWith('.css')?'text/css':file.pathname.endsWith('.js')?'text/javascript':file.pathname.endsWith('.svg')?'image/svg+xml':file.pathname.endsWith('.jpg')?'image/jpeg':'font/ttf';return send(200,await readFile(file),type);}
  return send(404,'PlayRcmd: page not found.','text/plain');
  }catch(error){console.error(error);return send(500,'Unable to load demonstration.','text/plain');}
  });}

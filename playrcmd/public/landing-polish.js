@@ -1,0 +1,1 @@
+document.getElementById('menu').onclick=()=>{const n=document.getElementById('navigation');n.classList.toggle('open');document.getElementById('menu').setAttribute('aria-expanded',n.classList.contains('open'));document.getElementById('menu').setAttribute('aria-label',n.classList.contains('open')?'Close navigation':'Open navigation')}
