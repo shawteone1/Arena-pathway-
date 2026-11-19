@@ -20,6 +20,7 @@ with sync_playwright() as p:
    page.on('request',lambda r:external.append(r.url) if not r.url.startswith(BASE) else None)
    page.goto(BASE)
    page.get_by_role('link',name='Explore Interactive Demo',exact=True).click()
+   page.get_by_role('link',name='Explore Parent & Family',exact=True).click()
    page.wait_for_selector('#platform-content[data-startup-state=ready]')
    assert page.url.startswith(BASE+'/demo?scenario=family')
    expect(page.locator('.pr-demo-context')).to_contain_text('Fictional data only')
@@ -74,10 +75,10 @@ with sync_playwright() as p:
    page.get_by_label('Calendar date',exact=True).dispatch_event('change')
    page.get_by_role('button',name='Day',exact=True).click()
    expect(page.locator('#platform-calendar')).to_contain_text('Fictional imported practice')
-   page.get_by_role('button',name='Reset all demo data',exact=True).click();page.wait_for_selector('#platform-content[data-startup-state=ready]')
+   page.get_by_role('button',name='Reset this role',exact=True).click();page.wait_for_selector('#platform-content[data-startup-state=ready]')
    page.goto(BASE)
    assert page.evaluate("localStorage.getItem('arenaPathway.v2').includes('PRODUCTION_SENTINEL')")
-   assert page.evaluate("Object.keys(localStorage).filter(k=>k.startsWith('playrcmd.demo.v1.')).length")==0
+   assert page.evaluate("Object.keys(localStorage).filter(k=>k.startsWith('playrcmd.demo.v2.family.')).length")==0
    assert not errors,(engine,label,errors)
    assert not bad,(engine,label,bad)
    assert not external,(engine,label,external)

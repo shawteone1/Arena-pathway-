@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/Arena-pathway-/playrcmd/test/three-role-browser.py", line 34, in <module>
+    next_role='coach' if role!='coach' else 'college';page.locator('[aria-label="Demo roles"] a[href="/demo?scenario='+next_role+'"]').click();page.wait_for_url(BASE+'/demo?scenario='+next_role);page.wait_for_selector('#platform-content[data-startup-state=ready]');assert page.url.endswith('scenario='+next_role)
+                                                                                                                                                                                                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

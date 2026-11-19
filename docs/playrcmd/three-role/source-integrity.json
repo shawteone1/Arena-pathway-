@@ -1,0 +1,8 @@
+{
+  "baseline": "0798ee2043785665ac4de64faa67e138b321ff65",
+  "existingSourceFilesChecked": 282,
+  "changedExistingFiles": [],
+  "newRoleFixtureModule": "public/playrcmd-roles.js",
+  "hostBoundary": "playrcmd/controller-adapter.mjs; composed only by PlayRcmd server",
+  "sportsDirectoriesAndSourceData": "unchanged"
+}

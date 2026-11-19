@@ -1,5 +1,15 @@
 {
-  "name": "playrcmd-demo", "version": "1.0.0", "private": true, "type": "module",
-  "scripts": {"start": "node server.mjs", "test": "node --test test/*.test.mjs", "test:browser": "python test/browser.py"},
-  "engines": {"node": ">=22.13"}
+  "name": "playrcmd-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "test:browser": "python test/browser.py",
+    "test:roles:browser": "python test/three-role-browser.py"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
 }

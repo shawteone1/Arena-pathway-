@@ -4,8 +4,13 @@
   "port": 4310,
   "healthPath": "/health",
   "entryPath": "/",
-  "demoPath": "/demo?scenario=family",
+  "demoPath": "/roles",
   "dataMode": "fictional-demo",
   "publication": "not-authorized",
-  "domain": null
+  "domain": null,
+  "rolePaths": {
+    "family": "/demo?scenario=family",
+    "athlete": "/demo?scenario=college",
+    "coach": "/demo?scenario=coach"
+  }
 }

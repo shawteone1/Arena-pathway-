@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://soccercenter.org",
+    "status": 200,
+    "finalURL": "https://soccercenter.org"
+  },
+  {
+    "url": "https://arenapathway.com",
+    "status": 200,
+    "finalURL": "https://arenapathway.com"
+  },
+  {
+    "url": "https://la02uk.com",
+    "status": 200,
+    "finalURL": "https://la02uk.com"
+  },
+  {
+    "url": "https://www.playmetrics.com/",
+    "status": 200,
+    "finalURL": "https://app.playmetrics.com/"
+  },
+  {
+    "url": "https://www.teamsnap.com/",
+    "status": 200,
+    "finalURL": "https://www.teamsnap.com/"
+  },
+  {
+    "url": "https://www.usalacrosse.com/",
+    "status": 200,
+    "finalURL": "https://www.usalacrosse.com/"
+  },
+  {
+    "url": "https://nfhslearn.com/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://chsaanow.com/",
+    "status": 200,
+    "finalURL": "https://chsaanow.com/"
+  }
+]

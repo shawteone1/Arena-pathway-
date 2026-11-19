@@ -1,0 +1,15 @@
+✔ standalone routes, fictional catalog, asset closure and integration boundaries (133.660564ms)
+✔ accepted family retained; athlete and coach use the original permission-scoped SIEM (95.350749ms)
+✔ manual recurrence and ICS reuse existing bounded logic, stable identity and atomic failure (142.853182ms)
+✔ fictional notifications explicitly match existing events, update once and derive shared priorities (235.068969ms)
+✔ storage tampering cannot introduce another organization or principal; session plans are team scoped (21.469854ms)
+✔ network projects sourced public references without inventing openings or missing dates (9.42942ms)
+✔ host composition is PlayRcmd-only and fails closed if the reusable controller boundary changes (11.325276ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1092.798931
