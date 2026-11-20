@@ -95,7 +95,7 @@ test('existing family builder is opt-in and projected without migrating or rewri
 
 test('a second sport/team reuses the existing athlete identity without widening external organization scope',async()=>{
  const {addSetupTeam}=await import('../../public/playrcmd-onboarding.js');const s=memory(),before=loadRole('family',s);const t=addSetupTeam(s,'family',{participantId:'alex',name:'Fictional second sport',sport:'swimming'});
- const d=loadConfiguredRole('family',s);assert.equal(d.participants.length,before.participants.length);assert.ok(d.participants.find(p=>p.id==='alex').sports.includes('swimming'));assert.equal(d.teams.find(x=>x.id===t.id).organizationId,'setup-family');addConfiguredCommitment(s,'family',manual(t.id,'alex'));assert.equal(readWorkspace(s,'family').entries.length,3);
+ const d=loadConfiguredRole('family',s);assert.equal(d.participants.length,before.participants.length);assert.ok(d.participants.find(p=>p.id==='alex').sports.includes('swimming'));const pull=preview(s,'family',{selected:['sport']});approveTransfer(s,'family',pull.id,approved);assert.ok(loadConfiguredRole('family',s).participants.find(p=>p.id==='alex').sports.includes('swimming'));assert.equal(d.teams.find(x=>x.id===t.id).organizationId,'setup-family');addConfiguredCommitment(s,'family',manual(t.id,'alex'));assert.equal(readWorkspace(s,'family').entries.length,3);
  assert.throws(()=>addSetupTeam(s,'family',{participantId:'foreign',name:'Foreign',sport:'soccer'}),/owned/);assert.throws(()=>addSetupTeam(s,'family',{participantId:'alex',name:'Fictional second sport',sport:'swimming'}),/already exists/);
 });
 

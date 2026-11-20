@@ -2,31 +2,31 @@
 > playrcmd-demo@1.0.0 test
 > node --test test/*.test.mjs
 
-✔ standalone routes, fictional catalog, asset closure and integration boundaries (166.091885ms)
-✔ enterprise landing assets work under the existing restrictive CSP (120.692602ms)
-✔ unconfigured and skipped role projections preserve all original fixtures and saved records (181.679385ms)
-✔ setup progress persists, sanitizes foreign scope, is independently editable and resets only its role (0.664707ms)
-✔ manual teams extend only the local fictional organization; original validators schedule recurrence and de-duplicate (318.556569ms)
-✔ ICS snapshots reuse bounded parser, stable UIDs and atomic rejection (135.738509ms)
-✔ provider mappings drop private information and never import role, guardian or recruiting privileges (1.08605ms)
-✔ pull previews are selective, require explicit parent approval and preserve unselected fields (118.571404ms)
-✔ snapshot UIDs cannot duplicate entries; conflict defaults preserve the existing name until explicitly selected (147.446409ms)
-✔ create, link and update use explicit identity; duplicate creation and unlinked updates fail closed (176.855725ms)
-✔ stale preview and rollback detect changes even when a legacy writer does not increment revision (100.577798ms)
-✔ rollback restores the prior local projection without recalling any external data (24.732237ms)
-✔ minor self transfers, cross-role approvals and foreign organization/team requests are blocked (44.407503ms)
-✔ notification choices filter fictional messages while keeping role permissions and scopes (9.080327ms)
-✔ standalone HTTP serves the new adapter/UI but keeps the approved landing and restrictive CSP (54.048505ms)
-✔ manual association edits preserve stable IDs; removal only removes its own local commitments (21.504747ms)
-✔ existing family builder is opt-in and projected without migrating or rewriting its records (13.851011ms)
-✔ a second sport/team reuses the existing athlete identity without widening external organization scope (30.473772ms)
-✔ one coach cannot accidentally create a second provider profile by changing selected teams (37.60954ms)
-✔ accepted family retained; athlete and coach use the original permission-scoped SIEM (65.765671ms)
-✔ manual recurrence and ICS reuse existing bounded logic, stable identity and atomic failure (76.693302ms)
-✔ fictional notifications explicitly match existing events, update once and derive shared priorities (443.275187ms)
-✔ storage tampering cannot introduce another organization or principal; session plans are team scoped (36.99504ms)
-✔ network projects sourced public references without inventing openings or missing dates (12.461358ms)
-✔ host composition is PlayRcmd-only and fails closed if the reusable controller boundary changes (15.526816ms)
+✔ standalone routes, fictional catalog, asset closure and integration boundaries (166.447573ms)
+✔ enterprise landing assets work under the existing restrictive CSP (97.717391ms)
+✔ unconfigured and skipped role projections preserve all original fixtures and saved records (191.627686ms)
+✔ setup progress persists, sanitizes foreign scope, is independently editable and resets only its role (0.932255ms)
+✔ manual teams extend only the local fictional organization; original validators schedule recurrence and de-duplicate (222.898955ms)
+✔ ICS snapshots reuse bounded parser, stable UIDs and atomic rejection (81.026438ms)
+✔ provider mappings drop private information and never import role, guardian or recruiting privileges (0.998733ms)
+✔ pull previews are selective, require explicit parent approval and preserve unselected fields (76.776643ms)
+✔ snapshot UIDs cannot duplicate entries; conflict defaults preserve the existing name until explicitly selected (91.548964ms)
+✔ create, link and update use explicit identity; duplicate creation and unlinked updates fail closed (103.174739ms)
+✔ stale preview and rollback detect changes even when a legacy writer does not increment revision (86.324806ms)
+✔ rollback restores the prior local projection without recalling any external data (57.591527ms)
+✔ minor self transfers, cross-role approvals and foreign organization/team requests are blocked (85.289905ms)
+✔ notification choices filter fictional messages while keeping role permissions and scopes (18.852803ms)
+✔ standalone HTTP serves the new adapter/UI but keeps the approved landing and restrictive CSP (79.561998ms)
+✔ manual association edits preserve stable IDs; removal only removes its own local commitments (21.687512ms)
+✔ existing family builder is opt-in and projected without migrating or rewriting its records (14.263017ms)
+✔ a second sport/team reuses the existing athlete identity without widening external organization scope (67.036244ms)
+✔ one coach cannot accidentally create a second provider profile by changing selected teams (23.09946ms)
+✔ accepted family retained; athlete and coach use the original permission-scoped SIEM (77.824876ms)
+✔ manual recurrence and ICS reuse existing bounded logic, stable identity and atomic failure (103.016409ms)
+✔ fictional notifications explicitly match existing events, update once and derive shared priorities (362.165691ms)
+✔ storage tampering cannot introduce another organization or principal; session plans are team scoped (31.66651ms)
+✔ network projects sourced public references without inventing openings or missing dates (13.419235ms)
+✔ host composition is PlayRcmd-only and fails closed if the reusable controller boundary changes (13.127484ms)
 ℹ tests 25
 ℹ suites 0
 ℹ pass 25
@@ -34,4 +34,4 @@
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 2200.466084
+ℹ duration_ms 1975.498271

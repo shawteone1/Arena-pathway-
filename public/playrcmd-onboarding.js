@@ -63,7 +63,7 @@ export function loadConfiguredRole(kind,storage){
  for(const [id,p] of Object.entries(setup.profiles)){
   if(!p||typeof p!=='object'||!d.ctx.participantIds.includes(id))continue;
   const person=d.participants.find(x=>x.id===id);if(kind!=='coach'&&person&&text(p.displayName))person.name=text(p.displayName,60);
-  if(kind!=='coach'&&person&&sports.includes(p.sport)){person.sports=[p.sport];person.label=p.sport;}
+  if(kind!=='coach'&&person&&sports.includes(p.sport)){person.sports=[...new Set([...(person.sports||[]),p.sport])];person.label=person.sports.join(' & ');}
   if(text(p.teamName)){const team=d.teams.find(t=>t.id===p.teamId&&authorizedTeam(d,t.id));if(team&&(team.participantId||(kind==='coach'?team.id:d.participants[0].id))===id)team.name=text(p.teamName);}
  }
  for(const raw of state(storage,kind).entries){
