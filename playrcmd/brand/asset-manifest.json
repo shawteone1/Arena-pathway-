@@ -1,0 +1,101 @@
+{
+  "approved_source_name": "682F7A0C-FD73-4B7B-8519-BF5BC67AC602.jpeg",
+  "received_attachment_name": "1-Photo-1.jpg",
+  "master_sha256": "5ae1a3292deb5b6a9a81a07a472360a91f2194649bd31c602b089c8f5c5195d3",
+  "master_dimensions": [
+    1280,
+    853
+  ],
+  "full_crop": [
+    294,
+    34,
+    984,
+    819
+  ],
+  "emblem_crop": [
+    350,
+    32,
+    926,
+    608
+  ],
+  "method": "Edge-connected near-white background removal only; entire ball interior protected; enclosed white counters retained. No redraw, recoloring or generative edit.",
+  "active_variant": "soccer",
+  "assets": {
+    "emblem-128.png": {
+      "bytes": 23537,
+      "sha256": "cf8e4258f57025aa216c868e87a6fdad849965f922891ff9a3af36c7046237fa"
+    },
+    "emblem-128.webp": {
+      "bytes": 16226,
+      "sha256": "59cf7602034f455e071eb74072c5aa7f3f1b63b056fbc730e5b4a726e2e513ce"
+    },
+    "emblem-256.png": {
+      "bytes": 70731,
+      "sha256": "eb1774bb5c27c50a7ebc441879343c2864fe394398d146f79a48c08272ffc0fd"
+    },
+    "emblem-256.webp": {
+      "bytes": 48240,
+      "sha256": "fbca90980196d1104165ecc244546160e2a5b29bcb32d8be95308049da128664"
+    },
+    "emblem-576.png": {
+      "bytes": 262409,
+      "sha256": "4ee2a817f693bc7fe0ad8766d1916d9af1c0906d2b401ffcfdf8327b9f56a024"
+    },
+    "emblem-576.webp": {
+      "bytes": 167728,
+      "sha256": "25e9ee4d065f4483be1d8911bde074e96114b123c3c4977eabd698e15759e41e"
+    },
+    "emblem-64.png": {
+      "bytes": 7607,
+      "sha256": "d1f9376e7f913f9e53745c23bfda25a2157576a42e9c298702d27e8da61788c3"
+    },
+    "emblem-64.webp": {
+      "bytes": 5766,
+      "sha256": "8c11e38875fd97bd0d0c4eaaa6e8706ce6678e605ba2015c4b98ed2b13c0534c"
+    },
+    "favicon.ico": {
+      "bytes": 16732,
+      "sha256": "d8b053b67a19a77bd27f002bb28aa3e3d93e0c75989bdf78d0f3dc48ffad140b"
+    },
+    "full-192.webp": {
+      "bytes": 36174,
+      "sha256": "85025777d2c16f526e5a6922a92cb2c1e4ee48b0b697868005120efe5781ad2d"
+    },
+    "full-384.webp": {
+      "bytes": 102430,
+      "sha256": "8f14b62853ad5aab12051b51bfcd5df181e903cc550b3ed203991a88157fb248"
+    },
+    "full-original-background.webp": {
+      "bytes": 253408,
+      "sha256": "19adee18ba9e71881f6d065faf783fb8e53e4f111ea7d4fe71ace0ac6240e17b"
+    },
+    "full-transparent.png": {
+      "bytes": 403746,
+      "sha256": "f4d5f4815fa2508a20a21691ce63ea6b39eddc3ac792f9cebf6d7fa4dc466a31"
+    },
+    "full-transparent.webp": {
+      "bytes": 263284,
+      "sha256": "017246e1124522922a9656117390a93a76f4d8b65ebfee9e7bbea6fef0fc0bc3"
+    },
+    "icon-16.png": {
+      "bytes": 979,
+      "sha256": "ed935c73f1ebd7528397a7d75b3fec3317763b8a551c1995941ba433406bfeb6"
+    },
+    "icon-180.png": {
+      "bytes": 40743,
+      "sha256": "6aba9e33f123c2ec72c95458919e0bdf69c6404d9a581344afe2d22118da3018"
+    },
+    "icon-32.png": {
+      "bytes": 2685,
+      "sha256": "dd287cf7c5e54def363a898f53b8873ebe0b7869270835c16938b9b50f96b0ac"
+    },
+    "icon-48.png": {
+      "bytes": 4970,
+      "sha256": "0e7bbafb723b60fe12138348065716377ee48740508483e6ee5e29474ac28500"
+    },
+    "icon-64.png": {
+      "bytes": 7607,
+      "sha256": "d1f9376e7f913f9e53745c23bfda25a2157576a42e9c298702d27e8da61788c3"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+// Approved artwork only. Future sports may add an explicit variant; none is created here.
+export const activeBrand=Object.freeze({sport:'soccer',base:'/playrcmd/brand/soccer/',width:690,height:785});
+export const brandAssetNames=Object.freeze(['full-192.webp','full-384.webp','emblem-64.webp','emblem-128.webp','icon-16.png','icon-32.png','icon-48.png','icon-64.png','icon-180.png','favicon.ico']);
+export const brandImage=`<img class="pr-approved-full" src="${activeBrand.base}full-192.webp" srcset="${activeBrand.base}full-192.webp 192w, ${activeBrand.base}full-384.webp 384w" sizes="96px" width="${activeBrand.width}" height="${activeBrand.height}" alt="PlayRcmd — approved PR/CMD soccer-ball logo" decoding="async">`;
+export const brandEmblem=`<img class="pr-approved-emblem" src="${activeBrand.base}emblem-64.webp" srcset="${activeBrand.base}emblem-64.webp 64w, ${activeBrand.base}emblem-128.webp 128w" sizes="32px" width="576" height="576" alt="" aria-hidden="true" decoding="async">`;
+export const faviconLinks=`<link rel="icon" href="${activeBrand.base}icon-32.png" type="image/png" sizes="32x32"><link rel="alternate icon" href="${activeBrand.base}favicon.ico"><link rel="apple-touch-icon" href="${activeBrand.base}icon-180.png" sizes="180x180">`;
