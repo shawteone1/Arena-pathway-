@@ -21,7 +21,7 @@ with sync_playwright() as p:
    page.goto(BASE)
    page.get_by_role('link',name='Explore Interactive Demo',exact=True).click()
    page.get_by_role('link',name='Explore Parent & Family',exact=True).click()
-   page.wait_for_selector('#platform-content[data-startup-state=ready]')
+   page.wait_for_selector('#platform-content[data-startup-state=ready]');page.locator('#pr-setup-dialog').get_by_role('button',name='Skip setup',exact=True).click() if page.locator('#pr-setup-dialog').is_visible() else None
    assert page.url.startswith(BASE+'/demo?scenario=family')
    expect(page.locator('.pr-demo-context')).to_contain_text('Fictional data only')
    expect(page.locator('.ap-demo-banner')).to_contain_text('No live providers')
@@ -30,7 +30,7 @@ with sync_playwright() as p:
     expect(page.locator('a[href="'+href+'"]').first).to_be_attached()
    for path,name in [('/','landing'),('/integrations','integrations'),('/demo?scenario=family','overview'),('/demo?scenario=family&section=family','family'),('/demo?scenario=family&section=calendar','calendar'),('/demo?scenario=family&section=messages','messages'),('/setup','setup')]:
     page.goto(BASE+path)
-    if name in ['overview','family','calendar','messages']:page.wait_for_selector('#platform-content[data-startup-state=ready]')
+    if name in ['overview','family','calendar','messages']:page.wait_for_selector('#platform-content[data-startup-state=ready]');page.locator('#pr-setup-dialog').get_by_role('button',name='Skip setup',exact=True).click() if page.locator('#pr-setup-dialog').is_visible() else None
     if name=='setup':page.wait_for_selector('#siem-connections .siem-panel',state='attached')
     assert not page.evaluate('document.documentElement.scrollWidth>innerWidth+1'),(engine,label,name,'overflow')
     page.screenshot(path=str(OUT/f'{engine}-{label}-{name}.png'),full_page=True)
@@ -57,7 +57,7 @@ with sync_playwright() as p:
    # Seed an unrelated AP key outside adapter scope; wrapper must never display or erase it.
    page.goto(BASE)
    page.evaluate("localStorage.setItem('arenaPathway.v2', JSON.stringify({version:2,profiles:[{id:'real-record',nickname:'PRODUCTION_SENTINEL',sport:'soccer'}]}))")
-   page.goto(BASE+'/demo?scenario=family&section=family');page.wait_for_selector('#platform-content[data-startup-state=ready]')
+   page.goto(BASE+'/demo?scenario=family&section=family');page.wait_for_selector('#platform-content[data-startup-state=ready]');page.locator('#pr-setup-dialog').get_by_role('button',name='Skip setup',exact=True).click() if page.locator('#pr-setup-dialog').is_visible() else None
    assert 'PRODUCTION_SENTINEL' not in page.locator('body').inner_text()
    page.goto(BASE+'/setup');page.wait_for_selector('#siem-connections .siem-panel',state='attached')
    expect(page.locator('.siem-notice')).to_contain_text('Fictional nicknames and sample files only')
@@ -69,13 +69,13 @@ with sync_playwright() as p:
    ics='BEGIN:VCALENDAR\r\nVERSION:2.0\r\nBEGIN:VEVENT\r\nUID:playrcmd-test\r\nDTSTART:20300506T170000Z\r\nDTEND:20300506T180000Z\r\nSUMMARY:Fictional imported practice\r\nEND:VEVENT\r\nEND:VCALENDAR'
    page.locator('#siem-import [name=file]').set_input_files({'name':'fictional.ics','mimeType':'text/calendar','buffer':ics.encode()})
    page.locator('#siem-import button').click();expect(page.locator('#siem-calendar')).to_contain_text('Fictional imported practice')
-   page.goto(BASE+'/demo?scenario=local&section=calendar');page.wait_for_selector('#platform-content[data-startup-state=ready]')
+   page.goto(BASE+'/demo?scenario=local&section=calendar');page.wait_for_selector('#platform-content[data-startup-state=ready]');page.locator('#pr-setup-dialog').get_by_role('button',name='Skip setup',exact=True).click() if page.locator('#pr-setup-dialog').is_visible() else None
    expect(page.locator('#platform-content')).to_contain_text('Demo athlete')
    page.get_by_label('Calendar date',exact=True).fill('2030-05-06')
    page.get_by_label('Calendar date',exact=True).dispatch_event('change')
    page.get_by_role('button',name='Day',exact=True).click()
    expect(page.locator('#platform-calendar')).to_contain_text('Fictional imported practice')
-   page.get_by_role('button',name='Reset this role',exact=True).click();page.wait_for_selector('#platform-content[data-startup-state=ready]')
+   page.get_by_role('button',name='Reset this role',exact=True).click();page.wait_for_selector('#platform-content[data-startup-state=ready]');page.locator('#pr-setup-dialog').get_by_role('button',name='Skip setup',exact=True).click() if page.locator('#pr-setup-dialog').is_visible() else None
    page.goto(BASE)
    assert page.evaluate("localStorage.getItem('arenaPathway.v2').includes('PRODUCTION_SENTINEL')")
    assert page.evaluate("Object.keys(localStorage).filter(k=>k.startsWith('playrcmd.demo.v2.family.')).length")==0

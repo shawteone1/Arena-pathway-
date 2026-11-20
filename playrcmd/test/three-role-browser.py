@@ -22,17 +22,17 @@ with sync_playwright() as p:
     assert not page.evaluate('document.documentElement.scrollWidth>innerWidth+1'),(engine,label,name,'overflow')
     page.screenshot(path=str(OUT/'screenshots'/f'{engine}-{label}-{name}.png'),full_page=True)
    def open_role(role):
-    page.goto(BASE+'/demo?scenario='+role);page.wait_for_selector('#platform-content[data-startup-state=ready]')
+    page.goto(BASE+'/demo?scenario='+role);page.wait_for_selector('#platform-content[data-startup-state=ready]');page.locator('#pr-setup-dialog').get_by_role('button',name='Skip setup',exact=True).click() if page.locator('#pr-setup-dialog').is_visible() else None
    def tool(name):page.locator('[data-tool="'+name+'"]').click();expect(page.locator('#pr-tool-dialog')).to_be_visible()
    def close():page.locator('#pr-tool-dialog').get_by_role('button',name='Close',exact=True).click()
    page.goto(BASE);expect(page.get_by_role('link',name='Explore Interactive Demo',exact=True)).to_have_attribute('href','/roles')
    page.get_by_role('link',name='Explore Interactive Demo',exact=True).click();expect(page.locator('.pr-role-card')).to_have_count(3)
    if label in ['desktop','phone']:capture('role-selector')
    for role,link in [('family','Explore Parent & Family'),('college','Explore Athlete'),('coach','Explore Coach')]:
-    page.goto(BASE+'/roles');page.get_by_role('link',name=link,exact=True).click();page.wait_for_selector('#platform-content[data-startup-state=ready]')
+    page.goto(BASE+'/roles');page.get_by_role('link',name=link,exact=True).click();page.wait_for_selector('#platform-content[data-startup-state=ready]');page.locator('#pr-setup-dialog').get_by_role('button',name='Skip setup',exact=True).click() if page.locator('#pr-setup-dialog').is_visible() else None
     expect(page.locator('.pr-demo-context')).to_contain_text('Fictional data only');expect(page.locator('.ap-demo-banner')).to_contain_text('No live providers');capture(role+'-overview')
     # A real role navigation round-trip; no inherited filters or hidden controller state.
-    next_role='coach' if role!='coach' else 'college';page.locator('[aria-label="Demo roles"] a[href="/demo?scenario='+next_role+'"]').click();page.wait_for_url(lambda url:parse_qs(urlparse(url).query).get('scenario')==[next_role]);page.wait_for_selector('#platform-content[data-startup-state=ready]');assert parse_qs(urlparse(page.url).query)['scenario']==[next_role]
+    next_role='coach' if role!='coach' else 'college';page.locator('[aria-label="Demo roles"] a[href="/demo?scenario='+next_role+'"]').click();page.wait_for_url(lambda url:parse_qs(urlparse(url).query).get('scenario')==[next_role]);page.wait_for_selector('#platform-content[data-startup-state=ready]');page.locator('#pr-setup-dialog').get_by_role('button',name='Skip setup',exact=True).click() if page.locator('#pr-setup-dialog').is_visible() else None;assert parse_qs(urlparse(page.url).query)['scenario']==[next_role]
     open_role(role)
     page.locator('[data-section-link=calendar]').click();page.wait_for_selector('[data-calendar-athlete]')
     for view in ['Day','Week','Month']:
@@ -77,14 +77,14 @@ with sync_playwright() as p:
     if role=='coach':
      tool('coach');plan=page.locator('#pr-plan-form');plan.locator('[name=teamId]').select_option('college-team');plan.locator('[name=title]').fill('QA college team plan');plan.locator('[name=notes]').fill('Fictional warmup and decision exercise. No sensitive information.');plan.get_by_role('button',name='Save local session plan',exact=True).click();expect(page.locator('.pr-saved-plan')).to_contain_text('QA college team plan')
      if label=='desktop':capture('coach-session-plan')
-     close();page.reload();page.wait_for_selector('#platform-content[data-startup-state=ready]');tool('coach');expect(page.locator('.pr-saved-plan')).to_contain_text('QA college team plan');page.get_by_role('button',name='Delete local plan',exact=True).click();expect(page.locator('.pr-saved-plan')).to_have_count(0);close()
+     close();page.reload();page.wait_for_selector('#platform-content[data-startup-state=ready]');page.locator('#pr-setup-dialog').get_by_role('button',name='Skip setup',exact=True).click() if page.locator('#pr-setup-dialog').is_visible() else None;tool('coach');expect(page.locator('.pr-saved-plan')).to_contain_text('QA college team plan');page.get_by_role('button',name='Delete local plan',exact=True).click();expect(page.locator('.pr-saved-plan')).to_have_count(0);close()
     # Another role never sees this role's new commitments or private drafts.
     open_role(next_role);assert 'QA '+role not in page.locator('body').inner_text();tool('notifications');assert 'QA '+role+' private local draft' not in page.locator('#pr-tool-dialog').inner_text();close()
     # Real principal isolation still enforced if a corrupt role record is inserted.
-    open_role(role);page.evaluate("role=>{const k='playrcmd.role.'+role,s=JSON.parse(localStorage.getItem(k));s.entries.push({...s.entries[0],tenantId:'forbidden',title:'PRIVATE_ORG_SENTINEL'});localStorage.setItem(k,JSON.stringify(s))}",role);page.reload();page.wait_for_selector('#platform-content[data-startup-state=ready]');assert 'PRIVATE_ORG_SENTINEL' not in page.locator('body').inner_text()
+    open_role(role);page.evaluate("role=>{const k='playrcmd.role.'+role,s=JSON.parse(localStorage.getItem(k));s.entries.push({...s.entries[0],tenantId:'forbidden',title:'PRIVATE_ORG_SENTINEL'});localStorage.setItem(k,JSON.stringify(s))}",role);page.reload();page.wait_for_selector('#platform-content[data-startup-state=ready]');page.locator('#pr-setup-dialog').get_by_role('button',name='Skip setup',exact=True).click() if page.locator('#pr-setup-dialog').is_visible() else None;assert 'PRIVATE_ORG_SENTINEL' not in page.locator('body').inner_text()
     # Reset affects just this role; the previous v1 and AP namespaces are untouched.
     page.goto(BASE);page.evaluate("()=>{localStorage.setItem('arenaPathway.v2','AP_SENTINEL');localStorage.setItem('playrcmd.demo.v1.sentinel','OLD_DEMO_SENTINEL');localStorage.setItem('playrcmd.demo.v2.other.sentinel','OTHER_ROLE_SENTINEL')}");open_role(role)
-    page.get_by_role('button',name='Reset this role',exact=True).click();page.wait_for_selector('#platform-content[data-startup-state=ready]');assert parse_qs(urlparse(page.url).query)['scenario']==[role];assert 'QA '+role not in page.locator('body').inner_text();tool('notifications');assert 'QA '+role+' private local draft' not in page.locator('#pr-tool-dialog').inner_text();close()
+    page.get_by_role('button',name='Reset this role',exact=True).click();page.wait_for_selector('#platform-content[data-startup-state=ready]');page.locator('#pr-setup-dialog').get_by_role('button',name='Skip setup',exact=True).click() if page.locator('#pr-setup-dialog').is_visible() else None;assert parse_qs(urlparse(page.url).query)['scenario']==[role];assert 'QA '+role not in page.locator('body').inner_text();tool('notifications');assert 'QA '+role+' private local draft' not in page.locator('#pr-tool-dialog').inner_text();close()
     page.goto(BASE);assert page.evaluate("localStorage.getItem('arenaPathway.v2')")=='AP_SENTINEL';assert page.evaluate("localStorage.getItem('playrcmd.demo.v1.sentinel')")=='OLD_DEMO_SENTINEL';assert page.evaluate("localStorage.getItem('playrcmd.demo.v2.other.sentinel')")=='OTHER_ROLE_SENTINEL'
     for href in ['https://soccercenter.org','https://arenapathway.com','https://la02uk.com']:expect(page.locator('a[href="'+href+'"]').first).to_be_attached()
     assert not errors,(engine,label,role,errors);assert not bad,(engine,label,role,bad);assert not external,(engine,label,role,external)

@@ -38,7 +38,7 @@ const setup=document.body.dataset.page==='siem';
 try{
  if(setup)await import('/assets/siem.js');
  else{
-  const {loadRole}=await import('/assets/playrcmd-roles.js');
+  const {loadConfiguredRole:loadRole}=await import('/assets/playrcmd-onboarding.js');
   globalThis.siemDemoHost={loadScenario:kind=>['family','college','coach'].includes(kind)?loadRole(kind,localStorage):null};
   // Each role starts a separate document and storage scope; no cross-role controller state.
   document.getElementById('platform-scenario').addEventListener('change',event=>{event.stopImmediatePropagation();location.assign('/demo?scenario='+event.target.value);},{capture:true});
@@ -50,9 +50,8 @@ try{
   await import('/assets/siem-platform.js');
   const resetButton=document.getElementById('platform-reset'),replacement=resetButton.cloneNode(true);
   replacement.onclick=reset;resetButton.replaceWith(replacement);
-  if(role!=='family'){document.querySelector('.ap-tour-discover')?.remove();document.querySelector('.ap-tour-start')?.remove();}
   if(scenario==='local')document.querySelector('.pr-tools-bar').hidden=true;
-  else{const {installRoleTools}=await import('/playrcmd/role-tools.js');installRoleTools(role,localStorage);}
+  else{const {installRoleTools}=await import('/playrcmd/role-tools.js');installRoleTools(role,localStorage);const {installOnboarding}=await import('/playrcmd/onboarding.js');installOnboarding(role,localStorage);}
   document.getElementById('platform-content').dataset.startupState='ready';
  }
  adaptLinks();
