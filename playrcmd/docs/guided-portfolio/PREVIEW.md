@@ -48,3 +48,18 @@ PLAYRCMD_JSDOM_MODULE=/tmp/playrcmd-dom/node_modules/jsdom/lib/api.js node playr
 That check uses a DOM implementation and dialog stubs; it is NOT a browser screenshot, layout, native dialog or accessibility acceptance test. No production dependency is added.
 
 Browser runner output defaults to /tmp/playrcmd-guided-browser; set PLAYRCMD_QA_ARTIFACTS to retain real screenshots/results. Test desktop, iPad portrait/landscape and phone, keyboard/touch, overflow and console errors. Current environment browser initialization is blocked; no visual acceptance or screenshots are claimed.
+
+### Historical-reference requirement for the broader suite
+
+The focused PlayRcmd suite does not require old Git snapshots. The broader AP preservation suite does: on a fresh shallow/single-branch checkout, restore the reference objects before interpreting missing-object failures as regressions. This changes Git metadata only, not any source branch:
+
+```sh
+python3 - <<'PY'
+import subprocess
+if subprocess.check_output(['git','rev-parse','--is-shallow-repository'],text=True).strip()=='true':
+    subprocess.run(['git','fetch','--unshallow','--filter=blob:none','origin'],check=True)
+for sha in ['f0429c3f009720cd536c7933074d0e3093f2753d','5d554b947f5ad700fe2770b84b6a9511d8cedb7d','5470bcacbfae6e0c79877cdd94e98a1d29d4558d','9157faa660b28ceb69100595ebd2ed6b4da52ad8','95275ccf7eb7131d8d86c27a318ba6409bbd422b']:
+    subprocess.run(['git','fetch','--filter=blob:none','origin',sha],check=True)
+PY
+npm test
+```
