@@ -11,3 +11,12 @@
 .message-bubble small{display:block;color:#e1ebd8;font-size:11px;font-weight:500;margin-top:3px}
 .message-bubble:hover,.message-bubble:focus-visible{background:#246043;color:#fff;outline:3px solid #c1ff5d;outline-offset:3px}
 @media(max-width:650px){.message-bubble{right:12px;bottom:12px;padding:10px 12px;max-width:calc(100vw - 24px)}.message-bubble>span:first-child{width:33px;height:33px;font-size:18px}}
+
+/* Homepage positioning: communications is an equal pillar, not a footnote. */
+.hero-unified-highlight{display:flex;align-items:center;gap:13px;flex-wrap:wrap;margin:22px 0;padding:17px 19px;background:rgba(13,43,37,.88);border:2px solid #c1ff5d;border-radius:16px;color:#fff;box-shadow:0 10px 25px #071b1659}
+.hero-unified-highlight>span{font-size:26px;line-height:1}
+.hero-unified-highlight>div{flex:1;min-width:180px}
+.hero-unified-highlight strong{display:block;font-size:clamp(17px,1.4vw,21px);line-height:1.25;color:#d4ffa2}
+.hero-unified-highlight small{display:block;font-size:12px;line-height:1.5;color:#f0f5ea;margin-top:6px}
+.hero-unified-highlight a{display:inline-flex;align-items:center;min-height:44px;color:#d4ffa2;font-weight:800;font-size:13px;text-underline-offset:4px}
+@media(max-width:650px){.hero-unified-highlight{padding:13px 14px;gap:9px}.hero-unified-highlight a{width:100%}}
